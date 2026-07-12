@@ -1,0 +1,23 @@
+# num_workers = 12
+# num_gpus = 0
+# env_level_parallelism = 12
+# num_cells = 256
+# seed_for_environment = 7134066
+# lr = 0.0003
+# max_grad_norm = 1.0
+# eval_rollout_length = 1
+# scaling_factor = 1
+# frames_per_batch = 1
+# sub_batch_size = 64
+# num_epochs = 10
+# clip_epsilon = 0.2
+# gamma = 0.99
+# lmbda = 0.95
+# entropy_eps = 0.0001
+# reward_engineering = False
+# minimum_number_of_qubits = 1
+# log_name = None
+# Number of workers: 12
+# Does torch identify cuda: False
+# Number of collectors: 1
+# Collector device list: [device(type='cpu')]
