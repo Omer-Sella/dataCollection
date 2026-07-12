@@ -1,0 +1,28 @@
+# num_workers = 4
+# num_gpus = 1
+# env_level_parallelism = 4
+# num_cells = 256
+# seed_for_environment = 7134066
+# lr = 0.0003
+# max_grad_norm = 1.0
+# eval_rollout_length = 1
+# scaling_factor = 1
+# frames_per_batch = 10
+# sub_batch_size = 5
+# num_epochs = 10
+# clip_epsilon = 0.2
+# gamma = 0.99
+# lmbda = 0.95
+# entropy_eps = 0.0001
+# reward_engineering = False
+# minimum_number_of_qubits = 6
+# log_name = None
+# Number of workers: 4
+# Does torch identify cuda: True
+# Number of collectors: 1
+# Collector device list: ['cuda:0']
+evaluation number	reward	policy entropy	environment index
+0	-0.9975212216377258	75.41995239257812	0
+0	-0.9975212216377258	75.41995239257812	1
+0	-0.9975212216377258	75.41995239257812	2
+0	-0.9975212216377258	75.41995239257812	3
