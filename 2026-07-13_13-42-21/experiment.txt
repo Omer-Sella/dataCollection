@@ -1,0 +1,31 @@
+# num_workers = 96
+# num_cells = 256
+# seed_for_environment = 4601982
+# lr = 0.0003
+# max_grad_norm = 1.0
+# eval_rollout_length = 30
+# scaling_factor = 10000
+# frames_per_batch = 1000
+# sub_batch_size = 64
+# num_epochs = 12
+# clip_epsilon = 0.2
+# gamma = 0.99
+# lmbda = 0.95
+# entropy_eps = 0.001
+# env_reward_engineering = True
+# env_minimum_number_of_qubits = 6
+# log_name = None
+# env_version = qecc/bbcode-ldpc-v0
+# env_bit_flipping = True
+# env_l = 6
+# env_m = 6
+# env_use_dict_observation = True
+# env_number_of_decoder_iterations = 10
+# env_number_of_samples = 50
+# model_architecture = hybrid
+# model_surrogate_model_path = /vol/bitbucket/osella/rl-qecc-data//2026-07-12_20-18-32/surrogate_6x6.pth
+# index_to_unfreeze_encoder_updates = 10
+# encoder_lr_factor = 0.1
+# Just for information, not used in actual run: SLURM CPUS queried from os environment: 96
+# Number of workers: 96
+# Does torch identify cuda: False
