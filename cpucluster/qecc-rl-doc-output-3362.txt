@@ -9,3 +9,59 @@ Experiment logs and policy weights are located in:
 /vol/bitbucket/osella/rl-qecc-data//2026-07-13_19-41-04
  00:59:56 up 369 days, 11:13,  0 user,  load average: 49.07, 25.22, 17.11
 Already up-to-date.
+[master 14aa2a1] cpucluster job ended 3362
+ 59 files changed, 951 insertions(+), 2 deletions(-)
+ create mode 100644 2026-07-13_19-41-04/policy_weights.pth
+ create mode 100644 2026-07-13_19-41-04/value_weights.pth
+ create mode 100644 2026-07-14_00-57-14/experiment.txt
+ create mode 100644 cpucluster/qecc-rl-doc-errors-3365.txt
+ create mode 100644 cpucluster/qecc-rl-doc-output-3365.txt
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728244.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728433.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728438.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728439.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728442.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728444.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728445.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728446.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728447.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728448.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728449.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728450.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728451.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728452.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728453.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728454.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728455.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728456.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728457.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728458.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728459.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728460.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728461.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728462.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728463.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728464.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728465.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728466.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728467.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728468.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728469.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728470.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728471.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728472.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728473.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728474.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728475.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728476.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728477.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728478.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728479.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728480.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728481.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728482.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728483.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728484.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728485.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728486.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_1728487.jsonl
