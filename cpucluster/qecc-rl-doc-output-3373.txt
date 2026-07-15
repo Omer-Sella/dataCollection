@@ -9,3 +9,31 @@ Experiment logs and policy weights are located in:
 /vol/bitbucket/osella/rl-qecc-data//2026-07-15_13-49-55
  22:41:28 up 49 days, 17:00,  0 user,  load average: 38.63, 28.19, 22.69
 Already up-to-date.
+[master 7d4abbd] cpucluster job ended 3373
+ 39 files changed, 74035 insertions(+), 3 deletions(-)
+ create mode 100644 2026-07-14_21-58-14/policy_weights.pth
+ create mode 100644 2026-07-14_21-58-14/value_weights.pth
+ create mode 100644 2026-07-15_13-49-55/policy_weights.pth
+ create mode 100644 2026-07-15_13-49-55/value_weights.pth
+ create mode 100644 2026-07-15_20-20-03_3795808/experiment.txt
+ create mode 100644 cpucluster/qecc-rl-doc-errors-261165.txt
+ create mode 100644 cpucluster/qecc-rl-doc-output-261165.txt
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795808.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795877.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795878.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795879.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795880.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795881.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795882.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795883.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795884.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795885.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795886.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795887.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795888.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795889.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795890.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795891.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795892.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795893.jsonl
+ create mode 100644 supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_3795894.jsonl
