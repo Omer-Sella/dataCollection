@@ -3,3 +3,15 @@ Checking the directory was created: True
 Training begins on:
 2026-07-15 06:25:07 Wednesday
 [92m2026-07-15 06:25:12,811 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+Finished.
+2026-07-15 15:19:30 Wednesday
+Experiment logs and policy weights are located in:
+/vol/bitbucket/osella/rl-qecc-data//2026-07-15_06-24-42
+ 15:19:32 up 371 days,  1:33,  0 user,  load average: 31.66, 27.89, 23.68
+Updating e341a8e..ebeca40
+Fast-forward
+ 2026-07-14_21-52-33/experiment.txt |  62 -------------------------------------
+ parameterSweep.xlsx                | Bin 0 -> 11235 bytes
+ 2 files changed, 62 deletions(-)
+ delete mode 100644 2026-07-14_21-52-33/experiment.txt
+ create mode 100644 parameterSweep.xlsx
