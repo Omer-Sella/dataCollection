@@ -8,3 +8,7 @@ Finished.
 Experiment logs and policy weights are located in:
 /vol/bitbucket/osella/rl-qecc-data//2026-07-16_17-31-22_288767
  01:52:45 up 372 days, 12:06,  0 user,  load average: 13.59, 10.50, 9.70
+[master de085f2] cpucluster job ended 3389
+ 132 files changed, 32040 insertions(+), 2 deletions(-)
+ create mode 100644 2026-07-16_17-31-22_288767/policy_weights.pth
+ create mode 100644 2026-07-16_17-31-22_288767/value_weights.pth
