@@ -8,3 +8,28 @@ Finished.
 Experiment logs and policy weights are located in:
 /vol/bitbucket/osella/rl-qecc-data//2026-07-22_14-57-19_253968
  20:18:16 up 378 days,  6:31,  0 user,  load average: 40.30, 22.06, 15.43
+[master ce6c780] cpucluster job ended 3579
+ 34 files changed, 5565 insertions(+), 2 deletions(-)
+ create mode 100644 2026-07-22_14-57-19_253968/policy_weights.pth
+ create mode 100644 2026-07-22_14-57-19_253968/value_weights.pth
+ create mode 100644 2026-07-22_19-18-43_3744902/experiment.txt
+ create mode 100644 2026-07-22_19-18-43_3745017/experiment.txt
+ create mode 100644 2026-07-22_19-18-43_3745112/experiment.txt
+ create mode 100644 matrixA/A-3580_0-err.txt
+ create mode 100644 matrixA/A-3580_0-out.txt
+ create mode 100644 matrixA/A-3580_1-err.txt
+ create mode 100644 matrixA/A-3580_1-out.txt
+ create mode 100644 matrixA/A-3580_2-err.txt
+ create mode 100644 matrixA/A-3580_2-out.txt
+ create mode 100644 supervisedLearning/grounding/analysis.csv
+ create mode 100644 supervisedLearning/grounding/anchored_2026-07-12_10-56-04.pth
+ create mode 100644 supervisedLearning/grounding/anchored_2026-07-12_20-18-32.pth
+ create mode 100644 supervisedLearning/grounding/anchored_2026-07-12_21-15-58.pth
+ create mode 100644 supervisedLearning/grounding/grounding-analysis.md
+ create mode 100644 supervisedLearning/grounding/grounding-report.md
+ create mode 100644 supervisedLearning/grounding/mixed66-96_seed0.pth
+ create mode 100644 supervisedLearning/grounding/mixed66-96_seed1.pth
+ create mode 100644 supervisedLearning/grounding/mixed66-96_seed2.pth
+ create mode 100644 supervisedLearning/grounding/pure_2026-07-12_10-56-04.pth
+ create mode 100644 supervisedLearning/grounding/pure_2026-07-12_20-18-32.pth
+ create mode 100644 supervisedLearning/grounding/pure_2026-07-12_21-15-58.pth
