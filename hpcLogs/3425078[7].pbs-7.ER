@@ -1,0 +1,88 @@
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+  0%|          | 0/500000 [00:00<?, ?it/s]Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 204, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 217, in decoderEvaluation
+    localRandom = np.random.RandomState(seed)
+  File "numpy/random/mtrand.pyx", line 186, in numpy.random.mtrand.RandomState.__init__
+  File "numpy/random/_mt19937.pyx", line 168, in numpy.random._mt19937.MT19937._legacy_seeding
+  File "numpy/random/_mt19937.pyx", line 182, in numpy.random._mt19937.MT19937._legacy_seeding
+ValueError: Seed must be between 0 and 2**32 - 1
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2171, in _wait_for_workers
+    self._shutdown_workers()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 121, in decorated_fun
+    _check_for_faulty_process(self._workers)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 530, in _check_for_faulty_process
+    raise RuntimeError(
+RuntimeError: At least one process failed. Check for more infos in the log.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 122, in decorated_fun
+    return fun(self, *args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2027, in step_and_maybe_reset
+    self._wait_for_workers(workers_range)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2173, in _wait_for_workers
+    raise RuntimeError(f"Cannot proceed, worker {wi} dead.")
+RuntimeError: Cannot proceed, worker 0 dead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/qecc/src/qecc/reinforcementLearning.py", line 623, in <module>
+    for i, tensordict_data in enumerate(collector):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1281, in __iter__
+    self.shutdown()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 2035, in shutdown
+    raise e
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 2030, in shutdown
+    self.env.close(raise_if_closed=raise_on_error)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 1164, in close
+    self._shutdown_workers()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 121, in decorated_fun
+    _check_for_faulty_process(self._workers)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 530, in _check_for_faulty_process
+    raise RuntimeError(
+RuntimeError: At least one process failed. Check for more infos in the log.
+Your configuration specifies to merge with the ref 'refs/heads/master'
+from the remote, but no such ref was fetched.
+To github.com:Omer-Sella/dataCollection.git
+   d461130..ee941f0  master -> master

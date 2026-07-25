@@ -1,0 +1,36 @@
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+usage: reinforcementLearning.py [-h] [--num-workers NUM_WORKERS]
+                                [--num-cells NUM_CELLS]
+                                [--seed-for-environment SEED_FOR_ENVIRONMENT]
+                                [--lr LR] [--max-grad-norm MAX_GRAD_NORM]
+                                [--eval-rollout-length EVAL_ROLLOUT_LENGTH]
+                                [--scaling-factor SCALING_FACTOR]
+                                [--frames-per-batch FRAMES_PER_BATCH]
+                                [--sub-batch-size SUB_BATCH_SIZE]
+                                [--num-epochs NUM_EPOCHS]
+                                [--clip-epsilon CLIP_EPSILON] [--gamma GAMMA]
+                                [--lmbda LMBDA] [--entropy-eps ENTROPY_EPS]
+                                [--env-reward-engineering {True,False,true,false}]
+                                [--env-minimum-number-of-qubits ENV_MINIMUM_NUMBER_OF_QUBITS]
+                                [--log-name LOG_NAME]
+                                [--env-error-range {linear5,geometric5,geometric7,geometric10,dataCollection}]
+                                [--env-version {qecc/bbcode-v0,qecc/bbcode-ldpc-v0}]
+                                [--env-bit-flipping {True,False,true,false}]
+                                [--env-l {6,9,15,12,30,21}]
+                                [--env-m {3,6,12,18}]
+                                [--env-use-dict-observation {True,False,true,false}]
+                                [--env-number-of-decoder-iterations ENV_NUMBER_OF_DECODER_ITERATIONS]
+                                [--env-number-of-samples ENV_NUMBER_OF_SAMPLES]
+                                [--env-code-logging {true,True,false,False}]
+                                [--model-architecture {mlp,hybrid}]
+                                [--model-surrogate-model-path MODEL_SURROGATE_MODEL_PATH]
+                                [--model-use-pretrained-encoder {True,False,true,false}]
+                                [--index-to-unfreeze-encoder-updates INDEX_TO_UNFREEZE_ENCODER_UPDATES]
+                                [--encoder-lr-factor ENCODER_LR_FACTOR]
+                                [--training-device {cpu,cuda,auto}]
+reinforcementLearning.py: error: argument --seed-for-environment: invalid int value: ''
+/var/spool/pbs/mom_priv/jobs/3424306[61].pbs-7.SC: line 56: --index-to-unfreeze-encoder-updates: command not found
+fatal: Cannot rebase onto multiple branches.
+To github.com:Omer-Sella/dataCollection.git
+   a4fd7aa..d461130  master -> master
