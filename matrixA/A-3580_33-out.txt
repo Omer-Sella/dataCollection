@@ -1,0 +1,11 @@
+task 33 : l=6 m=6 pretrained=False unfreeze=0 seed=4004
+Creating log dir /vol/bitbucket/osella/rl-qecc-data/2026-07-24_01-45-23_388972...
+Checking the directory was created: True
+Training begins on:
+2026-07-24 01:46:45 Friday
+[92m2026-07-24 01:46:49,587 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+Finished.
+2026-07-24 08:47:40 Friday
+Experiment logs and policy weights are located in:
+/vol/bitbucket/osella/rl-qecc-data/2026-07-24_01-45-23_388972
+ 08:47:41 up 379 days, 19:00,  0 user,  load average: 13.69, 13.76, 14.66

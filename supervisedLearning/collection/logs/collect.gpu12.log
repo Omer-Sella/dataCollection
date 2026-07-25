@@ -1,0 +1,16 @@
+pyenv-virtualenv: version `qecc1' is already activated
+collectWorker gpu12: l=12 m=6 workers=2 seed=619864265 Sat 25 Jul 00:43:40 BST 2026
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 380, in <module>
+    if not os.path.isfile(model_path_to_take_surrogate):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/genericpath.py", line 30, in isfile
+    st = os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+pyenv-virtualenv: version `qecc1' is already activated
+collectWorker gpu12: l=12 m=6 workers=2 seed=619864265 Sat 25 Jul 01:32:08 BST 2026
+Creating log dir /vol/bitbucket/osella/rl-qecc-data/2026-07-25_01-38-49_1447335...
+Checking the directory was created: True
+Training begins on:
+2026-07-25 01:44:12 Saturday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-25 01:56:22,185 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 500/50000000 [12:35<20988:42:11,  1.51s/it]  0%|          | 1000/50000000 [26:43<22496:28:31,  1.62s/it]  0%|          | 1500/50000000 [38:39<21311:07:15,  1.53s/it]  0%|          | 2000/50000000 [54:28<23297:04:02,  1.68s/it]  0%|          | 2500/50000000 [1:09:12<23755:08:29,  1.71s/it]  0%|          | 3000/50000000 [1:23:36<23835:31:54,  1.72s/it]  0%|          | 3500/50000000 [1:37:21<23529:49:14,  1.69s/it]  0%|          | 4000/50000000 [1:49:47<22635:06:18,  1.63s/it]  0%|          | 4500/50000000 [2:03:00<22452:48:50,  1.62s/it]  0%|          | 5000/50000000 [2:14:51<21616:51:50,  1.56s/it]  0%|          | 5500/50000000 [2:26:17<20828:06:55,  1.50s/it]  0%|          | 6000/50000000 [2:42:16<22595:59:23,  1.63s/it]  0%|          | 6500/50000000 [2:56:09<22760:09:09,  1.64s/it]  0%|          | 7000/50000000 [3:09:01<22361:35:48,  1.61s/it]  0%|          | 7500/50000000 [3:23:29<22883:11:56,  1.65s/it]  0%|          | 8000/50000000 [3:38:44<23645:53:53,  1.70s/it]  0%|          | 8500/50000000 [3:54:25<24397:14:53,  1.76s/it]  0%|          | 9000/50000000 [4:10:09<24942:24:00,  1.80s/it]  0%|          | 9500/50000000 [4:25:28<25114:05:31,  1.81s/it]  0%|          | 10000/50000000 [4:39:02<24360:00:52,  1.75s/it]  0%|          | 10500/50000000 [4:53:45<24413:50:32,  1.76s/it]  0%|          | 11000/50000000 [5:09:56<25178:34:59,  1.81s/it]  0%|          | 11500/50000000 [5:25:34<25437:45:49,  1.83s/it]  0%|          | 12000/50000000 [5:39:15<24651:15:47,  1.78s/it]  0%|          | 12500/50000000 [5:53:20<24296:13:18,  1.75s/it]  0%|          | 13000/50000000 [6:07:28<24064:06:56,  1.73s/it]  0%|          | 13500/50000000 [6:22:18<24264:24:22,  1.75s/it]  0%|          | 14000/50000000 [6:38:08<24900:49:58,  1.79s/it]  0%|          | 14500/50000000 [6:55:02<25877:44:47,  1.86s/it]  0%|          | 15000/50000000 [7:12:11<26684:07:20,  1.92s/it]

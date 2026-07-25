@@ -1,0 +1,10 @@
+#INIT=/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H4_s1.pth
+set -eu
+if [ -f "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/ground_anch_H4_s1.pth" ]; then echo "already done"; exit 0; fi
+python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py \
+    --sizes 6,6 9,6 12,6 15,3 --curve-sizes 6,6 \
+    --init-checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H4_s1.pth" \
+    --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData \
+    --epochs 10 --device cuda --seed 1 \
+    --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/ground_anch_H4_s1.pth" \
+    --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/ground_anch_H4_s1-report.md"

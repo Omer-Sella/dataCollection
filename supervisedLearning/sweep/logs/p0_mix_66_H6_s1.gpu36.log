@@ -1,0 +1,35 @@
+device: cuda; sizes: [(6, 6)]; curve loss on: [(6, 6)]; lr: 0.001; H: 6
+loadCodeEvaluations: dropped 94654 records with a non-canonical errorRange
+  size 6,6: 1319823 codes (1055858 train) curveLoss=True
+epoch 0: train 14.2865 | val 6,6: 13.6251
+epoch 1: train 13.4033 | val 6,6: 13.3256
+epoch 2: train 13.2544 | val 6,6: 13.2448
+epoch 3: train 13.1968 | val 6,6: 13.1750
+epoch 4: train 13.1444 | val 6,6: 13.1612
+epoch 5: train 13.1197 | val 6,6: 13.1407
+epoch 6: train 13.1106 | val 6,6: 13.1227
+epoch 7: train 13.0995 | val 6,6: 13.1248
+epoch 8: train 13.0891 | val 6,6: 13.1160
+epoch 9: train 13.0852 | val 6,6: 13.1128
+epoch 10: train 13.0797 | val 6,6: 13.1293
+epoch 11: train 13.0714 | val 6,6: 13.1010
+epoch 12: train 13.0673 | val 6,6: 13.1010
+epoch 13: train 13.0626 | val 6,6: 13.0913
+epoch 14: train 13.0623 | val 6,6: 13.0890
+epoch 15: train 13.0564 | val 6,6: 13.0818
+epoch 16: train 13.0540 | val 6,6: 13.0789
+epoch 17: train 13.0512 | val 6,6: 13.0740
+epoch 18: train 13.0465 | val 6,6: 13.0760
+epoch 19: train 13.0423 | val 6,6: 13.0772
+restored best-val weights from epoch 17 (val 13.0740)
+saved /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H6_s1.pth
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H6_s1.pth on held-out test l=6, m=6 (131983 codes) — 2026-07-24
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **13.0387** (noise floor 12.6361)
+- reward MAE: **0.00168**
+- k MAE: **1.63** logical qubits
+- Spearman: **0.888**, Kendall: 0.724
+- top-k overlap (k=50): **0.14**
+

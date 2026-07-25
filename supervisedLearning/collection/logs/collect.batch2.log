@@ -1,0 +1,15 @@
+pyenv-virtualenv: version `qecc1' is already activated
+collectWorker potoo02: l=21 m=18 workers=2 seed=181388953 Sat 25 Jul 00:37:49 BST 2026
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 380, in <module>
+    if not os.path.isfile(model_path_to_take_surrogate):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/genericpath.py", line 30, in isfile
+    st = os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType
+pyenv-virtualenv: version `qecc1' is already activated
+collectWorker potoo02: l=21 m=18 workers=2 seed=181388953 Sat 25 Jul 01:27:56 BST 2026
+Creating log dir /vol/bitbucket/osella/rl-qecc-data/2026-07-25_01-31-02_3783721...
+Checking the directory was created: True
+Training begins on:
+2026-07-25 01:42:10 Saturday
+  0%|          | 0/50000000 [00:00<?, ?it/s]
