@@ -1,5 +1,5 @@
-@batch1 CPU 64 13.17
-@batch1 MEM 515934 176002
+@batch1 CPU 64 14.79
+@batch1 MEM 515934 179104
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -7,20 +7,36 @@
 @batch1 PS  133145  0.0  1548 ssh-agent
 @batch1 PS  133629  0.0  3928 ssh-agent
 @batch1 PS  144395  0.0  3956 ssh-agent
-@batch1 PS  239176  0.0  3836 bash
 @batch1 PS  310352  0.0  2200 timeout
-@batch1 PS  310356  0.3  7924 git
-@batch1 PS  310460  0.6 767152 python
-@batch1 PS  357601  0.0  2400 bash
-@batch1 PS  357602  0.0  2196 timeout
-@batch1 PS  357603  0.0  2348 grep
-@batch1 PS  357604 34.6  9524 ssh
-@batch1 PS  357638  0.0  7092 sshd
-@batch1 PS  357639  0.0  3592 bash
-@batch1 PS  357649  0.0  6680 ps
-@batch1 PS  357650  0.0  2404 sed
+@batch1 PS  310460 84.2 2590708 python
+@batch1 PS  366316  0.0 11180 python
+@batch1 PS  366318 95.2 824788 python
+@batch1 PS  366319 64.9 824748 python
+@batch1 PS  374070  0.0  4568 dbus-daemon
 @batch1 PS  578483  0.0   768 ssh-agent
 @batch1 PS  581063  0.0   808 ssh-agent
+@batch1 PS  672039  0.0  4304 bash
+@batch1 PS  676248  0.0  3684 bash
+@batch1 PS  717215  0.0  2312 bash
+@batch1 PS  717216  0.0  2200 timeout
+@batch1 PS  717217  0.0  2340 grep
+@batch1 PS  717218  0.0  2128 tail
+@batch1 PS  717219  6.8  9532 ssh
+@batch1 PS  717362  0.0  3012 bash
+@batch1 PS  717363  0.0  3008 bash
+@batch1 PS  717364  0.0  3008 bash
+@batch1 PS  717369  0.0  2808 bash
+@batch1 PS  717370  0.0  2808 bash
+@batch1 PS  717377  0.0  2204 timeout
+@batch1 PS  717378  0.0  2128 timeout
+@batch1 PS  717379  0.0  2348 grep
+@batch1 PS  717380  0.0  2340 grep
+@batch1 PS  717402 29.7  9516 ssh
+@batch1 PS  717413 31.9  9516 ssh
+@batch1 PS  717457  0.0  7112 sshd
+@batch1 PS  717458  0.0  3652 bash
+@batch1 PS  717469 1500  6704 ps
+@batch1 PS  717470  0.0  2400 sed
 @batch1 PS  877349  0.0   768 ssh-agent
 @batch1 PS  885577  0.0   772 ssh-agent
 @batch1 PS 1004857  0.0   768 ssh-agent
@@ -51,9 +67,6 @@
 @batch1 PS 2907509  0.0  1868 bash
 @batch1 PS 2907515  0.0   768 ssh-agent
 @batch1 PS 2910328  0.0   764 ssh-agent
-@batch1 PS 2924918  0.0  2480 bash
-@batch1 PS 2925570  0.0  2336 python
-@batch1 PS 2925608  3.4 402540 python
 @batch1 PS 2931557  0.0  1544 ssh-agent
 @batch1 PS 2983015  0.0  3968 ssh-agent
 @batch1 PS 3001789  0.0  1544 ssh-agent
@@ -61,12 +74,12 @@
 @batch1 PS 3056213  0.0  1544 ssh-agent
 @batch1 PS 3057763  0.0   768 ssh-agent
 @batch1 PS 3075709  0.0   772 ssh-agent
-@batch1 PS 3076073  0.0 12400 tmux: server
+@batch1 PS 3076073  0.0 11928 tmux: server
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
 @batch1 PS 3084743  0.0  1508 ssh-agent
 @batch1 PS 3172141  0.0   768 ssh-agent
-@batch1 PS 3173663  0.0  1752 bash
+@batch1 PS 3173663  0.0  4288 bash
 @batch1 PS 3173679  0.0  2916 ssh-agent
 @batch1 PS 3275178  0.0   812 ssh-agent
 @batch1 PS 3275810  0.0   816 ssh-agent
@@ -80,8 +93,8 @@
 @batch1 PS 4049431  0.0  1548 ssh-agent
 @batch1 PS 4050669  0.0   772 ssh-agent
 @batch1 PS 4067814  0.0   768 ssh-agent
-@batch1 PS 4080390  0.0  8124 systemd
+@batch1 PS 4080390  0.0  8452 systemd
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1784974887
+@batch1 SEEN 1784986177

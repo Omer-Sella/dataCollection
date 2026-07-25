@@ -1,11 +1,11 @@
-@gpu11 CPU 8 2.51
-@gpu11 MEM 64219 5511
+@gpu11 CPU 8 2.16
+@gpu11 MEM 64219 5734
 @gpu11 GPU 0, 180, 12288
 @gpu11 APP 4040792, 99
-@gpu11 PS  307267  0.0  7064 sshd
-@gpu11 PS  307268  0.0  3648 bash
-@gpu11 PS  307280  0.0  4604 ps
-@gpu11 PS  307281  0.0  2340 sed
+@gpu11 PS  454569  0.0  7092 sshd
+@gpu11 PS  454570  0.0  3588 bash
+@gpu11 PS  454580  0.0  4596 ps
+@gpu11 PS  454581  0.0  2344 sed
 @gpu11 PS 1759118  0.0 11444 systemd
 @gpu11 PS 1759119  0.0  3252 (sd-pam)
 @gpu11 PS 1759131  0.0  6224 pipewire
@@ -39,8 +39,8 @@
 @gpu11 PS 4039139  0.0  1544 ssh-agent
 @gpu11 PS 4039471  0.0  1544 ssh-agent
 @gpu11 PS 4040130  0.0  2140 timeout
-@gpu11 PS 4040792 96.3 1152192 python
+@gpu11 PS 4040792 96.9 1157164 python
 @gpu11 PS 4050230  0.0 11140 python
-@gpu11 PS 4050241 21.5 804152 python
-@gpu11 PS 4050242 21.7 803544 python
-@gpu11 SEEN 1784974751
+@gpu11 PS 4050241 21.9 804160 python
+@gpu11 PS 4050242 22.0 803552 python
+@gpu11 SEEN 1784986157

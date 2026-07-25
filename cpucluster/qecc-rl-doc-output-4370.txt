@@ -3,3 +3,427 @@ Checking the directory was created: True
 Training begins on:
 2026-07-24 19:27:15 Friday
 [92m2026-07-24 19:28:34,214 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+Finished.
+2026-07-25 12:17:08 Saturday
+Experiment logs and policy weights are located in:
+/vol/bitbucket/osella/rl-qecc-data//2026-07-24_19-13-01_467025
+ 12:17:10 up 380 days, 22:30,  0 user,  load average: 54.90, 44.43, 34.54
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 2 and 28 different commits each, respectively.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   2026-07-24_19-13-01_3929851/experiment.txt
+	modified:   2026-07-24_19-13-01_467025/experiment.txt
+	modified:   2026-07-25_01-36-23_4040792/experiment.txt
+	modified:   2026-07-25_01-38-49_1447335/experiment.txt
+	modified:   2026-07-25_01-42-55_2807283/experiment.txt
+	modified:   2026-07-25_01-54-43_807373/experiment.txt
+	modified:   2026-07-25_10-29-46_963285/experiment.txt
+	modified:   cpucluster/qecc-rl-doc-errors-4370.txt
+	modified:   cpucluster/qecc-rl-doc-errors-4371.txt
+	modified:   cpucluster/qecc-rl-doc-errors-4372.txt
+	modified:   cpucluster/qecc-rl-doc-output-4370.txt
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_1447335.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_1454850.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_1454851.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3929851.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931972.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931973.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931974.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931975.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931976.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931978.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931979.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931980.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931981.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931982.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931983.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931984.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931985.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931987.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931988.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931990.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931992.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3931999.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932000.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932001.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932002.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932003.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932004.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932006.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932007.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932008.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932009.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932010.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932011.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932012.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932013.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932014.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932015.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932016.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932017.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932019.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932020.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932022.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932023.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932024.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932025.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932026.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932027.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932028.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932029.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932030.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932031.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932032.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932033.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932034.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932035.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932036.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932037.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932038.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932039.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932040.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932041.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932042.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932043.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932044.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932045.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932046.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932047.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932048.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932049.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932051.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932052.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932053.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932054.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932055.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932056.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932057.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932058.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932060.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932061.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932062.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932063.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932064.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932065.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932066.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932067.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932068.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932069.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932070.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932071.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932072.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932073.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932074.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932075.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932076.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932078.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932079.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932080.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932081.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932082.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_3932083.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_724574.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_12_m_6/codeEvaluations_724575.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_4040792.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_4050241.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_4050242.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_1299169.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_1299170.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_1875245.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_2925592.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_2925608.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_3426885.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_876947.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_2807283.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_2813798.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_2813799.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_467025.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468084.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468085.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468086.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468087.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468088.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468089.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468090.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468091.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468092.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468093.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468094.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468095.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468096.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468097.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468099.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468100.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468102.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468104.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468108.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468111.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468112.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468113.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468114.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468115.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468116.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468117.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468118.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468119.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468120.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468121.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468122.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468123.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468125.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468126.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468127.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468128.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468129.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468130.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468131.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468132.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468133.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468134.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468135.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468136.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468137.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468138.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468139.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468140.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468141.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468142.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468143.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468144.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468145.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468146.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468147.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468149.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468151.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468153.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468154.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468155.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468156.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468157.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468158.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468159.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468160.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468161.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468162.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468163.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468164.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468165.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468166.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468167.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468168.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468169.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468170.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468171.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468172.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468173.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468174.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468175.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468176.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468177.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468178.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468179.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468180.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468181.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468182.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468183.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468184.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468185.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468186.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468187.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468188.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468189.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468190.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_468191.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_807373.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_816939.jsonl
+	modified:   supervisedLearning/codeEvaluationTrainingData/l_9_m_6/codeEvaluations_816941.jsonl
+	modified:   supervisedLearning/collection/logs/collect.batch1.log
+	modified:   supervisedLearning/collection/logs/collect.gpu11.log
+	modified:   supervisedLearning/collection/logs/collect.gpu12.log
+	modified:   supervisedLearning/collection/logs/collect.gpu14.log
+	modified:   supervisedLearning/collection/logs/collect.gpu23.log
+	modified:   supervisedLearning/collection/logs/collect.gpu24.log
+	modified:   supervisedLearning/dashboard/cache/batch1.txt
+	modified:   supervisedLearning/dashboard/cache/batch2.txt
+	modified:   supervisedLearning/dashboard/cache/gpu10.txt
+	modified:   supervisedLearning/dashboard/cache/gpu11.txt
+	modified:   supervisedLearning/dashboard/cache/gpu12.txt
+	modified:   supervisedLearning/dashboard/cache/gpu13.txt
+	modified:   supervisedLearning/dashboard/cache/gpu14.txt
+	modified:   supervisedLearning/dashboard/cache/gpu15.txt
+	modified:   supervisedLearning/dashboard/cache/gpu16.txt
+	modified:   supervisedLearning/dashboard/cache/gpu18.txt
+	modified:   supervisedLearning/dashboard/cache/gpu19.txt
+	modified:   supervisedLearning/dashboard/cache/gpu20.txt
+	modified:   supervisedLearning/dashboard/cache/gpu22.txt
+	modified:   supervisedLearning/dashboard/cache/gpu26.txt
+	modified:   supervisedLearning/dashboard/cache/gpu27.txt
+	modified:   supervisedLearning/dashboard/cache/gpu28.txt
+	modified:   supervisedLearning/dashboard/cache/gpu29.txt
+	modified:   supervisedLearning/dashboard/cache/gpu30.txt
+	modified:   supervisedLearning/dashboard/cache/gpu31.txt
+	modified:   supervisedLearning/dashboard/cache/gpu32.txt
+	modified:   supervisedLearning/dashboard/cache/gpu33.txt
+	modified:   supervisedLearning/dashboard/cache/gpu34.txt
+	modified:   supervisedLearning/dashboard/cache/gpu35.txt
+	modified:   supervisedLearning/dashboard/cache/gpu36.txt
+	modified:   supervisedLearning/dashboard/remote-state.txt
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H3_s2.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H4_s0.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H4_s1.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H4_s2.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H6_s0.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H6_s1.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H6_s2.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H7_s0.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H7_s1.jupyterCX3
+	deleted:    supervisedLearning/sweep/claimed/p1_mix_66-96-126-153_H7_s2.jupyterCX3
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	2026-07-24_19-13-01_467025/policy_weights.pth
+	2026-07-24_19-13-01_467025/value_weights.pth
+	2026-07-25_11-19-32_310460/
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_963285.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965536.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965537.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965538.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965539.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965541.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965542.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965543.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965544.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965545.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965546.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965547.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965548.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965549.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965551.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965552.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965554.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965555.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965557.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965558.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965560.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965564.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965565.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965566.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965567.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965568.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965569.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965570.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965571.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965572.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965573.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965574.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965575.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965576.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965577.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965578.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965579.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965580.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965581.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965583.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965584.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965585.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965586.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965587.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965588.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965591.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965592.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965594.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965595.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965596.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965598.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965601.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965603.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965605.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965609.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965617.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965619.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965620.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965621.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965622.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965623.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965626.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965628.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965629.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965630.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965631.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965632.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965633.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965634.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965636.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965637.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965638.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965639.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965640.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965641.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965642.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965644.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965645.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965647.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965651.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965652.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965653.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965655.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965656.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965657.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965658.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965659.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965660.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965661.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965662.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965663.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965664.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965666.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965667.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965668.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965669.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_15_m_3/codeEvaluations_965672.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_366318.jsonl
+	supervisedLearning/codeEvaluationTrainingData/l_21_m_18/codeEvaluations_366319.jsonl
+	supervisedLearning/collection/labLauncher2.sh
+	supervisedLearning/collection/logs/labLaunch2.log
+	supervisedLearning/dashboard/cache/gpu21.txt
+	supervisedLearning/dashboard/cache/gpu23.txt
+	supervisedLearning/dashboard/cache/gpu24.txt
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H3_s2
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H4_s0
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H4_s1
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H4_s2
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H6_s0
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H6_s1
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H6_s2
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H7_s0
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H7_s1
+	supervisedLearning/sweep/done/p1_mix_66-96-126-153_H7_s2
+	supervisedLearning/sweep/logs/analysis.yew30.log
+	supervisedLearning/sweep/mix_66-96-126-153_H3_s2-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H3_s2.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s0-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s0.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s1-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s1.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s2-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H4_s2.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s0-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s0.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s1-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s1.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s2-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H6_s2.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s0-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s0.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s1-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s1.pth
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s2-report.md
+	supervisedLearning/sweep/mix_66-96-126-153_H7_s2.pth
+	supervisedLearning/sweep/sweep-analysis.csv
+	supervisedLearning/sweep/sweep-analysis.md
+
+no changes added to commit (use "git add" and/or "git commit -a")

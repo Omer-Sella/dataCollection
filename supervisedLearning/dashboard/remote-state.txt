@@ -1,5 +1,608 @@
-@batch1 CPU 64 13.17
-@batch1 MEM 515934 176002
+@ash01 CPU 16 0.22
+@ash01 MEM 32013 1467
+@ash01 GPU 0, 77, 2048
+@ash01 PS 3380430  2.8 11692 systemd
+@ash01 PS 3380431  0.0  3412 (sd-pam)
+@ash01 PS 3380451  0.0  8968 pipewire
+@ash01 PS 3380452  0.0  6084 pipewire
+@ash01 PS 3380454  0.7 15904 wireplumber
+@ash01 PS 3380458  0.0 10716 pipewire-pulse
+@ash01 PS 3380471  0.0  4464 dbus-daemon
+@ash01 PS 3380488  0.0  7048 sshd
+@ash01 PS 3380565  0.0  7008 sshd
+@ash01 PS 3380566  0.0  3572 bash
+@ash01 PS 3380584  0.0  1916 bash
+@ash01 PS 3380596 20.0  4572 ps
+@ash01 PS 3380597  0.0  2324 sed
+@ash01 SEEN 1784986237
+@ash02 CPU 16 1.78
+@ash02 MEM 32013 18113
+@ash02 GPU 0, 77, 2048
+@ash02 PS 3189680  0.8 11776 systemd
+@ash02 PS 3189681  0.0  3404 (sd-pam)
+@ash02 PS 3189692  0.0  8740 pipewire
+@ash02 PS 3189693  0.0  6088 pipewire
+@ash02 PS 3189694  0.1 16008 wireplumber
+@ash02 PS 3189697  0.0 10660 pipewire-pulse
+@ash02 PS 3189713  0.0  4484 dbus-daemon
+@ash02 PS 3189727  0.0  7000 sshd
+@ash02 PS 3189740  0.0  3660 bash
+@ash02 PS 3189999  4.3  4564 ps
+@ash02 PS 3190000  0.0  2320 sed
+@ash02 SEEN 1784986249
+@ash03 CPU 16 2.32
+@ash03 MEM 32013 11820
+@ash03 GPU 0, 84, 2048
+@ash03 PS 2885881  9.8 11624 systemd
+@ash03 PS 2885882  0.0  3424 (sd-pam)
+@ash03 PS 2885895  0.0  8764 pipewire
+@ash03 PS 2885896  0.0  5964 pipewire
+@ash03 PS 2885899  3.1 15704 wireplumber
+@ash03 PS 2885900  1.0 10648 pipewire-pulse
+@ash03 PS 2885915  1.0  4492 dbus-daemon
+@ash03 PS 2885923  0.0  6868 sshd
+@ash03 PS 2885943  0.0  3552 bash
+@ash03 PS 2885962  0.0  4548 ps
+@ash03 PS 2885963  0.0  2280 sed
+@ash03 SEEN 1784986237
+@ash04 CPU 16 1.38
+@ash04 MEM 32013 9695
+@ash04 GPU 0, 81, 2048
+@ash04 PS 3722475  0.9 11964 systemd
+@ash04 PS 3722476  0.0  3424 (sd-pam)
+@ash04 PS 3722513  0.0  8860 pipewire
+@ash04 PS 3722514  0.0  6096 pipewire
+@ash04 PS 3722516  0.1 15876 wireplumber
+@ash04 PS 3722518  0.0 10708 pipewire-pulse
+@ash04 PS 3722531  0.0  4612 dbus-daemon
+@ash04 PS 3722552  0.0  6952 sshd
+@ash04 PS 3722561  0.0  3592 bash
+@ash04 PS 3722782  5.0  4620 ps
+@ash04 PS 3722783  0.0  2336 sed
+@ash04 SEEN 1784986249
+@ash05 CPU 16 1.48
+@ash05 MEM 32013 5417
+@ash05 GPU 0, 84, 2048
+@ash05 PS 2921761  0.8 11908 systemd
+@ash05 PS 2921762  0.0  3444 (sd-pam)
+@ash05 PS 2921774  0.0  8920 pipewire
+@ash05 PS 2921775  0.0  6160 pipewire
+@ash05 PS 2921777  0.2 15944 wireplumber
+@ash05 PS 2921779  0.0 10856 pipewire-pulse
+@ash05 PS 2921794  0.0  4580 dbus-daemon
+@ash05 PS 2921812  0.0  7020 sshd
+@ash05 PS 2921822  0.0  3588 bash
+@ash05 PS 2922072  4.5  4648 ps
+@ash05 PS 2922073  0.0  2336 sed
+@ash05 SEEN 1784986249
+@ash06 CPU 16 0.36
+@ash06 MEM 15909 1155
+@ash06 GPU 0, 81, 2048
+@ash06 PS  975099  0.8 11712 systemd
+@ash06 PS  975100  0.0  3412 (sd-pam)
+@ash06 PS  975111  0.0  8736 pipewire
+@ash06 PS  975112  0.0  6044 pipewire
+@ash06 PS  975114  0.2 15968 wireplumber
+@ash06 PS  975116  0.0 10660 pipewire-pulse
+@ash06 PS  975131  0.0  4436 dbus-daemon
+@ash06 PS  975146  0.0  6848 sshd
+@ash06 PS  975159  0.0  3572 bash
+@ash06 PS  975339  4.3  4528 ps
+@ash06 PS  975340  0.0  2320 sed
+@ash06 SEEN 1784986250
+@ash07 CPU 16 0.48
+@ash07 MEM 15909 1229
+@ash07 GPU 0, 81, 2048
+@ash07 PS 1492763  0.9 11824 systemd
+@ash07 PS 1492764  0.0  3416 (sd-pam)
+@ash07 PS 1492776  0.0  8820 pipewire
+@ash07 PS 1492777  0.0  6092 pipewire
+@ash07 PS 1492779  0.1 15900 wireplumber
+@ash07 PS 1492781  0.0 10684 pipewire-pulse
+@ash07 PS 1492798  0.0  4528 dbus-daemon
+@ash07 PS 1492811  0.0  6908 sshd
+@ash07 PS 1492824  0.0  3600 bash
+@ash07 PS 1492991  5.5  4572 ps
+@ash07 PS 1492992  0.0  2308 sed
+@ash07 SEEN 1784986250
+@ash08 CPU 16 1.43
+@ash08 MEM 15909 1471
+@ash08 GPU 0, 81, 2048
+@ash08 PS 1943287  0.7 11552 systemd
+@ash08 PS 1943288  0.0  3416 (sd-pam)
+@ash08 PS 1943299  0.0  8268 pipewire
+@ash08 PS 1943300  0.0  5560 pipewire
+@ash08 PS 1943303  0.2 15104 wireplumber
+@ash08 PS 1943304  0.0 10136 pipewire-pulse
+@ash08 PS 1943323  0.0  4192 dbus-daemon
+@ash08 PS 1943327  0.0  6824 sshd
+@ash08 PS 1943347  0.0  3588 bash
+@ash08 PS 1943534  5.2  4400 ps
+@ash08 PS 1943535  0.0  2292 sed
+@ash08 SEEN 1784986250
+@ash09 CPU 16 0.44
+@ash09 MEM 15909 1037
+@ash09 GPU 0, 78, 2048
+@ash09 PS 3243040  0.8 11432 systemd
+@ash09 PS 3243041  0.0  3408 (sd-pam)
+@ash09 PS 3243052  0.0  8704 pipewire
+@ash09 PS 3243053  0.0  5976 pipewire
+@ash09 PS 3243055  0.2 15736 wireplumber
+@ash09 PS 3243057  0.0 10556 pipewire-pulse
+@ash09 PS 3243073  0.0  4440 dbus-daemon
+@ash09 PS 3243087  0.0  6904 sshd
+@ash09 PS 3243100  0.0  3540 bash
+@ash09 PS 3243260  5.5  4508 ps
+@ash09 PS 3243261  0.0  2292 sed
+@ash09 SEEN 1784986250
+@ash10 CPU 16 0.31
+@ash10 MEM 15909 1042
+@ash10 GPU 0, 81, 2048
+@ash10 PS 1918947  1.0 11608 systemd
+@ash10 PS 1918948  0.0  3424 (sd-pam)
+@ash10 PS 1918960  0.0  8800 pipewire
+@ash10 PS 1918961  0.0  6088 pipewire
+@ash10 PS 1918964  0.2 15840 wireplumber
+@ash10 PS 1918965  0.0 10636 pipewire-pulse
+@ash10 PS 1918979  0.0  4460 dbus-daemon
+@ash10 PS 1918996  0.0  7032 sshd
+@ash10 PS 1919008  0.0  3608 bash
+@ash10 PS 1919153  100  4580 ps
+@ash10 PS 1919154  0.0  2328 sed
+@ash10 SEEN 1784986263
+@ash11 CPU 16 1.17
+@ash11 MEM 15909 1467
+@ash11 GPU 0, 84, 2048
+@ash11 PS  612125  1.2 11260 systemd
+@ash11 PS  612126  0.0  3408 (sd-pam)
+@ash11 PS  612137  0.0  8560 pipewire
+@ash11 PS  612138  0.0  5888 pipewire
+@ash11 PS  612140  0.2 15700 wireplumber
+@ash11 PS  612142  0.0 10468 pipewire-pulse
+@ash11 PS  612159  0.0  4332 dbus-daemon
+@ash11 PS  612166  0.0  6712 sshd
+@ash11 PS  612186  0.0  3556 bash
+@ash11 PS  612595  0.0  4468 ps
+@ash11 PS  612596  0.0  2308 sed
+@ash11 SEEN 1784986263
+@ash12 CPU 16 0.31
+@ash12 MEM 15909 1107
+@ash12 GPU 0, 84, 2048
+@ash12 PS  769445  1.1 11580 systemd
+@ash12 PS  769446  0.0  3384 (sd-pam)
+@ash12 PS  769457  0.0  8856 pipewire
+@ash12 PS  769458  0.0  5956 pipewire
+@ash12 PS  769460  0.2 15744 wireplumber
+@ash12 PS  769462  0.0 10600 pipewire-pulse
+@ash12 PS  769476  0.0  4376 dbus-daemon
+@ash12 PS  769493  0.0  6876 sshd
+@ash12 PS  769505  0.0  3556 bash
+@ash12 PS  769648  100  4468 ps
+@ash12 PS  769649  0.0  2320 sed
+@ash12 SEEN 1784986263
+@ash14 CPU 16 1.33
+@ash14 MEM 15909 1419
+@ash14 GPU 0, 93, 2048
+@ash14 PS  531468  1.2 11508 systemd
+@ash14 PS  531469  0.0  3412 (sd-pam)
+@ash14 PS  531480  0.0  8352 pipewire
+@ash14 PS  531481  0.0  5740 pipewire
+@ash14 PS  531483  0.2 15388 wireplumber
+@ash14 PS  531485  0.0 10456 pipewire-pulse
+@ash14 PS  531502  0.0  4380 dbus-daemon
+@ash14 PS  531509  0.0  6880 sshd
+@ash14 PS  531529  0.0  3504 bash
+@ash14 PS  531667  100  4396 ps
+@ash14 PS  531668  0.0  2184 sed
+@ash14 SEEN 1784986263
+@ash15 CPU 16 1.38
+@ash15 MEM 15909 5974
+@ash15 GPU 4, 88, 2048
+@ash15 PS  872206  1.1 11560 systemd
+@ash15 PS  872207  0.0  3412 (sd-pam)
+@ash15 PS  872219  0.0  8696 pipewire
+@ash15 PS  872220  0.0  6008 pipewire
+@ash15 PS  872223  0.2 15824 wireplumber
+@ash15 PS  872224  0.0 10464 pipewire-pulse
+@ash15 PS  872240  0.0  4388 dbus-daemon
+@ash15 PS  872251  0.0  7000 sshd
+@ash15 PS  872267  0.0  3544 bash
+@ash15 PS  872428  100  4520 ps
+@ash15 PS  872429  0.0  2324 sed
+@ash15 SEEN 1784986263
+@ash16 CPU 16 0.23
+@ash16 MEM 15909 1196
+@ash16 GPU 0, 93, 2048
+@ash16 PS 1522026  1.1 11744 systemd
+@ash16 PS 1522027  0.0  3388 (sd-pam)
+@ash16 PS 1522039  0.0  8780 pipewire
+@ash16 PS 1522040  0.0  6020 pipewire
+@ash16 PS 1522042  0.2 15764 wireplumber
+@ash16 PS 1522044  0.0 10580 pipewire-pulse
+@ash16 PS 1522058  0.0  4492 dbus-daemon
+@ash16 PS 1522077  0.0  7028 sshd
+@ash16 PS 1522087  0.0  3596 bash
+@ash16 PS 1522235  100  4560 ps
+@ash16 PS 1522236  0.0  2304 sed
+@ash16 SEEN 1784986263
+@ash17 CPU 16 0.30
+@ash17 MEM 15909 1045
+@ash17 GPU 0, 81, 2048
+@ash17 PS 4090651  1.0 11656 systemd
+@ash17 PS 4090652  0.0  3428 (sd-pam)
+@ash17 PS 4090664  0.0  8580 pipewire
+@ash17 PS 4090665  0.0  5908 pipewire
+@ash17 PS 4090667  0.1 15644 wireplumber
+@ash17 PS 4090669  0.0 10484 pipewire-pulse
+@ash17 PS 4090683  0.0  4344 dbus-daemon
+@ash17 PS 4090701  0.0  6912 sshd
+@ash17 PS 4090712  0.0  3516 bash
+@ash17 PS 4090855  100  4492 ps
+@ash17 PS 4090856  0.0  2300 sed
+@ash17 SEEN 1784986263
+@ash18 CPU 16 0.23
+@ash18 MEM 15909 958
+@ash18 GPU 0, 81, 2048
+@ash18 PS 4046482  1.0 11708 systemd
+@ash18 PS 4046483  0.0  3444 (sd-pam)
+@ash18 PS 4046503  0.0  8700 pipewire
+@ash18 PS 4046504  0.0  5972 pipewire
+@ash18 PS 4046506  0.2 15764 wireplumber
+@ash18 PS 4046508  0.0 10512 pipewire-pulse
+@ash18 PS 4046527  0.0  4436 dbus-daemon
+@ash18 PS 4046533  0.0  6992 sshd
+@ash18 PS 4046551  0.0  3520 bash
+@ash18 PS 4046687  100  4528 ps
+@ash18 PS 4046688  0.0  2268 sed
+@ash18 SEEN 1784986263
+@ash19 CPU 16 1.56
+@ash19 MEM 15909 5409
+@ash19 GPU 0, 81, 2048
+@ash19 PS 1191681  1.1 11756 systemd
+@ash19 PS 1191682  0.0  3428 (sd-pam)
+@ash19 PS 1191694  0.0  8884 pipewire
+@ash19 PS 1191695  0.0  6124 pipewire
+@ash19 PS 1191698  0.1 15980 wireplumber
+@ash19 PS 1191699  0.0 10740 pipewire-pulse
+@ash19 PS 1191715  0.0  4592 dbus-daemon
+@ash19 PS 1191729  0.0  6980 sshd
+@ash19 PS 1191742  0.0  3552 bash
+@ash19 PS 1191888  100  4588 ps
+@ash19 PS 1191889  0.0  2308 sed
+@ash19 SEEN 1784986263
+@ash20 CPU 16 0.34
+@ash20 MEM 15909 1280
+@ash20 GPU 0, 98, 2048
+@ash20 PS 3968527  1.1 11900 systemd
+@ash20 PS 3968528  0.0  3424 (sd-pam)
+@ash20 PS 3968539  0.0  8884 pipewire
+@ash20 PS 3968540  0.0  6088 pipewire
+@ash20 PS 3968542  0.2 15856 wireplumber
+@ash20 PS 3968544  0.0 10648 pipewire-pulse
+@ash20 PS 3968559  0.0  4488 dbus-daemon
+@ash20 PS 3968575  0.0  7044 sshd
+@ash20 PS 3968587  0.0  3632 bash
+@ash20 PS 3968744  100  4620 ps
+@ash20 PS 3968745  0.0  2328 sed
+@ash20 SEEN 1784986263
+@ash21 CPU 16 0.31
+@ash21 MEM 15909 1171
+@ash21 GPU 0, 81, 2048
+@ash21 PS  327364  1.2 11728 systemd
+@ash21 PS  327365  0.0  3420 (sd-pam)
+@ash21 PS  327386  0.0  8900 pipewire
+@ash21 PS  327387  0.0  6100 pipewire
+@ash21 PS  327389  0.1 15920 wireplumber
+@ash21 PS  327391  0.0 10732 pipewire-pulse
+@ash21 PS  327406  0.0  4556 dbus-daemon
+@ash21 PS  327421  0.0  7016 sshd
+@ash21 PS  327434  0.0  3604 bash
+@ash21 PS  327689  100  4620 ps
+@ash21 PS  327690  0.0  2328 sed
+@ash21 SEEN 1784986263
+@ash22 CPU 16 0.00
+@ash22 MEM 15909 1043
+@ash22 GPU 0, 98, 2048
+@ash22 PS 2675620  8.8 11876 systemd
+@ash22 PS 2675621  0.0  3424 (sd-pam)
+@ash22 PS 2675632  0.0  8896 pipewire
+@ash22 PS 2675633  0.0  6152 pipewire
+@ash22 PS 2675635  3.0 15968 wireplumber
+@ash22 PS 2675637  0.0 10732 pipewire-pulse
+@ash22 PS 2675653  0.0  4548 dbus-daemon
+@ash22 PS 2675667  0.0  7020 sshd
+@ash22 PS 2675680  0.0  3616 bash
+@ash22 PS 2675707  100  4624 ps
+@ash22 PS 2675708  0.0  2324 sed
+@ash22 SEEN 1784986268
+@ash23 CPU 16 1.23
+@ash23 MEM 15909 12707
+@ash23 GPU 3, 102, 2048
+@ash23 PS  177349 10.0 11708 systemd
+@ash23 PS  177353  0.0  3432 (sd-pam)
+@ash23 PS  177365  0.0  8712 pipewire
+@ash23 PS  177366  0.0  6012 pipewire
+@ash23 PS  177369  3.9 15716 wireplumber
+@ash23 PS  177370  0.0 10592 pipewire-pulse
+@ash23 PS  177387  0.9  4448 dbus-daemon
+@ash23 PS  177393  0.0  7020 sshd
+@ash23 PS  177413  0.0  3572 bash
+@ash23 PS  177485  100  4516 ps
+@ash23 PS  177486  0.0  2316 sed
+@ash23 SEEN 1784986267
+@ash24 CPU 16 0.04
+@ash24 MEM 15909 1062
+@ash24 GPU 0, 81, 2048
+@ash24 PS 4180605  8.7 11760 systemd
+@ash24 PS 4180606  0.0  3432 (sd-pam)
+@ash24 PS 4180626  0.0  8836 pipewire
+@ash24 PS 4180627  0.0  5960 pipewire
+@ash24 PS 4180629  3.0 15932 wireplumber
+@ash24 PS 4180631  0.0 10604 pipewire-pulse
+@ash24 PS 4180646  0.0  4468 dbus-daemon
+@ash24 PS 4180662  0.0  7004 sshd
+@ash24 PS 4180674  0.0  3508 bash
+@ash24 PS 4180700  100  4516 ps
+@ash24 PS 4180701  0.0  2320 sed
+@ash24 SEEN 1784986267
+@ash25 CPU 16 1.00
+@ash25 MEM 15909 4123
+@ash25 GPU 3, 99, 2048
+@ash25 PS 1263522  8.5 11720 systemd
+@ash25 PS 1263531  0.0  3444 (sd-pam)
+@ash25 PS 1263543  0.0  8768 pipewire
+@ash25 PS 1263544  0.0  5992 pipewire
+@ash25 PS 1263546  1.9 15832 wireplumber
+@ash25 PS 1263548  0.0 10588 pipewire-pulse
+@ash25 PS 1263563  0.0  4380 dbus-daemon
+@ash25 PS 1263578  0.0  6940 sshd
+@ash25 PS 1263591  0.0  3572 bash
+@ash25 PS 1263614  100  4496 ps
+@ash25 PS 1263615  0.0  2328 sed
+@ash25 SEEN 1784986267
+@ash26 CPU 16 1.08
+@ash26 MEM 15909 7020
+@ash26 GPU 0, 92, 2048
+@ash26 PS 4066949  9.8 11644 systemd
+@ash26 PS 4066950  0.0  3420 (sd-pam)
+@ash26 PS 4066962  0.0  8792 pipewire
+@ash26 PS 4066963  1.0  5964 pipewire
+@ash26 PS 4066965  2.0 15812 wireplumber
+@ash26 PS 4066967  1.0 10684 pipewire-pulse
+@ash26 PS 4066985  0.0  4432 dbus-daemon
+@ash26 PS 4066990  0.0  6884 sshd
+@ash26 PS 4067010  0.0  3588 bash
+@ash26 PS 4067040  100  4576 ps
+@ash26 PS 4067041  0.0  2284 sed
+@ash26 SEEN 1784986267
+@ash27 CPU 16 1.00
+@ash27 MEM 15909 11586
+@ash27 GPU 3, 81, 2048
+@ash27 PS 1102951 29.4 11844 systemd
+@ash27 PS 1102952  0.0  3412 (sd-pam)
+@ash27 PS 1102963  0.0  8832 pipewire
+@ash27 PS 1102964  0.0  6076 pipewire
+@ash27 PS 1102966 15.7 15628 wireplumber
+@ash27 PS 1102968  5.2 10604 pipewire-pulse
+@ash27 PS 1102982  0.0  4496 dbus-daemon
+@ash27 PS 1103000  0.0  6952 sshd
+@ash27 PS 1103019  0.0  3588 bash
+@ash27 PS 1103029  100  4544 ps
+@ash27 PS 1103030  0.0  2292 sed
+@ash27 SEEN 1784986265
+@ash28 CPU 16 1.16
+@ash28 MEM 15909 4558
+@ash28 GPU 0, 81, 2048
+@ash28 PS 3678499 10.3 11732 systemd
+@ash28 PS 3678500  0.0  3440 (sd-pam)
+@ash28 PS 3678520  1.1  8756 pipewire
+@ash28 PS 3678521  0.0  6032 pipewire
+@ash28 PS 3678523  3.3 15872 wireplumber
+@ash28 PS 3678525  0.0 10664 pipewire-pulse
+@ash28 PS 3678541  0.0  4472 dbus-daemon
+@ash28 PS 3678555  0.0  7004 sshd
+@ash28 PS 3678568  0.0  3608 bash
+@ash28 PS 3678582  100  4568 ps
+@ash28 PS 3678583  0.0  2320 sed
+@ash28 SEEN 1784986267
+@ash29 CPU 16 1.30
+@ash29 MEM 15909 14980
+@ash29 GPU 3, 84, 2048
+@ash29 PS 1351590  9.4 11848 systemd
+@ash29 PS 1351591  0.0  3444 (sd-pam)
+@ash29 PS 1351602  1.0  8788 pipewire
+@ash29 PS 1351603  0.0  6044 pipewire
+@ash29 PS 1351605  3.0 15784 wireplumber
+@ash29 PS 1351607  0.0 10676 pipewire-pulse
+@ash29 PS 1351623  0.0  4500 dbus-daemon
+@ash29 PS 1351630  0.0  6876 sshd
+@ash29 PS 1351650  0.0  3532 bash
+@ash29 PS 1351672  100  4556 ps
+@ash29 PS 1351673  0.0  2288 sed
+@ash29 SEEN 1784986268
+@ash30 CPU 16 0.00
+@ash30 MEM 15909 1071
+@ash30 GPU 0, 85, 2048
+@ash30 PS 3375748  9.0 11820 systemd
+@ash30 PS 3375749  0.0  3432 (sd-pam)
+@ash30 PS 3375762  0.0  8780 pipewire
+@ash30 PS 3375763  0.0  6084 pipewire
+@ash30 PS 3375765  2.0 15912 wireplumber
+@ash30 PS 3375767  0.0 10712 pipewire-pulse
+@ash30 PS 3375781  0.0  4464 dbus-daemon
+@ash30 PS 3375800  0.0  6964 sshd
+@ash30 PS 3375810  0.0  3560 bash
+@ash30 PS 3375832  100  4576 ps
+@ash30 PS 3375833  0.0  2328 sed
+@ash30 SEEN 1784986268
+@ash31 CPU 16 1.09
+@ash31 MEM 15909 9504
+@ash31 GPU 3, 81, 2048
+@ash31 PS 4088220  9.6 11832 systemd
+@ash31 PS 4088221  0.0  3428 (sd-pam)
+@ash31 PS 4088233  0.0  8824 pipewire
+@ash31 PS 4088234  0.0  6100 pipewire
+@ash31 PS 4088235  3.0 15848 wireplumber
+@ash31 PS 4088238  0.0 10724 pipewire-pulse
+@ash31 PS 4088254  0.0  4576 dbus-daemon
+@ash31 PS 4088268  0.0  6944 sshd
+@ash31 PS 4088281  0.0  3616 bash
+@ash31 PS 4088303  100  4616 ps
+@ash31 PS 4088304  0.0  2328 sed
+@ash31 SEEN 1784986267
+@ash32 CPU 16 0.00
+@ash32 MEM 15909 1120
+@ash32 GPU 3, 81, 2048
+@ash32 PS 3980128  8.9 11780 systemd
+@ash32 PS 3980129  0.0  3436 (sd-pam)
+@ash32 PS 3980137  0.0  8800 pipewire
+@ash32 PS 3980138  0.0  6052 pipewire
+@ash32 PS 3980141  3.0 15964 wireplumber
+@ash32 PS 3980143  0.0 10588 pipewire-pulse
+@ash32 PS 3980157  0.0  4500 dbus-daemon
+@ash32 PS 3980173  0.0  6976 sshd
+@ash32 PS 3980186  0.0  3576 bash
+@ash32 PS 3980214  100  4568 ps
+@ash32 PS 3980215  0.0  2320 sed
+@ash32 SEEN 1784986268
+@ash33 CPU 16 1.00
+@ash33 MEM 15909 10910
+@ash33 GPU 3, 92, 2048
+@ash33 PS 1849363  8.7 11692 systemd
+@ash33 PS 1849364  0.0  3440 (sd-pam)
+@ash33 PS 1849375  0.0  8868 pipewire
+@ash33 PS 1849376  0.0  6160 pipewire
+@ash33 PS 1849378  3.0 15788 wireplumber
+@ash33 PS 1849380  0.0 10680 pipewire-pulse
+@ash33 PS 1849395  0.0  4604 dbus-daemon
+@ash33 PS 1849413  0.0  6992 sshd
+@ash33 PS 1849423  0.0  3616 bash
+@ash33 PS 1849451  100  4588 ps
+@ash33 PS 1849452  0.0  2320 sed
+@ash33 SEEN 1784986267
+@ash34 CPU 16 0.31
+@ash34 MEM 15909 1258
+@ash34 GPU 0, 81, 2048
+@ash34 PS  725715  1.5 11944 systemd
+@ash34 PS  725716  0.0  3420 (sd-pam)
+@ash34 PS  725727  0.0  8776 pipewire
+@ash34 PS  725728  0.0  6024 pipewire
+@ash34 PS  725730  0.2 15860 wireplumber
+@ash34 PS  725732  0.0 10648 pipewire-pulse
+@ash34 PS  725749  0.0  4552 dbus-daemon
+@ash34 PS  725758  0.0  7020 sshd
+@ash34 PS  725783  0.0  3548 bash
+@ash34 PS  726385 16.6  4592 ps
+@ash34 PS  726386  0.0  2248 sed
+@ash34 SEEN 1784986283
+@ash35 CPU 16 1.56
+@ash35 MEM 15909 14807
+@ash35 GPU 0, 89, 2048
+@ash35 PS  961668  1.5 11532 systemd
+@ash35 PS  961669  0.0  3428 (sd-pam)
+@ash35 PS  961680  0.1  8744 pipewire
+@ash35 PS  961681  0.0  5996 pipewire
+@ash35 PS  961683  0.4 15556 wireplumber
+@ash35 PS  961685  0.1 10660 pipewire-pulse
+@ash35 PS  961700  0.0  4416 dbus-daemon
+@ash35 PS  961708  0.0  7060 sshd
+@ash35 PS  961728  0.0  3576 bash
+@ash35 PS  961827 16.6  4520 ps
+@ash35 PS  961828  0.0  2304 sed
+@ash35 SEEN 1784986283
+@ash36 CPU 16 1.62
+@ash36 MEM 15909 6747
+@ash36 GPU 0, 81, 2048
+@ash36 PS 3819561  1.5 11888 systemd
+@ash36 PS 3819562  0.0  3424 (sd-pam)
+@ash36 PS 3819573  0.0  8948 pipewire
+@ash36 PS 3819574  0.0  6088 pipewire
+@ash36 PS 3819576  0.3 15832 wireplumber
+@ash36 PS 3819578  0.0 10624 pipewire-pulse
+@ash36 PS 3819593  0.0  4548 dbus-daemon
+@ash36 PS 3819601  0.0  7012 sshd
+@ash36 PS 3819621  0.0  3572 bash
+@ash36 PS 3819704  0.0  4592 ps
+@ash36 PS 3819705  0.0  2328 sed
+@ash36 SEEN 1784986282
+@ash37 CPU 16 1.23
+@ash37 MEM 15909 13999
+@ash37 GPU 0, 81, 2048
+@ash37 PS  728255  1.6 11712 systemd
+@ash37 PS  728256  0.0  3428 (sd-pam)
+@ash37 PS  728268  0.0  8788 pipewire
+@ash37 PS  728269  0.0  5992 pipewire
+@ash37 PS  728271  0.4 15872 wireplumber
+@ash37 PS  728273  0.0 10516 pipewire-pulse
+@ash37 PS  728289  0.0  4504 dbus-daemon
+@ash37 PS  728301  0.0  6976 sshd
+@ash37 PS  728317  0.0  3544 bash
+@ash37 PS  728510 33.3  4500 ps
+@ash37 PS  728511  0.0  2248 sed
+@ash37 SEEN 1784986282
+@ash38 CPU 16 1.31
+@ash38 MEM 15909 2746
+@ash38 GPU 0, 93, 2048
+@ash38 PS 3809901  1.7 11940 systemd
+@ash38 PS 3809902  0.0  3428 (sd-pam)
+@ash38 PS 3809914  0.0  8956 pipewire
+@ash38 PS 3809915  0.0  6176 pipewire
+@ash38 PS 3809918  0.4 15908 wireplumber
+@ash38 PS 3809919  0.0 10792 pipewire-pulse
+@ash38 PS 3809935  0.0  4536 dbus-daemon
+@ash38 PS 3809950  0.0  7056 sshd
+@ash38 PS 3809962  0.0  3652 bash
+@ash38 PS 3810065 25.0  4632 ps
+@ash38 PS 3810066  0.0  2328 sed
+@ash38 SEEN 1784986283
+@ash39 CPU 16 0.08
+@ash39 MEM 15909 1207
+@ash39 GPU 0, 92, 2048
+@ash39 PS  150499  1.5 11728 systemd
+@ash39 PS  150500  0.0  3428 (sd-pam)
+@ash39 PS  150512  0.0  8808 pipewire
+@ash39 PS  150513  0.0  6108 pipewire
+@ash39 PS  150515  0.2 15924 wireplumber
+@ash39 PS  150517  0.0 10716 pipewire-pulse
+@ash39 PS  150533  0.0  4448 dbus-daemon
+@ash39 PS  150548  0.0  6988 sshd
+@ash39 PS  150561  0.0  3560 bash
+@ash39 PS  150664 11.1  4600 ps
+@ash39 PS  150665  0.0  2296 sed
+@ash39 SEEN 1784986284
+@ash40 CPU 16 0.22
+@ash40 MEM 15909 992
+@ash40 GPU 0, 86, 2048
+@ash40 PS  529550  1.6 11740 systemd
+@ash40 PS  529551  0.0  3432 (sd-pam)
+@ash40 PS  529563  0.0  8844 pipewire
+@ash40 PS  529564  0.0  6108 pipewire
+@ash40 PS  529566  0.2 15888 wireplumber
+@ash40 PS  529568  0.0 10596 pipewire-pulse
+@ash40 PS  529582  0.0  4460 dbus-daemon
+@ash40 PS  529600  0.0  7000 sshd
+@ash40 PS  529611  0.0  3596 bash
+@ash40 PS  529710 25.0  4556 ps
+@ash40 PS  529711  0.0  2328 sed
+@ash40 SEEN 1784986283
+@ash41 CPU 16 0.16
+@ash41 MEM 15393 1311
+@ash41 GPU 0, 88, 2048
+@ash41 PS 1081559  2.1 14140 systemd
+@ash41 PS 1081561  0.0  4076 (sd-pam)
+@ash41 PS 1081581  0.0  5208 dbus-daemon
+@ash41 PS 1081582  0.0  8372 pipewire
+@ash41 PS 1081590  0.0  4048 mpris-proxy
+@ash41 PS 1081593  0.8 26360 wireplumber
+@ash41 PS 1081596  0.0  5804 pipewire
+@ash41 PS 1081597  0.0 11000 pipewire-pulse
+@ash41 PS 1081624  0.0  8408 sshd-session
+@ash41 PS 1081625  0.0  3952 bash
+@ash41 PS 1081803 14.2  4736 ps
+@ash41 PS 1081804  0.0  2656 sed
+@ash41 SEEN 1784986283
+@batch1 CPU 64 14.79
+@batch1 MEM 515934 179104
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -7,20 +610,36 @@
 @batch1 PS  133145  0.0  1548 ssh-agent
 @batch1 PS  133629  0.0  3928 ssh-agent
 @batch1 PS  144395  0.0  3956 ssh-agent
-@batch1 PS  239176  0.0  3836 bash
 @batch1 PS  310352  0.0  2200 timeout
-@batch1 PS  310356  0.3  7924 git
-@batch1 PS  310460  0.6 767152 python
-@batch1 PS  357601  0.0  2400 bash
-@batch1 PS  357602  0.0  2196 timeout
-@batch1 PS  357603  0.0  2348 grep
-@batch1 PS  357604 34.6  9524 ssh
-@batch1 PS  357638  0.0  7092 sshd
-@batch1 PS  357639  0.0  3592 bash
-@batch1 PS  357649  0.0  6680 ps
-@batch1 PS  357650  0.0  2404 sed
+@batch1 PS  310460 84.2 2590708 python
+@batch1 PS  366316  0.0 11180 python
+@batch1 PS  366318 95.2 824788 python
+@batch1 PS  366319 64.9 824748 python
+@batch1 PS  374070  0.0  4568 dbus-daemon
 @batch1 PS  578483  0.0   768 ssh-agent
 @batch1 PS  581063  0.0   808 ssh-agent
+@batch1 PS  672039  0.0  4304 bash
+@batch1 PS  676248  0.0  3684 bash
+@batch1 PS  717215  0.0  2312 bash
+@batch1 PS  717216  0.0  2200 timeout
+@batch1 PS  717217  0.0  2340 grep
+@batch1 PS  717218  0.0  2128 tail
+@batch1 PS  717219  6.8  9532 ssh
+@batch1 PS  717362  0.0  3012 bash
+@batch1 PS  717363  0.0  3008 bash
+@batch1 PS  717364  0.0  3008 bash
+@batch1 PS  717369  0.0  2808 bash
+@batch1 PS  717370  0.0  2808 bash
+@batch1 PS  717377  0.0  2204 timeout
+@batch1 PS  717378  0.0  2128 timeout
+@batch1 PS  717379  0.0  2348 grep
+@batch1 PS  717380  0.0  2340 grep
+@batch1 PS  717402 29.7  9516 ssh
+@batch1 PS  717413 31.9  9516 ssh
+@batch1 PS  717457  0.0  7112 sshd
+@batch1 PS  717458  0.0  3652 bash
+@batch1 PS  717469 1500  6704 ps
+@batch1 PS  717470  0.0  2400 sed
 @batch1 PS  877349  0.0   768 ssh-agent
 @batch1 PS  885577  0.0   772 ssh-agent
 @batch1 PS 1004857  0.0   768 ssh-agent
@@ -51,9 +670,6 @@
 @batch1 PS 2907509  0.0  1868 bash
 @batch1 PS 2907515  0.0   768 ssh-agent
 @batch1 PS 2910328  0.0   764 ssh-agent
-@batch1 PS 2924918  0.0  2480 bash
-@batch1 PS 2925570  0.0  2336 python
-@batch1 PS 2925608  3.4 402540 python
 @batch1 PS 2931557  0.0  1544 ssh-agent
 @batch1 PS 2983015  0.0  3968 ssh-agent
 @batch1 PS 3001789  0.0  1544 ssh-agent
@@ -61,12 +677,12 @@
 @batch1 PS 3056213  0.0  1544 ssh-agent
 @batch1 PS 3057763  0.0   768 ssh-agent
 @batch1 PS 3075709  0.0   772 ssh-agent
-@batch1 PS 3076073  0.0 12400 tmux: server
+@batch1 PS 3076073  0.0 11928 tmux: server
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
 @batch1 PS 3084743  0.0  1508 ssh-agent
 @batch1 PS 3172141  0.0   768 ssh-agent
-@batch1 PS 3173663  0.0  1752 bash
+@batch1 PS 3173663  0.0  4288 bash
 @batch1 PS 3173679  0.0  2916 ssh-agent
 @batch1 PS 3275178  0.0   812 ssh-agent
 @batch1 PS 3275810  0.0   816 ssh-agent
@@ -80,19 +696,15 @@
 @batch1 PS 4049431  0.0  1548 ssh-agent
 @batch1 PS 4050669  0.0   772 ssh-agent
 @batch1 PS 4067814  0.0   768 ssh-agent
-@batch1 PS 4080390  0.0  8124 systemd
+@batch1 PS 4080390  0.0  8452 systemd
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1784974887
-@batch2 CPU 64 47.93
-@batch2 MEM 515774 336394
+@batch1 SEEN 1784986177
+@batch2 CPU 64 44.97
+@batch2 MEM 515774 339414
 @batch2 PS  196602  0.0  1204 ssh-agent
 @batch2 PS  209896  0.0  1204 ssh-agent
-@batch2 PS  311047  0.0  6260 sshd
-@batch2 PS  311048 16.6  3072 bash
-@batch2 PS  311058 1200  4096 ps
-@batch2 PS  311059  0.0  2048 sed
 @batch2 PS  383648  0.0  9728 systemd
 @batch2 PS  383649  0.0  2928 (sd-pam)
 @batch2 PS  383935  0.0  1204 ssh-agent
@@ -101,6 +713,10 @@
 @batch2 PS  387453  0.0  8636 tmux: server
 @batch2 PS  387454  0.0  4608 bash
 @batch2 PS  387461  0.0  2740 ssh-agent
+@batch2 PS  532901  0.0  6296 sshd
+@batch2 PS  532902  5.0  3072 bash
+@batch2 PS  532912 1100  4096 ps
+@batch2 PS  532913  0.0  2048 sed
 @batch2 PS 1696976  0.0  1204 ssh-agent
 @batch2 PS 1701352  0.0  3252 ssh-agent
 @batch2 PS 1704686  0.0  1204 ssh-agent
@@ -133,18 +749,454 @@
 @batch2 PS 3781114  0.0  1204 ssh-agent
 @batch2 PS 3782593  0.0  1204 ssh-agent
 @batch2 PS 3949839  0.0  1204 ssh-agent
-@batch2 SEEN 1784974893
-@gpu10 CPU 8 5.16
-@gpu10 MEM 64219 13876
+@batch2 SEEN 1784986177
+@beech01 CPU 16 1.16
+@beech01 MEM 13864 10699
+@beech01 GPU 0, 92, 4096
+@beech01 PS 1838963  1.7 11732 systemd
+@beech01 PS 1838964  0.0  3432 (sd-pam)
+@beech01 PS 1838973  0.1  8896 pipewire
+@beech01 PS 1838974  0.0  6100 pipewire
+@beech01 PS 1838977  0.4 16032 wireplumber
+@beech01 PS 1838978  0.0 10684 pipewire-pulse
+@beech01 PS 1838997  0.0  4532 dbus-daemon
+@beech01 PS 1839007  0.0  7020 sshd
+@beech01 PS 1839021  0.0  3520 bash
+@beech01 PS 1839139 16.6  4608 ps
+@beech01 PS 1839140  0.0  2284 sed
+@beech01 SEEN 1784986284
+@beech02 CPU 16 0.08
+@beech02 MEM 13864 1284
+@beech02 GPU 0, 82, 4096
+@beech02 PS  166780  1.7 11800 systemd
+@beech02 PS  166781  0.0  3428 (sd-pam)
+@beech02 PS  166792  0.0  8744 pipewire
+@beech02 PS  166793  0.0  6032 pipewire
+@beech02 PS  166795  0.4 15912 wireplumber
+@beech02 PS  166797  0.1 10620 pipewire-pulse
+@beech02 PS  166814  0.0  4432 dbus-daemon
+@beech02 PS  166820  0.0  6932 sshd
+@beech02 PS  166840  0.0  3600 bash
+@beech02 PS  166935 12.5  4508 ps
+@beech02 PS  166936  0.0  2308 sed
+@beech02 SEEN 1784986283
+@beech04 CPU 16 0.22
+@beech04 MEM 15880 999
+@beech04 GPU 0, 79, 4096
+@beech04 PS 3486113  1.8 11712 systemd
+@beech04 PS 3486114  0.0  3424 (sd-pam)
+@beech04 PS 3486126  0.0  8684 pipewire
+@beech04 PS 3486127  0.0  5988 pipewire
+@beech04 PS 3486129  0.4 15908 wireplumber
+@beech04 PS 3486131  0.0 10624 pipewire-pulse
+@beech04 PS 3486148  0.0  4444 dbus-daemon
+@beech04 PS 3486157  0.0  6956 sshd
+@beech04 PS 3486175  0.0  3568 bash
+@beech04 PS 3486278 20.0  4572 ps
+@beech04 PS 3486279  0.0  2264 sed
+@beech04 SEEN 1784986283
+@beech05 CPU 16 0.08
+@beech05 MEM 13864 1018
+@beech05 GPU 0, 82, 4096
+@beech05 PS  725082  1.8 11852 systemd
+@beech05 PS  725083  0.0  3420 (sd-pam)
+@beech05 PS  725102  0.0  8856 pipewire
+@beech05 PS  725103  0.0  6068 pipewire
+@beech05 PS  725104  0.4 16136 wireplumber
+@beech05 PS  725107  0.0 10696 pipewire-pulse
+@beech05 PS  725123  0.0  4516 dbus-daemon
+@beech05 PS  725137  0.0  7028 sshd
+@beech05 PS  725150  0.0  3520 bash
+@beech05 PS  725255  0.0  4612 ps
+@beech05 PS  725256  0.0  2320 sed
+@beech05 SEEN 1784986295
+@beech06 CPU 16 1.40
+@beech06 MEM 13864 10178
+@beech06 GPU 0, 4, 4096
+@beech06 PS 3731549  1.7 11536 systemd
+@beech06 PS 3731550  0.0  3404 (sd-pam)
+@beech06 PS 3731562  0.1  8748 pipewire
+@beech06 PS 3731563  0.0  6020 pipewire
+@beech06 PS 3731565  0.4 15864 wireplumber
+@beech06 PS 3731567  0.1 10632 pipewire-pulse
+@beech06 PS 3731583  0.0  4388 dbus-daemon
+@beech06 PS 3731590  0.0  7008 sshd
+@beech06 PS 3731610  0.0  3580 bash
+@beech06 PS 3731645  100  4512 ps
+@beech06 PS 3731646  0.0  2316 sed
+@beech06 SEEN 1784986295
+@beech07 CPU 16 1.86
+@beech07 MEM 13864 11609
+@beech07 GPU 0, 93, 4096
+@beech07 PS 3714479  1.4 11920 systemd
+@beech07 PS 3714480  0.0  3420 (sd-pam)
+@beech07 PS 3714492  0.0  8864 pipewire
+@beech07 PS 3714493  0.0  6052 pipewire
+@beech07 PS 3714495  0.4 15936 wireplumber
+@beech07 PS 3714497  0.0 10592 pipewire-pulse
+@beech07 PS 3714514  0.0  4472 dbus-daemon
+@beech07 PS 3714520  0.0  6920 sshd
+@beech07 PS 3714540  0.0  3588 bash
+@beech07 PS 3714637  100  4524 ps
+@beech07 PS 3714638  0.0  2280 sed
+@beech07 SEEN 1784986295
+@beech08 CPU 16 0.20
+@beech08 MEM 13864 1044
+@beech08 GPU 2, 82, 4096
+@beech08 PS  699994  1.6 11872 systemd
+@beech08 PS  700003  0.0  3440 (sd-pam)
+@beech08 PS  700014  0.0  8728 pipewire
+@beech08 PS  700015  0.0  6020 pipewire
+@beech08 PS  700018  0.4 16016 wireplumber
+@beech08 PS  700019  0.0 10464 pipewire-pulse
+@beech08 PS  700038  0.0  4516 dbus-daemon
+@beech08 PS  700043  0.0  7012 sshd
+@beech08 PS  700062  0.0  3476 bash
+@beech08 PS  700172  0.0  4496 ps
+@beech08 PS  700173  0.0  2216 sed
+@beech08 SEEN 1784986295
+@beech09 CPU 16 0.41
+@beech09 MEM 13864 3938
+@beech09 GPU 0, 82, 4096
+@beech09 PS  604200  1.7 11860 systemd
+@beech09 PS  604201  0.0  3428 (sd-pam)
+@beech09 PS  604212  0.1  8856 pipewire
+@beech09 PS  604213  0.0  6076 pipewire
+@beech09 PS  604216  0.4 15976 wireplumber
+@beech09 PS  604217  0.0 10712 pipewire-pulse
+@beech09 PS  604235  0.0  4504 dbus-daemon
+@beech09 PS  604244  0.0  6948 sshd
+@beech09 PS  604260  0.0  3612 bash
+@beech09 PS  604772  100  4588 ps
+@beech09 PS  604773  0.0  2272 sed
+@beech09 SEEN 1784986295
+@beech11 CPU 16 1.52
+@beech11 MEM 13864 1320
+@beech11 GPU 0, 82, 4096
+@beech11 PS 2824053  1.7 11912 systemd
+@beech11 PS 2824054  0.0  3448 (sd-pam)
+@beech11 PS 2824066  0.1  8728 pipewire
+@beech11 PS 2824067  0.0  6056 pipewire
+@beech11 PS 2824069  0.4 16180 wireplumber
+@beech11 PS 2824071  0.0 10628 pipewire-pulse
+@beech11 PS 2824087  0.0  4456 dbus-daemon
+@beech11 PS 2824101  0.0  7048 sshd
+@beech11 PS 2824114  0.0  3560 bash
+@beech11 PS 2824308  100  4568 ps
+@beech11 PS 2824309  0.0  2312 sed
+@beech11 SEEN 1784986295
+@beech12 CPU 16 0.16
+@beech12 MEM 13864 996
+@beech12 GPU 0, 82, 4096
+@beech12 PS  705332  1.5 11704 systemd
+@beech12 PS  705333  0.0  3424 (sd-pam)
+@beech12 PS  705345  0.0  8820 pipewire
+@beech12 PS  705346  0.0  6024 pipewire
+@beech12 PS  705348  0.4 15784 wireplumber
+@beech12 PS  705350  0.0 10692 pipewire-pulse
+@beech12 PS  705367  0.0  4472 dbus-daemon
+@beech12 PS  705378  0.0  6948 sshd
+@beech12 PS  705393  0.0  3592 bash
+@beech12 PS  705477  100  4584 ps
+@beech12 PS  705478  0.0  2328 sed
+@beech12 SEEN 1784986295
+@beech13 CPU 16 0.33
+@beech13 MEM 13864 2386
+@beech13 GPU 0, 89, 4096
+@beech13 PS 3600620  1.9 12044 systemd
+@beech13 PS 3600621  0.0  3424 (sd-pam)
+@beech13 PS 3600633  0.0  8832 pipewire
+@beech13 PS 3600634  0.0  6132 pipewire
+@beech13 PS 3600636  0.4 15852 wireplumber
+@beech13 PS 3600638  0.1 10720 pipewire-pulse
+@beech13 PS 3600653  0.0  4524 dbus-daemon
+@beech13 PS 3600669  0.0  7012 sshd
+@beech13 PS 3600681  0.0  3612 bash
+@beech13 PS 3601215  0.0  4668 ps
+@beech13 PS 3601216  0.0  2328 sed
+@beech13 SEEN 1784986295
+@beech14 CPU 16 0.31
+@beech14 MEM 13864 1044
+@beech14 GPU 0, 4, 4096
+@beech14 PS  738012  1.8 11748 systemd
+@beech14 PS  738013  0.0  3416 (sd-pam)
+@beech14 PS  738025  0.0  8820 pipewire
+@beech14 PS  738026  0.0  6048 pipewire
+@beech14 PS  738028  0.4 15864 wireplumber
+@beech14 PS  738030  0.1 10632 pipewire-pulse
+@beech14 PS  738046  0.0  4496 dbus-daemon
+@beech14 PS  738060  0.0  7000 sshd
+@beech14 PS  738073  0.0  3628 bash
+@beech14 PS  738106  100  4596 ps
+@beech14 PS  738107  0.0  2324 sed
+@beech14 SEEN 1784986295
+@beech15 CPU 16 1.06
+@beech15 MEM 13864 9522
+@beech15 GPU 0, 85, 4096
+@beech15 PS  523455  5.5 11680 systemd
+@beech15 PS  523456  0.0  3428 (sd-pam)
+@beech15 PS  523467  0.5  8704 pipewire
+@beech15 PS  523468  0.0  5940 pipewire
+@beech15 PS  523470  1.6 15884 wireplumber
+@beech15 PS  523472  0.0 10556 pipewire-pulse
+@beech15 PS  523487  0.0  4400 dbus-daemon
+@beech15 PS  523502  0.0  7000 sshd
+@beech15 PS  523515  0.0  3528 bash
+@beech15 PS  523544  100  4484 ps
+@beech15 PS  523545  0.0  2324 sed
+@beech15 SEEN 1784986295
+@beech16 CPU 16 1.74
+@beech16 MEM 15880 7748
+@beech16 GPU 0, 82, 4096
+@beech16 PS  762055  1.7 11764 systemd
+@beech16 PS  762056  0.0  3420 (sd-pam)
+@beech16 PS  762067  0.0  8852 pipewire
+@beech16 PS  762068  0.1  6068 pipewire
+@beech16 PS  762069  0.4 15988 wireplumber
+@beech16 PS  762072  0.0 10620 pipewire-pulse
+@beech16 PS  762088  0.0  4488 dbus-daemon
+@beech16 PS  762102  0.0  7044 sshd
+@beech16 PS  762115  0.0  3568 bash
+@beech16 PS  762209  0.0  4568 ps
+@beech16 PS  762210  0.0  2316 sed
+@beech16 SEEN 1784986295
+@beech17 CPU 16 2.90
+@beech17 MEM 15881 1956
+@beech17 GPU 0, 82, 4096
+@beech17 PS  612257 31.4 11460 systemd
+@beech17 PS  612258  0.0  3396 (sd-pam)
+@beech17 PS  612270  5.8  8556 pipewire
+@beech17 PS  612271  0.0  6028 pipewire
+@beech17 PS  612273 23.5 15876 wireplumber
+@beech17 PS  612275  0.0 10524 pipewire-pulse
+@beech17 PS  612291  0.0  4440 dbus-daemon
+@beech17 PS  612374  0.0  6984 sshd
+@beech17 PS  612379  0.0  3576 bash
+@beech17 PS  612389  0.0  4520 ps
+@beech17 PS  612390  0.0  2300 sed
+@beech17 SEEN 1784986297
+@beech18 CPU 16 1.06
+@beech18 MEM 15880 4384
+@beech18 GPU 0, 82, 4096
+@beech18 PS 1662418 21.4 11712 systemd
+@beech18 PS 1662419  0.0  3424 (sd-pam)
+@beech18 PS 1662431  2.5  8776 pipewire
+@beech18 PS 1662432  0.0  6040 pipewire
+@beech18 PS 1662433  7.5 15912 wireplumber
+@beech18 PS 1662436  0.0 10668 pipewire-pulse
+@beech18 PS 1662451  0.0  4436 dbus-daemon
+@beech18 PS 1662467  0.0  6888 sshd
+@beech18 PS 1662481  0.0  3576 bash
+@beech18 PS 1662496  100  4516 ps
+@beech18 PS 1662497  0.0  2324 sed
+@beech18 SEEN 1784986298
+@beech19 CPU 16 0.08
+@beech19 MEM 15881 1083
+@beech19 GPU 2, 82, 4096
+@beech19 PS   38935 16.4 11936 systemd
+@beech19 PS   38936  0.0  3428 (sd-pam)
+@beech19 PS   38948  2.0  8808 pipewire
+@beech19 PS   38949  0.0  6040 pipewire
+@beech19 PS   38951  6.0 16252 wireplumber
+@beech19 PS   38953  0.0 10720 pipewire-pulse
+@beech19 PS   38970  0.0  4520 dbus-daemon
+@beech19 PS   38981  0.0  7016 sshd
+@beech19 PS   38996  0.0  3608 bash
+@beech19 PS   39018  0.0  4600 ps
+@beech19 PS   39019  0.0  2328 sed
+@beech19 SEEN 1784986298
+@beech20 CPU 16 1.70
+@beech20 MEM 15364 1519
+@beech20 GPU 0, 89, 4096
+@beech20 PS  903797 23.6 14104 systemd
+@beech20 PS  903798  0.0  4080 (sd-pam)
+@beech20 PS  903819  0.0  5116 dbus-daemon
+@beech20 PS  903820  0.0  8436 pipewire
+@beech20 PS  903829  0.0  4152 mpris-proxy
+@beech20 PS  903831 15.1 21628 wireplumber
+@beech20 PS  903833  0.0  5780 pipewire
+@beech20 PS  903835  3.0 11056 pipewire-pulse
+@beech20 PS  903861  0.0  8292 sshd-session
+@beech20 PS  903863  0.0  3964 bash
+@beech20 PS  903958  100  4740 ps
+@beech20 PS  903959  0.0  2716 sed
+@beech20 SEEN 1784986298
+@cedar02 CPU 16 0.16
+@cedar02 MEM 31668 1596
+@cedar02 PS 1424121  5.5 11676 systemd
+@cedar02 PS 1424122  0.0  3408 (sd-pam)
+@cedar02 PS 1424134  0.5  8832 pipewire
+@cedar02 PS 1424135  0.5  6012 pipewire
+@cedar02 PS 1424136  1.6 16056 wireplumber
+@cedar02 PS 1424137  0.5 10612 pipewire-pulse
+@cedar02 PS 1424160  0.0  4476 dbus-daemon
+@cedar02 PS 1424162  0.0  7112 sshd
+@cedar02 PS 1424182  0.0  3624 bash
+@cedar02 PS 1424221  0.0  4580 ps
+@cedar02 PS 1424222  0.0  2316 sed
+@cedar02 SEEN 1784986363
+@cedar03 CPU 16 0.02
+@cedar03 MEM 31668 1513
+@cedar03 PS 2045291  5.0 11800 systemd
+@cedar03 PS 2045292  0.0  3408 (sd-pam)
+@cedar03 PS 2045304  0.6  8728 pipewire
+@cedar03 PS 2045305  0.6  5920 pipewire
+@cedar03 PS 2045306  2.7 15800 wireplumber
+@cedar03 PS 2045309  0.6 10628 pipewire-pulse
+@cedar03 PS 2045325  0.0  4436 dbus-daemon
+@cedar03 PS 2045339  0.0  7004 sshd
+@cedar03 PS 2045352  0.0  3544 bash
+@cedar03 PS 2045375 12.5  4468 ps
+@cedar03 PS 2045376  0.0  2276 sed
+@cedar03 SEEN 1784986374
+@cedar04 CPU 16 0.18
+@cedar04 MEM 31669 1523
+@cedar04 PS 1151454  6.0 11968 systemd
+@cedar04 PS 1151455  0.0  3432 (sd-pam)
+@cedar04 PS 1151466  0.8  8760 pipewire
+@cedar04 PS 1151467  0.8  6108 pipewire
+@cedar04 PS 1151470  3.3 16220 wireplumber
+@cedar04 PS 1151472  0.0 10668 pipewire-pulse
+@cedar04 PS 1151490  0.0  4468 dbus-daemon
+@cedar04 PS 1151494  0.0  7076 sshd
+@cedar04 PS 1151514  0.0  3656 bash
+@cedar04 PS 1151536  0.0  4556 ps
+@cedar04 PS 1151537  0.0  2316 sed
+@cedar04 SEEN 1784986374
+@cedar05 CPU 16 0.25
+@cedar05 MEM 31668 1656
+@cedar05 PS 2990715  5.8 11792 systemd
+@cedar05 PS 2990716  0.0  3400 (sd-pam)
+@cedar05 PS 2990736  0.0  8700 pipewire
+@cedar05 PS 2990737  0.0  5956 pipewire
+@cedar05 PS 2990740  2.8 16036 wireplumber
+@cedar05 PS 2990741  0.0 10652 pipewire-pulse
+@cedar05 PS 2990757  0.0  4456 dbus-daemon
+@cedar05 PS 2990772  0.0  7096 sshd
+@cedar05 PS 2990784  0.0  3620 bash
+@cedar05 PS 2990807  0.0  4516 ps
+@cedar05 PS 2990808  0.0  2308 sed
+@cedar05 SEEN 1784986374
+@cedar06 CPU 16 1.02
+@cedar06 MEM 31152 1607
+@cedar06 PS  906500  7.5 14196 systemd
+@cedar06 PS  906501  0.0  4108 (sd-pam)
+@cedar06 PS  906521  0.0  5376 dbus-daemon
+@cedar06 PS  906522  0.0  8396 pipewire
+@cedar06 PS  906529  0.0  4136 mpris-proxy
+@cedar06 PS  906531  4.0 26944 wireplumber
+@cedar06 PS  906532  0.8  5864 pipewire
+@cedar06 PS  906534  0.8 10932 pipewire-pulse
+@cedar06 PS  906563  0.0  8440 sshd-session
+@cedar06 PS  906565  0.0  3992 bash
+@cedar06 PS  906663  0.0  4828 ps
+@cedar06 PS  906664  0.0  2788 sed
+@cedar06 SEEN 1784986374
+@cedar07 CPU 16 0.16
+@cedar07 MEM 31668 1555
+@cedar07 PS 1115269  6.4 11696 systemd
+@cedar07 PS 1115270  0.0  3412 (sd-pam)
+@cedar07 PS 1115281  0.8  8816 pipewire
+@cedar07 PS 1115282  0.8  6068 pipewire
+@cedar07 PS 1115283  3.2 15964 wireplumber
+@cedar07 PS 1115285  0.8 10664 pipewire-pulse
+@cedar07 PS 1115300  0.0  4448 dbus-daemon
+@cedar07 PS 1115319  0.0  7052 sshd
+@cedar07 PS 1115329  0.0  3616 bash
+@cedar07 PS 1115351  0.0  4552 ps
+@cedar07 PS 1115352  0.0  2316 sed
+@cedar07 SEEN 1784986374
+@curve01 CPU 12 1.44
+@curve01 MEM 15917 7552
+@curve01 GPU [N/A], 91, 2000
+@curve01 APP [N/A], [N/A]
+@curve01 PS 3673738  2.1 11608 systemd
+@curve01 PS 3673739  0.0  3412 (sd-pam)
+@curve01 PS 3673747  0.1  8692 pipewire
+@curve01 PS 3673748  0.1  5936 pipewire
+@curve01 PS 3673750  0.6 15700 wireplumber
+@curve01 PS 3673751  0.2 10640 pipewire-pulse
+@curve01 PS 3673763  0.1  4444 dbus-daemon
+@curve01 PS 3673791  0.0  6992 sshd
+@curve01 PS 3673799  0.0  3600 bash
+@curve01 PS 3673916 12.5  4480 ps
+@curve01 PS 3673917  0.0  2276 sed
+@curve01 SEEN 1784986344
+@curve02 CPU 12 1.42
+@curve02 MEM 15917 11064
+@curve02 GPU [N/A], 89, 2000
+@curve02 APP [N/A], [N/A]
+@curve02 PS 3929064  2.2 11708 systemd
+@curve02 PS 3929065  0.0  3392 (sd-pam)
+@curve02 PS 3929085  0.3  8612 pipewire
+@curve02 PS 3929086  0.2  6032 pipewire
+@curve02 PS 3929088  0.7 15640 wireplumber
+@curve02 PS 3929090  0.2 10520 pipewire-pulse
+@curve02 PS 3929098  0.1  4340 dbus-daemon
+@curve02 PS 3929119  0.0  7048 sshd
+@curve02 PS 3929134  0.0  3536 bash
+@curve02 PS 3929257  3.8  4532 ps
+@curve02 PS 3929258  0.0  2316 sed
+@curve02 SEEN 1784986345
+@curve03 CPU 12 0.10
+@curve03 MEM 15917 943
+@curve03 GPU [N/A], 92, 2000
+@curve03 APP [N/A], [N/A]
+@curve03 PS 2423964  9.3 11552 systemd
+@curve03 PS 2423965  0.0  3416 (sd-pam)
+@curve03 PS 2423981  1.0  8872 pipewire
+@curve03 PS 2423982  0.5  6100 pipewire
+@curve03 PS 2423985  3.0 15804 wireplumber
+@curve03 PS 2423986  1.0 10752 pipewire-pulse
+@curve03 PS 2424003  0.5  4480 dbus-daemon
+@curve03 PS 2424021  0.0  7020 sshd
+@curve03 PS 2424033  0.0  3592 bash
+@curve03 PS 2424070 25.0  4588 ps
+@curve03 PS 2424071  0.0  2332 sed
+@curve03 SEEN 1784986363
+@curve04 CPU 12 2.02
+@curve04 MEM 15917 15419
+@curve04 GPU [N/A], 82, 2000
+@curve04 APP [N/A], [N/A]
+@curve04 PS 3160307  6.0 11592 systemd
+@curve04 PS 3160308  0.0  3376 (sd-pam)
+@curve04 PS 3160327  0.6  8736 pipewire
+@curve04 PS 3160328  0.3  5984 pipewire
+@curve04 PS 3160329  2.2 15852 wireplumber
+@curve04 PS 3160332  0.6 10612 pipewire-pulse
+@curve04 PS 3160343  0.6  4492 dbus-daemon
+@curve04 PS 3160355  0.0  7052 sshd
+@curve04 PS 3160375  0.0  3560 bash
+@curve04 PS 3160433 25.0  4532 ps
+@curve04 PS 3160434  0.0  2284 sed
+@curve04 SEEN 1784986363
+@curve06 CPU 12 0.40
+@curve06 MEM 15917 1430
+@curve06 GPU [N/A], 78, 2000
+@curve06 APP [N/A], [N/A]
+@curve06 PS 2199965  9.5 11676 systemd
+@curve06 PS 2199966  0.0  3404 (sd-pam)
+@curve06 PS 2199986  1.0  8832 pipewire
+@curve06 PS 2199987  0.5  6032 pipewire
+@curve06 PS 2199988  3.7 15756 wireplumber
+@curve06 PS 2199989  1.0 10676 pipewire-pulse
+@curve06 PS 2200003  0.5  4512 dbus-daemon
+@curve06 PS 2200026  0.0  6972 sshd
+@curve06 PS 2200037  0.0  3576 bash
+@curve06 PS 2200108 40.0  4532 ps
+@curve06 PS 2200109  0.0  2288 sed
+@curve06 SEEN 1784986363
+@gpu10 CPU 8 4.71
+@gpu10 MEM 64219 13114
 @gpu10 GPU 0, 992, 12288
 @gpu10 APP 3513899, 906
-@gpu10 PS 1082644  0.0 11940 systemd
-@gpu10 PS 1082645  0.0  3388 (sd-pam)
-@gpu10 PS 1082657  0.0  8792 pipewire
+@gpu10 PS 1082644  0.0 11920 systemd
+@gpu10 PS 1082645  0.0  3384 (sd-pam)
+@gpu10 PS 1082657  0.0  8592 pipewire
 @gpu10 PS 1082658  0.0  6088 pipewire
-@gpu10 PS 1082659  0.0 16032 wireplumber
-@gpu10 PS 1082662  0.0 10744 pipewire-pulse
-@gpu10 PS 1082681  0.0  4468 dbus-daemon
+@gpu10 PS 1082659  0.0 15892 wireplumber
+@gpu10 PS 1082662  0.0 10576 pipewire-pulse
+@gpu10 PS 1082681  0.0  4300 dbus-daemon
 @gpu10 PS 1082770  0.0  1344 ssh-agent
 @gpu10 PS 1083425  0.0  1344 ssh-agent
 @gpu10 PS 1086402  0.0  1344 ssh-agent
@@ -161,29 +1213,29 @@
 @gpu10 PS 1235533  0.0  1344 ssh-agent
 @gpu10 PS 1240491  0.0  1340 ssh-agent
 @gpu10 PS 1240808  0.0  1344 ssh-agent
-@gpu10 PS 1247204  0.0   812 ssh-agent
-@gpu10 PS 1249427  0.0   772 ssh-agent
+@gpu10 PS 1247204  0.0   736 ssh-agent
+@gpu10 PS 1249427  0.0   648 ssh-agent
 @gpu10 PS 1284061  0.0  1344 ssh-agent
-@gpu10 PS 1289574  0.0   600 ssh-agent
+@gpu10 PS 1289574  0.0   596 ssh-agent
 @gpu10 PS 1289969  0.0   588 ssh-agent
-@gpu10 PS 1290186  0.0  2024 timeout
-@gpu10 PS 1290314 97.3 1755476 python
-@gpu10 PS 1299150  0.0  7664 python
-@gpu10 PS 1299169 60.0 671468 python
-@gpu10 PS 1299170 94.8 662900 python
-@gpu10 PS 1751302  0.0  7100 sshd
-@gpu10 PS 1751303  0.0  3672 bash
-@gpu10 PS 1751313  0.0  4644 ps
-@gpu10 PS 1751314  0.0  2332 sed
-@gpu10 SEEN 1784974746
-@gpu11 CPU 8 2.51
-@gpu11 MEM 64219 5511
+@gpu10 PS 1290186  0.0  2012 timeout
+@gpu10 PS 1290314 97.9 1229616 python
+@gpu10 PS 1299150  0.0  6892 python
+@gpu10 PS 1299169 67.4 504172 python
+@gpu10 PS 1299170 88.3 512708 python
+@gpu10 PS 1899555  0.0  7096 sshd
+@gpu10 PS 1899556  0.0  3588 bash
+@gpu10 PS 1899566  0.0  4632 ps
+@gpu10 PS 1899567  0.0  2332 sed
+@gpu10 SEEN 1784986157
+@gpu11 CPU 8 2.16
+@gpu11 MEM 64219 5734
 @gpu11 GPU 0, 180, 12288
 @gpu11 APP 4040792, 99
-@gpu11 PS  307267  0.0  7064 sshd
-@gpu11 PS  307268  0.0  3648 bash
-@gpu11 PS  307280  0.0  4604 ps
-@gpu11 PS  307281  0.0  2340 sed
+@gpu11 PS  454569  0.0  7092 sshd
+@gpu11 PS  454570  0.0  3588 bash
+@gpu11 PS  454580  0.0  4596 ps
+@gpu11 PS  454581  0.0  2344 sed
 @gpu11 PS 1759118  0.0 11444 systemd
 @gpu11 PS 1759119  0.0  3252 (sd-pam)
 @gpu11 PS 1759131  0.0  6224 pipewire
@@ -217,16 +1269,16 @@
 @gpu11 PS 4039139  0.0  1544 ssh-agent
 @gpu11 PS 4039471  0.0  1544 ssh-agent
 @gpu11 PS 4040130  0.0  2140 timeout
-@gpu11 PS 4040792 96.3 1152192 python
+@gpu11 PS 4040792 96.9 1157164 python
 @gpu11 PS 4050230  0.0 11140 python
-@gpu11 PS 4050241 21.5 804152 python
-@gpu11 PS 4050242 21.7 803544 python
-@gpu11 SEEN 1784974751
-@gpu12 CPU 8 4.69
-@gpu12 MEM 64219 24944
-@gpu12 GPU 0, 192, 12288
+@gpu11 PS 4050241 21.9 804160 python
+@gpu11 PS 4050242 22.0 803552 python
+@gpu11 SEEN 1784986157
+@gpu12 CPU 8 4.81
+@gpu12 MEM 64219 26172
+@gpu12 GPU 0, 182, 12288
 @gpu12 APP 1447335, 99
-@gpu12 PS 1217340  0.0 11904 systemd
+@gpu12 PS 1217340  0.0 11912 systemd
 @gpu12 PS 1217341  0.0  3444 (sd-pam)
 @gpu12 PS 1217354  0.0  8784 pipewire
 @gpu12 PS 1217355  0.0  6100 pipewire
@@ -253,18 +1305,18 @@
 @gpu12 PS 1443615  0.0  1548 ssh-agent
 @gpu12 PS 1445503  0.0  1544 ssh-agent
 @gpu12 PS 1446713  0.0  2132 timeout
-@gpu12 PS 1447335 96.8 1321468 python
+@gpu12 PS 1447335 97.2 1332720 python
 @gpu12 PS 1454839  0.0 11120 python
-@gpu12 PS 1454850 35.8 804036 python
-@gpu12 PS 1454851 34.9 804688 python
-@gpu12 PS 1960758  0.0  7164 sshd
-@gpu12 PS 1960759  0.0  3648 bash
-@gpu12 PS 1960769  0.0  4616 ps
-@gpu12 PS 1960770  0.0  2332 sed
-@gpu12 SEEN 1784974757
-@gpu13 CPU 8 0.11
-@gpu13 MEM 64217 2154
-@gpu13 GPU 0, 145, 8192
+@gpu12 PS 1454850 35.7 804068 python
+@gpu12 PS 1454851 35.8 804820 python
+@gpu12 PS 2128940  0.0  7128 sshd
+@gpu12 PS 2128941  0.0  3588 bash
+@gpu12 PS 2128951  0.0  4624 ps
+@gpu12 PS 2128952  0.0  2328 sed
+@gpu12 SEEN 1784986157
+@gpu13 CPU 8 0.12
+@gpu13 MEM 64217 2150
+@gpu13 GPU 1, 145, 8192
 @gpu13 PS  965213  0.0 11976 systemd
 @gpu13 PS  965214  0.0  3436 (sd-pam)
 @gpu13 PS  965225  0.0  8812 pipewire
@@ -285,21 +1337,21 @@
 @gpu13 PS 1107687  0.0  1540 ssh-agent
 @gpu13 PS 1117079  0.0  1544 ssh-agent
 @gpu13 PS 1165598  0.0  1548 ssh-agent
-@gpu13 PS 1654089  0.0  7104 sshd
-@gpu13 PS 1654090  0.0  3636 bash
-@gpu13 PS 1654122 33.3  4608 ps
-@gpu13 PS 1654123  0.0  2324 sed
-@gpu13 SEEN 1784974761
-@gpu14 CPU 8 3.43
-@gpu14 MEM 64219 4729
+@gpu13 PS 1810137  0.0  7092 sshd
+@gpu13 PS 1810139  0.0  3644 bash
+@gpu13 PS 1810172  0.0  4592 ps
+@gpu13 PS 1810173  0.0  2340 sed
+@gpu13 SEEN 1784986158
+@gpu14 CPU 8 7.61
+@gpu14 MEM 64219 4726
 @gpu14 GPU 0, 186, 8192
 @gpu14 APP 2807283, 104
 @gpu14 PS 2590227  0.0 12036 systemd
 @gpu14 PS 2590228  0.0  3420 (sd-pam)
 @gpu14 PS 2590239  0.0  8844 pipewire
 @gpu14 PS 2590240  0.0  6144 pipewire
-@gpu14 PS 2590242  0.0 15932 wireplumber
-@gpu14 PS 2590244  0.0 10736 pipewire-pulse
+@gpu14 PS 2590242  0.0 15916 wireplumber
+@gpu14 PS 2590244  0.0 10720 pipewire-pulse
 @gpu14 PS 2590257  0.0  4540 dbus-daemon
 @gpu14 PS 2590289  0.0  1512 ssh-agent
 @gpu14 PS 2590899  0.0  1516 ssh-agent
@@ -321,21 +1373,20 @@
 @gpu14 PS 2802781  0.0  1512 ssh-agent
 @gpu14 PS 2805515  0.0  1508 ssh-agent
 @gpu14 PS 2806660  0.0  2128 timeout
-@gpu14 PS 2807283 96.2 1201756 python
-@gpu14 PS 2813787  0.0 11044 python
-@gpu14 PS 2813798 24.8 784512 python
-@gpu14 PS 2813799 24.2 784756 python
+@gpu14 PS 2807283 96.7 1177312 python
+@gpu14 PS 2813787  0.0 10980 python
+@gpu14 PS 2813798 25.2 782948 python
+@gpu14 PS 2813799 24.7 783232 python
 @gpu14 PS 2817343  0.0  1512 ssh-agent
-@gpu14 PS 3278648  0.0  7136 sshd
-@gpu14 PS 3278649  0.0  3604 bash
-@gpu14 PS 3278659  0.0  4640 ps
-@gpu14 PS 3278660  0.0  2324 sed
-@gpu14 SEEN 1784974765
-@gpu15 CPU 8 4.15
-@gpu15 MEM 32011 5903
-@gpu15 GPU 98, 7452, 8192
-@gpu15 APP 3430099, 7370
-@gpu15 PS 3210805  0.0 11864 systemd
+@gpu14 PS 3430938  0.0  7088 sshd
+@gpu14 PS 3430939  0.0  3644 bash
+@gpu14 PS 3430949  0.0  4608 ps
+@gpu14 PS 3430950  0.0  2332 sed
+@gpu14 SEEN 1784986157
+@gpu15 CPU 8 2.22
+@gpu15 MEM 32011 4759
+@gpu15 GPU 0, 82, 8192
+@gpu15 PS 3210805  0.0 11868 systemd
 @gpu15 PS 3210808  0.0  3424 (sd-pam)
 @gpu15 PS 3210824  0.0  8956 pipewire
 @gpu15 PS 3210828  0.0  6156 pipewire
@@ -362,20 +1413,19 @@
 @gpu15 PS 3417632  0.0  1544 ssh-agent
 @gpu15 PS 3419215  0.0  1544 ssh-agent
 @gpu15 PS 3420044  0.0  2144 timeout
-@gpu15 PS 3420621 97.6 2681960 python
+@gpu15 PS 3420621 98.1 2695372 python
 @gpu15 PS 3426873  0.0 11104 python
-@gpu15 PS 3426885 46.9 843916 python
-@gpu15 PS 3426886 52.4 833356 python
-@gpu15 PS 3874094  0.0  7104 sshd
-@gpu15 PS 3874095  0.0  3656 bash
-@gpu15 PS 3874105  0.0  4648 ps
-@gpu15 PS 3874106  0.0  2340 sed
-@gpu15 SEEN 1784974768
-@gpu16 CPU 8 3.82
-@gpu16 MEM 32011 6013
-@gpu16 GPU 100, 7462, 8192
-@gpu16 APP 874705, 7370
-@gpu16 PS  655298  0.0 11816 systemd
+@gpu15 PS 3426885 42.9 846148 python
+@gpu15 PS 3426886 56.5 837952 python
+@gpu15 PS 4021024  0.0  7100 sshd
+@gpu15 PS 4021025  0.0  3696 bash
+@gpu15 PS 4021041  0.0  4644 ps
+@gpu15 PS 4021042  0.0  2340 sed
+@gpu15 SEEN 1784986157
+@gpu16 CPU 8 2.10
+@gpu16 MEM 32011 5014
+@gpu16 GPU 1, 82, 8192
+@gpu16 PS  655298  0.0 11828 systemd
 @gpu16 PS  655299  0.0  3420 (sd-pam)
 @gpu16 PS  655312  0.0  8316 pipewire
 @gpu16 PS  655313  0.0  6196 pipewire
@@ -402,18 +1452,18 @@
 @gpu16 PS  863652  0.0  1404 ssh-agent
 @gpu16 PS  865573  0.0  1412 ssh-agent
 @gpu16 PS  866675  0.0  2132 timeout
-@gpu16 PS  867259 97.4 2660192 python
+@gpu16 PS  867259 98.0 2670960 python
 @gpu16 PS  876910  0.0 11076 python
-@gpu16 PS  876947 56.1 829016 python
-@gpu16 PS  876948 53.1 839660 python
-@gpu16 PS 1318526  0.0  7076 sshd
-@gpu16 PS 1318527  0.0  3640 bash
-@gpu16 PS 1318537  0.0  4628 ps
-@gpu16 PS 1318538  0.0  2336 sed
-@gpu16 SEEN 1784974770
-@gpu18 CPU 16 1.02
-@gpu18 MEM 64031 11742
-@gpu18 GPU 0, 7782, 11264
+@gpu16 PS  876947 65.5 836400 python
+@gpu16 PS  876948 51.2 828204 python
+@gpu16 PS 1465164  0.0  7164 sshd
+@gpu16 PS 1465166  0.0  3632 bash
+@gpu16 PS 1465184  0.0  4620 ps
+@gpu16 PS 1465185  0.0  2332 sed
+@gpu16 SEEN 1784986157
+@gpu18 CPU 16 0.23
+@gpu18 MEM 64031 2292
+@gpu18 GPU 1, 7782, 11264
 @gpu18 APP 2166928, 7690
 @gpu18 PS  400761  0.1  6984 systemd
 @gpu18 PS  400762  0.0  1616 (sd-pam)
@@ -437,13 +1487,13 @@
 @gpu18 PS  535376  0.0  1544 ssh-agent
 @gpu18 PS  540795  0.0  1540 ssh-agent
 @gpu18 PS  561877  0.0  1548 ssh-agent
-@gpu18 PS  581853  0.0  1544 ssh-agent
+@gpu18 PS  581853  0.0  1524 ssh-agent
 @gpu18 PS  592059  0.0  1544 ssh-agent
 @gpu18 PS  642990  0.0  1544 ssh-agent
-@gpu18 PS 1155125  0.0  7100 sshd
-@gpu18 PS 1155126  0.0  3704 bash
-@gpu18 PS 1155171  100  4708 ps
-@gpu18 PS 1155172  0.0  2404 sed
+@gpu18 PS 1319230  0.0  7196 sshd
+@gpu18 PS 1319231  0.0  3652 bash
+@gpu18 PS 1319243  0.0  4700 ps
+@gpu18 PS 1319244  0.0  2404 sed
 @gpu18 PS 3457594  0.0   572 ssh-agent
 @gpu18 PS 3458006  0.0 10384 code-fc3def6774
 @gpu18 PS 3458193  0.0   572 ssh-agent
@@ -451,9 +1501,9 @@
 @gpu18 PS 3459085  0.0   628 ssh-agent
 @gpu18 PS 3459777  0.0   572 ssh-agent
 @gpu18 PS 3459886  0.0   636 ssh-agent
-@gpu18 SEEN 1784974773
-@gpu19 CPU 8 1.14
-@gpu19 MEM 64034 13001
+@gpu18 SEEN 1784986158
+@gpu19 CPU 8 2.35
+@gpu19 MEM 64034 13061
 @gpu19 GPU 0, 1242, 11264
 @gpu19 APP 1816481, 1152
 @gpu19 PS  130876  0.0 11608 systemd
@@ -476,20 +1526,25 @@
 @gpu19 PS  279307  0.0  1340 ssh-agent
 @gpu19 PS  291668  0.0  1344 ssh-agent
 @gpu19 PS  340586  0.0  1348 ssh-agent
-@gpu19 PS  842678  0.0  7240 sshd
-@gpu19 PS  842680  3.2  3748 bash
-@gpu19 PS  842694  0.0  4684 ps
-@gpu19 PS  842695  0.0  2396 sed
-@gpu19 SEEN 1784974776
-@gpu20 CPU 16 1.01
-@gpu20 MEM 64031 4530
-@gpu20 GPU 43, 8402, 11264
-@gpu20 APP 4103655, 8312
-@gpu20 PS   97782  0.0  7180 sshd
-@gpu20 PS   97783  0.0  3712 bash
-@gpu20 PS   97797  0.0  4624 ps
-@gpu20 PS   97798  0.0  2404 sed
-@gpu20 PS 3526296  0.1 12144 systemd
+@gpu19 PS 1000058  0.0  7248 sshd
+@gpu19 PS 1000059  0.0  3712 bash
+@gpu19 PS 1000083  100  4696 ps
+@gpu19 PS 1000084  0.0  2396 sed
+@gpu19 SEEN 1784986158
+@gpu20 CPU 16 2.02
+@gpu20 MEM 64031 3835
+@gpu20 GPU 0, 90, 11264
+@gpu20 PS  251981  0.0  7152 sshd
+@gpu20 PS  251982  0.0  3632 bash
+@gpu20 PS  251984  0.8  8172 git
+@gpu20 PS  251985  0.0  2080 tail
+@gpu20 PS  263840  0.0  7104 sshd
+@gpu20 PS  263841 11.3 763524 python3
+@gpu20 PS  267084  0.0  7080 sshd
+@gpu20 PS  267085  0.0  3696 bash
+@gpu20 PS  267105  0.0  4628 ps
+@gpu20 PS  267106  0.0  2388 sed
+@gpu20 PS 3526296  0.1 12148 systemd
 @gpu20 PS 3526297  0.0  3432 (sd-pam)
 @gpu20 PS 3526309  0.0  8976 pipewire
 @gpu20 PS 3526310  0.0  6080 pipewire
@@ -526,11 +1581,12 @@
 @gpu20 PS 4160133  0.0  1544 ssh-agent
 @gpu20 PS 4168295  0.0  1544 ssh-agent
 @gpu20 PS 4175043  0.0  1548 ssh-agent
-@gpu20 SEEN 1784974779
-@gpu21 CPU 16 4.94
-@gpu21 MEM 64031 11326
-@gpu21 GPU 0, 93, 11264
-@gpu21 PS 2389611  0.0 12144 systemd
+@gpu20 SEEN 1784986158
+@gpu21 CPU 16 3.49
+@gpu21 MEM 64031 6396
+@gpu21 GPU 0, 491, 11264
+@gpu21 APP 3221200, 398
+@gpu21 PS 2389611  0.0 12160 systemd
 @gpu21 PS 2389612  0.0  3428 (sd-pam)
 @gpu21 PS 2389624  0.0  9044 pipewire
 @gpu21 PS 2389625  0.0  6212 pipewire
@@ -552,15 +1608,16 @@
 @gpu21 PS 2523695  0.0  1544 ssh-agent
 @gpu21 PS 2553919  0.0  1544 ssh-agent
 @gpu21 PS 2606195  0.0  1544 ssh-agent
-@gpu21 PS 3131039  0.0  7264 sshd
-@gpu21 PS 3131040  0.0  3756 bash
-@gpu21 PS 3131052  0.0  4744 ps
-@gpu21 PS 3131053  0.0  2396 sed
-@gpu21 SEEN 1784974785
-@gpu22 CPU 8 1.17
-@gpu22 MEM 64026 7922
-@gpu22 GPU 0, 30, 11264
-@gpu22 PS 2807355  0.0 11604 systemd
+@gpu21 PS 3297539  0.0  7244 sshd
+@gpu21 PS 3297540  0.0  3656 bash
+@gpu21 PS 3297554  0.0  4752 ps
+@gpu21 PS 3297555  0.0  2392 sed
+@gpu21 SEEN 1784986157
+@gpu22 CPU 8 3.02
+@gpu22 MEM 64026 3483
+@gpu22 GPU 99, 6140, 11264
+@gpu22 APP 3594823, 6110
+@gpu22 PS 2807355  0.0 11612 systemd
 @gpu22 PS 2807356  0.0  3392 (sd-pam)
 @gpu22 PS 2807370  0.0  8356 pipewire
 @gpu22 PS 2807372  0.0  5776 pipewire
@@ -580,16 +1637,16 @@
 @gpu22 PS 2955389  0.0  1544 ssh-agent
 @gpu22 PS 2965247  0.0  1536 ssh-agent
 @gpu22 PS 3014414  0.0  1544 ssh-agent
-@gpu22 PS 3512237  0.0  7144 sshd
-@gpu22 PS 3512238  0.0  3644 bash
-@gpu22 PS 3512257  200  4688 ps
-@gpu22 PS 3512258  0.0  2400 sed
-@gpu22 SEEN 1784974808
-@gpu23 CPU 8 2.02
-@gpu23 MEM 15914 3235
-@gpu23 GPU 1, 186, 8192
+@gpu22 PS 3670565  0.0  7148 sshd
+@gpu22 PS 3670566  0.0  3644 bash
+@gpu22 PS 3670578  0.0  4684 ps
+@gpu22 PS 3670579  0.0  2396 sed
+@gpu22 SEEN 1784986158
+@gpu23 CPU 8 2.10
+@gpu23 MEM 15914 3238
+@gpu23 GPU 0, 186, 8192
 @gpu23 APP 716059, 104
-@gpu23 PS  500804  0.0 11556 systemd
+@gpu23 PS  500804  0.0 11560 systemd
 @gpu23 PS  500805  0.0  3556 (sd-pam)
 @gpu23 PS  500817  0.0  8776 pipewire
 @gpu23 PS  500818  0.0  5996 pipewire
@@ -616,20 +1673,20 @@
 @gpu23 PS  712840  0.0  1544 ssh-agent
 @gpu23 PS  714873  0.0  1544 ssh-agent
 @gpu23 PS  715886  0.0  2196 timeout
-@gpu23 PS  716059 96.1 1332884 python
+@gpu23 PS  716059 96.9 1335932 python
 @gpu23 PS  724552  0.0 11040 python
-@gpu23 PS  724574 34.8 800692 python
-@gpu23 PS  724575 34.6 800908 python
-@gpu23 PS 1165834  0.0  6992 sshd
-@gpu23 PS 1165835  0.0  3652 bash
-@gpu23 PS 1165845  0.0  4624 ps
-@gpu23 PS 1165846  0.0  2380 sed
-@gpu23 SEEN 1784974810
+@gpu23 PS  724574 35.6 799748 python
+@gpu23 PS  724575 34.6 799876 python
+@gpu23 PS 1311486  0.0  7116 sshd
+@gpu23 PS 1311487  0.0  3648 bash
+@gpu23 PS 1311497  0.0  4612 ps
+@gpu23 PS 1311498  0.0  2400 sed
+@gpu23 SEEN 1784986169
 @gpu24 CPU 8 2.34
-@gpu24 MEM 15915 3086
+@gpu24 MEM 15915 3082
 @gpu24 GPU 0, 203, 8192
 @gpu24 APP 807373, 104
-@gpu24 PS  588822  0.0 11684 systemd
+@gpu24 PS  588822  0.0 11688 systemd
 @gpu24 PS  588823  0.0  3552 (sd-pam)
 @gpu24 PS  588835  0.0  8856 pipewire
 @gpu24 PS  588836  0.0  6068 pipewire
@@ -656,17 +1713,17 @@
 @gpu24 PS  805447  0.0  1548 ssh-agent
 @gpu24 PS  806379  0.0  1544 ssh-agent
 @gpu24 PS  807228  0.0  2152 timeout
-@gpu24 PS  807373 95.8 1203440 python
+@gpu24 PS  807373 96.5 1201952 python
 @gpu24 PS  816926  0.0 11072 python
-@gpu24 PS  816939 25.5 796364 python
-@gpu24 PS  816941 24.9 796456 python
-@gpu24 PS 1264213  0.0  7040 sshd
-@gpu24 PS 1264214  0.0  3544 bash
-@gpu24 PS 1264224  0.0  4568 ps
-@gpu24 PS 1264225  0.0  2352 sed
-@gpu24 SEEN 1784974816
-@gpu26 CPU 8 1.13
-@gpu26 MEM 64219 11627
+@gpu24 PS  816939 26.1 796396 python
+@gpu24 PS  816941 25.3 796488 python
+@gpu24 PS 1415590  0.0  6936 sshd
+@gpu24 PS 1415591  0.0  3660 bash
+@gpu24 PS 1415602  0.0  4512 ps
+@gpu24 PS 1415603  0.0  2336 sed
+@gpu24 SEEN 1784986169
+@gpu26 CPU 8 1.27
+@gpu26 MEM 64219 11642
 @gpu26 GPU 0, 957, 8192
 @gpu26 APP 1658320, 826
 @gpu26 PS 2807640  0.0 12120 systemd
@@ -689,15 +1746,15 @@
 @gpu26 PS 2946249  0.0  1544 ssh-agent
 @gpu26 PS 2954552  0.0  1540 ssh-agent
 @gpu26 PS 3000547  0.0  1540 ssh-agent
-@gpu26 PS 3466299  0.0  6992 sshd
-@gpu26 PS 3466300  0.0  3616 bash
-@gpu26 PS 3466319  0.0  4616 ps
-@gpu26 PS 3466320  0.0  2336 sed
-@gpu26 SEEN 1784974823
-@gpu27 CPU 8 2.00
-@gpu27 MEM 64219 5617
-@gpu27 GPU 0, 137, 8192
-@gpu27 PS 1649112  0.0 12060 systemd
+@gpu26 PS 3613977  0.0  7032 sshd
+@gpu26 PS 3613978  0.0  3632 bash
+@gpu26 PS 3613991  0.0  4612 ps
+@gpu26 PS 3613992  0.0  2332 sed
+@gpu26 SEEN 1784986169
+@gpu27 CPU 8 3.06
+@gpu27 MEM 64219 5626
+@gpu27 GPU 1, 137, 8192
+@gpu27 PS 1649112  0.0 12068 systemd
 @gpu27 PS 1649113  0.0  3448 (sd-pam)
 @gpu27 PS 1649125  0.0  8932 pipewire
 @gpu27 PS 1649126  0.0  6188 pipewire
@@ -725,19 +1782,19 @@
 @gpu27 PS 1863611  0.0  1544 ssh-agent
 @gpu27 PS 1864888  0.0  1544 ssh-agent
 @gpu27 PS 1865963  0.0  2140 timeout
-@gpu27 PS 1866760 97.8 2649264 python
+@gpu27 PS 1866760 98.3 2658208 python
 @gpu27 PS 1875233  0.0 11208 python
-@gpu27 PS 1875245 77.3 841316 python
-@gpu27 PS 1875246 50.4 843544 python
-@gpu27 PS 2309690  0.0  7144 sshd
-@gpu27 PS 2309691  0.0  3632 bash
-@gpu27 PS 2309710  0.0  4644 ps
-@gpu27 PS 2309711  0.0  2340 sed
-@gpu27 SEEN 1784974831
-@gpu28 CPU 8 3.32
-@gpu28 MEM 64034 10898
+@gpu27 PS 1875245 83.0 841316 python
+@gpu27 PS 1875246 41.9 844660 python
+@gpu27 PS 2456817  0.0  7152 sshd
+@gpu27 PS 2456818  0.0  3628 bash
+@gpu27 PS 2456837  100  4620 ps
+@gpu27 PS 2456838  0.0  2340 sed
+@gpu27 SEEN 1784986169
+@gpu28 CPU 8 0.05
+@gpu28 MEM 64034 2663
 @gpu28 GPU 0, 30, 11264
-@gpu28 PS 2709876  0.0 12196 systemd
+@gpu28 PS 2709876  0.0 12200 systemd
 @gpu28 PS 2709879  0.0  3420 (sd-pam)
 @gpu28 PS 2709892  0.0  8964 pipewire
 @gpu28 PS 2709893  0.0  6196 pipewire
@@ -757,14 +1814,15 @@
 @gpu28 PS 2861151  0.0  1544 ssh-agent
 @gpu28 PS 2869332  0.0  1548 ssh-agent
 @gpu28 PS 2918408  0.0  1544 ssh-agent
-@gpu28 PS 3427128  0.0  7132 sshd
-@gpu28 PS 3427130  0.0  3736 bash
-@gpu28 PS 3427143  0.0  4652 ps
-@gpu28 PS 3427144  0.0  2400 sed
-@gpu28 SEEN 1784974835
-@gpu29 CPU 8 0.28
-@gpu29 MEM 64034 2854
-@gpu29 GPU 1, 30, 11264
+@gpu28 PS 3589614  0.0  7172 sshd
+@gpu28 PS 3589615  0.0  3644 bash
+@gpu28 PS 3589649  8.3  4672 ps
+@gpu28 PS 3589650  0.0  2392 sed
+@gpu28 SEEN 1784986169
+@gpu29 CPU 8 3.20
+@gpu29 MEM 64034 4153
+@gpu29 GPU 98, 6298, 11264
+@gpu29 APP 3456016, 6268
 @gpu29 PS   71370  0.0 12148 systemd
 @gpu29 PS   71371  0.0  3380 (sd-pam)
 @gpu29 PS   71385  0.0  8760 pipewire
@@ -789,17 +1847,16 @@
 @gpu29 PS 2837742  0.0  1544 ssh-agent
 @gpu29 PS 2866188  0.0  1544 ssh-agent
 @gpu29 PS 2915984  0.0  1540 ssh-agent
-@gpu29 PS 3412973  0.0  7208 sshd
-@gpu29 PS 3412974  0.0  3652 bash
-@gpu29 PS 3412996  0.0  4680 ps
-@gpu29 PS 3412997  0.0  2396 sed
-@gpu29 SEEN 1784974839
-@gpu30 CPU 8 2.76
-@gpu30 MEM 64034 6652
-@gpu30 GPU 92, 1296, 11264
-@gpu30 APP 2192432, 796
-@gpu30 APP 2245803, 200
-@gpu30 APP 2249373, 200
+@gpu29 PS 3571378  0.0  7184 sshd
+@gpu29 PS 3571379  0.0  3736 bash
+@gpu29 PS 3571391  0.0  4668 ps
+@gpu29 PS 3571392  0.0  2400 sed
+@gpu29 SEEN 1784986169
+@gpu30 CPU 8 5.20
+@gpu30 MEM 64034 5890
+@gpu30 GPU 98, 6561, 11264
+@gpu30 APP 2296967, 6268
+@gpu30 APP 2417069, 200
 @gpu30 PS 1320975  0.0 12348 systemd
 @gpu30 PS 1320976  0.0  3388 (sd-pam)
 @gpu30 PS 1320988  0.0  8908 pipewire
@@ -824,15 +1881,15 @@
 @gpu30 PS 1623588  0.0  1540 ssh-agent
 @gpu30 PS 1655487  0.0  1540 ssh-agent
 @gpu30 PS 1707337  0.0  1544 ssh-agent
-@gpu30 PS 2249702  0.0  7272 sshd
-@gpu30 PS 2249703  0.0  3700 bash
-@gpu30 PS 2249715  0.0  4684 ps
-@gpu30 PS 2249716  0.0  2388 sed
+@gpu30 PS 2420108  0.0  7168 sshd
+@gpu30 PS 2420109  0.0  3728 bash
+@gpu30 PS 2420121  0.0  4708 ps
+@gpu30 PS 2420122  0.0  2396 sed
 @gpu30 PS 2711469  0.0  1544 ssh-agent
-@gpu30 SEEN 1784974842
-@gpu31 CPU 16 0.58
-@gpu31 MEM 64222 7524
-@gpu31 GPU 44, 15784, 16376
+@gpu30 SEEN 1784986169
+@gpu31 CPU 16 1.15
+@gpu31 MEM 64222 7592
+@gpu31 GPU 40, 15784, 16376
 @gpu31 APP 1053180, 15730
 @gpu31 PS   61986  0.0  1544 ssh-agent
 @gpu31 PS   64407  0.0  1548 ssh-agent
@@ -845,15 +1902,15 @@
 @gpu31 PS  137296  0.0  1540 ssh-agent
 @gpu31 PS  145519  0.0  1544 ssh-agent
 @gpu31 PS  198098  0.0  1544 ssh-agent
-@gpu31 PS  726065  0.0  7076 sshd
-@gpu31 PS  726066  0.0  3660 bash
-@gpu31 PS  726078  0.0  4608 ps
-@gpu31 PS  726079  0.0  2328 sed
+@gpu31 PS  902892  0.0  6976 sshd
+@gpu31 PS  902893  0.0  3560 bash
+@gpu31 PS  902919  100  4604 ps
+@gpu31 PS  902920  0.0  2324 sed
 @gpu31 PS 1006990  0.0  3212 ssh-agent
 @gpu31 PS 1019141  0.0  1536 ssh-agent
 @gpu31 PS 1054479  0.0  1548 ssh-agent
 @gpu31 PS 1055277  0.0  3240 ssh-agent
-@gpu31 PS 2787120  0.0 12140 systemd
+@gpu31 PS 2787120  0.0 12144 systemd
 @gpu31 PS 2787121  0.0  3412 (sd-pam)
 @gpu31 PS 2787141  0.0  8828 pipewire
 @gpu31 PS 2787142  0.0  6144 pipewire
@@ -870,9 +1927,9 @@
 @gpu31 PS 4184808  0.0  1548 ssh-agent
 @gpu31 PS 4188786  0.0  1540 ssh-agent
 @gpu31 PS 4191131  0.0  1540 ssh-agent
-@gpu31 SEEN 1784974844
-@gpu32 CPU 16 1.00
-@gpu32 MEM 64222 4342
+@gpu31 SEEN 1784986169
+@gpu32 CPU 16 1.07
+@gpu32 MEM 64222 4412
 @gpu32 GPU 100, 14619, 16376
 @gpu32 APP 3164258, 14510
 @gpu32 PS  371686  0.0  1548 ssh-agent
@@ -908,15 +1965,19 @@
 @gpu32 PS 1681930  0.0  1544 ssh-agent
 @gpu32 PS 1688875  0.0  1548 ssh-agent
 @gpu32 PS 1744375  0.0  1536 ssh-agent
-@gpu32 PS 2301675  0.0  6944 sshd
-@gpu32 PS 2301676  0.0  3672 bash
-@gpu32 PS 2301698  0.0  4628 ps
-@gpu32 PS 2301699  0.0  2328 sed
-@gpu32 SEEN 1784974848
-@gpu33 CPU 16 3.02
-@gpu33 MEM 64221 17935
-@gpu33 GPU 0, 14729, 16376
+@gpu32 PS 2478381  0.0  7052 sshd
+@gpu32 PS 2478382  0.0  3656 bash
+@gpu32 PS 2478404  0.0  4644 ps
+@gpu32 PS 2478405  0.0  2336 sed
+@gpu32 SEEN 1784986169
+@gpu33 CPU 16 0.02
+@gpu33 MEM 64221 8281
+@gpu33 GPU 2, 14729, 16376
 @gpu33 APP 76697, 14686
+@gpu33 PS   33129  0.0  7012 sshd
+@gpu33 PS   33138  0.0  3588 bash
+@gpu33 PS   33152  0.0  4612 ps
+@gpu33 PS   33153  0.0  2336 sed
 @gpu33 PS  458314  0.1 11980 systemd
 @gpu33 PS  458315  0.0  3412 (sd-pam)
 @gpu33 PS  458326  0.0  8780 pipewire
@@ -925,7 +1986,7 @@
 @gpu33 PS  458331  0.0 10620 pipewire-pulse
 @gpu33 PS  458348  0.0  4416 dbus-daemon
 @gpu33 PS  458376  0.0  1480 ssh-agent
-@gpu33 PS  458764  0.0 18052 code-4fe60c8b1c
+@gpu33 PS  458764  0.0 18048 code-4fe60c8b1c
 @gpu33 PS  458919  0.0  1480 ssh-agent
 @gpu33 PS  459267  0.0  1480 ssh-agent
 @gpu33 PS  460198  0.0  1484 ssh-agent
@@ -972,21 +2033,18 @@
 @gpu33 PS 3453676  0.0  1548 ssh-agent
 @gpu33 PS 3462153  0.0  1544 ssh-agent
 @gpu33 PS 3515572  0.0  1544 ssh-agent
-@gpu33 PS 4057621  0.0  7096 sshd
-@gpu33 PS 4057622  0.0  3680 bash
-@gpu33 PS 4057644  100  4644 ps
-@gpu33 PS 4057645  0.0  2340 sed
-@gpu33 SEEN 1784974853
-@gpu34 CPU 16 4.50
-@gpu34 MEM 48093 13772
-@gpu34 GPU 89, 2655, 16376
+@gpu33 SEEN 1784986169
+@gpu34 CPU 16 5.58
+@gpu34 MEM 48093 17822
+@gpu34 GPU 100, 6686, 16376
 @gpu34 APP 3486643, 1908
-@gpu34 APP 4177840, 636
-@gpu34 PS   36899  0.0  7008 sshd
-@gpu34 PS   36900  0.0  3632 bash
-@gpu34 PS   36922  100  4560 ps
-@gpu34 PS   36923  0.0  2324 sed
-@gpu34 PS 3477213  0.0 11968 systemd
+@gpu34 APP 146715, 922
+@gpu34 APP 203255, 3740
+@gpu34 PS  219408  0.0  6924 sshd
+@gpu34 PS  219409  0.0  3636 bash
+@gpu34 PS  219430  0.0  4596 ps
+@gpu34 PS  219431  0.0  2324 sed
+@gpu34 PS 3477213  0.0 11988 systemd
 @gpu34 PS 3477214  0.0  3412 (sd-pam)
 @gpu34 PS 3477228  0.0  8620 pipewire
 @gpu34 PS 3477229  0.0  6088 pipewire
@@ -1008,14 +2066,15 @@
 @gpu34 PS 3643306  0.0  1344 ssh-agent
 @gpu34 PS 3651530  0.0  1348 ssh-agent
 @gpu34 PS 3703453  0.0  1344 ssh-agent
-@gpu34 SEEN 1784974862
-@gpu35 CPU 16 7.94
-@gpu35 MEM 64222 11884
-@gpu35 GPU 31, 14447, 16376
+@gpu34 SEEN 1784986169
+@gpu35 CPU 16 7.05
+@gpu35 MEM 64222 18819
+@gpu35 GPU 88, 15096, 16376
 @gpu35 APP 1849357, 1238
 @gpu35 APP 105858, 5490
 @gpu35 APP 1944071, 1498
 @gpu35 APP 1769190, 6106
+@gpu35 APP 2161212, 644
 @gpu35 PS  154829  0.0  1340 ssh-agent
 @gpu35 PS 1200274  0.0  1544 ssh-agent
 @gpu35 PS 1205912  0.0  1544 ssh-agent
@@ -1033,10 +2092,10 @@
 @gpu35 PS 1411198  0.0  1544 ssh-agent
 @gpu35 PS 1419793  0.0  1548 ssh-agent
 @gpu35 PS 1481521  0.0  1540 ssh-agent
-@gpu35 PS 2053874  0.0  7084 sshd
-@gpu35 PS 2053875  0.0  3604 bash
-@gpu35 PS 2053887  0.0  4660 ps
-@gpu35 PS 2053888  0.0  2328 sed
+@gpu35 PS 2268401  0.0  7060 sshd
+@gpu35 PS 2268404  0.0  3604 bash
+@gpu35 PS 2268428  0.0  4672 ps
+@gpu35 PS 2268429  0.0  2332 sed
 @gpu35 PS 2528523  0.0 11372 systemd
 @gpu35 PS 2528524  0.0  3332 (sd-pam)
 @gpu35 PS 2528536  0.0  7136 pipewire
@@ -1045,15 +2104,17 @@
 @gpu35 PS 2528540  0.0  8820 pipewire-pulse
 @gpu35 PS 2528557  0.0  4252 dbus-daemon
 @gpu35 PS 2528640  0.0  1348 ssh-agent
-@gpu35 SEEN 1784974866
-@gpu36 CPU 16 1.33
-@gpu36 MEM 64222 6915
-@gpu36 GPU 16, 7135, 16376
+@gpu35 SEEN 1784986169
+@gpu36 CPU 16 4.79
+@gpu36 MEM 64222 9478
+@gpu36 GPU 99, 13093, 16376
 @gpu36 APP 3376358, 7026
-@gpu36 PS  135049  0.0  7020 sshd
-@gpu36 PS  135050  0.0  3692 bash
-@gpu36 PS  135072  0.0  4608 ps
-@gpu36 PS  135073  0.0  2328 sed
+@gpu36 APP 198091, 624
+@gpu36 APP 444250, 5324
+@gpu36 PS  478596  0.0  7036 sshd
+@gpu36 PS  478597  0.0  3612 bash
+@gpu36 PS  478611  0.0  4604 ps
+@gpu36 PS  478612  0.0  2336 sed
 @gpu36 PS 1025487  0.0  1424 ssh-agent
 @gpu36 PS 1266388  0.0 11480 systemd
 @gpu36 PS 1266389  0.0  3108 (sd-pam)
@@ -1081,6 +2142,3127 @@
 @gpu36 PS 3062824  0.0  1424 ssh-agent
 @gpu36 PS 3125206  0.0  1420 ssh-agent
 @gpu36 PS 3231967  0.0  1416 ssh-agent
-@gpu36 SEEN 1784974872
+@gpu36 SEEN 1784986177
+@maple10 CPU 16 0.14
+@maple10 MEM 29856 2031
+@maple10 PS 3448436  9.1 11984 systemd
+@maple10 PS 3448437  0.0  3488 (sd-pam)
+@maple10 PS 3448449  0.0  8632 pipewire
+@maple10 PS 3448450  0.0  5996 pipewire
+@maple10 PS 3448451  2.3 16100 wireplumber
+@maple10 PS 3448454  0.0 10564 pipewire-pulse
+@maple10 PS 3448468  0.0  4552 dbus-daemon
+@maple10 PS 3448485  0.0  7176 sshd
+@maple10 PS 3448505  0.0  3680 bash
+@maple10 PS 3448521 50.0  4588 ps
+@maple10 PS 3448522  0.0  2448 sed
+@maple10 SEEN 1784986182
+@poplar01 CPU 24 1.04
+@poplar01 MEM 15658 1648
+@poplar01 PS 2036159  0.1 11736 systemd
+@poplar01 PS 2036160  0.0  3416 (sd-pam)
+@poplar01 PS 2036171  0.0  8696 pipewire
+@poplar01 PS 2036172  0.0  6024 pipewire
+@poplar01 PS 2036174  0.0 16056 wireplumber
+@poplar01 PS 2036176  0.0 10740 pipewire-pulse
+@poplar01 PS 2036191  0.0  4460 dbus-daemon
+@poplar01 PS 2036231  0.0  3600 bash
+@poplar01 PS 2036236  0.0  3604 bash
+@poplar01 PS 2036260  0.0  1980 bash
+@poplar01 PS 2036261  0.0  2056 sleep
+@poplar01 PS 2036264  0.0  2096 timeout
+@poplar01 PS 2036265  2.2 759832 python
+@poplar01 PS 2039842  0.0  2052 sleep
+@poplar01 PS 2040548  0.0  6964 sshd
+@poplar01 PS 2040549  0.0  3552 bash
+@poplar01 PS 2040559  0.0  4544 ps
+@poplar01 PS 2040560  0.0  2300 sed
+@poplar01 SEEN 1784986218
+@poplar02 CPU 24 2.09
+@poplar02 MEM 15658 13860
+@poplar02 PS 2032275  0.1 11552 systemd
+@poplar02 PS 2032276  0.0  3408 (sd-pam)
+@poplar02 PS 2032296  0.0  8780 pipewire
+@poplar02 PS 2032297  0.0  5984 pipewire
+@poplar02 PS 2032299  0.0 15920 wireplumber
+@poplar02 PS 2032301  0.0 10576 pipewire-pulse
+@poplar02 PS 2032320  0.0  4468 dbus-daemon
+@poplar02 PS 2032355  0.0  3584 bash
+@poplar02 PS 2032360  0.0  3620 bash
+@poplar02 PS 2032370  0.0  1948 bash
+@poplar02 PS 2032371  0.0  2036 sleep
+@poplar02 PS 2032374  0.0  2084 timeout
+@poplar02 PS 2032375  0.9 715704 python
+@poplar02 PS 2036009  0.0  2040 sleep
+@poplar02 PS 2036864  0.0  7044 sshd
+@poplar02 PS 2036865  0.0  3592 bash
+@poplar02 PS 2036875  0.0  4592 ps
+@poplar02 PS 2036876  0.0  2280 sed
+@poplar02 SEEN 1784986219
+@poplar03 CPU 24 1.06
+@poplar03 MEM 15658 1532
+@poplar03 PS  387699  0.1 11560 systemd
+@poplar03 PS  387700  0.0  3420 (sd-pam)
+@poplar03 PS  387720  0.0  8680 pipewire
+@poplar03 PS  387721  0.0  5992 pipewire
+@poplar03 PS  387723  0.0 15748 wireplumber
+@poplar03 PS  387725  0.0 10588 pipewire-pulse
+@poplar03 PS  387744  0.0  4380 dbus-daemon
+@poplar03 PS  387778  0.0  3608 bash
+@poplar03 PS  387783  0.0  3568 bash
+@poplar03 PS  387793  0.0  1952 bash
+@poplar03 PS  387794  0.0  2024 sleep
+@poplar03 PS  387797  0.0  2104 timeout
+@poplar03 PS  387798  2.0 654660 python
+@poplar03 PS  391406  0.0  2024 sleep
+@poplar03 PS  392205  0.0  7120 sshd
+@poplar03 PS  392206  0.0  3580 bash
+@poplar03 PS  392216  0.0  4496 ps
+@poplar03 PS  392217  0.0  2308 sed
+@poplar03 SEEN 1784986219
+@poplar04 CPU 24 1.00
+@poplar04 MEM 15658 1517
+@poplar04 PS 1172517  0.1 11748 systemd
+@poplar04 PS 1172525  0.0  3412 (sd-pam)
+@poplar04 PS 1172536  0.0  8828 pipewire
+@poplar04 PS 1172537  0.0  6120 pipewire
+@poplar04 PS 1172539  0.0 15920 wireplumber
+@poplar04 PS 1172541  0.0 10596 pipewire-pulse
+@poplar04 PS 1172558  0.0  4436 dbus-daemon
+@poplar04 PS 1172594  0.0  3608 bash
+@poplar04 PS 1172599  0.0  3592 bash
+@poplar04 PS 1172609  0.0  1900 bash
+@poplar04 PS 1172610  0.0  2040 sleep
+@poplar04 PS 1172613  0.0  2088 timeout
+@poplar04 PS 1172614  1.9 648648 python
+@poplar04 PS 1176199  0.0  2048 sleep
+@poplar04 PS 1176940  0.0  7008 sshd
+@poplar04 PS 1176941  0.0  3604 bash
+@poplar04 PS 1176959  100  4556 ps
+@poplar04 PS 1176960  0.0  2288 sed
+@poplar04 SEEN 1784986219
+@poplar05 CPU 24 1.00
+@poplar05 MEM 15658 1606
+@poplar05 PS 1613354  0.1 11588 systemd
+@poplar05 PS 1613355  0.0  3436 (sd-pam)
+@poplar05 PS 1613367  0.0  8736 pipewire
+@poplar05 PS 1613368  0.0  6016 pipewire
+@poplar05 PS 1613370  0.0 15940 wireplumber
+@poplar05 PS 1613372  0.0 10596 pipewire-pulse
+@poplar05 PS 1613389  0.0  4436 dbus-daemon
+@poplar05 PS 1613434  0.0  3564 bash
+@poplar05 PS 1613439  0.0  3592 bash
+@poplar05 PS 1613449  0.0  1964 bash
+@poplar05 PS 1613450  0.0  2052 sleep
+@poplar05 PS 1613453  0.0  2124 timeout
+@poplar05 PS 1613454  1.6 615100 python
+@poplar05 PS 1617021  0.0  2040 sleep
+@poplar05 PS 1617691  0.0  7020 sshd
+@poplar05 PS 1617692  0.0  3556 bash
+@poplar05 PS 1617702  200  4552 ps
+@poplar05 PS 1617703  0.0  2308 sed
+@poplar05 SEEN 1784986219
+@poplar06 CPU 24 2.00
+@poplar06 MEM 15658 6713
+@poplar06 PS 1126462  0.0 11588 systemd
+@poplar06 PS 1126463  0.0  3392 (sd-pam)
+@poplar06 PS 1126475  0.0  8788 pipewire
+@poplar06 PS 1126476  0.0  6036 pipewire
+@poplar06 PS 1126477  0.0 15928 wireplumber
+@poplar06 PS 1126480  0.0 10608 pipewire-pulse
+@poplar06 PS 1126502  0.0  4400 dbus-daemon
+@poplar06 PS 1126541  0.0  3548 bash
+@poplar06 PS 1126547  0.0  3616 bash
+@poplar06 PS 1126565  0.0  1980 bash
+@poplar06 PS 1126566  0.0  2064 sleep
+@poplar06 PS 1126569  0.0  2108 timeout
+@poplar06 PS 1126570  0.6 590924 python
+@poplar06 PS 1130159  0.0  2072 sleep
+@poplar06 PS 1130824  0.0  7088 sshd
+@poplar06 PS 1130825  0.0  3568 bash
+@poplar06 PS 1130835  0.0  4456 ps
+@poplar06 PS 1130836  0.0  2308 sed
+@poplar06 SEEN 1784986219
+@poplar07 CPU 24 1.01
+@poplar07 MEM 15658 1488
+@poplar07 PS 1021289  0.0 11364 systemd
+@poplar07 PS 1021290  0.0  3404 (sd-pam)
+@poplar07 PS 1021301  0.0  8816 pipewire
+@poplar07 PS 1021302  0.0  5996 pipewire
+@poplar07 PS 1021304  0.0 15832 wireplumber
+@poplar07 PS 1021306  0.0 10596 pipewire-pulse
+@poplar07 PS 1021323  0.0  4432 dbus-daemon
+@poplar07 PS 1021367  0.0  3624 bash
+@poplar07 PS 1021372  0.0  3600 bash
+@poplar07 PS 1021390  0.0  1988 bash
+@poplar07 PS 1021391  0.0  2068 sleep
+@poplar07 PS 1021394  0.0  2092 timeout
+@poplar07 PS 1021397  0.6 565788 python
+@poplar07 PS 1024976  0.0  2024 sleep
+@poplar07 PS 1025517  0.0  6992 sshd
+@poplar07 PS 1025518  0.0  3528 bash
+@poplar07 PS 1025528  0.0  4556 ps
+@poplar07 PS 1025529  0.0  2332 sed
+@poplar07 SEEN 1784986219
+@poplar08 CPU 24 1.06
+@poplar08 MEM 15658 1582
+@poplar08 PS 1624609  0.1 11696 systemd
+@poplar08 PS 1624610  0.0  3420 (sd-pam)
+@poplar08 PS 1624622  0.0  8696 pipewire
+@poplar08 PS 1624623  0.0  5956 pipewire
+@poplar08 PS 1624625  0.0 15720 wireplumber
+@poplar08 PS 1624627  0.0 10628 pipewire-pulse
+@poplar08 PS 1624646  0.0  4412 dbus-daemon
+@poplar08 PS 1624688  0.0  3564 bash
+@poplar08 PS 1624693  0.0  3608 bash
+@poplar08 PS 1624703  0.0  1912 bash
+@poplar08 PS 1624704  0.0  2052 sleep
+@poplar08 PS 1624707  0.0  2104 timeout
+@poplar08 PS 1624708  1.4 542380 python
+@poplar08 PS 1628289  0.0  2024 sleep
+@poplar08 PS 1628767  0.0  7000 sshd
+@poplar08 PS 1628768  0.0  3464 bash
+@poplar08 PS 1628778  0.0  4524 ps
+@poplar08 PS 1628779  0.0  2292 sed
+@poplar08 SEEN 1784986219
+@poplar09 CPU 24 1.00
+@poplar09 MEM 15658 1454
+@poplar09 PS 1529150  0.1 11700 systemd
+@poplar09 PS 1529151  0.0  3404 (sd-pam)
+@poplar09 PS 1529163  0.0  8724 pipewire
+@poplar09 PS 1529164  0.0  5988 pipewire
+@poplar09 PS 1529166  0.0 15760 wireplumber
+@poplar09 PS 1529168  0.0 10624 pipewire-pulse
+@poplar09 PS 1529187  0.0  4384 dbus-daemon
+@poplar09 PS 1529226  0.0  3552 bash
+@poplar09 PS 1529243  0.0  3612 bash
+@poplar09 PS 1529253  0.0  1888 bash
+@poplar09 PS 1529254  0.0  2076 sleep
+@poplar09 PS 1529265  0.0  2128 timeout
+@poplar09 PS 1529266  1.3 503708 python
+@poplar09 PS 1532841  0.0  2072 sleep
+@poplar09 PS 1533223  0.0  7040 sshd
+@poplar09 PS 1533224  0.0  3568 bash
+@poplar09 PS 1533234  0.0  4564 ps
+@poplar09 PS 1533235  0.0  2276 sed
+@poplar09 SEEN 1784986219
+@poplar10 CPU 24 1.03
+@poplar10 MEM 15658 1462
+@poplar10 PS 4110273  0.1 11804 systemd
+@poplar10 PS 4110274  0.0  3420 (sd-pam)
+@poplar10 PS 4110284  0.0  8792 pipewire
+@poplar10 PS 4110285  0.0  6032 pipewire
+@poplar10 PS 4110287  0.0 15956 wireplumber
+@poplar10 PS 4110289  0.0 10640 pipewire-pulse
+@poplar10 PS 4110306  0.0  4452 dbus-daemon
+@poplar10 PS 4110365  0.0  3604 bash
+@poplar10 PS 4110391  0.0  3632 bash
+@poplar10 PS 4110401  0.0  1916 bash
+@poplar10 PS 4110402  0.0  2060 sleep
+@poplar10 PS 4110405  0.0  2112 timeout
+@poplar10 PS 4110406  1.2 505000 python
+@poplar10 PS 4114039  0.0  2060 sleep
+@poplar10 PS 4114297  0.0  7020 sshd
+@poplar10 PS 4114298  0.0  3532 bash
+@poplar10 PS 4114308  100  4516 ps
+@poplar10 PS 4114309  0.0  2296 sed
+@poplar10 SEEN 1784986219
+@poplar11 CPU 24 1.03
+@poplar11 MEM 15658 1432
+@poplar11 PS 1303543  0.1 11660 systemd
+@poplar11 PS 1303544  0.0  3404 (sd-pam)
+@poplar11 PS 1303555  0.0  8784 pipewire
+@poplar11 PS 1303556  0.0  5960 pipewire
+@poplar11 PS 1303557  0.0 15780 wireplumber
+@poplar11 PS 1303558  0.0 10564 pipewire-pulse
+@poplar11 PS 1303575  0.0  4444 dbus-daemon
+@poplar11 PS 1303613  0.0  3580 bash
+@poplar11 PS 1303634  0.0  3596 bash
+@poplar11 PS 1303645  0.0  1888 bash
+@poplar11 PS 1303646  0.0  2032 sleep
+@poplar11 PS 1303649  0.0  2096 timeout
+@poplar11 PS 1303662  1.3 505480 python
+@poplar11 PS 1307314  0.0  2036 sleep
+@poplar11 PS 1307449  0.0  7100 sshd
+@poplar11 PS 1307450  0.0  3508 bash
+@poplar11 PS 1307472  100  4488 ps
+@poplar11 PS 1307473  0.0  2280 sed
+@poplar11 SEEN 1784986219
+@poplar12 CPU 24 1.01
+@poplar12 MEM 15658 1435
+@poplar12 PS 1488672  0.1 11712 systemd
+@poplar12 PS 1488673  0.0  3372 (sd-pam)
+@poplar12 PS 1488684  0.0  8636 pipewire
+@poplar12 PS 1488685  0.0  5984 pipewire
+@poplar12 PS 1488687  0.0 15948 wireplumber
+@poplar12 PS 1488689  0.0 10604 pipewire-pulse
+@poplar12 PS 1488708  0.0  4420 dbus-daemon
+@poplar12 PS 1488771  0.0  3536 bash
+@poplar12 PS 1488798  0.0  3648 bash
+@poplar12 PS 1488816  0.0  1912 bash
+@poplar12 PS 1488817  0.0  2048 sleep
+@poplar12 PS 1488820  0.0  2084 timeout
+@poplar12 PS 1488821  1.4 515148 python
+@poplar12 PS 1492487  0.0  2072 sleep
+@poplar12 PS 1492515  0.0  7096 sshd
+@poplar12 PS 1492516  0.0  3608 bash
+@poplar12 PS 1492526  0.0  4516 ps
+@poplar12 PS 1492527  0.0  2312 sed
+@poplar12 SEEN 1784986219
+@poplar13 CPU 24 1.09
+@poplar13 MEM 15658 1446
+@poplar13 PS  795494  0.1 11824 systemd
+@poplar13 PS  795503  0.0  3432 (sd-pam)
+@poplar13 PS  795515  0.0  8736 pipewire
+@poplar13 PS  795516  0.0  5996 pipewire
+@poplar13 PS  795518  0.0 15748 wireplumber
+@poplar13 PS  795520  0.0 10456 pipewire-pulse
+@poplar13 PS  795539  0.0  4416 dbus-daemon
+@poplar13 PS  795674  0.0  3548 bash
+@poplar13 PS  795679  0.0  3632 bash
+@poplar13 PS  795682  0.0  2036 sleep
+@poplar13 PS  795689  0.0  1896 bash
+@poplar13 PS  795690  0.0  2040 sleep
+@poplar13 PS  795693  0.0  2092 timeout
+@poplar13 PS  795694  1.2 497732 python
+@poplar13 PS  799179  0.0  7008 sshd
+@poplar13 PS  799180  0.0  3608 bash
+@poplar13 PS  799190  100  4492 ps
+@poplar13 PS  799191  0.0  2324 sed
+@poplar13 SEEN 1784986219
+@poplar14 CPU 24 1.00
+@poplar14 MEM 15658 1397
+@poplar14 PS 1395884  0.1 11432 systemd
+@poplar14 PS 1395885  0.0  3376 (sd-pam)
+@poplar14 PS 1395897  0.0  8680 pipewire
+@poplar14 PS 1395898  0.0  5980 pipewire
+@poplar14 PS 1395900  0.0 15968 wireplumber
+@poplar14 PS 1395902  0.0 10672 pipewire-pulse
+@poplar14 PS 1395921  0.0  4384 dbus-daemon
+@poplar14 PS 1395955  0.0  3576 bash
+@poplar14 PS 1395968  0.0  3660 bash
+@poplar14 PS 1395973  0.0  2068 sleep
+@poplar14 PS 1395978  0.0  1924 bash
+@poplar14 PS 1395979  0.0  2044 sleep
+@poplar14 PS 1395982  0.0  2072 timeout
+@poplar14 PS 1395983  1.1 490160 python
+@poplar14 PS 1399489  0.0  7012 sshd
+@poplar14 PS 1399490  0.0  3604 bash
+@poplar14 PS 1399500  0.0  4496 ps
+@poplar14 PS 1399501  0.0  2268 sed
+@poplar14 SEEN 1784986221
+@poplar15 CPU 24 1.00
+@poplar15 MEM 15658 1470
+@poplar15 PS 1311612  0.1 11688 systemd
+@poplar15 PS 1311613  0.0  3432 (sd-pam)
+@poplar15 PS 1311636  0.0  8724 pipewire
+@poplar15 PS 1311637  0.0  5984 pipewire
+@poplar15 PS 1311639  0.0 16044 wireplumber
+@poplar15 PS 1311641  0.0 10732 pipewire-pulse
+@poplar15 PS 1311660  0.0  4392 dbus-daemon
+@poplar15 PS 1311694  0.0  3624 bash
+@poplar15 PS 1311699  0.0  3636 bash
+@poplar15 PS 1311704  0.0  2036 sleep
+@poplar15 PS 1311709  0.0  1900 bash
+@poplar15 PS 1311710  0.0  2024 sleep
+@poplar15 PS 1311722  0.0  2072 timeout
+@poplar15 PS 1311723  1.1 487968 python
+@poplar15 PS 1315075  0.0  7156 sshd
+@poplar15 PS 1315076  0.0  3552 bash
+@poplar15 PS 1315086  0.0  4548 ps
+@poplar15 PS 1315087  0.0  2272 sed
+@poplar15 SEEN 1784986221
+@poplar16 CPU 24 1.18
+@poplar16 MEM 15658 1381
+@poplar16 PS  926310  0.1 11524 systemd
+@poplar16 PS  926311  0.0  3428 (sd-pam)
+@poplar16 PS  926322  0.0  8708 pipewire
+@poplar16 PS  926323  0.0  6020 pipewire
+@poplar16 PS  926324  0.0 16072 wireplumber
+@poplar16 PS  926326  0.0 10692 pipewire-pulse
+@poplar16 PS  926344  0.0  4400 dbus-daemon
+@poplar16 PS  926402  0.0  3564 bash
+@poplar16 PS  926450  0.0  3664 bash
+@poplar16 PS  926468  0.0  2052 sleep
+@poplar16 PS  926481  0.0  1916 bash
+@poplar16 PS  926482  0.0  2028 sleep
+@poplar16 PS  926485  0.0  2092 timeout
+@poplar16 PS  926486  1.2 487432 python
+@poplar16 PS  929701  0.0  7000 sshd
+@poplar16 PS  929702  0.0  3596 bash
+@poplar16 PS  929712  0.0  4536 ps
+@poplar16 PS  929713  0.0  2276 sed
+@poplar16 SEEN 1784986221
+@poplar17 CPU 24 0.99
+@poplar17 MEM 15658 1459
+@poplar17 PS 3163100  0.0 11560 systemd
+@poplar17 PS 3163101  0.0  3388 (sd-pam)
+@poplar17 PS 3163113  0.0  8788 pipewire
+@poplar17 PS 3163114  0.0  6112 pipewire
+@poplar17 PS 3163116  0.0 15880 wireplumber
+@poplar17 PS 3163118  0.0 10676 pipewire-pulse
+@poplar17 PS 3163133  0.0  4504 dbus-daemon
+@poplar17 PS 3163217  0.0  3556 bash
+@poplar17 PS 3163466  0.0  3564 bash
+@poplar17 PS 3163469  0.0  2068 sleep
+@poplar17 PS 3163476  0.0  1952 bash
+@poplar17 PS 3163477  0.0  2032 sleep
+@poplar17 PS 3163488  0.0  2100 timeout
+@poplar17 PS 3163489  0.5 490360 python
+@poplar17 PS 3166374  0.0  7096 sshd
+@poplar17 PS 3166375  0.0  3576 bash
+@poplar17 PS 3166385  0.0  4572 ps
+@poplar17 PS 3166386  0.0  2264 sed
+@poplar17 SEEN 1784986220
+@poplar18 CPU 24 1.26
+@poplar18 MEM 15658 1361
+@poplar18 PS  191903  0.1 11744 systemd
+@poplar18 PS  191906  0.0  3404 (sd-pam)
+@poplar18 PS  191917  0.0  8876 pipewire
+@poplar18 PS  191918  0.0  6072 pipewire
+@poplar18 PS  191919  0.0 15872 wireplumber
+@poplar18 PS  191921  0.0 10680 pipewire-pulse
+@poplar18 PS  191937  0.0  4524 dbus-daemon
+@poplar18 PS  192296  0.0  3532 bash
+@poplar18 PS  192302  0.0  3600 bash
+@poplar18 PS  192305  0.0  2052 sleep
+@poplar18 PS  192312  0.0  1984 bash
+@poplar18 PS  192313  0.0  2040 sleep
+@poplar18 PS  192316  0.0  2104 timeout
+@poplar18 PS  192317  0.5 495152 python
+@poplar18 PS  195172  0.0  7096 sshd
+@poplar18 PS  195173  0.0  3608 bash
+@poplar18 PS  195183  0.0  4584 ps
+@poplar18 PS  195184  0.0  2292 sed
+@poplar18 SEEN 1784986220
+@poplar19 CPU 24 0.99
+@poplar19 MEM 15658 1446
+@poplar19 PS  721709  0.2 11808 systemd
+@poplar19 PS  721710  0.0  3408 (sd-pam)
+@poplar19 PS  721721  0.0  8828 pipewire
+@poplar19 PS  721722  0.0  6108 pipewire
+@poplar19 PS  721724  0.0 16148 wireplumber
+@poplar19 PS  721726  0.0 10600 pipewire-pulse
+@poplar19 PS  721743  0.0  4504 dbus-daemon
+@poplar19 PS  722143  0.0  3548 bash
+@poplar19 PS  722160  0.0  3628 bash
+@poplar19 PS  722164  0.0  2048 sleep
+@poplar19 PS  722170  0.0  1896 bash
+@poplar19 PS  722171  0.0  2044 sleep
+@poplar19 PS  722174  0.0  2120 timeout
+@poplar19 PS  722175  1.2 475524 python
+@poplar19 PS  725007  0.0  7064 sshd
+@poplar19 PS  725008  0.0  3540 bash
+@poplar19 PS  725018  0.0  4588 ps
+@poplar19 PS  725019  0.0  2312 sed
+@poplar19 SEEN 1784986221
+@poplar20 CPU 24 1.15
+@poplar20 MEM 15658 1420
+@poplar20 PS  986734  0.1 11736 systemd
+@poplar20 PS  986735  0.0  3436 (sd-pam)
+@poplar20 PS  986746  0.0  8612 pipewire
+@poplar20 PS  986747  0.0  5936 pipewire
+@poplar20 PS  986748  0.0 15992 wireplumber
+@poplar20 PS  986750  0.0 10576 pipewire-pulse
+@poplar20 PS  986765  0.0  4372 dbus-daemon
+@poplar20 PS  986888  0.0  3512 bash
+@poplar20 PS  987159  0.0  3592 bash
+@poplar20 PS  987162  0.0  2048 sleep
+@poplar20 PS  987169  0.0  1896 bash
+@poplar20 PS  987170  0.0  2048 sleep
+@poplar20 PS  987174  0.0  2100 timeout
+@poplar20 PS  987175  1.4 447684 python
+@poplar20 PS  989516  0.0  7056 sshd
+@poplar20 PS  989517  0.0  3588 bash
+@poplar20 PS  989527  100  4500 ps
+@poplar20 PS  989528  0.0  2296 sed
+@poplar20 SEEN 1784986221
+@poplar21 CPU 24 0.97
+@poplar21 MEM 15658 1406
+@poplar21 PS 3467327  0.2 11720 systemd
+@poplar21 PS 3467328  0.0  3396 (sd-pam)
+@poplar21 PS 3467340  0.0  8780 pipewire
+@poplar21 PS 3467341  0.0  6024 pipewire
+@poplar21 PS 3467342  0.0 16028 wireplumber
+@poplar21 PS 3467344  0.0 10500 pipewire-pulse
+@poplar21 PS 3467364  0.0  4436 dbus-daemon
+@poplar21 PS 3467419  0.0  3556 bash
+@poplar21 PS 3467432  0.0  3608 bash
+@poplar21 PS 3467435  0.0  2052 sleep
+@poplar21 PS 3467442  0.0  1980 bash
+@poplar21 PS 3467443  0.0  2052 sleep
+@poplar21 PS 3467446  0.0  2096 timeout
+@poplar21 PS 3467448  1.4 461416 python
+@poplar21 PS 3469739  0.0  7088 sshd
+@poplar21 PS 3469740  0.0  3568 bash
+@poplar21 PS 3469750 50.0  4564 ps
+@poplar21 PS 3469751  0.0  2292 sed
+@poplar21 SEEN 1784986221
+@poplar22 CPU 24 2.03
+@poplar22 MEM 15658 14377
+@poplar22 PS 1138600  0.1 11704 systemd
+@poplar22 PS 1138601  0.0  3392 (sd-pam)
+@poplar22 PS 1138621  0.0  8720 pipewire
+@poplar22 PS 1138622  0.0  6044 pipewire
+@poplar22 PS 1138623  0.0 15800 wireplumber
+@poplar22 PS 1138625  0.0 10584 pipewire-pulse
+@poplar22 PS 1138641  0.0  4428 dbus-daemon
+@poplar22 PS 1138679  0.0  3560 bash
+@poplar22 PS 1138685  0.0  3552 bash
+@poplar22 PS 1138690  0.0  2076 sleep
+@poplar22 PS 1138695  0.0  1888 bash
+@poplar22 PS 1138696  0.0  2068 sleep
+@poplar22 PS 1138699  0.0  2076 timeout
+@poplar22 PS 1138700  0.5 386096 python
+@poplar22 PS 1140941  0.0  7080 sshd
+@poplar22 PS 1140942  0.0  3572 bash
+@poplar22 PS 1140952  0.0  4556 ps
+@poplar22 PS 1140953  0.0  2284 sed
+@poplar22 SEEN 1784986221
+@poplar23 CPU 24 1.97
+@poplar23 MEM 15658 11178
+@poplar23 PS 1288610  0.1 11568 systemd
+@poplar23 PS 1288611  0.0  3400 (sd-pam)
+@poplar23 PS 1288622  0.0  8860 pipewire
+@poplar23 PS 1288623  0.0  6104 pipewire
+@poplar23 PS 1288624  0.0 15952 wireplumber
+@poplar23 PS 1288625  0.0 10580 pipewire-pulse
+@poplar23 PS 1288643  0.0  4456 dbus-daemon
+@poplar23 PS 1288688  0.0  3576 bash
+@poplar23 PS 1288701  0.0  3612 bash
+@poplar23 PS 1288706  0.0  2068 sleep
+@poplar23 PS 1288711  0.0  1924 bash
+@poplar23 PS 1288712  0.0  2064 sleep
+@poplar23 PS 1288715  0.0  2080 timeout
+@poplar23 PS 1288716  0.5 348336 python
+@poplar23 PS 1290879  0.0  7092 sshd
+@poplar23 PS 1290880  0.0  3588 bash
+@poplar23 PS 1290890  0.0  4540 ps
+@poplar23 PS 1290891  0.0  2288 sed
+@poplar23 SEEN 1784986220
+@poplar24 CPU 24 1.11
+@poplar24 MEM 15658 1328
+@poplar24 PS 2670227  0.2 11500 systemd
+@poplar24 PS 2670228  0.0  3396 (sd-pam)
+@poplar24 PS 2670239  0.0  8772 pipewire
+@poplar24 PS 2670240  0.0  6084 pipewire
+@poplar24 PS 2670242  0.0 15876 wireplumber
+@poplar24 PS 2670244  0.0 10628 pipewire-pulse
+@poplar24 PS 2670261  0.0  4460 dbus-daemon
+@poplar24 PS 2670327  0.0  3528 bash
+@poplar24 PS 2670352  0.0  3632 bash
+@poplar24 PS 2670357  0.0  2060 sleep
+@poplar24 PS 2670362  0.0  1992 bash
+@poplar24 PS 2670363  0.0  2040 sleep
+@poplar24 PS 2670393  0.0  2088 timeout
+@poplar24 PS 2670394  1.0 265284 python
+@poplar24 PS 2672571  0.0  7000 sshd
+@poplar24 PS 2672572  0.0  3532 bash
+@poplar24 PS 2672582  100  4552 ps
+@poplar24 PS 2672583  0.0  2308 sed
+@poplar24 SEEN 1784986221
+@poplar25 CPU 24 0.95
+@poplar25 MEM 15658 1307
+@poplar25 PS 2097617  0.2 11724 systemd
+@poplar25 PS 2097618  0.0  3436 (sd-pam)
+@poplar25 PS 2097629  0.0  8756 pipewire
+@poplar25 PS 2097630  0.0  6044 pipewire
+@poplar25 PS 2097632  0.0 15784 wireplumber
+@poplar25 PS 2097634  0.0 10580 pipewire-pulse
+@poplar25 PS 2097651  0.0  4372 dbus-daemon
+@poplar25 PS 2097700  0.0  3520 bash
+@poplar25 PS 2097747  0.0  3608 bash
+@poplar25 PS 2097818  0.0  2028 sleep
+@poplar25 PS 2097838  0.0  1948 bash
+@poplar25 PS 2097839  0.0  2020 sleep
+@poplar25 PS 2097861  0.0  2076 timeout
+@poplar25 PS 2097862  1.2 263328 python
+@poplar25 PS 2099717  0.0  7104 sshd
+@poplar25 PS 2099718  0.0  3512 bash
+@poplar25 PS 2099728 50.0  4544 ps
+@poplar25 PS 2099729  0.0  2264 sed
+@poplar25 SEEN 1784986221
+@poplar26 CPU 24 1.38
+@poplar26 MEM 15658 1270
+@poplar26 PS  192568  0.2 11512 systemd
+@poplar26 PS  192569  0.0  3400 (sd-pam)
+@poplar26 PS  192581  0.0  8700 pipewire
+@poplar26 PS  192582  0.0  6000 pipewire
+@poplar26 PS  192584  0.0 16052 wireplumber
+@poplar26 PS  192586  0.0 10624 pipewire-pulse
+@poplar26 PS  192605  0.0  4424 dbus-daemon
+@poplar26 PS  192647  0.0  3540 bash
+@poplar26 PS  192652  0.0  3552 bash
+@poplar26 PS  192655  0.0  2032 sleep
+@poplar26 PS  192662  0.0  1948 bash
+@poplar26 PS  192663  0.0  2028 sleep
+@poplar26 PS  192674  0.0  2080 timeout
+@poplar26 PS  192675  1.1 260680 python
+@poplar26 PS  194486  0.0  7036 sshd
+@poplar26 PS  194487  0.0  3512 bash
+@poplar26 PS  194509  100  4500 ps
+@poplar26 PS  194511  0.0  2280 sed
+@poplar26 SEEN 1784986226
+@poplar27 CPU 24 0.93
+@poplar27 MEM 15658 1366
+@poplar27 PS 3874150  0.2 11432 systemd
+@poplar27 PS 3874151  0.0  3408 (sd-pam)
+@poplar27 PS 3874171  0.0  8632 pipewire
+@poplar27 PS 3874172  0.0  5988 pipewire
+@poplar27 PS 3874174  0.0 15660 wireplumber
+@poplar27 PS 3874176  0.0 10536 pipewire-pulse
+@poplar27 PS 3874195  0.0  4360 dbus-daemon
+@poplar27 PS 3874229  0.0  3500 bash
+@poplar27 PS 3874246  0.0  3584 bash
+@poplar27 PS 3874249  0.0  2028 sleep
+@poplar27 PS 3874256  0.0  1896 bash
+@poplar27 PS 3874257  0.0  2048 sleep
+@poplar27 PS 3874260  0.0  2100 timeout
+@poplar27 PS 3874261  1.1 261256 python
+@poplar27 PS 3876014  0.0  6980 sshd
+@poplar27 PS 3876015  0.0  3536 bash
+@poplar27 PS 3876025 50.0  4512 ps
+@poplar27 PS 3876026  0.0  2296 sed
+@poplar27 SEEN 1784986226
+@poplar28 CPU 24 0.94
+@poplar28 MEM 15658 1380
+@poplar28 PS 1421600  0.2 11608 systemd
+@poplar28 PS 1421601  0.0  3408 (sd-pam)
+@poplar28 PS 1421620  0.0  8680 pipewire
+@poplar28 PS 1421621  0.0  5960 pipewire
+@poplar28 PS 1421623  0.0 15912 wireplumber
+@poplar28 PS 1421625  0.0 10584 pipewire-pulse
+@poplar28 PS 1421644  0.0  4348 dbus-daemon
+@poplar28 PS 1421678  0.0  3604 bash
+@poplar28 PS 1421691  0.0  3640 bash
+@poplar28 PS 1421694  0.0  2072 sleep
+@poplar28 PS 1421701  0.0  1980 bash
+@poplar28 PS 1421702  0.0  2080 sleep
+@poplar28 PS 1421705  0.0  2132 timeout
+@poplar28 PS 1421706  1.0 232592 python
+@poplar28 PS 1423384  0.0  7028 sshd
+@poplar28 PS 1423385  0.0  3584 bash
+@poplar28 PS 1423395 50.0  4492 ps
+@poplar28 PS 1423396  0.0  2324 sed
+@poplar28 SEEN 1784986226
+@poplar29 CPU 24 0.96
+@poplar29 MEM 15658 1669
+@poplar29 PS 2525656  0.2 11564 systemd
+@poplar29 PS 2525657  0.0  3400 (sd-pam)
+@poplar29 PS 2525668  0.0  8700 pipewire
+@poplar29 PS 2525669  0.0  6056 pipewire
+@poplar29 PS 2525671  0.0 15748 wireplumber
+@poplar29 PS 2525673  0.0 10624 pipewire-pulse
+@poplar29 PS 2525692  0.0  4392 dbus-daemon
+@poplar29 PS 2525738  0.0  3596 bash
+@poplar29 PS 2525752  0.0  3588 bash
+@poplar29 PS 2525755  0.0  2036 sleep
+@poplar29 PS 2525762  0.0  1900 bash
+@poplar29 PS 2525763  0.0  2076 sleep
+@poplar29 PS 2525766  0.0  2096 timeout
+@poplar29 PS 2525767  1.0 192688 python
+@poplar29 PS 2527398  0.0  7104 sshd
+@poplar29 PS 2527399  0.0  3608 bash
+@poplar29 PS 2527421  0.0  4524 ps
+@poplar29 PS 2527422  0.0  2324 sed
+@poplar29 SEEN 1784986226
+@poplar30 CPU 24 0.89
+@poplar30 MEM 15658 1276
+@poplar30 PS 2457072  0.2 11500 systemd
+@poplar30 PS 2457073  0.0  3396 (sd-pam)
+@poplar30 PS 2457084  0.0  8800 pipewire
+@poplar30 PS 2457085  0.0  5968 pipewire
+@poplar30 PS 2457088  0.0 15736 wireplumber
+@poplar30 PS 2457089  0.0 10628 pipewire-pulse
+@poplar30 PS 2457106  0.0  4412 dbus-daemon
+@poplar30 PS 2457152  0.0  3608 bash
+@poplar30 PS 2457165  0.0  3648 bash
+@poplar30 PS 2457180  0.0  2060 sleep
+@poplar30 PS 2457185  0.0  1924 bash
+@poplar30 PS 2457186  0.0  2052 sleep
+@poplar30 PS 2457189  0.0  2136 timeout
+@poplar30 PS 2457190  1.2 162292 python
+@poplar30 PS 2458730  0.0  7100 sshd
+@poplar30 PS 2458731  0.0  3600 bash
+@poplar30 PS 2458750 50.0  4524 ps
+@poplar30 PS 2458751  0.0  2336 sed
+@poplar30 SEEN 1784986226
+@poplar31 CPU 24 0.94
+@poplar31 MEM 15658 1280
+@poplar31 PS 1784860  0.2 11792 systemd
+@poplar31 PS 1784861  0.0  3408 (sd-pam)
+@poplar31 PS 1784872  0.0  8896 pipewire
+@poplar31 PS 1784873  0.0  6112 pipewire
+@poplar31 PS 1784875  0.0 15816 wireplumber
+@poplar31 PS 1784877  0.0 10540 pipewire-pulse
+@poplar31 PS 1784894  0.0  4420 dbus-daemon
+@poplar31 PS 1784990  0.0  3624 bash
+@poplar31 PS 1785101  0.0  3580 bash
+@poplar31 PS 1785105  0.0  2080 sleep
+@poplar31 PS 1785112  0.0  1964 bash
+@poplar31 PS 1785113  0.0  2084 sleep
+@poplar31 PS 1785116  0.0  2132 timeout
+@poplar31 PS 1785117  1.3 162140 python
+@poplar31 PS 1786443  0.0  7112 sshd
+@poplar31 PS 1786444  0.0  3648 bash
+@poplar31 PS 1786454 25.0  4564 ps
+@poplar31 PS 1786455  0.0  2328 sed
+@poplar31 SEEN 1784986226
+@poplar32 CPU 24 1.81
+@poplar32 MEM 15658 7508
+@poplar32 PS 1415040  0.1 11536 systemd
+@poplar32 PS 1415041  0.0  3404 (sd-pam)
+@poplar32 PS 1415053  0.0  8748 pipewire
+@poplar32 PS 1415054  0.0  6040 pipewire
+@poplar32 PS 1415056  0.0 15888 wireplumber
+@poplar32 PS 1415058  0.0 10640 pipewire-pulse
+@poplar32 PS 1415077  0.0  4376 dbus-daemon
+@poplar32 PS 1415113  0.0  3628 bash
+@poplar32 PS 1415118  0.0  3656 bash
+@poplar32 PS 1415122  0.0  2080 sleep
+@poplar32 PS 1415128  0.0  1920 bash
+@poplar32 PS 1415129  0.0  2064 sleep
+@poplar32 PS 1415132  0.0  2112 timeout
+@poplar32 PS 1415133  0.6 158228 python
+@poplar32 PS 1416399  0.0  7004 sshd
+@poplar32 PS 1416400  0.0  3580 bash
+@poplar32 PS 1416418  0.0  4524 ps
+@poplar32 PS 1416419  0.0  2328 sed
+@poplar32 SEEN 1784986226
+@poplar33 CPU 24 0.90
+@poplar33 MEM 15658 1232
+@poplar33 PS 2343991  0.2 11820 systemd
+@poplar33 PS 2343992  0.0  3412 (sd-pam)
+@poplar33 PS 2344004  0.0  8784 pipewire
+@poplar33 PS 2344005  0.0  6056 pipewire
+@poplar33 PS 2344007  0.0 15816 wireplumber
+@poplar33 PS 2344009  0.0 10636 pipewire-pulse
+@poplar33 PS 2344028  0.0  4416 dbus-daemon
+@poplar33 PS 2344072  0.0  3568 bash
+@poplar33 PS 2344103  0.0  3640 bash
+@poplar33 PS 2344158  0.0  2032 sleep
+@poplar33 PS 2344163  0.0  1920 bash
+@poplar33 PS 2344164  0.0  2024 sleep
+@poplar33 PS 2344167  0.0  2108 timeout
+@poplar33 PS 2344168  1.4 71544 python
+@poplar33 PS 2345268  0.0  7076 sshd
+@poplar33 PS 2345269  0.0  3564 bash
+@poplar33 PS 2345304 50.0  4508 ps
+@poplar33 PS 2345305  0.0  2296 sed
+@poplar33 SEEN 1784986226
+@poplar34 CPU 24 1.55
+@poplar34 MEM 15658 1210
+@poplar34 PS  251230  0.3 11732 systemd
+@poplar34 PS  251231  0.0  3412 (sd-pam)
+@poplar34 PS  251251  0.0  8720 pipewire
+@poplar34 PS  251252  0.0  5992 pipewire
+@poplar34 PS  251254  0.0 15808 wireplumber
+@poplar34 PS  251256  0.0 10628 pipewire-pulse
+@poplar34 PS  251275  0.0  4372 dbus-daemon
+@poplar34 PS  251433  0.0  3568 bash
+@poplar34 PS  251459  0.0  3576 bash
+@poplar34 PS  251464  0.0  2024 sleep
+@poplar34 PS  251469  0.0  1960 bash
+@poplar34 PS  251470  0.0  2040 sleep
+@poplar34 PS  251473  0.0  2072 timeout
+@poplar34 PS  251474  1.8 67680 python
+@poplar34 PS  254002  0.0  7064 sshd
+@poplar34 PS  254003  0.0  3600 bash
+@poplar34 PS  254013 33.3  4488 ps
+@poplar34 PS  254014  0.0  2272 sed
+@poplar34 SEEN 1784986226
+@poplar35 CPU 24 0.67
+@poplar35 MEM 15658 1185
+@poplar35 PS 2445884  0.3 11936 systemd
+@poplar35 PS 2445885  0.0  3424 (sd-pam)
+@poplar35 PS 2445896  0.0  8832 pipewire
+@poplar35 PS 2445897  0.0  6132 pipewire
+@poplar35 PS 2445899  0.0 16032 wireplumber
+@poplar35 PS 2445901  0.0 10764 pipewire-pulse
+@poplar35 PS 2445920  0.0  4540 dbus-daemon
+@poplar35 PS 2445971  0.0  3612 bash
+@poplar35 PS 2446010  0.0  3628 bash
+@poplar35 PS 2446033  0.0  2084 sleep
+@poplar35 PS 2446046  0.0  1912 bash
+@poplar35 PS 2446047  0.0  2080 sleep
+@poplar35 PS 2446082  0.0  2140 timeout
+@poplar35 PS 2446092  1.4 52060 python
+@poplar35 PS 2446844  0.0  7072 sshd
+@poplar35 PS 2446845  0.0  3604 bash
+@poplar35 PS 2446855  0.0  4624 ps
+@poplar35 PS 2446856  0.0  2332 sed
+@poplar35 SEEN 1784986226
+@poplar36 CPU 24 1.60
+@poplar36 MEM 15658 10158
+@poplar36 PS 1166287  0.2 11824 systemd
+@poplar36 PS 1166288  0.0  3412 (sd-pam)
+@poplar36 PS 1166302  0.0  8688 pipewire
+@poplar36 PS 1166303  0.0  6008 pipewire
+@poplar36 PS 1166305  0.0 15908 wireplumber
+@poplar36 PS 1166307  0.0 10628 pipewire-pulse
+@poplar36 PS 1166324  0.0  4336 dbus-daemon
+@poplar36 PS 1166368  0.0  3552 bash
+@poplar36 PS 1166385  0.0  3612 bash
+@poplar36 PS 1166413  0.0  2024 sleep
+@poplar36 PS 1166418  0.0  1940 bash
+@poplar36 PS 1166419  0.0  2044 sleep
+@poplar36 PS 1166430  0.0  2060 timeout
+@poplar36 PS 1166431  0.5 51020 python
+@poplar36 PS 1167197  0.0  7008 sshd
+@poplar36 PS 1167198  0.0  3564 bash
+@poplar36 PS 1167208  0.0  4500 ps
+@poplar36 PS 1167209  0.0  2252 sed
+@poplar36 SEEN 1784986225
+@poplar37 CPU 24 1.57
+@poplar37 MEM 15658 11229
+@poplar37 PS 1355165  0.2 11784 systemd
+@poplar37 PS 1355166  0.0  3416 (sd-pam)
+@poplar37 PS 1355177  0.0  8724 pipewire
+@poplar37 PS 1355178  0.0  6036 pipewire
+@poplar37 PS 1355179  0.0 15876 wireplumber
+@poplar37 PS 1355181  0.0 10644 pipewire-pulse
+@poplar37 PS 1355204  0.0  4396 dbus-daemon
+@poplar37 PS 1355243  0.0  3584 bash
+@poplar37 PS 1355270  0.0  3612 bash
+@poplar37 PS 1355275  0.0  2044 sleep
+@poplar37 PS 1355280  0.0  1896 bash
+@poplar37 PS 1355281  0.0  2044 sleep
+@poplar37 PS 1355292  0.0  2124 timeout
+@poplar37 PS 1355293  0.5 41540 python
+@poplar37 PS 1355871  0.0  7080 sshd
+@poplar37 PS 1355872  0.0  3644 bash
+@poplar37 PS 1355882  0.0  4584 ps
+@poplar37 PS 1355883  0.0  2324 sed
+@poplar37 SEEN 1784986225
+@poplar38 CPU 24 1.55
+@poplar38 MEM 15658 10760
+@poplar38 PS 3424147  0.2 11568 systemd
+@poplar38 PS 3424148  0.0  3400 (sd-pam)
+@poplar38 PS 3424160  0.0  8796 pipewire
+@poplar38 PS 3424161  0.0  5960 pipewire
+@poplar38 PS 3424163  0.0 16076 wireplumber
+@poplar38 PS 3424165  0.0 10576 pipewire-pulse
+@poplar38 PS 3424180  0.0  4388 dbus-daemon
+@poplar38 PS 3424217  0.0  3576 bash
+@poplar38 PS 3424238  0.0  3584 bash
+@poplar38 PS 3424253  0.0  2048 sleep
+@poplar38 PS 3424258  0.0  1960 bash
+@poplar38 PS 3424259  0.0  2044 sleep
+@poplar38 PS 3424262  0.0  2096 timeout
+@poplar38 PS 3424263  0.3 37452 python
+@poplar38 PS 3424822  0.0  7072 sshd
+@poplar38 PS 3424823  0.0  3572 bash
+@poplar38 PS 3424833  0.0  4448 ps
+@poplar38 PS 3424834  0.0  2280 sed
+@poplar38 SEEN 1784986239
+@poplar39 CPU 24 0.99
+@poplar39 MEM 15658 1141
+@poplar39 PS 3442639  0.5 11580 systemd
+@poplar39 PS 3442640  0.0  3400 (sd-pam)
+@poplar39 PS 3442652  0.0  8728 pipewire
+@poplar39 PS 3442653  0.0  6044 pipewire
+@poplar39 PS 3442655  0.2 15920 wireplumber
+@poplar39 PS 3442657  0.0 10532 pipewire-pulse
+@poplar39 PS 3442679  0.0  4400 dbus-daemon
+@poplar39 PS 3442747  0.0  3480 bash
+@poplar39 PS 3442792  0.0  3604 bash
+@poplar39 PS 3442797  0.0  2028 sleep
+@poplar39 PS 3442803  0.0  1992 bash
+@poplar39 PS 3442804  0.0  2020 sleep
+@poplar39 PS 3442807  0.0  2104 timeout
+@poplar39 PS 3442808  0.3 14380 python
+@poplar39 PS 3443236  0.0  7040 sshd
+@poplar39 PS 3443237  0.0  3588 bash
+@poplar39 PS 3443257  5.8  4524 ps
+@poplar39 PS 3443258  0.0  2296 sed
+@poplar39 SEEN 1784986237
+@poplar40 CPU 24 1.04
+@poplar40 MEM 15142 1211
+@poplar40 PS 1092268  0.8 14172 systemd
+@poplar40 PS 1092270  0.0  4104 (sd-pam)
+@poplar40 PS 1092290  0.0  5224 dbus-daemon
+@poplar40 PS 1092291  0.1  8484 pipewire
+@poplar40 PS 1092298  0.0  4024 mpris-proxy
+@poplar40 PS 1092299  0.3 27236 wireplumber
+@poplar40 PS 1092301  0.0  5864 pipewire
+@poplar40 PS 1092302  0.0 11088 pipewire-pulse
+@poplar40 PS 1092570  0.0  3916 bash
+@poplar40 PS 1092578  0.0  3964 bash
+@poplar40 PS 1092584  0.0  7548 sleep
+@poplar40 PS 1092589  0.0  1932 bash
+@poplar40 PS 1092590  0.0  7624 sleep
+@poplar40 PS 1092593  0.0  7548 timeout
+@poplar40 PS 1092594  1.7 21448 python
+@poplar40 PS 1092724  0.0  8508 sshd-session
+@poplar40 PS 1092725  0.0  3936 bash
+@poplar40 PS 1092736  7.6  4800 ps
+@poplar40 PS 1092737  0.0  2772 sed
+@poplar40 SEEN 1784986237
+@rowan01 CPU 24 2.66
+@rowan01 MEM 15658 7598
+@rowan01 PS 1016106  0.0 11784 systemd
+@rowan01 PS 1016107  0.0  3428 (sd-pam)
+@rowan01 PS 1016119  0.0  8744 pipewire
+@rowan01 PS 1016120  0.0  5964 pipewire
+@rowan01 PS 1016123  0.0 16000 wireplumber
+@rowan01 PS 1016124  0.0 10600 pipewire-pulse
+@rowan01 PS 1016140  0.0  4400 dbus-daemon
+@rowan01 PS 1016354  0.0  3504 bash
+@rowan01 PS 1016359  0.0  3572 bash
+@rowan01 PS 1016369  0.0  2084 bash
+@rowan01 PS 1016373  0.0  2104 timeout
+@rowan01 PS 1016374  0.4 840308 python
+@rowan01 PS 1023594  0.0 11052 python
+@rowan01 PS 1023595  1.3 503496 python
+@rowan01 PS 1023596  1.3 502700 python
+@rowan01 PS 1023756  0.0  2068 sleep
+@rowan01 PS 1023767  0.0  2072 sleep
+@rowan01 PS 1024421  0.0  6936 sshd
+@rowan01 PS 1024422  0.0  3540 bash
+@rowan01 PS 1024432  0.0  4532 ps
+@rowan01 PS 1024433  0.0  2296 sed
+@rowan01 SEEN 1784986200
+@rowan03 CPU 24 2.42
+@rowan03 MEM 15658 2429
+@rowan03 PS 1708793  0.1 11604 systemd
+@rowan03 PS 1708794  0.0  3408 (sd-pam)
+@rowan03 PS 1708806  0.0  8628 pipewire
+@rowan03 PS 1708807  0.0  5996 pipewire
+@rowan03 PS 1708809  0.0 15488 wireplumber
+@rowan03 PS 1708811  0.0 10596 pipewire-pulse
+@rowan03 PS 1708827  0.0  4364 dbus-daemon
+@rowan03 PS 1708867  0.0  3608 bash
+@rowan03 PS 1708901  0.0  3640 bash
+@rowan03 PS 1708930  0.0  2140 bash
+@rowan03 PS 1708942  0.0  2068 timeout
+@rowan03 PS 1708943  1.4 838948 python
+@rowan03 PS 1715828  0.1 11056 python
+@rowan03 PS 1715829  2.8 502104 python
+@rowan03 PS 1715830  2.8 502160 python
+@rowan03 PS 1716190  0.0  2024 sleep
+@rowan03 PS 1716202  0.0  2044 sleep
+@rowan03 PS 1716632  0.0  7096 sshd
+@rowan03 PS 1716641  0.0  3612 bash
+@rowan03 PS 1716651  0.0  4500 ps
+@rowan03 PS 1716652  0.0  2292 sed
+@rowan03 SEEN 1784986200
+@rowan04 CPU 24 2.73
+@rowan04 MEM 15658 9051
+@rowan04 PS 3694973  0.0 11788 systemd
+@rowan04 PS 3694974  0.0  3404 (sd-pam)
+@rowan04 PS 3694986  0.0  8788 pipewire
+@rowan04 PS 3694987  0.0  6012 pipewire
+@rowan04 PS 3694990  0.0 15748 wireplumber
+@rowan04 PS 3694991  0.0 10588 pipewire-pulse
+@rowan04 PS 3695008  0.0  4444 dbus-daemon
+@rowan04 PS 3695103  0.0  3628 bash
+@rowan04 PS 3695146  0.0  3652 bash
+@rowan04 PS 3695165  0.0  2056 bash
+@rowan04 PS 3695178  0.0  2104 timeout
+@rowan04 PS 3695179  0.6 805180 python
+@rowan04 PS 3701905  0.0 11036 python
+@rowan04 PS 3701906  1.4 508144 python
+@rowan04 PS 3701907  1.4 508100 python
+@rowan04 PS 3702415  0.0  2048 sleep
+@rowan04 PS 3702428  0.0  2056 sleep
+@rowan04 PS 3702821  0.0  7060 sshd
+@rowan04 PS 3702823  0.0  3560 bash
+@rowan04 PS 3702833  100  4584 ps
+@rowan04 PS 3702834  0.0  2268 sed
+@rowan04 SEEN 1784986202
+@rowan05 CPU 24 1.90
+@rowan05 MEM 15658 2257
+@rowan05 PS  274381  0.1 11688 systemd
+@rowan05 PS  274382  0.0  3396 (sd-pam)
+@rowan05 PS  274393  0.0  8644 pipewire
+@rowan05 PS  274394  0.0  6016 pipewire
+@rowan05 PS  274396  0.0 15964 wireplumber
+@rowan05 PS  274398  0.0 10512 pipewire-pulse
+@rowan05 PS  274417  0.0  4388 dbus-daemon
+@rowan05 PS  274476  0.0  3600 bash
+@rowan05 PS  274668  0.0  3612 bash
+@rowan05 PS  274688  0.0  2096 bash
+@rowan05 PS  274692  0.0  2124 timeout
+@rowan05 PS  274693  1.3 840056 python
+@rowan05 PS  281298  0.0 11008 python
+@rowan05 PS  281299  2.7 506508 python
+@rowan05 PS  281300  2.7 506560 python
+@rowan05 PS  282113  0.0  2072 sleep
+@rowan05 PS  282117  0.0  2076 sleep
+@rowan05 PS  282256  0.0  6924 sshd
+@rowan05 PS  282257  0.0  3564 bash
+@rowan05 PS  282267  0.0  4560 ps
+@rowan05 PS  282268  0.0  2316 sed
+@rowan05 SEEN 1784986202
+@rowan06 CPU 24 2.73
+@rowan06 MEM 15658 5332
+@rowan06 PS 2721576  0.0 11664 systemd
+@rowan06 PS 2721577  0.0  3400 (sd-pam)
+@rowan06 PS 2721589  0.0  8736 pipewire
+@rowan06 PS 2721590  0.0  6004 pipewire
+@rowan06 PS 2721593  0.0 15992 wireplumber
+@rowan06 PS 2721594  0.0 10624 pipewire-pulse
+@rowan06 PS 2721611  0.0  4420 dbus-daemon
+@rowan06 PS 2721659  0.0  3572 bash
+@rowan06 PS 2721694  0.0  3640 bash
+@rowan06 PS 2721721  0.0  2044 bash
+@rowan06 PS 2721725  0.0  2064 timeout
+@rowan06 PS 2721727  0.6 805824 python
+@rowan06 PS 2728105  0.0 11028 python
+@rowan06 PS 2728106  1.5 508720 python
+@rowan06 PS 2728107  1.5 508620 python
+@rowan06 PS 2728955  0.0  2060 sleep
+@rowan06 PS 2728958  0.0  2016 sleep
+@rowan06 PS 2729028  0.0  7108 sshd
+@rowan06 PS 2729029  0.0  3560 bash
+@rowan06 PS 2729039  0.0  4536 ps
+@rowan06 PS 2729040  0.0  2300 sed
+@rowan06 SEEN 1784986202
+@rowan07 CPU 24 1.72
+@rowan07 MEM 15658 2068
+@rowan07 PS 1594466  0.0 11744 systemd
+@rowan07 PS 1594467  0.0  3392 (sd-pam)
+@rowan07 PS 1594486  0.0  8068 pipewire
+@rowan07 PS 1594487  0.0  6000 pipewire
+@rowan07 PS 1594489  0.0 14156 wireplumber
+@rowan07 PS 1594491  0.0 10520 pipewire-pulse
+@rowan07 PS 1594505  0.0  4448 dbus-daemon
+@rowan07 PS 1594594  0.0  3408 bash
+@rowan07 PS 1594717  0.0  3420 bash
+@rowan07 PS 1594728  0.0  1924 bash
+@rowan07 PS 1594729  0.0  2056 sleep
+@rowan07 PS 1594732  0.0  2100 timeout
+@rowan07 PS 1594733  0.5 841004 python
+@rowan07 PS 1598350  0.0  2064 sleep
+@rowan07 PS 1600877  0.0 11016 python
+@rowan07 PS 1600878  1.2 506084 python
+@rowan07 PS 1600879  1.2 505792 python
+@rowan07 PS 1601773  0.0  7004 sshd
+@rowan07 PS 1601775  0.0  3564 bash
+@rowan07 PS 1601785  0.0  4600 ps
+@rowan07 PS 1601786  0.0  2292 sed
+@rowan07 SEEN 1784986202
+@rowan08 CPU 24 1.72
+@rowan08 MEM 15658 2167
+@rowan08 PS 3604157  0.1 11724 systemd
+@rowan08 PS 3604158  0.0  3412 (sd-pam)
+@rowan08 PS 3604169  0.0  8828 pipewire
+@rowan08 PS 3604170  0.0  5996 pipewire
+@rowan08 PS 3604171  0.0 15960 wireplumber
+@rowan08 PS 3604172  0.0 10656 pipewire-pulse
+@rowan08 PS 3604192  0.0  4476 dbus-daemon
+@rowan08 PS 3604235  0.0  3624 bash
+@rowan08 PS 3604256  0.0  3624 bash
+@rowan08 PS 3604284  0.0  1896 bash
+@rowan08 PS 3604285  0.0  2048 sleep
+@rowan08 PS 3604288  0.0  2064 timeout
+@rowan08 PS 3604289  1.6 838368 python
+@rowan08 PS 3608056  0.0  2036 sleep
+@rowan08 PS 3610554  0.0 10932 python
+@rowan08 PS 3610555  2.8 504300 python
+@rowan08 PS 3610556  2.8 504380 python
+@rowan08 PS 3611500  0.0  7096 sshd
+@rowan08 PS 3611501  0.0  3596 bash
+@rowan08 PS 3611511  0.0  4564 ps
+@rowan08 PS 3611512  0.0  2264 sed
+@rowan08 SEEN 1784986202
+@rowan09 CPU 24 1.75
+@rowan09 MEM 15658 2171
+@rowan09 PS 3793348  0.1 11528 systemd
+@rowan09 PS 3793352  0.0  3400 (sd-pam)
+@rowan09 PS 3793369  0.0  8680 pipewire
+@rowan09 PS 3793370  0.0  5992 pipewire
+@rowan09 PS 3793372  0.0 15896 wireplumber
+@rowan09 PS 3793374  0.0 10572 pipewire-pulse
+@rowan09 PS 3793393  0.0  4372 dbus-daemon
+@rowan09 PS 3793442  0.0  3572 bash
+@rowan09 PS 3793469  0.0  3604 bash
+@rowan09 PS 3793497  0.0  1920 bash
+@rowan09 PS 3793498  0.0  2060 sleep
+@rowan09 PS 3793501  0.0  2076 timeout
+@rowan09 PS 3793502  1.6 838904 python
+@rowan09 PS 3797230  0.0  2072 sleep
+@rowan09 PS 3799589  0.0 11028 python
+@rowan09 PS 3799590  2.8 505296 python
+@rowan09 PS 3799591  2.9 505408 python
+@rowan09 PS 3800534  0.0  7052 sshd
+@rowan09 PS 3800535  0.0  3592 bash
+@rowan09 PS 3800545  100  4484 ps
+@rowan09 PS 3800546  0.0  2316 sed
+@rowan09 SEEN 1784986202
+@rowan10 CPU 24 2.77
+@rowan10 MEM 15658 11263
+@rowan10 PS 1308935  0.1 11712 systemd
+@rowan10 PS 1308936  0.0  3416 (sd-pam)
+@rowan10 PS 1308956  0.0  8700 pipewire
+@rowan10 PS 1308957  0.0  5960 pipewire
+@rowan10 PS 1308959  0.0 15872 wireplumber
+@rowan10 PS 1308961  0.0 10580 pipewire-pulse
+@rowan10 PS 1308978  0.0  4444 dbus-daemon
+@rowan10 PS 1309042  0.0  3512 bash
+@rowan10 PS 1309296  0.0  3572 bash
+@rowan10 PS 1309306  0.0  1948 bash
+@rowan10 PS 1309307  0.0  2068 sleep
+@rowan10 PS 1309310  0.0  2072 timeout
+@rowan10 PS 1309311  0.7 805164 python
+@rowan10 PS 1313024  0.0  2056 sleep
+@rowan10 PS 1315066  0.0 11004 python
+@rowan10 PS 1315067  1.3 499636 python
+@rowan10 PS 1315068  1.3 499484 python
+@rowan10 PS 1315987  0.0  7084 sshd
+@rowan10 PS 1315991  0.0  3536 bash
+@rowan10 PS 1316001  0.0  4500 ps
+@rowan10 PS 1316002  0.0  2260 sed
+@rowan10 SEEN 1784986202
+@rowan11 CPU 24 2.72
+@rowan11 MEM 15658 9869
+@rowan11 PS 3670737  0.0 11904 systemd
+@rowan11 PS 3670738  0.0  3408 (sd-pam)
+@rowan11 PS 3670750  0.0  8796 pipewire
+@rowan11 PS 3670751  0.0  5984 pipewire
+@rowan11 PS 3670753  0.0 15848 wireplumber
+@rowan11 PS 3670755  0.0 10656 pipewire-pulse
+@rowan11 PS 3670770  0.0  4492 dbus-daemon
+@rowan11 PS 3670876  0.0  3600 bash
+@rowan11 PS 3670991  0.0  3564 bash
+@rowan11 PS 3671011  0.0  1944 bash
+@rowan11 PS 3671012  0.0  2048 sleep
+@rowan11 PS 3671015  0.0  2100 timeout
+@rowan11 PS 3671016  0.7 840104 python
+@rowan11 PS 3674661  0.0  2060 sleep
+@rowan11 PS 3676481  0.0 11112 python
+@rowan11 PS 3676482  1.4 505468 python
+@rowan11 PS 3676483  1.4 505420 python
+@rowan11 PS 3677397  0.0  7076 sshd
+@rowan11 PS 3677398  0.0  3612 bash
+@rowan11 PS 3677408  0.0  4592 ps
+@rowan11 PS 3677409  0.0  2308 sed
+@rowan11 SEEN 1784986202
+@rowan12 CPU 24 2.72
+@rowan12 MEM 15658 9864
+@rowan12 PS 2927724  0.0 11820 systemd
+@rowan12 PS 2927725  0.0  3412 (sd-pam)
+@rowan12 PS 2927734  0.0  8740 pipewire
+@rowan12 PS 2927735  0.0  5980 pipewire
+@rowan12 PS 2927737  0.0 15880 wireplumber
+@rowan12 PS 2927739  0.0 10572 pipewire-pulse
+@rowan12 PS 2927756  0.0  4440 dbus-daemon
+@rowan12 PS 2927804  0.0  3584 bash
+@rowan12 PS 2927823  0.0  3652 bash
+@rowan12 PS 2927901  0.0  1904 bash
+@rowan12 PS 2927902  0.0  2060 sleep
+@rowan12 PS 2927918  0.0  2100 timeout
+@rowan12 PS 2927919  0.7 806000 python
+@rowan12 PS 2931548  0.0  2020 sleep
+@rowan12 PS 2933123  0.0 10976 python
+@rowan12 PS 2933124  1.4 506824 python
+@rowan12 PS 2933125  1.4 506840 python
+@rowan12 PS 2934029  0.0  7060 sshd
+@rowan12 PS 2934030  0.0  3556 bash
+@rowan12 PS 2934040  0.0  4508 ps
+@rowan12 PS 2934041  0.0  2264 sed
+@rowan12 SEEN 1784986202
+@rowan13 CPU 24 1.74
+@rowan13 MEM 15658 2170
+@rowan13 PS  376622  0.2 11668 systemd
+@rowan13 PS  376623  0.0  3412 (sd-pam)
+@rowan13 PS  376635  0.0  8804 pipewire
+@rowan13 PS  376636  0.0  6020 pipewire
+@rowan13 PS  376638  0.0 15948 wireplumber
+@rowan13 PS  376640  0.0 10624 pipewire-pulse
+@rowan13 PS  376659  0.0  4380 dbus-daemon
+@rowan13 PS  376722  0.0  3620 bash
+@rowan13 PS  376851  0.0  3620 bash
+@rowan13 PS  376900  0.0  1996 bash
+@rowan13 PS  376901  0.0  2048 sleep
+@rowan13 PS  376904  0.0  2120 timeout
+@rowan13 PS  376905  1.7 840316 python
+@rowan13 PS  380644  0.0  2072 sleep
+@rowan13 PS  382085  0.0 11072 python
+@rowan13 PS  382086  2.6 504368 python
+@rowan13 PS  382087  2.6 504568 python
+@rowan13 PS  383024  0.0  7100 sshd
+@rowan13 PS  383025  0.0  3624 bash
+@rowan13 PS  383035  100  4528 ps
+@rowan13 PS  383036  0.0  2284 sed
+@rowan13 SEEN 1784986202
+@rowan14 CPU 24 1.75
+@rowan14 MEM 15658 2105
+@rowan14 PS 4174475  0.1 11620 systemd
+@rowan14 PS 4174476  0.0  3396 (sd-pam)
+@rowan14 PS 4174485  0.0  8760 pipewire
+@rowan14 PS 4174486  0.0  5960 pipewire
+@rowan14 PS 4174488  0.0 15976 wireplumber
+@rowan14 PS 4174490  0.0 10608 pipewire-pulse
+@rowan14 PS 4174506  0.0  4420 dbus-daemon
+@rowan14 PS 4174636  0.0  3596 bash
+@rowan14 PS 4174721  0.0  3604 bash
+@rowan14 PS 4174739  0.0  1880 bash
+@rowan14 PS 4174740  0.0  2072 sleep
+@rowan14 PS 4174744  0.0  2120 timeout
+@rowan14 PS 4174745  1.9 805848 python
+@rowan14 PS 4178498  0.0  2056 sleep
+@rowan14 PS 4179777  0.1 11048 python
+@rowan14 PS 4179778  3.0 506692 python
+@rowan14 PS 4179779  3.1 506620 python
+@rowan14 PS 4180728  0.0  7072 sshd
+@rowan14 PS 4180729  0.0  3560 bash
+@rowan14 PS 4180739  0.0  4556 ps
+@rowan14 PS 4180740  0.0  2320 sed
+@rowan14 SEEN 1784986202
+@rowan15 CPU 24 2.60
+@rowan15 MEM 15658 2151
+@rowan15 PS  402107  0.1 11700 systemd
+@rowan15 PS  402108  0.0  3404 (sd-pam)
+@rowan15 PS  402116  0.0  8808 pipewire
+@rowan15 PS  402117  0.0  6124 pipewire
+@rowan15 PS  402119  0.0 15924 wireplumber
+@rowan15 PS  402121  0.0 10772 pipewire-pulse
+@rowan15 PS  402137  0.0  4496 dbus-daemon
+@rowan15 PS  402196  0.0  3572 bash
+@rowan15 PS  402210  0.0  3644 bash
+@rowan15 PS  402220  0.0  1952 bash
+@rowan15 PS  402221  0.0  2024 sleep
+@rowan15 PS  402224  0.0  2072 timeout
+@rowan15 PS  402225  1.8 839612 python
+@rowan15 PS  405868  0.0  2036 sleep
+@rowan15 PS  407032  0.0 11068 python
+@rowan15 PS  407033  2.8 507596 python
+@rowan15 PS  407034  2.9 507644 python
+@rowan15 PS  407948  0.0  7072 sshd
+@rowan15 PS  407949  0.0  3624 bash
+@rowan15 PS  407959  100  4580 ps
+@rowan15 PS  407960  0.0  2316 sed
+@rowan15 SEEN 1784986202
+@rowan16 CPU 24 2.33
+@rowan16 MEM 15658 2100
+@rowan16 PS 3358671  0.1 11528 systemd
+@rowan16 PS 3358672  0.0  3408 (sd-pam)
+@rowan16 PS 3358692  0.0  8676 pipewire
+@rowan16 PS 3358693  0.0  6008 pipewire
+@rowan16 PS 3358695  0.0 15716 wireplumber
+@rowan16 PS 3358697  0.0 10492 pipewire-pulse
+@rowan16 PS 3358712  0.0  4368 dbus-daemon
+@rowan16 PS 3358787  0.0  3564 bash
+@rowan16 PS 3358845  0.0  3540 bash
+@rowan16 PS 3358875  0.0  1956 bash
+@rowan16 PS 3358877  0.0  2020 sleep
+@rowan16 PS 3358886  0.0  2056 timeout
+@rowan16 PS 3358887  2.2 805164 python
+@rowan16 PS 3362495  0.0  2056 sleep
+@rowan16 PS 3363471  0.1 11024 python
+@rowan16 PS 3363480  3.3 508108 python
+@rowan16 PS 3363481  3.3 508008 python
+@rowan16 PS 3364453  0.0  7068 sshd
+@rowan16 PS 3364466  0.0  3516 bash
+@rowan16 PS 3364476  100  4472 ps
+@rowan16 PS 3364477  0.0  2296 sed
+@rowan16 SEEN 1784986218
+@rowan17 CPU 24 2.74
+@rowan17 MEM 15658 11481
+@rowan17 PS  143834  0.0 11660 systemd
+@rowan17 PS  143835  0.0  3412 (sd-pam)
+@rowan17 PS  143847  0.0  8676 pipewire
+@rowan17 PS  143848  0.0  6048 pipewire
+@rowan17 PS  143850  0.0 15888 wireplumber
+@rowan17 PS  143852  0.0 10564 pipewire-pulse
+@rowan17 PS  143871  0.0  4480 dbus-daemon
+@rowan17 PS  143928  0.0  3540 bash
+@rowan17 PS  144043  0.0  3604 bash
+@rowan17 PS  144102  0.0  1912 bash
+@rowan17 PS  144103  0.0  2052 sleep
+@rowan17 PS  144106  0.0  2096 timeout
+@rowan17 PS  144115  0.8 839372 python
+@rowan17 PS  147719  0.0  2024 sleep
+@rowan17 PS  148514  0.0 11044 python
+@rowan17 PS  148515  1.3 508288 python
+@rowan17 PS  148516  1.3 507940 python
+@rowan17 PS  149499  0.0  7092 sshd
+@rowan17 PS  149500  0.0  3544 bash
+@rowan17 PS  149531  0.0  4560 ps
+@rowan17 PS  149532  0.0  2296 sed
+@rowan17 SEEN 1784986215
+@rowan18 CPU 24 1.74
+@rowan18 MEM 15658 2191
+@rowan18 PS   95108  0.0 11836 systemd
+@rowan18 PS   95109  0.0  3436 (sd-pam)
+@rowan18 PS   95121  0.0  8756 pipewire
+@rowan18 PS   95122  0.0  5976 pipewire
+@rowan18 PS   95125  0.0 15916 wireplumber
+@rowan18 PS   95126  0.0 10588 pipewire-pulse
+@rowan18 PS   95150  0.0  4416 dbus-daemon
+@rowan18 PS   95321  0.0  3588 bash
+@rowan18 PS   95503  0.0  3576 bash
+@rowan18 PS   95513  0.0  1948 bash
+@rowan18 PS   95514  0.0  2052 sleep
+@rowan18 PS   95517  0.0  2096 timeout
+@rowan18 PS   95518  0.7 839936 python
+@rowan18 PS   99124  0.0  2060 sleep
+@rowan18 PS   99754  0.0 11140 python
+@rowan18 PS   99755  1.3 502532 python
+@rowan18 PS   99756  1.3 502172 python
+@rowan18 PS  100726  0.0  7004 sshd
+@rowan18 PS  100727  0.0  3608 bash
+@rowan18 PS  100745  0.0  4524 ps
+@rowan18 PS  100746  0.0  2292 sed
+@rowan18 SEEN 1784986216
+@rowan19 CPU 24 1.73
+@rowan19 MEM 15658 2179
+@rowan19 PS 3777613  0.1 11592 systemd
+@rowan19 PS 3777614  0.0  3408 (sd-pam)
+@rowan19 PS 3777625  0.0  8724 pipewire
+@rowan19 PS 3777626  0.0  5980 pipewire
+@rowan19 PS 3777628  0.0 15936 wireplumber
+@rowan19 PS 3777630  0.0 10544 pipewire-pulse
+@rowan19 PS 3777643  0.0  4352 dbus-daemon
+@rowan19 PS 3777698  0.0  3572 bash
+@rowan19 PS 3777738  0.0  3572 bash
+@rowan19 PS 3777773  0.0  1956 bash
+@rowan19 PS 3777774  0.0  2040 sleep
+@rowan19 PS 3777785  0.0  2084 timeout
+@rowan19 PS 3777786  2.2 839708 python
+@rowan19 PS 3781367  0.0  2056 sleep
+@rowan19 PS 3781860  0.0 11040 python
+@rowan19 PS 3781869  3.1 508464 python
+@rowan19 PS 3781870  3.0 508332 python
+@rowan19 PS 3782855  0.0  7016 sshd
+@rowan19 PS 3782856  0.0  3584 bash
+@rowan19 PS 3782866  100  4520 ps
+@rowan19 PS 3782867  0.0  2300 sed
+@rowan19 SEEN 1784986217
+@rowan20 CPU 24 1.72
+@rowan20 MEM 15658 2250
+@rowan20 PS 3210967  0.1 11608 systemd
+@rowan20 PS 3210968  0.0  3404 (sd-pam)
+@rowan20 PS 3210979  0.0  8852 pipewire
+@rowan20 PS 3210980  0.0  6056 pipewire
+@rowan20 PS 3210982  0.0 15808 wireplumber
+@rowan20 PS 3210984  0.0 10800 pipewire-pulse
+@rowan20 PS 3211003  0.0  4488 dbus-daemon
+@rowan20 PS 3211092  0.0  3580 bash
+@rowan20 PS 3211109  0.0  3608 bash
+@rowan20 PS 3211128  0.0  1960 bash
+@rowan20 PS 3211129  0.0  2020 sleep
+@rowan20 PS 3211132  0.0  2120 timeout
+@rowan20 PS 3211133  2.1 806016 python
+@rowan20 PS 3214738  0.0  2016 sleep
+@rowan20 PS 3215096  0.0 11028 python
+@rowan20 PS 3215097  2.8 508536 python
+@rowan20 PS 3215098  2.8 508436 python
+@rowan20 PS 3216097  0.0  7076 sshd
+@rowan20 PS 3216098  0.0  3548 bash
+@rowan20 PS 3216108  0.0  4576 ps
+@rowan20 PS 3216109  0.0  2312 sed
+@rowan20 SEEN 1784986217
+@rowan21 CPU 24 1.72
+@rowan21 MEM 15658 2135
+@rowan21 PS  420039  0.1 11772 systemd
+@rowan21 PS  420040  0.0  3416 (sd-pam)
+@rowan21 PS  420051  0.0  8812 pipewire
+@rowan21 PS  420052  0.0  6000 pipewire
+@rowan21 PS  420053  0.0 15972 wireplumber
+@rowan21 PS  420055  0.0 10540 pipewire-pulse
+@rowan21 PS  420072  0.0  4400 dbus-daemon
+@rowan21 PS  420151  0.0  3560 bash
+@rowan21 PS  420231  0.0  3520 bash
+@rowan21 PS  420242  0.0  1964 bash
+@rowan21 PS  420243  0.0  1992 sleep
+@rowan21 PS  420246  0.0  2068 timeout
+@rowan21 PS  420247  2.2 839936 python
+@rowan21 PS  423923  0.0  2000 sleep
+@rowan21 PS  424092  0.0 11064 python
+@rowan21 PS  424093  2.8 507112 python
+@rowan21 PS  424094  2.8 507484 python
+@rowan21 PS  425078  0.0  7112 sshd
+@rowan21 PS  425079  0.0  3560 bash
+@rowan21 PS  425089  100  4552 ps
+@rowan21 PS  425090  0.0  2300 sed
+@rowan21 SEEN 1784986217
+@rowan22 CPU 24 1.74
+@rowan22 MEM 15658 2163
+@rowan22 PS 3818290  0.0 11732 systemd
+@rowan22 PS 3818291  0.0  3428 (sd-pam)
+@rowan22 PS 3818302  0.0  8612 pipewire
+@rowan22 PS 3818303  0.0  5932 pipewire
+@rowan22 PS 3818304  0.0 15864 wireplumber
+@rowan22 PS 3818305  0.0 10496 pipewire-pulse
+@rowan22 PS 3818322  0.0  4368 dbus-daemon
+@rowan22 PS 3818376  0.0  3532 bash
+@rowan22 PS 3818403  0.0  3564 bash
+@rowan22 PS 3818421  0.0  1920 bash
+@rowan22 PS 3818422  0.0  2032 sleep
+@rowan22 PS 3818447  0.0  2060 timeout
+@rowan22 PS 3818448  0.8 806088 python
+@rowan22 PS 3822012  0.0  1988 sleep
+@rowan22 PS 3822098  0.0 10996 python
+@rowan22 PS 3822099  1.2 508680 python
+@rowan22 PS 3822100  1.2 508768 python
+@rowan22 PS 3823072  0.0  7020 sshd
+@rowan22 PS 3823073  0.0  3572 bash
+@rowan22 PS 3823091  0.0  4476 ps
+@rowan22 PS 3823092  0.0  2272 sed
+@rowan22 SEEN 1784986215
+@rowan23 CPU 24 2.72
+@rowan23 MEM 15658 7877
+@rowan23 PS 2681890  0.0 11760 systemd
+@rowan23 PS 2681891  0.0  3416 (sd-pam)
+@rowan23 PS 2681903  0.0  8748 pipewire
+@rowan23 PS 2681904  0.0  5968 pipewire
+@rowan23 PS 2681906  0.0 15952 wireplumber
+@rowan23 PS 2681908  0.0 10552 pipewire-pulse
+@rowan23 PS 2681925  0.0  4376 dbus-daemon
+@rowan23 PS 2681968  0.0  3560 bash
+@rowan23 PS 2682000  0.0  3596 bash
+@rowan23 PS 2682013  0.0  1924 bash
+@rowan23 PS 2682014  0.0  1996 sleep
+@rowan23 PS 2682017  0.0  2076 timeout
+@rowan23 PS 2682018  0.9 839352 python
+@rowan23 PS 2685647  0.0  2052 sleep
+@rowan23 PS 2685648  0.0 10956 python
+@rowan23 PS 2685649  1.4 507588 python
+@rowan23 PS 2685650  1.3 507924 python
+@rowan23 PS 2686623  0.0  7072 sshd
+@rowan23 PS 2686634  0.0  3600 bash
+@rowan23 PS 2686644  0.0  4560 ps
+@rowan23 PS 2686645  0.0  2272 sed
+@rowan23 SEEN 1784986212
+@rowan24 CPU 24 1.79
+@rowan24 MEM 15658 2141
+@rowan24 PS  396204  0.1 11872 systemd
+@rowan24 PS  396205  0.0  3428 (sd-pam)
+@rowan24 PS  396217  0.0  8708 pipewire
+@rowan24 PS  396218  0.0  5960 pipewire
+@rowan24 PS  396220  0.0 16020 wireplumber
+@rowan24 PS  396222  0.0 10444 pipewire-pulse
+@rowan24 PS  396239  0.0  4440 dbus-daemon
+@rowan24 PS  396282  0.0  3520 bash
+@rowan24 PS  396295  0.0  3524 bash
+@rowan24 PS  396306  0.0  1964 bash
+@rowan24 PS  396307  0.0  2008 sleep
+@rowan24 PS  396310  0.0  2084 timeout
+@rowan24 PS  396311  2.2 805792 python
+@rowan24 PS  399934  0.0 10984 python
+@rowan24 PS  399935  2.7 508080 python
+@rowan24 PS  399936  2.8 508112 python
+@rowan24 PS  399988  0.0  1980 sleep
+@rowan24 PS  400925  0.0  7032 sshd
+@rowan24 PS  400934  0.0  3500 bash
+@rowan24 PS  400944  0.0  4492 ps
+@rowan24 PS  400945  0.0  2268 sed
+@rowan24 SEEN 1784986218
+@rowan25 CPU 24 1.57
+@rowan25 MEM 15658 2122
+@rowan25 PS 1138275  0.1 11508 systemd
+@rowan25 PS 1138276  0.0  3400 (sd-pam)
+@rowan25 PS 1138287  0.0  8716 pipewire
+@rowan25 PS 1138288  0.0  6016 pipewire
+@rowan25 PS 1138289  0.0 15732 wireplumber
+@rowan25 PS 1138292  0.0 10612 pipewire-pulse
+@rowan25 PS 1138311  0.0  4384 dbus-daemon
+@rowan25 PS 1138352  0.0  3548 bash
+@rowan25 PS 1138382  0.0  3548 bash
+@rowan25 PS 1138402  0.0  1964 bash
+@rowan25 PS 1138403  0.0  2048 sleep
+@rowan25 PS 1138406  0.0  2088 timeout
+@rowan25 PS 1138407  2.3 840144 python
+@rowan25 PS 1142083  0.0  2072 sleep
+@rowan25 PS 1142551  0.3 11012 python
+@rowan25 PS 1142554  5.3 468552 python
+@rowan25 PS 1142555  5.4 468492 python
+@rowan25 PS 1142909  0.0  7052 sshd
+@rowan25 PS 1142910  0.0  3540 bash
+@rowan25 PS 1142920  0.0  4560 ps
+@rowan25 PS 1142921  0.0  2312 sed
+@rowan25 SEEN 1784986216
+@rowan26 CPU 24 1.01
+@rowan26 MEM 15142 1694
+@rowan26 PS 1052307  0.2 14116 systemd
+@rowan26 PS 1052310  0.0  4080 (sd-pam)
+@rowan26 PS 1052330  0.0  5164 dbus-daemon
+@rowan26 PS 1052331  0.0  8368 pipewire
+@rowan26 PS 1052338  0.0  3960 mpris-proxy
+@rowan26 PS 1052339  0.0 26656 wireplumber
+@rowan26 PS 1052340  0.0  5788 pipewire
+@rowan26 PS 1052341  0.0 10916 pipewire-pulse
+@rowan26 PS 1052469  0.0  3888 bash
+@rowan26 PS 1052475  0.0  3868 bash
+@rowan26 PS 1052485  0.0  1952 bash
+@rowan26 PS 1052486  0.0  7740 sleep
+@rowan26 PS 1052489  0.0  7612 timeout
+@rowan26 PS 1052490  2.4 768808 python
+@rowan26 PS 1055945  0.0  7796 sleep
+@rowan26 PS 1056639  0.0  8360 sshd-session
+@rowan26 PS 1056640  0.0  3920 bash
+@rowan26 PS 1056650  0.0  4732 ps
+@rowan26 PS 1056651  0.0  2700 sed
+@rowan26 SEEN 1784986217
+@vertex01 CPU 12 1.32
+@vertex01 MEM 15771 9953
+@vertex01 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex01 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex01 APP 
+@vertex01 PS 1177560  2.3 11640 systemd
+@vertex01 PS 1177561  0.0  3400 (sd-pam)
+@vertex01 PS 1177572  0.2  8968 pipewire
+@vertex01 PS 1177573  0.2  6240 pipewire
+@vertex01 PS 1177574  0.8 15884 wireplumber
+@vertex01 PS 1177576  0.2 10840 pipewire-pulse
+@vertex01 PS 1177597  0.0  4444 dbus-daemon
+@vertex01 PS 1177603  0.0  7072 sshd
+@vertex01 PS 1177627  0.0  3640 bash
+@vertex01 PS 1177723 12.5  4620 ps
+@vertex01 PS 1177724  0.0  2416 sed
+@vertex01 SEEN 1784986323
+@vertex02 CPU 12 0.22
+@vertex02 MEM 15771 913
+@vertex02 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex02 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex02 APP 
+@vertex02 PS  220070  2.1 11636 systemd
+@vertex02 PS  220071  0.0  3424 (sd-pam)
+@vertex02 PS  220082  0.1  8764 pipewire
+@vertex02 PS  220083  0.1  6080 pipewire
+@vertex02 PS  220085  0.5 15804 wireplumber
+@vertex02 PS  220087  0.1 10588 pipewire-pulse
+@vertex02 PS  220108  0.0  4460 dbus-daemon
+@vertex02 PS  220110  0.0  7020 sshd
+@vertex02 PS  220138  0.0  3588 bash
+@vertex02 PS  220240  0.0  4544 ps
+@vertex02 PS  220241  0.0  2264 sed
+@vertex02 SEEN 1784986324
+@vertex03 CPU 12 0.15
+@vertex03 MEM 15771 911
+@vertex03 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex03 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex03 APP 
+@vertex03 PS 2991708  2.6 11620 systemd
+@vertex03 PS 2991709  0.0  3432 (sd-pam)
+@vertex03 PS 2991721  0.1  8772 pipewire
+@vertex03 PS 2991722  0.1  6124 pipewire
+@vertex03 PS 2991724  0.6 15872 wireplumber
+@vertex03 PS 2991726  0.1 10672 pipewire-pulse
+@vertex03 PS 2991745  0.0  4508 dbus-daemon
+@vertex03 PS 2991749  0.0  7056 sshd
+@vertex03 PS 2991769  0.0  3540 bash
+@vertex03 PS 2991903 36.3  4556 ps
+@vertex03 PS 2991904  0.0  2280 sed
+@vertex03 SEEN 1784986324
+@vertex04 CPU 12 1.01
+@vertex04 MEM 15771 1037
+@vertex04 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex04 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex04 APP 
+@vertex04 PS  663684  2.0 11688 systemd
+@vertex04 PS  663685  0.0  3420 (sd-pam)
+@vertex04 PS  663698  0.1  8876 pipewire
+@vertex04 PS  663700  0.0  6132 pipewire
+@vertex04 PS  663702  0.5 15940 wireplumber
+@vertex04 PS  663704  0.1 10692 pipewire-pulse
+@vertex04 PS  663722  0.0  4500 dbus-daemon
+@vertex04 PS  663726  0.0  7056 sshd
+@vertex04 PS  663746  0.0  3616 bash
+@vertex04 PS  663852 37.5  4560 ps
+@vertex04 PS  663853  0.0  2328 sed
+@vertex04 SEEN 1784986324
+@vertex05 CPU 12 2.60
+@vertex05 MEM 15771 1135
+@vertex05 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex05 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex05 APP 
+@vertex05 PS 3421302  2.7 11644 systemd
+@vertex05 PS 3421304  0.0  3428 (sd-pam)
+@vertex05 PS 3421321  0.1  8856 pipewire
+@vertex05 PS 3421322  0.1  6164 pipewire
+@vertex05 PS 3421324  0.7 15816 wireplumber
+@vertex05 PS 3421326  0.1 10828 pipewire-pulse
+@vertex05 PS 3421348  0.0  4360 dbus-daemon
+@vertex05 PS 3421349  0.0  7116 sshd
+@vertex05 PS 3421369  0.0  3708 bash
+@vertex05 PS 3421484 11.1  4612 ps
+@vertex05 PS 3421485  0.0  2420 sed
+@vertex05 SEEN 1784986324
+@vertex06 CPU 12 1.61
+@vertex06 MEM 15771 1232
+@vertex06 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex06 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex06 APP 
+@vertex06 PS 3369942  2.1 11880 systemd
+@vertex06 PS 3369943  0.0  3432 (sd-pam)
+@vertex06 PS 3369955  0.1  8904 pipewire
+@vertex06 PS 3369956  0.1  6216 pipewire
+@vertex06 PS 3369958  0.7 16012 wireplumber
+@vertex06 PS 3369960  0.1 10748 pipewire-pulse
+@vertex06 PS 3369982  0.0  4592 dbus-daemon
+@vertex06 PS 3369983  0.0  7152 sshd
+@vertex06 PS 3370003  0.0  3636 bash
+@vertex06 PS 3370167  0.0  4620 ps
+@vertex06 PS 3370168  0.0  2332 sed
+@vertex06 SEEN 1784986324
+@vertex07 CPU 12 0.24
+@vertex07 MEM 15771 1131
+@vertex07 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex07 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex07 APP 
+@vertex07 PS 3013358  2.4 11616 systemd
+@vertex07 PS 3013359  0.0  3432 (sd-pam)
+@vertex07 PS 3013374  0.1  8736 pipewire
+@vertex07 PS 3013375  0.1  6096 pipewire
+@vertex07 PS 3013377  0.7 15980 wireplumber
+@vertex07 PS 3013379  0.1 10656 pipewire-pulse
+@vertex07 PS 3013404  0.0  4472 dbus-daemon
+@vertex07 PS 3013405  0.0  7088 sshd
+@vertex07 PS 3013425  0.0  3608 bash
+@vertex07 PS 3013633  0.0  4532 ps
+@vertex07 PS 3013634  0.0  2300 sed
+@vertex07 SEEN 1784986324
+@vertex08 CPU 12 0.47
+@vertex08 MEM 15771 6432
+@vertex08 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex08 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex08 APP 
+@vertex08 PS 2130882  2.3 11616 systemd
+@vertex08 PS 2130884  0.0  3420 (sd-pam)
+@vertex08 PS 2130895  0.1  8852 pipewire
+@vertex08 PS 2130896  0.0  6176 pipewire
+@vertex08 PS 2130898  0.5 15904 wireplumber
+@vertex08 PS 2130900  0.1 10736 pipewire-pulse
+@vertex08 PS 2130919  0.0  4540 dbus-daemon
+@vertex08 PS 2130923  0.0  7104 sshd
+@vertex08 PS 2130944  0.0  3572 bash
+@vertex08 PS 2131075 27.2  4600 ps
+@vertex08 PS 2131076  0.0  2332 sed
+@vertex08 SEEN 1784986324
+@vertex09 CPU 12 1.27
+@vertex09 MEM 15771 6313
+@vertex09 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex09 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex09 APP 
+@vertex09 PS 3107094  2.4 11724 systemd
+@vertex09 PS 3107095  0.0  3420 (sd-pam)
+@vertex09 PS 3107113  0.1  8848 pipewire
+@vertex09 PS 3107114  0.1  6112 pipewire
+@vertex09 PS 3107116  0.7 15904 wireplumber
+@vertex09 PS 3107118  0.1 10720 pipewire-pulse
+@vertex09 PS 3107140  0.0  4516 dbus-daemon
+@vertex09 PS 3107141  0.0  7120 sshd
+@vertex09 PS 3107161  0.0  3596 bash
+@vertex09 PS 3107277  0.0  4620 ps
+@vertex09 PS 3107278  0.0  2332 sed
+@vertex09 SEEN 1784986324
+@vertex10 CPU 12 0.12
+@vertex10 MEM 15771 1877
+@vertex10 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex10 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex10 APP 
+@vertex10 PS 1190339 22.2 11424 systemd
+@vertex10 PS 1190340  0.0  3400 (sd-pam)
+@vertex10 PS 1190360  5.2  8628 pipewire
+@vertex10 PS 1190361  2.6  6044 pipewire
+@vertex10 PS 1190362 10.5 15804 wireplumber
+@vertex10 PS 1190365  2.7 10592 pipewire-pulse
+@vertex10 PS 1190393  0.0  4420 dbus-daemon
+@vertex10 PS 1190397  0.0  6992 sshd
+@vertex10 PS 1190417  0.0  3564 bash
+@vertex10 PS 1190435  300  4504 ps
+@vertex10 PS 1190436  0.0  2296 sed
+@vertex10 SEEN 1784986318
+@vertex11 CPU 12 1.23
+@vertex11 MEM 15771 8456
+@vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex11 APP 
+@vertex11 PS  189295  2.4 11648 systemd
+@vertex11 PS  189296  0.0  3440 (sd-pam)
+@vertex11 PS  189315  0.2  8756 pipewire
+@vertex11 PS  189316  0.2  6100 pipewire
+@vertex11 PS  189319  0.8 15748 wireplumber
+@vertex11 PS  189320  0.2 10592 pipewire-pulse
+@vertex11 PS  189342  0.0  4464 dbus-daemon
+@vertex11 PS  189343  0.0  7036 sshd
+@vertex11 PS  189363  0.0  3584 bash
+@vertex11 PS  189461 14.2  4540 ps
+@vertex11 PS  189462  0.0  2288 sed
+@vertex11 SEEN 1784986323
+@vertex13 CPU 12 1.30
+@vertex13 MEM 15771 6696
+@vertex13 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex13 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex13 APP 
+@vertex13 PS 1310187  1.7 11588 systemd
+@vertex13 PS 1310188  0.0  3396 (sd-pam)
+@vertex13 PS 1310200  0.1  8772 pipewire
+@vertex13 PS 1310201  0.1  6088 pipewire
+@vertex13 PS 1310203  0.4 15732 wireplumber
+@vertex13 PS 1310205  0.1 10704 pipewire-pulse
+@vertex13 PS 1310227  0.0  4464 dbus-daemon
+@vertex13 PS 1310228  0.0  7124 sshd
+@vertex13 PS 1310249  0.0  3664 bash
+@vertex13 PS 1310383  0.0  4516 ps
+@vertex13 PS 1310384  0.0  2288 sed
+@vertex13 SEEN 1784986339
+@vertex14 CPU 12 1.11
+@vertex14 MEM 15771 6059
+@vertex14 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex14 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex14 APP 
+@vertex14 PS 3296780  2.8 11788 systemd
+@vertex14 PS 3296781  0.0  3420 (sd-pam)
+@vertex14 PS 3296793  0.2  8924 pipewire
+@vertex14 PS 3296794  0.2  6124 pipewire
+@vertex14 PS 3296796  1.0 15996 wireplumber
+@vertex14 PS 3296798  0.2 10780 pipewire-pulse
+@vertex14 PS 3296820  0.0  4548 dbus-daemon
+@vertex14 PS 3296821  0.0  7064 sshd
+@vertex14 PS 3296841  0.0  3624 bash
+@vertex14 PS 3296942  0.0  4616 ps
+@vertex14 PS 3296943  0.0  2340 sed
+@vertex14 SEEN 1784986338
+@vertex15 CPU 12 1.64
+@vertex15 MEM 15771 9302
+@vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex15 APP 
+@vertex15 PS 1399203  1.5 11888 systemd
+@vertex15 PS 1399212  0.0  3424 (sd-pam)
+@vertex15 PS 1399223  0.1  8748 pipewire
+@vertex15 PS 1399224  0.0  6056 pipewire
+@vertex15 PS 1399226  0.3 15788 wireplumber
+@vertex15 PS 1399228  0.1 10608 pipewire-pulse
+@vertex15 PS 1399247  0.0  4520 dbus-daemon
+@vertex15 PS 1399251  0.0  7072 sshd
+@vertex15 PS 1399252  0.0  3592 bash
+@vertex15 PS 1399431  0.0  4576 ps
+@vertex15 PS 1399432  0.0  2340 sed
+@vertex15 SEEN 1784986341
+@vertex16 CPU 12 1.72
+@vertex16 MEM 15771 11328
+@vertex16 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex16 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex16 APP 
+@vertex16 PS 4128403  1.6 11592 systemd
+@vertex16 PS 4128404  0.0  3420 (sd-pam)
+@vertex16 PS 4128422  0.1  8696 pipewire
+@vertex16 PS 4128423  0.1  6032 pipewire
+@vertex16 PS 4128424  0.5 15924 wireplumber
+@vertex16 PS 4128427  0.2 10592 pipewire-pulse
+@vertex16 PS 4128446  0.0  4472 dbus-daemon
+@vertex16 PS 4128450  0.0  7068 sshd
+@vertex16 PS 4128467  0.0  3460 bash
+@vertex16 PS 4128623  0.0  4436 ps
+@vertex16 PS 4128624  0.0  2248 sed
+@vertex16 SEEN 1784986340
+@vertex17 CPU 12 0.51
+@vertex17 MEM 15771 1248
+@vertex17 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex17 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex17 APP 
+@vertex17 PS 3288556  1.7 11760 systemd
+@vertex17 PS 3288557  0.0  3428 (sd-pam)
+@vertex17 PS 3288572  0.1  8848 pipewire
+@vertex17 PS 3288573  0.1  6044 pipewire
+@vertex17 PS 3288575  0.4 16044 wireplumber
+@vertex17 PS 3288577  0.1 10564 pipewire-pulse
+@vertex17 PS 3288597  0.0  4504 dbus-daemon
+@vertex17 PS 3288600  0.0  7064 sshd
+@vertex17 PS 3288620  0.0  3592 bash
+@vertex17 PS 3288827  0.0  4580 ps
+@vertex17 PS 3288828  0.0  2324 sed
+@vertex17 SEEN 1784986340
+@vertex18 CPU 12 1.15
+@vertex18 MEM 15771 5268
+@vertex18 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex18 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex18 APP 
+@vertex18 PS  919953  2.4 11664 systemd
+@vertex18 PS  919954  0.0  3424 (sd-pam)
+@vertex18 PS  919973  0.2  8764 pipewire
+@vertex18 PS  919974  0.2  6144 pipewire
+@vertex18 PS  919976  0.8 15888 wireplumber
+@vertex18 PS  919979  0.2 10700 pipewire-pulse
+@vertex18 PS  919998  0.0  4572 dbus-daemon
+@vertex18 PS  920005  0.0  7120 sshd
+@vertex18 PS  920021  0.0  3600 bash
+@vertex18 PS  920112  0.0  4588 ps
+@vertex18 PS  920113  0.0  2284 sed
+@vertex18 SEEN 1784986339
+@vertex20 CPU 12 0.27
+@vertex20 MEM 15771 999
+@vertex20 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex20 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex20 APP 
+@vertex20 PS 2361632  1.4 11804 systemd
+@vertex20 PS 2361633  0.0  3420 (sd-pam)
+@vertex20 PS 2361650  0.1  8792 pipewire
+@vertex20 PS 2361651  0.1  6104 pipewire
+@vertex20 PS 2361653  0.4 15980 wireplumber
+@vertex20 PS 2361655  0.1 10680 pipewire-pulse
+@vertex20 PS 2361677  0.0  4560 dbus-daemon
+@vertex20 PS 2361678  0.0  7108 sshd
+@vertex20 PS 2361698  0.0  3616 bash
+@vertex20 PS 2361870 10.0  4564 ps
+@vertex20 PS 2361871  0.0  2308 sed
+@vertex20 SEEN 1784986344
+@vertex21 CPU 12 0.66
+@vertex21 MEM 15771 2879
+@vertex21 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex21 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+@vertex21 APP 
+@vertex21 PS 4020575  1.7 11764 systemd
+@vertex21 PS 4020576  0.0  3432 (sd-pam)
+@vertex21 PS 4020595  0.1  8796 pipewire
+@vertex21 PS 4020596  0.1  6180 pipewire
+@vertex21 PS 4020598  0.4 16124 wireplumber
+@vertex21 PS 4020600  0.1 10732 pipewire-pulse
+@vertex21 PS 4020619  0.0  4548 dbus-daemon
+@vertex21 PS 4020627  0.0  7068 sshd
+@vertex21 PS 4020643  0.0  3652 bash
+@vertex21 PS 4020806  8.3  4628 ps
+@vertex21 PS 4020807  0.0  2344 sed
+@vertex21 SEEN 1784986341
+@vertex22 CPU 12 0.46
+@vertex22 MEM 15255 1313
+@vertex22 PS  941673  1.6 13952 systemd
+@vertex22 PS  941675  0.0  4064 (sd-pam)
+@vertex22 PS  941699  0.0  5164 dbus-daemon
+@vertex22 PS  941700  0.1  8380 pipewire
+@vertex22 PS  941710  0.0  3936 mpris-proxy
+@vertex22 PS  941711  0.7 26768 wireplumber
+@vertex22 PS  941713  0.1  5784 pipewire
+@vertex22 PS  941715  0.1 11016 pipewire-pulse
+@vertex22 PS  941741  0.0  8476 sshd-session
+@vertex22 PS  941742  0.0  3916 bash
+@vertex22 PS  942138  0.0  4668 ps
+@vertex22 PS  942139  0.0  2728 sed
+@vertex22 SEEN 1784986343
+@willow01 CPU 16 1.07
+@willow01 MEM 15809 13160
+@willow01 GPU 2, 69, 4096
+@willow01 PS 1773623 23.2 11756 systemd
+@willow01 PS 1773624  0.0  3428 (sd-pam)
+@willow01 PS 1773636  0.0  8704 pipewire
+@willow01 PS 1773637  0.0  6036 pipewire
+@willow01 PS 1773639  7.6 15920 wireplumber
+@willow01 PS 1773641  0.0 10536 pipewire-pulse
+@willow01 PS 1773660  0.0  4444 dbus-daemon
+@willow01 PS 1773664  0.0  6976 sshd
+@willow01 PS 1773692  0.0  3560 bash
+@willow01 PS 1773706  0.0  4520 ps
+@willow01 PS 1773707  0.0  2316 sed
+@willow01 SEEN 1784986297
+@willow02 CPU 16 1.14
+@willow02 MEM 15809 6965
+@willow02 GPU 0, 96, 4096
+@willow02 PS  754533 23.8 11804 systemd
+@willow02 PS  754534  0.0  3440 (sd-pam)
+@willow02 PS  754545  0.0  8760 pipewire
+@willow02 PS  754546  0.0  6096 pipewire
+@willow02 PS  754548  7.6 15764 wireplumber
+@willow02 PS  754550  0.0 10664 pipewire-pulse
+@willow02 PS  754569  0.0  4536 dbus-daemon
+@willow02 PS  754573  0.0  7032 sshd
+@willow02 PS  754593  0.0  3584 bash
+@willow02 PS  754607  0.0  4584 ps
+@willow02 PS  754608  0.0  2300 sed
+@willow02 SEEN 1784986297
+@willow03 CPU 16 1.00
+@willow03 MEM 15809 12056
+@willow03 GPU 0, 85, 4096
+@willow03 PS 3904236 22.2 11800 systemd
+@willow03 PS 3904237  0.0  3412 (sd-pam)
+@willow03 PS 3904257  0.0  8828 pipewire
+@willow03 PS 3904258  0.0  6008 pipewire
+@willow03 PS 3904260 10.7 15824 wireplumber
+@willow03 PS 3904262  0.0 10632 pipewire-pulse
+@willow03 PS 3904281  0.0  4500 dbus-daemon
+@willow03 PS 3904285  0.0  6948 sshd
+@willow03 PS 3904305  0.0  3580 bash
+@willow03 PS 3904319  0.0  4592 ps
+@willow03 PS 3904320  0.0  2312 sed
+@willow03 SEEN 1784986297
+@willow04 CPU 16 1.32
+@willow04 MEM 15809 4132
+@willow04 GPU 0, 89, 4096
+@willow04 PS  580949 35.7 11796 systemd
+@willow04 PS  580950  0.0  3448 (sd-pam)
+@willow04 PS  580962  7.6  8736 pipewire
+@willow04 PS  580963  0.0  6028 pipewire
+@willow04 PS  580965 23.0 15892 wireplumber
+@willow04 PS  580967  0.0 10624 pipewire-pulse
+@willow04 PS  580988  0.0  4476 dbus-daemon
+@willow04 PS  580990  0.0  7068 sshd
+@willow04 PS  581010  0.0  3596 bash
+@willow04 PS  581020  0.0  4564 ps
+@willow04 PS  581021  0.0  2272 sed
+@willow04 SEEN 1784986297
+@willow05 CPU 16 1.07
+@willow05 MEM 15813 5600
+@willow05 GPU 0, 89, 4096
+@willow05 PS 1527565 24.3 11784 systemd
+@willow05 PS 1527566  0.0  3424 (sd-pam)
+@willow05 PS 1527578  3.8  8848 pipewire
+@willow05 PS 1527579  0.0  6100 pipewire
+@willow05 PS 1527582 11.5 15952 wireplumber
+@willow05 PS 1527583  3.8 10696 pipewire-pulse
+@willow05 PS 1527605  0.0  4508 dbus-daemon
+@willow05 PS 1527606  0.0  7020 sshd
+@willow05 PS 1527626  0.0  3628 bash
+@willow05 PS 1527640  0.0  4628 ps
+@willow05 PS 1527641  0.0  2320 sed
+@willow05 SEEN 1784986297
+@willow06 CPU 16 1.00
+@willow06 MEM 15813 3290
+@willow06 GPU 0, 85, 4096
+@willow06 PS 2646140 22.2 11616 systemd
+@willow06 PS 2646141  0.0  3400 (sd-pam)
+@willow06 PS 2646153  0.0  8776 pipewire
+@willow06 PS 2646154  0.0  6124 pipewire
+@willow06 PS 2646155  6.6 16088 wireplumber
+@willow06 PS 2646158  0.0 10664 pipewire-pulse
+@willow06 PS 2646177  0.0  4480 dbus-daemon
+@willow06 PS 2646184  0.0  6916 sshd
+@willow06 PS 2646201  0.0  3556 bash
+@willow06 PS 2646215  0.0  4624 ps
+@willow06 PS 2646216  0.0  2312 sed
+@willow06 SEEN 1784986297
+@willow07 CPU 16 1.10
+@willow07 MEM 15809 4308
+@willow07 GPU 0, 82, 4096
+@willow07 PS  825540 28.2 11892 systemd
+@willow07 PS  825541  0.0  3432 (sd-pam)
+@willow07 PS  825553  0.0  8764 pipewire
+@willow07 PS  825554  0.0  6076 pipewire
+@willow07 PS  825556  8.0 15940 wireplumber
+@willow07 PS  825558  0.0 10668 pipewire-pulse
+@willow07 PS  825577  0.0  4448 dbus-daemon
+@willow07 PS  825583  0.0  7084 sshd
+@willow07 PS  825601  0.0  3588 bash
+@willow07 PS  825615  0.0  4560 ps
+@willow07 PS  825616  0.0  2320 sed
+@willow07 SEEN 1784986297
+@willow08 CPU 16 1.02
+@willow08 MEM 15809 1576
+@willow08 GPU 0, 76, 4096
+@willow08 PS 1431165 16.6 11336 systemd
+@willow08 PS 1431166  0.0  3396 (sd-pam)
+@willow08 PS 1431177  2.2  8488 pipewire
+@willow08 PS 1431178  0.0  5808 pipewire
+@willow08 PS 1431181  6.8 15708 wireplumber
+@willow08 PS 1431182  0.0 10536 pipewire-pulse
+@willow08 PS 1431201  0.0  4284 dbus-daemon
+@willow08 PS 1431205  0.0  6752 sshd
+@willow08 PS 1431225  0.0  3492 bash
+@willow08 PS 1431239  0.0  4372 ps
+@willow08 PS 1431240  0.0  2288 sed
+@willow08 SEEN 1784986298
+@willow09 CPU 16 1.38
+@willow09 MEM 15809 1293
+@willow09 GPU 0, 82, 4096
+@willow09 PS 3776780  2.8 11516 systemd
+@willow09 PS 3776781  0.0  3408 (sd-pam)
+@willow09 PS 3776792  0.0  8752 pipewire
+@willow09 PS 3776793  0.0  6052 pipewire
+@willow09 PS 3776795  0.8 15812 wireplumber
+@willow09 PS 3776797  0.0 10600 pipewire-pulse
+@willow09 PS 3776819  0.0  4432 dbus-daemon
+@willow09 PS 3776820  0.0  6868 sshd
+@willow09 PS 3776861  0.0  3596 bash
+@willow09 PS 3776973  0.0  4584 ps
+@willow09 PS 3776974  0.0  2308 sed
+@willow09 SEEN 1784986309
+@willow10 CPU 16 1.16
+@willow10 MEM 15809 4383
+@willow10 GPU 3, 92, 4096
+@willow10 PS 1851444  2.9 11552 systemd
+@willow10 PS 1851445  0.0  3388 (sd-pam)
+@willow10 PS 1851456  0.0  8772 pipewire
+@willow10 PS 1851457  0.0  6016 pipewire
+@willow10 PS 1851459  0.9 16008 wireplumber
+@willow10 PS 1851461  0.0 10612 pipewire-pulse
+@willow10 PS 1851481  0.0  4368 dbus-daemon
+@willow10 PS 1851485  0.0  7008 sshd
+@willow10 PS 1851504  0.0  3572 bash
+@willow10 PS 1851569  0.0  4500 ps
+@willow10 PS 1851570  0.0  2320 sed
+@willow10 SEEN 1784986306
+@willow11 CPU 16 1.08
+@willow11 MEM 15809 9061
+@willow11 GPU 0, 82, 4096
+@willow11 PS  772301  3.1 11840 systemd
+@willow11 PS  772302  0.0  3420 (sd-pam)
+@willow11 PS  772383  0.2  8888 pipewire
+@willow11 PS  772384  0.2  6068 pipewire
+@willow11 PS  772387  1.1 15748 wireplumber
+@willow11 PS  772388  0.2 10736 pipewire-pulse
+@willow11 PS  772417  0.0  4480 dbus-daemon
+@willow11 PS  772420  0.0  7100 sshd
+@willow11 PS  772459  0.0  3628 bash
+@willow11 PS  773797  0.0  4584 ps
+@willow11 PS  773798  0.0  2324 sed
+@willow11 SEEN 1784986308
+@willow12 CPU 16 0.09
+@willow12 MEM 15809 1059
+@willow12 GPU 0, 82, 4096
+@willow12 PS 2262957  2.8 11660 systemd
+@willow12 PS 2262958  0.0  3432 (sd-pam)
+@willow12 PS 2262969  0.0  8812 pipewire
+@willow12 PS 2262970  0.0  6024 pipewire
+@willow12 PS 2262971  0.8 15836 wireplumber
+@willow12 PS 2262974  0.0 10692 pipewire-pulse
+@willow12 PS 2262993  0.0  4460 dbus-daemon
+@willow12 PS 2262997  0.0  7084 sshd
+@willow12 PS 2263017  0.0  3624 bash
+@willow12 PS 2263083 50.0  4564 ps
+@willow12 PS 2263084  0.0  2324 sed
+@willow12 SEEN 1784986310
+@willow13 CPU 16 1.19
+@willow13 MEM 15809 4241
+@willow13 GPU 0, 82, 4096
+@willow13 PS 1255825  3.1 11856 systemd
+@willow13 PS 1255826  0.0  3404 (sd-pam)
+@willow13 PS 1255845  0.0  8900 pipewire
+@willow13 PS 1255846  0.0  6104 pipewire
+@willow13 PS 1255848  0.5 16080 wireplumber
+@willow13 PS 1255850  0.0 10776 pipewire-pulse
+@willow13 PS 1255869  0.0  4496 dbus-daemon
+@willow13 PS 1255880  0.0  7048 sshd
+@willow13 PS 1255893  0.0  3628 bash
+@willow13 PS 1255947  0.0  4596 ps
+@willow13 PS 1255948  0.0  2324 sed
+@willow13 SEEN 1784986309
+@willow14 CPU 16 1.00
+@willow14 MEM 15809 6396
+@willow14 GPU 0, 82, 4096
+@willow14 PS 2344108  2.6 11788 systemd
+@willow14 PS 2344109  0.0  3436 (sd-pam)
+@willow14 PS 2344121  0.0  8680 pipewire
+@willow14 PS 2344122  0.0  5972 pipewire
+@willow14 PS 2344124  0.5 15928 wireplumber
+@willow14 PS 2344126  0.0 10592 pipewire-pulse
+@willow14 PS 2344153  0.0  4368 dbus-daemon
+@willow14 PS 2344157  0.0  7020 sshd
+@willow14 PS 2344177  0.0  3532 bash
+@willow14 PS 2344217  0.0  4456 ps
+@willow14 PS 2344218  0.0  2320 sed
+@willow14 SEEN 1784986308
+@willow15 CPU 12 1.34
+@willow15 MEM 15766 3452
+@willow15 GPU [N/A], 74, 2002
+@willow15 APP [N/A], [N/A]
+@willow15 PS 3721984  2.8 11848 systemd
+@willow15 PS 3721991  0.0  3400 (sd-pam)
+@willow15 PS 3722002  0.2  8940 pipewire
+@willow15 PS 3722003  0.0  6160 pipewire
+@willow15 PS 3722005  0.8 15896 wireplumber
+@willow15 PS 3722007  0.2 10716 pipewire-pulse
+@willow15 PS 3722028  0.0  4400 dbus-daemon
+@willow15 PS 3722030  0.0  7000 sshd
+@willow15 PS 3722050  0.0  3616 bash
+@willow15 PS 3722107  0.0  4600 ps
+@willow15 PS 3722108  0.0  2376 sed
+@willow15 SEEN 1784986309
+@willow16 CPU 16 1.38
+@willow16 MEM 15809 6892
+@willow16 GPU 0, 82, 4096
+@willow16 PS 2880926  2.6 11772 systemd
+@willow16 PS 2880927  0.0  3420 (sd-pam)
+@willow16 PS 2880938  0.0  8888 pipewire
+@willow16 PS 2880939  0.0  6112 pipewire
+@willow16 PS 2880941  0.5 16000 wireplumber
+@willow16 PS 2880943  0.2 10704 pipewire-pulse
+@willow16 PS 2880965  0.0  4508 dbus-daemon
+@willow16 PS 2880966  0.0  7052 sshd
+@willow16 PS 2880986  0.0  3568 bash
+@willow16 PS 2881047  0.0  4592 ps
+@willow16 PS 2881048  0.0  2308 sed
+@willow16 SEEN 1784986309
+@willow17 CPU 16 1.00
+@willow17 MEM 15809 1481
+@willow17 GPU 0, 85, 4096
+@willow17 PS  799913  3.1 11660 systemd
+@willow17 PS  799914  0.0  3388 (sd-pam)
+@willow17 PS  799926  0.0  8576 pipewire
+@willow17 PS  799927  0.0  5872 pipewire
+@willow17 PS  799928  0.8 15512 wireplumber
+@willow17 PS  799931  0.2 10560 pipewire-pulse
+@willow17 PS  799950  0.0  4384 dbus-daemon
+@willow17 PS  799963  0.0  6916 sshd
+@willow17 PS  799986  0.0  3488 bash
+@willow17 PS  800047  0.0  4460 ps
+@willow17 PS  800048  0.0  2296 sed
+@willow17 SEEN 1784986308
+@willow18 CPU 16 1.07
+@willow18 MEM 15809 3179
+@willow18 GPU 0, 82, 4096
+@willow18 PS 2607410  2.8 11764 systemd
+@willow18 PS 2607411  0.0  3424 (sd-pam)
+@willow18 PS 2607423  0.0  8848 pipewire
+@willow18 PS 2607424  0.0  6144 pipewire
+@willow18 PS 2607426  0.8 15888 wireplumber
+@willow18 PS 2607428  0.0 10780 pipewire-pulse
+@willow18 PS 2607447  0.0  4524 dbus-daemon
+@willow18 PS 2607451  0.0  7088 sshd
+@willow18 PS 2607471  0.0  3568 bash
+@willow18 PS 2607511  0.0  4600 ps
+@willow18 PS 2607512  0.0  2324 sed
+@willow18 SEEN 1784986307
+@willow19 CPU 16 1.10
+@willow19 MEM 15813 9218
+@willow19 GPU 0, 82, 4096
+@willow19 PS  999442  2.8 11840 systemd
+@willow19 PS  999443  0.0  3440 (sd-pam)
+@willow19 PS  999454  0.0  8768 pipewire
+@willow19 PS  999455  0.0  6016 pipewire
+@willow19 PS  999457  0.8 16076 wireplumber
+@willow19 PS  999459  0.0 10688 pipewire-pulse
+@willow19 PS  999479  0.0  4476 dbus-daemon
+@willow19 PS  999485  0.0  7044 sshd
+@willow19 PS  999510  0.0  3592 bash
+@willow19 PS  999567  0.0  4544 ps
+@willow19 PS  999568  0.0  2312 sed
+@willow19 SEEN 1784986307
+@willow20 CPU 16 0.16
+@willow20 MEM 15293 1517
+@willow20 GPU 0, 89, 4096
+@willow20 PS 1078775  2.9 14284 systemd
+@willow20 PS 1078776  0.0  4124 (sd-pam)
+@willow20 PS 1078800  0.0  5208 dbus-daemon
+@willow20 PS 1078801  0.0  8524 pipewire
+@willow20 PS 1078811  0.0  4112 mpris-proxy
+@willow20 PS 1078812  1.4 26860 wireplumber
+@willow20 PS 1078815  0.0  5820 pipewire
+@willow20 PS 1078816  0.0 10944 pipewire-pulse
+@willow20 PS 1078850  0.0  8400 sshd-session
+@willow20 PS 1078852  0.0  3960 bash
+@willow20 PS 1079174  100  4784 ps
+@willow20 PS 1079175  0.0  2784 sed
+@willow20 SEEN 1784986307
+@yew01 CPU 24 2.58
+@yew01 MEM 15658 3159
+@yew01 PS 2234075  0.1 11872 systemd
+@yew01 PS 2234076  0.0  3396 (sd-pam)
+@yew01 PS 2234088  0.0  8452 pipewire
+@yew01 PS 2234089  0.0  5708 pipewire
+@yew01 PS 2234091  0.0 15308 wireplumber
+@yew01 PS 2234093  0.0 10308 pipewire-pulse
+@yew01 PS 2234116  0.0  4332 dbus-daemon
+@yew01 PS 2234199  0.0  1348 ssh-agent
+@yew01 PS 2452053  0.0  3528 bash
+@yew01 PS 2452097  0.0  3568 bash
+@yew01 PS 2452115  0.0  2068 bash
+@yew01 PS 2452119  0.0  2056 timeout
+@yew01 PS 2452120  0.8 836336 python
+@yew01 PS 2461435  0.0  2008 sleep
+@yew01 PS 2465019  0.0  2020 sleep
+@yew01 PS 2467671  0.1 11100 python
+@yew01 PS 2467672  2.7 481044 python
+@yew01 PS 2467673  2.8 481380 python
+@yew01 PS 2468349  0.0  7000 sshd
+@yew01 PS 2468352  0.0  3552 bash
+@yew01 PS 2468362  0.0  4500 ps
+@yew01 PS 2468363  0.0  2228 sed
+@yew01 SEEN 1784986180
+@yew02 CPU 24 1.57
+@yew02 MEM 15658 2315
+@yew02 PS 4089862  0.1 11920 systemd
+@yew02 PS 4089863  0.0  3408 (sd-pam)
+@yew02 PS 4089886  0.0  8852 pipewire
+@yew02 PS 4089887  0.0  6032 pipewire
+@yew02 PS 4089889  0.0 15948 wireplumber
+@yew02 PS 4089891  0.0 10720 pipewire-pulse
+@yew02 PS 4089906  0.0  4476 dbus-daemon
+@yew02 PS 4089943  0.0  3628 bash
+@yew02 PS 4089966  0.0  3608 bash
+@yew02 PS 4089992  0.0  2092 bash
+@yew02 PS 4089997  0.0  2120 timeout
+@yew02 PS 4089998  0.9 838544 python
+@yew02 PS 4098086  0.0  2068 sleep
+@yew02 PS 4101839  0.0  2072 sleep
+@yew02 PS 4104428  0.1 11024 python
+@yew02 PS 4104429  3.0 488792 python
+@yew02 PS 4104430  3.1 488968 python
+@yew02 PS 4105101  0.0  6932 sshd
+@yew02 PS 4105102  0.0  3612 bash
+@yew02 PS 4105112  0.0  4612 ps
+@yew02 PS 4105113  0.0  2312 sed
+@yew02 SEEN 1784986180
+@yew03 CPU 24 19.33
+@yew03 MEM 15658 10253
+@yew03 PS 1289994  0.1 11644 systemd
+@yew03 PS 1289995  0.0  2796 (sd-pam)
+@yew03 PS 1290007  0.0  8268 pipewire
+@yew03 PS 1290009  0.0  5840 pipewire
+@yew03 PS 1290011  0.0 15028 wireplumber
+@yew03 PS 1290012  0.0 10192 pipewire-pulse
+@yew03 PS 1290028  0.0  4284 dbus-daemon
+@yew03 PS 1290107  0.0  3448 bash
+@yew03 PS 1290197  0.0  3264 bash
+@yew03 PS 1290241  0.0  1888 bash
+@yew03 PS 1290291  0.0  1940 timeout
+@yew03 PS 1290300  0.7 743904 python
+@yew03 PS 1297756  0.0  2072 sleep
+@yew03 PS 1301362  0.0  2024 sleep
+@yew03 PS 1303679  0.1 10852 python
+@yew03 PS 1303680  3.2 477756 python
+@yew03 PS 1303681  3.1 477760 python
+@yew03 PS 1304320  0.0  6828 sshd
+@yew03 PS 1304321  0.0  3500 bash
+@yew03 PS 1304331  0.0  4520 ps
+@yew03 PS 1304332  0.0  2312 sed
+@yew03 SEEN 1784986180
+@yew04 CPU 24 18.24
+@yew04 MEM 15658 7421
+@yew04 PS  425635 18.0 11492 systemd
+@yew04 PS  425636  0.0  3412 (sd-pam)
+@yew04 PS  425648  0.0  8620 pipewire
+@yew04 PS  425649  3.1  5888 pipewire
+@yew04 PS  425651 12.9 15560 wireplumber
+@yew04 PS  425653  0.0 10412 pipewire-pulse
+@yew04 PS  425665  0.0  4380 dbus-daemon
+@yew04 PS  425676  0.0  6964 sshd
+@yew04 PS  425694  0.0  3532 bash
+@yew04 PS  425707  0.0  4464 ps
+@yew04 PS  425708  0.0  2304 sed
+@yew04 SEEN 1784986181
+@yew05 CPU 24 1.60
+@yew05 MEM 15658 2218
+@yew05 PS  242785  0.1 11616 systemd
+@yew05 PS  242786  0.0  3408 (sd-pam)
+@yew05 PS  242797  0.0  8672 pipewire
+@yew05 PS  242798  0.0  5936 pipewire
+@yew05 PS  242799  0.0 15620 wireplumber
+@yew05 PS  242800  0.0 10444 pipewire-pulse
+@yew05 PS  242818  0.0  4368 dbus-daemon
+@yew05 PS  242943  0.0  3512 bash
+@yew05 PS  242961  0.0  3596 bash
+@yew05 PS  242971  0.0  2112 bash
+@yew05 PS  242975  0.0  2048 timeout
+@yew05 PS  242976  0.9 839768 python
+@yew05 PS  250413  0.0  2024 sleep
+@yew05 PS  254155  0.0  2012 sleep
+@yew05 PS  256213  0.1 10932 python
+@yew05 PS  256214  2.8 481968 python
+@yew05 PS  256215  2.8 482312 python
+@yew05 PS  256873  0.0  7028 sshd
+@yew05 PS  256874  0.0  3548 bash
+@yew05 PS  256884  100  4496 ps
+@yew05 PS  256885  0.0  2292 sed
+@yew05 SEEN 1784986180
+@yew06 CPU 24 1.61
+@yew06 MEM 15658 2295
+@yew06 PS 2755333  0.1 11692 systemd
+@yew06 PS 2755334  0.0  3392 (sd-pam)
+@yew06 PS 2755345  0.0  8744 pipewire
+@yew06 PS 2755346  0.0  6000 pipewire
+@yew06 PS 2755348  0.0 15744 wireplumber
+@yew06 PS 2755350  0.0 10516 pipewire-pulse
+@yew06 PS 2755367  0.0  4396 dbus-daemon
+@yew06 PS 2755440  0.0  3604 bash
+@yew06 PS 2755493  0.0  3648 bash
+@yew06 PS 2755512  0.0  2072 bash
+@yew06 PS 2755516  0.0  2060 timeout
+@yew06 PS 2755517  0.9 806620 python
+@yew06 PS 2762883  0.0  2012 sleep
+@yew06 PS 2766565  0.0  2068 sleep
+@yew06 PS 2768406  0.1 10996 python
+@yew06 PS 2768407  3.1 490108 python
+@yew06 PS 2768408  3.1 490232 python
+@yew06 PS 2769077  0.0  7076 sshd
+@yew06 PS 2769078  0.0  3636 bash
+@yew06 PS 2769088  0.0  4524 ps
+@yew06 PS 2769089  0.0  2312 sed
+@yew06 SEEN 1784986180
+@yew07 CPU 24 1.65
+@yew07 MEM 15658 2227
+@yew07 PS 2719748  0.1 11660 systemd
+@yew07 PS 2719749  0.0  3412 (sd-pam)
+@yew07 PS 2719761  0.0  8716 pipewire
+@yew07 PS 2719762  0.0  5952 pipewire
+@yew07 PS 2719763  0.0 15792 wireplumber
+@yew07 PS 2719765  0.0 10508 pipewire-pulse
+@yew07 PS 2719785  0.0  4396 dbus-daemon
+@yew07 PS 2719835  0.0  3608 bash
+@yew07 PS 2719883  0.0  3600 bash
+@yew07 PS 2719901  0.0  2088 bash
+@yew07 PS 2719905  0.0  2080 timeout
+@yew07 PS 2719907  1.0 838820 python
+@yew07 PS 2727384  0.0  2020 sleep
+@yew07 PS 2731096  0.0  2028 sleep
+@yew07 PS 2732841  0.1 11020 python
+@yew07 PS 2732842  3.2 486328 python
+@yew07 PS 2732843  3.2 486148 python
+@yew07 PS 2733519  0.0  6952 sshd
+@yew07 PS 2733520  0.0  3580 bash
+@yew07 PS 2733530  0.0  4544 ps
+@yew07 PS 2733531  0.0  2316 sed
+@yew07 SEEN 1784986180
+@yew08 CPU 24 1.62
+@yew08 MEM 15658 2295
+@yew08 PS 3284468  0.1 11800 systemd
+@yew08 PS 3284469  0.0  3396 (sd-pam)
+@yew08 PS 3284481  0.0  8680 pipewire
+@yew08 PS 3284482  0.0  5964 pipewire
+@yew08 PS 3284484  0.0 15724 wireplumber
+@yew08 PS 3284486  0.0 10500 pipewire-pulse
+@yew08 PS 3284505  0.0  4404 dbus-daemon
+@yew08 PS 3284551  0.0  3532 bash
+@yew08 PS 3284578  0.0  3572 bash
+@yew08 PS 3284596  0.0  2116 bash
+@yew08 PS 3284600  0.0  2064 timeout
+@yew08 PS 3284601  0.9 806176 python
+@yew08 PS 3292623  0.0  2036 sleep
+@yew08 PS 3296280  0.0  1996 sleep
+@yew08 PS 3297955  0.1 11000 python
+@yew08 PS 3297956  3.0 487792 python
+@yew08 PS 3297957  3.0 486836 python
+@yew08 PS 3298602  0.0  6976 sshd
+@yew08 PS 3298603  0.0  3528 bash
+@yew08 PS 3298613  100  4488 ps
+@yew08 PS 3298614  0.0  2300 sed
+@yew08 SEEN 1784986180
+@yew09 CPU 24 1.95
+@yew09 MEM 15658 2329
+@yew09 PS 1460386  0.1 11908 systemd
+@yew09 PS 1460387  0.0  3412 (sd-pam)
+@yew09 PS 1460421  0.0  8668 pipewire
+@yew09 PS 1460422  0.0  6040 pipewire
+@yew09 PS 1460424  0.0 15924 wireplumber
+@yew09 PS 1460426  0.0 10628 pipewire-pulse
+@yew09 PS 1460445  0.0  4440 dbus-daemon
+@yew09 PS 1460487  0.0  3636 bash
+@yew09 PS 1460500  0.0  3656 bash
+@yew09 PS 1460510  0.0  2080 bash
+@yew09 PS 1460514  0.0  2120 timeout
+@yew09 PS 1460515  0.8 839636 python
+@yew09 PS 1468085  0.0  2072 sleep
+@yew09 PS 1471737  0.0  2072 sleep
+@yew09 PS 1473295  0.1 10988 python
+@yew09 PS 1473296  3.0 490620 python
+@yew09 PS 1473297  3.0 490628 python
+@yew09 PS 1473939  0.0  7036 sshd
+@yew09 PS 1473941  0.0  3592 bash
+@yew09 PS 1473951  200  4568 ps
+@yew09 PS 1473952  0.0  2320 sed
+@yew09 SEEN 1784986180
+@yew10 CPU 24 1.58
+@yew10 MEM 15658 2229
+@yew10 PS  377344  0.1 11648 systemd
+@yew10 PS  377345  0.0  3400 (sd-pam)
+@yew10 PS  377369  0.0  8724 pipewire
+@yew10 PS  377370  0.0  5936 pipewire
+@yew10 PS  377372  0.0 15944 wireplumber
+@yew10 PS  377374  0.0 10568 pipewire-pulse
+@yew10 PS  377391  0.0  4408 dbus-daemon
+@yew10 PS  377426  0.0  3620 bash
+@yew10 PS  377431  0.0  3580 bash
+@yew10 PS  377441  0.0  2032 bash
+@yew10 PS  377445  0.0  2068 timeout
+@yew10 PS  377446  0.9 805656 python
+@yew10 PS  386681  0.0  2040 sleep
+@yew10 PS  390417  0.0  2052 sleep
+@yew10 PS  391938  0.0 11052 python
+@yew10 PS  391939  2.9 489388 python
+@yew10 PS  391940  3.0 489484 python
+@yew10 PS  392585  0.0  7104 sshd
+@yew10 PS  392586  0.0  3600 bash
+@yew10 PS  392596  100  4496 ps
+@yew10 PS  392597  0.0  2308 sed
+@yew10 SEEN 1784986180
+@yew11 CPU 24 0.00
+@yew11 MEM 15658 1442
+@yew11 PS 1568358 11.1 11592 systemd
+@yew11 PS 1568359  0.0  3396 (sd-pam)
+@yew11 PS 1568370  1.1  8792 pipewire
+@yew11 PS 1568371  0.0  6088 pipewire
+@yew11 PS 1568372  4.4 15712 wireplumber
+@yew11 PS 1568375  1.1 10628 pipewire-pulse
+@yew11 PS 1568391  0.0  4468 dbus-daemon
+@yew11 PS 1568407  0.0  7036 sshd
+@yew11 PS 1568418  0.0  3540 bash
+@yew11 PS 1568442 33.3  4540 ps
+@yew11 PS 1568443  0.0  2264 sed
+@yew11 SEEN 1784986182
+@yew12 CPU 24 1.63
+@yew12 MEM 15658 2422
+@yew12 PS  594805  0.1 11668 systemd
+@yew12 PS  594806  0.0  3396 (sd-pam)
+@yew12 PS  594818  0.0  8800 pipewire
+@yew12 PS  594819  0.0  6048 pipewire
+@yew12 PS  594820  0.0 15884 wireplumber
+@yew12 PS  594823  0.0 10620 pipewire-pulse
+@yew12 PS  594838  0.0  4452 dbus-daemon
+@yew12 PS  594887  0.0  3612 bash
+@yew12 PS  594908  0.0  3604 bash
+@yew12 PS  594924  0.0  2112 bash
+@yew12 PS  594936  0.0  2076 timeout
+@yew12 PS  594937  0.9 839800 python
+@yew12 PS  603127  0.0  2036 sleep
+@yew12 PS  606743  0.0  2048 sleep
+@yew12 PS  608053  0.1 11076 python
+@yew12 PS  608054  2.9 492608 python
+@yew12 PS  608055  2.9 492648 python
+@yew12 PS  608763  0.0  7064 sshd
+@yew12 PS  608764  0.0  3592 bash
+@yew12 PS  608774  100  4528 ps
+@yew12 PS  608775  0.0  2296 sed
+@yew12 SEEN 1784986185
+@yew13 CPU 24 0.00
+@yew13 MEM 15658 1550
+@yew13 PS 2391591 11.7 11940 systemd
+@yew13 PS 2391592  0.0  3412 (sd-pam)
+@yew13 PS 2391603  2.1  8832 pipewire
+@yew13 PS 2391604  1.0  6132 pipewire
+@yew13 PS 2391606  5.3 16028 wireplumber
+@yew13 PS 2391608  1.0 10776 pipewire-pulse
+@yew13 PS 2391623  0.0  4428 dbus-daemon
+@yew13 PS 2391641  0.0  7020 sshd
+@yew13 PS 2391651  0.0  3544 bash
+@yew13 PS 2391677 50.0  4580 ps
+@yew13 PS 2391678  0.0  2296 sed
+@yew13 SEEN 1784986186
+@yew14 CPU 24 2.64
+@yew14 MEM 15658 13722
+@yew14 PS 2664280  0.0 11604 systemd
+@yew14 PS 2664281  0.0  3424 (sd-pam)
+@yew14 PS 2664292  0.0  8328 pipewire
+@yew14 PS 2664293  0.0  5680 pipewire
+@yew14 PS 2664295  0.0 15416 wireplumber
+@yew14 PS 2664297  0.0 10292 pipewire-pulse
+@yew14 PS 2664319  0.0  4296 dbus-daemon
+@yew14 PS 2664420  0.0  3484 bash
+@yew14 PS 2664497  0.0  3448 bash
+@yew14 PS 2664519  0.0  2032 bash
+@yew14 PS 2664524  0.0  2016 timeout
+@yew14 PS 2664525  0.3 804532 python
+@yew14 PS 2672755  0.0  2012 sleep
+@yew14 PS 2676350  0.0  2008 sleep
+@yew14 PS 2677399  0.0 11000 python
+@yew14 PS 2677400  1.2 492724 python
+@yew14 PS 2677401  1.2 492756 python
+@yew14 PS 2678101  0.0  7060 sshd
+@yew14 PS 2678102  0.0  3528 bash
+@yew14 PS 2678112  0.0  4444 ps
+@yew14 PS 2678113  0.0  2264 sed
+@yew14 SEEN 1784986185
+@yew15 CPU 24 1.64
+@yew15 MEM 15658 2268
+@yew15 PS 2041922  0.1 11696 systemd
+@yew15 PS 2041933  0.0  3412 (sd-pam)
+@yew15 PS 2041944  0.0  8736 pipewire
+@yew15 PS 2041945  0.0  6068 pipewire
+@yew15 PS 2041947  0.0 15928 wireplumber
+@yew15 PS 2041949  0.0 10624 pipewire-pulse
+@yew15 PS 2041968  0.0  4520 dbus-daemon
+@yew15 PS 2042009  0.0  3572 bash
+@yew15 PS 2042014  0.0  3568 bash
+@yew15 PS 2042032  0.0  2096 bash
+@yew15 PS 2042036  0.0  2080 timeout
+@yew15 PS 2042037  1.0 839640 python
+@yew15 PS 2049644  0.0  2016 sleep
+@yew15 PS 2053245  0.0  2072 sleep
+@yew15 PS 2054184  0.1 11068 python
+@yew15 PS 2054185  3.0 492328 python
+@yew15 PS 2054186  3.0 492304 python
+@yew15 PS 2054895  0.0  7060 sshd
+@yew15 PS 2054896  0.0  3544 bash
+@yew15 PS 2054906  100  4588 ps
+@yew15 PS 2054907  0.0  2276 sed
+@yew15 SEEN 1784986185
+@yew16 CPU 24 2.64
+@yew16 MEM 15658 8250
+@yew16 PS 1468867  0.2 11712 systemd
+@yew16 PS 1468868  0.0  3412 (sd-pam)
+@yew16 PS 1468888  0.0  8636 pipewire
+@yew16 PS 1468889  0.0  5936 pipewire
+@yew16 PS 1468891  0.0 15952 wireplumber
+@yew16 PS 1468893  0.0 10636 pipewire-pulse
+@yew16 PS 1468909  0.0  4388 dbus-daemon
+@yew16 PS 1468951  0.0  3548 bash
+@yew16 PS 1468965  0.0  3632 bash
+@yew16 PS 1468983  0.0  2044 bash
+@yew16 PS 1468987  0.0  2096 timeout
+@yew16 PS 1468988  1.1 806164 python
+@yew16 PS 1477108  0.0  2012 sleep
+@yew16 PS 1480783  0.0  2028 sleep
+@yew16 PS 1481636  0.1 11096 python
+@yew16 PS 1481637  4.1 491244 python
+@yew16 PS 1481638  4.1 491120 python
+@yew16 PS 1482360  0.0  7060 sshd
+@yew16 PS 1482361  0.0  3564 bash
+@yew16 PS 1482371  0.0  4516 ps
+@yew16 PS 1482372  0.0  2272 sed
+@yew16 SEEN 1784986185
+@yew17 CPU 24 1.60
+@yew17 MEM 15658 2361
+@yew17 PS 2925373  0.1 11644 systemd
+@yew17 PS 2925374  0.0  3416 (sd-pam)
+@yew17 PS 2925385  0.0  8648 pipewire
+@yew17 PS 2925386  0.0  5900 pipewire
+@yew17 PS 2925388  0.0 15712 wireplumber
+@yew17 PS 2925390  0.0 10496 pipewire-pulse
+@yew17 PS 2925406  0.0  4360 dbus-daemon
+@yew17 PS 2925532  0.0  3560 bash
+@yew17 PS 2925646  0.0  3536 bash
+@yew17 PS 2925695  0.0  2032 bash
+@yew17 PS 2925713  0.0  2044 timeout
+@yew17 PS 2925714  1.0 840960 python
+@yew17 PS 2933275  0.0  2000 sleep
+@yew17 PS 2936936  0.0  2016 sleep
+@yew17 PS 2937486  0.1 10988 python
+@yew17 PS 2937487  3.1 493812 python
+@yew17 PS 2937488  3.0 493960 python
+@yew17 PS 2938203  0.0  6908 sshd
+@yew17 PS 2938204  0.0  3556 bash
+@yew17 PS 2938214  200  4464 ps
+@yew17 PS 2938215  0.0  2264 sed
+@yew17 SEEN 1784986185
+@yew18 CPU 24 1.67
+@yew18 MEM 15658 2348
+@yew18 PS  357515  0.1 11744 systemd
+@yew18 PS  357516  0.0  3404 (sd-pam)
+@yew18 PS  357528  0.0  8756 pipewire
+@yew18 PS  357529  0.0  5960 pipewire
+@yew18 PS  357530  0.0 15836 wireplumber
+@yew18 PS  357533  0.0 10576 pipewire-pulse
+@yew18 PS  357549  0.0  4440 dbus-daemon
+@yew18 PS  357615  0.0  3588 bash
+@yew18 PS  357672  0.0  3536 bash
+@yew18 PS  357694  0.0  2084 bash
+@yew18 PS  357698  0.0  2084 timeout
+@yew18 PS  357699  1.0 806388 python
+@yew18 PS  365279  0.0  2052 sleep
+@yew18 PS  368862  0.0  2016 sleep
+@yew18 PS  369300  0.1 10952 python
+@yew18 PS  369301  3.1 491296 python
+@yew18 PS  369302  3.0 491484 python
+@yew18 PS  370000  0.0  7016 sshd
+@yew18 PS  370001  0.0  3560 bash
+@yew18 PS  370011  100  4504 ps
+@yew18 PS  370012  0.0  2248 sed
+@yew18 SEEN 1784986185
+@yew19 CPU 24 2.69
+@yew19 MEM 15658 12988
+@yew19 PS  702468  0.0 11628 systemd
+@yew19 PS  702469  0.0  3420 (sd-pam)
+@yew19 PS  702481  0.0  8868 pipewire
+@yew19 PS  702482  0.0  6012 pipewire
+@yew19 PS  702483  0.0 15768 wireplumber
+@yew19 PS  702485  0.0 10596 pipewire-pulse
+@yew19 PS  702502  0.0  4480 dbus-daemon
+@yew19 PS  702564  0.0  3592 bash
+@yew19 PS  702671  0.0  3588 bash
+@yew19 PS  702681  0.0  2116 bash
+@yew19 PS  702685  0.0  2112 timeout
+@yew19 PS  702686  0.4 838788 python
+@yew19 PS  711734  0.0  2024 sleep
+@yew19 PS  715334  0.0  2060 sleep
+@yew19 PS  715573  0.0 11060 python
+@yew19 PS  715574  1.5 491088 python
+@yew19 PS  715575  1.5 490988 python
+@yew19 PS  716295  0.0  7080 sshd
+@yew19 PS  716296  0.0  3532 bash
+@yew19 PS  716306  100  4564 ps
+@yew19 PS  716307  0.0  2276 sed
+@yew19 SEEN 1784986185
+@yew20 CPU 24 1.67
+@yew20 MEM 15658 2214
+@yew20 PS  570073  0.1 11704 systemd
+@yew20 PS  570074  0.0  3412 (sd-pam)
+@yew20 PS  570083  0.0  8800 pipewire
+@yew20 PS  570087  0.0  6068 pipewire
+@yew20 PS  570088  0.0 15964 wireplumber
+@yew20 PS  570090  0.0 10680 pipewire-pulse
+@yew20 PS  570110  0.0  4352 dbus-daemon
+@yew20 PS  570152  0.0  3568 bash
+@yew20 PS  570170  0.0  3612 bash
+@yew20 PS  570189  0.0  2092 bash
+@yew20 PS  570201  0.0  2104 timeout
+@yew20 PS  570202  1.0 805464 python
+@yew20 PS  577839  0.0  2040 sleep
+@yew20 PS  581451  0.0  2032 sleep
+@yew20 PS  581572  0.1 11008 python
+@yew20 PS  581573  2.9 492300 python
+@yew20 PS  581574  2.9 492180 python
+@yew20 PS  582275  0.0  7036 sshd
+@yew20 PS  582276  0.0  3516 bash
+@yew20 PS  582286  100  4552 ps
+@yew20 PS  582287  0.0  2268 sed
+@yew20 SEEN 1784986185
+@yew21 CPU 24 1.60
+@yew21 MEM 15658 2408
+@yew21 PS 2143949  0.1 11588 systemd
+@yew21 PS 2143950  0.0  3392 (sd-pam)
+@yew21 PS 2143969  0.0  8716 pipewire
+@yew21 PS 2143970  0.0  5976 pipewire
+@yew21 PS 2143972  0.0 15928 wireplumber
+@yew21 PS 2143974  0.0 10544 pipewire-pulse
+@yew21 PS 2143991  0.0  4416 dbus-daemon
+@yew21 PS 2144026  0.0  3584 bash
+@yew21 PS 2144198  0.0  3568 bash
+@yew21 PS 2144373  0.0  2116 bash
+@yew21 PS 2144411  0.0  2084 timeout
+@yew21 PS 2144412  1.0 840684 python
+@yew21 PS 2152454  0.0  2036 sleep
+@yew21 PS 2155922  0.1 11060 python
+@yew21 PS 2155923  2.7 490676 python
+@yew21 PS 2155924  2.6 490832 python
+@yew21 PS 2156152  0.0  2060 sleep
+@yew21 PS 2156632  0.0  6964 sshd
+@yew21 PS 2156633  0.0  3552 bash
+@yew21 PS 2156643  100  4560 ps
+@yew21 PS 2156644  0.0  2276 sed
+@yew21 SEEN 1784986185
+@yew22 CPU 24 3.15
+@yew22 MEM 15658 2210
+@yew22 PS  417580  0.1 11632 systemd
+@yew22 PS  417581  0.0  3372 (sd-pam)
+@yew22 PS  417593  0.0  8608 pipewire
+@yew22 PS  417594  0.0  5968 pipewire
+@yew22 PS  417596  0.0 15980 wireplumber
+@yew22 PS  417598  0.0 10560 pipewire-pulse
+@yew22 PS  417617  0.0  4424 dbus-daemon
+@yew22 PS  417650  0.0  3512 bash
+@yew22 PS  417655  0.0  3576 bash
+@yew22 PS  417665  0.0  2016 bash
+@yew22 PS  417669  0.0  2020 timeout
+@yew22 PS  417670  1.0 840112 python
+@yew22 PS  427558  0.0  1968 sleep
+@yew22 PS  430833  0.1 10984 python
+@yew22 PS  430834  3.0 492708 python
+@yew22 PS  430835  3.0 492880 python
+@yew22 PS  431144  0.0  2036 sleep
+@yew22 PS  431543  0.0  7104 sshd
+@yew22 PS  431544  0.0  3572 bash
+@yew22 PS  431554  100  4468 ps
+@yew22 PS  431555  0.0  2236 sed
+@yew22 SEEN 1784986185
+@yew23 CPU 24 1.60
+@yew23 MEM 15658 2362
+@yew23 PS 2199921  0.1 11728 systemd
+@yew23 PS 2199922  0.0  3404 (sd-pam)
+@yew23 PS 2199934  0.0  8744 pipewire
+@yew23 PS 2199935  0.0  6060 pipewire
+@yew23 PS 2199937  0.0 15992 wireplumber
+@yew23 PS 2199939  0.0 10632 pipewire-pulse
+@yew23 PS 2199954  0.0  4424 dbus-daemon
+@yew23 PS 2200002  0.0  3596 bash
+@yew23 PS 2200025  0.0  3548 bash
+@yew23 PS 2200047  0.0  2084 bash
+@yew23 PS 2200062  0.0  2084 timeout
+@yew23 PS 2200063  1.0 839592 python
+@yew23 PS 2207455  0.0  2056 sleep
+@yew23 PS 2210660  0.1 11012 python
+@yew23 PS 2210661  2.8 491924 python
+@yew23 PS 2210662  2.9 491904 python
+@yew23 PS 2211067  0.0  2052 sleep
+@yew23 PS 2211377  0.0  7112 sshd
+@yew23 PS 2211378  0.0  3612 bash
+@yew23 PS 2211388  100  4604 ps
+@yew23 PS 2211389  0.0  2244 sed
+@yew23 SEEN 1784986185
+@yew24 CPU 24 2.70
+@yew24 MEM 15658 11380
+@yew24 PS  440070  0.0 11508 systemd
+@yew24 PS  440071  0.0  3368 (sd-pam)
+@yew24 PS  440083  0.0  6980 pipewire
+@yew24 PS  440084  0.0  4876 pipewire
+@yew24 PS  440086  0.0 12944 wireplumber
+@yew24 PS  440088  0.0  8592 pipewire-pulse
+@yew24 PS  440107  0.0  4252 dbus-daemon
+@yew24 PS  440183  0.0  3564 bash
+@yew24 PS  440235  0.0  3600 bash
+@yew24 PS  440253  0.0  2036 bash
+@yew24 PS  440257  0.0  2120 timeout
+@yew24 PS  440258  0.4 803332 python
+@yew24 PS  447613  0.0  2020 sleep
+@yew24 PS  450644  0.0 11028 python
+@yew24 PS  450645  1.4 487692 python
+@yew24 PS  450646  1.4 487688 python
+@yew24 PS  451201  0.0  2032 sleep
+@yew24 PS  451419  0.0  6996 sshd
+@yew24 PS  451420  0.0  3536 bash
+@yew24 PS  451430  0.0  4444 ps
+@yew24 PS  451431  0.0  2268 sed
+@yew24 SEEN 1784986190
+@yew25 CPU 24 1.66
+@yew25 MEM 15658 2316
+@yew25 PS 1939774  0.1 11644 systemd
+@yew25 PS 1939775  0.0  3400 (sd-pam)
+@yew25 PS 1939786  0.0  8820 pipewire
+@yew25 PS 1939787  0.0  6048 pipewire
+@yew25 PS 1939788  0.0 15816 wireplumber
+@yew25 PS 1939791  0.0 10680 pipewire-pulse
+@yew25 PS 1939822  0.0  4456 dbus-daemon
+@yew25 PS 1939873  0.0  3544 bash
+@yew25 PS 1940026  0.0  3552 bash
+@yew25 PS 1940037  0.0  2092 bash
+@yew25 PS 1940049  0.0  2100 timeout
+@yew25 PS 1940050  1.1 839588 python
+@yew25 PS 1947315  0.0  2028 sleep
+@yew25 PS 1947316  0.0  2020 sleep
+@yew25 PS 1950024  0.1 10996 python
+@yew25 PS 1950025  3.0 496136 python
+@yew25 PS 1950026  3.0 496080 python
+@yew25 PS 1950784  0.0  7072 sshd
+@yew25 PS 1950788  0.0  3524 bash
+@yew25 PS 1950799  0.0  4576 ps
+@yew25 PS 1950800  0.0  2308 sed
+@yew25 SEEN 1784986190
+@yew26 CPU 24 1.73
+@yew26 MEM 15658 2272
+@yew26 PS  608850  0.1 11800 systemd
+@yew26 PS  608851  0.0  3420 (sd-pam)
+@yew26 PS  608863  0.0  8720 pipewire
+@yew26 PS  608864  0.0  6004 pipewire
+@yew26 PS  608865  0.0 15932 wireplumber
+@yew26 PS  608868  0.0 10644 pipewire-pulse
+@yew26 PS  608885  0.0  4392 dbus-daemon
+@yew26 PS  609010  0.0  3612 bash
+@yew26 PS  609023  0.0  3596 bash
+@yew26 PS  609033  0.0  2088 bash
+@yew26 PS  609037  0.0  2088 timeout
+@yew26 PS  609038  1.1 806472 python
+@yew26 PS  616391  0.0  2072 sleep
+@yew26 PS  616394  0.0  2072 sleep
+@yew26 PS  618909  0.1 11000 python
+@yew26 PS  618910  3.1 500216 python
+@yew26 PS  618911  3.1 500260 python
+@yew26 PS  619667  0.0  7028 sshd
+@yew26 PS  619668  0.0  3612 bash
+@yew26 PS  619678  100  4516 ps
+@yew26 PS  619679  0.0  2320 sed
+@yew26 SEEN 1784986190
+@yew27 CPU 24 2.72
+@yew27 MEM 15658 4631
+@yew27 PS 2389011  0.0 10484 systemd
+@yew27 PS 2389012  0.0  1792 (sd-pam)
+@yew27 PS 2389024  0.0  5148 pipewire
+@yew27 PS 2389025  0.0  4196 pipewire
+@yew27 PS 2389026  0.0 12344 wireplumber
+@yew27 PS 2389028  0.0  6860 pipewire-pulse
+@yew27 PS 2389051  0.0  3720 dbus-daemon
+@yew27 PS 2389081  0.0  3256 bash
+@yew27 PS 2389094  0.0  2236 bash
+@yew27 PS 2389105  0.0  1860 bash
+@yew27 PS 2389109  0.0  1968 timeout
+@yew27 PS 2389110  0.5 501512 python
+@yew27 PS 2396616  0.0  2068 sleep
+@yew27 PS 2396617  0.0  2072 sleep
+@yew27 PS 2399117  0.0 10816 python
+@yew27 PS 2399126  0.9 63968 python
+@yew27 PS 2399127  0.9 64072 python
+@yew27 PS 2399890  0.0  7008 sshd
+@yew27 PS 2399902  0.0  3600 bash
+@yew27 PS 2399913  0.0  4576 ps
+@yew27 PS 2399914  0.0  2320 sed
+@yew27 SEEN 1784986190
+@yew28 CPU 24 1.73
+@yew28 MEM 15658 2262
+@yew28 PS  550601  0.1 11612 systemd
+@yew28 PS  550602  0.0  3396 (sd-pam)
+@yew28 PS  550614  0.0  8720 pipewire
+@yew28 PS  550615  0.0  5956 pipewire
+@yew28 PS  550616  0.0 15876 wireplumber
+@yew28 PS  550619  0.0 10588 pipewire-pulse
+@yew28 PS  550636  0.0  4492 dbus-daemon
+@yew28 PS  550679  0.0  3484 bash
+@yew28 PS  550706  0.0  3540 bash
+@yew28 PS  550742  0.0  2128 bash
+@yew28 PS  550754  0.0  2036 timeout
+@yew28 PS  550755  1.0 805368 python
+@yew28 PS  558674  0.0  1960 sleep
+@yew28 PS  558676  0.0  2004 sleep
+@yew28 PS  560990  0.0 11020 python
+@yew28 PS  560991  3.0 499660 python
+@yew28 PS  560992  3.0 499660 python
+@yew28 PS  561739  0.0  7064 sshd
+@yew28 PS  561740  0.0  3512 bash
+@yew28 PS  561750  0.0  4480 ps
+@yew28 PS  561751  0.0  2236 sed
+@yew28 SEEN 1784986190
+@yew29 CPU 24 2.19
+@yew29 MEM 15658 2232
+@yew29 PS  897621  0.0 11612 systemd
+@yew29 PS  897622  0.0  3416 (sd-pam)
+@yew29 PS  897634  0.0  8464 pipewire
+@yew29 PS  897635  0.0  5772 pipewire
+@yew29 PS  897638  0.0 15504 wireplumber
+@yew29 PS  897639  0.0 10312 pipewire-pulse
+@yew29 PS  897658  0.0  4320 dbus-daemon
+@yew29 PS  897720  0.0  3508 bash
+@yew29 PS  897806  0.0  3580 bash
+@yew29 PS  897816  0.0  2000 bash
+@yew29 PS  897820  0.0  2064 timeout
+@yew29 PS  897829  0.4 837944 python
+@yew29 PS  905068  0.0  2016 sleep
+@yew29 PS  905072  0.0  2048 sleep
+@yew29 PS  907222  0.0 10960 python
+@yew29 PS  907223  2.1 501192 python
+@yew29 PS  907224  2.2 501216 python
+@yew29 PS  907989  0.0  7108 sshd
+@yew29 PS  907990  0.0  3528 bash
+@yew29 PS  908000  100  4424 ps
+@yew29 PS  908001  0.0  2296 sed
+@yew29 SEEN 1784986190
+@yew30 CPU 24 4.27
+@yew30 MEM 15658 3544
+@yew30 PS  653834  0.1 11664 systemd
+@yew30 PS  653842  0.0  3388 (sd-pam)
+@yew30 PS  653854  0.0  8436 pipewire
+@yew30 PS  653855  0.0  5908 pipewire
+@yew30 PS  653856  0.0 15760 wireplumber
+@yew30 PS  653858  0.0 10432 pipewire-pulse
+@yew30 PS  653884  0.0  4368 dbus-daemon
+@yew30 PS  653979  123 1620692 python
+@yew30 PS  796511  0.0  3608 bash
+@yew30 PS  796600  0.0  3600 bash
+@yew30 PS  796618  0.0  2092 bash
+@yew30 PS  796622  0.0  2096 timeout
+@yew30 PS  796623  0.6 812948 python
+@yew30 PS  805026  0.0  2020 sleep
+@yew30 PS  805028  0.0  2040 sleep
+@yew30 PS  807079  0.0 11036 python
+@yew30 PS  807080  1.8 502900 python
+@yew30 PS  807081  1.8 502672 python
+@yew30 PS  807853  0.0  7032 sshd
+@yew30 PS  807854  0.0  3560 bash
+@yew30 PS  807864  0.0  4488 ps
+@yew30 PS  807865  0.0  2268 sed
+@yew30 SEEN 1784986190
+@yew31 CPU 24 1.70
+@yew31 MEM 15658 2282
+@yew31 PS 4038261  0.1 11840 systemd
+@yew31 PS 4038262  0.0  3404 (sd-pam)
+@yew31 PS 4038274  0.0  8708 pipewire
+@yew31 PS 4038275  0.0  6004 pipewire
+@yew31 PS 4038276  0.0 15852 wireplumber
+@yew31 PS 4038278  0.0 10552 pipewire-pulse
+@yew31 PS 4038298  0.0  4356 dbus-daemon
+@yew31 PS 4038344  0.0  3608 bash
+@yew31 PS 4038405  0.0  3596 bash
+@yew31 PS 4038423  0.0  2052 bash
+@yew31 PS 4038427  0.0  2064 timeout
+@yew31 PS 4038428  1.3 841056 python
+@yew31 PS 4045725  0.0  2068 sleep
+@yew31 PS 4045748  0.0  2064 sleep
+@yew31 PS 4047599  0.1 11008 python
+@yew31 PS 4047600  3.5 498744 python
+@yew31 PS 4047601  3.4 498844 python
+@yew31 PS 4048370  0.0  7104 sshd
+@yew31 PS 4048371  0.0  3576 bash
+@yew31 PS 4048381  100  4524 ps
+@yew31 PS 4048382  0.0  2300 sed
+@yew31 SEEN 1784986190
+@yew32 CPU 24 1.64
+@yew32 MEM 15658 2273
+@yew32 PS  427672  0.1 11684 systemd
+@yew32 PS  427673  0.0  3404 (sd-pam)
+@yew32 PS  427685  0.0  8696 pipewire
+@yew32 PS  427686  0.0  6124 pipewire
+@yew32 PS  427688  0.0 15960 wireplumber
+@yew32 PS  427690  0.0 10640 pipewire-pulse
+@yew32 PS  427709  0.0  4484 dbus-daemon
+@yew32 PS  427742  0.0  3528 bash
+@yew32 PS  427755  0.0  3588 bash
+@yew32 PS  427765  0.0  2112 bash
+@yew32 PS  427769  0.0  2064 timeout
+@yew32 PS  427770  1.2 839716 python
+@yew32 PS  435317  0.0  2028 sleep
+@yew32 PS  435357  0.0  2052 sleep
+@yew32 PS  437038  0.1 11044 python
+@yew32 PS  437039  3.0 496420 python
+@yew32 PS  437040  2.9 496492 python
+@yew32 PS  437802  0.0  7116 sshd
+@yew32 PS  437803  0.0  3576 bash
+@yew32 PS  437821  0.0  4540 ps
+@yew32 PS  437822  0.0  2284 sed
+@yew32 SEEN 1784986190
+@yew33 CPU 24 1.74
+@yew33 MEM 15658 2257
+@yew33 PS 1382673  0.0 11628 systemd
+@yew33 PS 1382674  0.0  3420 (sd-pam)
+@yew33 PS 1382686  0.0  8796 pipewire
+@yew33 PS 1382687  0.0  5960 pipewire
+@yew33 PS 1382688  0.0 16016 wireplumber
+@yew33 PS 1382691  0.0 10556 pipewire-pulse
+@yew33 PS 1382707  0.0  4424 dbus-daemon
+@yew33 PS 1382751  0.0  3564 bash
+@yew33 PS 1382764  0.0  3572 bash
+@yew33 PS 1382782  0.0  2100 bash
+@yew33 PS 1382786  0.0  2052 timeout
+@yew33 PS 1382787  0.4 841092 python
+@yew33 PS 1390014  0.0  2020 sleep
+@yew33 PS 1390018  0.0  2060 sleep
+@yew33 PS 1391667  0.0 10996 python
+@yew33 PS 1391668  1.3 500448 python
+@yew33 PS 1391669  1.3 500292 python
+@yew33 PS 1392435  0.0  7068 sshd
+@yew33 PS 1392436  0.0  3580 bash
+@yew33 PS 1392446  0.0  4576 ps
+@yew33 PS 1392447  0.0  2316 sed
+@yew33 SEEN 1784986190
+@yew34 CPU 24 1.63
+@yew34 MEM 15658 2240
+@yew34 PS  587974  0.1 11592 systemd
+@yew34 PS  587975  0.0  3408 (sd-pam)
+@yew34 PS  587987  0.0  8784 pipewire
+@yew34 PS  587988  0.0  5972 pipewire
+@yew34 PS  587989  0.0 15928 wireplumber
+@yew34 PS  587991  0.0 10620 pipewire-pulse
+@yew34 PS  588009  0.0  4452 dbus-daemon
+@yew34 PS  588084  0.0  3540 bash
+@yew34 PS  588113  0.0  3576 bash
+@yew34 PS  588123  0.0  2096 bash
+@yew34 PS  588127  0.0  2108 timeout
+@yew34 PS  588128  1.1 805124 python
+@yew34 PS  595363  0.0  2028 sleep
+@yew34 PS  595388  0.0  2068 sleep
+@yew34 PS  596961  0.0 10964 python
+@yew34 PS  596962  3.1 501584 python
+@yew34 PS  596963  3.1 501544 python
+@yew34 PS  597707  0.0  7060 sshd
+@yew34 PS  597708  0.0  3524 bash
+@yew34 PS  597718  100  4560 ps
+@yew34 PS  597719  0.0  2320 sed
+@yew34 SEEN 1784986190
+@yew35 CPU 24 1.64
+@yew35 MEM 15658 2273
+@yew35 PS 2819951  0.1 11740 systemd
+@yew35 PS 2819952  0.0  3400 (sd-pam)
+@yew35 PS 2819964  0.0  8748 pipewire
+@yew35 PS 2819965  0.0  6016 pipewire
+@yew35 PS 2819967  0.0 15932 wireplumber
+@yew35 PS 2819969  0.0 10564 pipewire-pulse
+@yew35 PS 2819984  0.0  4500 dbus-daemon
+@yew35 PS 2820134  0.0  3544 bash
+@yew35 PS 2820147  0.0  3648 bash
+@yew35 PS 2820158  0.0  2084 bash
+@yew35 PS 2820162  0.0  2108 timeout
+@yew35 PS 2820163  1.1 840052 python
+@yew35 PS 2827381  0.0  2020 sleep
+@yew35 PS 2827382  0.0  2036 sleep
+@yew35 PS 2828847  0.0 11036 python
+@yew35 PS 2828848  3.1 499408 python
+@yew35 PS 2828849  3.0 499440 python
+@yew35 PS 2829607  0.0  7100 sshd
+@yew35 PS 2829608  0.0  3520 bash
+@yew35 PS 2829619  100  4576 ps
+@yew35 PS 2829620  0.0  2316 sed
+@yew35 SEEN 1784986190
+@yew36 CPU 24 1.67
+@yew36 MEM 15658 2269
+@yew36 PS 3932661  0.1 11612 systemd
+@yew36 PS 3932662  0.0  3392 (sd-pam)
+@yew36 PS 3932682  0.0  8684 pipewire
+@yew36 PS 3932683  0.0  5936 pipewire
+@yew36 PS 3932685  0.0 15788 wireplumber
+@yew36 PS 3932687  0.0 10568 pipewire-pulse
+@yew36 PS 3932706  0.0  4376 dbus-daemon
+@yew36 PS 3932887  0.0  3612 bash
+@yew36 PS 3932948  0.0  3648 bash
+@yew36 PS 3932970  0.0  2132 bash
+@yew36 PS 3932974  0.0  2116 timeout
+@yew36 PS 3932975  1.1 805656 python
+@yew36 PS 3940159  0.0  2072 sleep
+@yew36 PS 3940163  0.0  2072 sleep
+@yew36 PS 3941533  0.1 11064 python
+@yew36 PS 3941534  2.9 500636 python
+@yew36 PS 3941535  3.0 500500 python
+@yew36 PS 3942346  0.0  7068 sshd
+@yew36 PS 3942355  0.0  3620 bash
+@yew36 PS 3942365  0.0  4540 ps
+@yew36 PS 3942366  0.0  2320 sed
+@yew36 SEEN 1784986200
+@yew37 CPU 24 2.67
+@yew37 MEM 15658 7665
+@yew37 PS 2595923  0.0 11800 systemd
+@yew37 PS 2595924  0.0  3404 (sd-pam)
+@yew37 PS 2595936  0.0  8768 pipewire
+@yew37 PS 2595937  0.0  6032 pipewire
+@yew37 PS 2595938  0.0 15960 wireplumber
+@yew37 PS 2595941  0.0 10684 pipewire-pulse
+@yew37 PS 2595955  0.0  4504 dbus-daemon
+@yew37 PS 2596009  0.0  3572 bash
+@yew37 PS 2596040  0.0  3552 bash
+@yew37 PS 2596096  0.0  2092 bash
+@yew37 PS 2596118  0.0  2060 timeout
+@yew37 PS 2596119  0.5 840444 python
+@yew37 PS 2603302  0.0  2064 sleep
+@yew37 PS 2603314  0.0  2028 sleep
+@yew37 PS 2604516  0.0 11024 python
+@yew37 PS 2604517  1.4 501536 python
+@yew37 PS 2604518  1.4 501824 python
+@yew37 PS 2605317  0.0  7072 sshd
+@yew37 PS 2605318  0.0  3552 bash
+@yew37 PS 2605328  100  4592 ps
+@yew37 PS 2605329  0.0  2256 sed
+@yew37 SEEN 1784986200
+@yew38 CPU 24 2.66
+@yew38 MEM 15658 12495
+@yew38 PS 3968981  0.0 11708 systemd
+@yew38 PS 3968982  0.0  3412 (sd-pam)
+@yew38 PS 3968994  0.0  8648 pipewire
+@yew38 PS 3968995  0.0  6020 pipewire
+@yew38 PS 3968996  0.0 15788 wireplumber
+@yew38 PS 3968998  0.0 10584 pipewire-pulse
+@yew38 PS 3969016  0.0  4440 dbus-daemon
+@yew38 PS 3969094  0.0  3528 bash
+@yew38 PS 3969117  0.0  3604 bash
+@yew38 PS 3969143  0.0  2028 bash
+@yew38 PS 3969147  0.0  2092 timeout
+@yew38 PS 3969150  0.5 805492 python
+@yew38 PS 3976353  0.0  2056 sleep
+@yew38 PS 3976357  0.0  2036 sleep
+@yew38 PS 3977421  0.0 11012 python
+@yew38 PS 3977422  1.4 499440 python
+@yew38 PS 3977423  1.4 499356 python
+@yew38 PS 3978245  0.0  7060 sshd
+@yew38 PS 3978246  0.0  3592 bash
+@yew38 PS 3978264  0.0  4532 ps
+@yew38 PS 3978265  0.0  2304 sed
+@yew38 SEEN 1784986200
+@yew39 CPU 24 1.66
+@yew39 MEM 15658 2270
+@yew39 PS 1346185  0.1 11720 systemd
+@yew39 PS 1346186  0.0  3428 (sd-pam)
+@yew39 PS 1346197  0.0  8688 pipewire
+@yew39 PS 1346198  0.0  6044 pipewire
+@yew39 PS 1346200  0.0 15796 wireplumber
+@yew39 PS 1346202  0.0 10636 pipewire-pulse
+@yew39 PS 1346219  0.0  4488 dbus-daemon
+@yew39 PS 1346337  0.0  3556 bash
+@yew39 PS 1346350  0.0  3588 bash
+@yew39 PS 1346361  0.0  2052 bash
+@yew39 PS 1346365  0.0  2048 timeout
+@yew39 PS 1346366  1.2 841244 python
+@yew39 PS 1353781  0.0  2064 sleep
+@yew39 PS 1353783  0.0  2016 sleep
+@yew39 PS 1354731  0.1 10920 python
+@yew39 PS 1354732  2.8 501584 python
+@yew39 PS 1354733  2.9 501544 python
+@yew39 PS 1355538  0.0  7112 sshd
+@yew39 PS 1355539  0.0  3616 bash
+@yew39 PS 1355549  100  4532 ps
+@yew39 PS 1355550  0.0  2276 sed
+@yew39 SEEN 1784986200
+@yew40 CPU 24 1.80
+@yew40 MEM 15658 2200
+@yew40 PS  688782  0.1 11800 systemd
+@yew40 PS  688783  0.0  3412 (sd-pam)
+@yew40 PS  688807  0.0  8856 pipewire
+@yew40 PS  688808  0.0  6108 pipewire
+@yew40 PS  688810  0.0 15932 wireplumber
+@yew40 PS  688812  0.0 10676 pipewire-pulse
+@yew40 PS  688830  0.0  4456 dbus-daemon
+@yew40 PS  688911  0.0  3592 bash
+@yew40 PS  688977  0.0  3652 bash
+@yew40 PS  688987  0.0  2036 bash
+@yew40 PS  689003  0.0  2104 timeout
+@yew40 PS  689004  1.2 805524 python
+@yew40 PS  696205  0.0  2068 sleep
+@yew40 PS  696230  0.0  2072 sleep
+@yew40 PS  696951  0.0 11136 python
+@yew40 PS  696952  2.9 500740 python
+@yew40 PS  696953  2.9 500724 python
+@yew40 PS  697752  0.0  7132 sshd
+@yew40 PS  697753  0.0  3556 bash
+@yew40 PS  697763  0.0  4600 ps
+@yew40 PS  697764  0.0  2316 sed
+@yew40 SEEN 1784986200
+@yew41 CPU 24 3.14
+@yew41 MEM 15658 2233
+@yew41 PS  428989  0.1 11516 systemd
+@yew41 PS  428990  0.0  3408 (sd-pam)
+@yew41 PS  429002  0.0  8664 pipewire
+@yew41 PS  429003  0.0  6012 pipewire
+@yew41 PS  429005  0.0 15852 wireplumber
+@yew41 PS  429007  0.0 10560 pipewire-pulse
+@yew41 PS  429026  0.0  4376 dbus-daemon
+@yew41 PS  429089  0.0  3608 bash
+@yew41 PS  429182  0.0  3616 bash
+@yew41 PS  429231  0.0  2120 bash
+@yew41 PS  429235  0.0  2100 timeout
+@yew41 PS  429236  1.1 840140 python
+@yew41 PS  436470  0.0  2060 sleep
+@yew41 PS  436473  0.0  2052 sleep
+@yew41 PS  437018  0.0 11048 python
+@yew41 PS  437019  2.8 500948 python
+@yew41 PS  437020  2.8 501104 python
+@yew41 PS  437814  0.0  7032 sshd
+@yew41 PS  437815  0.0  3544 bash
+@yew41 PS  437833  100  4504 ps
+@yew41 PS  437834  0.0  2308 sed
+@yew41 SEEN 1784986200
+@yew42 CPU 24 2.66
+@yew42 MEM 15658 6357
+@yew42 PS 1825652  0.0 11416 systemd
+@yew42 PS 1825653  0.0  3400 (sd-pam)
+@yew42 PS 1825665  0.0  8684 pipewire
+@yew42 PS 1825666  0.0  5980 pipewire
+@yew42 PS 1825667  0.0 15740 wireplumber
+@yew42 PS 1825669  0.0 10468 pipewire-pulse
+@yew42 PS 1825687  0.0  4388 dbus-daemon
+@yew42 PS 1825803  0.0  3576 bash
+@yew42 PS 1825824  0.0  3620 bash
+@yew42 PS 1825844  0.0  2128 bash
+@yew42 PS 1825856  0.0  2096 timeout
+@yew42 PS 1825857  0.5 840240 python
+@yew42 PS 1833079  0.0  2044 sleep
+@yew42 PS 1833091  0.0  2056 sleep
+@yew42 PS 1833498  0.0 11084 python
+@yew42 PS 1833499  1.5 503656 python
+@yew42 PS 1833500  1.5 503752 python
+@yew42 PS 1834294  0.0  7148 sshd
+@yew42 PS 1834295  0.0  3572 bash
+@yew42 PS 1834305  0.0  4480 ps
+@yew42 PS 1834306  0.0  2296 sed
+@yew42 SEEN 1784986200
+@yew43 CPU 24 2.68
+@yew43 MEM 15658 7909
+@yew43 PS 4092091  0.0 11672 systemd
+@yew43 PS 4092092  0.0  3396 (sd-pam)
+@yew43 PS 4092103  0.0  8764 pipewire
+@yew43 PS 4092104  0.0  6028 pipewire
+@yew43 PS 4092106  0.0 15856 wireplumber
+@yew43 PS 4092108  0.0 10568 pipewire-pulse
+@yew43 PS 4092127  0.0  4456 dbus-daemon
+@yew43 PS 4092195  0.0  3492 bash
+@yew43 PS 4092238  0.0  3532 bash
+@yew43 PS 4092248  0.0  2096 bash
+@yew43 PS 4092252  0.0  2068 timeout
+@yew43 PS 4092253  0.5 839276 python
+@yew43 PS 4099453  0.0  1984 sleep
+@yew43 PS 4099455  0.0  2000 sleep
+@yew43 PS 4099721  0.0 10984 python
+@yew43 PS 4099722  1.5 501432 python
+@yew43 PS 4099723  1.5 502044 python
+@yew43 PS 4100537  0.0  7064 sshd
+@yew43 PS 4100538  0.0  3488 bash
+@yew43 PS 4100562  0.0  4532 ps
+@yew43 PS 4100563  0.0  2244 sed
+@yew43 SEEN 1784986200
+@yew44 CPU 24 1.74
+@yew44 MEM 15658 2193
+@yew44 PS  825259  0.1 11860 systemd
+@yew44 PS  825260  0.0  3432 (sd-pam)
+@yew44 PS  825280  0.0  8724 pipewire
+@yew44 PS  825281  0.0  6056 pipewire
+@yew44 PS  825283  0.0 15892 wireplumber
+@yew44 PS  825285  0.0 10620 pipewire-pulse
+@yew44 PS  825304  0.0  4476 dbus-daemon
+@yew44 PS  825418  0.0  3580 bash
+@yew44 PS  825440  0.0  3640 bash
+@yew44 PS  825459  0.0  2080 bash
+@yew44 PS  825472  0.0  2100 timeout
+@yew44 PS  825473  1.4 805508 python
+@yew44 PS  832904  0.0  2064 sleep
+@yew44 PS  832908  0.0  2064 sleep
+@yew44 PS  833002  0.1 11072 python
+@yew44 PS  833003  3.0 502368 python
+@yew44 PS  833004  2.9 502168 python
+@yew44 PS  833844  0.0  7108 sshd
+@yew44 PS  833845  0.0  3564 bash
+@yew44 PS  833855  0.0  4584 ps
+@yew44 PS  833856  0.0  2312 sed
+@yew44 SEEN 1784986200
 @SWEEP COUNTS 0 0 90 0
-@DAEMON TS 1784974893 HOST potoo01
+@DAEMON TS 1784986392 HOST potoo01

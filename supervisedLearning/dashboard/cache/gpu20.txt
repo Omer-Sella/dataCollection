@@ -1,12 +1,17 @@
-@gpu20 CPU 16 1.01
-@gpu20 MEM 64031 4530
-@gpu20 GPU 43, 8402, 11264
-@gpu20 APP 4103655, 8312
-@gpu20 PS   97782  0.0  7180 sshd
-@gpu20 PS   97783  0.0  3712 bash
-@gpu20 PS   97797  0.0  4624 ps
-@gpu20 PS   97798  0.0  2404 sed
-@gpu20 PS 3526296  0.1 12144 systemd
+@gpu20 CPU 16 2.02
+@gpu20 MEM 64031 3835
+@gpu20 GPU 0, 90, 11264
+@gpu20 PS  251981  0.0  7152 sshd
+@gpu20 PS  251982  0.0  3632 bash
+@gpu20 PS  251984  0.8  8172 git
+@gpu20 PS  251985  0.0  2080 tail
+@gpu20 PS  263840  0.0  7104 sshd
+@gpu20 PS  263841 11.3 763524 python3
+@gpu20 PS  267084  0.0  7080 sshd
+@gpu20 PS  267085  0.0  3696 bash
+@gpu20 PS  267105  0.0  4628 ps
+@gpu20 PS  267106  0.0  2388 sed
+@gpu20 PS 3526296  0.1 12148 systemd
 @gpu20 PS 3526297  0.0  3432 (sd-pam)
 @gpu20 PS 3526309  0.0  8976 pipewire
 @gpu20 PS 3526310  0.0  6080 pipewire
@@ -43,4 +48,4 @@
 @gpu20 PS 4160133  0.0  1544 ssh-agent
 @gpu20 PS 4168295  0.0  1544 ssh-agent
 @gpu20 PS 4175043  0.0  1548 ssh-agent
-@gpu20 SEEN 1784974779
+@gpu20 SEEN 1784986158
