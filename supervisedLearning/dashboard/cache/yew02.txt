@@ -1,11 +1,11 @@
-@yew02 CPU 24 1.30
-@yew02 MEM 15658 1346
-@yew02 PS   94275  0.0  2068 sleep
-@yew02 PS   98091  0.0  7020 sshd
-@yew02 PS   98092  0.0  3620 bash
-@yew02 PS   98102  0.0  4584 ps
-@yew02 PS   98103  0.0  2312 sed
-@yew02 PS 4089862  0.1 11972 systemd
+@yew02 CPU 24 0.00
+@yew02 MEM 15658 1349
+@yew02 PS  149821  0.0  2068 sleep
+@yew02 PS  156882  0.0  6976 sshd
+@yew02 PS  156883  0.0  3640 bash
+@yew02 PS  156893  0.0  4572 ps
+@yew02 PS  156894  0.0  2312 sed
+@yew02 PS 4089862  0.1 11984 systemd
 @yew02 PS 4089863  0.0  3408 (sd-pam)
 @yew02 PS 4089886  0.0  8852 pipewire
 @yew02 PS 4089887  0.0  6032 pipewire
@@ -13,4 +13,4 @@
 @yew02 PS 4089891  0.0 10720 pipewire-pulse
 @yew02 PS 4089906  0.0  4476 dbus-daemon
 @yew02 PS 4089992  0.0  2100 bash
-@yew02 SEEN 1784999843
+@yew02 SEEN 1785004306

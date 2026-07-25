@@ -1,5 +1,5 @@
-@vertex08 CPU 12 4.11
-@vertex08 MEM 15771 9748
+@vertex08 CPU 12 2.85
+@vertex08 MEM 15771 8959
 @vertex08 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP 
@@ -14,14 +14,14 @@
 @vertex08 PS 2150268  0.0  2400 bash
 @vertex08 PS 2150297  0.0  2004 bash
 @vertex08 PS 2150313  0.0  1984 timeout
-@vertex08 PS 2150314 87.7 2321332 python
-@vertex08 PS 2175301  0.0  8420 python
-@vertex08 PS 2175302 70.9 727796 python
-@vertex08 PS 2175303 48.7 725048 python
-@vertex08 PS 2393107  0.0  2084 sleep
-@vertex08 PS 2396151  0.0  2088 sleep
-@vertex08 PS 2404145  0.0  7024 sshd
-@vertex08 PS 2404159  0.0  3648 bash
-@vertex08 PS 2404184  0.0  4632 ps
-@vertex08 PS 2404185  0.0  2328 sed
-@vertex08 SEEN 1784999876
+@vertex08 PS 2150314 90.9 2175020 python
+@vertex08 PS 2175301  0.0  8300 python
+@vertex08 PS 2175302 79.0 689264 python
+@vertex08 PS 2175303 35.8 690728 python
+@vertex08 PS 2484881  0.0  2088 sleep
+@vertex08 PS 2493162  0.0  2080 sleep
+@vertex08 PS 2493186  0.0  7056 sshd
+@vertex08 PS 2493187  0.0  3648 bash
+@vertex08 PS 2493205  0.0  4624 ps
+@vertex08 PS 2493206  0.0  2332 sed
+@vertex08 SEEN 1785004339

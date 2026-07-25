@@ -1,5 +1,11 @@
-@yew38 CPU 24 2.04
-@yew38 MEM 15658 2806
+@yew38 CPU 24 2.12
+@yew38 MEM 15658 2809
+@yew38 PS   17130  0.0  2064 sleep
+@yew38 PS   21325  0.0  2036 sleep
+@yew38 PS   23954  0.0  7024 sshd
+@yew38 PS   23955  0.0  3544 bash
+@yew38 PS   23965  0.0  4476 ps
+@yew38 PS   23966  0.0  2300 sed
 @yew38 PS 3968981  0.0 11592 systemd
 @yew38 PS 3968982  0.0  3412 (sd-pam)
 @yew38 PS 3968994  0.0  7532 pipewire
@@ -11,14 +17,8 @@
 @yew38 PS 3969117  0.0  3252 bash
 @yew38 PS 3969143  0.0  1900 bash
 @yew38 PS 3969147  0.0  1972 timeout
-@yew38 PS 3969150 92.0 1020196 python
+@yew38 PS 3969150 93.9 1042992 python
 @yew38 PS 3977421  0.0  6372 python
-@yew38 PS 3977422 52.4 763932 python
-@yew38 PS 3977423 54.6 761688 python
-@yew38 PS 4155681  0.0  2036 sleep
-@yew38 PS 4156441  0.0  2064 sleep
-@yew38 PS 4160116  0.0  7016 sshd
-@yew38 PS 4160117  0.0  3572 bash
-@yew38 PS 4160127  0.0  4516 ps
-@yew38 PS 4160128  0.0  2272 sed
-@yew38 SEEN 1784999845
+@yew38 PS 3977422 52.9 763936 python
+@yew38 PS 3977423 54.9 761688 python
+@yew38 SEEN 1785004309

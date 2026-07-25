@@ -1,5 +1,5 @@
-@ash40 CPU 16 2.10
-@ash40 MEM 15909 2859
+@ash40 CPU 16 2.52
+@ash40 MEM 15909 3171
 @ash40 GPU 0, 118, 2048
 @ash40 APP 537408, 32
 @ash40 PS  537288  0.1 11728 systemd
@@ -13,14 +13,14 @@
 @ash40 PS  537393  0.0  3672 bash
 @ash40 PS  537403  0.0  2056 bash
 @ash40 PS  537407  0.0  2136 timeout
-@ash40 PS  537408 88.8 1179916 python
+@ash40 PS  537408 91.6 1200196 python
 @ash40 PS  550015  0.0 11080 python
-@ash40 PS  550016 51.6 796208 python
-@ash40 PS  550017 51.8 796688 python
-@ash40 PS  705863  0.0  2088 sleep
-@ash40 PS  708341  0.0  2092 sleep
-@ash40 PS  710923  0.0  6992 sshd
-@ash40 PS  710924  0.0  3616 bash
-@ash40 PS  710934  0.0  4588 ps
-@ash40 PS  710935  0.0  2336 sed
-@ash40 SEEN 1784999862
+@ash40 PS  550016 52.0 796216 python
+@ash40 PS  550017 52.2 796700 python
+@ash40 PS  761211  0.0  2084 sleep
+@ash40 PS  767206  0.0  2080 sleep
+@ash40 PS  769308  0.0  6956 sshd
+@ash40 PS  769309  0.0  3624 bash
+@ash40 PS  769319  0.0  4588 ps
+@ash40 PS  769320  0.0  2332 sed
+@ash40 SEEN 1785004325

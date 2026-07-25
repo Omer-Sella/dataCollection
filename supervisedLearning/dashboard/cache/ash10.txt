@@ -1,8 +1,8 @@
-@ash10 CPU 16 2.23
-@ash10 MEM 15909 2870
-@ash10 GPU 0, 113, 2048
+@ash10 CPU 16 2.19
+@ash10 MEM 15909 2781
+@ash10 GPU 1, 113, 2048
 @ash10 APP 1920928, 32
-@ash10 PS 1920621  0.1 11656 systemd
+@ash10 PS 1920621  0.1 11664 systemd
 @ash10 PS 1920624  0.0  3416 (sd-pam)
 @ash10 PS 1920642  0.0  8728 pipewire
 @ash10 PS 1920643  0.0  6100 pipewire
@@ -13,14 +13,14 @@
 @ash10 PS 1920904  0.0  3636 bash
 @ash10 PS 1920923  0.0  2128 bash
 @ash10 PS 1920927  0.0  2136 timeout
-@ash10 PS 1920928 88.7 1235136 python
+@ash10 PS 1920928 91.5 1227240 python
 @ash10 PS 1937511  0.0 11116 python
-@ash10 PS 1937512 51.8 799092 python
-@ash10 PS 1937513 52.8 798916 python
-@ash10 PS 2095198  0.0  2084 sleep
-@ash10 PS 2096581  0.0  2088 sleep
-@ash10 PS 2100037  0.0  7028 sshd
-@ash10 PS 2100038  0.0  3640 bash
-@ash10 PS 2100048  100  4596 ps
-@ash10 PS 2100049  0.0  2332 sed
-@ash10 SEEN 1784999855
+@ash10 PS 1937512 52.1 799108 python
+@ash10 PS 1937513 53.1 798916 python
+@ash10 PS 2153434  0.0  2080 sleep
+@ash10 PS 2155693  0.0  2084 sleep
+@ash10 PS 2158440  0.0  6888 sshd
+@ash10 PS 2158441  0.0  3584 bash
+@ash10 PS 2158451  0.0  4596 ps
+@ash10 PS 2158452  0.0  2336 sed
+@ash10 SEEN 1785004318

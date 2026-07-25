@@ -1,26 +1,26 @@
-@beech09 CPU 16 2.31
-@beech09 MEM 13864 5433
-@beech09 GPU 2, 126, 4096
+@beech09 CPU 16 2.12
+@beech09 MEM 13864 5526
+@beech09 GPU 0, 126, 4096
 @beech09 APP 612716, 44
 @beech09 PS  612309  0.1 11848 systemd
 @beech09 PS  612310  0.0  3416 (sd-pam)
 @beech09 PS  612330  0.0  8792 pipewire
 @beech09 PS  612331  0.0  6108 pipewire
-@beech09 PS  612333  0.0 16052 wireplumber
+@beech09 PS  612333  0.0 16060 wireplumber
 @beech09 PS  612335  0.0 10684 pipewire-pulse
 @beech09 PS  612352  0.0  4488 dbus-daemon
 @beech09 PS  612515  0.0  3600 bash
 @beech09 PS  612662  0.0  3616 bash
 @beech09 PS  612702  0.0  2044 bash
 @beech09 PS  612714  0.0  2112 timeout
-@beech09 PS  612716 89.0 1184732 python
+@beech09 PS  612716 91.8 1206508 python
 @beech09 PS  624982  0.0 11040 python
-@beech09 PS  624983 51.0 797536 python
-@beech09 PS  624984 51.6 797404 python
-@beech09 PS  779749  0.0  2080 sleep
-@beech09 PS  782124  0.0  2076 sleep
-@beech09 PS  782497  0.0  6952 sshd
-@beech09 PS  782498  0.0  3612 bash
-@beech09 PS  782508  0.0  4604 ps
-@beech09 PS  782509  0.0  2324 sed
-@beech09 SEEN 1784999868
+@beech09 PS  624983 51.7 797536 python
+@beech09 PS  624984 51.9 797408 python
+@beech09 PS  834729  0.0  2080 sleep
+@beech09 PS  836931  0.0  2076 sleep
+@beech09 PS  840726  0.0  6972 sshd
+@beech09 PS  840727  0.0  3636 bash
+@beech09 PS  840737  0.0  4588 ps
+@beech09 PS  840738  0.0  2328 sed
+@beech09 SEEN 1785004331

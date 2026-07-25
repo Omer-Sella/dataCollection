@@ -1,12 +1,12 @@
-@gpu36 CPU 16 2.23
-@gpu36 MEM 64222 13657
-@gpu36 GPU 16, 6111, 16376
+@gpu36 CPU 16 3.34
+@gpu36 MEM 64222 13721
+@gpu36 GPU 15, 6111, 16376
 @gpu36 APP 586112, 6002
-@gpu36 PS  894243  0.0  7004 sshd
-@gpu36 PS  894245  0.0  3640 bash
-@gpu36 PS  894257  100  4616 ps
-@gpu36 PS  894258  0.0  2340 sed
 @gpu36 PS 1025487  0.0  1424 ssh-agent
+@gpu36 PS 1030101  0.0  7016 sshd
+@gpu36 PS 1030102  0.0  3656 bash
+@gpu36 PS 1030140  100  4620 ps
+@gpu36 PS 1030141  0.0  2340 sed
 @gpu36 PS 1266388  0.0 11480 systemd
 @gpu36 PS 1266389  0.0  3108 (sd-pam)
 @gpu36 PS 1266400  0.0  6984 pipewire
@@ -33,4 +33,4 @@
 @gpu36 PS 3062824  0.0  1424 ssh-agent
 @gpu36 PS 3125206  0.0  1420 ssh-agent
 @gpu36 PS 3231967  0.0  1416 ssh-agent
-@gpu36 SEEN 1784999842
+@gpu36 SEEN 1785004305
