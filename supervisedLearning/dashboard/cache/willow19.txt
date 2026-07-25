@@ -1,5 +1,5 @@
-@willow19 CPU 16 3.42
-@willow19 MEM 15813 11451
+@willow19 CPU 16 2.99
+@willow19 MEM 15813 11805
 @willow19 GPU 0, 126, 4096
 @willow19 APP 1011538, 44
 @willow19 PS 1011222  0.1 11872 systemd
@@ -13,14 +13,14 @@
 @willow19 PS 1011380  0.0  3348 bash
 @willow19 PS 1011492  0.0  1920 bash
 @willow19 PS 1011537  0.0  1964 timeout
-@willow19 PS 1011538 79.4 943372 python
+@willow19 PS 1011538 83.1 930728 python
 @willow19 PS 1024708  0.0  6304 python
-@willow19 PS 1024721 49.1 622268 python
-@willow19 PS 1024722 50.4 639832 python
-@willow19 PS 1097807  0.0  2056 sleep
-@willow19 PS 1101297  0.0  2024 sleep
-@willow19 PS 1105997  0.0  7004 sshd
-@willow19 PS 1105998  0.0  3616 bash
-@willow19 PS 1106008  0.0  4544 ps
-@willow19 PS 1106009  0.0  2304 sed
-@willow19 SEEN 1784994490
+@willow19 PS 1024721 50.1 622280 python
+@willow19 PS 1024722 50.9 639832 python
+@willow19 PS 1121729  0.0  2024 sleep
+@willow19 PS 1125468  0.0  2032 sleep
+@willow19 PS 1126336  0.0  7040 sshd
+@willow19 PS 1126337  0.0  3560 bash
+@willow19 PS 1126347  0.0  4556 ps
+@willow19 PS 1126348  0.0  2284 sed
+@willow19 SEEN 1784996071

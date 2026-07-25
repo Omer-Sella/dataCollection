@@ -1,6 +1,6 @@
-@gpu21 CPU 16 4.14
-@gpu21 MEM 64031 7269
-@gpu21 GPU 0, 6203, 11264
+@gpu21 CPU 16 4.33
+@gpu21 MEM 64031 7529
+@gpu21 GPU 99, 6203, 11264
 @gpu21 APP 3316633, 6110
 @gpu21 PS 2389611  0.0 12168 systemd
 @gpu21 PS 2389612  0.0  3428 (sd-pam)
@@ -24,8 +24,8 @@
 @gpu21 PS 2523695  0.0  1544 ssh-agent
 @gpu21 PS 2553919  0.0  1544 ssh-agent
 @gpu21 PS 2606195  0.0  1544 ssh-agent
-@gpu21 PS 3423535  0.0  7252 sshd
-@gpu21 PS 3423544  0.0  3756 bash
-@gpu21 PS 3423556  0.0  4736 ps
-@gpu21 PS 3423557  0.0  2396 sed
-@gpu21 SEEN 1784994418
+@gpu21 PS 3450500  0.0  7268 sshd
+@gpu21 PS 3450501  0.0  3668 bash
+@gpu21 PS 3450513  0.0  4736 ps
+@gpu21 PS 3450514  0.0  2396 sed
+@gpu21 SEEN 1784996172

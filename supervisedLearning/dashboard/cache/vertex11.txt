@@ -1,27 +1,27 @@
-@vertex11 CPU 12 4.01
-@vertex11 MEM 15771 15137
+@vertex11 CPU 12 2.00
+@vertex11 MEM 15771 1285
 @vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP 
-@vertex11 PS  209231  0.0 10060 systemd
-@vertex11 PS  209232  0.0  1944 (sd-pam)
-@vertex11 PS  209245  0.0  5764 pipewire
-@vertex11 PS  209246  0.0  4404 pipewire
-@vertex11 PS  209248  0.0 11084 wireplumber
-@vertex11 PS  209250  0.0  7504 pipewire-pulse
-@vertex11 PS  209272  0.0  3992 dbus-daemon
-@vertex11 PS  209335  0.0  2924 bash
-@vertex11 PS  209576  0.0  2704 bash
-@vertex11 PS  209586  0.0  1612 bash
+@vertex11 PS  209231  0.0  9720 systemd
+@vertex11 PS  209232  0.0  1924 (sd-pam)
+@vertex11 PS  209245  0.0  4928 pipewire
+@vertex11 PS  209246  0.0  4064 pipewire
+@vertex11 PS  209248  0.0 10992 wireplumber
+@vertex11 PS  209250  0.0  6872 pipewire-pulse
+@vertex11 PS  209272  0.0  3900 dbus-daemon
+@vertex11 PS  209335  0.0  2920 bash
+@vertex11 PS  209576  0.0  2700 bash
+@vertex11 PS  209586  0.0  1608 bash
 @vertex11 PS  209590  0.0  1928 timeout
-@vertex11 PS  209604 79.9 329444 python
+@vertex11 PS  209604 84.0 341268 python
 @vertex11 PS  228669  0.0  3584 python
-@vertex11 PS  228670 92.4 54288 python
-@vertex11 PS  228671  8.3 48772 python
-@vertex11 PS  331485  0.0  2036 sleep
-@vertex11 PS  332510  0.0  2056 sleep
-@vertex11 PS  336636  0.0  7028 sshd
-@vertex11 PS  336637  0.0  3512 bash
-@vertex11 PS  336655  0.0  4556 ps
-@vertex11 PS  336656  0.0  2308 sed
-@vertex11 SEEN 1784994319
+@vertex11 PS  228670 94.1 52012 python
+@vertex11 PS  228671  6.5 50212 python
+@vertex11 PS  364990  0.0  2084 sleep
+@vertex11 PS  366386  0.0  2032 sleep
+@vertex11 PS  369554  0.0  7100 sshd
+@vertex11 PS  369555  0.0  3568 bash
+@vertex11 PS  369573  0.0  4588 ps
+@vertex11 PS  369574  0.0  2308 sed
+@vertex11 SEEN 1784996072

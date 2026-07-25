@@ -1,5 +1,5 @@
-@yew32 CPU 24 2.06
-@yew32 MEM 15658 4516
+@yew32 CPU 24 4.01
+@yew32 MEM 15658 4666
 @yew32 PS  427672  0.0 11716 systemd
 @yew32 PS  427673  0.0  3404 (sd-pam)
 @yew32 PS  427685  0.0  8696 pipewire
@@ -11,14 +11,14 @@
 @yew32 PS  427755  0.0  3588 bash
 @yew32 PS  427765  0.0  2120 bash
 @yew32 PS  427769  0.0  2064 timeout
-@yew32 PS  427770 87.1 2600912 python
+@yew32 PS  427770 89.2 2605384 python
 @yew32 PS  437038  0.0 11044 python
-@yew32 PS  437039 33.6 823388 python
-@yew32 PS  437040 75.6 827448 python
-@yew32 PS  536815  0.0  2072 sleep
-@yew32 PS  539997  0.0  2016 sleep
-@yew32 PS  543807  0.0  7088 sshd
-@yew32 PS  543808  0.0  3564 bash
-@yew32 PS  543818  0.0  4560 ps
-@yew32 PS  543819  0.0  2260 sed
-@yew32 SEEN 1784994425
+@yew32 PS  437039 45.3 823392 python
+@yew32 PS  437040 62.3 827448 python
+@yew32 PS  561454  0.0  2016 sleep
+@yew32 PS  564877  0.0  2020 sleep
+@yew32 PS  568593  0.0  6988 sshd
+@yew32 PS  568595  0.0  3536 bash
+@yew32 PS  568605  0.0  4532 ps
+@yew32 PS  568606  0.0  2276 sed
+@yew32 SEEN 1784996199

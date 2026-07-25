@@ -1,26 +1,26 @@
-@ash08 CPU 16 3.17
-@ash08 MEM 15909 1959
+@ash08 CPU 16 3.39
+@ash08 MEM 15909 1895
 @ash08 GPU 0, 113, 2048
 @ash08 APP 1944856, 32
-@ash08 PS 1944285  0.1  9628 systemd
+@ash08 PS 1944285  0.1  9696 systemd
 @ash08 PS 1944286  0.0  1772 (sd-pam)
 @ash08 PS 1944298  0.0  5296 pipewire
-@ash08 PS 1944299  0.0  4356 pipewire
-@ash08 PS 1944302  0.0 11264 wireplumber
-@ash08 PS 1944303  0.0  6844 pipewire-pulse
-@ash08 PS 1944320  0.0  3948 dbus-daemon
+@ash08 PS 1944299  0.0  3832 pipewire
+@ash08 PS 1944302  0.0 11064 wireplumber
+@ash08 PS 1944303  0.0  6468 pipewire-pulse
+@ash08 PS 1944320  0.0  3568 dbus-daemon
 @ash08 PS 1944398  0.0  2920 bash
 @ash08 PS 1944556  0.0  2184 bash
 @ash08 PS 1944844  0.0  1792 bash
 @ash08 PS 1944855  0.0  1940 timeout
-@ash08 PS 1944856 78.9 386000 python
+@ash08 PS 1944856 82.7 409016 python
 @ash08 PS 1961311  0.0  3560 python
-@ash08 PS 1961314 53.2 27352 python
-@ash08 PS 1961315 51.4 27456 python
-@ash08 PS 2046083  0.0  2048 sleep
-@ash08 PS 2047667  0.0  2052 sleep
-@ash08 PS 2047812  0.0  6848 sshd
-@ash08 PS 2047813  0.0  3576 bash
-@ash08 PS 2047823  0.0  4432 ps
-@ash08 PS 2047824  0.0  2296 sed
-@ash08 SEEN 1784994280
+@ash08 PS 1961314 53.8 27452 python
+@ash08 PS 1961315 52.5 27600 python
+@ash08 PS 2065179  0.0  2052 sleep
+@ash08 PS 2071022  0.0  2048 sleep
+@ash08 PS 2072618  0.0  6840 sshd
+@ash08 PS 2072619  0.0  3544 bash
+@ash08 PS 2072629  100  4440 ps
+@ash08 PS 2072630  0.0  2300 sed
+@ash08 SEEN 1784996050

@@ -1,5 +1,5 @@
-@willow13 CPU 16 3.18
-@willow13 MEM 15809 8848
+@willow13 CPU 16 2.94
+@willow13 MEM 15809 9527
 @willow13 GPU 0, 126, 4096
 @willow13 APP 1267285, 44
 @willow13 PS 1267181  0.1 11940 systemd
@@ -13,14 +13,14 @@
 @willow13 PS 1267270  0.0  3628 bash
 @willow13 PS 1267280  0.0  2128 bash
 @willow13 PS 1267284  0.0  2116 timeout
-@willow13 PS 1267285 80.3 1204460 python
+@willow13 PS 1267285 83.8 1296940 python
 @willow13 PS 1280328  0.0 11052 python
-@willow13 PS 1280329 50.0 800552 python
-@willow13 PS 1280330 51.8 800688 python
-@willow13 PS 1361507  0.0  2068 sleep
-@willow13 PS 1362600  0.0  2072 sleep
-@willow13 PS 1362634  0.0  7060 sshd
-@willow13 PS 1362635  0.0  3568 bash
-@willow13 PS 1362646  0.0  4608 ps
-@willow13 PS 1362647  0.0  2320 sed
-@willow13 SEEN 1784994490
+@willow13 PS 1280329 50.4 800552 python
+@willow13 PS 1280330 52.3 800688 python
+@willow13 PS 1378008  0.0  2072 sleep
+@willow13 PS 1380717  0.0  2080 sleep
+@willow13 PS 1383000  0.0  6996 sshd
+@willow13 PS 1383001  0.0  3568 bash
+@willow13 PS 1383011  0.0  4604 ps
+@willow13 PS 1383012  0.0  2308 sed
+@willow13 SEEN 1784996071

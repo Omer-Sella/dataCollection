@@ -1,5 +1,5 @@
-@gpu19 CPU 8 1.49
-@gpu19 MEM 64034 13062
+@gpu19 CPU 8 1.21
+@gpu19 MEM 64034 13106
 @gpu19 GPU 0, 1242, 11264
 @gpu19 APP 1816481, 1152
 @gpu19 PS  130876  0.0 11608 systemd
@@ -22,8 +22,8 @@
 @gpu19 PS  279307  0.0  1340 ssh-agent
 @gpu19 PS  291668  0.0  1344 ssh-agent
 @gpu19 PS  340586  0.0  1348 ssh-agent
-@gpu19 PS 1115792  0.0  7240 sshd
-@gpu19 PS 1115793  0.0  3724 bash
-@gpu19 PS 1115805  200  4700 ps
-@gpu19 PS 1115806  0.0  2396 sed
-@gpu19 SEEN 1784994418
+@gpu19 PS 1141658  0.0  7204 sshd
+@gpu19 PS 1141659  0.0  3724 bash
+@gpu19 PS 1141679  200  4700 ps
+@gpu19 PS 1141680  0.0  2396 sed
+@gpu19 SEEN 1784996172
