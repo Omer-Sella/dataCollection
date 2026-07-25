@@ -1,5 +1,5 @@
-@poplar40 CPU 24 2.02
-@poplar40 MEM 15142 2822
+@poplar40 CPU 24 1.98
+@poplar40 MEM 15142 2878
 @poplar40 PS 1092268  0.1 14420 systemd
 @poplar40 PS 1092270  0.0  4104 (sd-pam)
 @poplar40 PS 1092290  0.0  5224 dbus-daemon
@@ -12,14 +12,14 @@
 @poplar40 PS 1092578  0.0  3964 bash
 @poplar40 PS 1092589  0.0  2136 bash
 @poplar40 PS 1092593  0.0  7548 timeout
-@poplar40 PS 1092594 82.6 1045560 python
+@poplar40 PS 1092594 83.7 1204260 python
 @poplar40 PS 1109081  0.0 12000 python
-@poplar40 PS 1109082 49.8 789496 python
-@poplar40 PS 1109083 50.8 789568 python
-@poplar40 PS 1210411  0.0  7528 sleep
-@poplar40 PS 1212853  0.0  7584 sleep
-@poplar40 PS 1213735  0.0  8512 sshd-session
-@poplar40 PS 1213736  0.0  3940 bash
-@poplar40 PS 1213754  0.0  4800 ps
-@poplar40 PS 1213755  0.0  2756 sed
-@poplar40 SEEN 1784996212
+@poplar40 PS 1109082 50.0 789496 python
+@poplar40 PS 1109083 51.2 789568 python
+@poplar40 PS 1217860  0.0  7784 sleep
+@poplar40 PS 1220155  0.0  7672 sleep
+@poplar40 PS 1221323  0.0  8460 sshd-session
+@poplar40 PS 1221324  0.0  4008 bash
+@poplar40 PS 1221334  0.0  4824 ps
+@poplar40 PS 1221335  0.0  2788 sed
+@poplar40 SEEN 1784996864

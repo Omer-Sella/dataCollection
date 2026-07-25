@@ -1,24 +1,24 @@
-@cedar07 CPU 16 2.10
-@cedar07 MEM 31668 4680
-@cedar07 PS 1134378  0.1 11700 systemd
+@cedar07 CPU 16 2.13
+@cedar07 MEM 31668 4677
+@cedar07 PS 1134378  0.1 11716 systemd
 @cedar07 PS 1134379  0.0  3428 (sd-pam)
 @cedar07 PS 1134390  0.0  8752 pipewire
 @cedar07 PS 1134391  0.0  6044 pipewire
-@cedar07 PS 1134392  0.0 16096 wireplumber
+@cedar07 PS 1134392  0.0 16112 wireplumber
 @cedar07 PS 1134394  0.0 10636 pipewire-pulse
 @cedar07 PS 1134410  0.0  4548 dbus-daemon
 @cedar07 PS 1134456  0.0  3636 bash
 @cedar07 PS 1134478  0.0  3660 bash
 @cedar07 PS 1134514  0.0  2036 bash
 @cedar07 PS 1134518  0.0  2120 timeout
-@cedar07 PS 1134519 83.1 2592124 python
+@cedar07 PS 1134519 84.4 2605540 python
 @cedar07 PS 1149197  0.0 11036 python
-@cedar07 PS 1149199 87.0 823260 python
-@cedar07 PS 1149200 39.5 816452 python
-@cedar07 PS 1234779  0.0  2068 sleep
-@cedar07 PS 1238314  0.0  2064 sleep
-@cedar07 PS 1241265  0.0  7036 sshd
-@cedar07 PS 1241266  0.0  3584 bash
-@cedar07 PS 1241276  0.0  4572 ps
-@cedar07 PS 1241277  0.0  2320 sed
-@cedar07 SEEN 1784996102
+@cedar07 PS 1149199 79.3 817804 python
+@cedar07 PS 1149200 44.9 819508 python
+@cedar07 PS 1245146  0.0  2068 sleep
+@cedar07 PS 1253199  0.0  2068 sleep
+@cedar07 PS 1253563  0.0  7084 sshd
+@cedar07 PS 1253564  0.0  3612 bash
+@cedar07 PS 1253574  0.0  4552 ps
+@cedar07 PS 1253575  0.0  2316 sed
+@cedar07 SEEN 1784996790

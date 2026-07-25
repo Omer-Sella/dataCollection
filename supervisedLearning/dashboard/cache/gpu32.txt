@@ -1,7 +1,7 @@
-@gpu32 CPU 16 1.00
-@gpu32 MEM 64222 4636
+@gpu32 CPU 16 1.07
+@gpu32 MEM 64222 4588
 @gpu32 GPU 100, 14619, 16376
-@gpu32 APP 3164258, 14510
+@gpu32 APP 2641680, 14510
 @gpu32 PS  371686  0.0  1548 ssh-agent
 @gpu32 PS 1507072  0.0  1544 ssh-agent
 @gpu32 PS 1507629  0.0  1544 ssh-agent
@@ -35,8 +35,8 @@
 @gpu32 PS 1681930  0.0  1544 ssh-agent
 @gpu32 PS 1688875  0.0  1548 ssh-agent
 @gpu32 PS 1744375  0.0  1536 ssh-agent
-@gpu32 PS 2638036  0.0  7040 sshd
-@gpu32 PS 2638037  0.0  3636 bash
-@gpu32 PS 2638049  200  4640 ps
-@gpu32 PS 2638050  0.0  2332 sed
-@gpu32 SEEN 1784996174
+@gpu32 PS 2648471  0.0  7004 sshd
+@gpu32 PS 2648472  0.0  3588 bash
+@gpu32 PS 2648484  0.0  4652 ps
+@gpu32 PS 2648485  0.0  2336 sed
+@gpu32 SEEN 1784996851

@@ -1,5 +1,5 @@
-@ash23 CPU 16 2.08
-@ash23 MEM 15909 3001
+@ash23 CPU 16 2.33
+@ash23 MEM 15909 3010
 @ash23 GPU 0, 102, 2048
 @ash23 PS  180313  0.1 11560 systemd
 @ash23 PS  180314  0.0  2384 (sd-pam)
@@ -12,14 +12,14 @@
 @ash23 PS  180459  0.0  2228 bash
 @ash23 PS  180477  0.0  1900 bash
 @ash23 PS  180481  0.0  1952 timeout
-@ash23 PS  180482 82.2 2266832 python
+@ash23 PS  180482 83.4 2280268 python
 @ash23 PS  197657  0.0  6544 python
-@ash23 PS  197658 93.7 414436 python
-@ash23 PS  197659  2.2 405568 python
-@ash23 PS  298795  0.0  2068 sleep
-@ash23 PS  301765  0.0  2072 sleep
-@ash23 PS  304913  0.0  6984 sshd
-@ash23 PS  304914  0.0  3616 bash
-@ash23 PS  304924  0.0  4520 ps
-@ash23 PS  304925  0.0  2320 sed
-@ash23 SEEN 1784996058
+@ash23 PS  197658 94.2 408904 python
+@ash23 PS  197659  2.1 406700 python
+@ash23 PS  308545  0.0  2084 sleep
+@ash23 PS  312186  0.0  2084 sleep
+@ash23 PS  315985  0.0  7004 sshd
+@ash23 PS  315986  0.0  3528 bash
+@ash23 PS  316004  0.0  4532 ps
+@ash23 PS  316005  0.0  2328 sed
+@ash23 SEEN 1784996743

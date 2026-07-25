@@ -1,5 +1,5 @@
-@gpu26 CPU 8 1.37
-@gpu26 MEM 64219 11648
+@gpu26 CPU 8 1.51
+@gpu26 MEM 64219 11693
 @gpu26 GPU 0, 957, 8192
 @gpu26 APP 1658320, 826
 @gpu26 PS 2807640  0.0 12132 systemd
@@ -22,8 +22,8 @@
 @gpu26 PS 2946249  0.0  1544 ssh-agent
 @gpu26 PS 2954552  0.0  1540 ssh-agent
 @gpu26 PS 3000547  0.0  1540 ssh-agent
-@gpu26 PS 3743624  0.0  7076 sshd
-@gpu26 PS 3743625  0.0  3564 bash
-@gpu26 PS 3743635  100  4624 ps
-@gpu26 PS 3743636  0.0  2328 sed
-@gpu26 SEEN 1784996174
+@gpu26 PS 3751958  0.0  7060 sshd
+@gpu26 PS 3751959  0.0  3608 bash
+@gpu26 PS 3751969  100  4632 ps
+@gpu26 PS 3751970  0.0  2336 sed
+@gpu26 SEEN 1784996851

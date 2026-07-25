@@ -1,5 +1,5 @@
-@gpu24 CPU 8 0.00
-@gpu24 MEM 15915 3096
+@gpu24 CPU 8 0.08
+@gpu24 MEM 15915 3101
 @gpu24 GPU 0, 203, 8192
 @gpu24 APP 807373, 104
 @gpu24 PS  588822  0.0 11688 systemd
@@ -29,12 +29,12 @@
 @gpu24 PS  805447  0.0  1548 ssh-agent
 @gpu24 PS  806379  0.0  1544 ssh-agent
 @gpu24 PS  807228  0.0  2152 timeout
-@gpu24 PS  807373 86.6 1203100 python
+@gpu24 PS  807373 85.5 1203100 python
 @gpu24 PS  816926  0.0 11072 python
-@gpu24 PS  816939 23.3 796516 python
-@gpu24 PS  816941 22.5 796488 python
-@gpu24 PS 1548313  0.0  6940 sshd
-@gpu24 PS 1548314  0.0  3540 bash
-@gpu24 PS 1548333  0.0  4536 ps
-@gpu24 PS 1548334  0.0  2340 sed
-@gpu24 SEEN 1784996174
+@gpu24 PS  816939 23.0 796516 python
+@gpu24 PS  816941 22.2 796488 python
+@gpu24 PS 1556901  0.0  7008 sshd
+@gpu24 PS 1556902  0.0  3628 bash
+@gpu24 PS 1556912  100  4548 ps
+@gpu24 PS 1556913  0.0  2340 sed
+@gpu24 SEEN 1784996851
