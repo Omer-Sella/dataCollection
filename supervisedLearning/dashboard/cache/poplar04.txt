@@ -1,6 +1,6 @@
-@poplar04 CPU 24 2.12
-@poplar04 MEM 15658 2714
-@poplar04 PS 1172517  0.0 11768 systemd
+@poplar04 CPU 24 1.84
+@poplar04 MEM 15658 2671
+@poplar04 PS 1172517  0.0 11788 systemd
 @poplar04 PS 1172525  0.0  3412 (sd-pam)
 @poplar04 PS 1172536  0.0  8828 pipewire
 @poplar04 PS 1172537  0.0  6120 pipewire
@@ -9,16 +9,16 @@
 @poplar04 PS 1172558  0.0  4436 dbus-daemon
 @poplar04 PS 1172594  0.0  3612 bash
 @poplar04 PS 1172599  0.0  3592 bash
-@poplar04 PS 1172609  0.0  2036 bash
+@poplar04 PS 1172609  0.0  2040 bash
 @poplar04 PS 1172613  0.0  2088 timeout
-@poplar04 PS 1172614 73.6 1062880 python
+@poplar04 PS 1172614 84.2 1047088 python
 @poplar04 PS 1180611  0.0 11012 python
-@poplar04 PS 1180647 46.4 786432 python
-@poplar04 PS 1180648 44.7 786396 python
-@poplar04 PS 1233767  0.0  2040 sleep
-@poplar04 PS 1234443  0.0  2068 sleep
-@poplar04 PS 1237692  0.0  6976 sshd
-@poplar04 PS 1237693  0.0  3616 bash
-@poplar04 PS 1237703  0.0  4560 ps
-@poplar04 PS 1237704  0.0  2316 sed
-@poplar04 SEEN 1784990977
+@poplar04 PS 1180647 49.4 786432 python
+@poplar04 PS 1180648 48.2 786420 python
+@poplar04 PS 1280547  0.0  2024 sleep
+@poplar04 PS 1281746  0.0  2080 sleep
+@poplar04 PS 1282576  0.0  7044 sshd
+@poplar04 PS 1282577  0.0  3560 bash
+@poplar04 PS 1282587  0.0  4568 ps
+@poplar04 PS 1282588  0.0  2312 sed
+@poplar04 SEEN 1784994452

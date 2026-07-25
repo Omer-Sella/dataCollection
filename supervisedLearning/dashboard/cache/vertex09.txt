@@ -1,9 +1,9 @@
-@vertex09 CPU 12 3.37
-@vertex09 MEM 15771 9893
+@vertex09 CPU 12 3.25
+@vertex09 MEM 15771 11315
 @vertex09 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex09 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex09 APP 
-@vertex09 PS 3126168  0.0 11824 systemd
+@vertex09 PS 3126168  0.0 11832 systemd
 @vertex09 PS 3126169  0.0  3440 (sd-pam)
 @vertex09 PS 3126182  0.0  8848 pipewire
 @vertex09 PS 3126183  0.0  6128 pipewire
@@ -12,16 +12,16 @@
 @vertex09 PS 3126207  0.0  4552 dbus-daemon
 @vertex09 PS 3126267  0.0  3624 bash
 @vertex09 PS 3126306  0.0  3616 bash
-@vertex09 PS 3126347  0.0  2104 bash
+@vertex09 PS 3126347  0.0  2108 bash
 @vertex09 PS 3126351  0.0  2136 timeout
-@vertex09 PS 3126352 62.6 1061468 python
+@vertex09 PS 3126352 80.1 1045160 python
 @vertex09 PS 3143402  0.0 11080 python
-@vertex09 PS 3143412 47.9 790280 python
-@vertex09 PS 3143413 45.1 790316 python
-@vertex09 PS 3192961  0.0  2084 sleep
-@vertex09 PS 3193663  0.0  2084 sleep
-@vertex09 PS 3193779  0.0  7120 sshd
-@vertex09 PS 3193780  0.0  3588 bash
-@vertex09 PS 3193798  100  4624 ps
-@vertex09 PS 3193799  0.0  2336 sed
-@vertex09 SEEN 1784991032
+@vertex09 PS 3143412 50.3 790180 python
+@vertex09 PS 3143413 50.0 790244 python
+@vertex09 PS 3248952  0.0  2088 sleep
+@vertex09 PS 3252676  0.0  2088 sleep
+@vertex09 PS 3253087  0.0  7104 sshd
+@vertex09 PS 3253096  0.0  3584 bash
+@vertex09 PS 3253114  0.0  4632 ps
+@vertex09 PS 3253115  0.0  2336 sed
+@vertex09 SEEN 1784994319

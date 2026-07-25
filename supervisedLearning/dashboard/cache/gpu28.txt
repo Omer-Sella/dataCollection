@@ -1,5 +1,5 @@
-@gpu28 CPU 8 0.98
-@gpu28 MEM 64034 3786
+@gpu28 CPU 8 1.06
+@gpu28 MEM 64034 7517
 @gpu28 GPU 0, 30, 11264
 @gpu28 PS 2709876  0.0 12204 systemd
 @gpu28 PS 2709879  0.0  3420 (sd-pam)
@@ -21,8 +21,8 @@
 @gpu28 PS 2861151  0.0  1544 ssh-agent
 @gpu28 PS 2869332  0.0  1548 ssh-agent
 @gpu28 PS 2918408  0.0  1544 ssh-agent
-@gpu28 PS 3658333  0.0  7108 sshd
-@gpu28 PS 3658334  0.0  3728 bash
-@gpu28 PS 3658364  200  4664 ps
-@gpu28 PS 3658365  0.0  2392 sed
-@gpu28 SEEN 1784990952
+@gpu28 PS 3708595  0.0  7228 sshd
+@gpu28 PS 3708596  0.0  3700 bash
+@gpu28 PS 3708620  0.0  4648 ps
+@gpu28 PS 3708621  0.0  2396 sed
+@gpu28 SEEN 1784994419

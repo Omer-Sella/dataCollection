@@ -1,25 +1,25 @@
-@beech16 CPU 16 3.14
-@beech16 MEM 15880 11381
-@beech16 GPU 0, 82, 4096
+@beech16 CPU 16 3.02
+@beech16 MEM 15880 9465
+@beech16 GPU 2, 82, 4096
 @beech16 PS  770789  0.1 11868 systemd
 @beech16 PS  770790  0.0  3420 (sd-pam)
-@beech16 PS  770802  0.0  8908 pipewire
+@beech16 PS  770802  0.0  8892 pipewire
 @beech16 PS  770803  0.0  6048 pipewire
-@beech16 PS  770804  0.0 16040 wireplumber
-@beech16 PS  770807  0.0 10632 pipewire-pulse
+@beech16 PS  770804  0.0 16024 wireplumber
+@beech16 PS  770807  0.0 10616 pipewire-pulse
 @beech16 PS  770823  0.0  4524 dbus-daemon
 @beech16 PS  770880  0.0  3596 bash
 @beech16 PS  770893  0.0  3648 bash
-@beech16 PS  770903  0.0  2068 bash
+@beech16 PS  770903  0.0  2072 bash
 @beech16 PS  770907  0.0  2116 timeout
-@beech16 PS  770908 65.4 2591608 python
+@beech16 PS  770908 81.0 2602400 python
 @beech16 PS  783438  0.0 11096 python
-@beech16 PS  783439 85.9 833948 python
-@beech16 PS  783440 61.4 833160 python
-@beech16 PS  818428  0.0  2080 sleep
-@beech16 PS  822656  0.0  2084 sleep
-@beech16 PS  823590  0.0  7064 sshd
-@beech16 PS  823591  0.0  3632 bash
-@beech16 PS  823601  0.0  4620 ps
-@beech16 PS  823602  0.0  2328 sed
-@beech16 SEEN 1784991024
+@beech16 PS  783439 80.7 824756 python
+@beech16 PS  783440 71.8 833916 python
+@beech16 PS  865147  0.0  2080 sleep
+@beech16 PS  865599  0.0  2084 sleep
+@beech16 PS  866164  0.0  7028 sshd
+@beech16 PS  866165  0.0  3584 bash
+@beech16 PS  866187  0.0  4600 ps
+@beech16 PS  866188  0.0  2328 sed
+@beech16 SEEN 1784994307

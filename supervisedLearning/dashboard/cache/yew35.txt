@@ -1,6 +1,6 @@
-@yew35 CPU 24 2.21
-@yew35 MEM 15658 4363
-@yew35 PS 2819951  0.0 11832 systemd
+@yew35 CPU 24 2.03
+@yew35 MEM 15658 4378
+@yew35 PS 2819951  0.0 11856 systemd
 @yew35 PS 2819952  0.0  3400 (sd-pam)
 @yew35 PS 2819964  0.0  8748 pipewire
 @yew35 PS 2819965  0.0  6016 pipewire
@@ -9,16 +9,16 @@
 @yew35 PS 2819984  0.0  4500 dbus-daemon
 @yew35 PS 2820134  0.0  3548 bash
 @yew35 PS 2820147  0.0  3648 bash
-@yew35 PS 2820158  0.0  2088 bash
+@yew35 PS 2820158  0.0  2092 bash
 @yew35 PS 2820162  0.0  2108 timeout
-@yew35 PS 2820163 63.7 2578780 python
+@yew35 PS 2820163 87.4 2592188 python
 @yew35 PS 2828847  0.0 11036 python
-@yew35 PS 2828848 71.2 823572 python
-@yew35 PS 2828849 67.5 821876 python
-@yew35 PS 2859063  0.0  2068 sleep
-@yew35 PS 2859447  0.0  2064 sleep
-@yew35 PS 2860601  0.0  7100 sshd
-@yew35 PS 2860602  0.0  3596 bash
-@yew35 PS 2860612  0.0  4568 ps
-@yew35 PS 2860613  0.0  2300 sed
-@yew35 SEEN 1784988532
+@yew35 PS 2828848 39.3 825812 python
+@yew35 PS 2828849 90.5 826340 python
+@yew35 PS 2928578  0.0  2020 sleep
+@yew35 PS 2931753  0.0  2068 sleep
+@yew35 PS 2935580  0.0  7120 sshd
+@yew35 PS 2935581  0.0  3504 bash
+@yew35 PS 2935599  0.0  4572 ps
+@yew35 PS 2935600  0.0  2300 sed
+@yew35 SEEN 1784994425

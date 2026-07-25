@@ -1,26 +1,26 @@
-@beech17 CPU 16 3.13
-@beech17 MEM 15881 2073
+@beech17 CPU 16 2.90
+@beech17 MEM 15881 2101
 @beech17 GPU 0, 126, 4096
 @beech17 APP 621216, 44
-@beech17 PS  621020  0.1 10400 systemd
-@beech17 PS  621021  0.0  2104 (sd-pam)
-@beech17 PS  621033  0.0  5920 pipewire
-@beech17 PS  621034  0.0  4428 pipewire
-@beech17 PS  621036  0.0 11404 wireplumber
-@beech17 PS  621038  0.0  7504 pipewire-pulse
-@beech17 PS  621055  0.0  3880 dbus-daemon
-@beech17 PS  621116  0.0  2948 bash
+@beech17 PS  621020  0.1 10264 systemd
+@beech17 PS  621021  0.0  2084 (sd-pam)
+@beech17 PS  621033  0.0  5412 pipewire
+@beech17 PS  621034  0.0  4204 pipewire
+@beech17 PS  621036  0.0 11032 wireplumber
+@beech17 PS  621038  0.0  7112 pipewire-pulse
+@beech17 PS  621055  0.0  3852 dbus-daemon
+@beech17 PS  621116  0.0  2772 bash
 @beech17 PS  621183  0.0  2192 bash
-@beech17 PS  621211  0.0  1772 bash
+@beech17 PS  621211  0.0  1540 bash
 @beech17 PS  621215  0.0  1932 timeout
-@beech17 PS  621216 65.2 567000 python
-@beech17 PS  631983  0.0  3500 python
-@beech17 PS  631984 43.4 26644 python
-@beech17 PS  631985 45.2 26792 python
-@beech17 PS  669101  0.0  2052 sleep
-@beech17 PS  672653  0.0  2044 sleep
-@beech17 PS  673574  0.0  6876 sshd
-@beech17 PS  673575  0.0  3572 bash
-@beech17 PS  673585  0.0  4548 ps
-@beech17 PS  673586  0.0  2284 sed
-@beech17 SEEN 1784991030
+@beech17 PS  621216 80.7 397656 python
+@beech17 PS  631983  0.0  3476 python
+@beech17 PS  631984 49.4 26500 python
+@beech17 PS  631985 50.2 26712 python
+@beech17 PS  709164  0.0  2044 sleep
+@beech17 PS  715592  0.0  2048 sleep
+@beech17 PS  716232  0.0  6848 sshd
+@beech17 PS  716233  0.0  3428 bash
+@beech17 PS  716251  0.0  4556 ps
+@beech17 PS  716252  0.0  2292 sed
+@beech17 SEEN 1784994314

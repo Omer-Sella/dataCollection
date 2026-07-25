@@ -1,27 +1,27 @@
-@vertex13 CPU 12 3.11
-@vertex13 MEM 15771 11154
+@vertex13 CPU 12 3.12
+@vertex13 MEM 15771 12762
 @vertex13 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP 
-@vertex13 PS 1331210  0.0 11736 systemd
+@vertex13 PS 1331210  0.0 11432 systemd
 @vertex13 PS 1331211  0.0  3388 (sd-pam)
-@vertex13 PS 1331222  0.0  8864 pipewire
-@vertex13 PS 1331223  0.0  6060 pipewire
-@vertex13 PS 1331225  0.0 16200 wireplumber
-@vertex13 PS 1331227  0.0 10704 pipewire-pulse
-@vertex13 PS 1331249  0.0  4468 dbus-daemon
-@vertex13 PS 1331369  0.0  3628 bash
-@vertex13 PS 1331456  0.0  3624 bash
-@vertex13 PS 1331480  0.0  2100 bash
-@vertex13 PS 1331485  0.0  2112 timeout
-@vertex13 PS 1331486 61.1 1053932 python
+@vertex13 PS 1331222  0.0  6804 pipewire
+@vertex13 PS 1331223  0.0  4872 pipewire
+@vertex13 PS 1331225  0.0 12796 wireplumber
+@vertex13 PS 1331227  0.0  8600 pipewire-pulse
+@vertex13 PS 1331249  0.0  4412 dbus-daemon
+@vertex13 PS 1331369  0.0  3436 bash
+@vertex13 PS 1331456  0.0  3428 bash
+@vertex13 PS 1331480  0.0  2104 bash
+@vertex13 PS 1331485  0.0  2104 timeout
+@vertex13 PS 1331486 79.6 1045672 python
 @vertex13 PS 1348828  0.0 11092 python
-@vertex13 PS 1348829 45.1 791364 python
-@vertex13 PS 1348830 45.7 791596 python
-@vertex13 PS 1386368  0.0  2032 sleep
-@vertex13 PS 1398078  0.0  2080 sleep
-@vertex13 PS 1398224  0.0  7120 sshd
-@vertex13 PS 1398225  0.0  3664 bash
-@vertex13 PS 1398243  0.0  4504 ps
-@vertex13 PS 1398244  0.0  2320 sed
-@vertex13 SEEN 1784991056
+@vertex13 PS 1348829 49.9 789656 python
+@vertex13 PS 1348830 49.4 789804 python
+@vertex13 PS 1452516  0.0  2056 sleep
+@vertex13 PS 1454481  0.0  2028 sleep
+@vertex13 PS 1457362  0.0  7076 sshd
+@vertex13 PS 1457363  0.0  3584 bash
+@vertex13 PS 1457382  0.0  4548 ps
+@vertex13 PS 1457383  0.0  2276 sed
+@vertex13 SEEN 1784994339

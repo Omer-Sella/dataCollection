@@ -1,6 +1,6 @@
-@yew14 CPU 24 2.07
-@yew14 MEM 15658 2824
-@yew14 PS 2664280  0.0 11604 systemd
+@yew14 CPU 24 0.08
+@yew14 MEM 15658 2827
+@yew14 PS 2664280  0.0 11616 systemd
 @yew14 PS 2664281  0.0  3424 (sd-pam)
 @yew14 PS 2664292  0.0  8328 pipewire
 @yew14 PS 2664293  0.0  5680 pipewire
@@ -9,16 +9,16 @@
 @yew14 PS 2664319  0.0  4296 dbus-daemon
 @yew14 PS 2664420  0.0  3484 bash
 @yew14 PS 2664497  0.0  3448 bash
-@yew14 PS 2664519  0.0  2036 bash
+@yew14 PS 2664519  0.0  2040 bash
 @yew14 PS 2664524  0.0  2016 timeout
-@yew14 PS 2664525 55.7 1049704 python
+@yew14 PS 2664525 41.7 1062440 python
 @yew14 PS 2677399  0.0 11000 python
-@yew14 PS 2677400 44.7 783276 python
-@yew14 PS 2677401 43.2 783348 python
-@yew14 PS 2704095  0.0  1992 sleep
-@yew14 PS 2704573  0.0  2016 sleep
-@yew14 PS 2705409  0.0  7092 sshd
-@yew14 PS 2705410  0.0  3456 bash
-@yew14 PS 2705420  0.0  4492 ps
-@yew14 PS 2705421  0.0  2224 sed
-@yew14 SEEN 1784988255
+@yew14 PS 2677400 24.8 783280 python
+@yew14 PS 2677401 24.8 783384 python
+@yew14 PS 2780922  0.0  1984 sleep
+@yew14 PS 2781683  0.0  1968 sleep
+@yew14 PS 2784549  0.0  7072 sshd
+@yew14 PS 2784550  0.0  3504 bash
+@yew14 PS 2784560  0.0  4432 ps
+@yew14 PS 2784561  0.0  2252 sed
+@yew14 SEEN 1784994423

@@ -1,24 +1,24 @@
-@yew43 CPU 24 3.00
-@yew43 MEM 15658 10226
-@yew43 PS 4092091  0.0 11672 systemd
+@yew43 CPU 24 3.15
+@yew43 MEM 15658 10825
+@yew43 PS    5490  0.0  1980 sleep
+@yew43 PS    8252  0.0  2004 sleep
+@yew43 PS   12786  0.0  7076 sshd
+@yew43 PS   12787  0.0  3552 bash
+@yew43 PS   12797  0.0  4484 ps
+@yew43 PS   12798  0.0  2228 sed
+@yew43 PS 4092091  0.0 11712 systemd
 @yew43 PS 4092092  0.0  3396 (sd-pam)
-@yew43 PS 4092103  0.0  8764 pipewire
+@yew43 PS 4092103  0.0  8760 pipewire
 @yew43 PS 4092104  0.0  6028 pipewire
-@yew43 PS 4092106  0.0 15856 wireplumber
+@yew43 PS 4092106  0.0 15888 wireplumber
 @yew43 PS 4092108  0.0 10568 pipewire-pulse
 @yew43 PS 4092127  0.0  4456 dbus-daemon
 @yew43 PS 4092195  0.0  3496 bash
 @yew43 PS 4092238  0.0  3532 bash
-@yew43 PS 4092248  0.0  2100 bash
+@yew43 PS 4092248  0.0  2104 bash
 @yew43 PS 4092252  0.0  2068 timeout
-@yew43 PS 4092253 66.7 2586992 python
+@yew43 PS 4092253 88.7 2613364 python
 @yew43 PS 4099721  0.0 10984 python
-@yew43 PS 4099722 10.0 822896 python
-@yew43 PS 4099723 73.9 824776 python
-@yew43 PS 4121737  0.0  1996 sleep
-@yew43 PS 4128863  0.0  2016 sleep
-@yew43 PS 4129223  0.0  7080 sshd
-@yew43 PS 4129224  0.0  3504 bash
-@yew43 PS 4129235  0.0  4520 ps
-@yew43 PS 4129236  0.0  2268 sed
-@yew43 SEEN 1784988535
+@yew43 PS 4099722  3.0 817012 python
+@yew43 PS 4099723 92.4 824360 python
+@yew43 SEEN 1784994427

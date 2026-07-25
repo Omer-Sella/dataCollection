@@ -1,27 +1,27 @@
-@vertex08 CPU 12 2.20
-@vertex08 MEM 15771 9574
+@vertex08 CPU 12 2.10
+@vertex08 MEM 15771 9391
 @vertex08 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP 
-@vertex08 PS 2150160  0.0 11728 systemd
-@vertex08 PS 2150161  0.0  3440 (sd-pam)
-@vertex08 PS 2150172  0.0  8840 pipewire
-@vertex08 PS 2150173  0.0  6040 pipewire
-@vertex08 PS 2150175  0.0 16048 wireplumber
-@vertex08 PS 2150177  0.0 10720 pipewire-pulse
-@vertex08 PS 2150196  0.0  4560 dbus-daemon
-@vertex08 PS 2150244  0.0  3596 bash
-@vertex08 PS 2150268  0.0  3592 bash
-@vertex08 PS 2150297  0.0  2080 bash
-@vertex08 PS 2150313  0.0  2136 timeout
-@vertex08 PS 2150314 58.1 2579204 python
-@vertex08 PS 2175301  0.0 11056 python
-@vertex08 PS 2175302 80.6 833524 python
-@vertex08 PS 2175303 27.0 833660 python
-@vertex08 PS 2222482  0.0  2088 sleep
-@vertex08 PS 2223224  0.0  2092 sleep
-@vertex08 PS 2223377  0.0  7100 sshd
-@vertex08 PS 2223378  0.0  3604 bash
-@vertex08 PS 2223396  0.0  4628 ps
-@vertex08 PS 2223397  0.0  2336 sed
-@vertex08 SEEN 1784991032
+@vertex08 PS 2150160  0.0 11332 systemd
+@vertex08 PS 2150161  0.0  3432 (sd-pam)
+@vertex08 PS 2150172  0.0  7916 pipewire
+@vertex08 PS 2150173  0.0  5736 pipewire
+@vertex08 PS 2150175  0.0 14564 wireplumber
+@vertex08 PS 2150177  0.0  9768 pipewire-pulse
+@vertex08 PS 2150196  0.0  4228 dbus-daemon
+@vertex08 PS 2150244  0.0  3348 bash
+@vertex08 PS 2150268  0.0  2400 bash
+@vertex08 PS 2150297  0.0  2004 bash
+@vertex08 PS 2150313  0.0  1984 timeout
+@vertex08 PS 2150314 77.9 2375624 python
+@vertex08 PS 2175301  0.0 11044 python
+@vertex08 PS 2175302 50.4 815316 python
+@vertex08 PS 2175303 53.0 811872 python
+@vertex08 PS 2285088  0.0  2084 sleep
+@vertex08 PS 2288728  0.0  2080 sleep
+@vertex08 PS 2289284  0.0  7044 sshd
+@vertex08 PS 2289285  0.0  3588 bash
+@vertex08 PS 2289303  0.0  4632 ps
+@vertex08 PS 2289304  0.0  2340 sed
+@vertex08 SEEN 1784994319

@@ -1,8 +1,8 @@
-@curve02 CPU 12 3.07
-@curve02 MEM 15917 4078
+@curve02 CPU 12 3.04
+@curve02 MEM 15917 4116
 @curve02 GPU [N/A], 89, 2000
 @curve02 APP [N/A], [N/A]
-@curve02 PS 3944084  0.1 11808 systemd
+@curve02 PS 3944084  0.1 11832 systemd
 @curve02 PS 3944085  0.0  3404 (sd-pam)
 @curve02 PS 3944097  0.0  8704 pipewire
 @curve02 PS 3944098  0.0  6056 pipewire
@@ -11,16 +11,16 @@
 @curve02 PS 3944116  0.0  4492 dbus-daemon
 @curve02 PS 3944166  0.0  3556 bash
 @curve02 PS 3944254  0.0  3560 bash
-@curve02 PS 3944294  0.0  2076 bash
+@curve02 PS 3944294  0.0  2080 bash
 @curve02 PS 3944298  0.0  2088 timeout
-@curve02 PS 3944299 59.0 2557112 python
+@curve02 PS 3944299 78.7 2566052 python
 @curve02 PS 3960588  0.0 11156 python
-@curve02 PS 3960601 71.3 825844 python
-@curve02 PS 3960602 92.0 821236 python
-@curve02 PS 3984039  0.0  2056 sleep
-@curve02 PS 3987292  0.0  2036 sleep
-@curve02 PS 3989200  0.0  7076 sshd
-@curve02 PS 3989201  0.0  3548 bash
-@curve02 PS 3989219  200  4576 ps
-@curve02 PS 3989220  0.0  2288 sed
-@curve02 SEEN 1784991058
+@curve02 PS 3960601 88.2 822524 python
+@curve02 PS 3960602 80.7 821780 python
+@curve02 PS 4029625  0.0  2068 sleep
+@curve02 PS 4030515  0.0  2048 sleep
+@curve02 PS 4031360  0.0  6960 sshd
+@curve02 PS 4031361  0.0  3476 bash
+@curve02 PS 4031371  0.0  4552 ps
+@curve02 PS 4031372  0.0  2288 sed
+@curve02 SEEN 1784994339

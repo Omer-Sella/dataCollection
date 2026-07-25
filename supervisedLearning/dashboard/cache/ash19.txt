@@ -1,4 +1,4 @@
-@ash19 CPU 16 2.01
+@ash19 CPU 16 3.04
 @ash19 MEM 15909 4357
 @ash19 GPU 3, 81, 2048
 @ash19 PS 1194229  0.1 11892 systemd
@@ -10,16 +10,16 @@
 @ash19 PS 1194273  0.0  4512 dbus-daemon
 @ash19 PS 1194308  0.0  3600 bash
 @ash19 PS 1194350  0.0  3620 bash
-@ash19 PS 1194370  0.0  2128 bash
+@ash19 PS 1194370  0.0  2132 bash
 @ash19 PS 1194374  0.0  2112 timeout
-@ash19 PS 1194375 67.7 2596760 python
+@ash19 PS 1194375 81.3 2605700 python
 @ash19 PS 1209770  0.0 11112 python
-@ash19 PS 1209796 50.5 839968 python
-@ash19 PS 1209797 81.2 839484 python
-@ash19 PS 1249634  0.0  2080 sleep
-@ash19 PS 1254947  0.0  2080 sleep
-@ash19 PS 1255042  0.0  7016 sshd
-@ash19 PS 1255048  0.0  3624 bash
-@ash19 PS 1255061  0.0  4616 ps
-@ash19 PS 1255062  0.0  2328 sed
-@ash19 SEEN 1784990983
+@ash19 PS 1209796 43.8 836624 python
+@ash19 PS 1209797 90.4 840808 python
+@ash19 PS 1290098  0.0  2080 sleep
+@ash19 PS 1296623  0.0  2080 sleep
+@ash19 PS 1296658  0.0  6992 sshd
+@ash19 PS 1296659  0.0  3612 bash
+@ash19 PS 1296669  0.0  4616 ps
+@ash19 PS 1296670  0.0  2324 sed
+@ash19 SEEN 1784994284

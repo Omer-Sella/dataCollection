@@ -1,6 +1,6 @@
-@yew20 CPU 24 2.17
-@yew20 MEM 15658 2780
-@yew20 PS  570073  0.1 11780 systemd
+@yew20 CPU 24 0.01
+@yew20 MEM 15658 2817
+@yew20 PS  570073  0.1 11792 systemd
 @yew20 PS  570074  0.0  3412 (sd-pam)
 @yew20 PS  570083  0.0  8800 pipewire
 @yew20 PS  570087  0.0  6068 pipewire
@@ -9,16 +9,16 @@
 @yew20 PS  570110  0.0  4352 dbus-daemon
 @yew20 PS  570152  0.0  3568 bash
 @yew20 PS  570170  0.0  3612 bash
-@yew20 PS  570189  0.0  2096 bash
+@yew20 PS  570189  0.0  2100 bash
 @yew20 PS  570201  0.0  2104 timeout
-@yew20 PS  570202 59.4 1040544 python
+@yew20 PS  570202 40.6 1069672 python
 @yew20 PS  581572  0.0 11008 python
-@yew20 PS  581573 43.4 786380 python
-@yew20 PS  581574 44.3 786268 python
-@yew20 PS  609632  0.0  2028 sleep
-@yew20 PS  610063  0.0  2044 sleep
-@yew20 PS  613209  0.0  6996 sshd
-@yew20 PS  613210  0.0  3540 bash
-@yew20 PS  613220  0.0  4560 ps
-@yew20 PS  613221  0.0  2296 sed
-@yew20 SEEN 1784988525
+@yew20 PS  581573 24.3 786396 python
+@yew20 PS  581574 23.9 786304 python
+@yew20 PS  685761  0.0  2020 sleep
+@yew20 PS  686584  0.0  2020 sleep
+@yew20 PS  687888  0.0  7040 sshd
+@yew20 PS  687889  0.0  3572 bash
+@yew20 PS  687899  100  4564 ps
+@yew20 PS  687900  0.0  2280 sed
+@yew20 SEEN 1784994423

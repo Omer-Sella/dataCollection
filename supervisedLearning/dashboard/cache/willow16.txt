@@ -1,5 +1,5 @@
-@willow16 CPU 16 2.35
-@willow16 MEM 15809 4237
+@willow16 CPU 16 2.08
+@willow16 MEM 15809 4248
 @willow16 GPU 0, 82, 4096
 @willow16 PS 2892172  0.1 12012 systemd
 @willow16 PS 2892173  0.0  3432 (sd-pam)
@@ -10,16 +10,16 @@
 @willow16 PS 2892210  0.0  4464 dbus-daemon
 @willow16 PS 2892280  0.0  3584 bash
 @willow16 PS 2892319  0.0  3612 bash
-@willow16 PS 2892338  0.0  2040 bash
+@willow16 PS 2892338  0.0  2044 bash
 @willow16 PS 2892350  0.0  2124 timeout
-@willow16 PS 2892351 61.1 2601364 python
+@willow16 PS 2892351 79.5 2605832 python
 @willow16 PS 2904689  0.0 11004 python
-@willow16 PS 2904690  3.6 834484 python
-@willow16 PS 2904691 82.1 842184 python
-@willow16 PS 2939702  0.0  2080 sleep
-@willow16 PS 2939982  0.0  2076 sleep
-@willow16 PS 2942089  0.0  6948 sshd
-@willow16 PS 2942090  0.0  3592 bash
-@willow16 PS 2942100  0.0  4616 ps
-@willow16 PS 2942101  0.0  2320 sed
-@willow16 SEEN 1784991031
+@willow16 PS 2904690 36.3 838992 python
+@willow16 PS 2904691 75.4 844420 python
+@willow16 PS 2986902  0.0  2072 sleep
+@willow16 PS 2987527  0.0  2080 sleep
+@willow16 PS 2987561  0.0  7064 sshd
+@willow16 PS 2987562  0.0  3580 bash
+@willow16 PS 2987572  0.0  4620 ps
+@willow16 PS 2987573  0.0  2324 sed
+@willow16 SEEN 1784994490
