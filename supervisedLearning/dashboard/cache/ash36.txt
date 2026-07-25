@@ -1,26 +1,26 @@
-@ash36 CPU 16 3.53
-@ash36 MEM 15909 10520
-@ash36 GPU 4, 113, 2048
+@ash36 CPU 16 2.89
+@ash36 MEM 15909 11109
+@ash36 GPU 0, 113, 2048
 @ash36 APP 3824946, 32
-@ash36 PS 3824469  0.1 11900 systemd
-@ash36 PS 3824470  0.0  3436 (sd-pam)
-@ash36 PS 3824482  0.0  8880 pipewire
-@ash36 PS 3824483  0.0  6080 pipewire
-@ash36 PS 3824484  0.0 16052 wireplumber
-@ash36 PS 3824487  0.0 10664 pipewire-pulse
-@ash36 PS 3824504  0.0  4556 dbus-daemon
-@ash36 PS 3824707  0.0  3632 bash
-@ash36 PS 3824771  0.0  3584 bash
-@ash36 PS 3824935  0.0  2108 bash
-@ash36 PS 3824945  0.0  2136 timeout
-@ash36 PS 3824946 84.9 1348492 python
-@ash36 PS 3837720  0.0 11036 python
-@ash36 PS 3837721 56.7 798984 python
-@ash36 PS 3837722 55.3 799080 python
-@ash36 PS 3953096  0.0  2072 sleep
-@ash36 PS 3954976  0.0  2048 sleep
-@ash36 PS 3956609  0.0  6988 sshd
-@ash36 PS 3956610  0.0  3620 bash
-@ash36 PS 3956620  100  4620 ps
-@ash36 PS 3956621  0.0  2320 sed
-@ash36 SEEN 1784996744
+@ash36 PS 3824469  0.1 11424 systemd
+@ash36 PS 3824470  0.0  3344 (sd-pam)
+@ash36 PS 3824482  0.0  7284 pipewire
+@ash36 PS 3824483  0.0  5176 pipewire
+@ash36 PS 3824484  0.0 14232 wireplumber
+@ash36 PS 3824487  0.0  8864 pipewire-pulse
+@ash36 PS 3824504  0.0  4396 dbus-daemon
+@ash36 PS 3824707  0.0  3472 bash
+@ash36 PS 3824771  0.0  2516 bash
+@ash36 PS 3824935  0.0  2132 bash
+@ash36 PS 3824945  0.0  2124 timeout
+@ash36 PS 3824946 88.5 1351868 python
+@ash36 PS 3837720  0.0 10928 python
+@ash36 PS 3837721 57.3 795220 python
+@ash36 PS 3837722 56.4 795204 python
+@ash36 PS 3994051  0.0  2060 sleep
+@ash36 PS 3995390  0.0  2092 sleep
+@ash36 PS 3998361  0.0  7000 sshd
+@ash36 PS 3998362  0.0  3592 bash
+@ash36 PS 3998372  0.0  4572 ps
+@ash36 PS 3998373  0.0  2332 sed
+@ash36 SEEN 1784999862

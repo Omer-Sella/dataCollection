@@ -1,5 +1,5 @@
-@vertex02 CPU 12 1.05
-@vertex02 MEM 15771 1667
+@vertex02 CPU 12 1.00
+@vertex02 MEM 15771 1772
 @vertex02 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex02 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex02 APP 
@@ -11,9 +11,9 @@
 @vertex02 PS  238468  0.0 10636 pipewire-pulse
 @vertex02 PS  238490  0.0  4524 dbus-daemon
 @vertex02 PS  238659  0.0  2048 bash
-@vertex02 PS  407772  0.0  2084 sleep
-@vertex02 PS  419354  0.0  7032 sshd
-@vertex02 PS  419355  0.0  3656 bash
-@vertex02 PS  419373  0.0  4620 ps
-@vertex02 PS  419374  0.0  2332 sed
-@vertex02 SEEN 1784996901
+@vertex02 PS  462630  0.0  2072 sleep
+@vertex02 PS  472621  0.0  6984 sshd
+@vertex02 PS  472622  0.0  3676 bash
+@vertex02 PS  472646  0.0  4604 ps
+@vertex02 PS  472647  0.0  2316 sed
+@vertex02 SEEN 1784999876

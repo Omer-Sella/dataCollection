@@ -1,9 +1,9 @@
-@poplar36 CPU 24 1.94
-@poplar36 MEM 15658 2840
-@poplar36 PS 1166287  0.0 10664 systemd
+@poplar36 CPU 24 2.32
+@poplar36 MEM 15658 2769
+@poplar36 PS 1166287  0.0 10644 systemd
 @poplar36 PS 1166288  0.0  1808 (sd-pam)
-@poplar36 PS 1166302  0.0  5604 pipewire
-@poplar36 PS 1166303  0.0  4688 pipewire
+@poplar36 PS 1166302  0.0  5372 pipewire
+@poplar36 PS 1166303  0.0  4544 pipewire
 @poplar36 PS 1166305  0.0 12768 wireplumber
 @poplar36 PS 1166307  0.0  7500 pipewire-pulse
 @poplar36 PS 1166324  0.0  3648 dbus-daemon
@@ -11,14 +11,14 @@
 @poplar36 PS 1166385  0.0  2192 bash
 @poplar36 PS 1166418  0.0  1888 bash
 @poplar36 PS 1166430  0.0  1904 timeout
-@poplar36 PS 1166431 83.4 816804 python
+@poplar36 PS 1166431 87.0 837900 python
 @poplar36 PS 1183560  0.0 10892 python
-@poplar36 PS 1183561 57.3 773592 python
-@poplar36 PS 1183562 55.3 773408 python
-@poplar36 PS 1301186  0.0  2028 sleep
-@poplar36 PS 1303372  0.0  2052 sleep
-@poplar36 PS 1305906  0.0  6984 sshd
-@poplar36 PS 1305907  0.0  3600 bash
-@poplar36 PS 1305917  0.0  4544 ps
-@poplar36 PS 1305918  0.0  2308 sed
-@poplar36 SEEN 1784996864
+@poplar36 PS 1183561 57.8 773480 python
+@poplar36 PS 1183562 55.6 773300 python
+@poplar36 PS 1341270  0.0  2028 sleep
+@poplar36 PS 1343330  0.0  2064 sleep
+@poplar36 PS 1345298  0.0  7020 sshd
+@poplar36 PS 1345299  0.0  3540 bash
+@poplar36 PS 1345309  0.0  4528 ps
+@poplar36 PS 1345310  0.0  2276 sed
+@poplar36 SEEN 1784999853

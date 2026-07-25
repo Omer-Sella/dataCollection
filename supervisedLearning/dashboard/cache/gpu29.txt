@@ -1,7 +1,7 @@
-@gpu29 CPU 8 3.35
-@gpu29 MEM 64034 5683
-@gpu29 GPU 0, 30, 11264
-@gpu29 PS   71370  0.0 12148 systemd
+@gpu29 CPU 8 0.31
+@gpu29 MEM 64034 2872
+@gpu29 GPU 1, 30, 11264
+@gpu29 PS   71370  0.0 12152 systemd
 @gpu29 PS   71371  0.0  3380 (sd-pam)
 @gpu29 PS   71385  0.0  8760 pipewire
 @gpu29 PS   71386  0.0  6084 pipewire
@@ -25,8 +25,8 @@
 @gpu29 PS 2837742  0.0  1544 ssh-agent
 @gpu29 PS 2866188  0.0  1544 ssh-agent
 @gpu29 PS 2915984  0.0  1540 ssh-agent
-@gpu29 PS 3722437  0.0  7204 sshd
-@gpu29 PS 3722438  0.0  3712 bash
-@gpu29 PS 3722451  0.0  4668 ps
-@gpu29 PS 3722452  0.0  2396 sed
-@gpu29 SEEN 1784996852
+@gpu29 PS 3763465  0.0  7208 sshd
+@gpu29 PS 3763466  0.0  3652 bash
+@gpu29 PS 3763478  200  4660 ps
+@gpu29 PS 3763479  0.0  2400 sed
+@gpu29 SEEN 1784999841

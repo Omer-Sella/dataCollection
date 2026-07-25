@@ -1,8 +1,8 @@
-@beech07 CPU 16 1.96
-@beech07 MEM 13864 2849
-@beech07 GPU 0, 137, 4096
+@beech07 CPU 16 2.06
+@beech07 MEM 13864 2762
+@beech07 GPU 2, 137, 4096
 @beech07 APP 3721844, 44
-@beech07 PS 3721609  0.1 11776 systemd
+@beech07 PS 3721609  0.1 11784 systemd
 @beech07 PS 3721610  0.0  3420 (sd-pam)
 @beech07 PS 3721622  0.0  8200 pipewire
 @beech07 PS 3721623  0.0  5980 pipewire
@@ -13,14 +13,14 @@
 @beech07 PS 3721817  0.0  3448 bash
 @beech07 PS 3721839  0.0  2108 bash
 @beech07 PS 3721843  0.0  2116 timeout
-@beech07 PS 3721844 85.0 1215180 python
+@beech07 PS 3721844 88.5 1203820 python
 @beech07 PS 3734657  0.0 11052 python
-@beech07 PS 3734658 54.3 790140 python
-@beech07 PS 3734659 51.7 789468 python
-@beech07 PS 3848036  0.0  2080 sleep
-@beech07 PS 3849282  0.0  2076 sleep
-@beech07 PS 3851343  0.0  7024 sshd
-@beech07 PS 3851344  0.0  3596 bash
-@beech07 PS 3851354  100  4560 ps
-@beech07 PS 3851355  0.0  2324 sed
-@beech07 SEEN 1784996751
+@beech07 PS 3734658 54.6 790148 python
+@beech07 PS 3734659 52.8 789468 python
+@beech07 PS 3889823  0.0  2080 sleep
+@beech07 PS 3892507  0.0  2048 sleep
+@beech07 PS 3893188  0.0  6992 sshd
+@beech07 PS 3893189  0.0  3584 bash
+@beech07 PS 3893199  0.0  4560 ps
+@beech07 PS 3893200  0.0  2312 sed
+@beech07 SEEN 1784999868
