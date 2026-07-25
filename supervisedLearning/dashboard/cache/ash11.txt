@@ -1,22 +1,25 @@
-@ash11 CPU 16 3.11
-@ash11 MEM 15909 1682
+@ash11 CPU 16 3.00
+@ash11 MEM 15909 1842
 @ash11 GPU 0, 84, 2048
-@ash11 PS  613679  0.1 11028 systemd
-@ash11 PS  613680  0.0  2268 (sd-pam)
-@ash11 PS  613691  0.0  7276 pipewire
-@ash11 PS  613692  0.0  4868 pipewire
-@ash11 PS  613694  0.0 13788 wireplumber
-@ash11 PS  613695  0.0  9980 pipewire-pulse
-@ash11 PS  613711  0.0  4092 dbus-daemon
-@ash11 PS  613778  0.0  2708 bash
-@ash11 PS  613923  0.0  2476 bash
-@ash11 PS  613933  0.0  1540 bash
+@ash11 PS  613679  0.1 10960 systemd
+@ash11 PS  613680  0.0  1812 (sd-pam)
+@ash11 PS  613691  0.0  6280 pipewire
+@ash11 PS  613692  0.0  4708 pipewire
+@ash11 PS  613694  0.0 12768 wireplumber
+@ash11 PS  613695  0.0  9124 pipewire-pulse
+@ash11 PS  613711  0.0  3980 dbus-daemon
+@ash11 PS  613778  0.0  2784 bash
+@ash11 PS  613923  0.0  2460 bash
+@ash11 PS  613933  0.0  1652 bash
 @ash11 PS  613937  0.0  1944 timeout
-@ash11 PS  613938  0.4 373964 python
-@ash11 PS  621234  0.0  1988 sleep
-@ash11 PS  625032  0.0  2060 sleep
-@ash11 PS  628242  0.0  6752 sshd
-@ash11 PS  628243  0.0  3540 bash
-@ash11 PS  628261  0.0  4472 ps
-@ash11 PS  628262  0.0  2308 sed
-@ash11 SEEN 1784987534
+@ash11 PS  613938 63.7 333180 python
+@ash11 PS  628391  0.0  3044 python
+@ash11 PS  628392 85.5 66672 python
+@ash11 PS  628393 24.5 58768 python
+@ash11 PS  668542  0.0  2080 sleep
+@ash11 PS  671616  0.0  2076 sleep
+@ash11 PS  672882  0.0  6968 sshd
+@ash11 PS  672883  0.0  3604 bash
+@ash11 PS  672893  0.0  4488 ps
+@ash11 PS  672894  0.0  2332 sed
+@ash11 SEEN 1784990984

@@ -1,22 +1,25 @@
-@vertex22 CPU 12 1.05
-@vertex22 MEM 15255 1483
-@vertex22 PS  955624  0.1 14060 systemd
+@vertex22 CPU 12 2.18
+@vertex22 MEM 15255 4271
+@vertex22 PS  955624  0.1 14136 systemd
 @vertex22 PS  955633  0.0  4064 (sd-pam)
 @vertex22 PS  955653  0.0  5168 dbus-daemon
 @vertex22 PS  955654  0.0  8376 pipewire
 @vertex22 PS  955664  0.0  3900 mpris-proxy
-@vertex22 PS  955665  0.0 26904 wireplumber
+@vertex22 PS  955665  0.0 26908 wireplumber
 @vertex22 PS  955668  0.0  5764 pipewire
 @vertex22 PS  955670  0.0 10980 pipewire-pulse
-@vertex22 PS  955761  0.0  3828 bash
+@vertex22 PS  955761  0.0  3832 bash
 @vertex22 PS  955791  0.0  3900 bash
-@vertex22 PS  955802  0.0  1916 bash
-@vertex22 PS  955803  0.0  7608 sleep
+@vertex22 PS  955802  0.0  2116 bash
 @vertex22 PS  955806  0.0  7644 timeout
-@vertex22 PS  955807  1.8 549876 python
-@vertex22 PS  959234  0.0  7620 sleep
-@vertex22 PS  962041  0.0  8472 sshd-session
-@vertex22 PS  962042  0.0  3932 bash
-@vertex22 PS  962052  0.0  4676 ps
-@vertex22 PS  962053  0.0  2744 sed
-@vertex22 SEEN 1784988077
+@vertex22 PS  955807 60.1 2574936 python
+@vertex22 PS  969234  0.0 11932 python
+@vertex22 PS  969235 81.4 825972 python
+@vertex22 PS  969244 85.3 827916 python
+@vertex22 PS  992318  0.0  7616 sleep
+@vertex22 PS  995257  0.0  7616 sleep
+@vertex22 PS  997534  0.0  8472 sshd-session
+@vertex22 PS  997535  0.0  3908 bash
+@vertex22 PS  997545  0.0  4680 ps
+@vertex22 PS  997546  0.0  2748 sed
+@vertex22 SEEN 1784991057

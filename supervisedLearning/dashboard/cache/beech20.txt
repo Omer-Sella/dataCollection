@@ -1,23 +1,26 @@
-@beech20 CPU 16 1.08
-@beech20 MEM 15364 1692
-@beech20 GPU 0, 89, 4096
-@beech20 PS  913202  0.2 14164 systemd
+@beech20 CPU 16 2.11
+@beech20 MEM 15364 4491
+@beech20 GPU 0, 91, 4096
+@beech20 PS  913202  0.2 14236 systemd
 @beech20 PS  913204  0.0  4084 (sd-pam)
 @beech20 PS  913229  0.0  5220 dbus-daemon
 @beech20 PS  913230  0.0  8516 pipewire
 @beech20 PS  913236  0.0  4164 mpris-proxy
-@beech20 PS  913238  0.0 27140 wireplumber
+@beech20 PS  913238  0.0 27144 wireplumber
 @beech20 PS  913239  0.0  5832 pipewire
 @beech20 PS  913240  0.0 10924 pipewire-pulse
-@beech20 PS  913376  0.0  3844 bash
+@beech20 PS  913376  0.0  3848 bash
 @beech20 PS  913417  0.0  3908 bash
-@beech20 PS  913435  0.0  1916 bash
-@beech20 PS  913436  0.0  7424 sleep
+@beech20 PS  913435  0.0  2052 bash
 @beech20 PS  913439  0.0  7460 timeout
-@beech20 PS  913440  0.7 600624 python
-@beech20 PS  916921  0.0  7692 sleep
-@beech20 PS  919375  0.0  8256 sshd-session
-@beech20 PS  919376  0.0  3980 bash
-@beech20 PS  919388  0.0  4764 ps
-@beech20 PS  919389  0.0  2672 sed
-@beech20 SEEN 1784987558
+@beech20 PS  913440 66.7 2595688 python
+@beech20 PS  924157  0.0 11892 python
+@beech20 PS  924158 85.7 839768 python
+@beech20 PS  924159 44.6 839988 python
+@beech20 PS  956708  0.0  7800 sleep
+@beech20 PS  960641  0.0  7788 sleep
+@beech20 PS  961608  0.0  8320 sshd-session
+@beech20 PS  961609  0.0  3960 bash
+@beech20 PS  961621  0.0  4728 ps
+@beech20 PS  961622  0.0  2688 sed
+@beech20 SEEN 1784991030

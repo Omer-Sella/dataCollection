@@ -1,22 +1,25 @@
-@ash32 CPU 16 1.00
-@ash32 MEM 15909 1493
+@ash32 CPU 16 2.02
+@ash32 MEM 15909 4276
 @ash32 GPU 0, 81, 2048
-@ash32 PS 3986051  0.1 11876 systemd
+@ash32 PS 3986051  0.1 11948 systemd
 @ash32 PS 3986052  0.0  3424 (sd-pam)
 @ash32 PS 3986063  0.0  8792 pipewire
 @ash32 PS 3986064  0.0  6036 pipewire
-@ash32 PS 3986066  0.0 15884 wireplumber
+@ash32 PS 3986066  0.0 15952 wireplumber
 @ash32 PS 3986068  0.0 10660 pipewire-pulse
 @ash32 PS 3986083  0.0  4512 dbus-daemon
 @ash32 PS 3986128  0.0  3552 bash
 @ash32 PS 3986210  0.0  3600 bash
-@ash32 PS 3986250  0.0  2084 bash
+@ash32 PS 3986250  0.0  2088 bash
 @ash32 PS 3986272  0.0  2132 timeout
-@ash32 PS 3986273  0.4 652752 python
-@ash32 PS 3993686  0.0  2084 sleep
-@ash32 PS 3997304  0.0  2084 sleep
-@ash32 PS 3997869  0.0  6968 sshd
-@ash32 PS 3997870  0.0  3580 bash
-@ash32 PS 3997880  0.0  4592 ps
-@ash32 PS 3997881  0.0  2324 sed
-@ash32 SEEN 1784987539
+@ash32 PS 3986273 65.4 2593972 python
+@ash32 PS 3999692  0.0 11008 python
+@ash32 PS 3999693 14.5 835380 python
+@ash32 PS 3999694 87.0 839708 python
+@ash32 PS 4041177  0.0  2088 sleep
+@ash32 PS 4041446  0.0  2088 sleep
+@ash32 PS 4043117  0.0  7036 sshd
+@ash32 PS 4043118  0.0  3568 bash
+@ash32 PS 4043129  0.0  4600 ps
+@ash32 PS 4043130  0.0  2324 sed
+@ash32 SEEN 1784990990

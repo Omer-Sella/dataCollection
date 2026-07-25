@@ -1,0 +1,20 @@
+labWorker vertex05: started collect pid 3439269 (l=12 m=6) Sat 25 Jul 14:48:56 BST 2026
+collectWorker3 vertex05: l=12 m=6 workers=2 seed=257834003 stage=1 Sat 25 Jul 14:48:59 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Creating log dir /data/osella/collectStage/2026-07-25_15-03-11_3439332...
+Checking the directory was created: True
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Training begins on:
+2026-07-25 15:14:38 Saturday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-25 15:20:35,617 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 500/50000000 [06:16<10449:48:39,  1.33it/s]  0%|          | 1000/50000000 [12:27<10370:24:40,  1.34it/s]  0%|          | 1500/50000000 [18:41<10373:41:39,  1.34it/s]  0%|          | 2000/50000000 [24:31<10117:22:58,  1.37it/s]  0%|          | 2500/50000000 [30:55<10316:34:13,  1.35it/s]  0%|          | 3000/50000000 [37:21<10452:13:50,  1.33it/s]  0%|          | 3500/50000000 [43:30<10388:22:37,  1.34it/s]  0%|          | 4000/50000000 [51:11<11155:01:42,  1.24it/s]  0%|          | 4500/50000000 [59:00<11741:50:24,  1.18it/s]  0%|          | 5000/50000000 [1:06:01<11730:43:50,  1.18it/s]

@@ -1,25 +1,25 @@
-@willow12 CPU 16 1.95
-@willow12 MEM 15809 2233
+@willow12 CPU 16 2.10
+@willow12 MEM 15809 4212
 @willow12 GPU 0, 82, 4096
 @willow12 PS 2273670  0.1 11976 systemd
 @willow12 PS 2273671  0.0  3420 (sd-pam)
-@willow12 PS 2273683  0.0  8888 pipewire
+@willow12 PS 2273683  0.0  8872 pipewire
 @willow12 PS 2273684  0.0  6084 pipewire
-@willow12 PS 2273686  0.0 16096 wireplumber
+@willow12 PS 2273686  0.0 16100 wireplumber
 @willow12 PS 2273688  0.0 10680 pipewire-pulse
 @willow12 PS 2273707  0.0  4480 dbus-daemon
 @willow12 PS 2273756  0.0  3652 bash
 @willow12 PS 2273770  0.0  3664 bash
-@willow12 PS 2273780  0.0  2064 bash
+@willow12 PS 2273780  0.0  2068 bash
 @willow12 PS 2273784  0.0  2132 timeout
-@willow12 PS 2273785  1.1 857724 python
-@willow12 PS 2281646  0.0  2080 sleep
-@willow12 PS 2285457  0.0  2068 sleep
+@willow12 PS 2273785 65.4 2596400 python
 @willow12 PS 2286891  0.0 11092 python
-@willow12 PS 2286903  3.0 620924 python
-@willow12 PS 2286904  3.0 621124 python
-@willow12 PS 2289072  0.0  7040 sshd
-@willow12 PS 2289073  0.0  3604 bash
-@willow12 PS 2289083  0.0  4580 ps
-@willow12 PS 2289084  0.0  2320 sed
-@willow12 SEEN 1784988378
+@willow12 PS 2286903 21.6 838548 python
+@willow12 PS 2286904 88.5 835576 python
+@willow12 PS 2321980  0.0  2084 sleep
+@willow12 PS 2322112  0.0  2076 sleep
+@willow12 PS 2325172  0.0  7056 sshd
+@willow12 PS 2325173  0.0  3576 bash
+@willow12 PS 2325183  0.0  4576 ps
+@willow12 PS 2325184  0.0  2328 sed
+@willow12 SEEN 1784991031

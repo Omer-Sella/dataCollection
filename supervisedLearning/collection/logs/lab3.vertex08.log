@@ -1,0 +1,19 @@
+labWorker vertex08: started collect pid 2150268 (l=21 m=18) Sat 25 Jul 14:49:19 BST 2026
+collectWorker3 vertex08: l=21 m=18 workers=2 seed=282524842 stage=1 Sat 25 Jul 14:49:20 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Creating log dir /data/osella/collectStage/2026-07-25_15-03-13_2150314...
+Checking the directory was created: True
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Training begins on:
+2026-07-25 15:15:17 Saturday
+  0%|          | 0/50000000 [00:00<?, ?it/s]

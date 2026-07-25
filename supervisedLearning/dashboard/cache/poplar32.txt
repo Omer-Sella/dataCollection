@@ -1,6 +1,6 @@
-@poplar32 CPU 24 3.85
-@poplar32 MEM 15658 10973
-@poplar32 PS 1415040  0.0 11536 systemd
+@poplar32 CPU 24 4.06
+@poplar32 MEM 15658 11793
+@poplar32 PS 1415040  0.0 11540 systemd
 @poplar32 PS 1415041  0.0  3404 (sd-pam)
 @poplar32 PS 1415053  0.0  8748 pipewire
 @poplar32 PS 1415054  0.0  6040 pipewire
@@ -11,14 +11,14 @@
 @poplar32 PS 1415118  0.0  3656 bash
 @poplar32 PS 1415128  0.0  2056 bash
 @poplar32 PS 1415132  0.0  2112 timeout
-@poplar32 PS 1415133 10.8 2565392 python
-@poplar32 PS 1431617  0.0  2084 sleep
+@poplar32 PS 1415133 70.1 2587748 python
 @poplar32 PS 1432978  0.0 11012 python
-@poplar32 PS 1432979 53.6 815756 python
-@poplar32 PS 1432980 52.0 819712 python
-@poplar32 PS 1435258  0.0  2076 sleep
-@poplar32 PS 1436746  0.0  7108 sshd
-@poplar32 PS 1436747  0.0  3608 bash
-@poplar32 PS 1436757  0.0  4536 ps
-@poplar32 PS 1436758  0.0  2316 sed
-@poplar32 SEEN 1784987753
+@poplar32 PS 1432979 95.7 824892 python
+@poplar32 PS 1432980 67.2 824212 python
+@poplar32 PS 1478300  0.0  2060 sleep
+@poplar32 PS 1478477  0.0  2080 sleep
+@poplar32 PS 1478679  0.0  6980 sshd
+@poplar32 PS 1478680  0.0  3636 bash
+@poplar32 PS 1478690  0.0  4536 ps
+@poplar32 PS 1478691  0.0  2328 sed
+@poplar32 SEEN 1784990980

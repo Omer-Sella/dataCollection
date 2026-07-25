@@ -1,5 +1,5 @@
-@gpu15 CPU 8 2.22
-@gpu15 MEM 32011 4759
+@gpu15 CPU 8 2.77
+@gpu15 MEM 32011 4767
 @gpu15 GPU 0, 82, 8192
 @gpu15 PS 3210805  0.0 11868 systemd
 @gpu15 PS 3210808  0.0  3424 (sd-pam)
@@ -28,12 +28,12 @@
 @gpu15 PS 3417632  0.0  1544 ssh-agent
 @gpu15 PS 3419215  0.0  1544 ssh-agent
 @gpu15 PS 3420044  0.0  2144 timeout
-@gpu15 PS 3420621 98.1 2695372 python
+@gpu15 PS 3420621 98.3 2695372 python
 @gpu15 PS 3426873  0.0 11104 python
-@gpu15 PS 3426885 42.9 846148 python
-@gpu15 PS 3426886 56.5 837952 python
-@gpu15 PS 4021024  0.0  7100 sshd
-@gpu15 PS 4021025  0.0  3696 bash
-@gpu15 PS 4021041  0.0  4644 ps
-@gpu15 PS 4021042  0.0  2340 sed
-@gpu15 SEEN 1784986157
+@gpu15 PS 3426885 38.8 846148 python
+@gpu15 PS 3426886 60.6 837952 python
+@gpu15 PS 4084702  0.0  7132 sshd
+@gpu15 PS 4084703  0.0  3704 bash
+@gpu15 PS 4084713  0.0  4652 ps
+@gpu15 PS 4084714  0.0  2340 sed
+@gpu15 SEEN 1784990949

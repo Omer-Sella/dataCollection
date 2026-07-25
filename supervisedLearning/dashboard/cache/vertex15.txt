@@ -1,24 +1,27 @@
-@vertex15 CPU 12 2.13
-@vertex15 MEM 15771 10104
+@vertex15 CPU 12 3.13
+@vertex15 MEM 15771 10638
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS 1419453  0.0 11800 systemd
-@vertex15 PS 1419454  0.0  3440 (sd-pam)
-@vertex15 PS 1419466  0.0  8780 pipewire
-@vertex15 PS 1419467  0.0  6076 pipewire
-@vertex15 PS 1419470  0.0 15960 wireplumber
-@vertex15 PS 1419471  0.0 10664 pipewire-pulse
-@vertex15 PS 1419493  0.0  4484 dbus-daemon
-@vertex15 PS 1419560  0.0  3596 bash
-@vertex15 PS 1419585  0.0  3608 bash
-@vertex15 PS 1419613  0.0  2084 bash
-@vertex15 PS 1419617  0.0  2092 timeout
-@vertex15 PS 1419618  0.6 616204 python
-@vertex15 PS 1430121  0.0  2036 sleep
-@vertex15 PS 1430131  0.0  2036 sleep
-@vertex15 PS 1430582  0.0  7068 sshd
-@vertex15 PS 1430585  0.0  3560 bash
-@vertex15 PS 1430607  0.0  4580 ps
-@vertex15 PS 1430608  0.0  2284 sed
-@vertex15 SEEN 1784988077
+@vertex15 PS 1419453  0.0 10524 systemd
+@vertex15 PS 1419454  0.0  1784 (sd-pam)
+@vertex15 PS 1419466  0.0  4888 pipewire
+@vertex15 PS 1419467  0.0  4252 pipewire
+@vertex15 PS 1419470  0.0 11404 wireplumber
+@vertex15 PS 1419471  0.0  6956 pipewire-pulse
+@vertex15 PS 1419493  0.0  3768 dbus-daemon
+@vertex15 PS 1419560  0.0  2900 bash
+@vertex15 PS 1419585  0.0  2728 bash
+@vertex15 PS 1419613  0.0  1624 bash
+@vertex15 PS 1419617  0.0  1964 timeout
+@vertex15 PS 1419618 57.6 814252 python
+@vertex15 PS 1437040  0.0  6336 python
+@vertex15 PS 1437080 46.4 681716 python
+@vertex15 PS 1437081 46.8 684564 python
+@vertex15 PS 1475656  0.0  2036 sleep
+@vertex15 PS 1480527  0.0  2060 sleep
+@vertex15 PS 1485551  0.0  7096 sshd
+@vertex15 PS 1485552  0.0  3572 bash
+@vertex15 PS 1485570  0.0  4572 ps
+@vertex15 PS 1485571  0.0  2280 sed
+@vertex15 SEEN 1784991055
