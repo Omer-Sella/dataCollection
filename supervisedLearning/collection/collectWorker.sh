@@ -3,10 +3,8 @@
 # lab machines. Usage: collectWorker.sh <l> <m>. Polite footprint: nice -n 10,
 # half the cores on big boxes / cores-2 on small ones, 20h timeboxed. Records
 # append to bitbucket rl-qecc-data continuously; no git needed on the DoC side.
-export PYENV_ROOT=/vol/bitbucket/osella/pyenv
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-pyenv activate qecc1
+# Absolute virtualenv python: no pyenv init, no shims, no NFS rehash storm.
+PY=/vol/bitbucket/osella/pyenv/versions/qecc1/bin/python
 export QECC_DATA=/vol/bitbucket/osella/rl-qecc-data
 export PYTHONPATH=/vol/bitbucket/osella/qecc/src
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
@@ -21,7 +19,7 @@ SEED=$(( $(hostname | cksum | cut -d" " -f1) % 899999999 + 1000000 ))
 
 cd /vol/bitbucket/osella/qecc/src/qecc || exit 1
 echo "collectWorker $(hostname -s): l=$L m=$M workers=$W seed=$SEED $(date)"
-exec nice -n 10 timeout --signal=INT 20h python reinforcementLearning.py \
+exec nice -n 10 timeout --signal=INT 20h "$PY" reinforcementLearning.py \
     --training-device cpu \
     --eval-rollout-length 30 \
     --scaling-factor 100000 \

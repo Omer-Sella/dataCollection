@@ -1,0 +1,42 @@
+@gpu10 CPU 8 5.34
+@gpu10 MEM 64219 13857
+@gpu10 GPU 0, 992, 12288
+@gpu10 APP 3513899, 906
+@gpu10 PS 1082644  0.0 11940 systemd
+@gpu10 PS 1082645  0.0  3388 (sd-pam)
+@gpu10 PS 1082657  0.0  8792 pipewire
+@gpu10 PS 1082658  0.0  6088 pipewire
+@gpu10 PS 1082659  0.0 16032 wireplumber
+@gpu10 PS 1082662  0.0 10744 pipewire-pulse
+@gpu10 PS 1082681  0.0  4468 dbus-daemon
+@gpu10 PS 1082770  0.0  1344 ssh-agent
+@gpu10 PS 1083425  0.0  1344 ssh-agent
+@gpu10 PS 1086402  0.0  1344 ssh-agent
+@gpu10 PS 1086976  0.0  1344 ssh-agent
+@gpu10 PS 1109420  0.0  1348 ssh-agent
+@gpu10 PS 1160629  0.0  1348 ssh-agent
+@gpu10 PS 1164497  0.0  1340 ssh-agent
+@gpu10 PS 1169310  0.0  1344 ssh-agent
+@gpu10 PS 1173315  0.0  1344 ssh-agent
+@gpu10 PS 1181344  0.0  1348 ssh-agent
+@gpu10 PS 1185261  0.0  1344 ssh-agent
+@gpu10 PS 1189760  0.0  1336 ssh-agent
+@gpu10 PS 1207303  0.0  1344 ssh-agent
+@gpu10 PS 1235533  0.0  1344 ssh-agent
+@gpu10 PS 1240491  0.0  1340 ssh-agent
+@gpu10 PS 1240808  0.0  1344 ssh-agent
+@gpu10 PS 1247204  0.0   812 ssh-agent
+@gpu10 PS 1249427  0.0   772 ssh-agent
+@gpu10 PS 1284061  0.0  1344 ssh-agent
+@gpu10 PS 1289574  0.0   600 ssh-agent
+@gpu10 PS 1289969  0.0   588 ssh-agent
+@gpu10 PS 1290186  0.0  2024 timeout
+@gpu10 PS 1290314 97.3 1755476 python
+@gpu10 PS 1299150  0.0  7664 python
+@gpu10 PS 1299169 60.3 671468 python
+@gpu10 PS 1299170 94.8 662900 python
+@gpu10 PS 1753931  0.0  7100 sshd
+@gpu10 PS 1753932  0.0  3652 bash
+@gpu10 PS 1753975  0.0  4644 ps
+@gpu10 PS 1753976  0.0  2332 sed
+@gpu10 SEEN 1784974958
