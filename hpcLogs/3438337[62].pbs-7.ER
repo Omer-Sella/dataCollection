@@ -1,0 +1,236 @@
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+Identity added: /rds/general/user/osella/home/.ssh/githubRds (osella@login-bi)
+  0%|          | 0/500000 [00:00<?, ?it/s]Process SpawnProcess-2:
+Process SpawnProcess-4:
+Process SpawnProcess-5:
+Process SpawnProcess-6:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 122, in decorated_fun
+    return fun(self, *args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2027, in step_and_maybe_reset
+    self._wait_for_workers(workers_range)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2162, in _wait_for_workers
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    if (n_spins & 0xFFFF) == 0:  # every 65536 spins (~1ms on modern CPUs)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/qecc/src/qecc/reinforcementLearning.py", line 623, in <module>
+    for i, tensordict_data in enumerate(collector):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 123, in decorate_context
+    with ctx_factory():
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 85, in __exit__
+    torch.set_grad_enabled(self.prev)
+  File "/rds/general/user/osella/home/.local/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 185, in __init__
+    self.prev = torch.is_grad_enabled()
+KeyboardInterrupt
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Process SpawnProcess-8:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 252, in decoderEvaluation
+    estimatedErrorZ = bpDecoderHx.decode(self.Hx.dot(errorZ)%2)
+KeyboardInterrupt
+Process SpawnProcess-7:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 252, in decoderEvaluation
+    estimatedErrorZ = bpDecoderHx.decode(self.Hx.dot(errorZ)%2)
+KeyboardInterrupt
+Process SpawnProcess-3:
+Traceback (most recent call last):
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/rds/general/user/osella/home/anaconda3/envs/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/rds/general/user/osella/home/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+error: cannot lock ref 'refs/remotes/origin/master': is at 51be2cfb21a802b0fc9ad5fd1b80d84c21cf2b9a but expected a29aaf2b6d8017747f29bf6e44b41a1f4a9197be
+From github.com:Omer-Sella/dataCollection
+ ! a29aaf2..51be2cf  master     -> origin/master  (unable to update local ref)
+Your configuration specifies to merge with the ref 'refs/heads/master'
+from the remote, but no such ref was fetched.
+fatal: Unable to create '/rds/general/user/osella/home/rl-qecc-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/rds/general/user/osella/home/rl-qecc-data/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+To github.com:Omer-Sella/dataCollection.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'github.com:Omer-Sella/dataCollection.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+fatal: It seems that there is already a rebase-merge directory, and
+I wonder if you are in the middle of another rebase.  If that is the
+case, please try
+	git rebase (--continue | --abort | --skip)
+If that is not the case, please
+	rm -fr ".git/rebase-merge"
+and run me again.  I am stopping in case you still have something
+valuable there.
+
