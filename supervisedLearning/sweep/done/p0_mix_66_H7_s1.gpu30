@@ -1,0 +1,10 @@
+#INIT=
+set -eu
+if [ -f "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H7_s1.pth" ]; then echo "already done"; exit 0; fi
+python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py \
+    --sizes 6,6 \
+    --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData \
+    --epochs 20 --device cuda --seed 1 \
+    --number-of-harmonics 7 \
+    --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H7_s1.pth" \
+    --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/mix_66_H7_s1-report.md"

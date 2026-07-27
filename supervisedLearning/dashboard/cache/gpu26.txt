@@ -1,0 +1,44 @@
+@gpu26 CPU 8 7.24
+@gpu26 MEM 64219 9756
+@gpu26 GPU 0, 131, 8192
+@gpu26 PS 1830214  0.0  3648 bash
+@gpu26 PS 1830222  0.0  2104 bash
+@gpu26 PS 1830227  0.0  2128 timeout
+@gpu26 PS 1830229 99.5 2674132 python
+@gpu26 PS 1830268  0.0  2128 timeout
+@gpu26 PS 1830270 99.5 2646828 python
+@gpu26 PS 1830590  0.0 11084 python
+@gpu26 PS 1830591  0.0 11088 python
+@gpu26 PS 1830607 75.9 829888 python
+@gpu26 PS 1830609 60.1 828972 python
+@gpu26 PS 1830616 19.0 828772 python
+@gpu26 PS 1830619 59.8 829488 python
+@gpu26 PS 1830623 49.4 825992 python
+@gpu26 PS 1830624 52.1 827324 python
+@gpu26 PS 2043941  0.0  2084 sleep
+@gpu26 PS 2044249  0.0  7040 sshd
+@gpu26 PS 2044255  0.0  3580 bash
+@gpu26 PS 2044270  0.0  4616 ps
+@gpu26 PS 2044271  0.0  2332 sed
+@gpu26 PS 2807640  0.0 12192 systemd
+@gpu26 PS 2807641  0.0  3428 (sd-pam)
+@gpu26 PS 2807661  0.0  8940 pipewire
+@gpu26 PS 2807662  0.0  6080 pipewire
+@gpu26 PS 2807663  0.0 15976 wireplumber
+@gpu26 PS 2807665  0.0 10776 pipewire-pulse
+@gpu26 PS 2807690  0.0  4536 dbus-daemon
+@gpu26 PS 2807712  0.0  1544 ssh-agent
+@gpu26 PS 2808255  0.0  1548 ssh-agent
+@gpu26 PS 2880218  0.0  1548 ssh-agent
+@gpu26 PS 2882419  0.0  1544 ssh-agent
+@gpu26 PS 2887230  0.0  1548 ssh-agent
+@gpu26 PS 2891183  0.0  1544 ssh-agent
+@gpu26 PS 2900036  0.0  1544 ssh-agent
+@gpu26 PS 2903892  0.0  1536 ssh-agent
+@gpu26 PS 2908884  0.0  1544 ssh-agent
+@gpu26 PS 2927220  0.0  1544 ssh-agent
+@gpu26 PS 2946249  0.0  1544 ssh-agent
+@gpu26 PS 2954552  0.0  1540 ssh-agent
+@gpu26 PS 3000547  0.0  1540 ssh-agent
+@gpu26 SIZE 4 21,18
+@gpu26 SEEN 1785185389

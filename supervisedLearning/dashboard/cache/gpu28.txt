@@ -1,0 +1,45 @@
+@gpu28 CPU 8 15.17
+@gpu28 MEM 64034 12993
+@gpu28 GPU 96, 1026, 11264
+@gpu28 APP 2194003, 996
+@gpu28 PS 2016455  0.0  3776 bash
+@gpu28 PS 2016463  0.0  2096 bash
+@gpu28 PS 2016468  0.0  2196 timeout
+@gpu28 PS 2016470 63.0 2630264 python
+@gpu28 PS 2016496  0.0  2196 timeout
+@gpu28 PS 2016498 62.9 2629904 python
+@gpu28 PS 2016850  0.0 11216 python
+@gpu28 PS 2016851  0.0 11188 python
+@gpu28 PS 2016852 28.0 831908 python
+@gpu28 PS 2016853 50.4 835060 python
+@gpu28 PS 2016854 48.9 831336 python
+@gpu28 PS 2016855 27.1 839644 python
+@gpu28 PS 2016856 15.6 836544 python
+@gpu28 PS 2016857 26.2 833628 python
+@gpu28 PS 2246020  0.0  2148 sleep
+@gpu28 PS 2246272  0.0  7200 sshd
+@gpu28 PS 2246273  0.0  3696 bash
+@gpu28 PS 2246286  0.0  4688 ps
+@gpu28 PS 2246287  0.0  2400 sed
+@gpu28 PS 2709876  0.0 12260 systemd
+@gpu28 PS 2709879  0.0  3420 (sd-pam)
+@gpu28 PS 2709892  0.0  8964 pipewire
+@gpu28 PS 2709893  0.0  6196 pipewire
+@gpu28 PS 2709895  0.0 16184 wireplumber
+@gpu28 PS 2709897  0.0 10816 pipewire-pulse
+@gpu28 PS 2709914  0.0  4604 dbus-daemon
+@gpu28 PS 2709942  0.0  1548 ssh-agent
+@gpu28 PS 2710487  0.0  1540 ssh-agent
+@gpu28 PS 2788913  0.0  1548 ssh-agent
+@gpu28 PS 2793267  0.0  1544 ssh-agent
+@gpu28 PS 2798306  0.0  1548 ssh-agent
+@gpu28 PS 2802481  0.0  1544 ssh-agent
+@gpu28 PS 2810722  0.0  1544 ssh-agent
+@gpu28 PS 2814755  0.0  1544 ssh-agent
+@gpu28 PS 2820025  0.0  1540 ssh-agent
+@gpu28 PS 2838732  0.0  1544 ssh-agent
+@gpu28 PS 2861151  0.0  1544 ssh-agent
+@gpu28 PS 2869332  0.0  1548 ssh-agent
+@gpu28 PS 2918408  0.0  1544 ssh-agent
+@gpu28 SIZE 4 21,18
+@gpu28 SEEN 1785185389

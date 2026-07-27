@@ -1,0 +1,465 @@
+labWorker vertex20: started collect pid 3935329 (l=5 m=15) Sun 26 Jul 13:41:16 BST 2026
+collectWorker3 vertex20: l=5 m=15 workers=2 seed=279076862 stage=1 Sun 26 Jul 13:41:16 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+usage: reinforcementLearning.py [-h] [--num-workers NUM_WORKERS]
+                                [--num-cells NUM_CELLS]
+                                [--seed-for-environment SEED_FOR_ENVIRONMENT]
+                                [--lr LR] [--max-grad-norm MAX_GRAD_NORM]
+                                [--eval-rollout-length EVAL_ROLLOUT_LENGTH]
+                                [--scaling-factor SCALING_FACTOR]
+                                [--frames-per-batch FRAMES_PER_BATCH]
+                                [--sub-batch-size SUB_BATCH_SIZE]
+                                [--num-epochs NUM_EPOCHS]
+                                [--clip-epsilon CLIP_EPSILON] [--gamma GAMMA]
+                                [--lmbda LMBDA] [--entropy-eps ENTROPY_EPS]
+                                [--env-reward-engineering {True,False,true,false}]
+                                [--env-minimum-number-of-qubits ENV_MINIMUM_NUMBER_OF_QUBITS]
+                                [--log-name LOG_NAME]
+                                [--env-error-range {linear5,geometric5,geometric7,geometric10,dataCollection}]
+                                [--env-version {qecc/bbcode-v0,qecc/bbcode-ldpc-v0}]
+                                [--env-bit-flipping {True,False,true,false}]
+                                [--env-l {6,9,15,12,30,21}]
+                                [--env-m {3,6,12,18}]
+                                [--env-use-dict-observation {True,False,true,false}]
+                                [--env-number-of-decoder-iterations ENV_NUMBER_OF_DECODER_ITERATIONS]
+                                [--env-number-of-samples ENV_NUMBER_OF_SAMPLES]
+                                [--env-code-logging {true,True,false,False}]
+                                [--model-architecture {mlp,hybrid}]
+                                [--model-surrogate-model-path MODEL_SURROGATE_MODEL_PATH]
+                                [--model-use-pretrained-encoder {True,False,true,false}]
+                                [--index-to-unfreeze-encoder-updates INDEX_TO_UNFREEZE_ENCODER_UPDATES]
+                                [--encoder-lr-factor ENCODER_LR_FACTOR]
+                                [--training-device {cpu,cuda,auto}]
+reinforcementLearning.py: error: argument --env-l: invalid choice: 5 (choose from 6, 9, 15, 12, 30, 21)
+collectWorker3 vertex20: ended Sun 26 Jul 13:41:59 BST 2026
+labWorker vertex20: collect ended naturally Sun 26 Jul 13:46:16 BST 2026
+labWorker vertex20: started collect pid 71036 (l=5 m=15) Sun 26 Jul 18:27:29 BST 2026
+collectWorker3 vertex20: l=5 m=15 workers=2 seed=279076862 stage=1 Sun 26 Jul 18:27:29 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Creating log dir /data/osella/collectStage/2026-07-26_18-28-05_71051...
+Checking the directory was created: True
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Training begins on:
+2026-07-26 18:28:34 Sunday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-26 18:34:25,265 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 500/50000000 [06:11<10309:47:34,  1.35it/s]Process SpawnProcess-2:
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 654, in <module>
+    optim.step()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/lr_scheduler.py", line 166, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/optimizer.py", line 526, in wrapper
+    out = func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/optimizer.py", line 81, in _use_grad
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    ret = func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/adam.py", line 248, in step
+    adam(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/optimizer.py", line 151, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/adam.py", line 970, in adam
+    func(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/optim/adam.py", line 476, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1 - beta2)  # type: ignore[arg-type]
+KeyboardInterrupt
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/collectWorker3.sh: error reading input file: Stale file handle
+labWorker vertex20: collect ended naturally Sun 26 Jul 18:42:29 BST 2026
+labWorker vertex20: started collect pid 90102 (l=5 m=15) Sun 26 Jul 18:44:34 BST 2026
+collectWorker3 vertex20: l=5 m=15 workers=12 seed=279076862 stage=1 Sun 26 Jul 18:44:34 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Creating log dir /data/osella/collectStage/2026-07-26_18-44-59_90117...
+Checking the directory was created: True
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Training begins on:
+2026-07-26 18:45:23 Sunday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-26 18:47:37,805 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 504/50000000 [02:33<4238:55:45,  3.28it/s]  0%|          | 1008/50000000 [05:36<4712:19:29,  2.95it/s]  0%|          | 1512/50000000 [08:25<4680:57:50,  2.97it/s]  0%|          | 2016/50000000 [11:21<4749:06:10,  2.92it/s]  0%|          | 2520/50000000 [14:21<4822:34:41,  2.88it/s]  0%|          | 3024/50000000 [17:26<4919:42:50,  2.82it/s]  0%|          | 3528/50000000 [20:18<4856:08:09,  2.86it/s]  0%|          | 4032/50000000 [23:28<4980:34:42,  2.79it/s]  0%|          | 4536/50000000 [26:38<5058:12:14,  2.75it/s]  0%|          | 5040/50000000 [29:34<4991:34:06,  2.78it/s]  0%|          | 5544/50000000 [32:56<5173:59:04,  2.68it/s]  0%|          | 6048/50000000 [36:46<5528:38:18,  2.51it/s]  0%|          | 6552/50000000 [39:55<5430:30:32,  2.56it/s]  0%|          | 7056/50000000 [43:24<5528:23:20,  2.51it/s]  0%|          | 7560/50000000 [46:28<5386:47:57,  2.58it/s]  0%|          | 8064/50000000 [49:47<5420:50:27,  2.56it/s]  0%|          | 8568/50000000 [52:50<5301:13:12,  2.62it/s]  0%|          | 9072/50000000 [56:02<5299:20:03,  2.62it/s]  0%|          | 9576/50000000 [59:04<5217:40:18,  2.66it/s]  0%|          | 10080/50000000 [1:02:19<5261:05:28,  2.64it/s]  0%|          | 10584/50000000 [1:05:26<5232:17:54,  2.65it/s]  0%|          | 11088/50000000 [1:09:10<5510:25:35,  2.52it/s]  0%|          | 11592/50000000 [1:12:24<5456:26:16,  2.54it/s]  0%|          | 12096/50000000 [1:15:31<5370:35:47,  2.59it/s]  0%|          | 12600/50000000 [1:18:41<5329:56:42,  2.61it/s]  0%|          | 13104/50000000 [1:21:52<5306:27:12,  2.62it/s]  0%|          | 13608/50000000 [1:25:17<5410:25:59,  2.57it/s]  0%|          | 14112/50000000 [1:28:18<5279:00:21,  2.63it/s]  0%|          | 14616/50000000 [1:31:30<5284:48:50,  2.63it/s]  0%|          | 15120/50000000 [1:34:54<5389:14:18,  2.58it/s]  0%|          | 15624/50000000 [1:38:06<5355:30:54,  2.59it/s]  0%|          | 16128/50000000 [1:41:48<5583:24:28,  2.49it/s]  0%|          | 16632/50000000 [1:45:01<5504:30:47,  2.52it/s]  0%|          | 17136/50000000 [1:48:25<5537:00:19,  2.51it/s]  0%|          | 17640/50000000 [1:51:55<5613:34:13,  2.47it/s]  0%|          | 18144/50000000 [1:55:12<5555:35:56,  2.50it/s]  0%|          | 18648/50000000 [1:58:12<5378:45:55,  2.58it/s]  0%|          | 19152/50000000 [2:01:36<5452:43:56,  2.55it/s]  0%|          | 19656/50000000 [2:05:05<5544:55:39,  2.50it/s]  0%|          | 20160/50000000 [2:08:31<5578:09:41,  2.49it/s]  0%|          | 20664/50000000 [2:12:13<5743:46:06,  2.42it/s]  0%|          | 21168/50000000 [2:15:47<5785:03:39,  2.40it/s]  0%|          | 21672/50000000 [2:19:02<5659:47:27,  2.45it/s]  0%|          | 22176/50000000 [2:22:17<5580:13:26,  2.49it/s]  0%|          | 22680/50000000 [2:25:56<5713:05:42,  2.43it/s]  0%|          | 23184/50000000 [2:28:56<5483:17:44,  2.53it/s]  0%|          | 23688/50000000 [2:32:15<5488:24:27,  2.53it/s]  0%|          | 24192/50000000 [2:35:38<5515:39:30,  2.52it/s]  0%|          | 24696/50000000 [2:38:54<5482:14:38,  2.53it/s]  0%|          | 25200/50000000 [2:41:59<5362:50:37,  2.59it/s]  0%|          | 25704/50000000 [2:45:17<5390:53:51,  2.58it/s]  0%|          | 26208/50000000 [2:48:27<5341:48:45,  2.60it/s]  0%|          | 26712/50000000 [2:51:41<5341:38:37,  2.60it/s]  0%|          | 27216/50000000 [2:54:41<5229:10:10,  2.65it/s]  0%|          | 27720/50000000 [2:58:03<5325:16:29,  2.61it/s]  0%|          | 28224/50000000 [3:01:31<5448:12:08,  2.55it/s]  0%|          | 28728/50000000 [3:04:57<5516:59:34,  2.52it/s]  0%|          | 29232/50000000 [3:08:16<5510:19:14,  2.52it/s]  0%|          | 29736/50000000 [3:11:49<5609:40:56,  2.47it/s]  0%|          | 30240/50000000 [3:15:15<5631:59:10,  2.46it/s]  0%|          | 30744/50000000 [3:18:35<5593:56:03,  2.48it/s]  0%|          | 31248/50000000 [3:22:00<5607:50:16,  2.48it/s]  0%|          | 31752/50000000 [3:24:57<5386:56:51,  2.58it/s]  0%|          | 32256/50000000 [3:27:48<5187:51:46,  2.68it/s]  0%|          | 32760/50000000 [3:30:45<5097:38:20,  2.72it/s]  0%|          | 33264/50000000 [3:34:00<5177:22:36,  2.68it/s]  0%|          | 33768/50000000 [3:37:21<5282:55:05,  2.63it/s]  0%|          | 34272/50000000 [3:40:50<5421:32:01,  2.56it/s]  0%|          | 34776/50000000 [3:44:04<5401:19:32,  2.57it/s]  0%|          | 35280/50000000 [3:47:16<5369:21:15,  2.58it/s]  0%|          | 35784/50000000 [3:50:32<5372:08:49,  2.58it/s]  0%|          | 36288/50000000 [3:53:50<5402:45:45,  2.57it/s]  0%|          | 36792/50000000 [3:56:56<5318:17:10,  2.61it/s]  0%|          | 37296/50000000 [4:00:07<5300:32:42,  2.62it/s]  0%|          | 37800/50000000 [4:03:40<5463:00:23,  2.54it/s]  0%|          | 38304/50000000 [4:07:06<5527:25:13,  2.51it/s]  0%|          | 38808/50000000 [4:10:35<5595:56:34,  2.48it/s]  0%|          | 39312/50000000 [4:13:58<5599:06:25,  2.48it/s]  0%|          | 39816/50000000 [4:17:15<5541:33:55,  2.50it/s]  0%|          | 40320/50000000 [4:20:48<5638:10:39,  2.46it/s]  0%|          | 40824/50000000 [4:23:58<5519:14:49,  2.51it/s]  0%|          | 41328/50000000 [4:27:40<5693:19:29,  2.44it/s]  0%|          | 41832/50000000 [4:31:13<5746:54:04,  2.41it/s]  0%|          | 42336/50000000 [4:34:17<5539:16:00,  2.51it/s]  0%|          | 42840/50000000 [4:37:30<5478:03:59,  2.53it/s]  0%|          | 43344/50000000 [4:40:53<5507:14:03,  2.52it/s]  0%|          | 43848/50000000 [4:44:05<5442:22:29,  2.55it/s]  0%|          | 44352/50000000 [4:47:09<5331:12:06,  2.60it/s]  0%|          | 44856/50000000 [4:50:11<5237:20:37,  2.65it/s]  0%|          | 45360/50000000 [4:53:28<5287:57:41,  2.62it/s]  0%|          | 45864/50000000 [4:56:57<5427:55:48,  2.56it/s]  0%|          | 46368/50000000 [5:00:28<5545:05:10,  2.50it/s]  0%|          | 46872/50000000 [5:04:02<5647:12:02,  2.46it/s]  0%|          | 47376/50000000 [5:07:23<5610:11:00,  2.47it/s]  0%|          | 47880/50000000 [5:10:23<5420:45:51,  2.56it/s]  0%|          | 48384/50000000 [5:13:51<5508:05:36,  2.52it/s]  0%|          | 48888/50000000 [5:17:11<5504:59:03,  2.52it/s]  0%|          | 49392/50000000 [5:20:34<5532:22:19,  2.51it/s]  0%|          | 49896/50000000 [5:23:54<5528:33:27,  2.51it/s]  0%|          | 50400/50000000 [5:27:06<5450:07:33,  2.55it/s]  0%|          | 50904/50000000 [5:30:26<5469:57:54,  2.54it/s]  0%|          | 51408/50000000 [5:34:19<5750:23:29,  2.41it/s]  0%|          | 51912/50000000 [5:37:34<5637:35:18,  2.46it/s]  0%|          | 52416/50000000 [5:40:50<5564:50:37,  2.49it/s]  0%|          | 52920/50000000 [5:44:08<5533:28:32,  2.51it/s]  0%|          | 53424/50000000 [5:47:10<5369:30:19,  2.58it/s]  0%|          | 53928/50000000 [5:50:07<5223:02:06,  2.66it/s]  0%|          | 54432/50000000 [5:53:25<5288:42:30,  2.62it/s]  0%|          | 54936/50000000 [5:56:40<5317:07:18,  2.61it/s]  0%|          | 55440/50000000 [5:59:35<5165:28:27,  2.69it/s]  0%|          | 55944/50000000 [6:02:37<5115:53:29,  2.71it/s]  0%|          | 56448/50000000 [6:06:03<5288:21:19,  2.62it/s]  0%|          | 56952/50000000 [6:09:24<5357:09:47,  2.59it/s]  0%|          | 57456/50000000 [6:12:34<5321:27:06,  2.61it/s]  0%|          | 57960/50000000 [6:15:25<5136:43:22,  2.70it/s]  0%|          | 58464/50000000 [6:19:01<5380:10:07,  2.58it/s]  0%|          | 58968/50000000 [6:22:22<5426:58:20,  2.56it/s]  0%|          | 59472/50000000 [6:25:41<5440:09:42,  2.55it/s]  0%|          | 59976/50000000 [6:28:59<5443:57:17,  2.55it/s]  0%|          | 60480/50000000 [6:32:23<5494:34:47,  2.52it/s]  0%|          | 60984/50000000 [6:35:45<5516:17:10,  2.51it/s]  0%|          | 61488/50000000 [6:39:11<5560:30:11,  2.49it/s]  0%|          | 61992/50000000 [6:42:32<5551:32:09,  2.50it/s]  0%|          | 62496/50000000 [6:45:47<5498:27:51,  2.52it/s]  0%|          | 63000/50000000 [6:48:49<5347:59:17,  2.59it/s]  0%|          | 63504/50000000 [6:52:08<5388:58:16,  2.57it/s]  0%|          | 64008/50000000 [6:55:24<5390:49:36,  2.57it/s]  0%|          | 64512/50000000 [6:58:34<5341:12:45,  2.60it/s]  0%|          | 65016/50000000 [7:01:46<5325:13:36,  2.60it/s]  0%|          | 65520/50000000 [7:04:59<5321:24:15,  2.61it/s]  0%|          | 66024/50000000 [7:08:25<5423:57:22,  2.56it/s]  0%|          | 66528/50000000 [7:11:49<5476:32:18,  2.53it/s]  0%|          | 67032/50000000 [7:15:10<5499:56:19,  2.52it/s]  0%|          | 67536/50000000 [7:17:56<5221:00:31,  2.66it/s]  0%|          | 68040/50000000 [7:21:14<5287:53:46,  2.62it/s]  0%|          | 68544/50000000 [7:24:43<5423:33:09,  2.56it/s]  0%|          | 69048/50000000 [7:27:58<5408:04:59,  2.56it/s]  0%|          | 69552/50000000 [7:31:10<5368:57:48,  2.58it/s]  0%|          | 70056/50000000 [7:34:29<5398:06:08,  2.57it/s]  0%|          | 70560/50000000 [7:37:50<5440:54:09,  2.55it/s]  0%|          | 71064/50000000 [7:41:07<5436:49:39,  2.55it/s]  0%|          | 71568/50000000 [7:44:22<5414:20:01,  2.56it/s]  0%|          | 72072/50000000 [7:47:40<5426:44:31,  2.56it/s]  0%|          | 72576/50000000 [7:51:06<5497:27:22,  2.52it/s]  0%|          | 73080/50000000 [7:54:24<5485:37:21,  2.53it/s]  0%|          | 73584/50000000 [7:57:29<5364:05:35,  2.59it/s]  0%|          | 74088/50000000 [8:00:47<5392:35:27,  2.57it/s]  0%|          | 74592/50000000 [8:04:00<5367:54:36,  2.58it/s]  0%|          | 75096/50000000 [8:07:21<5413:40:46,  2.56it/s]  0%|          | 75600/50000000 [8:10:30<5348:18:44,  2.59it/s]  0%|          | 76104/50000000 [8:13:37<5285:08:00,  2.62it/s]  0%|          | 76608/50000000 [8:17:14<5492:44:47,  2.52it/s]  0%|          | 77112/50000000 [8:20:24<5416:45:44,  2.56it/s]  0%|          | 77616/50000000 [8:23:46<5453:02:07,  2.54it/s]  0%|          | 78120/50000000 [8:27:16<5554:04:40,  2.50it/s]  0%|          | 78624/50000000 [8:30:54<5690:04:54,  2.44it/s]  0%|          | 79128/50000000 [8:34:18<5666:12:13,  2.45it/s]  0%|          | 79632/50000000 [8:37:38<5616:39:30,  2.47it/s]  0%|          | 80136/50000000 [8:41:02<5613:56:42,  2.47it/s]  0%|          | 80640/50000000 [8:44:12<5501:28:10,  2.52it/s]  0%|          | 81144/50000000 [8:47:37<5538:44:46,  2.50it/s]  0%|          | 81648/50000000 [8:50:58<5537:14:47,  2.50it/s]  0%|          | 82152/50000000 [8:54:23<5569:07:40,  2.49it/s]  0%|          | 82656/50000000 [8:57:49<5598:17:25,  2.48it/s]  0%|          | 83160/50000000 [9:00:37<5304:39:00,  2.61it/s]  0%|          | 83664/50000000 [9:03:56<5358:12:23,  2.59it/s]  0%|          | 84168/50000000 [9:07:08<5333:57:15,  2.60it/s]  0%|          | 84672/50000000 [9:10:27<5373:33:35,  2.58it/s]  0%|          | 85176/50000000 [9:13:43<5376:21:44,  2.58it/s]  0%|          | 85680/50000000 [9:16:57<5371:44:18,  2.58it/s]  0%|          | 86184/50000000 [9:20:07<5322:31:11,  2.60it/s]  0%|          | 86688/50000000 [9:23:14<5271:14:24,  2.63it/s]  0%|          | 87192/50000000 [9:26:27<5285:59:30,  2.62it/s]  0%|          | 87696/50000000 [9:29:45<5326:36:28,  2.60it/s]  0%|          | 88200/50000000 [9:32:56<5312:12:57,  2.61it/s]  0%|          | 88704/50000000 [9:36:19<5394:31:52,  2.57it/s]  0%|          | 89208/50000000 [9:39:31<5360:20:34,  2.59it/s]  0%|          | 89712/50000000 [9:42:40<5311:44:34,  2.61it/s]  0%|          | 90216/50000000 [9:45:24<5064:50:41,  2.74it/s]  0%|          | 90720/50000000 [9:48:46<5217:23:58,  2.66it/s]  0%|          | 91224/50000000 [9:52:18<5396:46:45,  2.57it/s]  0%|          | 91728/50000000 [9:55:56<5582:52:10,  2.48it/s]  0%|          | 92232/50000000 [9:59:34<5704:08:09,  2.43it/s]  0%|          | 92736/50000000 [10:02:54<5646:12:57,  2.46it/s]  0%|          | 93240/50000000 [10:06:00<5482:32:08,  2.53it/s]  0%|          | 93744/50000000 [10:09:22<5504:33:26,  2.52it/s]  0%|          | 94248/50000000 [10:12:38<5470:03:51,  2.53it/s]  0%|          | 94752/50000000 [10:16:01<5503:08:15,  2.52it/s]  0%|          | 95256/50000000 [10:19:23<5520:26:32,  2.51it/s]  0%|          | 95760/50000000 [10:22:26<5376:34:54,  2.58it/s]  0%|          | 96264/50000000 [10:25:34<5313:34:48,  2.61it/s]  0%|          | 96768/50000000 [10:28:37<5232:23:14,  2.65it/s]  0%|          | 97272/50000000 [10:31:48<5237:39:18,  2.65it/s]  0%|          | 97776/50000000 [10:34:53<5188:36:25,  2.67it/s]  0%|          | 98280/50000000 [10:38:16<5305:36:58,  2.61it/s]  0%|          | 98784/50000000 [10:41:56<5534:04:42,  2.50it/s]  0%|          | 99288/50000000 [10:45:14<5506:11:14,  2.52it/s]  0%|          | 99792/50000000 [10:48:29<5464:18:08,  2.54it/s]  0%|          | 100296/50000000 [10:51:29<5311:03:18,  2.61it/s]  0%|          | 100800/50000000 [10:54:51<5379:06:05,  2.58it/s]  0%|          | 101304/50000000 [10:57:53<5272:56:56,  2.63it/s]  0%|          | 101808/50000000 [11:01:15<5353:24:20,  2.59it/s]  0%|          | 102312/50000000 [11:04:43<5465:25:04,  2.54it/s]  0%|          | 102816/50000000 [11:07:55<5407:26:13,  2.56it/s]  0%|          | 103320/50000000 [11:11:10<5396:53:37,  2.57it/s]  0%|          | 103824/50000000 [11:14:32<5443:30:09,  2.55it/s]  0%|          | 104328/50000000 [11:17:45<5400:18:42,  2.57it/s]  0%|          | 104832/50000000 [11:21:06<5440:31:47,  2.55it/s]  0%|          | 105336/50000000 [11:24:36<5539:49:37,  2.50it/s]  0%|          | 105840/50000000 [11:27:42<5409:30:32,  2.56it/s]  0%|          | 106344/50000000 [11:31:11<5514:56:26,  2.51it/s]  0%|          | 106848/50000000 [11:34:42<5602:07:32,  2.47it/s]  0%|          | 107352/50000000 [11:38:05<5590:22:50,  2.48it/s]  0%|          | 107856/50000000 [11:41:29<5602:37:26,  2.47it/s]  0%|          | 108360/50000000 [11:44:54<5606:51:05,  2.47it/s]  0%|          | 108864/50000000 [11:48:21<5636:29:54,  2.46it/s]  0%|          | 109368/50000000 [11:51:42<5599:06:32,  2.48it/s]  0%|          | 109872/50000000 [11:54:49<5463:30:13,  2.54it/s]  0%|          | 110376/50000000 [11:58:06<5447:23:30,  2.54it/s]  0%|          | 110880/50000000 [12:01:25<5454:17:35,  2.54it/s]  0%|          | 111384/50000000 [12:04:44<5460:28:27,  2.54it/s]  0%|          | 111888/50000000 [12:08:07<5501:05:37,  2.52it/s]  0%|          | 112392/50000000 [12:11:08<5346:19:00,  2.59it/s]  0%|          | 112896/50000000 [12:14:15<5278:04:58,  2.63it/s]  0%|          | 113400/50000000 [12:17:35<5349:46:19,  2.59it/s]  0%|          | 113904/50000000 [12:20:56<5398:39:32,  2.57it/s]  0%|          | 114408/50000000 [12:24:07<5357:43:02,  2.59it/s]  0%|          | 114912/50000000 [12:27:12<5278:32:42,  2.63it/s]  0%|          | 115416/50000000 [12:30:24<5277:53:17,  2.63it/s]  0%|          | 115920/50000000 [12:33:32<5239:55:51,  2.64it/s]  0%|          | 116424/50000000 [12:36:54<5334:07:35,  2.60it/s]  0%|          | 116928/50000000 [12:40:37<5573:10:37,  2.49it/s]  0%|          | 117432/50000000 [12:43:49<5485:18:40,  2.53it/s]  0%|          | 117936/50000000 [12:47:04<5449:19:13,  2.54it/s]  0%|          | 118440/50000000 [12:50:10<5345:39:29,  2.59it/s]  0%|          | 118944/50000000 [12:53:21<5320:35:56,  2.60it/s]  0%|          | 119448/50000000 [12:56:38<5347:59:49,  2.59it/s]  0%|          | 119952/50000000 [12:59:49<5318:10:42,  2.61it/s]  0%|          | 120456/50000000 [13:03:15<5425:39:11,  2.55it/s]  0%|          | 120960/50000000 [13:06:41<5497:18:17,  2.52it/s]  0%|          | 121464/50000000 [13:09:52<5420:42:57,  2.56it/s]  0%|          | 121968/50000000 [13:13:02<5356:46:25,  2.59it/s]  0%|          | 122472/50000000 [13:16:19<5376:59:34,  2.58it/s]  0%|          | 122976/50000000 [13:19:26<5305:14:04,  2.61it/s]  0%|          | 123480/50000000 [13:22:23<5171:54:28,  2.68it/s]  0%|          | 123984/50000000 [13:25:35<5204:25:13,  2.66it/s]  0%|          | 124488/50000000 [13:28:50<5253:59:06,  2.64it/s]  0%|          | 124992/50000000 [13:32:01<5249:46:12,  2.64it/s]  0%|          | 125496/50000000 [13:35:35<5443:02:49,  2.55it/s]  0%|          | 126000/50000000 [13:38:49<5409:08:02,  2.56it/s]  0%|          | 126504/50000000 [13:41:58<5345:44:34,  2.59it/s]  0%|          | 127008/50000000 [13:45:18<5390:37:00,  2.57it/s]  0%|          | 127512/50000000 [13:48:24<5310:15:29,  2.61it/s]  0%|          | 128016/50000000 [13:51:33<5274:48:25,  2.63it/s]  0%|          | 128520/50000000 [13:54:47<5291:13:18,  2.62it/s]  0%|          | 129024/50000000 [13:58:10<5375:27:05,  2.58it/s]  0%|          | 129528/50000000 [14:01:21<5335:43:21,  2.60it/s]  0%|          | 130032/50000000 [14:04:31<5304:24:19,  2.61it/s]  0%|          | 130536/50000000 [14:07:49<5348:20:07,  2.59it/s]  0%|          | 131040/50000000 [14:11:12<5412:19:00,  2.56it/s]  0%|          | 131544/50000000 [14:14:18<5328:19:00,  2.60it/s]  0%|          | 132048/50000000 [14:17:58<5541:55:26,  2.50it/s]  0%|          | 132552/50000000 [14:21:04<5414:42:35,  2.56it/s]  0%|          | 133056/50000000 [14:24:30<5487:06:37,  2.52it/s]  0%|          | 133560/50000000 [14:27:54<5525:08:01,  2.51it/s]  0%|          | 134064/50000000 [14:30:57<5372:58:07,  2.58it/s]  0%|          | 134568/50000000 [14:34:16<5399:15:31,  2.57it/s]  0%|          | 135072/50000000 [14:37:28<5360:44:39,  2.58it/s]  0%|          | 135576/50000000 [14:40:28<5240:34:37,  2.64it/s]  0%|          | 136080/50000000 [14:43:29<5156:34:19,  2.69it/s]  0%|          | 136584/50000000 [14:46:51<5276:07:19,  2.63it/s]  0%|          | 137088/50000000 [14:50:06<5303:26:22,  2.61it/s]  0%|          | 137592/50000000 [14:53:17<5290:56:34,  2.62it/s]  0%|          | 138096/50000000 [14:56:32<5310:10:11,  2.61it/s]  0%|          | 138600/50000000 [14:59:43<5288:02:54,  2.62it/s]  0%|          | 139104/50000000 [15:02:50<5241:39:49,  2.64it/s]  0%|          | 139608/50000000 [15:05:59<5233:31:55,  2.65it/s]  0%|          | 140112/50000000 [15:09:14<5267:43:27,  2.63it/s]  0%|          | 140616/50000000 [15:12:17<5198:28:14,  2.66it/s]  0%|          | 141120/50000000 [15:15:34<5261:46:11,  2.63it/s]  0%|          | 141624/50000000 [15:18:37<5190:07:00,  2.67it/s]  0%|          | 142128/50000000 [15:22:00<5306:49:59,  2.61it/s]  0%|          | 142632/50000000 [15:25:17<5341:02:44,  2.59it/s]  0%|          | 143136/50000000 [15:28:42<5422:46:14,  2.55it/s]  0%|          | 143640/50000000 [15:32:04<5464:36:22,  2.53it/s]  0%|          | 144144/50000000 [15:35:44<5634:35:22,  2.46it/s]  0%|          | 144648/50000000 [15:38:36<5364:56:04,  2.58it/s]  0%|          | 145152/50000000 [15:41:28<5174:08:30,  2.68it/s]  0%|          | 145656/50000000 [15:44:52<5306:56:18,  2.61it/s]  0%|          | 146160/50000000 [15:48:04<5292:01:38,  2.62it/s]  0%|          | 146664/50000000 [15:51:14<5272:34:48,  2.63it/s]  0%|          | 147168/50000000 [15:54:30<5310:09:01,  2.61it/s]  0%|          | 147672/50000000 [15:57:33<5225:07:03,  2.65it/s]  0%|          | 148176/50000000 [16:00:49<5265:27:05,  2.63it/s]  0%|          | 148680/50000000 [16:04:00<5266:43:19,  2.63it/s]  0%|          | 149184/50000000 [16:07:19<5321:56:27,  2.60it/s]  0%|          | 149688/50000000 [16:10:34<5331:06:01,  2.60it/s]  0%|          | 150192/50000000 [16:13:48<5331:54:34,  2.60it/s]  0%|          | 150696/50000000 [16:17:02<5331:03:44,  2.60it/s]  0%|          | 151200/50000000 [16:20:23<5393:43:55,  2.57it/s]  0%|          | 151704/50000000 [16:23:34<5350:03:11,  2.59it/s]  0%|          | 152208/50000000 [16:26:50<5353:59:33,  2.59it/s]  0%|          | 152712/50000000 [16:30:02<5333:07:33,  2.60it/s]  0%|          | 153216/50000000 [16:33:18<5350:14:44,  2.59it/s]  0%|          | 153720/50000000 [16:36:28<5310:00:17,  2.61it/s]  0%|          | 154224/50000000 [16:39:22<5154:21:07,  2.69it/s]  0%|          | 154728/50000000 [16:42:43<5262:07:31,  2.63it/s]  0%|          | 155232/50000000 [16:45:43<5169:07:40,  2.68it/s]  0%|          | 155736/50000000 [16:48:53<5185:26:40,  2.67it/s]  0%|          | 156240/50000000 [16:51:57<5146:17:00,  2.69it/s]  0%|          | 156744/50000000 [16:55:23<5298:08:42,  2.61it/s]  0%|          | 157248/50000000 [16:59:13<5598:34:18,  2.47it/s]  0%|          | 157752/50000000 [17:02:48<5693:26:10,  2.43it/s]  0%|          | 158256/50000000 [17:05:49<5474:09:32,  2.53it/s]  0%|          | 158760/50000000 [17:09:09<5481:32:05,  2.53it/s]  0%|          | 159264/50000000 [17:12:25<5453:14:06,  2.54it/s]Process SpawnProcess-5:
+Process SpawnProcess-12:
+Process SpawnProcess-11:
+Process SpawnProcess-10:
+Process SpawnProcess-6:
+Process SpawnProcess-8:
+Process SpawnProcess-4:
+Process SpawnProcess-7:
+Process SpawnProcess-9:
+Process SpawnProcess-2:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+Process SpawnProcess-1:
+Process SpawnProcess-3:
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 122, in decorated_fun
+    return fun(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2027, in step_and_maybe_reset
+    self._wait_for_workers(workers_range)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2151, in _wait_for_workers
+    if not done_flags[i]:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+Traceback (most recent call last):
+Traceback (most recent call last):
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 123, in decorate_context
+    with ctx_factory():
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 85, in __exit__
+    torch.set_grad_enabled(self.prev)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 184, in __init__
+    def __init__(self, mode: bool) -> None:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 623, in <module>
+    for i, tensordict_data in enumerate(collector):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 123, in decorate_context
+    with ctx_factory():
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 85, in __exit__
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 219, in decoderEvaluation
+    logicalX, logicalZ = computeLogicals(self.Hx, self.Hz)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 219, in decoderEvaluation
+    logicalX, logicalZ = computeLogicals(self.Hx, self.Hz)
+  File "/vol/bitbucket/osella/qecc/src/qecc/logicals.py", line 58, in computeLogicals
+    _, _, testRank = funWithMatrices.binaryGaussianEliminationOnRows(copy.copy(testMatrix))
+  File "/vol/bitbucket/osella/qecc/src/qecc/logicals.py", line 50, in computeLogicals
+    _, _, testRank = funWithMatrices.binaryGaussianEliminationOnRows(copy.copy(testMatrix))
+  File "/vol/bitbucket/osella/qecc/src/qecc/funWithMatrices.py", line 97, in binaryGaussianEliminationOnRows
+    if matrix[j, k] != 0:
+  File "/vol/bitbucket/osella/qecc/src/qecc/funWithMatrices.py", line -1, in binaryGaussianEliminationOnRows
+KeyboardInterrupt
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 219, in decoderEvaluation
+    logicalX, logicalZ = computeLogicals(self.Hx, self.Hz)
+  File "/vol/bitbucket/osella/qecc/src/qecc/logicals.py", line 58, in computeLogicals
+    _, _, testRank = funWithMatrices.binaryGaussianEliminationOnRows(copy.copy(testMatrix))
+  File "/vol/bitbucket/osella/qecc/src/qecc/funWithMatrices.py", line -1, in binaryGaussianEliminationOnRows
+KeyboardInterrupt
+    torch.set_grad_enabled(self.prev)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 187, in __init__
+    torch._C._set_grad_enabled(mode)
+KeyboardInterrupt
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/collectWorker3.sh: error reading input file: Stale file handle
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/labCollectWorker3.sh: error reading input file: Stale file handle
+labWorker vertex20: started collect pid 1283671 (l=5 m=15) Mon 27 Jul 12:17:56 BST 2026
+collectWorker4 vertex20: l=5 m=15 procs=3 x envs=3 cores=12 stage=1 Mon 27 Jul 12:17:56 BST 2026
+collectWorker4 vertex20: launched pids: 1283686 1283719 1283760
+collectWorker4 vertex20: all processes ended Mon 27 Jul 17:16:26 BST 2026
+labWorker vertex20: collect ended naturally Mon 27 Jul 17:17:57 BST 2026

@@ -1,0 +1,8 @@
+labWorker poplar35: started collect pid 2446010 (l=21 m=18) Sat 25 Jul 14:29:19 BST 2026
+collectWorker3 poplar35: l=21 m=18 workers=2 seed=325250062 stage=1 Sat 25 Jul 14:29:24 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-25_14-49-33_2446092...
+Checking the directory was created: True
+Training begins on:
+2026-07-25 14:57:42 Saturday
+  0%|          | 0/50000000 [00:00<?, ?it/s]sleep: write error: Disk quota exceeded
+labWorker poplar35: collect ended naturally Sun 26 Jul 10:30:24 BST 2026

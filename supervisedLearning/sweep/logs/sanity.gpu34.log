@@ -1,0 +1,76 @@
+=== stage 1: filter records (keep unless timestamp >= 2026-07-24) Sat 25 Jul 14:47:50 BST 2026
+kept 1948452 (of which 0 had no timestamp) | dropped 241806
+=== stage 2: train (sweep recipe, H3 s0, 20 epochs) Sat 25 Jul 15:06:03 BST 2026
+device: cuda; sizes: [(6, 6)]; curve loss on: [(6, 6)]; lr: 0.001; H: 3
+loadCodeEvaluations: dropped 3 records with a non-canonical errorRange
+  size 6,6: 1319823 codes (1055858 train) curveLoss=True
+epoch 0: train 14.1723 | val 6,6: 13.5716
+epoch 1: train 13.3979 | val 6,6: 13.2723
+epoch 2: train 13.2406 | val 6,6: 13.1824
+epoch 3: train 13.1720 | val 6,6: 13.1250
+epoch 4: train 13.1304 | val 6,6: 13.1330
+epoch 5: train 13.1056 | val 6,6: 13.0816
+epoch 6: train 13.0861 | val 6,6: 13.0749
+epoch 7: train 13.0736 | val 6,6: 13.0597
+epoch 8: train 13.0665 | val 6,6: 13.0495
+epoch 9: train 13.0561 | val 6,6: 13.0507
+epoch 10: train 13.0502 | val 6,6: 13.0375
+epoch 11: train 13.0475 | val 6,6: 13.0346
+epoch 12: train 13.0403 | val 6,6: 13.0307
+epoch 13: train 13.0374 | val 6,6: 13.0265
+epoch 14: train 13.0318 | val 6,6: 13.0272
+epoch 15: train 13.0314 | val 6,6: 13.0127
+epoch 16: train 13.0238 | val 6,6: 13.0099
+epoch 17: train 13.0234 | val 6,6: 13.0068
+epoch 18: train 13.0191 | val 6,6: 13.0133
+epoch 19: train 13.0178 | val 6,6: 13.0039
+restored best-val weights from epoch 19 (val 13.0039)
+saved /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/sanity/pre24_mix_66_H3_s0.pth
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/sanity/pre24_mix_66_H3_s0.pth on held-out test l=6, m=6 (131983 codes) — 2026-07-25
+
+- data: `held-out 10% of /data/osella/pre24data (size 6,6)`
+- Binomial NLL: **12.9882** (noise floor 12.6151)
+- reward MAE: **0.00159**
+- k MAE: **1.29** logical qubits
+- Spearman: **0.901**, Kendall: 0.740
+- top-k overlap (k=50): **0.08**
+
+=== stage 3: eval on the CURRENT canonical pool (same as sweep analysis) Sat 25 Jul 15:26:29 BST 2026
+
+===== analysing l=6, m=6 from /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData/l_6_m_6 =====
+loadCodeEvaluations: dropped 241809 records with a non-canonical errorRange
+
+# Analysis: l=6, m=6 (100000 codes (subsampled to 100000)) — 2026-07-25
+
+- data: `/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData/l_6_m_6`
+- label replicate reliability (Spearman, label-vs-label): **0.889** [0.888, 0.890]
+- implied PERFECT-model Spearman ceiling ~ sqrt(reliability): **0.943**
+- bootstrap resamples: 1000; stratification: k >= 6
+
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/sanity/pre24_mix_66_H3_s0.pth  **[IN-SAMPLE: this size is in the model's training data]**
+
+- Spearman: **0.901** [0.900, 0.903] (ceiling 0.943)
+- Spearman on k>=6 stratum (100000 codes): **0.901** [0.900, 0.903]
+- regret@1: **0.00649** [0.00100, 0.00799] (reward units; 0 = surrogate's top-1 contains the true best)
+- regret@5: **0.00200** [0.00075, 0.00599] (reward units; 0 = surrogate's top-5 contains the true best)
+- regret@10: **0.00200** [0.00074, 0.00400] (reward units; 0 = surrogate's top-10 contains the true best)
+- k MAE: **1.27**
+- reward MAE: **0.00158** -> **0.00158** after affine recalibration (slope 0.960)
+- Binomial NLL: **12.9810** (noise floor 12.6088); ECE: **0.00151**
+- calibration (predicted -> empirical, weight):
+    - 0.0000 -> 0.0000  (w=0.10)
+    - 0.0026 -> 0.0025  (w=0.10)
+    - 0.3920 -> 0.3971  (w=0.10)
+    - 0.6373 -> 0.6325  (w=0.10)
+    - 0.9229 -> 0.9207  (w=0.10)
+    - 0.9701 -> 0.9681  (w=0.10)
+    - 0.9961 -> 0.9954  (w=0.10)
+    - 0.9989 -> 0.9987  (w=0.10)
+    - 0.9998 -> 0.9997  (w=0.10)
+    - 1.0000 -> 0.9999  (w=0.10)
+
+appended to /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/sanity/pre24_eval.md
+csv row(s) appended to /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep/sanity/pre24_eval.csv
+=== sanity chain done Sat 25 Jul 15:30:51 BST 2026
