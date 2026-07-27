@@ -1,11 +1,11 @@
 @poplar31 CPU 24 8.00
-@poplar31 MEM 15658 11865
-@poplar31 PS  272988  0.0  2068 sleep
-@poplar31 PS  278121  0.0  2068 sleep
-@poplar31 PS  281849  0.0  7012 sshd
-@poplar31 PS  281850  0.0  3604 bash
-@poplar31 PS  281861  0.0  4536 ps
-@poplar31 PS  281862  0.0  2316 sed
+@poplar31 MEM 15658 11862
+@poplar31 PS  281909  0.0  2072 sleep
+@poplar31 PS  281994  0.0  2064 sleep
+@poplar31 PS  283437  0.0  7036 sshd
+@poplar31 PS  283438  0.0  3548 bash
+@poplar31 PS  283449  0.0  4540 ps
+@poplar31 PS  283450  0.0  2320 sed
 @poplar31 PS 4183210  0.0  2836 bash
 @poplar31 PS 4183215  0.0  1832 bash
 @poplar31 PS 4183225  0.0  1884 bash
@@ -21,18 +21,18 @@
 @poplar31 PS 4183647  0.0  3404 python
 @poplar31 PS 4183648  0.0  3372 python
 @poplar31 PS 4183650  0.0  3392 python
-@poplar31 PS 4183668 37.0 304376 python
-@poplar31 PS 4183669 23.5 298168 python
-@poplar31 PS 4183670 56.5 305292 python
-@poplar31 PS 4183674 37.1 301708 python
-@poplar31 PS 4183678 82.8 314144 python
-@poplar31 PS 4183680 62.5 300128 python
-@poplar31 PS 4183682 53.5 294196 python
-@poplar31 PS 4183684 37.7 312316 python
-@poplar31 PS 4183685 26.1 294980 python
-@poplar31 PS 4183686 35.3 302724 python
-@poplar31 PS 4183687 22.7 310304 python
-@poplar31 PS 4183690 61.5 302008 python
+@poplar31 PS 4183668 36.8 304376 python
+@poplar31 PS 4183669 23.3 298168 python
+@poplar31 PS 4183670 56.2 305292 python
+@poplar31 PS 4183674 36.9 301708 python
+@poplar31 PS 4183678 82.3 314144 python
+@poplar31 PS 4183680 62.8 300128 python
+@poplar31 PS 4183682 53.2 294196 python
+@poplar31 PS 4183684 37.5 312316 python
+@poplar31 PS 4183685 26.0 294980 python
+@poplar31 PS 4183686 35.7 302724 python
+@poplar31 PS 4183687 23.1 310304 python
+@poplar31 PS 4183690 61.7 302008 python
 @poplar31 PS 4184524  0.1 11928 systemd
 @poplar31 PS 4184525  0.0  3432 (sd-pam)
 @poplar31 PS 4184544  0.0  8704 pipewire
@@ -41,4 +41,4 @@
 @poplar31 PS 4184549  0.0 10608 pipewire-pulse
 @poplar31 PS 4184561  0.0  4436 dbus-daemon
 @poplar31 SIZE 8 21,18
-@poplar31 SEEN 1785191849
+@poplar31 SEEN 1785191975

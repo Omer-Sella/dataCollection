@@ -1,5 +1,9 @@
-@poplar12 CPU 24 9.01
-@poplar12 MEM 15658 12552
+@poplar12 CPU 24 9.00
+@poplar12 MEM 15658 12559
+@poplar12 PS    1591  0.0  7032 sshd
+@poplar12 PS    1592  0.0  3584 bash
+@poplar12 PS    1603  0.0  4496 ps
+@poplar12 PS    1604  0.0  2312 sed
 @poplar12 PS 3901563  0.0  2852 bash
 @poplar12 PS 3901568  0.0  1776 bash
 @poplar12 PS 3901578  0.0  1924 bash
@@ -16,17 +20,17 @@
 @poplar12 PS 3902062  0.0  3492 python
 @poplar12 PS 3902065  0.0  3380 python
 @poplar12 PS 3902067 99.8 392008 python
-@poplar12 PS 3902069 33.0 370872 python
-@poplar12 PS 3902070 59.6 388844 python
-@poplar12 PS 3902071 34.2 369976 python
-@poplar12 PS 3902072 89.1 380320 python
-@poplar12 PS 3902073 35.0 391304 python
-@poplar12 PS 3902075 18.1 381468 python
-@poplar12 PS 3902077 78.5 369868 python
-@poplar12 PS 3902080 22.0 390932 python
-@poplar12 PS 3902081 51.8 393628 python
-@poplar12 PS 3902082 16.7 377568 python
-@poplar12 PS 3902083 62.3 383160 python
+@poplar12 PS 3902069 32.8 370872 python
+@poplar12 PS 3902070 59.9 388844 python
+@poplar12 PS 3902071 34.0 369976 python
+@poplar12 PS 3902072 89.2 380320 python
+@poplar12 PS 3902073 34.8 391304 python
+@poplar12 PS 3902075 18.0 381468 python
+@poplar12 PS 3902077 78.1 369868 python
+@poplar12 PS 3902080 21.8 390932 python
+@poplar12 PS 3902081 52.1 393628 python
+@poplar12 PS 3902082 17.2 377568 python
+@poplar12 PS 3902083 61.9 383160 python
 @poplar12 PS 3903824  0.1 11908 systemd
 @poplar12 PS 3903825  0.0  3384 (sd-pam)
 @poplar12 PS 3903833  0.0  8672 pipewire
@@ -36,9 +40,5 @@
 @poplar12 PS 3903839  0.0  4364 dbus-daemon
 @poplar12 PS 4192974  0.0  2072 sleep
 @poplar12 PS 4193059  0.0  2072 sleep
-@poplar12 PS 4193865  0.0  6928 sshd
-@poplar12 PS 4193866  0.0  3584 bash
-@poplar12 PS 4193877  100  4604 ps
-@poplar12 PS 4193878  0.0  2308 sed
 @poplar12 SIZE 8 21,18
-@poplar12 SEEN 1785191848
+@poplar12 SEEN 1785191974

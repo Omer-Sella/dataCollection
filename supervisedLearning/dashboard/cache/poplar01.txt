@@ -1,10 +1,10 @@
-@poplar01 CPU 24 9.08
-@poplar01 MEM 15658 11915
+@poplar01 CPU 24 9.84
+@poplar01 MEM 15658 11927
 @poplar01 PS  318152  0.0  2840 bash
 @poplar01 PS  318157  0.0  1832 bash
 @poplar01 PS  318167  0.0  1884 bash
 @poplar01 PS  318172  0.0  1532 timeout
-@poplar01 PS  318174 99.7 1864132 python
+@poplar01 PS  318174 99.7 1870836 python
 @poplar01 PS  318196  0.0  1532 timeout
 @poplar01 PS  318198 99.8 1904276 python
 @poplar01 PS  318217  0.0  1532 timeout
@@ -15,18 +15,18 @@
 @poplar01 PS  318588  0.0  3412 python
 @poplar01 PS  318590  0.0  3388 python
 @poplar01 PS  318591  0.0  3244 python
-@poplar01 PS  318594 18.8 304692 python
-@poplar01 PS  318595 56.6 308904 python
-@poplar01 PS  318596 49.6 310640 python
-@poplar01 PS  318597 21.0 294628 python
-@poplar01 PS  318599 85.9 312836 python
-@poplar01 PS  318601 73.1 307872 python
-@poplar01 PS  318602 16.4 302648 python
-@poplar01 PS  318603 30.1 298304 python
-@poplar01 PS  318604 76.7 300412 python
+@poplar01 PS  318594 18.7 309032 python
+@poplar01 PS  318595 56.3 308904 python
+@poplar01 PS  318596 49.3 310640 python
+@poplar01 PS  318597 20.9 294628 python
+@poplar01 PS  318599 86.0 318480 python
+@poplar01 PS  318601 73.3 307872 python
+@poplar01 PS  318602 16.9 302648 python
+@poplar01 PS  318603 29.9 298304 python
+@poplar01 PS  318604 76.8 297072 python
 @poplar01 PS  318605 98.6 297320 python
-@poplar01 PS  318606 46.7 292316 python
-@poplar01 PS  318608 42.1 297108 python
+@poplar01 PS  318606 46.5 292316 python
+@poplar01 PS  318608 42.4 297108 python
 @poplar01 PS  319308  0.1 11880 systemd
 @poplar01 PS  319309  0.0  3416 (sd-pam)
 @poplar01 PS  319320  0.0  8720 pipewire
@@ -36,9 +36,9 @@
 @poplar01 PS  319337  0.0  4384 dbus-daemon
 @poplar01 PS  616120  0.0  2064 sleep
 @poplar01 PS  616200  0.0  2068 sleep
-@poplar01 PS  617634  0.0  7068 sshd
-@poplar01 PS  617647  0.0  3580 bash
-@poplar01 PS  617658  0.0  4572 ps
-@poplar01 PS  617659  0.0  2312 sed
+@poplar01 PS  619224  0.0  7088 sshd
+@poplar01 PS  619232  0.0  3544 bash
+@poplar01 PS  619243  0.0  4584 ps
+@poplar01 PS  619244  0.0  2312 sed
 @poplar01 SIZE 8 21,18
-@poplar01 SEEN 1785191848
+@poplar01 SEEN 1785191974

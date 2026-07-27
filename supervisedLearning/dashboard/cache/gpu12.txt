@@ -1,21 +1,21 @@
-@gpu12 CPU 8 9.22
-@gpu12 MEM 64219 27730
+@gpu12 CPU 8 8.94
+@gpu12 MEM 64219 27038
 @gpu12 GPU 0, 93, 12288
-@gpu12 APP 1460655, 5
+@gpu12 APP 1465528, 5
 @gpu12 PS  839563  0.0  3416 bash
 @gpu12 PS  839571  0.0  1928 bash
 @gpu12 PS  839576  0.0  2016 timeout
-@gpu12 PS  839578 71.3 2270996 python
+@gpu12 PS  839578 71.5 2270996 python
 @gpu12 PS  839602  0.0  2036 timeout
-@gpu12 PS  839604 71.1 2274764 python
+@gpu12 PS  839604 71.2 2274764 python
 @gpu12 PS  840579  0.0 10940 python
 @gpu12 PS  840580  0.0 10980 python
-@gpu12 PS  840581 68.6 824184 python
-@gpu12 PS  840582 32.6 823044 python
-@gpu12 PS  840583 68.3 827316 python
+@gpu12 PS  840581 68.7 826328 python
+@gpu12 PS  840582 32.4 823044 python
+@gpu12 PS  840583 68.4 827316 python
 @gpu12 PS  840584 13.8 826360 python
 @gpu12 PS  840585  9.0 827220 python
-@gpu12 PS  840586 44.4 827364 python
+@gpu12 PS  840586 44.1 827364 python
 @gpu12 PS 1217340  0.0 11992 systemd
 @gpu12 PS 1217341  0.0  2968 (sd-pam)
 @gpu12 PS 1217354  0.0  6884 pipewire
@@ -42,10 +42,10 @@
 @gpu12 PS 1436628  0.0  1344 ssh-agent
 @gpu12 PS 1443615  0.0   756 ssh-agent
 @gpu12 PS 1445503  0.0   820 ssh-agent
-@gpu12 PS 1447321  0.0  2084 sleep
-@gpu12 PS 1462040  0.0  7176 sshd
-@gpu12 PS 1462041  0.0  3644 bash
-@gpu12 PS 1462053  100  4644 ps
-@gpu12 PS 1462054  0.0  2336 sed
+@gpu12 PS 1464933  0.0  2084 sleep
+@gpu12 PS 1465929  0.0  7092 sshd
+@gpu12 PS 1465930  0.0  3596 bash
+@gpu12 PS 1465942  0.0  4648 ps
+@gpu12 PS 1465943  0.0  2328 sed
 @gpu12 SIZE 4 21,18
-@gpu12 SEEN 1785191835
+@gpu12 SEEN 1785191961

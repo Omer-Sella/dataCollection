@@ -1,11 +1,11 @@
 @poplar09 CPU 24 10.00
-@poplar09 MEM 15658 13044
+@poplar09 MEM 15658 13050
 @poplar09 PS   17910  0.0  2072 sleep
 @poplar09 PS   17984  0.0  2072 sleep
-@poplar09 PS   18945  0.0  6984 sshd
-@poplar09 PS   18946  0.0  3596 bash
-@poplar09 PS   18957  0.0  4496 ps
-@poplar09 PS   18958  0.0  2312 sed
+@poplar09 PS   20527  0.0  6964 sshd
+@poplar09 PS   20528  0.0  3600 bash
+@poplar09 PS   20539  0.0  4508 ps
+@poplar09 PS   20540  0.0  2316 sed
 @poplar09 PS 3920885  0.0  2852 bash
 @poplar09 PS 3920890  0.0  1792 bash
 @poplar09 PS 3920900  0.0  1936 bash
@@ -21,18 +21,18 @@
 @poplar09 PS 3921307  0.0  3404 python
 @poplar09 PS 3921308  0.0  3376 python
 @poplar09 PS 3921309  0.0  3408 python
-@poplar09 PS 3921310 52.6 420632 python
-@poplar09 PS 3921313 60.7 397544 python
-@poplar09 PS 3921314 55.0 413492 python
-@poplar09 PS 3921315 47.4 416664 python
-@poplar09 PS 3921316 10.0 407116 python
-@poplar09 PS 3921319 57.7 453428 python
+@poplar09 PS 3921310 52.8 420632 python
+@poplar09 PS 3921313 60.3 397544 python
+@poplar09 PS 3921314 55.3 413492 python
+@poplar09 PS 3921315 47.7 416664 python
+@poplar09 PS 3921316  9.9 407116 python
+@poplar09 PS 3921319 57.9 453428 python
 @poplar09 PS 3921320 98.1 437548 python
-@poplar09 PS 3921322 77.5 406712 python
-@poplar09 PS 3921323 86.8 448856 python
-@poplar09 PS 3921325 40.4 440260 python
-@poplar09 PS 3921326  9.1 409452 python
-@poplar09 PS 3921327 40.5 427336 python
+@poplar09 PS 3921322 77.0 406712 python
+@poplar09 PS 3921323 86.3 448856 python
+@poplar09 PS 3921325 40.7 440260 python
+@poplar09 PS 3921326  9.0 409452 python
+@poplar09 PS 3921327 40.3 427336 python
 @poplar09 PS 3923292  0.1 11932 systemd
 @poplar09 PS 3923293  0.0  3432 (sd-pam)
 @poplar09 PS 3923312  0.0  8788 pipewire
@@ -41,4 +41,4 @@
 @poplar09 PS 3923317  0.0 10620 pipewire-pulse
 @poplar09 PS 3923328  0.0  4380 dbus-daemon
 @poplar09 SIZE 8 21,18
-@poplar09 SEEN 1785191848
+@poplar09 SEEN 1785191974

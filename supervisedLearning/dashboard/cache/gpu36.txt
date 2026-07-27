@@ -1,8 +1,8 @@
-@gpu36 CPU 16 19.01
+@gpu36 CPU 16 19.84
 @gpu36 MEM 64222 20519
-@gpu36 GPU 43, 14262, 16376
+@gpu36 GPU 38, 14276, 16376
 @gpu36 APP 586112, 6002
-@gpu36 APP 2638941, 8146
+@gpu36 APP 2638941, 8160
 @gpu36 PS 1025487  0.0   836 ssh-agent
 @gpu36 PS 1266388  0.0 10644 systemd
 @gpu36 PS 1266389  0.0  2024 (sd-pam)
@@ -26,26 +26,26 @@
 @gpu36 PS 2074614  0.0  4168 python
 @gpu36 PS 2074615  0.0  4064 python
 @gpu36 PS 2074616  0.0  4128 python
-@gpu36 PS 2074617 44.8 452140 python
-@gpu36 PS 2074618 25.4 460524 python
+@gpu36 PS 2074617 45.1 452140 python
+@gpu36 PS 2074618 25.8 460524 python
 @gpu36 PS 2074619 99.3 422692 python
-@gpu36 PS 2074620 62.1 388696 python
-@gpu36 PS 2074621 57.5 442880 python
-@gpu36 PS 2074622 24.3 439048 python
+@gpu36 PS 2074620 61.8 388696 python
+@gpu36 PS 2074621 57.2 442880 python
+@gpu36 PS 2074622 24.2 439048 python
 @gpu36 PS 2074623 97.8 388272 python
-@gpu36 PS 2074624 35.4 435336 python
-@gpu36 PS 2074625 21.1 392148 python
-@gpu36 PS 2074626 32.0 457152 python
-@gpu36 PS 2074627 17.0 473872 python
-@gpu36 PS 2074628  1.3 465648 python
+@gpu36 PS 2074624 35.8 435336 python
+@gpu36 PS 2074625 21.0 392148 python
+@gpu36 PS 2074626 31.8 457152 python
+@gpu36 PS 2074627 16.9 473872 python
+@gpu36 PS 2074628  1.2 465648 python
 @gpu36 PS 2780526  0.0  2088 sleep
 @gpu36 PS 2784916  0.0  1344 ssh-agent
 @gpu36 PS 2790859  0.0  1060 ssh-agent
 @gpu36 PS 2791750  0.0  1076 ssh-agent
-@gpu36 PS 2793944  0.0  7072 sshd
-@gpu36 PS 2793945  0.0  3684 bash
-@gpu36 PS 2793958  0.0  4720 ps
-@gpu36 PS 2793959  0.0  2336 sed
+@gpu36 PS 2797792  0.0  7008 sshd
+@gpu36 PS 2797793  0.0  3692 bash
+@gpu36 PS 2797807  300  4724 ps
+@gpu36 PS 2797808  0.0  2340 sed
 @gpu36 PS 2833274  0.0  1088 ssh-agent
 @gpu36 PS 2836427  0.0  1088 ssh-agent
 @gpu36 PS 2872286  0.0  1212 ssh-agent
@@ -62,4 +62,4 @@
 @gpu36 PS 3125206  0.0  1060 ssh-agent
 @gpu36 PS 3231967  0.0  1076 ssh-agent
 @gpu36 SIZE 8 21,18
-@gpu36 SEEN 1785191837
+@gpu36 SEEN 1785191962

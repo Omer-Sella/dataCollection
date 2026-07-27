@@ -1,6 +1,6 @@
-@ash10 CPU 16 10.01
-@ash10 MEM 15909 10348
-@ash10 GPU 3, 81, 2048
+@ash10 CPU 16 10.23
+@ash10 MEM 15909 10352
+@ash10 GPU 0, 81, 2048
 @ash10 PS  151255  0.1 11624 systemd
 @ash10 PS  151256  0.0  3432 (sd-pam)
 @ash10 PS  151267  0.0  6372 pipewire
@@ -16,30 +16,30 @@
 @ash10 PS  151367  0.0  1936 timeout
 @ash10 PS  151369 99.8 2141232 python
 @ash10 PS  151399  0.0  1976 timeout
-@ash10 PS  151401 99.8 2061432 python
+@ash10 PS  151401 99.8 2068140 python
 @ash10 PS  151419  0.0  1972 timeout
 @ash10 PS  151421 99.8 2171292 python
 @ash10 PS  151713  0.0  6020 python
 @ash10 PS  151714  0.0  5968 python
 @ash10 PS  151715  0.0  6068 python
 @ash10 PS  151716  0.0  5876 python
-@ash10 PS  151717 50.2 393200 python
-@ash10 PS  151718 27.1 405476 python
-@ash10 PS  151719 55.1 409660 python
-@ash10 PS  151720 52.1 402980 python
-@ash10 PS  151721 26.5 418396 python
-@ash10 PS  151723 92.4 421836 python
-@ash10 PS  151733 39.1 399488 python
-@ash10 PS  151736 43.4 394672 python
-@ash10 PS  151740 65.1 410080 python
-@ash10 PS  151746 43.5 392904 python
-@ash10 PS  151749 53.9 395764 python
-@ash10 PS  151751 62.4 400340 python
-@ash10 PS  435605  0.0  2084 sleep
-@ash10 PS  439473  0.0  2072 sleep
-@ash10 PS  442121  0.0  7004 sshd
-@ash10 PS  442122  0.0  3636 bash
-@ash10 PS  442133  0.0  4592 ps
-@ash10 PS  442134  0.0  2324 sed
+@ash10 PS  151717 49.9 393200 python
+@ash10 PS  151718 27.0 407708 python
+@ash10 PS  151719 55.4 409660 python
+@ash10 PS  151720 52.4 402980 python
+@ash10 PS  151721 27.0 418396 python
+@ash10 PS  151723 91.9 413040 python
+@ash10 PS  151733 39.4 399488 python
+@ash10 PS  151736 43.2 394672 python
+@ash10 PS  151740 65.3 410080 python
+@ash10 PS  151746 43.9 397568 python
+@ash10 PS  151749 53.6 395764 python
+@ash10 PS  151751 62.1 400340 python
+@ash10 PS  443106  0.0  2076 sleep
+@ash10 PS  443144  0.0  2084 sleep
+@ash10 PS  443712  0.0  7076 sshd
+@ash10 PS  443713  0.0  3644 bash
+@ash10 PS  443724  0.0  4596 ps
+@ash10 PS  443725  0.0  2320 sed
 @ash10 SIZE 8 21,18
-@ash10 SEEN 1785191855
+@ash10 SEEN 1785191982
