@@ -1,24 +1,47 @@
-@cedar05 CPU 16 2.53
-@cedar05 MEM 31668 3163
-@cedar05 PS 3007127  0.1 11880 systemd
-@cedar05 PS 3007128  0.0  3420 (sd-pam)
-@cedar05 PS 3007147  0.0  8756 pipewire
-@cedar05 PS 3007148  0.0  6028 pipewire
-@cedar05 PS 3007149  0.0 16088 wireplumber
-@cedar05 PS 3007150  0.0 10660 pipewire-pulse
-@cedar05 PS 3007166  0.0  4460 dbus-daemon
-@cedar05 PS 3007256  0.0  3568 bash
-@cedar05 PS 3007397  0.0  3640 bash
-@cedar05 PS 3007407  0.0  2140 bash
-@cedar05 PS 3007411  0.0  2108 timeout
-@cedar05 PS 3007412 91.9 1046428 python
-@cedar05 PS 3022042  0.0 10940 python
-@cedar05 PS 3022068 53.4 781156 python
-@cedar05 PS 3022069 54.5 781532 python
-@cedar05 PS 3221799  0.0  2060 sleep
-@cedar05 PS 3222447  0.0  2064 sleep
-@cedar05 PS 3225219  0.0  7072 sshd
-@cedar05 PS 3225221  0.0  3616 bash
-@cedar05 PS 3225231  0.0  4544 ps
-@cedar05 PS 3225232  0.0  2308 sed
-@cedar05 SEEN 1785004243
+@cedar05 CPU 16 10.03
+@cedar05 MEM 31668 10568
+@cedar05 PS  126690  0.1 11844 systemd
+@cedar05 PS  126691  0.0  3412 (sd-pam)
+@cedar05 PS  126702  0.0  8832 pipewire
+@cedar05 PS  126703  0.0  6092 pipewire
+@cedar05 PS  126706  0.0 16032 wireplumber
+@cedar05 PS  126707  0.0 10644 pipewire-pulse
+@cedar05 PS  126721  0.0  4468 dbus-daemon
+@cedar05 PS  126782  0.0  2092 bash
+@cedar05 PS  141577  0.0  2132 bash
+@cedar05 PS  971932  0.0  3620 bash
+@cedar05 PS  971937  0.0  3640 bash
+@cedar05 PS  971948  0.0  2068 bash
+@cedar05 PS  971953  0.0  2096 timeout
+@cedar05 PS  971955 99.7 1312796 python
+@cedar05 PS  971984  0.0  2116 timeout
+@cedar05 PS  971986 99.7 1314012 python
+@cedar05 PS  972021  0.0  2108 timeout
+@cedar05 PS  972023 99.7 1316788 python
+@cedar05 PS  972042  0.0  2104 timeout
+@cedar05 PS  972044 99.7 1326392 python
+@cedar05 PS  972294  0.0 10984 python
+@cedar05 PS  972295  0.0 11060 python
+@cedar05 PS  972296  0.0 11076 python
+@cedar05 PS  972297  0.0 11016 python
+@cedar05 PS  972298 47.6 792020 python
+@cedar05 PS  972299 46.9 792692 python
+@cedar05 PS  972300 42.8 790584 python
+@cedar05 PS  972301 45.4 791852 python
+@cedar05 PS  972302 46.2 792060 python
+@cedar05 PS  972303 48.7 792288 python
+@cedar05 PS  972304 45.4 792828 python
+@cedar05 PS  972305 48.3 792876 python
+@cedar05 PS  972306 45.7 792740 python
+@cedar05 PS  972307 46.0 792584 python
+@cedar05 PS  972308 49.0 792720 python
+@cedar05 PS  972309 44.1 792628 python
+@cedar05 PS 1154632  0.0  2060 sleep
+@cedar05 PS 1159549  0.0  2056 sleep
+@cedar05 PS 1159991  0.0  2064 sleep
+@cedar05 PS 1160043  0.0  2064 sleep
+@cedar05 PS 1161330  0.0  7008 sshd
+@cedar05 PS 1161331  0.0  3612 bash
+@cedar05 PS 1161342  100  4556 ps
+@cedar05 PS 1161343  0.0  2312 sed
+@cedar05 SEEN 1785165693

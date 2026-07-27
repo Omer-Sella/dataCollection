@@ -1,25 +1,44 @@
-@beech04 CPU 16 2.12
-@beech04 MEM 15880 4201
-@beech04 GPU 0, 79, 4096
-@beech04 PS 3492954  0.1 11896 systemd
-@beech04 PS 3492955  0.0  3428 (sd-pam)
-@beech04 PS 3492967  0.0  8712 pipewire
-@beech04 PS 3492968  0.0  6060 pipewire
-@beech04 PS 3492970  0.0 15992 wireplumber
-@beech04 PS 3492972  0.0 10576 pipewire-pulse
-@beech04 PS 3492988  0.0  4500 dbus-daemon
-@beech04 PS 3493093  0.0  3516 bash
-@beech04 PS 3493162  0.0  3540 bash
-@beech04 PS 3493206  0.0  2112 bash
-@beech04 PS 3493219  0.0  2064 timeout
-@beech04 PS 3493220 92.2 2627800 python
-@beech04 PS 3504537  0.0 10952 python
-@beech04 PS 3504547 88.3 836292 python
-@beech04 PS 3504548 42.1 844192 python
-@beech04 PS 3720654  0.0  2076 sleep
-@beech04 PS 3727176  0.0  2072 sleep
-@beech04 PS 3727874  0.0  6900 sshd
-@beech04 PS 3727875  0.0  3560 bash
-@beech04 PS 3727885  0.0  4560 ps
-@beech04 PS 3727886  0.0  2280 sed
-@beech04 SEEN 1785004325
+@beech04 CPU 16 10.18
+@beech04 MEM 15880 9633
+@beech04 GPU 2, 79, 4096
+@beech04 PS 1503692  0.1 11892 systemd
+@beech04 PS 1503693  0.0  3404 (sd-pam)
+@beech04 PS 1503704  0.0  8764 pipewire
+@beech04 PS 1503705  0.0  6048 pipewire
+@beech04 PS 1503707  0.0 16092 wireplumber
+@beech04 PS 1503709  0.0 10512 pipewire-pulse
+@beech04 PS 1503723  0.0  4476 dbus-daemon
+@beech04 PS 1503757  0.0  3640 bash
+@beech04 PS 1503762  0.0  3652 bash
+@beech04 PS 1503772  0.0  2084 bash
+@beech04 PS 1503777  0.0  2072 timeout
+@beech04 PS 1503779 99.6 1193456 python
+@beech04 PS 1503798  0.0  2076 timeout
+@beech04 PS 1503800 99.6 1221028 python
+@beech04 PS 1503833  0.0  2104 timeout
+@beech04 PS 1503835 99.7 1199976 python
+@beech04 PS 1503853  0.0  2092 timeout
+@beech04 PS 1503855 99.7 1209768 python
+@beech04 PS 1504196  0.0 10964 python
+@beech04 PS 1504197  0.0 10952 python
+@beech04 PS 1504198  0.0 11020 python
+@beech04 PS 1504199  0.0 10976 python
+@beech04 PS 1504200 47.4 785984 python
+@beech04 PS 1504201 47.0 786116 python
+@beech04 PS 1504202 46.2 786224 python
+@beech04 PS 1504203 44.7 786832 python
+@beech04 PS 1504204 46.1 787624 python
+@beech04 PS 1504205 48.3 787404 python
+@beech04 PS 1504206 47.7 785796 python
+@beech04 PS 1504207 46.1 781752 python
+@beech04 PS 1504208 49.1 782716 python
+@beech04 PS 1504209 47.1 785768 python
+@beech04 PS 1504210 46.6 787424 python
+@beech04 PS 1504211 50.0 787680 python
+@beech04 PS 1693503  0.0  2044 sleep
+@beech04 PS 1697334  0.0  2060 sleep
+@beech04 PS 1698707  0.0  7032 sshd
+@beech04 PS 1698720  0.0  3600 bash
+@beech04 PS 1698731  0.0  4560 ps
+@beech04 PS 1698732  0.0  2280 sed
+@beech04 SEEN 1785165661

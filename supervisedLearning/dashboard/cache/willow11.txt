@@ -1,25 +1,46 @@
-@willow11 CPU 16 3.12
-@willow11 MEM 15809 3338
-@willow11 GPU 0, 82, 4096
-@willow11 PS  784250  0.1 11804 systemd
-@willow11 PS  784251  0.0  2708 (sd-pam)
-@willow11 PS  784263  0.0  6348 pipewire
-@willow11 PS  784264  0.0  4572 pipewire
-@willow11 PS  784266  0.0 13308 wireplumber
-@willow11 PS  784268  0.0  7924 pipewire-pulse
-@willow11 PS  784287  0.0  4116 dbus-daemon
-@willow11 PS  784331  0.0  3316 bash
-@willow11 PS  784463  0.0  2360 bash
-@willow11 PS  784474  0.0  1920 bash
-@willow11 PS  784478  0.0  1968 timeout
-@willow11 PS  784479 92.8 1895340 python
-@willow11 PS  794877  0.0  4352 python
-@willow11 PS  794878 86.5 277864 python
-@willow11 PS  794879 32.9 275460 python
-@willow11 PS 1006773  0.0  2084 sleep
-@willow11 PS 1010449  0.0  2080 sleep
-@willow11 PS 1011119  0.0  7036 sshd
-@willow11 PS 1011120  0.0  3604 bash
-@willow11 PS 1011130  0.0  4612 ps
-@willow11 PS 1011131  0.0  2324 sed
-@willow11 SEEN 1785004338
+@willow11 CPU 16 10.14
+@willow11 MEM 15809 9714
+@willow11 GPU 2, 82, 4096
+@willow11 PS 2111549  0.1 11932 systemd
+@willow11 PS 2111550  0.0  3404 (sd-pam)
+@willow11 PS 2111562  0.0  8864 pipewire
+@willow11 PS 2111563  0.0  6080 pipewire
+@willow11 PS 2111565  0.0 16100 wireplumber
+@willow11 PS 2111567  0.0 10668 pipewire-pulse
+@willow11 PS 2111587  0.0  4532 dbus-daemon
+@willow11 PS 2111642  0.0  2120 bash
+@willow11 PS 2941377  0.0  3636 bash
+@willow11 PS 2941383  0.0  3612 bash
+@willow11 PS 2941393  0.0  2112 bash
+@willow11 PS 2941398  0.0  2104 timeout
+@willow11 PS 2941400 99.7 1207656 python
+@willow11 PS 2941443  0.0  2124 timeout
+@willow11 PS 2941445 99.7 1233768 python
+@willow11 PS 2941484  0.0  2128 timeout
+@willow11 PS 2941486 99.7 1212636 python
+@willow11 PS 2941504  0.0  2120 timeout
+@willow11 PS 2941506 99.7 1209052 python
+@willow11 PS 2941773  0.0 11092 python
+@willow11 PS 2941774  0.0 11064 python
+@willow11 PS 2941775  0.0 11032 python
+@willow11 PS 2941776  0.0 11068 python
+@willow11 PS 2941777 48.3 794184 python
+@willow11 PS 2941778 49.5 795128 python
+@willow11 PS 2941779 47.9 794788 python
+@willow11 PS 2941780 48.6 794308 python
+@willow11 PS 2941781 49.8 795028 python
+@willow11 PS 2941782 48.5 794536 python
+@willow11 PS 2941783 50.7 794440 python
+@willow11 PS 2941784 47.8 794632 python
+@willow11 PS 2941785 49.2 794656 python
+@willow11 PS 2941786 49.8 794368 python
+@willow11 PS 2941787 51.8 794692 python
+@willow11 PS 2941788 50.9 794176 python
+@willow11 PS 3130021  0.0  2080 sleep
+@willow11 PS 3130955  0.0  2080 sleep
+@willow11 PS 3134525  0.0  2048 sleep
+@willow11 PS 3134819  0.0  7076 sshd
+@willow11 PS 3134828  0.0  3632 bash
+@willow11 PS 3134839  0.0  4640 ps
+@willow11 PS 3134840  0.0  2308 sed
+@willow11 SEEN 1785165674

@@ -1,10 +1,14 @@
-@gpu10 CPU 8 4.84
-@gpu10 MEM 64219 12842
-@gpu10 GPU 0, 992, 12288
-@gpu10 APP 3513899, 906
-@gpu10 PS 1082644  0.0 11900 systemd
-@gpu10 PS 1082645  0.0  3384 (sd-pam)
-@gpu10 PS 1082657  0.0  8592 pipewire
+@gpu10 CPU 8 7.36
+@gpu10 MEM 64219 7370
+@gpu10 GPU 1, 86, 12288
+@gpu10 PS   58925  0.0  2088 sleep
+@gpu10 PS   65997  0.0  7116 sshd
+@gpu10 PS   65998  0.0  3648 bash
+@gpu10 PS   66009  0.0  4596 ps
+@gpu10 PS   66010  0.0  2328 sed
+@gpu10 PS 1082644  0.0 11952 systemd
+@gpu10 PS 1082645  0.0  3352 (sd-pam)
+@gpu10 PS 1082657  0.0  8528 pipewire
 @gpu10 PS 1082658  0.0  6088 pipewire
 @gpu10 PS 1082659  0.0 15892 wireplumber
 @gpu10 PS 1082662  0.0 10576 pipewire-pulse
@@ -16,27 +20,32 @@
 @gpu10 PS 1109420  0.0  1348 ssh-agent
 @gpu10 PS 1160629  0.0  1348 ssh-agent
 @gpu10 PS 1164497  0.0  1340 ssh-agent
-@gpu10 PS 1169310  0.0  1344 ssh-agent
+@gpu10 PS 1169310  0.0  1252 ssh-agent
 @gpu10 PS 1173315  0.0  1344 ssh-agent
 @gpu10 PS 1181344  0.0  1348 ssh-agent
 @gpu10 PS 1185261  0.0  1344 ssh-agent
 @gpu10 PS 1189760  0.0  1336 ssh-agent
 @gpu10 PS 1207303  0.0  1344 ssh-agent
-@gpu10 PS 1235533  0.0  1344 ssh-agent
-@gpu10 PS 1240491  0.0  1340 ssh-agent
-@gpu10 PS 1240808  0.0  1344 ssh-agent
+@gpu10 PS 1235533  0.0  1256 ssh-agent
+@gpu10 PS 1240491  0.0  1296 ssh-agent
+@gpu10 PS 1240808  0.0  1232 ssh-agent
 @gpu10 PS 1247204  0.0   736 ssh-agent
 @gpu10 PS 1249427  0.0   648 ssh-agent
 @gpu10 PS 1284061  0.0  1344 ssh-agent
 @gpu10 PS 1289574  0.0   592 ssh-agent
 @gpu10 PS 1289969  0.0   588 ssh-agent
-@gpu10 PS 1290186  0.0  2000 timeout
-@gpu10 PS 1290314 98.4 986680 python
-@gpu10 PS 1299150  0.0  5132 python
-@gpu10 PS 1299169 48.7 375036 python
-@gpu10 PS 1299170 91.2 389032 python
-@gpu10 PS 2136332  0.0  7000 sshd
-@gpu10 PS 2136335  0.0  3640 bash
-@gpu10 PS 2136345  100  4648 ps
-@gpu10 PS 2136346  0.0  2328 sed
-@gpu10 SEEN 1785004304
+@gpu10 PS 4054727  0.0  3704 bash
+@gpu10 PS 4054735  0.0  2116 bash
+@gpu10 PS 4054748  0.0  2136 timeout
+@gpu10 PS 4054750 99.2 1330604 python
+@gpu10 PS 4054785  0.0  2132 timeout
+@gpu10 PS 4054787 99.2 1320620 python
+@gpu10 PS 4055653  0.0 11028 python
+@gpu10 PS 4055654  0.0 11072 python
+@gpu10 PS 4055655 48.7 792784 python
+@gpu10 PS 4055656 49.3 792404 python
+@gpu10 PS 4055657 47.9 791588 python
+@gpu10 PS 4055658 47.0 792540 python
+@gpu10 PS 4055659 49.4 791660 python
+@gpu10 PS 4055660 47.3 791408 python
+@gpu10 SEEN 1785165639

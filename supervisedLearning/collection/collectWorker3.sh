@@ -19,9 +19,10 @@ else
 fi
 export PYTHONPATH=/vol/bitbucket/osella/qecc/src
 export OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1
+export CUDA_VISIBLE_DEVICES=   # cpu-only collection: do not grab GPU contexts on gpu hosts
 
-CORES=$(nproc)
-if [ "$CORES" -gt 16 ]; then W=$(( CORES / 2 )); else W=$(( CORES - 2 )); fi
+CORES=$(getconf _NPROCESSORS_ONLN)   # NOT nproc: it honors OMP_NUM_THREADS=1 exported above
+W=$CORES   # summer aggression: no students, nice -n 10 still yields to real users
 [ "$W" -lt 2 ] && W=2
 SEED=$(( $(hostname | cksum | cut -d" " -f1) % 899999999 + 1000000 ))
 
@@ -38,7 +39,7 @@ fi
 
 cd /vol/bitbucket/osella/qecc/src/qecc || exit 1
 echo "collectWorker3 $(hostname -s): l=$L m=$M workers=$W seed=$SEED stage=$USE_STAGE $(date)"
-nice -n 10 timeout --signal=INT 20h "$PY" reinforcementLearning.py \
+timeout --signal=INT 20h "$PY" reinforcementLearning.py \
     --training-device cpu \
     --eval-rollout-length 30 \
     --scaling-factor 100000 \

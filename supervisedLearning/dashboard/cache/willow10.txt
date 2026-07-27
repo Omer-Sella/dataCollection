@@ -1,25 +1,46 @@
-@willow10 CPU 16 2.00
-@willow10 MEM 15809 4219
-@willow10 GPU 0, 82, 4096
-@willow10 PS 1863959  0.1 11692 systemd
-@willow10 PS 1863960  0.0  3384 (sd-pam)
-@willow10 PS 1863972  0.0  8100 pipewire
-@willow10 PS 1863973  0.0  5620 pipewire
-@willow10 PS 1863975  0.0 14584 wireplumber
-@willow10 PS 1863977  0.0  9736 pipewire-pulse
-@willow10 PS 1863996  0.0  4188 dbus-daemon
-@willow10 PS 1864038  0.0  3576 bash
-@willow10 PS 1864103  0.0  3548 bash
-@willow10 PS 1864146  0.0  2040 bash
-@willow10 PS 1864150  0.0  2116 timeout
-@willow10 PS 1864151 92.7 2624344 python
-@willow10 PS 1875122  0.0 11104 python
-@willow10 PS 1875123 44.9 839516 python
-@willow10 PS 1875124 86.2 837308 python
-@willow10 PS 2088961  0.0  2072 sleep
-@willow10 PS 2092137  0.0  2072 sleep
-@willow10 PS 2092995  0.0  7040 sshd
-@willow10 PS 2092996  0.0  3604 bash
-@willow10 PS 2093006  0.0  4492 ps
-@willow10 PS 2093007  0.0  2320 sed
-@willow10 SEEN 1785004338
+@willow10 CPU 16 10.10
+@willow10 MEM 15809 9682
+@willow10 GPU 0, 92, 4096
+@willow10 PS   61628  0.0  2076 sleep
+@willow10 PS   62635  0.0  2068 sleep
+@willow10 PS   66285  0.0  2068 sleep
+@willow10 PS   66610  0.0  7060 sshd
+@willow10 PS   66619  0.0  3548 bash
+@willow10 PS   66630  0.0  4488 ps
+@willow10 PS   66631  0.0  2320 sed
+@willow10 PS 3216497  0.1 11944 systemd
+@willow10 PS 3216498  0.0  3388 (sd-pam)
+@willow10 PS 3216510  0.0  8696 pipewire
+@willow10 PS 3216511  0.0  6000 pipewire
+@willow10 PS 3216514  0.0 15908 wireplumber
+@willow10 PS 3216515  0.0 10608 pipewire-pulse
+@willow10 PS 3216535  0.0  4388 dbus-daemon
+@willow10 PS 3216590  0.0  2036 bash
+@willow10 PS 4063889  0.0  3588 bash
+@willow10 PS 4063894  0.0  3604 bash
+@willow10 PS 4063904  0.0  2120 bash
+@willow10 PS 4063909  0.0  2120 timeout
+@willow10 PS 4063911 99.7 1222280 python
+@willow10 PS 4063930  0.0  2124 timeout
+@willow10 PS 4063932 99.7 1211072 python
+@willow10 PS 4063949  0.0  2120 timeout
+@willow10 PS 4063951 99.7 1223800 python
+@willow10 PS 4063987  0.0  2124 timeout
+@willow10 PS 4063989 99.7 1228020 python
+@willow10 PS 4064252  0.0 11112 python
+@willow10 PS 4064253  0.0 11024 python
+@willow10 PS 4064254  0.0 10956 python
+@willow10 PS 4064255  0.0 11000 python
+@willow10 PS 4064256 45.8 794032 python
+@willow10 PS 4064257 48.1 794312 python
+@willow10 PS 4064258 46.1 794244 python
+@willow10 PS 4064259 44.8 794164 python
+@willow10 PS 4064260 46.8 794468 python
+@willow10 PS 4064261 46.9 794356 python
+@willow10 PS 4064262 50.6 794188 python
+@willow10 PS 4064263 48.1 794252 python
+@willow10 PS 4064264 49.4 793852 python
+@willow10 PS 4064265 48.5 794128 python
+@willow10 PS 4064266 46.9 794208 python
+@willow10 PS 4064267 48.5 794144 python
+@willow10 SEEN 1785165674

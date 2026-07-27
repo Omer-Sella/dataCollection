@@ -1,26 +1,46 @@
-@willow09 CPU 16 3.07
-@willow09 MEM 15809 1951
-@willow09 GPU 0, 126, 4096
-@willow09 APP 3787650, 44
-@willow09 PS 3787479  0.1  8264 systemd
-@willow09 PS 3787480  0.0  1648 (sd-pam)
-@willow09 PS 3787492  0.0  5280 pipewire
-@willow09 PS 3787493  0.0  4032 pipewire
-@willow09 PS 3787495  0.0 10688 wireplumber
-@willow09 PS 3787497  0.0  6944 pipewire-pulse
-@willow09 PS 3787516  0.0  3800 dbus-daemon
-@willow09 PS 3787579  0.0  2740 bash
-@willow09 PS 3787626  0.0  2260 bash
-@willow09 PS 3787645  0.0  1508 bash
-@willow09 PS 3787649  0.0  1948 timeout
-@willow09 PS 3787650 90.9 536288 python
-@willow09 PS 3800658  0.0  3636 python
-@willow09 PS 3800714 52.4 27608 python
-@willow09 PS 3800715 52.1 27936 python
-@willow09 PS 4009585  0.0  2072 sleep
-@willow09 PS 4012545  0.0  2076 sleep
-@willow09 PS 4015251  0.0  6924 sshd
-@willow09 PS 4015252  0.0  3544 bash
-@willow09 PS 4015262  0.0  4604 ps
-@willow09 PS 4015263  0.0  2324 sed
-@willow09 SEEN 1785004338
+@willow09 CPU 16 9.45
+@willow09 MEM 15809 8478
+@willow09 GPU 1, 82, 4096
+@willow09 PS  931648  0.1 11148 systemd
+@willow09 PS  931649  0.0  2924 (sd-pam)
+@willow09 PS  931660  0.0  6228 pipewire
+@willow09 PS  931661  0.0  4700 pipewire
+@willow09 PS  931663  0.0 12836 wireplumber
+@willow09 PS  931665  0.0  7812 pipewire-pulse
+@willow09 PS  931686  0.0  4224 dbus-daemon
+@willow09 PS  931752  0.0  1960 bash
+@willow09 PS 1760912  0.0  3464 bash
+@willow09 PS 1760917  0.0  3336 bash
+@willow09 PS 1760935  0.0  1980 bash
+@willow09 PS 1760940  0.0  2008 timeout
+@willow09 PS 1760942 99.7 998388 python
+@willow09 PS 1760961  0.0  2020 timeout
+@willow09 PS 1760963 99.7 1010976 python
+@willow09 PS 1760984  0.0  2000 timeout
+@willow09 PS 1760986 99.7 993076 python
+@willow09 PS 1761018  0.0  2012 timeout
+@willow09 PS 1761020 99.8 1009088 python
+@willow09 PS 1761260  0.0  9120 python
+@willow09 PS 1761261  0.0  8220 python
+@willow09 PS 1761262  0.0  7828 python
+@willow09 PS 1761263  0.0  9408 python
+@willow09 PS 1761264 48.9 726260 python
+@willow09 PS 1761265 45.8 724248 python
+@willow09 PS 1761266 47.6 718540 python
+@willow09 PS 1761267 48.8 772260 python
+@willow09 PS 1761268 49.7 780240 python
+@willow09 PS 1761269 48.1 768048 python
+@willow09 PS 1761270 47.7 770824 python
+@willow09 PS 1761271 48.5 732396 python
+@willow09 PS 1761272 48.5 733112 python
+@willow09 PS 1761273 50.1 717132 python
+@willow09 PS 1761274 46.6 778604 python
+@willow09 PS 1761275 47.9 731888 python
+@willow09 PS 1948129  0.0  2076 sleep
+@willow09 PS 1949019  0.0  2084 sleep
+@willow09 PS 1952618  0.0  2076 sleep
+@willow09 PS 1952983  0.0  6936 sshd
+@willow09 PS 1952984  0.0  3572 bash
+@willow09 PS 1953003  0.0  4644 ps
+@willow09 PS 1953004  0.0  2320 sed
+@willow09 SEEN 1785165674

@@ -1,8 +1,43 @@
-@gpu32 CPU 16 1.51
-@gpu32 MEM 64222 4392
+@gpu32 CPU 16 11.25
+@gpu32 MEM 64222 13387
 @gpu32 GPU 100, 15401, 16376
 @gpu32 APP 2641680, 15292
 @gpu32 PS  371686  0.0  1548 ssh-agent
+@gpu32 PS  941354  0.0  3680 bash
+@gpu32 PS  941362  0.0  2108 bash
+@gpu32 PS  941367  0.0  2136 timeout
+@gpu32 PS  941369 98.9 1324684 python
+@gpu32 PS  941404  0.0  2136 timeout
+@gpu32 PS  941406 98.9 1327764 python
+@gpu32 PS  941443  0.0  2112 timeout
+@gpu32 PS  941445 98.9 1341720 python
+@gpu32 PS  941472  0.0  2140 timeout
+@gpu32 PS  941474 98.9 1306584 python
+@gpu32 PS  943598  0.0 11072 python
+@gpu32 PS  943599  0.0 11060 python
+@gpu32 PS  943600  0.0 11104 python
+@gpu32 PS  943601  0.0 11132 python
+@gpu32 PS  943603 47.7 795816 python
+@gpu32 PS  943604 47.6 794896 python
+@gpu32 PS  943605 48.5 792280 python
+@gpu32 PS  943606 48.1 794396 python
+@gpu32 PS  943607 47.1 796092 python
+@gpu32 PS  943608 48.5 791616 python
+@gpu32 PS  943609 48.1 794732 python
+@gpu32 PS  943610 48.0 791660 python
+@gpu32 PS  943611 48.5 794052 python
+@gpu32 PS  943612 48.7 795264 python
+@gpu32 PS  943613 50.2 794488 python
+@gpu32 PS  943614 50.0 794444 python
+@gpu32 PS 1084509  0.0  1616 ssh-agent
+@gpu32 PS 1193287  0.0  2088 sleep
+@gpu32 PS 1194134  0.0  2092 sleep
+@gpu32 PS 1194549  0.0  2092 sleep
+@gpu32 PS 1196737  0.0  2088 sleep
+@gpu32 PS 1202661  0.0  6996 sshd
+@gpu32 PS 1202670  0.0  3596 bash
+@gpu32 PS 1202685  300  4680 ps
+@gpu32 PS 1202686  0.0  2332 sed
 @gpu32 PS 1507072  0.0  1544 ssh-agent
 @gpu32 PS 1507629  0.0  1544 ssh-agent
 @gpu32 PS 1530380  0.0  1544 ssh-agent
@@ -35,8 +70,7 @@
 @gpu32 PS 1681930  0.0  1544 ssh-agent
 @gpu32 PS 1688875  0.0  1548 ssh-agent
 @gpu32 PS 1744375  0.0  1536 ssh-agent
-@gpu32 PS 2767053  0.0  7028 sshd
-@gpu32 PS 2767054  0.0  3584 bash
-@gpu32 PS 2767074  0.0  4656 ps
-@gpu32 PS 2767075  0.0  2336 sed
-@gpu32 SEEN 1785004304
+@gpu32 PS 4065583  0.0  2116 bash
+@gpu32 PS 4084218  0.0  2116 bash
+@gpu32 PS 4099040  0.0  2156 bash
+@gpu32 SEEN 1785165639

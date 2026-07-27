@@ -1,25 +1,48 @@
-@ash35 CPU 16 2.00
-@ash35 MEM 15909 1453
+@ash35 CPU 16 8.92
+@ash35 MEM 15909 9779
 @ash35 GPU 0, 89, 2048
-@ash35 PS  966370  0.1  6548 systemd
-@ash35 PS  966371  0.0  1532 (sd-pam)
-@ash35 PS  966383  0.0  4000 pipewire
-@ash35 PS  966384  0.0  3456 pipewire
-@ash35 PS  966386  0.0 11052 wireplumber
-@ash35 PS  966388  0.0  5376 pipewire-pulse
-@ash35 PS  966404  0.0  3004 dbus-daemon
-@ash35 PS  966504  0.0  2816 bash
-@ash35 PS  966589  0.0  2184 bash
-@ash35 PS  966599  0.0  1628 bash
-@ash35 PS  966611  0.0  1916 timeout
-@ash35 PS  966612 91.3 386796 python
-@ash35 PS  979133  0.0  3064 python
-@ash35 PS  979134 48.1 53876 python
-@ash35 PS  979135 58.7 49496 python
-@ash35 PS 1195737  0.0  2072 sleep
-@ash35 PS 1197909  0.0  2076 sleep
-@ash35 PS 1198598  0.0  6956 sshd
-@ash35 PS 1198599  0.0  3588 bash
-@ash35 PS 1198617  0.0  4592 ps
-@ash35 PS 1198618  0.0  2280 sed
-@ash35 SEEN 1785004325
+@ash35 PS 2283790  0.1 12004 systemd
+@ash35 PS 2283791  0.0  3412 (sd-pam)
+@ash35 PS 2283803  0.0  8832 pipewire
+@ash35 PS 2283804  0.0  6084 pipewire
+@ash35 PS 2283807  0.0 15748 wireplumber
+@ash35 PS 2283808  0.0 10656 pipewire-pulse
+@ash35 PS 2283824  0.0  4488 dbus-daemon
+@ash35 PS 2283883  0.0  2028 bash
+@ash35 PS 2310535  0.0  2092 bash
+@ash35 PS 3128103  0.0  3552 bash
+@ash35 PS 3128108  0.0  3624 bash
+@ash35 PS 3128119  0.0  2088 bash
+@ash35 PS 3128124  0.0  2096 timeout
+@ash35 PS 3128126 99.7 1242876 python
+@ash35 PS 3128148  0.0  2120 timeout
+@ash35 PS 3128150 99.8 1213712 python
+@ash35 PS 3128168  0.0  2120 timeout
+@ash35 PS 3128170 99.8 1234924 python
+@ash35 PS 3128206  0.0  2112 timeout
+@ash35 PS 3128208 99.8 1209052 python
+@ash35 PS 3128399  0.0 11084 python
+@ash35 PS 3128400  0.0 10992 python
+@ash35 PS 3128401  0.0 11040 python
+@ash35 PS 3128402  0.0 11028 python
+@ash35 PS 3128403 45.8 794120 python
+@ash35 PS 3128404 48.3 793060 python
+@ash35 PS 3128405 48.7 794628 python
+@ash35 PS 3128406 49.0 793984 python
+@ash35 PS 3128407 48.3 793896 python
+@ash35 PS 3128408 49.5 794216 python
+@ash35 PS 3128409 48.0 794244 python
+@ash35 PS 3128410 49.1 794048 python
+@ash35 PS 3128411 45.7 792408 python
+@ash35 PS 3128412 47.5 793924 python
+@ash35 PS 3128413 49.5 794104 python
+@ash35 PS 3128414 47.3 794104 python
+@ash35 PS 3315715  0.0  2068 sleep
+@ash35 PS 3316352  0.0  2036 sleep
+@ash35 PS 3318840  0.0  2072 sleep
+@ash35 PS 3319979  0.0  2072 sleep
+@ash35 PS 3321862  0.0  7008 sshd
+@ash35 PS 3321863  0.0  3556 bash
+@ash35 PS 3321875  100  4644 ps
+@ash35 PS 3321876  0.0  2324 sed
+@ash35 SEEN 1785165661

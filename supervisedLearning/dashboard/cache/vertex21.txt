@@ -1,17 +1,17 @@
 @vertex21 CPU 12 0.00
-@vertex21 MEM 15771 3189
+@vertex21 MEM 15771 4229
 @vertex21 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex21 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex21 APP 
-@vertex21 PS  165954 27.9 11656 systemd
-@vertex21 PS  165955  0.0  3436 (sd-pam)
-@vertex21 PS  165967  3.7  8908 pipewire
-@vertex21 PS  165968  0.0  6132 pipewire
-@vertex21 PS  165970 14.8 16116 wireplumber
-@vertex21 PS  165972  3.7 10784 pipewire-pulse
-@vertex21 PS  165992  0.0  4576 dbus-daemon
-@vertex21 PS  165996  0.0  7024 sshd
-@vertex21 PS  166015  0.0  3660 bash
-@vertex21 PS  166039  400  4628 ps
-@vertex21 PS  166040  0.0  2324 sed
-@vertex21 SEEN 1785004231
+@vertex21 PS 3249370 34.6 11764 systemd
+@vertex21 PS 3249371  0.0  3416 (sd-pam)
+@vertex21 PS 3249411  4.0  8800 pipewire
+@vertex21 PS 3249412  4.0  6072 pipewire
+@vertex21 PS 3249414 16.0 15944 wireplumber
+@vertex21 PS 3249416  4.0 10788 pipewire-pulse
+@vertex21 PS 3249435  0.0  4544 dbus-daemon
+@vertex21 PS 3249439  0.0  7056 sshd
+@vertex21 PS 3249459  0.0  3684 bash
+@vertex21 PS 3249484  200  4620 ps
+@vertex21 PS 3249485  0.0  2336 sed
+@vertex21 SEEN 1785165681

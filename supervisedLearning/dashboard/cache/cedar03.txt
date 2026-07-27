@@ -1,24 +1,47 @@
-@cedar03 CPU 16 2.23
-@cedar03 MEM 31668 3095
-@cedar03 PS 2061778  0.1 11912 systemd
-@cedar03 PS 2061779  0.0  3408 (sd-pam)
-@cedar03 PS 2061791  0.0  8664 pipewire
-@cedar03 PS 2061792  0.0  5976 pipewire
-@cedar03 PS 2061793  0.0 15940 wireplumber
-@cedar03 PS 2061795  0.0 10632 pipewire-pulse
-@cedar03 PS 2061811  0.0  4400 dbus-daemon
-@cedar03 PS 2061856  0.0  3588 bash
-@cedar03 PS 2061917  0.0  3632 bash
-@cedar03 PS 2061935  0.0  2124 bash
-@cedar03 PS 2061939  0.0  2112 timeout
-@cedar03 PS 2061940 91.5 1077388 python
-@cedar03 PS 2078623  0.0 11104 python
-@cedar03 PS 2078624 56.0 785472 python
-@cedar03 PS 2078625 56.2 785264 python
-@cedar03 PS 2276441  0.0  2024 sleep
-@cedar03 PS 2277166  0.0  2044 sleep
-@cedar03 PS 2279916  0.0  7036 sshd
-@cedar03 PS 2279917  0.0  3524 bash
-@cedar03 PS 2279927  0.0  4500 ps
-@cedar03 PS 2279928  0.0  2284 sed
-@cedar03 SEEN 1785004243
+@cedar03 CPU 16 9.90
+@cedar03 MEM 31668 10481
+@cedar03 PS   28435  0.0  3536 bash
+@cedar03 PS   28440  0.0  3588 bash
+@cedar03 PS   28450  0.0  2108 bash
+@cedar03 PS   28455  0.0  2080 timeout
+@cedar03 PS   28457 99.7 1333184 python
+@cedar03 PS   28493  0.0  2120 timeout
+@cedar03 PS   28495 99.7 1329472 python
+@cedar03 PS   28512  0.0  2080 timeout
+@cedar03 PS   28514 99.7 1312288 python
+@cedar03 PS   28548  0.0  2080 timeout
+@cedar03 PS   28550 99.7 1341208 python
+@cedar03 PS   28799  0.0 11084 python
+@cedar03 PS   28800  0.0 11052 python
+@cedar03 PS   28801  0.0 11148 python
+@cedar03 PS   28802  0.0 11076 python
+@cedar03 PS   28803 44.5 792844 python
+@cedar03 PS   28804 47.1 793588 python
+@cedar03 PS   28805 45.8 792708 python
+@cedar03 PS   28806 47.1 792384 python
+@cedar03 PS   28807 48.9 792240 python
+@cedar03 PS   28808 47.5 792836 python
+@cedar03 PS   28809 46.7 792720 python
+@cedar03 PS   28810 48.0 792348 python
+@cedar03 PS   28811 48.2 792980 python
+@cedar03 PS   28812 45.6 792620 python
+@cedar03 PS   28813 44.7 792348 python
+@cedar03 PS   28814 47.0 792432 python
+@cedar03 PS  210730  0.0  2072 sleep
+@cedar03 PS  218655  0.0  2060 sleep
+@cedar03 PS  218879  0.0  2060 sleep
+@cedar03 PS  219059  0.0  2076 sleep
+@cedar03 PS  220368  0.0  7088 sshd
+@cedar03 PS  220372  0.0  3580 bash
+@cedar03 PS  220383  0.0  4492 ps
+@cedar03 PS  220384  0.0  2276 sed
+@cedar03 PS 3378240  0.1 11944 systemd
+@cedar03 PS 3378241  0.0  3420 (sd-pam)
+@cedar03 PS 3378253  0.0  8676 pipewire
+@cedar03 PS 3378254  0.0  6044 pipewire
+@cedar03 PS 3378255  0.0 16168 wireplumber
+@cedar03 PS 3378258  0.0 10568 pipewire-pulse
+@cedar03 PS 3378275  0.0  4380 dbus-daemon
+@cedar03 PS 3378325  0.0  2080 bash
+@cedar03 PS 3392135  0.0  2104 bash
+@cedar03 SEEN 1785165693

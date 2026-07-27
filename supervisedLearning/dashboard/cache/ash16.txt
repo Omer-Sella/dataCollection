@@ -1,26 +1,48 @@
-@ash16 CPU 16 2.29
-@ash16 MEM 15909 3089
-@ash16 GPU 3, 125, 2048
-@ash16 APP 1525100, 32
-@ash16 PS 1524923  0.1 11928 systemd
-@ash16 PS 1524924  0.0  3392 (sd-pam)
-@ash16 PS 1524944  0.0  8708 pipewire
-@ash16 PS 1524945  0.0  6024 pipewire
-@ash16 PS 1524946  0.0 15960 wireplumber
-@ash16 PS 1524949  0.0 10568 pipewire-pulse
-@ash16 PS 1524962  0.0  4480 dbus-daemon
-@ash16 PS 1525013  0.0  3580 bash
-@ash16 PS 1525069  0.0  3620 bash
-@ash16 PS 1525095  0.0  2052 bash
-@ash16 PS 1525099  0.0  2100 timeout
-@ash16 PS 1525100 91.2 1323888 python
-@ash16 PS 1539023  0.0 10920 python
-@ash16 PS 1539024 57.0 795848 python
-@ash16 PS 1539025 58.0 795948 python
-@ash16 PS 1756502  0.0  2060 sleep
-@ash16 PS 1758261  0.0  2052 sleep
-@ash16 PS 1760404  0.0  6996 sshd
-@ash16 PS 1760407  0.0  3584 bash
-@ash16 PS 1760419  0.0  4564 ps
-@ash16 PS 1760420  0.0  2300 sed
-@ash16 SEEN 1785004318
+@ash16 CPU 16 10.30
+@ash16 MEM 15909 10185
+@ash16 GPU 0, 93, 2048
+@ash16 PS 2861449  0.1 11796 systemd
+@ash16 PS 2861450  0.0  3388 (sd-pam)
+@ash16 PS 2861461  0.0  7692 pipewire
+@ash16 PS 2861462  0.0  5548 pipewire
+@ash16 PS 2861464  0.0 14068 wireplumber
+@ash16 PS 2861466  0.0  9500 pipewire-pulse
+@ash16 PS 2861480  0.0  4312 dbus-daemon
+@ash16 PS 2861543  0.0  1920 bash
+@ash16 PS 2886404  0.0  1928 bash
+@ash16 PS 3704086  0.0  3572 bash
+@ash16 PS 3704091  0.0  3612 bash
+@ash16 PS 3704101  0.0  2132 bash
+@ash16 PS 3704106  0.0  2104 timeout
+@ash16 PS 3704108 99.7 1309052 python
+@ash16 PS 3704127  0.0  2112 timeout
+@ash16 PS 3704129 99.7 1301208 python
+@ash16 PS 3704147  0.0  2108 timeout
+@ash16 PS 3704149 99.7 1315136 python
+@ash16 PS 3704171  0.0  2112 timeout
+@ash16 PS 3704173 99.7 1307616 python
+@ash16 PS 3704404  0.0 11024 python
+@ash16 PS 3704405  0.0 11032 python
+@ash16 PS 3704406  0.0 11032 python
+@ash16 PS 3704407  0.0 11032 python
+@ash16 PS 3704408 45.6 794080 python
+@ash16 PS 3704409 47.0 794472 python
+@ash16 PS 3704410 47.6 794424 python
+@ash16 PS 3704411 47.5 791592 python
+@ash16 PS 3704412 51.5 791816 python
+@ash16 PS 3704413 49.8 794232 python
+@ash16 PS 3704414 47.4 794552 python
+@ash16 PS 3704415 47.0 794176 python
+@ash16 PS 3704416 48.4 794276 python
+@ash16 PS 3704417 51.0 794424 python
+@ash16 PS 3704418 47.5 794312 python
+@ash16 PS 3704419 51.4 794396 python
+@ash16 PS 3892215  0.0  2056 sleep
+@ash16 PS 3893663  0.0  2060 sleep
+@ash16 PS 3894356  0.0  2056 sleep
+@ash16 PS 3897353  0.0  2056 sleep
+@ash16 PS 3900017  0.0  6956 sshd
+@ash16 PS 3900018  0.0  3568 bash
+@ash16 PS 3900029  0.0  4616 ps
+@ash16 PS 3900030  0.0  2304 sed
+@ash16 SEEN 1785165654

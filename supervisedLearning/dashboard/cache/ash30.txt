@@ -1,26 +1,48 @@
-@ash30 CPU 16 2.15
-@ash30 MEM 15909 2926
-@ash30 GPU 0, 117, 2048
-@ash30 APP 3379785, 32
-@ash30 PS 3379311  0.1 12012 systemd
-@ash30 PS 3379312  0.0  3428 (sd-pam)
-@ash30 PS 3379323  0.0  8900 pipewire
-@ash30 PS 3379324  0.0  6092 pipewire
-@ash30 PS 3379326  0.0 15988 wireplumber
-@ash30 PS 3379328  0.0 10708 pipewire-pulse
-@ash30 PS 3379343  0.0  4340 dbus-daemon
-@ash30 PS 3379536  0.0  3624 bash
-@ash30 PS 3379703  0.0  3668 bash
-@ash30 PS 3379780  0.0  2104 bash
-@ash30 PS 3379784  0.0  2124 timeout
-@ash30 PS 3379785 90.9 1210820 python
-@ash30 PS 3393619  0.0 11056 python
-@ash30 PS 3393641 51.7 798824 python
-@ash30 PS 3393642 52.4 798864 python
-@ash30 PS 3609200  0.0  2080 sleep
-@ash30 PS 3610073  0.0  2076 sleep
-@ash30 PS 3612976  0.0  6952 sshd
-@ash30 PS 3612977  0.0  3604 bash
-@ash30 PS 3612987  0.0  4536 ps
-@ash30 PS 3612988  0.0  2296 sed
-@ash30 SEEN 1785004324
+@ash30 CPU 16 9.58
+@ash30 MEM 15909 10171
+@ash30 GPU 0, 85, 2048
+@ash30 PS  512327  0.1 11836 systemd
+@ash30 PS  512328  0.0  2644 (sd-pam)
+@ash30 PS  512339  0.0  6624 pipewire
+@ash30 PS  512340  0.0  4816 pipewire
+@ash30 PS  512342  0.0 12348 wireplumber
+@ash30 PS  512344  0.0  8392 pipewire-pulse
+@ash30 PS  512359  0.0  4272 dbus-daemon
+@ash30 PS  512419  0.0  2108 bash
+@ash30 PS  538908  0.0  2152 bash
+@ash30 PS 1357233  0.0  3568 bash
+@ash30 PS 1357238  0.0  3616 bash
+@ash30 PS 1357248  0.0  2120 bash
+@ash30 PS 1357253  0.0  2116 timeout
+@ash30 PS 1357255 99.8 1317980 python
+@ash30 PS 1357290  0.0  2120 timeout
+@ash30 PS 1357292 99.8 1341796 python
+@ash30 PS 1357311  0.0  2132 timeout
+@ash30 PS 1357313 99.8 1312108 python
+@ash30 PS 1357331  0.0  2128 timeout
+@ash30 PS 1357333 99.8 1347620 python
+@ash30 PS 1357514  0.0 11060 python
+@ash30 PS 1357515  0.0 11008 python
+@ash30 PS 1357516  0.0 11188 python
+@ash30 PS 1357517  0.0 11056 python
+@ash30 PS 1357518 46.8 792716 python
+@ash30 PS 1357519 49.0 793980 python
+@ash30 PS 1357520 49.4 792504 python
+@ash30 PS 1357521 48.0 792024 python
+@ash30 PS 1357522 48.4 793624 python
+@ash30 PS 1357523 49.1 790980 python
+@ash30 PS 1357524 47.2 794544 python
+@ash30 PS 1357525 49.6 793592 python
+@ash30 PS 1357526 48.1 794828 python
+@ash30 PS 1357527 48.6 794964 python
+@ash30 PS 1357528 48.6 794000 python
+@ash30 PS 1357529 48.4 795200 python
+@ash30 PS 1545974  0.0  2080 sleep
+@ash30 PS 1546521  0.0  2048 sleep
+@ash30 PS 1548406  0.0  2084 sleep
+@ash30 PS 1549551  0.0  2048 sleep
+@ash30 PS 1551628  0.0  6960 sshd
+@ash30 PS 1551629  0.0  3600 bash
+@ash30 PS 1551640  0.0  4620 ps
+@ash30 PS 1551641  0.0  2296 sed
+@ash30 SEEN 1785165660

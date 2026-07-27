@@ -1,25 +1,46 @@
-@beech18 CPU 16 3.11
-@beech18 MEM 15880 5782
-@beech18 GPU 2, 82, 4096
-@beech18 PS 1671489  0.1 11864 systemd
-@beech18 PS 1671490  0.0  3448 (sd-pam)
-@beech18 PS 1671504  0.0  8792 pipewire
-@beech18 PS 1671505  0.0  6020 pipewire
-@beech18 PS 1671507  0.0 15960 wireplumber
-@beech18 PS 1671509  0.0 10608 pipewire-pulse
-@beech18 PS 1671526  0.0  4400 dbus-daemon
-@beech18 PS 1671610  0.0  3612 bash
-@beech18 PS 1671767  0.0  3636 bash
-@beech18 PS 1671817  0.0  2052 bash
-@beech18 PS 1671821  0.0  2128 timeout
-@beech18 PS 1671822 92.2 2636324 python
-@beech18 PS 1683834  0.0 11140 python
-@beech18 PS 1683835 78.9 840592 python
-@beech18 PS 1683844 35.8 835288 python
-@beech18 PS 1899864  0.0  2084 sleep
-@beech18 PS 1902198  0.0  2080 sleep
-@beech18 PS 1906393  0.0  6972 sshd
-@beech18 PS 1906395  0.0  3616 bash
-@beech18 PS 1906405  0.0  4532 ps
-@beech18 PS 1906406  0.0  2320 sed
-@beech18 SEEN 1785004337
+@beech18 CPU 16 10.69
+@beech18 MEM 15880 10385
+@beech18 GPU 0, 82, 4096
+@beech18 PS 3039360  0.1 11120 systemd
+@beech18 PS 3039361  0.0  1920 (sd-pam)
+@beech18 PS 3039373  0.0  7544 pipewire
+@beech18 PS 3039374  0.0  5052 pipewire
+@beech18 PS 3039376  0.0 13356 wireplumber
+@beech18 PS 3039378  0.0  9516 pipewire-pulse
+@beech18 PS 3039394  0.0  3876 dbus-daemon
+@beech18 PS 3039454  0.0  1876 bash
+@beech18 PS 3888981  0.0  3504 bash
+@beech18 PS 3888986  0.0  3332 bash
+@beech18 PS 3889026  0.0  1956 bash
+@beech18 PS 3889031  0.0  2000 timeout
+@beech18 PS 3889033 99.7 1029344 python
+@beech18 PS 3889055  0.0  2008 timeout
+@beech18 PS 3889057 99.7 1005604 python
+@beech18 PS 3889094  0.0  2016 timeout
+@beech18 PS 3889096 99.8 1031100 python
+@beech18 PS 3889118  0.0  2020 timeout
+@beech18 PS 3889120 99.8 1206900 python
+@beech18 PS 3889317  0.0 11092 python
+@beech18 PS 3889318  0.0 11076 python
+@beech18 PS 3889319  0.0 11008 python
+@beech18 PS 3889320  0.0 10952 python
+@beech18 PS 3889321 48.2 790228 python
+@beech18 PS 3889322 46.3 788596 python
+@beech18 PS 3889323 47.3 789948 python
+@beech18 PS 3889324 44.1 790076 python
+@beech18 PS 3889325 47.5 788608 python
+@beech18 PS 3889326 45.9 790800 python
+@beech18 PS 3889327 47.4 789304 python
+@beech18 PS 3889328 46.3 791464 python
+@beech18 PS 3889329 47.8 791092 python
+@beech18 PS 3889330 47.2 789908 python
+@beech18 PS 3889331 47.4 791304 python
+@beech18 PS 3889332 47.6 790932 python
+@beech18 PS 4080877  0.0  2080 sleep
+@beech18 PS 4081556  0.0  2084 sleep
+@beech18 PS 4087572  0.0  2080 sleep
+@beech18 PS 4088435  0.0  6936 sshd
+@beech18 PS 4088436  0.0  3552 bash
+@beech18 PS 4088447  0.0  4572 ps
+@beech18 PS 4088448  0.0  2328 sed
+@beech18 SEEN 1785165673

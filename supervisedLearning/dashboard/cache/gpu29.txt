@@ -1,14 +1,39 @@
-@gpu29 CPU 8 1.13
-@gpu29 MEM 64034 6465
-@gpu29 GPU 0, 30, 11264
-@gpu29 PS   71370  0.0 12152 systemd
+@gpu29 CPU 8 4.83
+@gpu29 MEM 64034 7477
+@gpu29 GPU 1, 30, 11264
+@gpu29 PS   71370  0.0 12168 systemd
 @gpu29 PS   71371  0.0  3380 (sd-pam)
-@gpu29 PS   71385  0.0  8760 pipewire
-@gpu29 PS   71386  0.0  6084 pipewire
-@gpu29 PS   71387  0.0 16064 wireplumber
-@gpu29 PS   71390  0.0 10208 pipewire-pulse
+@gpu29 PS   71385  0.0  8712 pipewire
+@gpu29 PS   71386  0.0  6036 pipewire
+@gpu29 PS   71387  0.0 16016 wireplumber
+@gpu29 PS   71390  0.0 10160 pipewire-pulse
 @gpu29 PS   71409  0.0  4436 dbus-daemon
 @gpu29 PS   71496  0.0  1544 ssh-agent
+@gpu29 PS  803069  0.0  2164 bash
+@gpu29 PS  819815  0.0  2044 bash
+@gpu29 PS  831838  0.0  2164 bash
+@gpu29 PS 1755264  0.0  3736 bash
+@gpu29 PS 1755272  0.0  2168 bash
+@gpu29 PS 1755277  0.0  2200 timeout
+@gpu29 PS 1755279 99.0 1255116 python
+@gpu29 PS 1755306  0.0  2204 timeout
+@gpu29 PS 1755308 99.0 1226388 python
+@gpu29 PS 1755695  0.0 11228 python
+@gpu29 PS 1755696  0.0 11220 python
+@gpu29 PS 1755697 46.6 797408 python
+@gpu29 PS 1755698 46.7 797012 python
+@gpu29 PS 1755699 46.4 797412 python
+@gpu29 PS 1755700 47.9 797404 python
+@gpu29 PS 1755701 48.6 797672 python
+@gpu29 PS 1755702 47.9 797552 python
+@gpu29 PS 1972660  0.0  2152 sleep
+@gpu29 PS 1973930  0.0  2152 sleep
+@gpu29 PS 1973931  0.0  2152 sleep
+@gpu29 PS 1975617  0.0  2152 sleep
+@gpu29 PS 1979880  0.0  7192 sshd
+@gpu29 PS 1979881  0.0  3744 bash
+@gpu29 PS 1979894  0.0  4692 ps
+@gpu29 PS 1979895  0.0  2400 sed
 @gpu29 PS 2706150  0.0  1548 ssh-agent
 @gpu29 PS 2706686  0.0  1540 ssh-agent
 @gpu29 PS 2728657  0.0  1536 ssh-agent
@@ -25,8 +50,4 @@
 @gpu29 PS 2837742  0.0  1544 ssh-agent
 @gpu29 PS 2866188  0.0  1544 ssh-agent
 @gpu29 PS 2915984  0.0  1540 ssh-agent
-@gpu29 PS 3826050  0.0  7200 sshd
-@gpu29 PS 3826051  0.0  3704 bash
-@gpu29 PS 3826063  0.0  4684 ps
-@gpu29 PS 3826064  0.0  2400 sed
-@gpu29 SEEN 1785004304
+@gpu29 SEEN 1785165639

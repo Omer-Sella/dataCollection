@@ -1,25 +1,50 @@
-@ash09 CPU 16 2.00
-@ash09 MEM 15909 3435
+@ash09 CPU 16 10.08
+@ash09 MEM 15909 9595
 @ash09 GPU 0, 78, 2048
-@ash09 PS 3244172  0.1 11220 systemd
-@ash09 PS 3244175  0.0  3412 (sd-pam)
-@ash09 PS 3244193  0.0  6680 pipewire
-@ash09 PS 3244194  0.0  4784 pipewire
-@ash09 PS 3244196  0.0 12872 wireplumber
-@ash09 PS 3244198  0.0  8448 pipewire-pulse
-@ash09 PS 3244215  0.0  4308 dbus-daemon
-@ash09 PS 3244318  0.0  3352 bash
-@ash09 PS 3244362  0.0  3176 bash
-@ash09 PS 3244380  0.0  1844 bash
-@ash09 PS 3244384  0.0  1960 timeout
-@ash09 PS 3244385 91.1 2028472 python
-@ash09 PS 3259286  0.0  5064 python
-@ash09 PS 3259287 70.2 153020 python
-@ash09 PS 3259288 52.4 152632 python
-@ash09 PS 3474522  0.0  2064 sleep
-@ash09 PS 3476762  0.0  2068 sleep
-@ash09 PS 3480537  0.0  6916 sshd
-@ash09 PS 3480538  0.0  3496 bash
-@ash09 PS 3480548  0.0  4520 ps
-@ash09 PS 3480549  0.0  2316 sed
-@ash09 SEEN 1785004317
+@ash09 PS  371731  0.1 11304 systemd
+@ash09 PS  371732  0.0  2776 (sd-pam)
+@ash09 PS  371743  0.0  6348 pipewire
+@ash09 PS  371744  0.0  4432 pipewire
+@ash09 PS  371747  0.0 13204 wireplumber
+@ash09 PS  371748  0.0  7840 pipewire-pulse
+@ash09 PS  371763  0.0  4024 dbus-daemon
+@ash09 PS  371908  0.0  1860 bash
+@ash09 PS  384984  0.0  1924 bash
+@ash09 PS  397305  0.0  1900 bash
+@ash09 PS 1214489  0.0  3492 bash
+@ash09 PS 1214494  0.0  3548 bash
+@ash09 PS 1214504  0.0  2048 bash
+@ash09 PS 1214509  0.0  2112 timeout
+@ash09 PS 1214511 99.7 1209272 python
+@ash09 PS 1214530  0.0  2124 timeout
+@ash09 PS 1214532 99.7 1204000 python
+@ash09 PS 1214577  0.0  2124 timeout
+@ash09 PS 1214579 99.7 1203284 python
+@ash09 PS 1214598  0.0  2120 timeout
+@ash09 PS 1214600 99.7 1210268 python
+@ash09 PS 1214908  0.0 11032 python
+@ash09 PS 1214909  0.0 11008 python
+@ash09 PS 1214910  0.0 11012 python
+@ash09 PS 1214911  0.0 10956 python
+@ash09 PS 1214912 45.1 786504 python
+@ash09 PS 1214913 47.9 789244 python
+@ash09 PS 1214914 48.7 787792 python
+@ash09 PS 1214915 49.9 787116 python
+@ash09 PS 1214916 46.9 789776 python
+@ash09 PS 1214917 46.8 786876 python
+@ash09 PS 1214918 47.9 786628 python
+@ash09 PS 1214919 46.0 789420 python
+@ash09 PS 1214920 51.2 788096 python
+@ash09 PS 1214921 46.3 787944 python
+@ash09 PS 1214922 48.8 789296 python
+@ash09 PS 1214923 46.9 787180 python
+@ash09 PS 1404610  0.0  2068 sleep
+@ash09 PS 1405771  0.0  2072 sleep
+@ash09 PS 1406848  0.0  2072 sleep
+@ash09 PS 1408207  0.0  2072 sleep
+@ash09 PS 1411060  0.0  2068 sleep
+@ash09 PS 1411254  0.0  6868 sshd
+@ash09 PS 1411255  0.0  3540 bash
+@ash09 PS 1411274  0.0  4544 ps
+@ash09 PS 1411275  0.0  2308 sed
+@ash09 SEEN 1785165653

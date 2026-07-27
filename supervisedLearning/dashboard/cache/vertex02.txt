@@ -1,9 +1,9 @@
-@vertex02 CPU 12 1.30
-@vertex02 MEM 15771 1717
+@vertex02 CPU 12 7.52
+@vertex02 MEM 15771 7329
 @vertex02 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex02 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex02 APP 
-@vertex02 PS  238448  0.0 11752 systemd
+@vertex02 PS  238448  0.0 11804 systemd
 @vertex02 PS  238451  0.0  3412 (sd-pam)
 @vertex02 PS  238463  0.0  8740 pipewire
 @vertex02 PS  238464  0.0  6080 pipewire
@@ -11,9 +11,34 @@
 @vertex02 PS  238468  0.0 10636 pipewire-pulse
 @vertex02 PS  238490  0.0  4524 dbus-daemon
 @vertex02 PS  238659  0.0  2048 bash
-@vertex02 PS  551184  0.0  2084 sleep
-@vertex02 PS  555301  0.0  7084 sshd
-@vertex02 PS  555302  0.0  3640 bash
-@vertex02 PS  555320  0.0  4612 ps
-@vertex02 PS  555321  0.0  2328 sed
-@vertex02 SEEN 1785004339
+@vertex02 PS 2119214  0.0  2052 bash
+@vertex02 PS 3313620  0.0  3632 bash
+@vertex02 PS 3313625  0.0  3664 bash
+@vertex02 PS 3313641  0.0  2164 bash
+@vertex02 PS 3313646  0.0  2132 timeout
+@vertex02 PS 3313648 99.7 1218380 python
+@vertex02 PS 3313681  0.0  2132 timeout
+@vertex02 PS 3313684 99.7 1220024 python
+@vertex02 PS 3313721  0.0  2128 timeout
+@vertex02 PS 3313723 99.7 1225464 python
+@vertex02 PS 3314142  0.0 11020 python
+@vertex02 PS 3314143  0.0 11036 python
+@vertex02 PS 3314144  0.0 11060 python
+@vertex02 PS 3314145 45.7 792980 python
+@vertex02 PS 3314146 46.5 793044 python
+@vertex02 PS 3314147 44.6 792684 python
+@vertex02 PS 3314148 45.0 793220 python
+@vertex02 PS 3314149 48.1 793312 python
+@vertex02 PS 3314150 50.0 793100 python
+@vertex02 PS 3314151 46.9 793400 python
+@vertex02 PS 3314152 47.1 793240 python
+@vertex02 PS 3314153 49.7 792524 python
+@vertex02 PS 3579341  0.0  2084 sleep
+@vertex02 PS 3582737  0.0  2084 sleep
+@vertex02 PS 3584647  0.0  2084 sleep
+@vertex02 PS 3584757  0.0  2072 sleep
+@vertex02 PS 3589760  0.0  6956 sshd
+@vertex02 PS 3589761  0.0  3584 bash
+@vertex02 PS 3589780  0.0  4628 ps
+@vertex02 PS 3589781  0.0  2324 sed
+@vertex02 SEEN 1785165674

@@ -14,7 +14,7 @@ if [ "$(others)" -gt 0 ]; then
 fi
 
 B=/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection
-bash "$B/collectWorker3.sh" "$L" "$M" &
+bash "$B/collectWorker4.sh" "$L" "$M" &
 WORKER=$!
 echo "labWorker $(hostname -s): started collect pid $WORKER (l=$L m=$M) $(date)"
 

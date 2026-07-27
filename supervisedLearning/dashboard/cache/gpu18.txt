@@ -1,41 +1,68 @@
-@gpu18 CPU 16 16.36
-@gpu18 MEM 64031 6095
+@gpu18 CPU 16 26.19
+@gpu18 MEM 64031 14580
 @gpu18 GPU 0, 7782, 11264
 @gpu18 APP 2166928, 7690
 @gpu18 PS  400761  0.1  6980 systemd
 @gpu18 PS  400762  0.0  1616 (sd-pam)
-@gpu18 PS  400775  0.0  4860 pipewire
-@gpu18 PS  400778  0.0  3860 pipewire
+@gpu18 PS  400775  0.0  4828 pipewire
+@gpu18 PS  400778  0.0  3732 pipewire
 @gpu18 PS  400782  0.0 11464 wireplumber
-@gpu18 PS  400788  0.0  6716 pipewire-pulse
-@gpu18 PS  400806  0.0  3352 dbus-daemon
-@gpu18 PS  400886  0.0   844 ssh-agent
+@gpu18 PS  400788  0.0  6556 pipewire-pulse
+@gpu18 PS  400806  0.0  3332 dbus-daemon
+@gpu18 PS  400886  0.0   688 ssh-agent
 @gpu18 PS  410471  0.0   560 ssh-agent
-@gpu18 PS  410893  0.0  4888 code-4fe60c8b1c
+@gpu18 PS  410893  0.0  4844 code-4fe60c8b1c
 @gpu18 PS  411818  0.0   556 ssh-agent
 @gpu18 PS  430922  0.0  1512 ssh-agent
-@gpu18 PS  431550  0.0  1504 ssh-agent
-@gpu18 PS  453566  0.0  1540 ssh-agent
-@gpu18 PS  511512  0.0  1544 ssh-agent
-@gpu18 PS  513706  0.0  1540 ssh-agent
-@gpu18 PS  518902  0.0  1540 ssh-agent
-@gpu18 PS  523159  0.0  1540 ssh-agent
-@gpu18 PS  532021  0.0  1532 ssh-agent
-@gpu18 PS  535376  0.0  1544 ssh-agent
-@gpu18 PS  540795  0.0  1540 ssh-agent
-@gpu18 PS  561877  0.0  1540 ssh-agent
-@gpu18 PS  581853  0.0  1524 ssh-agent
-@gpu18 PS  592059  0.0  1544 ssh-agent
-@gpu18 PS  642990  0.0  1544 ssh-agent
-@gpu18 PS 1582652  0.0  7108 sshd
-@gpu18 PS 1582653  0.0  3740 bash
-@gpu18 PS 1582665  0.0  4728 ps
-@gpu18 PS 1582666  0.0  2392 sed
+@gpu18 PS  431550  0.0   996 ssh-agent
+@gpu18 PS  453566  0.0  1028 ssh-agent
+@gpu18 PS  511512  0.0  1400 ssh-agent
+@gpu18 PS  513706  0.0  1272 ssh-agent
+@gpu18 PS  518902  0.0  1416 ssh-agent
+@gpu18 PS  523159  0.0  1472 ssh-agent
+@gpu18 PS  532021  0.0  1340 ssh-agent
+@gpu18 PS  535376  0.0  1444 ssh-agent
+@gpu18 PS  540795  0.0  1284 ssh-agent
+@gpu18 PS  561877  0.0  1372 ssh-agent
+@gpu18 PS  581853  0.0  1352 ssh-agent
+@gpu18 PS  592059  0.0  1432 ssh-agent
+@gpu18 PS  642990  0.0  1316 ssh-agent
 @gpu18 PS 3457594  0.0   572 ssh-agent
-@gpu18 PS 3458006  0.0 10400 code-fc3def6774
+@gpu18 PS 3458006  0.0 10356 code-fc3def6774
 @gpu18 PS 3458193  0.0   572 ssh-agent
 @gpu18 PS 3458439  0.0   572 ssh-agent
-@gpu18 PS 3459085  0.0   628 ssh-agent
+@gpu18 PS 3459085  0.0   624 ssh-agent
 @gpu18 PS 3459777  0.0   572 ssh-agent
-@gpu18 PS 3459886  0.0   636 ssh-agent
-@gpu18 SEEN 1785004304
+@gpu18 PS 3459886  0.0   612 ssh-agent
+@gpu18 PS 3702402  0.0  3760 bash
+@gpu18 PS 3702410  0.0  2056 bash
+@gpu18 PS 3702425  0.0  2204 timeout
+@gpu18 PS 3702427 93.8 1233448 python
+@gpu18 PS 3702457  0.0  2208 timeout
+@gpu18 PS 3702459 93.9 1288360 python
+@gpu18 PS 3702492  0.0  2204 timeout
+@gpu18 PS 3702494 93.9 1236644 python
+@gpu18 PS 3702517  0.0  2200 timeout
+@gpu18 PS 3702519 93.8 1231572 python
+@gpu18 PS 3702828  0.0 11164 python
+@gpu18 PS 3702830  0.0 11192 python
+@gpu18 PS 3702831  0.0 11124 python
+@gpu18 PS 3702832  0.0 11184 python
+@gpu18 PS 3702833 43.3 796644 python
+@gpu18 PS 3702834 43.3 796784 python
+@gpu18 PS 3702835 44.4 797120 python
+@gpu18 PS 3702836 44.0 796248 python
+@gpu18 PS 3702837 43.5 796888 python
+@gpu18 PS 3702838 44.1 796888 python
+@gpu18 PS 3702839 45.4 796492 python
+@gpu18 PS 3702840 42.9 797080 python
+@gpu18 PS 3702841 43.3 796872 python
+@gpu18 PS 3702842 44.0 796276 python
+@gpu18 PS 3702843 42.7 796632 python
+@gpu18 PS 3702844 41.7 796772 python
+@gpu18 PS 3921265  0.0  2144 sleep
+@gpu18 PS 3927796  0.0  7164 sshd
+@gpu18 PS 3927797  0.0  3736 bash
+@gpu18 PS 3927810  200  4764 ps
+@gpu18 PS 3927811  0.0  2408 sed
+@gpu18 SEEN 1785165639

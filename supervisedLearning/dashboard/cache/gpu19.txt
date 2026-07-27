@@ -1,29 +1,46 @@
-@gpu19 CPU 8 1.35
-@gpu19 MEM 64034 12476
-@gpu19 GPU 0, 1242, 11264
-@gpu19 APP 1816481, 1152
-@gpu19 PS  130876  0.0 11612 systemd
-@gpu19 PS  130879  0.0  3424 (sd-pam)
-@gpu19 PS  130892  0.0  8916 pipewire
-@gpu19 PS  130893  0.0  6164 pipewire
-@gpu19 PS  130894  0.0 15792 wireplumber
-@gpu19 PS  130897  0.0 10556 pipewire-pulse
-@gpu19 PS  130905  0.0  4544 dbus-daemon
+@gpu19 CPU 8 6.04
+@gpu19 MEM 64034 9104
+@gpu19 GPU 31, 8122, 11264
+@gpu19 APP 3197530, 8032
+@gpu19 PS  130876  0.0 11628 systemd
+@gpu19 PS  130879  0.0  3120 (sd-pam)
+@gpu19 PS  130892  0.0  8648 pipewire
+@gpu19 PS  130893  0.0  6132 pipewire
+@gpu19 PS  130894  0.0 15760 wireplumber
+@gpu19 PS  130897  0.0 10524 pipewire-pulse
+@gpu19 PS  130905  0.0  4528 dbus-daemon
 @gpu19 PS  130942  0.0  1344 ssh-agent
 @gpu19 PS  131668  0.0  1340 ssh-agent
 @gpu19 PS  209679  0.0  1344 ssh-agent
-@gpu19 PS  213833  0.0  1324 ssh-agent
-@gpu19 PS  218913  0.0  1344 ssh-agent
-@gpu19 PS  223073  0.0  1344 ssh-agent
+@gpu19 PS  213833  0.0  1316 ssh-agent
+@gpu19 PS  218913  0.0  1148 ssh-agent
+@gpu19 PS  223073  0.0  1272 ssh-agent
 @gpu19 PS  231458  0.0  1344 ssh-agent
-@gpu19 PS  235564  0.0  1340 ssh-agent
-@gpu19 PS  240859  0.0  1344 ssh-agent
-@gpu19 PS  258943  0.0  1344 ssh-agent
-@gpu19 PS  279307  0.0  1340 ssh-agent
-@gpu19 PS  291668  0.0  1344 ssh-agent
-@gpu19 PS  340586  0.0  1348 ssh-agent
-@gpu19 PS 1256312  0.0  7176 sshd
-@gpu19 PS 1256313  0.0  3656 bash
-@gpu19 PS 1256325  200  4692 ps
-@gpu19 PS 1256326  0.0  2396 sed
-@gpu19 SEEN 1785004304
+@gpu19 PS  235564  0.0  1180 ssh-agent
+@gpu19 PS  240859  0.0  1336 ssh-agent
+@gpu19 PS  258943  0.0  1168 ssh-agent
+@gpu19 PS  279307  0.0  1276 ssh-agent
+@gpu19 PS  291668  0.0  1200 ssh-agent
+@gpu19 PS  340586  0.0  1284 ssh-agent
+@gpu19 PS 2404135  0.0  2108 bash
+@gpu19 PS 3315987  0.0  3668 bash
+@gpu19 PS 3315995  0.0  2108 bash
+@gpu19 PS 3316000  0.0  2196 timeout
+@gpu19 PS 3316002 98.8 1321380 python
+@gpu19 PS 3316028  0.0  2200 timeout
+@gpu19 PS 3316030 98.8 1332664 python
+@gpu19 PS 3316394  0.0 11248 python
+@gpu19 PS 3316395  0.0 11240 python
+@gpu19 PS 3316396 47.6 797084 python
+@gpu19 PS 3316397 46.2 797444 python
+@gpu19 PS 3316398 48.7 797800 python
+@gpu19 PS 3316399 47.1 797360 python
+@gpu19 PS 3316400 50.8 797644 python
+@gpu19 PS 3316401 48.7 797132 python
+@gpu19 PS 3526256  0.0  2148 sleep
+@gpu19 PS 3526819  0.0  2144 sleep
+@gpu19 PS 3534319  0.0  7216 sshd
+@gpu19 PS 3534320  0.0  3660 bash
+@gpu19 PS 3534345  100  4716 ps
+@gpu19 PS 3534346  0.0  2396 sed
+@gpu19 SEEN 1785165639

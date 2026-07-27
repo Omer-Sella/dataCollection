@@ -1,26 +1,43 @@
-@curve03 CPU 12 2.43
-@curve03 MEM 15917 2619
+@curve03 CPU 12 8.04
+@curve03 MEM 15917 7674
 @curve03 GPU [N/A], 92, 2000
 @curve03 APP [N/A], [N/A]
-@curve03 PS 2439161  0.1 11780 systemd
-@curve03 PS 2439162  0.0  3416 (sd-pam)
-@curve03 PS 2439179  0.0  8860 pipewire
-@curve03 PS 2439180  0.0  6148 pipewire
-@curve03 PS 2439181  0.0 15868 wireplumber
-@curve03 PS 2439184  0.0 10744 pipewire-pulse
-@curve03 PS 2439198  0.0  4508 dbus-daemon
-@curve03 PS 2439240  0.0  3608 bash
-@curve03 PS 2439245  0.0  3640 bash
-@curve03 PS 2439267  0.0  2128 bash
-@curve03 PS 2439271  0.0  2128 timeout
-@curve03 PS 2439272 91.0 1173852 python
-@curve03 PS 2456024  0.0 11100 python
-@curve03 PS 2456033 57.7 793708 python
-@curve03 PS 2456034 59.8 793172 python
-@curve03 PS 2648719  0.0  2084 sleep
-@curve03 PS 2650746  0.0  2076 sleep
-@curve03 PS 2652459  0.0  6960 sshd
-@curve03 PS 2652462  0.0  3568 bash
-@curve03 PS 2652481  100  4596 ps
-@curve03 PS 2652482  0.0  2324 sed
-@curve03 SEEN 1785004237
+@curve03 PS  340574  0.0  3644 bash
+@curve03 PS  340579  0.0  3660 bash
+@curve03 PS  340589  0.0  2092 bash
+@curve03 PS  340594  0.0  2128 timeout
+@curve03 PS  340596 99.2 1340960 python
+@curve03 PS  340619  0.0  2128 timeout
+@curve03 PS  340621 99.2 1307340 python
+@curve03 PS  340638  0.0  2128 timeout
+@curve03 PS  340640 99.2 1318060 python
+@curve03 PS  340961  0.0 10968 python
+@curve03 PS  340962  0.0 11100 python
+@curve03 PS  340963  0.0 11040 python
+@curve03 PS  340964 46.3 794148 python
+@curve03 PS  340965 47.4 792500 python
+@curve03 PS  340966 47.9 794408 python
+@curve03 PS  340967 49.4 795256 python
+@curve03 PS  340968 49.8 794600 python
+@curve03 PS  340969 47.6 794416 python
+@curve03 PS  340970 47.7 794780 python
+@curve03 PS  340971 47.5 794716 python
+@curve03 PS  340972 47.6 792580 python
+@curve03 PS  523134  0.0  2080 sleep
+@curve03 PS  524067  0.0  2080 sleep
+@curve03 PS  524276  0.0  2084 sleep
+@curve03 PS  525669  0.0  2076 sleep
+@curve03 PS  526323  0.0  6960 sshd
+@curve03 PS  526324  0.0  3632 bash
+@curve03 PS  526335  200  4600 ps
+@curve03 PS  526336  0.0  2328 sed
+@curve03 PS 3714086  0.1 11780 systemd
+@curve03 PS 3714087  0.0  3420 (sd-pam)
+@curve03 PS 3714107  0.0  8808 pipewire
+@curve03 PS 3714108  0.0  6116 pipewire
+@curve03 PS 3714110  0.0 16036 wireplumber
+@curve03 PS 3714112  0.0 10732 pipewire-pulse
+@curve03 PS 3714127  0.0  4496 dbus-daemon
+@curve03 PS 3714183  0.0  2052 bash
+@curve03 PS 3726524  0.0  2048 bash
+@curve03 SEEN 1785165687

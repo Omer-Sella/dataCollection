@@ -1,26 +1,50 @@
-@ash10 CPU 16 2.19
-@ash10 MEM 15909 2781
-@ash10 GPU 1, 113, 2048
-@ash10 APP 1920928, 32
-@ash10 PS 1920621  0.1 11664 systemd
-@ash10 PS 1920624  0.0  3416 (sd-pam)
-@ash10 PS 1920642  0.0  8728 pipewire
-@ash10 PS 1920643  0.0  6100 pipewire
-@ash10 PS 1920646  0.0 16124 wireplumber
-@ash10 PS 1920647  0.0 10644 pipewire-pulse
-@ash10 PS 1920665  0.0  4500 dbus-daemon
-@ash10 PS 1920800  0.0  3612 bash
-@ash10 PS 1920904  0.0  3636 bash
-@ash10 PS 1920923  0.0  2128 bash
-@ash10 PS 1920927  0.0  2136 timeout
-@ash10 PS 1920928 91.5 1227240 python
-@ash10 PS 1937511  0.0 11116 python
-@ash10 PS 1937512 52.1 799108 python
-@ash10 PS 1937513 53.1 798916 python
-@ash10 PS 2153434  0.0  2080 sleep
-@ash10 PS 2155693  0.0  2084 sleep
-@ash10 PS 2158440  0.0  6888 sshd
-@ash10 PS 2158441  0.0  3584 bash
-@ash10 PS 2158451  0.0  4596 ps
-@ash10 PS 2158452  0.0  2336 sed
-@ash10 SEEN 1785004318
+@ash10 CPU 16 9.92
+@ash10 MEM 15909 10350
+@ash10 GPU 0, 81, 2048
+@ash10 PS   90929  0.0  2088 sleep
+@ash10 PS   91962  0.0  2084 sleep
+@ash10 PS   93458  0.0  2088 sleep
+@ash10 PS   95419  0.0  2084 sleep
+@ash10 PS   99317  0.0  2084 sleep
+@ash10 PS   99556  0.0  7080 sshd
+@ash10 PS   99557  0.0  3676 bash
+@ash10 PS   99568  0.0  4572 ps
+@ash10 PS   99569  0.0  2332 sed
+@ash10 PS 3253339  0.1 11584 systemd
+@ash10 PS 3253340  0.0  3360 (sd-pam)
+@ash10 PS 3253351  0.0  6908 pipewire
+@ash10 PS 3253352  0.0  5072 pipewire
+@ash10 PS 3253354  0.0 12496 wireplumber
+@ash10 PS 3253356  0.0  8680 pipewire-pulse
+@ash10 PS 3253371  0.0  4272 dbus-daemon
+@ash10 PS 3253585  0.0  2112 bash
+@ash10 PS 3267644  0.0  2112 bash
+@ash10 PS 3279019  0.0  1968 bash
+@ash10 PS 4095991  0.0  3644 bash
+@ash10 PS 4095996  0.0  3716 bash
+@ash10 PS 4096006  0.0  2096 bash
+@ash10 PS 4096011  0.0  2132 timeout
+@ash10 PS 4096013 99.7 1327004 python
+@ash10 PS 4096045  0.0  2132 timeout
+@ash10 PS 4096047 99.7 1317336 python
+@ash10 PS 4096066  0.0  2128 timeout
+@ash10 PS 4096068 99.7 1336928 python
+@ash10 PS 4096104  0.0  2132 timeout
+@ash10 PS 4096106 99.8 1355924 python
+@ash10 PS 4096393  0.0 11028 python
+@ash10 PS 4096394  0.0 11028 python
+@ash10 PS 4096395  0.0 11056 python
+@ash10 PS 4096396  0.0 11136 python
+@ash10 PS 4096397 47.9 795104 python
+@ash10 PS 4096398 48.1 794536 python
+@ash10 PS 4096399 48.3 793608 python
+@ash10 PS 4096400 48.6 795280 python
+@ash10 PS 4096401 50.7 795072 python
+@ash10 PS 4096402 48.3 794984 python
+@ash10 PS 4096403 47.2 793252 python
+@ash10 PS 4096404 50.8 795008 python
+@ash10 PS 4096405 47.5 793136 python
+@ash10 PS 4096406 50.2 794828 python
+@ash10 PS 4096407 49.5 794268 python
+@ash10 PS 4096408 47.6 795520 python
+@ash10 SEEN 1785165654

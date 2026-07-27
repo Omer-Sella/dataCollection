@@ -1,0 +1,1636 @@
+labWorker ash34: started collect pid 1842432 (l=3 m=27) Sun 26 Jul 13:36:35 BST 2026
+collectWorker3 ash34: l=3 m=27 workers=2 seed=743380260 stage=1 Sun 26 Jul 13:36:35 BST 2026
+usage: reinforcementLearning.py [-h] [--num-workers NUM_WORKERS]
+                                [--num-cells NUM_CELLS]
+                                [--seed-for-environment SEED_FOR_ENVIRONMENT]
+                                [--lr LR] [--max-grad-norm MAX_GRAD_NORM]
+                                [--eval-rollout-length EVAL_ROLLOUT_LENGTH]
+                                [--scaling-factor SCALING_FACTOR]
+                                [--frames-per-batch FRAMES_PER_BATCH]
+                                [--sub-batch-size SUB_BATCH_SIZE]
+                                [--num-epochs NUM_EPOCHS]
+                                [--clip-epsilon CLIP_EPSILON] [--gamma GAMMA]
+                                [--lmbda LMBDA] [--entropy-eps ENTROPY_EPS]
+                                [--env-reward-engineering {True,False,true,false}]
+                                [--env-minimum-number-of-qubits ENV_MINIMUM_NUMBER_OF_QUBITS]
+                                [--log-name LOG_NAME]
+                                [--env-error-range {linear5,geometric5,geometric7,geometric10,dataCollection}]
+                                [--env-version {qecc/bbcode-v0,qecc/bbcode-ldpc-v0}]
+                                [--env-bit-flipping {True,False,true,false}]
+                                [--env-l {6,9,15,12,30,21}]
+                                [--env-m {3,6,12,18}]
+                                [--env-use-dict-observation {True,False,true,false}]
+                                [--env-number-of-decoder-iterations ENV_NUMBER_OF_DECODER_ITERATIONS]
+                                [--env-number-of-samples ENV_NUMBER_OF_SAMPLES]
+                                [--env-code-logging {true,True,false,False}]
+                                [--model-architecture {mlp,hybrid}]
+                                [--model-surrogate-model-path MODEL_SURROGATE_MODEL_PATH]
+                                [--model-use-pretrained-encoder {True,False,true,false}]
+                                [--index-to-unfreeze-encoder-updates INDEX_TO_UNFREEZE_ENCODER_UPDATES]
+                                [--encoder-lr-factor ENCODER_LR_FACTOR]
+                                [--training-device {cpu,cuda,auto}]
+reinforcementLearning.py: error: argument --env-l: invalid choice: 3 (choose from 6, 9, 15, 12, 30, 21)
+collectWorker3 ash34: ended Sun 26 Jul 13:37:20 BST 2026
+labWorker ash34: collect ended naturally Sun 26 Jul 13:41:35 BST 2026
+labWorker ash34: started collect pid 2077135 (l=3 m=27) Sun 26 Jul 18:22:19 BST 2026
+collectWorker3 ash34: l=3 m=27 workers=2 seed=743380260 stage=1 Sun 26 Jul 18:22:19 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-26_18-23-27_2077150...
+Checking the directory was created: True
+Training begins on:
+2026-07-26 18:23:53 Sunday
+  0%|          | 0/50000000 [00:00<?, ?it/s]Process SpawnProcess-2:
+Traceback (most recent call last):
+Process SpawnProcess-1:
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 122, in decorated_fun
+    return fun(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2027, in step_and_maybe_reset
+    self._wait_for_workers(workers_range)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2154, in _wait_for_workers
+    if all_done:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 123, in decorate_context
+    with ctx_factory():
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 85, in __exit__
+    torch.set_grad_enabled(self.prev)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/autograd/grad_mode.py", line 184, in __init__
+    def __init__(self, mode: bool) -> None:
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 623, in <module>
+    for i, tensordict_data in enumerate(collector):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+    return func(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 252, in decoderEvaluation
+    estimatedErrorZ = bpDecoderHx.decode(self.Hx.dot(errorZ)%2)
+KeyboardInterrupt
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+KeyboardInterrupt
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/collectWorker3.sh: error reading input file: Stale file handle
+labWorker ash34: collect ended naturally Sun 26 Jul 18:27:19 BST 2026
+labWorker ash34: started collect pid 2090433 (l=3 m=27) Sun 26 Jul 18:39:55 BST 2026
+collectWorker3 ash34: l=3 m=27 workers=16 seed=743380260 stage=1 Sun 26 Jul 18:39:55 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-26_18-40-14_2090448...
+Checking the directory was created: True
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+    exitcode = _main(fd, parent_sentinel)
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+    prepare(preparation_data)
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 236, in prepare
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+    _fixup_main_from_path(data['init_main_from_path'])
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    return _run_module_code(code, init_globals, run_name,
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    return _run_module_code(code, init_globals, run_name,
+    _fixup_main_from_path(data['init_main_from_path'])
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    main_content = runpy.run_path(main_path,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 289, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    return _run_module_code(code, init_globals, run_name,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 96, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    _run_code(code, mod_globals, init_globals,
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+    _run_code(code, mod_globals, init_globals,
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/runpy.py", line 86, in _run_code
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    exec(code, run_globals)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 43, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    from tensordict.nn import TensorDictModule
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/__init__.py", line 6, in <module>
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    import tensordict._reductions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_reductions.py", line 11, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+    from tensordict._lazy import LazyStackedTensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_lazy.py", line 38, in <module>
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+    from tensordict._td import _SubTensorDict, _TensorDictKeysView, TensorDict
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_td.py", line 37, in <module>
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+    from tensordict.base import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+    from tensordict.base import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+    from tensordict.base import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/base.py", line 55, in <module>
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict._datasets import to_mds
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/_datasets.py", line 12, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+    from tensordict.utils import is_non_tensor
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    from tensordict.utils import is_non_tensor
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 183, in <module>
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+    _add_batch_dim_c = _import_and_wrap_functorch("_add_batch_dim")
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 174, in _import_and_wrap_functorch
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    func = _wrap_functorch_function(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/tensordict/utils.py", line 119, in _wrap_functorch_function
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    return allow_in_graph(func)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/compiler/__init__.py", line 147, in allow_in_graph
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+    import torch._dynamo
+    import torch._dynamo
+    import torch._dynamo
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+    import torch._dynamo
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    import torch._dynamo
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    from . import (
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/aot_compile.py", line 14, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.convert_frame import GraphRuntimeEnv
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/convert_frame.py", line 60, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from torch._dynamo.symbolic_convert import TensorifyState
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/symbolic_convert.py", line 59, in <module>
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+    from . import (
+    from . import (
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+    from . import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/trace_rules.py", line 59, in <module>
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+    from .variables import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+    from .variables import (
+    from .variables import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+    from .variables import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+    from .variables import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/__init__.py", line 19, in <module>
+    from .base import VariableTracker
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from .base import VariableTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/base.py", line 824, in <module>
+    from . import builder
+    from . import builder
+    from . import builder
+    from . import builder
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from . import builder
+    from . import builder
+    from . import builder
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from . import builder
+    from . import builder
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from . import builder
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from . import builder
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/builder.py", line 100, in <module>
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+    from ..side_effects import SideEffects
+    from ..side_effects import SideEffects
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+    from ..side_effects import SideEffects
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/side_effects.py", line 43, in <module>
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+    from .codegen import PyCodegen
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+    from .codegen import PyCodegen
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/codegen.py", line 50, in <module>
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+    from .variables.tensor import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+    from .variables.tensor import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+    from .variables.tensor import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/variables/tensor.py", line 35, in <module>
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+    from torch._dynamo import compiled_autograd
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+    from torch._dynamo import compiled_autograd
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+    from torch._dynamo import compiled_autograd
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_dynamo/compiled_autograd.py", line 43, in <module>
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 49, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+    from torch._functorch._aot_autograd.runtime_wrappers import (
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/runtime_wrappers.py", line 59, in <module>
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .collect_metadata_analysis import run_functionalized_fw_and_collect_metadata
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 39, in <module>
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 73, in <module>
+    from .graph_capture_wrappers import aot_dispatch_subclass
+    from .graph_capture_wrappers import aot_dispatch_subclass
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/collect_metadata_analysis.py", line 58, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 25, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 73, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 73, in <module>
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+    from .graph_capture_wrappers import aot_dispatch_subclass
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_functorch/_aot_autograd/graph_capture_wrappers.py", line 73, in <module>
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+KeyboardInterrupt
+KeyboardInterrupt
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from torch.nn.utils import stateless
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from .logging_utils import setup_stacktrace_preservation_hooks
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+    from .logging_utils import setup_stacktrace_preservation_hooks
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+    from torch._decomp.decompositions_for_rng import PhiloxStateTracker
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/decompositions_for_rng.py", line 227, in <module>
+    from .logging_utils import setup_stacktrace_preservation_hooks
+    from .logging_utils import setup_stacktrace_preservation_hooks
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/decompositions_for_rng.py", line 259, in <module>
+  File "<frozen importlib._bootstrap>", line 1053, in _handle_fromlist
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/decompositions_for_rng.py", line 227, in <module>
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/decompositions_for_rng.py", line 227, in <module>
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/decompositions_for_rng.py", line 227, in <module>
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+KeyboardInterrupt
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap>", line 945, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1010, in get_code
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1439, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap>", line 244, in _verbose_message
+  File "<frozen importlib._bootstrap_external>", line 1577, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1411, in _get_spec
+KeyboardInterrupt
+KeyboardInterrupt
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 1577, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1577, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1577, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+KeyboardInterrupt
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 161, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 153, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+    from .subclass_utils import create_subclass_meta
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt
+    extra_random_decomps = get_decompositions(
+    extra_random_decomps = get_decompositions(
+    def bernoulli_p(self, p=0.5, *, generator=None):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 246, in get_decompositions
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 246, in get_decompositions
+    extra_random_decomps = get_decompositions(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 218, in decomposition_decorator
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 246, in get_decompositions
+    extra_random_decomps = get_decompositions(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 246, in get_decompositions
+    pytree.tree_map_(register, aten_op)
+    packets_to_overloads[opo.overloadpacket].append(opo)
+    packets_to_overloads[opo.overloadpacket].append(opo)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_ops.py", line 1127, in __hash__
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_pytree.py", line 1569, in tree_map_
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_ops.py", line 1127, in __hash__
+    packets_to_overloads[opo.overloadpacket].append(opo)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_ops.py", line 1126, in __hash__
+    packets_to_overloads[opo.overloadpacket].append(opo)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_ops.py", line 1127, in __hash__
+    deque(map(func, *flat_args), maxlen=0)  # consume and exhaust the iterable
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 215, in register
+    _add_op_to_registry(registry, op, fn)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 72, in _add_op_to_registry
+    if isinstance(op, HigherOrderOperator):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/abc.py", line 119, in __instancecheck__
+    return _abc_instancecheck(cls, instance)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/abc.py", line 123, in __subclasscheck__
+    return _abc_subclasscheck(cls, subclass)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/abc.py", line 123, in __subclasscheck__
+    return _abc_subclasscheck(cls, subclass)
+KeyboardInterrupt
+    return hash(self._op)
+    return hash(self._op)
+    return hash(self._op)
+    def __hash__(self):
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+KeyboardInterrupt
+collectWorker3 ash34: ended Sun 26 Jul 18:40:32 BST 2026
+labWorker ash34: collect ended naturally Sun 26 Jul 18:44:55 BST 2026
+labWorker ash34: started collect pid 2102663 (l=3 m=27) Sun 26 Jul 18:54:57 BST 2026
+collectWorker3 ash34: l=3 m=27 workers=16 seed=743380260 stage=1 Sun 26 Jul 18:55:13 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-26_18-55-37_2102883...
+Checking the directory was created: True
+Training begins on:
+2026-07-26 18:55:59 Sunday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-26 18:57:58,989 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 512/50000000 [02:28<4020:52:08,  3.45it/s]  0%|          | 1024/50000000 [05:47<4836:57:02,  2.87it/s]  0%|          | 1536/50000000 [09:08<5111:22:13,  2.72it/s]  0%|          | 2048/50000000 [12:28<5235:56:28,  2.65it/s]  0%|          | 2560/50000000 [15:54<5369:35:56,  2.59it/s]  0%|          | 3072/50000000 [19:18<5420:26:57,  2.56it/s]  0%|          | 3584/50000000 [22:54<5567:32:59,  2.49it/s]  0%|          | 4096/50000000 [26:12<5506:57:32,  2.52it/s]  0%|          | 4608/50000000 [29:44<5580:44:06,  2.49it/s]  0%|          | 5120/50000000 [33:10<5583:52:01,  2.49it/s]  0%|          | 5632/50000000 [36:47<5671:55:55,  2.45it/s]  0%|          | 6144/50000000 [40:20<5707:49:35,  2.43it/s]  0%|          | 6656/50000000 [43:49<5696:18:41,  2.44it/s]  0%|          | 7168/50000000 [47:16<5667:21:11,  2.45it/s]  0%|          | 7680/50000000 [50:40<5629:43:40,  2.47it/s]  0%|          | 8192/50000000 [54:07<5624:36:00,  2.47it/s]  0%|          | 8704/50000000 [57:20<5510:04:19,  2.52it/s]  0%|          | 9216/50000000 [1:00:33<5419:31:15,  2.56it/s]  0%|          | 9728/50000000 [1:03:48<5386:47:58,  2.58it/s]  0%|          | 10240/50000000 [1:07:17<5465:43:16,  2.54it/s]  0%|          | 10752/50000000 [1:10:35<5437:08:07,  2.55it/s]  0%|          | 11264/50000000 [1:14:12<5570:31:26,  2.49it/s]  0%|          | 11776/50000000 [1:17:37<5571:54:44,  2.49it/s]  0%|          | 12288/50000000 [1:21:05<5588:57:31,  2.48it/s]  0%|          | 12800/50000000 [1:24:30<5584:21:33,  2.49it/s]  0%|          | 13312/50000000 [1:27:51<5540:26:12,  2.51it/s]  0%|          | 13824/50000000 [1:31:10<5497:42:34,  2.53it/s]  0%|          | 14336/50000000 [1:34:22<5412:51:10,  2.57it/s]  0%|          | 14848/50000000 [1:37:38<5386:01:07,  2.58it/s]  0%|          | 15360/50000000 [1:41:05<5455:02:23,  2.55it/s]  0%|          | 15872/50000000 [1:44:28<5462:04:13,  2.54it/s]  0%|          | 16384/50000000 [1:48:02<5568:04:33,  2.49it/s]  0%|          | 16896/50000000 [1:51:44<5707:46:46,  2.43it/s]  0%|          | 17408/50000000 [1:55:17<5725:26:06,  2.42it/s]  0%|          | 17920/50000000 [1:58:48<5725:01:32,  2.43it/s]  0%|          | 18432/50000000 [2:02:07<5625:16:14,  2.47it/s]  0%|          | 18944/50000000 [2:05:27<5563:57:44,  2.50it/s]  0%|          | 19456/50000000 [2:08:37<5442:32:04,  2.55it/s]  0%|          | 19968/50000000 [2:11:56<5425:03:18,  2.56it/s]  0%|          | 20480/50000000 [2:15:24<5489:22:29,  2.53it/s]  0%|          | 20992/50000000 [2:19:00<5597:18:49,  2.48it/s]  0%|          | 21504/50000000 [2:22:39<5705:31:51,  2.43it/s]  0%|          | 22016/50000000 [2:26:02<5643:53:53,  2.46it/s]  0%|          | 22528/50000000 [2:29:42<5741:56:12,  2.42it/s]  0%|          | 23040/50000000 [2:33:15<5752:24:09,  2.41it/s]  0%|          | 23552/50000000 [2:36:46<5739:15:28,  2.42it/s]  0%|          | 24064/50000000 [2:40:03<5619:39:27,  2.47it/s]  0%|          | 24576/50000000 [2:43:20<5539:11:10,  2.51it/s]  0%|          | 25088/50000000 [2:46:54<5613:27:14,  2.47it/s]  0%|          | 25600/50000000 [2:50:11<5532:28:21,  2.51it/s]  0%|          | 26112/50000000 [2:53:42<5587:43:35,  2.48it/s]  0%|          | 26624/50000000 [2:57:38<5834:39:12,  2.38it/s]  0%|          | 27136/50000000 [3:01:12<5820:23:20,  2.38it/s]  0%|          | 27648/50000000 [3:04:34<5723:21:15,  2.43it/s]  0%|          | 28160/50000000 [3:08:06<5724:51:12,  2.42it/s]  0%|          | 28672/50000000 [3:11:34<5700:11:06,  2.44it/s]  0%|          | 29184/50000000 [3:14:53<5614:18:35,  2.47it/s]  0%|          | 29696/50000000 [3:18:23<5633:11:51,  2.46it/s]  0%|          | 30208/50000000 [3:21:49<5617:37:29,  2.47it/s]  0%|          | 30720/50000000 [3:25:19<5645:45:16,  2.46it/s]  0%|          | 31232/50000000 [3:28:41<5590:55:52,  2.48it/s]  0%|          | 31744/50000000 [3:32:08<5600:53:38,  2.48it/s]  0%|          | 32256/50000000 [3:35:29<5554:58:01,  2.50it/s]  0%|          | 32768/50000000 [3:39:07<5659:09:04,  2.45it/s]  0%|          | 33280/50000000 [3:42:35<5648:52:50,  2.46it/s]  0%|          | 33792/50000000 [3:46:01<5634:09:22,  2.46it/s]  0%|          | 34304/50000000 [3:49:42<5741:15:26,  2.42it/s]  0%|          | 34816/50000000 [3:53:11<5717:25:58,  2.43it/s]  0%|          | 35328/50000000 [3:56:42<5720:25:45,  2.43it/s]  0%|          | 35840/50000000 [4:00:12<5708:16:16,  2.43it/s]  0%|          | 36352/50000000 [4:03:46<5735:01:31,  2.42it/s]  0%|          | 36864/50000000 [4:07:32<5853:00:25,  2.37it/s]  0%|          | 37376/50000000 [4:11:01<5800:32:41,  2.39it/s]  0%|          | 37888/50000000 [4:14:34<5792:41:51,  2.40it/s]  0%|          | 38400/50000000 [4:17:55<5688:03:27,  2.44it/s]  0%|          | 38912/50000000 [4:21:11<5570:58:09,  2.49it/s]  0%|          | 39424/50000000 [4:24:35<5564:04:45,  2.49it/s]  0%|          | 39936/50000000 [4:27:55<5515:58:14,  2.52it/s]  0%|          | 40448/50000000 [4:31:15<5486:41:09,  2.53it/s]  0%|          | 40960/50000000 [4:34:34<5465:00:37,  2.54it/s]  0%|          | 41472/50000000 [4:37:47<5393:23:53,  2.57it/s]  0%|          | 41984/50000000 [4:41:16<5470:46:28,  2.54it/s]  0%|          | 42496/50000000 [4:44:46<5542:18:30,  2.50it/s]  0%|          | 43008/50000000 [4:48:14<5568:25:44,  2.49it/s]  0%|          | 43520/50000000 [4:51:57<5712:08:44,  2.43it/s]  0%|          | 44032/50000000 [4:55:25<5687:23:08,  2.44it/s]  0%|          | 44544/50000000 [4:58:49<5644:02:33,  2.46it/s]  0%|          | 45056/50000000 [5:02:14<5616:45:10,  2.47it/s]  0%|          | 45568/50000000 [5:05:42<5617:47:54,  2.47it/s]  0%|          | 46080/50000000 [5:09:11<5631:42:35,  2.46it/s]  0%|          | 46592/50000000 [5:12:34<5597:49:52,  2.48it/s]  0%|          | 47104/50000000 [5:15:53<5529:56:24,  2.51it/s]  0%|          | 47616/50000000 [5:19:13<5499:13:36,  2.52it/s]  0%|          | 48128/50000000 [5:22:46<5581:13:21,  2.49it/s]  0%|          | 48640/50000000 [5:26:06<5534:42:23,  2.51it/s]  0%|          | 49152/50000000 [5:29:30<5535:33:27,  2.51it/s]  0%|          | 49664/50000000 [5:33:09<5651:10:03,  2.46it/s]  0%|          | 50176/50000000 [5:36:45<5712:39:28,  2.43it/s]  0%|          | 50688/50000000 [5:40:04<5618:48:34,  2.47it/s]  0%|          | 51200/50000000 [5:43:24<5552:27:58,  2.50it/s]  0%|          | 51712/50000000 [5:46:47<5541:23:38,  2.50it/s]  0%|          | 52224/50000000 [5:50:35<5729:23:19,  2.42it/s]  0%|          | 52736/50000000 [5:54:12<5773:41:04,  2.40it/s]  0%|          | 53248/50000000 [5:57:35<5693:04:46,  2.44it/s]  0%|          | 53760/50000000 [6:01:05<5691:27:08,  2.44it/s]  0%|          | 54272/50000000 [6:04:26<5618:30:45,  2.47it/s]  0%|          | 54784/50000000 [6:08:03<5701:12:38,  2.43it/s]  0%|          | 55296/50000000 [6:11:25<5629:02:07,  2.46it/s]  0%|          | 55808/50000000 [6:14:43<5550:51:47,  2.50it/s]  0%|          | 56320/50000000 [6:18:03<5508:49:12,  2.52it/s]  0%|          | 56832/50000000 [6:21:27<5515:05:34,  2.52it/s]  0%|          | 57344/50000000 [6:24:51<5518:47:51,  2.51it/s]  0%|          | 57856/50000000 [6:28:16<5533:41:27,  2.51it/s]  0%|          | 58368/50000000 [6:31:46<5576:58:56,  2.49it/s]  0%|          | 58880/50000000 [6:35:11<5572:31:59,  2.49it/s]  0%|          | 59392/50000000 [6:38:41<5607:01:09,  2.47it/s]  0%|          | 59904/50000000 [6:42:03<5570:42:18,  2.49it/s]  0%|          | 60416/50000000 [6:45:31<5584:10:49,  2.48it/s]  0%|          | 60928/50000000 [6:49:00<5612:08:21,  2.47it/s]  0%|          | 61440/50000000 [6:52:34<5668:24:44,  2.45it/s]  0%|          | 61952/50000000 [6:55:58<5621:38:21,  2.47it/s]  0%|          | 62464/50000000 [6:59:27<5634:54:13,  2.46it/s]  0%|          | 62976/50000000 [7:02:44<5547:53:21,  2.50it/s]  0%|          | 63488/50000000 [7:06:10<5559:18:39,  2.50it/s]  0%|          | 64000/50000000 [7:09:38<5576:58:56,  2.49it/s]  0%|          | 64512/50000000 [7:13:06<5597:26:02,  2.48it/s]  0%|          | 65024/50000000 [7:16:32<5588:04:42,  2.48it/s]  0%|          | 65536/50000000 [7:20:02<5617:24:41,  2.47it/s]  0%|          | 66048/50000000 [7:23:50<5789:25:17,  2.40it/s]  0%|          | 66560/50000000 [7:27:13<5702:31:47,  2.43it/s]  0%|          | 67072/50000000 [7:30:26<5558:57:23,  2.50it/s]  0%|          | 67584/50000000 [7:34:16<5765:14:04,  2.41it/s]  0%|          | 68096/50000000 [7:37:45<5727:00:37,  2.42it/s]  0%|          | 68608/50000000 [7:41:27<5812:22:33,  2.39it/s]  0%|          | 69120/50000000 [7:45:00<5803:16:29,  2.39it/s]  0%|          | 69632/50000000 [7:48:18<5668:32:31,  2.45it/s]  0%|          | 70144/50000000 [7:51:53<5714:30:42,  2.43it/s]  0%|          | 70656/50000000 [7:55:21<5690:07:17,  2.44it/s]  0%|          | 71168/50000000 [7:58:53<5712:19:43,  2.43it/s]  0%|          | 71680/50000000 [8:02:32<5775:22:51,  2.40it/s]  0%|          | 72192/50000000 [8:05:59<5728:10:17,  2.42it/s]  0%|          | 72704/50000000 [8:09:31<5732:48:37,  2.42it/s]  0%|          | 73216/50000000 [8:12:53<5654:41:07,  2.45it/s]  0%|          | 73728/50000000 [8:16:18<5621:14:56,  2.47it/s]  0%|          | 74240/50000000 [8:19:50<5660:19:00,  2.45it/s]  0%|          | 74752/50000000 [8:23:19<5655:32:19,  2.45it/s]  0%|          | 75264/50000000 [8:26:51<5683:14:10,  2.44it/s]  0%|          | 75776/50000000 [8:30:11<5604:39:12,  2.47it/s]  0%|          | 76288/50000000 [8:33:39<5613:41:58,  2.47it/s]  0%|          | 76800/50000000 [8:37:12<5661:10:16,  2.45it/s]  0%|          | 77312/50000000 [8:40:32<5586:05:21,  2.48it/s]  0%|          | 77824/50000000 [8:43:56<5567:22:15,  2.49it/s]  0%|          | 78336/50000000 [8:47:36<5680:44:52,  2.44it/s]  0%|          | 78848/50000000 [8:51:02<5655:02:47,  2.45it/s]  0%|          | 79360/50000000 [8:54:39<5719:40:58,  2.42it/s]  0%|          | 79872/50000000 [8:58:13<5741:28:18,  2.42it/s]  0%|          | 80384/50000000 [9:01:38<5689:55:56,  2.44it/s]  0%|          | 80896/50000000 [9:04:59<5608:54:41,  2.47it/s]  0%|          | 81408/50000000 [9:08:27<5616:14:41,  2.47it/s]  0%|          | 81920/50000000 [9:11:52<5599:58:42,  2.48it/s]  0%|          | 82432/50000000 [9:15:24<5639:08:49,  2.46it/s]  0%|          | 82944/50000000 [9:18:50<5621:47:18,  2.47it/s]  0%|          | 83456/50000000 [9:22:14<5595:57:31,  2.48it/s]  0%|          | 83968/50000000 [9:25:38<5574:37:50,  2.49it/s]  0%|          | 84480/50000000 [9:29:00<5545:42:46,  2.50it/s]  0%|          | 84992/50000000 [9:32:15<5466:27:32,  2.54it/s]  0%|          | 85504/50000000 [9:35:35<5450:06:58,  2.54it/s]  0%|          | 86016/50000000 [9:39:02<5491:00:23,  2.53it/s]  0%|          | 86528/50000000 [9:42:23<5483:22:59,  2.53it/s]  0%|          | 87040/50000000 [9:45:39<5428:29:31,  2.55it/s]  0%|          | 87552/50000000 [9:48:59<5419:29:58,  2.56it/s]  0%|          | 88064/50000000 [9:52:34<5540:58:35,  2.50it/s]  0%|          | 88576/50000000 [9:56:05<5598:51:07,  2.48it/s]  0%|          | 89088/50000000 [9:59:37<5642:11:00,  2.46it/s]  0%|          | 89600/50000000 [10:02:58<5581:09:59,  2.48it/s]  0%|          | 90112/50000000 [10:06:29<5616:29:36,  2.47it/s]  0%|          | 90624/50000000 [10:09:46<5529:08:48,  2.51it/s]  0%|          | 91136/50000000 [10:13:17<5584:52:19,  2.48it/s]  0%|          | 91648/50000000 [10:16:48<5624:09:28,  2.46it/s]  0%|          | 92160/50000000 [10:20:19<5656:19:30,  2.45it/s]  0%|          | 92672/50000000 [10:23:46<5635:34:52,  2.46it/s]  0%|          | 93184/50000000 [10:27:20<5687:56:16,  2.44it/s]  0%|          | 93696/50000000 [10:30:32<5539:00:59,  2.50it/s]  0%|          | 94208/50000000 [10:33:50<5489:15:28,  2.53it/s]  0%|          | 94720/50000000 [10:37:22<5559:03:35,  2.49it/s]  0%|          | 95232/50000000 [10:40:46<5546:01:56,  2.50it/s]  0%|          | 95744/50000000 [10:44:17<5595:44:07,  2.48it/s]  0%|          | 96256/50000000 [10:47:35<5525:13:25,  2.51it/s]  0%|          | 96768/50000000 [10:50:57<5508:57:29,  2.52it/s]  0%|          | 97280/50000000 [10:54:28<5571:23:28,  2.49it/s]  0%|          | 97792/50000000 [10:57:55<5581:50:07,  2.48it/s]  0%|          | 98304/50000000 [11:01:57<5872:09:38,  2.36it/s]  0%|          | 98816/50000000 [11:05:18<5741:32:31,  2.41it/s]  0%|          | 99328/50000000 [11:08:52<5760:00:55,  2.41it/s]  0%|          | 99840/50000000 [11:12:14<5673:44:18,  2.44it/s]  0%|          | 100352/50000000 [11:15:36<5615:14:31,  2.47it/s]  0%|          | 100864/50000000 [11:19:07<5638:50:35,  2.46it/s]  0%|          | 101376/50000000 [11:22:35<5638:27:55,  2.46it/s]  0%|          | 101888/50000000 [11:25:59<5600:35:08,  2.47it/s]  0%|          | 102400/50000000 [11:29:16<5524:35:20,  2.51it/s]  0%|          | 102912/50000000 [11:32:37<5495:46:20,  2.52it/s]  0%|          | 103424/50000000 [11:36:38<5809:11:20,  2.39it/s]  0%|          | 103936/50000000 [11:40:08<5771:37:47,  2.40it/s]  0%|          | 104448/50000000 [11:43:34<5713:23:30,  2.43it/s]  0%|          | 104960/50000000 [11:47:02<5686:08:11,  2.44it/s]  0%|          | 105472/50000000 [11:50:16<5553:40:09,  2.50it/s]  0%|          | 105984/50000000 [11:53:34<5498:26:06,  2.52it/s]  0%|          | 106496/50000000 [11:56:53<5464:45:57,  2.54it/s]  0%|          | 107008/50000000 [12:00:36<5631:10:16,  2.46it/s]  0%|          | 107520/50000000 [12:04:13<5710:52:41,  2.43it/s]  0%|          | 108032/50000000 [12:07:42<5691:56:56,  2.43it/s]  0%|          | 108544/50000000 [12:11:37<5893:01:53,  2.35it/s]  0%|          | 109056/50000000 [12:15:03<5800:31:27,  2.39it/s]  0%|          | 109568/50000000 [12:18:28<5721:47:58,  2.42it/s]  0%|          | 110080/50000000 [12:21:55<5683:48:37,  2.44it/s]  0%|          | 110592/50000000 [12:25:25<5688:52:11,  2.44it/s]  0%|          | 111104/50000000 [12:28:45<5600:55:01,  2.47it/s]  0%|          | 111616/50000000 [12:32:13<5608:35:00,  2.47it/s]  0%|          | 112128/50000000 [12:35:32<5545:44:09,  2.50it/s]  0%|          | 112640/50000000 [12:38:54<5521:15:58,  2.51it/s]  0%|          | 113152/50000000 [12:42:28<5605:30:05,  2.47it/s]  0%|          | 113664/50000000 [12:46:01<5650:04:48,  2.45it/s]  0%|          | 114176/50000000 [12:49:24<5601:45:14,  2.47it/s]  0%|          | 114688/50000000 [12:52:50<5595:49:53,  2.48it/s]  0%|          | 115200/50000000 [12:56:18<5604:09:41,  2.47it/s]  0%|          | 115712/50000000 [12:59:53<5668:23:14,  2.44it/s]  0%|          | 116224/50000000 [13:03:21<5661:14:19,  2.45it/s]  0%|          | 116736/50000000 [13:06:46<5624:29:26,  2.46it/s]  0%|          | 117248/50000000 [13:10:16<5639:49:41,  2.46it/s]  0%|          | 117760/50000000 [13:13:35<5567:21:15,  2.49it/s]  0%|          | 118272/50000000 [13:16:52<5490:36:00,  2.52it/s]  0%|          | 118784/50000000 [13:20:26<5587:40:17,  2.48it/s]  0%|          | 119296/50000000 [13:23:48<5546:43:54,  2.50it/s]  0%|          | 119808/50000000 [13:27:14<5553:51:46,  2.49it/s]  0%|          | 120320/50000000 [13:30:52<5656:47:28,  2.45it/s]  0%|          | 120832/50000000 [13:34:18<5638:09:42,  2.46it/s]  0%|          | 121344/50000000 [13:38:10<5829:23:48,  2.38it/s]  0%|          | 121856/50000000 [13:41:37<5757:41:14,  2.41it/s]  0%|          | 122368/50000000 [13:45:06<5726:02:19,  2.42it/s]  0%|          | 122880/50000000 [13:48:27<5645:08:03,  2.45it/s]  0%|          | 123392/50000000 [13:51:58<5662:09:08,  2.45it/s]  0%|          | 123904/50000000 [13:55:20<5604:59:50,  2.47it/s]  0%|          | 124416/50000000 [13:58:48<5609:13:13,  2.47it/s]  0%|          | 124928/50000000 [14:02:16<5612:28:33,  2.47it/s]  0%|          | 125440/50000000 [14:05:40<5585:26:00,  2.48it/s]  0%|          | 125952/50000000 [14:09:01<5542:18:27,  2.50it/s]  0%|          | 126464/50000000 [14:12:27<5554:00:01,  2.49it/s]  0%|          | 126976/50000000 [14:16:05<5655:34:52,  2.45it/s]  0%|          | 127488/50000000 [14:19:11<5472:52:07,  2.53it/s]  0%|          | 128000/50000000 [14:22:48<5591:33:38,  2.48it/s]  0%|          | 128512/50000000 [14:26:10<5547:08:06,  2.50it/s]  0%|          | 129024/50000000 [14:29:31<5519:07:40,  2.51it/s]  0%|          | 129536/50000000 [14:33:00<5555:18:25,  2.49it/s]  0%|          | 130048/50000000 [14:36:26<5566:21:23,  2.49it/s]  0%|          | 130560/50000000 [14:40:00<5635:15:43,  2.46it/s]  0%|          | 131072/50000000 [14:43:41<5733:39:23,  2.42it/s]  0%|          | 131584/50000000 [14:47:10<5707:15:20,  2.43it/s]  0%|          | 132096/50000000 [14:50:34<5656:45:49,  2.45it/s]  0%|          | 132608/50000000 [14:54:10<5708:44:51,  2.43it/s]  0%|          | 133120/50000000 [14:57:38<5687:27:32,  2.44it/s]  0%|          | 133632/50000000 [15:01:00<5617:15:08,  2.47it/s]  0%|          | 134144/50000000 [15:04:23<5584:34:53,  2.48it/s]  0%|          | 134656/50000000 [15:07:46<5550:17:01,  2.50it/s]  0%|          | 135168/50000000 [15:11:08<5527:38:43,  2.51it/s]  0%|          | 135680/50000000 [15:14:34<5543:04:22,  2.50it/s]  0%|          | 136192/50000000 [15:17:51<5479:48:35,  2.53it/s]  0%|          | 136704/50000000 [15:21:21<5536:19:43,  2.50it/s]  0%|          | 137216/50000000 [15:24:52<5586:05:03,  2.48it/s]  0%|          | 137728/50000000 [15:28:13<5544:25:21,  2.50it/s]  0%|          | 138240/50000000 [15:31:46<5611:30:33,  2.47it/s]  0%|          | 138752/50000000 [15:35:24<5696:58:11,  2.43it/s]  0%|          | 139264/50000000 [15:39:06<5789:17:34,  2.39it/s]  0%|          | 139776/50000000 [15:42:30<5707:59:53,  2.43it/s]  0%|          | 140288/50000000 [15:45:54<5646:10:54,  2.45it/s]  0%|          | 140800/50000000 [15:49:11<5557:21:36,  2.49it/s]  0%|          | 141312/50000000 [15:52:44<5613:13:57,  2.47it/s]  0%|          | 141824/50000000 [15:56:14<5632:55:22,  2.46it/s]  0%|          | 142336/50000000 [15:59:48<5685:30:13,  2.44it/s]  0%|          | 142848/50000000 [16:03:16<5666:51:48,  2.44it/s]  0%|          | 143360/50000000 [16:06:34<5574:58:40,  2.48it/s]  0%|          | 143872/50000000 [16:09:53<5512:17:05,  2.51it/s]  0%|          | 144384/50000000 [16:13:27<5595:29:05,  2.47it/s]  0%|          | 144896/50000000 [16:16:42<5499:26:22,  2.52it/s]  0%|          | 145408/50000000 [16:20:02<5470:57:04,  2.53it/s]  0%|          | 145920/50000000 [16:23:27<5493:40:38,  2.52it/s]  0%|          | 146432/50000000 [16:26:47<5473:23:47,  2.53it/s]  0%|          | 146944/50000000 [16:30:04<5423:26:47,  2.55it/s]  0%|          | 147456/50000000 [16:33:34<5502:04:24,  2.52it/s]  0%|          | 147968/50000000 [16:36:56<5487:20:47,  2.52it/s]  0%|          | 148480/50000000 [16:40:12<5437:57:10,  2.55it/s]  0%|          | 148992/50000000 [16:43:34<5445:49:32,  2.54it/s]  0%|          | 149504/50000000 [16:47:09<5551:43:30,  2.49it/s]  0%|          | 150016/50000000 [16:50:29<5507:56:45,  2.51it/s]  0%|          | 150528/50000000 [16:53:56<5538:50:28,  2.50it/s]  0%|          | 151040/50000000 [16:57:21<5539:29:19,  2.50it/s]  0%|          | 151552/50000000 [17:00:46<5538:48:04,  2.50it/s]Process SpawnProcess-13:
+Process SpawnProcess-15:
+Process SpawnProcess-11:
+Process SpawnProcess-16:
+Process SpawnProcess-12:
+Process SpawnProcess-14:
+Process SpawnProcess-9:
+Process SpawnProcess-10:
+Process SpawnProcess-5:
+Process SpawnProcess-6:
+Process SpawnProcess-7:
+
+Process SpawnProcess-3:
+
+During handling of the above exception, another exception occurred:
+
+Process SpawnProcess-2:
+Traceback (most recent call last):
+Process SpawnProcess-1:
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 623, in <module>
+Process SpawnProcess-4:
+Process SpawnProcess-8:
+    for i, tensordict_data in enumerate(collector):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    return func(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/collectWorker3.sh: error reading input file: Stale file handle
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/labCollectWorker3.sh: error reading input file: Stale file handle
+labWorker ash34: started collect pid 2919647 (l=3 m=27) Mon 27 Jul 12:13:23 BST 2026
+collectWorker4 ash34: l=3 m=27 procs=4 x envs=3 cores=16 stage=1 Mon 27 Jul 12:13:23 BST 2026
+collectWorker4 ash34: launched pids: 2919662 2919681 2919719 2919740

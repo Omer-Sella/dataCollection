@@ -1,39 +1,51 @@
-@gpu15 CPU 8 2.05
-@gpu15 MEM 32011 4772
-@gpu15 GPU 0, 82, 8192
-@gpu15 PS   65841  0.0  7152 sshd
-@gpu15 PS   65842  0.0  3660 bash
-@gpu15 PS   65852  0.0  4612 ps
-@gpu15 PS   65853  0.0  2344 sed
-@gpu15 PS 3210805  0.0 11876 systemd
-@gpu15 PS 3210808  0.0  3424 (sd-pam)
-@gpu15 PS 3210824  0.0  8956 pipewire
-@gpu15 PS 3210828  0.0  6156 pipewire
-@gpu15 PS 3210830  0.0 15988 wireplumber
-@gpu15 PS 3210845  0.0 10768 pipewire-pulse
-@gpu15 PS 3210868  0.0  4572 dbus-daemon
-@gpu15 PS 3210876  0.0  1548 ssh-agent
-@gpu15 PS 3211371  0.0  1544 ssh-agent
-@gpu15 PS 3232503  0.0  1548 ssh-agent
-@gpu15 PS 3285455  0.0  1540 ssh-agent
-@gpu15 PS 3287679  0.0  1536 ssh-agent
-@gpu15 PS 3292505  0.0  1544 ssh-agent
-@gpu15 PS 3296486  0.0  1544 ssh-agent
-@gpu15 PS 3306906  0.0  1544 ssh-agent
-@gpu15 PS 3310784  0.0  1540 ssh-agent
-@gpu15 PS 3315511  0.0  1540 ssh-agent
-@gpu15 PS 3332391  0.0  1504 ssh-agent
-@gpu15 PS 3359727  0.0  1544 ssh-agent
-@gpu15 PS 3364926  0.0  1544 ssh-agent
-@gpu15 PS 3365275  0.0  1540 ssh-agent
-@gpu15 PS 3378939  0.0  1548 ssh-agent
-@gpu15 PS 3379760  0.0  1540 ssh-agent
-@gpu15 PS 3406894  0.0  1540 ssh-agent
-@gpu15 PS 3417632  0.0  1544 ssh-agent
-@gpu15 PS 3419215  0.0  1544 ssh-agent
-@gpu15 PS 3420044  0.0  2144 timeout
-@gpu15 PS 3420621 98.6 2708788 python
-@gpu15 PS 3426873  0.0 11104 python
-@gpu15 PS 3426885 50.1 846148 python
-@gpu15 PS 3426886 57.7 842428 python
-@gpu15 SEEN 1785004304
+@gpu15 CPU 8 5.46
+@gpu15 MEM 32011 5560
+@gpu15 GPU 0, 80, 8192
+@gpu15 PS 1166642  0.0  1916 bash
+@gpu15 PS 1990091  0.0  3712 bash
+@gpu15 PS 1990099  0.0  2112 bash
+@gpu15 PS 1990104  0.0  2140 timeout
+@gpu15 PS 1990106 99.3 1220796 python
+@gpu15 PS 1990141  0.0  2144 timeout
+@gpu15 PS 1990143 99.3 1222452 python
+@gpu15 PS 1990705  0.0 11032 python
+@gpu15 PS 1990706  0.0 11036 python
+@gpu15 PS 1990707 47.6 786232 python
+@gpu15 PS 1990708 47.2 787688 python
+@gpu15 PS 1990709 47.9 786560 python
+@gpu15 PS 1990710 46.1 787580 python
+@gpu15 PS 1990711 47.2 784744 python
+@gpu15 PS 1990712 47.2 785820 python
+@gpu15 PS 2187570  0.0  2088 sleep
+@gpu15 PS 2189239  0.0  2092 sleep
+@gpu15 PS 2193630  0.0  7076 sshd
+@gpu15 PS 2193631  0.0  3656 bash
+@gpu15 PS 2193652  100  4628 ps
+@gpu15 PS 2193653  0.0  2340 sed
+@gpu15 PS 3210805  0.0  8200 systemd
+@gpu15 PS 3210808  0.0  1724 (sd-pam)
+@gpu15 PS 3210824  0.0  4688 pipewire
+@gpu15 PS 3210828  0.0  3824 pipewire
+@gpu15 PS 3210830  0.0 10596 wireplumber
+@gpu15 PS 3210845  0.0  6584 pipewire-pulse
+@gpu15 PS 3210868  0.0  3696 dbus-daemon
+@gpu15 PS 3210876  0.0   824 ssh-agent
+@gpu15 PS 3211371  0.0   704 ssh-agent
+@gpu15 PS 3232503  0.0   804 ssh-agent
+@gpu15 PS 3285455  0.0   812 ssh-agent
+@gpu15 PS 3287679  0.0   732 ssh-agent
+@gpu15 PS 3292505  0.0   756 ssh-agent
+@gpu15 PS 3296486  0.0   868 ssh-agent
+@gpu15 PS 3306906  0.0   736 ssh-agent
+@gpu15 PS 3310784  0.0   620 ssh-agent
+@gpu15 PS 3315511  0.0   716 ssh-agent
+@gpu15 PS 3332391  0.0   768 ssh-agent
+@gpu15 PS 3359727  0.0   760 ssh-agent
+@gpu15 PS 3364926  0.0   748 ssh-agent
+@gpu15 PS 3365275  0.0   736 ssh-agent
+@gpu15 PS 3378939  0.0   752 ssh-agent
+@gpu15 PS 3379760  0.0  1024 ssh-agent
+@gpu15 PS 3406894  0.0   672 ssh-agent
+@gpu15 PS 3417632  0.0   688 ssh-agent
+@gpu15 PS 3419215  0.0   688 ssh-agent
+@gpu15 SEEN 1785165639

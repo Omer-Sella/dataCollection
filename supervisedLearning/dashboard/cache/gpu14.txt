@@ -1,35 +1,50 @@
-@gpu14 CPU 8 1.06
-@gpu14 MEM 64219 2896
-@gpu14 GPU 0, 82, 8192
-@gpu14 PS 2590227  0.0 12056 systemd
+@gpu14 CPU 8 5.97
+@gpu14 MEM 64219 7553
+@gpu14 GPU 1, 82, 8192
+@gpu14 PS 1446135  0.0  3656 bash
+@gpu14 PS 1446143  0.0  2160 bash
+@gpu14 PS 1446148  0.0  2136 timeout
+@gpu14 PS 1446150 99.5 1337196 python
+@gpu14 PS 1446173  0.0  2128 timeout
+@gpu14 PS 1446175 99.5 1326584 python
+@gpu14 PS 1446522  0.0 11076 python
+@gpu14 PS 1446523  0.0 11160 python
+@gpu14 PS 1446524 46.3 795056 python
+@gpu14 PS 1446525 48.3 795128 python
+@gpu14 PS 1446526 47.5 794708 python
+@gpu14 PS 1446527 46.9 794568 python
+@gpu14 PS 1446528 48.9 794392 python
+@gpu14 PS 1446529 50.5 794888 python
+@gpu14 PS 1645500  0.0  2084 sleep
+@gpu14 PS 1651800  0.0  7088 sshd
+@gpu14 PS 1651801  0.0  3652 bash
+@gpu14 PS 1651812  0.0  4628 ps
+@gpu14 PS 1651813  0.0  2312 sed
+@gpu14 PS 2590227  0.0 12084 systemd
 @gpu14 PS 2590228  0.0  3420 (sd-pam)
 @gpu14 PS 2590239  0.0  8844 pipewire
 @gpu14 PS 2590240  0.0  6144 pipewire
 @gpu14 PS 2590242  0.0 15916 wireplumber
 @gpu14 PS 2590244  0.0 10720 pipewire-pulse
 @gpu14 PS 2590257  0.0  4540 dbus-daemon
-@gpu14 PS 2590289  0.0  1496 ssh-agent
-@gpu14 PS 2590899  0.0  1500 ssh-agent
-@gpu14 PS 2613643  0.0  1500 ssh-agent
-@gpu14 PS 2668352  0.0  1500 ssh-agent
-@gpu14 PS 2670817  0.0  1496 ssh-agent
-@gpu14 PS 2675786  0.0  1496 ssh-agent
-@gpu14 PS 2679849  0.0  1496 ssh-agent
-@gpu14 PS 2688335  0.0  1496 ssh-agent
-@gpu14 PS 2692282  0.0  1496 ssh-agent
-@gpu14 PS 2697406  0.0  1496 ssh-agent
-@gpu14 PS 2716936  0.0  1496 ssh-agent
-@gpu14 PS 2744359  0.0  1500 ssh-agent
-@gpu14 PS 2750077  0.0  1496 ssh-agent
-@gpu14 PS 2750353  0.0  1492 ssh-agent
-@gpu14 PS 2761044  0.0  1496 ssh-agent
-@gpu14 PS 2763227  0.0  1500 ssh-agent
-@gpu14 PS 2794298  0.0  1496 ssh-agent
-@gpu14 PS 2802781  0.0  1496 ssh-agent
-@gpu14 PS 2805515  0.0  1492 ssh-agent
-@gpu14 PS 2817343  0.0  1496 ssh-agent
-@gpu14 PS 3673049  0.0  7108 sshd
-@gpu14 PS 3673050  0.0  3612 bash
-@gpu14 PS 3673070  0.0  4628 ps
-@gpu14 PS 3673071  0.0  2332 sed
-@gpu14 SEEN 1785004304
+@gpu14 PS 2590289  0.0  1480 ssh-agent
+@gpu14 PS 2590899  0.0  1484 ssh-agent
+@gpu14 PS 2613643  0.0  1484 ssh-agent
+@gpu14 PS 2668352  0.0  1484 ssh-agent
+@gpu14 PS 2670817  0.0  1480 ssh-agent
+@gpu14 PS 2675786  0.0  1480 ssh-agent
+@gpu14 PS 2679849  0.0  1480 ssh-agent
+@gpu14 PS 2688335  0.0  1480 ssh-agent
+@gpu14 PS 2692282  0.0  1480 ssh-agent
+@gpu14 PS 2697406  0.0  1480 ssh-agent
+@gpu14 PS 2716936  0.0  1480 ssh-agent
+@gpu14 PS 2744359  0.0  1484 ssh-agent
+@gpu14 PS 2750077  0.0  1480 ssh-agent
+@gpu14 PS 2750353  0.0  1484 ssh-agent
+@gpu14 PS 2761044  0.0  1480 ssh-agent
+@gpu14 PS 2763227  0.0  1484 ssh-agent
+@gpu14 PS 2794298  0.0  1480 ssh-agent
+@gpu14 PS 2802781  0.0  1480 ssh-agent
+@gpu14 PS 2805515  0.0  1480 ssh-agent
+@gpu14 PS 2817343  0.0  1480 ssh-agent
+@gpu14 SEEN 1785165639

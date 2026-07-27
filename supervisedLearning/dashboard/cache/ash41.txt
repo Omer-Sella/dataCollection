@@ -1,26 +1,43 @@
-@ash41 CPU 16 2.02
-@ash41 MEM 15393 4475
-@ash41 GPU 0, 90, 2048
-@ash41 PS 1087552  0.2 14400 systemd
-@ash41 PS 1087553  0.0  4088 (sd-pam)
-@ash41 PS 1087573  0.0  5288 dbus-daemon
-@ash41 PS 1087574  0.0  8364 pipewire
-@ash41 PS 1087583  0.0  4012 mpris-proxy
-@ash41 PS 1087584  0.0 26560 wireplumber
-@ash41 PS 1087585  0.0  5812 pipewire
-@ash41 PS 1087588  0.0 10936 pipewire-pulse
-@ash41 PS 1087735  0.0  3936 bash
-@ash41 PS 1087771  0.0  3836 bash
-@ash41 PS 1087790  0.0  2056 bash
-@ash41 PS 1087810  0.0  7524 timeout
-@ash41 PS 1087811 91.9 2659496 python
-@ash41 PS 1098975  0.0 11904 python
-@ash41 PS 1098976 65.3 839264 python
-@ash41 PS 1098977 41.8 835952 python
-@ash41 PS 1293732  0.0  7708 sleep
-@ash41 PS 1299095  0.0  7720 sleep
-@ash41 PS 1300742  0.0  8400 sshd-session
-@ash41 PS 1300743  0.0  3928 bash
-@ash41 PS 1300755  100  4708 ps
-@ash41 PS 1300756  0.0  2660 sed
-@ash41 SEEN 1785004325
+@ash41 CPU 16 7.46
+@ash41 MEM 15393 5581
+@ash41 GPU 0, 88, 2048
+@ash41 PS 2330368  0.0  1092 bash
+@ash41 PS 2353802  0.0  1996 bash
+@ash41 PS 3150631  0.0  3004 bash
+@ash41 PS 3150637  0.0  2108 bash
+@ash41 PS 3150647  0.0  1096 bash
+@ash41 PS 3150652  0.0  2208 timeout
+@ash41 PS 3150654 99.7 651228 python
+@ash41 PS 3150673  0.0  2288 timeout
+@ash41 PS 3150675 99.7 633176 python
+@ash41 PS 3150717  0.0  2320 timeout
+@ash41 PS 3150719 99.8 624792 python
+@ash41 PS 3150953  0.0  2072 python
+@ash41 PS 3150954  0.0  2008 python
+@ash41 PS 3150956  0.0  1888 python
+@ash41 PS 3150957 47.7 197004 python
+@ash41 PS 3150959 45.8 175948 python
+@ash41 PS 3150960 48.3 155276 python
+@ash41 PS 3150961 46.2 196776 python
+@ash41 PS 3150963 46.9 188220 python
+@ash41 PS 3150964 47.2 198784 python
+@ash41 PS 3150965 48.7 172880 python
+@ash41 PS 3150967 48.5 195396 python
+@ash41 PS 3150968 49.0 190304 python
+@ash41 PS 3329111  0.0  3060 sleep
+@ash41 PS 3330010  0.0  3056 sleep
+@ash41 PS 3332360  0.4 14108 systemd
+@ash41 PS 3332361  0.0  4124 (sd-pam)
+@ash41 PS 3332381  0.0  5112 dbus-daemon
+@ash41 PS 3332382  0.0  8348 pipewire
+@ash41 PS 3332388  0.0  3956 mpris-proxy
+@ash41 PS 3332390  0.0 26464 wireplumber
+@ash41 PS 3332391  0.0  5724 pipewire
+@ash41 PS 3332392  0.0 10812 pipewire-pulse
+@ash41 PS 3333231  0.0  7728 sleep
+@ash41 PS 3333881  0.0  7336 sleep
+@ash41 PS 3335430  0.0  8084 sshd-session
+@ash41 PS 3335431  0.0  3892 bash
+@ash41 PS 3335445  0.0  4680 ps
+@ash41 PS 3335446  0.0  2652 sed
+@ash41 SEEN 1785165661

@@ -1,27 +1,44 @@
-@vertex07 CPU 12 2.26
-@vertex07 MEM 15771 2521
+@vertex07 CPU 12 7.75
+@vertex07 MEM 15771 7625
 @vertex07 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP 
-@vertex07 PS 3032185  0.0 11716 systemd
-@vertex07 PS 3032186  0.0  3416 (sd-pam)
-@vertex07 PS 3032198  0.0  8788 pipewire
-@vertex07 PS 3032199  0.0  5976 pipewire
-@vertex07 PS 3032200  0.0 16028 wireplumber
-@vertex07 PS 3032202  0.0 10568 pipewire-pulse
-@vertex07 PS 3032225  0.0  4456 dbus-daemon
-@vertex07 PS 3032261  0.0  3624 bash
-@vertex07 PS 3032294  0.0  3580 bash
-@vertex07 PS 3032310  0.0  2104 bash
-@vertex07 PS 3032314  0.0  2112 timeout
-@vertex07 PS 3032315 90.9 1069372 python
-@vertex07 PS 3050587  0.0 11124 python
-@vertex07 PS 3050588 55.0 792124 python
-@vertex07 PS 3050589 53.5 792404 python
-@vertex07 PS 3336974  0.0  2032 sleep
-@vertex07 PS 3344323  0.0  2032 sleep
-@vertex07 PS 3347392  0.0  7092 sshd
-@vertex07 PS 3347393  0.0  3572 bash
-@vertex07 PS 3347415  0.0  4544 ps
-@vertex07 PS 3347417  0.0  2308 sed
-@vertex07 SEEN 1785004339
+@vertex07 PS  701844  0.0 11840 systemd
+@vertex07 PS  701847  0.0  3416 (sd-pam)
+@vertex07 PS  701858  0.0  8516 pipewire
+@vertex07 PS  701859  0.0  6004 pipewire
+@vertex07 PS  701861  0.0 15824 wireplumber
+@vertex07 PS  701863  0.0 10316 pipewire-pulse
+@vertex07 PS  701882  0.0  4412 dbus-daemon
+@vertex07 PS  702017  0.0  2148 bash
+@vertex07 PS  720376  0.0  2108 bash
+@vertex07 PS 1888182  0.0  3628 bash
+@vertex07 PS 1888187  0.0  3548 bash
+@vertex07 PS 1888197  0.0  2116 bash
+@vertex07 PS 1888202  0.0  2060 timeout
+@vertex07 PS 1888204 99.6 1257576 python
+@vertex07 PS 1888641  0.0  2092 timeout
+@vertex07 PS 1888643 99.7 1351824 python
+@vertex07 PS 1888761  0.0  2084 timeout
+@vertex07 PS 1888763 99.7 1335192 python
+@vertex07 PS 1890826  0.0 11064 python
+@vertex07 PS 1890827  0.0 11096 python
+@vertex07 PS 1890828  0.0 11108 python
+@vertex07 PS 1890829 48.3 792196 python
+@vertex07 PS 1890830 47.8 794156 python
+@vertex07 PS 1890831 49.2 792328 python
+@vertex07 PS 1890832 48.1 794212 python
+@vertex07 PS 1890833 48.5 794816 python
+@vertex07 PS 1890834 48.2 794308 python
+@vertex07 PS 1890835 48.5 794380 python
+@vertex07 PS 1890836 49.7 794424 python
+@vertex07 PS 1890837 49.3 794448 python
+@vertex07 PS 2154215  0.0  2032 sleep
+@vertex07 PS 2155638  0.0  2032 sleep
+@vertex07 PS 2155786  0.0  2052 sleep
+@vertex07 PS 2157507  0.0  2036 sleep
+@vertex07 PS 2160364  0.0  7100 sshd
+@vertex07 PS 2160365  0.0  3616 bash
+@vertex07 PS 2160384  0.0  4564 ps
+@vertex07 PS 2160385  0.0  2296 sed
+@vertex07 SEEN 1785165674

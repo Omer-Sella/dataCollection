@@ -1,7 +1,7 @@
-@gpu24 CPU 8 0.00
-@gpu24 MEM 15915 1402
+@gpu24 CPU 8 5.35
+@gpu24 MEM 15915 5694
 @gpu24 GPU 0, 99, 8192
-@gpu24 PS  588822  0.0 11688 systemd
+@gpu24 PS  588822  0.0 11744 systemd
 @gpu24 PS  588823  0.0  3552 (sd-pam)
 @gpu24 PS  588835  0.0  8856 pipewire
 @gpu24 PS  588836  0.0  6068 pipewire
@@ -27,8 +27,29 @@
 @gpu24 PS  788005  0.0  1544 ssh-agent
 @gpu24 PS  805447  0.0  1548 ssh-agent
 @gpu24 PS  806379  0.0  1544 ssh-agent
-@gpu24 PS 1658149  0.0  7012 sshd
-@gpu24 PS 1658150  0.0  3652 bash
-@gpu24 PS 1658171  0.0  4536 ps
-@gpu24 PS 1658172  0.0  2380 sed
-@gpu24 SEEN 1785004304
+@gpu24 PS 2764238  0.0  2240 bash
+@gpu24 PS 2778225  0.0  2240 bash
+@gpu24 PS 2790205  0.0  2240 bash
+@gpu24 PS 3633727  0.0  3676 bash
+@gpu24 PS 3633735  0.0  2240 bash
+@gpu24 PS 3633740  0.0  2156 timeout
+@gpu24 PS 3633742 99.4 1210248 python
+@gpu24 PS 3633780  0.0  2164 timeout
+@gpu24 PS 3633782 99.4 1204376 python
+@gpu24 PS 3634174  0.0 10992 python
+@gpu24 PS 3634175  0.0 10984 python
+@gpu24 PS 3634176 47.1 794192 python
+@gpu24 PS 3634177 45.8 793904 python
+@gpu24 PS 3634178 44.3 794232 python
+@gpu24 PS 3634179 47.7 794236 python
+@gpu24 PS 3634180 46.9 793652 python
+@gpu24 PS 3634181 45.6 794216 python
+@gpu24 PS 3834740  0.0  2108 sleep
+@gpu24 PS 3835654  0.0  2108 sleep
+@gpu24 PS 3835735  0.0  2104 sleep
+@gpu24 PS 3836953  0.0  2124 sleep
+@gpu24 PS 3841460  0.0  6972 sshd
+@gpu24 PS 3841461  0.0  3608 bash
+@gpu24 PS 3841472  100  4624 ps
+@gpu24 PS 3841473  0.0  2376 sed
+@gpu24 SEEN 1785165639

@@ -1,0 +1,465 @@
+labWorker willow18: started collect pid 3703817 (l=5 m=15) Sun 26 Jul 13:39:39 BST 2026
+collectWorker3 willow18: l=5 m=15 workers=2 seed=242540606 stage=1 Sun 26 Jul 13:39:39 BST 2026
+usage: reinforcementLearning.py [-h] [--num-workers NUM_WORKERS]
+                                [--num-cells NUM_CELLS]
+                                [--seed-for-environment SEED_FOR_ENVIRONMENT]
+                                [--lr LR] [--max-grad-norm MAX_GRAD_NORM]
+                                [--eval-rollout-length EVAL_ROLLOUT_LENGTH]
+                                [--scaling-factor SCALING_FACTOR]
+                                [--frames-per-batch FRAMES_PER_BATCH]
+                                [--sub-batch-size SUB_BATCH_SIZE]
+                                [--num-epochs NUM_EPOCHS]
+                                [--clip-epsilon CLIP_EPSILON] [--gamma GAMMA]
+                                [--lmbda LMBDA] [--entropy-eps ENTROPY_EPS]
+                                [--env-reward-engineering {True,False,true,false}]
+                                [--env-minimum-number-of-qubits ENV_MINIMUM_NUMBER_OF_QUBITS]
+                                [--log-name LOG_NAME]
+                                [--env-error-range {linear5,geometric5,geometric7,geometric10,dataCollection}]
+                                [--env-version {qecc/bbcode-v0,qecc/bbcode-ldpc-v0}]
+                                [--env-bit-flipping {True,False,true,false}]
+                                [--env-l {6,9,15,12,30,21}]
+                                [--env-m {3,6,12,18}]
+                                [--env-use-dict-observation {True,False,true,false}]
+                                [--env-number-of-decoder-iterations ENV_NUMBER_OF_DECODER_ITERATIONS]
+                                [--env-number-of-samples ENV_NUMBER_OF_SAMPLES]
+                                [--env-code-logging {true,True,false,False}]
+                                [--model-architecture {mlp,hybrid}]
+                                [--model-surrogate-model-path MODEL_SURROGATE_MODEL_PATH]
+                                [--model-use-pretrained-encoder {True,False,true,false}]
+                                [--index-to-unfreeze-encoder-updates INDEX_TO_UNFREEZE_ENCODER_UPDATES]
+                                [--encoder-lr-factor ENCODER_LR_FACTOR]
+                                [--training-device {cpu,cuda,auto}]
+reinforcementLearning.py: error: argument --env-l: invalid choice: 5 (choose from 6, 9, 15, 12, 30, 21)
+collectWorker3 willow18: ended Sun 26 Jul 13:40:04 BST 2026
+labWorker willow18: collect ended naturally Sun 26 Jul 13:44:39 BST 2026
+labWorker willow18: started collect pid 3934715 (l=5 m=15) Sun 26 Jul 18:25:54 BST 2026
+collectWorker3 willow18: l=5 m=15 workers=2 seed=242540606 stage=1 Sun 26 Jul 18:25:54 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-26_18-26-18_3934730...
+Checking the directory was created: True
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 482, in <module>
+    collectorEnv = ParallelEnv(env_level_paralleism, environmentCreatorForParallelEnv, num_threads = 1)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 264, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 312, in __call__
+    instance: EnvBase = super().__call__(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 522, in __init__
+    self._get_metadata(create_env_fn, create_env_kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 740, in _get_metadata
+    meta_data: EnvMetaData = get_env_metadata(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/env_creator.py", line 262, in get_env_metadata
+    env = env_or_creator(**kwargs)
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 450, in environmentCreatorForParallelEnv
+    env = GymEnv("qecc/bbcode-ldpc-v0", 
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/libs/gym.py", line 886, in __call__
+    instance: GymWrapper = super().__call__(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 312, in __call__
+    instance: EnvBase = super().__call__(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/libs/gym.py", line 1958, in __init__
+    super().__init__(**kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/libs/gym.py", line 1157, in __init__
+    super().__init__(**kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4478, in __init__
+    self._env = self._build_env(**kwargs)  # writes the self._env attribute
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/libs/gym.py", line 2032, in _build_env
+    env = self.lib.make(env_name, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 696, in make
+    env_creator = load_env_creator(env_spec.entry_point)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 544, in load_env_creator
+    mod = importlib.import_module(mod_name)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 7, in <module>
+    from qecc.gf4 import integerToDualBinary
+  File "/vol/bitbucket/osella/qecc/src/qecc/gf4.py", line 2, in <module>
+    from numba.experimental import jitclass
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/numba/__init__.py", line 105, in <module>
+    from numba import experimental
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt
+collectWorker3 willow18: ended Sun 26 Jul 18:26:22 BST 2026
+labWorker willow18: collect ended naturally Sun 26 Jul 18:30:54 BST 2026
+labWorker willow18: started collect pid 3947718 (l=5 m=15) Sun 26 Jul 18:42:57 BST 2026
+collectWorker3 willow18: l=5 m=15 workers=16 seed=242540606 stage=1 Sun 26 Jul 18:42:57 BST 2026
+Creating log dir /data/osella/collectStage/2026-07-26_18-43-26_3947741...
+Checking the directory was created: True
+Training begins on:
+2026-07-26 18:43:47 Sunday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-26 18:45:27,530 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 512/50000000 [01:57<3189:03:51,  4.36it/s]  0%|          | 1024/50000000 [04:16<3535:46:16,  3.93it/s]  0%|          | 1536/50000000 [06:33<3616:58:19,  3.84it/s]  0%|          | 2048/50000000 [08:39<3536:07:44,  3.93it/s]  0%|          | 2560/50000000 [10:59<3626:49:38,  3.83it/s]  0%|          | 3072/50000000 [13:26<3751:05:52,  3.70it/s]  0%|          | 3584/50000000 [15:41<3723:25:58,  3.73it/s]  0%|          | 4096/50000000 [18:15<3870:04:23,  3.59it/s]  0%|          | 4608/50000000 [20:51<3980:17:43,  3.49it/s]  0%|          | 5120/50000000 [23:13<3940:00:26,  3.52it/s]  0%|          | 5632/50000000 [25:45<3993:08:14,  3.48it/s]  0%|          | 6144/50000000 [28:30<4139:16:38,  3.35it/s]  0%|          | 6656/50000000 [31:09<4193:07:05,  3.31it/s]  0%|          | 7168/50000000 [33:52<4267:14:23,  3.25it/s]  0%|          | 7680/50000000 [36:22<4201:39:30,  3.31it/s]  0%|          | 8192/50000000 [38:51<4158:18:57,  3.34it/s]  0%|          | 8704/50000000 [41:18<4103:00:22,  3.38it/s]  0%|          | 9216/50000000 [43:50<4107:11:06,  3.38it/s]  0%|          | 9728/50000000 [46:26<4149:55:07,  3.35it/s]  0%|          | 10240/50000000 [49:07<4215:28:33,  3.29it/s]  0%|          | 10752/50000000 [51:36<4158:56:19,  3.34it/s]  0%|          | 11264/50000000 [54:49<4482:27:08,  3.10it/s]  0%|          | 11776/50000000 [57:17<4346:10:47,  3.19it/s]  0%|          | 12288/50000000 [59:41<4213:44:52,  3.30it/s]  0%|          | 12800/50000000 [1:02:12<4173:27:11,  3.33it/s]  0%|          | 13312/50000000 [1:04:50<4211:08:17,  3.30it/s]  0%|          | 13824/50000000 [1:07:27<4217:45:10,  3.29it/s]  0%|          | 14336/50000000 [1:10:19<4356:44:07,  3.19it/s]  0%|          | 14848/50000000 [1:13:03<4385:03:37,  3.17it/s]  0%|          | 15360/50000000 [1:15:37<4319:58:33,  3.21it/s]  0%|          | 15872/50000000 [1:18:19<4343:33:34,  3.20it/s]  0%|          | 16384/50000000 [1:21:14<4463:27:23,  3.11it/s]  0%|          | 16896/50000000 [1:24:00<4471:59:06,  3.10it/s]  0%|          | 17408/50000000 [1:26:28<4339:37:13,  3.20it/s]  0%|          | 17920/50000000 [1:28:59<4262:31:52,  3.26it/s]  0%|          | 18432/50000000 [1:31:46<4344:07:09,  3.20it/s]  0%|          | 18944/50000000 [1:34:38<4440:34:23,  3.13it/s]  0%|          | 19456/50000000 [1:37:09<4334:04:55,  3.20it/s]  0%|          | 19968/50000000 [1:39:36<4228:15:48,  3.28it/s]  0%|          | 20480/50000000 [1:42:17<4272:28:20,  3.25it/s]  0%|          | 20992/50000000 [1:44:41<4160:51:11,  3.34it/s]  0%|          | 21504/50000000 [1:47:46<4415:56:29,  3.14it/s]  0%|          | 22016/50000000 [1:50:21<4353:31:21,  3.19it/s]  0%|          | 22528/50000000 [1:53:01<4348:04:54,  3.19it/s]  0%|          | 23040/50000000 [1:55:36<4301:39:27,  3.23it/s]  0%|          | 23552/50000000 [1:58:17<4328:00:07,  3.21it/s]  0%|          | 24064/50000000 [2:01:05<4392:27:42,  3.16it/s]  0%|          | 24576/50000000 [2:03:36<4304:01:21,  3.23it/s]  0%|          | 25088/50000000 [2:06:04<4213:13:23,  3.29it/s]  0%|          | 25600/50000000 [2:08:51<4309:25:50,  3.22it/s]  0%|          | 26112/50000000 [2:11:13<4171:48:13,  3.33it/s]  0%|          | 26624/50000000 [2:13:53<4225:34:05,  3.29it/s]  0%|          | 27136/50000000 [2:16:23<4170:28:34,  3.33it/s]  0%|          | 27648/50000000 [2:19:04<4231:59:29,  3.28it/s]  0%|          | 28160/50000000 [2:21:51<4322:02:15,  3.21it/s]  0%|          | 28672/50000000 [2:24:41<4406:37:23,  3.15it/s]  0%|          | 29184/50000000 [2:27:24<4414:48:05,  3.14it/s]  0%|          | 29696/50000000 [2:30:00<4351:30:48,  3.19it/s]  0%|          | 30208/50000000 [2:32:50<4430:34:05,  3.13it/s]  0%|          | 30720/50000000 [2:35:35<4444:20:33,  3.12it/s]  0%|          | 31232/50000000 [2:38:34<4571:32:32,  3.04it/s]  0%|          | 31744/50000000 [2:41:34<4664:02:19,  2.98it/s]  0%|          | 32256/50000000 [2:44:23<4632:53:48,  3.00it/s]  0%|          | 32768/50000000 [2:47:07<4579:43:48,  3.03it/s]  0%|          | 33280/50000000 [2:49:52<4546:16:39,  3.05it/s]  0%|          | 33792/50000000 [2:52:45<4589:37:24,  3.02it/s]  0%|          | 34304/50000000 [2:55:26<4520:33:36,  3.07it/s]  0%|          | 34816/50000000 [2:58:03<4443:19:13,  3.12it/s]  0%|          | 35328/50000000 [3:00:42<4404:44:38,  3.15it/s]  0%|          | 35840/50000000 [3:03:26<4417:54:25,  3.14it/s]  0%|          | 36352/50000000 [3:06:05<4383:17:38,  3.17it/s]  0%|          | 36864/50000000 [3:08:46<4376:34:17,  3.17it/s]  0%|          | 37376/50000000 [3:11:25<4353:07:40,  3.19it/s]  0%|          | 37888/50000000 [3:14:06<4359:35:09,  3.18it/s]  0%|          | 38400/50000000 [3:16:50<4386:20:30,  3.16it/s]  0%|          | 38912/50000000 [3:19:32<4388:12:18,  3.16it/s]  0%|          | 39424/50000000 [3:22:01<4280:25:24,  3.24it/s]  0%|          | 39936/50000000 [3:24:25<4171:54:22,  3.33it/s]  0%|          | 40448/50000000 [3:27:10<4256:02:21,  3.26it/s]  0%|          | 40960/50000000 [3:29:45<4242:32:16,  3.27it/s]  0%|          | 41472/50000000 [3:32:30<4307:52:15,  3.22it/s]  0%|          | 41984/50000000 [3:35:27<4457:56:32,  3.11it/s]  0%|          | 42496/50000000 [3:38:13<4468:06:33,  3.11it/s]  0%|          | 43008/50000000 [3:40:53<4432:48:01,  3.13it/s]  0%|          | 43520/50000000 [3:43:32<4392:07:30,  3.16it/s]  0%|          | 44032/50000000 [3:46:01<4284:14:12,  3.24it/s]  0%|          | 44544/50000000 [3:48:40<4293:30:39,  3.23it/s]  0%|          | 45056/50000000 [3:51:06<4192:56:54,  3.31it/s]  0%|          | 45568/50000000 [3:53:40<4188:19:44,  3.31it/s]  0%|          | 46080/50000000 [3:56:31<4326:37:11,  3.21it/s]  0%|          | 46592/50000000 [3:59:04<4268:56:37,  3.25it/s]  0%|          | 47104/50000000 [4:01:56<4382:36:45,  3.17it/s]  0%|          | 47616/50000000 [4:04:44<4437:28:34,  3.13it/s]  0%|          | 48128/50000000 [4:07:17<4349:55:30,  3.19it/s]  0%|          | 48640/50000000 [4:10:02<4388:58:44,  3.16it/s]  0%|          | 49152/50000000 [4:12:42<4367:33:59,  3.18it/s]  0%|          | 49664/50000000 [4:15:23<4367:37:35,  3.18it/s]  0%|          | 50176/50000000 [4:18:12<4434:41:05,  3.13it/s]  0%|          | 50688/50000000 [4:20:57<4441:12:57,  3.12it/s]  0%|          | 51200/50000000 [4:23:35<4398:34:09,  3.15it/s]  0%|          | 51712/50000000 [4:26:13<4357:23:02,  3.18it/s]  0%|          | 52224/50000000 [4:29:21<4583:28:55,  3.03it/s]  0%|          | 52736/50000000 [4:31:51<4429:29:33,  3.13it/s]  0%|          | 53248/50000000 [4:34:31<4397:54:09,  3.15it/s]  0%|          | 53760/50000000 [4:37:26<4501:42:38,  3.08it/s]  0%|          | 54272/50000000 [4:40:06<4453:26:53,  3.12it/s]  0%|          | 54784/50000000 [4:43:00<4526:06:30,  3.07it/s]  0%|          | 55296/50000000 [4:45:35<4431:27:28,  3.13it/s]  0%|          | 55808/50000000 [4:48:12<4377:47:46,  3.17it/s]  0%|          | 56320/50000000 [4:50:50<4350:29:48,  3.19it/s]  0%|          | 56832/50000000 [4:53:18<4244:45:54,  3.27it/s]  0%|          | 57344/50000000 [4:55:43<4149:58:50,  3.34it/s]  0%|          | 57856/50000000 [4:58:28<4246:58:31,  3.27it/s]  0%|          | 58368/50000000 [5:01:06<4262:50:33,  3.25it/s]  0%|          | 58880/50000000 [5:03:45<4275:48:23,  3.24it/s]  0%|          | 59392/50000000 [5:06:26<4301:42:50,  3.22it/s]  0%|          | 59904/50000000 [5:08:49<4170:04:59,  3.33it/s]  0%|          | 60416/50000000 [5:11:25<4184:33:02,  3.32it/s]  0%|          | 60928/50000000 [5:14:03<4215:28:34,  3.29it/s]  0%|          | 61440/50000000 [5:16:39<4219:33:54,  3.29it/s]  0%|          | 61952/50000000 [5:19:19<4256:49:23,  3.26it/s]  0%|          | 62464/50000000 [5:21:53<4228:46:33,  3.28it/s]  0%|          | 62976/50000000 [5:24:34<4268:16:14,  3.25it/s]  0%|          | 63488/50000000 [5:27:04<4206:44:58,  3.30it/s]  0%|          | 64000/50000000 [5:29:41<4217:33:03,  3.29it/s]  0%|          | 64512/50000000 [5:32:16<4215:59:56,  3.29it/s]  0%|          | 65024/50000000 [5:35:06<4329:02:09,  3.20it/s]  0%|          | 65536/50000000 [5:37:41<4295:23:44,  3.23it/s]  0%|          | 66048/50000000 [5:40:13<4241:08:51,  3.27it/s]  0%|          | 66560/50000000 [5:42:55<4287:18:06,  3.24it/s]  0%|          | 67072/50000000 [5:45:29<4249:53:45,  3.26it/s]  0%|          | 67584/50000000 [5:48:16<4335:06:56,  3.20it/s]  0%|          | 68096/50000000 [5:51:05<4408:24:47,  3.15it/s]  0%|          | 68608/50000000 [5:53:39<4337:15:33,  3.20it/s]  0%|          | 69120/50000000 [5:56:12<4276:48:50,  3.24it/s]  0%|          | 69632/50000000 [5:58:48<4263:37:42,  3.25it/s]  0%|          | 70144/50000000 [6:01:24<4251:28:20,  3.26it/s]  0%|          | 70656/50000000 [6:04:00<4240:54:35,  3.27it/s]  0%|          | 71168/50000000 [6:06:27<4163:55:39,  3.33it/s]  0%|          | 71680/50000000 [6:09:09<4228:38:19,  3.28it/s]  0%|          | 72192/50000000 [6:11:52<4285:53:24,  3.24it/s]  0%|          | 72704/50000000 [6:14:30<4283:37:05,  3.24it/s]  0%|          | 73216/50000000 [6:17:11<4304:46:53,  3.22it/s]  0%|          | 73728/50000000 [6:19:56<4360:41:20,  3.18it/s]  0%|          | 74240/50000000 [6:22:38<4366:40:46,  3.18it/s]  0%|          | 74752/50000000 [6:25:10<4292:39:52,  3.23it/s]  0%|          | 75264/50000000 [6:27:54<4334:46:07,  3.20it/s]  0%|          | 75776/50000000 [6:30:26<4270:13:24,  3.25it/s]  0%|          | 76288/50000000 [6:33:05<4283:38:32,  3.24it/s]  0%|          | 76800/50000000 [6:35:50<4334:37:35,  3.20it/s]  0%|          | 77312/50000000 [6:38:39<4409:36:47,  3.14it/s]  0%|          | 77824/50000000 [6:41:46<4608:55:51,  3.01it/s]  0%|          | 78336/50000000 [6:44:20<4475:19:48,  3.10it/s]  0%|          | 78848/50000000 [6:46:58<4416:02:43,  3.14it/s]  0%|          | 79360/50000000 [6:49:51<4493:59:54,  3.09it/s]  0%|          | 79872/50000000 [6:52:26<4404:56:19,  3.15it/s]  0%|          | 80384/50000000 [6:55:07<4391:02:04,  3.16it/s]  0%|          | 80896/50000000 [6:57:39<4309:04:01,  3.22it/s]  0%|          | 81408/50000000 [7:00:30<4409:03:02,  3.14it/s]  0%|          | 81920/50000000 [7:03:03<4331:56:36,  3.20it/s]  0%|          | 82432/50000000 [7:05:50<4385:59:38,  3.16it/s]  0%|          | 82944/50000000 [7:09:04<4649:27:25,  2.98it/s]  0%|          | 83456/50000000 [7:12:06<4726:41:49,  2.93it/s]  0%|          | 83968/50000000 [7:14:44<4598:25:06,  3.02it/s]  0%|          | 84480/50000000 [7:17:34<4601:25:11,  3.01it/s]  0%|          | 84992/50000000 [7:20:03<4427:15:10,  3.13it/s]  0%|          | 85504/50000000 [7:22:32<4313:52:26,  3.21it/s]  0%|          | 86016/50000000 [7:25:16<4350:31:39,  3.19it/s]  0%|          | 86528/50000000 [7:27:45<4250:01:48,  3.26it/s]  0%|          | 87040/50000000 [7:30:24<4270:11:47,  3.25it/s]  0%|          | 87552/50000000 [7:33:10<4337:26:56,  3.20it/s]  0%|          | 88064/50000000 [7:36:08<4482:16:06,  3.09it/s]  0%|          | 88576/50000000 [7:38:47<4433:07:58,  3.13it/s]  0%|          | 89088/50000000 [7:41:28<4408:25:24,  3.14it/s]  0%|          | 89600/50000000 [7:44:07<4377:31:27,  3.17it/s]  0%|          | 90112/50000000 [7:46:49<4374:54:56,  3.17it/s]  0%|          | 90624/50000000 [7:49:21<4302:14:46,  3.22it/s]  0%|          | 91136/50000000 [7:51:59<4297:14:26,  3.23it/s]  0%|          | 91648/50000000 [7:54:28<4215:20:02,  3.29it/s]  0%|          | 92160/50000000 [7:56:59<4176:11:48,  3.32it/s]  0%|          | 92672/50000000 [7:59:35<4189:11:13,  3.31it/s]  0%|          | 93184/50000000 [8:02:16<4238:45:19,  3.27it/s]  0%|          | 93696/50000000 [8:04:46<4187:24:52,  3.31it/s]  0%|          | 94208/50000000 [8:07:34<4298:18:51,  3.23it/s]  0%|          | 94720/50000000 [8:10:28<4419:44:53,  3.14it/s]  0%|          | 95232/50000000 [8:13:02<4347:34:32,  3.19it/s]  0%|          | 95744/50000000 [8:15:40<4323:34:34,  3.21it/s]  0%|          | 96256/50000000 [8:18:27<4385:38:16,  3.16it/s]  0%|          | 96768/50000000 [8:21:07<4369:14:26,  3.17it/s]  0%|          | 97280/50000000 [8:23:50<4381:49:48,  3.16it/s]  0%|          | 97792/50000000 [8:26:22<4298:49:46,  3.22it/s]  0%|          | 98304/50000000 [8:29:20<4459:53:18,  3.11it/s]  0%|          | 98816/50000000 [8:31:47<4309:17:21,  3.22it/s]  0%|          | 99328/50000000 [8:34:09<4173:09:25,  3.32it/s]  0%|          | 99840/50000000 [8:36:45<4188:12:32,  3.31it/s]  0%|          | 100352/50000000 [8:39:31<4282:37:17,  3.24it/s]  0%|          | 100864/50000000 [8:42:11<4294:34:44,  3.23it/s]  0%|          | 101376/50000000 [8:44:57<4357:05:52,  3.18it/s]  0%|          | 101888/50000000 [8:47:17<4187:50:44,  3.31it/s]  0%|          | 102400/50000000 [8:49:54<4206:26:55,  3.30it/s]  0%|          | 102912/50000000 [8:52:36<4255:19:27,  3.26it/s]  0%|          | 103424/50000000 [8:55:14<4263:22:10,  3.25it/s]  0%|          | 103936/50000000 [8:57:51<4258:34:41,  3.25it/s]  0%|          | 104448/50000000 [9:00:48<4416:38:41,  3.14it/s]  0%|          | 104960/50000000 [9:03:29<4402:53:15,  3.15it/s]  0%|          | 105472/50000000 [9:06:19<4459:49:26,  3.11it/s]  0%|          | 105984/50000000 [9:09:07<4491:29:32,  3.09it/s]  0%|          | 106496/50000000 [9:11:37<4359:53:08,  3.18it/s]  0%|          | 107008/50000000 [9:14:06<4262:22:07,  3.25it/s]  0%|          | 107520/50000000 [9:16:42<4248:42:21,  3.26it/s]  0%|          | 108032/50000000 [9:19:12<4193:49:38,  3.30it/s]  0%|          | 108544/50000000 [9:22:17<4433:12:16,  3.13it/s]  0%|          | 109056/50000000 [9:24:54<4383:49:25,  3.16it/s]  0%|          | 109568/50000000 [9:27:30<4329:03:36,  3.20it/s]  0%|          | 110080/50000000 [9:30:05<4290:20:13,  3.23it/s]  0%|          | 110592/50000000 [9:32:30<4184:36:40,  3.31it/s]  0%|          | 111104/50000000 [9:35:04<4179:28:00,  3.32it/s]  0%|          | 111616/50000000 [9:37:28<4089:14:54,  3.39it/s]  0%|          | 112128/50000000 [9:40:17<4237:33:50,  3.27it/s]  0%|          | 112640/50000000 [9:42:55<4250:55:50,  3.26it/s]  0%|          | 113152/50000000 [9:45:28<4213:26:06,  3.29it/s]  0%|          | 113664/50000000 [9:48:19<4341:48:39,  3.19it/s]  0%|          | 114176/50000000 [9:51:02<4364:58:01,  3.17it/s]  0%|          | 114688/50000000 [9:53:38<4317:30:27,  3.21it/s]  0%|          | 115200/50000000 [9:56:13<4281:43:37,  3.24it/s]  0%|          | 115712/50000000 [9:58:57<4333:28:31,  3.20it/s]  0%|          | 116224/50000000 [10:01:42<4369:54:25,  3.17it/s]  0%|          | 116736/50000000 [10:04:17<4318:26:10,  3.21it/s]  0%|          | 117248/50000000 [10:07:02<4363:26:14,  3.18it/s]  0%|          | 117760/50000000 [10:09:37<4313:56:31,  3.21it/s]  0%|          | 118272/50000000 [10:12:10<4254:24:41,  3.26it/s]  0%|          | 118784/50000000 [10:14:35<4157:19:30,  3.33it/s]  0%|          | 119296/50000000 [10:17:14<4206:24:48,  3.29it/s]  0%|          | 119808/50000000 [10:19:41<4131:44:28,  3.35it/s]  0%|          | 120320/50000000 [10:22:12<4120:06:13,  3.36it/s]  0%|          | 120832/50000000 [10:24:47<4143:40:03,  3.34it/s]  0%|          | 121344/50000000 [10:27:20<4144:26:41,  3.34it/s]  0%|          | 121856/50000000 [10:29:58<4178:13:06,  3.32it/s]  0%|          | 122368/50000000 [10:32:17<4059:27:23,  3.41it/s]  0%|          | 122880/50000000 [10:35:00<4157:37:08,  3.33it/s]  0%|          | 123392/50000000 [10:37:46<4261:27:02,  3.25it/s]  0%|          | 123904/50000000 [10:40:17<4204:57:08,  3.29it/s]  0%|          | 124416/50000000 [10:42:54<4217:56:12,  3.28it/s]  0%|          | 124928/50000000 [10:45:27<4195:37:02,  3.30it/s]  0%|          | 125440/50000000 [10:47:48<4083:56:19,  3.39it/s]  0%|          | 125952/50000000 [10:50:24<4124:29:22,  3.36it/s]  0%|          | 126464/50000000 [10:52:50<4075:24:05,  3.40it/s]  0%|          | 126976/50000000 [10:55:28<4129:03:19,  3.36it/s]  0%|          | 127488/50000000 [10:58:02<4142:03:52,  3.34it/s]  0%|          | 128000/50000000 [11:01:08<4411:12:22,  3.14it/s]  0%|          | 128512/50000000 [11:03:51<4410:13:59,  3.14it/s]  0%|          | 129024/50000000 [11:06:37<4436:56:28,  3.12it/s]  0%|          | 129536/50000000 [11:09:29<4501:37:57,  3.08it/s]  0%|          | 130048/50000000 [11:12:06<4425:15:06,  3.13it/s]  0%|          | 130560/50000000 [11:14:39<4335:22:08,  3.20it/s]  0%|          | 131072/50000000 [11:17:25<4388:44:11,  3.16it/s]  0%|          | 131584/50000000 [11:20:04<4361:58:50,  3.18it/s]  0%|          | 132096/50000000 [11:22:36<4281:34:01,  3.24it/s]  0%|          | 132608/50000000 [11:25:11<4258:17:23,  3.25it/s]  0%|          | 133120/50000000 [11:27:54<4300:07:20,  3.22it/s]  0%|          | 133632/50000000 [11:30:31<4285:52:08,  3.23it/s]  0%|          | 134144/50000000 [11:32:44<4081:30:33,  3.39it/s]  0%|          | 134656/50000000 [11:35:24<4151:19:27,  3.34it/s]  0%|          | 135168/50000000 [11:37:57<4150:31:05,  3.34it/s]  0%|          | 135680/50000000 [11:40:20<4070:34:05,  3.40it/s]  0%|          | 136192/50000000 [11:43:07<4201:16:24,  3.30it/s]  0%|          | 136704/50000000 [11:45:41<4193:06:05,  3.30it/s]  0%|          | 137216/50000000 [11:48:16<4190:57:50,  3.30it/s]  0%|          | 137728/50000000 [11:50:48<4164:39:38,  3.33it/s]  0%|          | 138240/50000000 [11:53:25<4189:32:17,  3.31it/s]  0%|          | 138752/50000000 [11:55:53<4134:33:11,  3.35it/s]  0%|          | 139264/50000000 [11:59:02<4431:16:13,  3.13it/s]  0%|          | 139776/50000000 [12:01:49<4453:35:44,  3.11it/s]  0%|          | 140288/50000000 [12:04:24<4375:49:36,  3.17it/s]  0%|          | 140800/50000000 [12:07:06<4377:56:45,  3.16it/s]  0%|          | 141312/50000000 [12:09:55<4434:04:36,  3.12it/s]  0%|          | 141824/50000000 [12:12:54<4555:39:23,  3.04it/s]  0%|          | 142336/50000000 [12:15:33<4486:04:05,  3.09it/s]  0%|          | 142848/50000000 [12:18:11<4416:56:32,  3.14it/s]  0%|          | 143360/50000000 [12:20:33<4249:06:56,  3.26it/s]  0%|          | 143872/50000000 [12:23:00<4163:24:01,  3.33it/s]  0%|          | 144384/50000000 [12:26:07<4435:42:37,  3.12it/s]  0%|          | 144896/50000000 [12:28:47<4396:53:08,  3.15it/s]  0%|          | 145408/50000000 [12:31:31<4409:43:41,  3.14it/s]  0%|          | 145920/50000000 [12:34:01<4305:50:26,  3.22it/s]  0%|          | 146432/50000000 [12:36:43<4327:35:05,  3.20it/s]  0%|          | 146944/50000000 [12:39:25<4347:15:32,  3.19it/s]  0%|          | 147456/50000000 [12:41:49<4210:33:03,  3.29it/s]  0%|          | 147968/50000000 [12:44:25<4212:47:04,  3.29it/s]  0%|          | 148480/50000000 [12:47:09<4275:13:25,  3.24it/s]  0%|          | 148992/50000000 [12:49:50<4298:15:05,  3.22it/s]  0%|          | 149504/50000000 [12:52:34<4342:51:24,  3.19it/s]  0%|          | 150016/50000000 [12:55:11<4310:03:14,  3.21it/s]  0%|          | 150528/50000000 [12:57:41<4235:56:42,  3.27it/s]  0%|          | 151040/50000000 [13:00:24<4289:55:07,  3.23it/s]  0%|          | 151552/50000000 [13:02:56<4237:57:54,  3.27it/s]  0%|          | 152064/50000000 [13:05:39<4283:07:56,  3.23it/s]  0%|          | 152576/50000000 [13:08:24<4343:15:23,  3.19it/s]  0%|          | 153088/50000000 [13:11:06<4352:18:10,  3.18it/s]  0%|          | 153600/50000000 [13:13:34<4244:42:09,  3.26it/s]  0%|          | 154112/50000000 [13:15:58<4141:23:49,  3.34it/s]  0%|          | 154624/50000000 [13:18:49<4283:23:20,  3.23it/s]  0%|          | 155136/50000000 [13:21:23<4249:57:10,  3.26it/s]  0%|          | 155648/50000000 [13:23:51<4180:21:53,  3.31it/s]  0%|          | 156160/50000000 [13:26:32<4224:52:36,  3.28it/s]  0%|          | 156672/50000000 [13:29:10<4243:08:39,  3.26it/s]  0%|          | 157184/50000000 [13:31:57<4323:28:28,  3.20it/s]  0%|          | 157696/50000000 [13:34:27<4248:15:44,  3.26it/s]  0%|          | 158208/50000000 [13:37:05<4250:50:38,  3.26it/s]  0%|          | 158720/50000000 [13:39:36<4202:16:35,  3.29it/s]  0%|          | 159232/50000000 [13:42:12<4202:22:01,  3.29it/s]  0%|          | 159744/50000000 [13:45:11<4399:58:12,  3.15it/s]  0%|          | 160256/50000000 [13:47:59<4443:49:13,  3.12it/s]  0%|          | 160768/50000000 [13:50:35<4371:04:21,  3.17it/s]  0%|          | 161280/50000000 [13:53:16<4363:21:51,  3.17it/s]  0%|          | 161792/50000000 [13:55:53<4331:13:02,  3.20it/s]  0%|          | 162304/50000000 [13:58:35<4345:35:46,  3.19it/s]  0%|          | 162816/50000000 [14:01:00<4219:32:10,  3.28it/s]  0%|          | 163328/50000000 [14:03:23<4112:12:42,  3.37it/s]  0%|          | 163840/50000000 [14:06:00<4152:17:55,  3.33it/s]  0%|          | 164352/50000000 [14:08:30<4127:29:07,  3.35it/s]  0%|          | 164864/50000000 [14:11:32<4364:25:00,  3.17it/s]  0%|          | 165376/50000000 [14:14:15<4370:16:54,  3.17it/s]  0%|          | 165888/50000000 [14:17:08<4462:51:53,  3.10it/s]  0%|          | 166400/50000000 [14:19:45<4404:01:30,  3.14it/s]  0%|          | 166912/50000000 [14:22:16<4307:31:22,  3.21it/s]  0%|          | 167424/50000000 [14:24:51<4270:31:27,  3.24it/s]  0%|          | 167936/50000000 [14:27:32<4290:57:17,  3.23it/s]  0%|          | 168448/50000000 [14:30:14<4318:08:28,  3.21it/s]  0%|          | 168960/50000000 [14:33:02<4387:43:50,  3.15it/s]  0%|          | 169472/50000000 [14:35:30<4271:43:22,  3.24it/s]  0%|          | 169984/50000000 [14:38:38<4510:48:38,  3.07it/s]  0%|          | 170496/50000000 [14:41:13<4416:51:19,  3.13it/s]  0%|          | 171008/50000000 [14:43:50<4363:26:39,  3.17it/s]  0%|          | 171520/50000000 [14:46:17<4249:15:13,  3.26it/s]  0%|          | 172032/50000000 [14:48:51<4223:34:30,  3.28it/s]  0%|          | 172544/50000000 [14:51:26<4211:53:00,  3.29it/s]  0%|          | 173056/50000000 [14:53:58<4180:33:38,  3.31it/s]  0%|          | 173568/50000000 [14:56:37<4216:57:24,  3.28it/s]  0%|          | 174080/50000000 [14:59:19<4263:58:50,  3.25it/s]  0%|          | 174592/50000000 [15:01:48<4196:19:50,  3.30it/s]  0%|          | 175104/50000000 [15:04:51<4417:48:10,  3.13it/s]  0%|          | 175616/50000000 [15:07:29<4373:53:02,  3.16it/s]  0%|          | 176128/50000000 [15:10:04<4322:49:39,  3.20it/s]  0%|          | 176640/50000000 [15:12:53<4396:40:29,  3.15it/s]  0%|          | 177152/50000000 [15:15:40<4430:59:29,  3.12it/s]  0%|          | 177664/50000000 [15:18:16<4365:11:00,  3.17it/s]  0%|          | 178176/50000000 [15:20:59<4378:03:15,  3.16it/s]  0%|          | 178688/50000000 [15:23:34<4320:47:09,  3.20it/s]  0%|          | 179200/50000000 [15:26:04<4239:48:17,  3.26it/s]  0%|          | 179712/50000000 [15:28:38<4222:32:42,  3.28it/s]  0%|          | 180224/50000000 [15:31:16<4236:30:44,  3.27it/s]  0%|          | 180736/50000000 [15:33:51<4222:55:56,  3.28it/s]  0%|          | 181248/50000000 [15:36:27<4213:07:26,  3.28it/s]  0%|          | 181760/50000000 [15:39:17<4333:02:51,  3.19it/s]  0%|          | 182272/50000000 [15:41:42<4206:06:14,  3.29it/s]  0%|          | 182784/50000000 [15:44:16<4197:02:32,  3.30it/s]  0%|          | 183296/50000000 [15:46:47<4163:05:49,  3.32it/s]  0%|          | 183808/50000000 [15:49:25<4191:54:50,  3.30it/s]  0%|          | 184320/50000000 [15:51:52<4125:27:16,  3.35it/s]  0%|          | 184832/50000000 [15:54:25<4130:33:12,  3.35it/s]  0%|          | 185344/50000000 [15:56:54<4098:51:37,  3.38it/s]  0%|          | 185856/50000000 [15:59:41<4222:43:56,  3.28it/s]  0%|          | 186368/50000000 [16:02:24<4274:09:38,  3.24it/s]  0%|          | 186880/50000000 [16:04:44<4129:58:35,  3.35it/s]  0%|          | 187392/50000000 [16:07:05<4029:17:19,  3.43it/s]  0%|          | 187904/50000000 [16:09:53<4183:00:19,  3.31it/s]  0%|          | 188416/50000000 [16:12:28<4185:05:41,  3.31it/s]  0%|          | 188928/50000000 [16:15:19<4317:14:21,  3.20it/s]  0%|          | 189440/50000000 [16:18:02<4344:48:17,  3.18it/s]  0%|          | 189952/50000000 [16:20:37<4299:54:27,  3.22it/s]  0%|          | 190464/50000000 [16:22:57<4144:09:32,  3.34it/s]  0%|          | 190976/50000000 [16:25:48<4289:10:35,  3.23it/s]  0%|          | 191488/50000000 [16:28:34<4347:29:24,  3.18it/s]  0%|          | 192000/50000000 [16:31:14<4337:16:51,  3.19it/s]  0%|          | 192512/50000000 [16:34:00<4382:14:32,  3.16it/s]  0%|          | 193024/50000000 [16:36:40<4363:11:57,  3.17it/s]  0%|          | 193536/50000000 [16:39:19<4348:38:54,  3.18it/s]  0%|          | 194048/50000000 [16:41:53<4287:06:53,  3.23it/s]  0%|          | 194560/50000000 [16:44:32<4289:59:37,  3.22it/s]  0%|          | 195072/50000000 [16:47:20<4367:18:48,  3.17it/s]  0%|          | 195584/50000000 [16:50:02<4367:42:57,  3.17it/s]  0%|          | 196096/50000000 [16:52:38<4321:02:30,  3.20it/s]  0%|          | 196608/50000000 [16:55:19<4328:23:50,  3.20it/s]  0%|          | 197120/50000000 [16:58:08<4406:13:01,  3.14it/s]  0%|          | 197632/50000000 [17:00:43<4336:57:42,  3.19it/s]  0%|          | 198144/50000000 [17:03:10<4225:28:10,  3.27it/s]  0%|          | 198656/50000000 [17:05:53<4278:54:16,  3.23it/s]  0%|          | 199168/50000000 [17:08:24<4223:27:55,  3.28it/s]  0%|          | 199680/50000000 [17:10:53<4159:45:27,  3.33it/s]  0%|          | 200192/50000000 [17:13:30<4188:02:30,  3.30it/s]  0%|          | 200704/50000000 [17:16:15<4271:46:33,  3.24it/s]Process SpawnProcess-12:
+Process SpawnProcess-7:
+Process SpawnProcess-13:
+Process SpawnProcess-11:
+Process SpawnProcess-10:
+Process SpawnProcess-4:
+Process SpawnProcess-6:
+Process SpawnProcess-3:
+Process SpawnProcess-2:
+Process SpawnProcess-9:
+Process SpawnProcess-16:
+Process SpawnProcess-8:
+Process SpawnProcess-5:
+Process SpawnProcess-15:
+Process SpawnProcess-1:
+Process SpawnProcess-14:
+
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 251, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 252, in decoderEvaluation
+    estimatedErrorZ = bpDecoderHx.decode(self.Hx.dot(errorZ)%2)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 252, in decoderEvaluation
+    estimatedErrorZ = bpDecoderHx.decode(self.Hx.dot(errorZ)%2)
+KeyboardInterrupt
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 205, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 219, in decoderEvaluation
+    logicalX, logicalZ = computeLogicals(self.Hx, self.Hz)
+  File "/vol/bitbucket/osella/qecc/src/qecc/logicals.py", line 58, in computeLogicals
+    _, _, testRank = funWithMatrices.binaryGaussianEliminationOnRows(copy.copy(testMatrix))
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 219, in decoderEvaluation
+    logicalX, logicalZ = computeLogicals(self.Hx, self.Hz)
+  File "/vol/bitbucket/osella/qecc/src/qecc/funWithMatrices.py", line 97, in binaryGaussianEliminationOnRows
+    if matrix[j, k] != 0:
+  File "/vol/bitbucket/osella/qecc/src/qecc/logicals.py", line 58, in computeLogicals
+    _, _, testRank = funWithMatrices.binaryGaussianEliminationOnRows(copy.copy(testMatrix))
+  File "/vol/bitbucket/osella/qecc/src/qecc/funWithMatrices.py", line 97, in binaryGaussianEliminationOnRows
+    if matrix[j, k] != 0:
+KeyboardInterrupt
+KeyboardInterrupt
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/collectWorker3.sh: error reading input file: Stale file handle
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/collection/labCollectWorker3.sh: error reading input file: Stale file handle
+labWorker willow18: started collect pid 583556 (l=5 m=15) Mon 27 Jul 12:16:16 BST 2026
+collectWorker4 willow18: l=5 m=15 procs=4 x envs=3 cores=16 stage=1 Mon 27 Jul 12:16:16 BST 2026
+collectWorker4 willow18: launched pids: 583571 583592 583630 583649
