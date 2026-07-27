@@ -1,45 +1,45 @@
-@oak30 CPU 16 9.33
-@oak30 MEM 15766 11886
-@oak30 GPU 0, 88, 2048
-@oak30 PS 2252002  0.1  7608 systemd
-@oak30 PS 2252003  0.0  2712 (sd-pam)
-@oak30 PS 2252027  0.0  3792 pipewire
-@oak30 PS 2252028  0.0  3968 pipewire
-@oak30 PS 2252030  0.0 10592 wireplumber
-@oak30 PS 2252032  0.0  6536 pipewire-pulse
-@oak30 PS 2252053  0.0  3232 dbus-daemon
-@oak30 PS 2252087  0.0  3228 bash
+@oak30 CPU 16 10.27
+@oak30 MEM 15766 12025
+@oak30 GPU 3, 88, 2048
+@oak30 PS 2252002  0.1  7912 systemd
+@oak30 PS 2252003  0.0  2704 (sd-pam)
+@oak30 PS 2252027  0.0  3788 pipewire
+@oak30 PS 2252028  0.0  3944 pipewire
+@oak30 PS 2252030  0.0 10604 wireplumber
+@oak30 PS 2252032  0.0  6504 pipewire-pulse
+@oak30 PS 2252053  0.0  3200 dbus-daemon
+@oak30 PS 2252087  0.0  2756 bash
 @oak30 PS 2252092  0.0  2204 bash
-@oak30 PS 2252102  0.0  1928 bash
+@oak30 PS 2252102  0.0  1656 bash
 @oak30 PS 2252107  0.0  1960 timeout
-@oak30 PS 2252109 92.9 1776620 python
+@oak30 PS 2252109 97.8 1794616 python
 @oak30 PS 2252127  0.0  1948 timeout
-@oak30 PS 2252129 93.1 1768768 python
+@oak30 PS 2252129 97.9 1793704 python
 @oak30 PS 2252147  0.0  1952 timeout
-@oak30 PS 2252149 93.4 1777360 python
+@oak30 PS 2252149 97.9 1795468 python
 @oak30 PS 2252185  0.0  1940 timeout
-@oak30 PS 2252187 93.5 1797044 python
-@oak30 PS 2252744  0.0  3528 python
-@oak30 PS 2252745  0.0  3588 python
-@oak30 PS 2252746  0.0  3620 python
-@oak30 PS 2252747  0.0  3640 python
-@oak30 PS 2252748 97.3 318876 python
-@oak30 PS 2252749 63.6 332824 python
-@oak30 PS 2252750 93.1 333300 python
-@oak30 PS 2252751 35.7 326492 python
-@oak30 PS 2252752 35.4 323752 python
-@oak30 PS 2252753 97.7 334320 python
-@oak30 PS 2252754 59.4 328116 python
-@oak30 PS 2252755 95.3 326152 python
-@oak30 PS 2252756 18.4 314604 python
-@oak30 PS 2252757 64.6 329820 python
-@oak30 PS 2252758 39.0 313972 python
-@oak30 PS 2252759 30.5 329156 python
-@oak30 PS 2259609  0.0  2020 sleep
-@oak30 PS 2263346  0.0  2052 sleep
-@oak30 PS 2264500  0.0  6952 sshd
-@oak30 PS 2264501  0.0  3568 bash
-@oak30 PS 2264512  0.0  4548 ps
-@oak30 PS 2264513  0.0  2288 sed
+@oak30 PS 2252187 98.0 1797096 python
+@oak30 PS 2252744  0.0  3524 python
+@oak30 PS 2252745  0.0  3584 python
+@oak30 PS 2252746  0.0  3616 python
+@oak30 PS 2252747  0.0  3636 python
+@oak30 PS 2252748 96.3 326700 python
+@oak30 PS 2252749 67.2 339112 python
+@oak30 PS 2252750 97.9 341256 python
+@oak30 PS 2252751 44.5 335568 python
+@oak30 PS 2252752 72.9 332872 python
+@oak30 PS 2252753 85.3 335032 python
+@oak30 PS 2252754 34.5 332688 python
+@oak30 PS 2252755 98.5 330788 python
+@oak30 PS 2252756 45.6 325068 python
+@oak30 PS 2252757 54.3 331108 python
+@oak30 PS 2252758 11.2 308548 python
+@oak30 PS 2252759 45.9 330868 python
+@oak30 PS 2289619  0.0  2068 sleep
+@oak30 PS 2295506  0.0  2068 sleep
+@oak30 PS 2295874  0.0  7140 sshd
+@oak30 PS 2295875  0.0  3568 bash
+@oak30 PS 2295886  100  4612 ps
+@oak30 PS 2295887  0.0  2308 sed
 @oak30 SIZE 8 21,18
-@oak30 SEEN 1785183047
+@oak30 SEEN 1785185387

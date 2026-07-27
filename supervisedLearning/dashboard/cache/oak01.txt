@@ -1,36 +1,29 @@
-@oak01 CPU 16 8.16
-@oak01 MEM 15766 4495
-@oak01 GPU 3, 81, 2048
+@oak01 CPU 16 5.06
+@oak01 MEM 15766 4319
+@oak01 GPU 0, 81, 2048
 @oak01 PS  927868  0.1 11848 systemd
 @oak01 PS  927872  0.0  3416 (sd-pam)
 @oak01 PS  927897  0.0  8288 pipewire
 @oak01 PS  927898  0.0  5808 pipewire
-@oak01 PS  927900  0.0 14612 wireplumber
+@oak01 PS  927900  0.0 14628 wireplumber
 @oak01 PS  927902  0.0 10272 pipewire-pulse
 @oak01 PS  927919  0.0  4496 dbus-daemon
-@oak01 PS  927943  0.0  3496 bash
-@oak01 PS  927957  0.2 500912 python
-@oak01 PS  929291  0.0  3508 bash
-@oak01 PS  929318  0.2 501260 python
-@oak01 PS  929319  0.0  2052 tail
-@oak01 PS  930521  0.0  7016 sshd
-@oak01 PS  930530  0.3 501492 python
 @oak01 PS  943063  0.0  3544 bash
 @oak01 PS  943132  0.0  3564 bash
-@oak01 PS  943163  0.0  1972 bash
+@oak01 PS  943163  0.0  1976 bash
 @oak01 PS  943188  0.0  2128 timeout
-@oak01 PS  943190  0.5 537580 python
+@oak01 PS  943190  0.4 806096 python
 @oak01 PS  943208  0.0  2124 timeout
-@oak01 PS  943210  0.5 537184 python
+@oak01 PS  943210  0.4 805104 python
 @oak01 PS  943245  0.0  2128 timeout
-@oak01 PS  943247  0.5 537376 python
+@oak01 PS  943247  0.4 806100 python
 @oak01 PS  943278  0.0  2124 timeout
-@oak01 PS  943280  0.5 537468 python
-@oak01 PS  953395  0.0  2080 sleep
-@oak01 PS  957084  0.0  2068 sleep
-@oak01 PS  959244  0.0  7040 sshd
-@oak01 PS  959245  0.0  3508 bash
-@oak01 PS  959276  0.0  4572 ps
-@oak01 PS  959277  0.0  2320 sed
+@oak01 PS  943280  0.4 805788 python
+@oak01 PS  983722  0.0  2080 sleep
+@oak01 PS  987638  0.0  2072 sleep
+@oak01 PS  988798  0.0  6984 sshd
+@oak01 PS  988799  0.0  3528 bash
+@oak01 PS  988831  0.0  4588 ps
+@oak01 PS  988832  0.0  2316 sed
 @oak01 SIZE 8 21,18
-@oak01 SEEN 1785183040
+@oak01 SEEN 1785185381

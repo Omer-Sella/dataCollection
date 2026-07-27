@@ -1,45 +1,45 @@
-@oak09 CPU 16 12.63
-@oak09 MEM 15766 11932
-@oak09 GPU 0, 88, 2048
-@oak09 PS 2553817  0.1 10256 systemd
-@oak09 PS 2553818  0.0  1712 (sd-pam)
-@oak09 PS 2553830  0.0  4668 pipewire
-@oak09 PS 2553831  0.0  3956 pipewire
-@oak09 PS 2553833  0.0 11508 wireplumber
-@oak09 PS 2553835  0.0  6484 pipewire-pulse
-@oak09 PS 2553856  0.0  3860 dbus-daemon
-@oak09 PS 2553889  0.0  3220 bash
+@oak09 CPU 16 10.96
+@oak09 MEM 15766 11899
+@oak09 GPU 3, 88, 2048
+@oak09 PS 2553817  0.1  7124 systemd
+@oak09 PS 2553818  0.0  1572 (sd-pam)
+@oak09 PS 2553830  0.0  3940 pipewire
+@oak09 PS 2553831  0.0  3412 pipewire
+@oak09 PS 2553833  0.0  9632 wireplumber
+@oak09 PS 2553835  0.0  5736 pipewire-pulse
+@oak09 PS 2553856  0.0  3124 dbus-daemon
+@oak09 PS 2553889  0.0  2768 bash
 @oak09 PS 2553894  0.0  2200 bash
-@oak09 PS 2553904  0.0  1872 bash
+@oak09 PS 2553904  0.0  1536 bash
 @oak09 PS 2553909  0.0  1948 timeout
-@oak09 PS 2553911 91.1 1899260 python
+@oak09 PS 2553911 97.3 1789196 python
 @oak09 PS 2553965  0.0  1944 timeout
-@oak09 PS 2553967 91.2 1975136 python
-@oak09 PS 2553998  0.0  1928 timeout
-@oak09 PS 2554000 91.3 1937908 python
+@oak09 PS 2553967 97.4 1874488 python
+@oak09 PS 2553998  0.0  1924 timeout
+@oak09 PS 2554000 97.4 1836468 python
 @oak09 PS 2554019  0.0  1952 timeout
-@oak09 PS 2554021 91.6 1970896 python
-@oak09 PS 2554869  0.0  5832 python
-@oak09 PS 2554870  0.0  5876 python
-@oak09 PS 2554871  0.0  5820 python
-@oak09 PS 2554872  0.0  5840 python
-@oak09 PS 2554873 74.4 421924 python
-@oak09 PS 2554874 97.9 416796 python
-@oak09 PS 2554875 96.0 424212 python
-@oak09 PS 2554876 97.9 411768 python
-@oak09 PS 2554877 17.3 409692 python
-@oak09 PS 2554878 63.0 420532 python
-@oak09 PS 2554879 61.4 418124 python
-@oak09 PS 2554880 67.9 415256 python
-@oak09 PS 2554881 97.2 414764 python
-@oak09 PS 2554882 91.1 428748 python
-@oak09 PS 2554883 96.9 423904 python
-@oak09 PS 2554884  5.0 417900 python
-@oak09 PS 2561725  0.0  2056 sleep
-@oak09 PS 2565436  0.0  2056 sleep
-@oak09 PS 2567358  0.0  6928 sshd
-@oak09 PS 2567359  0.0  3536 bash
-@oak09 PS 2567370  0.0  4640 ps
-@oak09 PS 2567371  0.0  2300 sed
+@oak09 PS 2554021 97.5 1890156 python
+@oak09 PS 2554869  0.0  3296 python
+@oak09 PS 2554870  0.0  3288 python
+@oak09 PS 2554871  0.0  3288 python
+@oak09 PS 2554872  0.0  3276 python
+@oak09 PS 2554873 90.0 318400 python
+@oak09 PS 2554874 86.1 318496 python
+@oak09 PS 2554875 64.9 324352 python
+@oak09 PS 2554876 61.2 309168 python
+@oak09 PS 2554877  5.0 305440 python
+@oak09 PS 2554878 31.3 318708 python
+@oak09 PS 2554879 30.9 316544 python
+@oak09 PS 2554880 46.9 312648 python
+@oak09 PS 2554881 30.2 310728 python
+@oak09 PS 2554882 97.4 320948 python
+@oak09 PS 2554883 96.6 317268 python
+@oak09 PS 2554884 21.6 321084 python
+@oak09 PS 2594173  0.0  2020 sleep
+@oak09 PS 2598698  0.0  2044 sleep
+@oak09 PS 2601389  0.0  6868 sshd
+@oak09 PS 2601390  0.0  3512 bash
+@oak09 PS 2601401  100  4516 ps
+@oak09 PS 2601402  0.0  2272 sed
 @oak09 SIZE 8 21,18
-@oak09 SEEN 1785183034
+@oak09 SEEN 1785185503

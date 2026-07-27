@@ -1,5 +1,5 @@
-@vertex05 CPU 12 8.94
-@vertex05 MEM 15771 9368
+@vertex05 CPU 12 12.10
+@vertex05 MEM 15771 9384
 @vertex05 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex05 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex05 APP 
@@ -14,28 +14,28 @@
 @vertex05 PS 2642672  0.0  2384 bash
 @vertex05 PS 2642682  0.0  1940 bash
 @vertex05 PS 2642687  0.0  2008 timeout
-@vertex05 PS 2642689 99.5 2122316 python
+@vertex05 PS 2642689 99.6 2122316 python
 @vertex05 PS 2642737  0.0  2008 timeout
-@vertex05 PS 2642739 99.5 2114564 python
+@vertex05 PS 2642739 99.6 2121268 python
 @vertex05 PS 2642769  0.0  2008 timeout
-@vertex05 PS 2642771 99.6 2120844 python
+@vertex05 PS 2642771 99.6 2134268 python
 @vertex05 PS 2643374  0.0  4428 python
 @vertex05 PS 2643375  0.0  4356 python
 @vertex05 PS 2643376  0.0  4108 python
-@vertex05 PS 2643377 44.8 659020 python
-@vertex05 PS 2643378 96.0 657632 python
-@vertex05 PS 2643379 10.8 654332 python
-@vertex05 PS 2643380 90.7 656844 python
-@vertex05 PS 2643381 99.5 665448 python
-@vertex05 PS 2643382 76.5 659912 python
-@vertex05 PS 2643383 13.1 655772 python
-@vertex05 PS 2643384 77.9 658508 python
-@vertex05 PS 2643385 84.7 659528 python
-@vertex05 PS 2875962  0.0  2164 sleep
-@vertex05 PS 2881294  0.0  2160 sleep
-@vertex05 PS 2883626  0.0  7128 sshd
-@vertex05 PS 2883639  0.0  3716 bash
-@vertex05 PS 2883658  0.0  4668 ps
-@vertex05 PS 2883659  0.0  2436 sed
+@vertex05 PS 2643377 48.0 661256 python
+@vertex05 PS 2643378 96.6 654860 python
+@vertex05 PS 2643379  9.1 654332 python
+@vertex05 PS 2643380 76.9 650144 python
+@vertex05 PS 2643381 99.5 665480 python
+@vertex05 PS 2643382 80.1 659912 python
+@vertex05 PS 2643383 21.2 656904 python
+@vertex05 PS 2643384 75.2 658516 python
+@vertex05 PS 2643385 87.0 659528 python
+@vertex05 PS 2921464  0.0  2160 sleep
+@vertex05 PS 2926712  0.0  2164 sleep
+@vertex05 PS 2927943  0.0  7136 sshd
+@vertex05 PS 2927944  0.0  3744 bash
+@vertex05 PS 2927963  100  4668 ps
+@vertex05 PS 2927964  0.0  2428 sed
 @vertex05 SIZE 6 21,18
-@vertex05 SEEN 1785183084
+@vertex05 SEEN 1785185424

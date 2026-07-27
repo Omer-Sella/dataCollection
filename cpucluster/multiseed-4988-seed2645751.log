@@ -1,0 +1,6 @@
+Creating log dir /vol/bitbucket/osella/rl-qecc-data//2026-07-27_21-48-54_1173000...
+Checking the directory was created: True
+Training begins on:
+2026-07-27 21:49:03 Monday
+  0%|          | 0/500000 [00:00<?, ?it/s][92m2026-07-27 21:49:20,799 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 504/500000 [00:36<9:58:54, 13.90it/s]  0%|          | 504/500000 [00:50<9:58:54, 13.90it/s]  0%|          | 1008/500000 [01:18<10:56:04, 12.68it/s]  0%|          | 1008/500000 [01:30<10:56:04, 12.68it/s]  0%|          | 1512/500000 [01:57<10:47:21, 12.83it/s]  0%|          | 1512/500000 [02:10<10:47:21, 12.83it/s]

@@ -1,8 +1,8 @@
-@curve03 CPU 12 6.57
-@curve03 MEM 15917 10331
+@curve03 CPU 12 10.36
+@curve03 MEM 15917 10369
 @curve03 GPU [N/A], 92, 2000
 @curve03 APP [N/A], [N/A]
-@curve03 PS  583218  0.2 11416 systemd
+@curve03 PS  583218  0.2 11420 systemd
 @curve03 PS  583219  0.0  3400 (sd-pam)
 @curve03 PS  583231  0.0  6860 pipewire
 @curve03 PS  583232  0.0  4980 pipewire
@@ -13,28 +13,28 @@
 @curve03 PS  583383  0.0  3360 bash
 @curve03 PS  583414  0.0  2020 bash
 @curve03 PS  583423  0.0  2012 timeout
-@curve03 PS  583425 99.1 1859816 python
+@curve03 PS  583425 99.2 1866520 python
 @curve03 PS  583444  0.0  1980 timeout
-@curve03 PS  583446 99.1 1860580 python
+@curve03 PS  583446 99.2 1867360 python
 @curve03 PS  583472  0.0  1988 timeout
-@curve03 PS  583474 99.1 1861052 python
+@curve03 PS  583474 99.2 1867760 python
 @curve03 PS  583899  0.0  6312 python
 @curve03 PS  583900  0.0  5480 python
 @curve03 PS  583901  0.0  4924 python
-@curve03 PS  583902 84.3 464872 python
-@curve03 PS  583903  1.7 456948 python
-@curve03 PS  583904 67.8 471100 python
-@curve03 PS  583905 71.2 464296 python
-@curve03 PS  583906 15.4 466400 python
-@curve03 PS  583907 98.9 475208 python
-@curve03 PS  583908 25.4 459312 python
-@curve03 PS  583909 87.4 463360 python
-@curve03 PS  583910  8.2 468928 python
-@curve03 PS  744546  0.0  2080 sleep
-@curve03 PS  748169  0.0  2080 sleep
-@curve03 PS  748720  0.0  7016 sshd
-@curve03 PS  748721 12.5  3596 bash
-@curve03 PS  748732  200  4620 ps
-@curve03 PS  748733  0.0  2332 sed
+@curve03 PS  583902 86.6 464872 python
+@curve03 PS  583903 11.1 463608 python
+@curve03 PS  583904 72.6 471104 python
+@curve03 PS  583905 60.3 469752 python
+@curve03 PS  583906 13.1 466400 python
+@curve03 PS  583907 99.0 471860 python
+@curve03 PS  583908 30.1 466996 python
+@curve03 PS  583909 74.0 466704 python
+@curve03 PS  583910  6.9 462360 python
+@curve03 PS  775114  0.0  2084 sleep
+@curve03 PS  775163  0.0  2080 sleep
+@curve03 PS  778978  0.0  6932 sshd
+@curve03 PS  778979  0.0  3576 bash
+@curve03 PS  778998  600  4596 ps
+@curve03 PS  778999  0.0  2328 sed
 @curve03 SIZE 6 21,18
-@curve03 SEEN 1785183091
+@curve03 SEEN 1785185431

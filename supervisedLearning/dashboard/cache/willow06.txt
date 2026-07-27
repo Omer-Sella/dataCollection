@@ -1,6 +1,6 @@
-@willow06 CPU 16 10.02
-@willow06 MEM 15813 9460
-@willow06 GPU 2, 85, 4096
+@willow06 CPU 16 8.25
+@willow06 MEM 15813 9476
+@willow06 GPU 0, 85, 4096
 @willow06 PS  874766  0.1 11628 systemd
 @willow06 PS  874767  0.0  3368 (sd-pam)
 @willow06 PS  874779  0.0  6500 pipewire
@@ -14,32 +14,32 @@
 @willow06 PS  874858  0.0  1952 timeout
 @willow06 PS  874860 99.7 2100780 python
 @willow06 PS  874879  0.0  1952 timeout
-@willow06 PS  874881 99.7 2105056 python
+@willow06 PS  874881 99.8 2105056 python
 @willow06 PS  874911  0.0  1952 timeout
-@willow06 PS  874913 99.7 2118332 python
+@willow06 PS  874913 99.8 2131844 python
 @willow06 PS  874947  0.0  1952 timeout
-@willow06 PS  874949 99.7 2115636 python
+@willow06 PS  874949 99.8 2122348 python
 @willow06 PS  875155  0.0  6012 python
 @willow06 PS  875156  0.0  6020 python
 @willow06 PS  875157  0.0  6092 python
 @willow06 PS  875158  0.0  5984 python
-@willow06 PS  875159 29.9 438756 python
-@willow06 PS  875160 64.7 437368 python
-@willow06 PS  875161 86.0 439764 python
-@willow06 PS  875162 99.0 434376 python
-@willow06 PS  875163 39.1 440524 python
-@willow06 PS  875164 15.3 426932 python
-@willow06 PS  875165 27.6 434976 python
-@willow06 PS  875166  7.6 431292 python
-@willow06 PS  875167 79.3 448428 python
-@willow06 PS  875168 47.1 447228 python
-@willow06 PS  875169 92.7 461512 python
-@willow06 PS  875170 43.9 482840 python
-@willow06 PS 1040370  0.0  2076 sleep
-@willow06 PS 1043997  0.0  2080 sleep
-@willow06 PS 1046540  0.0  7024 sshd
-@willow06 PS 1046541  0.0  3612 bash
-@willow06 PS 1046552  0.0  4656 ps
-@willow06 PS 1046553  0.0  2324 sed
+@willow06 PS  875159 25.4 438756 python
+@willow06 PS  875160 55.0 436252 python
+@willow06 PS  875161 73.0 440868 python
+@willow06 PS  875162 99.1 434376 python
+@willow06 PS  875163 48.4 440524 python
+@willow06 PS  875164 13.1 426944 python
+@willow06 PS  875165 23.4 437196 python
+@willow06 PS  875166 12.3 431296 python
+@willow06 PS  875167 82.4 439648 python
+@willow06 PS  875168 39.9 447228 python
+@willow06 PS  875169 93.8 463768 python
+@willow06 PS  875170 47.0 482844 python
+@willow06 PS 1072731  0.0  2084 sleep
+@willow06 PS 1076762  0.0  2080 sleep
+@willow06 PS 1078608  0.0  7012 sshd
+@willow06 PS 1078609  0.0  3572 bash
+@willow06 PS 1078620  0.0  4660 ps
+@willow06 PS 1078621  0.0  2328 sed
 @willow06 SIZE 8 21,18
-@willow06 SEEN 1785183082
+@willow06 SEEN 1785185422

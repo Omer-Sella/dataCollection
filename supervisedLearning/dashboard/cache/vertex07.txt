@@ -1,9 +1,9 @@
-@vertex07 CPU 12 7.00
-@vertex07 MEM 15771 9602
+@vertex07 CPU 12 7.06
+@vertex07 MEM 15771 9450
 @vertex07 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP 
-@vertex07 PS 2241736  0.0 11556 systemd
+@vertex07 PS 2241736  0.0 11568 systemd
 @vertex07 PS 2241742  0.0  3432 (sd-pam)
 @vertex07 PS 2241753  0.0  7292 pipewire
 @vertex07 PS 2241754  0.0  5308 pipewire
@@ -16,26 +16,26 @@
 @vertex07 PS 2241832  0.0  1928 timeout
 @vertex07 PS 2241834 99.4 1836880 python
 @vertex07 PS 2241868  0.0  1968 timeout
-@vertex07 PS 2241870 99.4 1818792 python
+@vertex07 PS 2241870 99.5 1832208 python
 @vertex07 PS 2241917  0.0  1968 timeout
-@vertex07 PS 2241919 99.4 1816372 python
+@vertex07 PS 2241919 99.5 1823080 python
 @vertex07 PS 2243106  0.0  4556 python
 @vertex07 PS 2243107  0.0  4628 python
 @vertex07 PS 2243108  0.0  4548 python
-@vertex07 PS 2243109 87.6 397776 python
-@vertex07 PS 2243110 45.1 393008 python
-@vertex07 PS 2243111 27.1 379412 python
-@vertex07 PS 2243112 19.9 379928 python
-@vertex07 PS 2243113 34.4 387508 python
-@vertex07 PS 2243114 90.9 395028 python
-@vertex07 PS 2243115 14.4 390040 python
-@vertex07 PS 2243116 43.3 388140 python
-@vertex07 PS 2243117 61.6 376224 python
-@vertex07 PS 2474980  0.0  2036 sleep
-@vertex07 PS 2480289  0.0  2032 sleep
-@vertex07 PS 2482433  0.0  7044 sshd
-@vertex07 PS 2482434  0.0  3616 bash
-@vertex07 PS 2482453  100  4560 ps
-@vertex07 PS 2482454  0.0  2272 sed
+@vertex07 PS 2243109 86.3 373424 python
+@vertex07 PS 2243110 53.5 375972 python
+@vertex07 PS 2243111 38.2 373000 python
+@vertex07 PS 2243112 16.9 364004 python
+@vertex07 PS 2243113 29.1 371812 python
+@vertex07 PS 2243114 79.9 372036 python
+@vertex07 PS 2243115 26.5 374884 python
+@vertex07 PS 2243116 36.7 371820 python
+@vertex07 PS 2243117 62.0 369064 python
+@vertex07 PS 2518618  0.0  2072 sleep
+@vertex07 PS 2525564  0.0  2084 sleep
+@vertex07 PS 2526657  0.0  7112 sshd
+@vertex07 PS 2526658  0.0  3580 bash
+@vertex07 PS 2526677  100  4544 ps
+@vertex07 PS 2526678  0.0  2316 sed
 @vertex07 SIZE 6 21,18
-@vertex07 SEEN 1785183084
+@vertex07 SEEN 1785185424

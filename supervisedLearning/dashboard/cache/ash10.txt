@@ -1,7 +1,7 @@
-@ash10 CPU 16 11.00
-@ash10 MEM 15909 10390
-@ash10 GPU 3, 81, 2048
-@ash10 PS  151255  0.1 11604 systemd
+@ash10 CPU 16 9.00
+@ash10 MEM 15909 10414
+@ash10 GPU 0, 81, 2048
+@ash10 PS  151255  0.1 11608 systemd
 @ash10 PS  151256  0.0  3432 (sd-pam)
 @ash10 PS  151267  0.0  6372 pipewire
 @ash10 PS  151268  0.0  4568 pipewire
@@ -12,34 +12,34 @@
 @ash10 PS  151331  0.0  2216 bash
 @ash10 PS  151341  0.0  1980 bash
 @ash10 PS  151346  0.0  1976 timeout
-@ash10 PS  151348 99.7 2062832 python
+@ash10 PS  151348 99.7 2069556 python
 @ash10 PS  151367  0.0  1936 timeout
-@ash10 PS  151369 99.7 2114420 python
+@ash10 PS  151369 99.7 2121116 python
 @ash10 PS  151399  0.0  1976 timeout
-@ash10 PS  151401 99.7 2048016 python
+@ash10 PS  151401 99.7 2054728 python
 @ash10 PS  151419  0.0  1972 timeout
-@ash10 PS  151421 99.7 2137768 python
+@ash10 PS  151421 99.7 2157884 python
 @ash10 PS  151713  0.0  6020 python
 @ash10 PS  151714  0.0  5968 python
 @ash10 PS  151715  0.0  6068 python
 @ash10 PS  151716  0.0  5876 python
-@ash10 PS  151717 50.7 407300 python
-@ash10 PS  151718 17.3 417124 python
-@ash10 PS  151719 51.9 417560 python
-@ash10 PS  151720 20.6 411476 python
-@ash10 PS  151721 26.0 422872 python
-@ash10 PS  151723 98.7 429240 python
-@ash10 PS  151733 23.6 405276 python
-@ash10 PS  151736 69.0 417028 python
-@ash10 PS  151740 56.3 423316 python
-@ash10 PS  151746 29.0 407612 python
-@ash10 PS  151749 87.2 411400 python
-@ash10 PS  151751 77.2 410188 python
-@ash10 PS  325903  0.0  2072 sleep
-@ash10 PS  325948  0.0  2080 sleep
-@ash10 PS  327604  0.0  7060 sshd
-@ash10 PS  327613  0.0  3680 bash
-@ash10 PS  327624  0.0  4584 ps
-@ash10 PS  327625  0.0  2320 sed
+@ash10 PS  151717 48.2 407300 python
+@ash10 PS  151718 14.8 408320 python
+@ash10 PS  151719 59.1 413124 python
+@ash10 PS  151720 32.4 415700 python
+@ash10 PS  151721 22.1 429440 python
+@ash10 PS  151723 95.0 424784 python
+@ash10 PS  151733 24.2 409632 python
+@ash10 PS  151736 61.3 408232 python
+@ash10 PS  151740 57.8 415628 python
+@ash10 PS  151746 36.3 409848 python
+@ash10 PS  151749 76.2 404684 python
+@ash10 PS  151751 65.7 414664 python
+@ash10 PS  356108  0.0  2076 sleep
+@ash10 PS  356161  0.0  2072 sleep
+@ash10 PS  357013  0.0  7024 sshd
+@ash10 PS  357014  0.0  3620 bash
+@ash10 PS  357025  100  4608 ps
+@ash10 PS  357026  0.0  2320 sed
 @ash10 SIZE 8 21,18
-@ash10 SEEN 1785183068
+@ash10 SEEN 1785185408

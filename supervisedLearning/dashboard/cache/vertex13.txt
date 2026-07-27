@@ -1,9 +1,9 @@
-@vertex13 CPU 12 9.09
-@vertex13 MEM 15771 11504
+@vertex13 CPU 12 8.02
+@vertex13 MEM 15771 11388
 @vertex13 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP 
-@vertex13 PS  545221  0.0 11384 systemd
+@vertex13 PS  545221  0.0 11400 systemd
 @vertex13 PS  545222  0.0  3412 (sd-pam)
 @vertex13 PS  545230  0.0  6788 pipewire
 @vertex13 PS  545231  0.0  4852 pipewire
@@ -14,28 +14,28 @@
 @vertex13 PS  545297  0.0  3136 bash
 @vertex13 PS  545307  0.0  1788 bash
 @vertex13 PS  545312  0.0  1952 timeout
-@vertex13 PS  545315 99.5 2379896 python
+@vertex13 PS  545315 99.6 2386596 python
 @vertex13 PS  545350  0.0  1944 timeout
-@vertex13 PS  545353 99.5 2379872 python
+@vertex13 PS  545353 99.6 2379872 python
 @vertex13 PS  545390  0.0  1940 timeout
-@vertex13 PS  545392 99.5 2379608 python
+@vertex13 PS  545392 99.6 2386304 python
 @vertex13 PS  546140  0.0 10648 python
 @vertex13 PS  546141  0.0 10604 python
 @vertex13 PS  546142  0.0 10592 python
-@vertex13 PS  546143 21.2 800464 python
-@vertex13 PS  546144  1.2 798636 python
-@vertex13 PS  546145 96.6 795760 python
-@vertex13 PS  546146 81.0 800012 python
-@vertex13 PS  546147 90.8 798400 python
-@vertex13 PS  546148 37.3 797100 python
-@vertex13 PS  546149 97.3 801384 python
-@vertex13 PS  546150 51.9 795108 python
-@vertex13 PS  546151 78.2 799628 python
-@vertex13 PS  778616  0.0  2060 sleep
-@vertex13 PS  783922  0.0  2068 sleep
-@vertex13 PS  785541  0.0  7056 sshd
-@vertex13 PS  785556  0.0  3592 bash
-@vertex13 PS  785575  0.0  4512 ps
-@vertex13 PS  785576  0.0  2300 sed
+@vertex13 PS  546143 23.6 800480 python
+@vertex13 PS  546144  1.0 788720 python
+@vertex13 PS  546145 97.1 795760 python
+@vertex13 PS  546146 77.8 804348 python
+@vertex13 PS  546147 92.2 798404 python
+@vertex13 PS  546148 38.0 797100 python
+@vertex13 PS  546149 97.7 803616 python
+@vertex13 PS  546150 44.0 797332 python
+@vertex13 PS  546151 70.8 799628 python
+@vertex13 PS  823818  0.0  2064 sleep
+@vertex13 PS  829180  0.0  2032 sleep
+@vertex13 PS  829763  0.0  7060 sshd
+@vertex13 PS  829764  0.0  3600 bash
+@vertex13 PS  829783  0.0  4520 ps
+@vertex13 PS  829784  0.0  2280 sed
 @vertex13 SIZE 6 21,18
-@vertex13 SEEN 1785183085
+@vertex13 SEEN 1785185425
