@@ -1,5 +1,5 @@
-@vertex13 CPU 12 9.45
-@vertex13 MEM 15771 11511
+@vertex13 CPU 12 9.09
+@vertex13 MEM 15771 11504
 @vertex13 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex13 APP 
@@ -22,20 +22,20 @@
 @vertex13 PS  546140  0.0 10648 python
 @vertex13 PS  546141  0.0 10604 python
 @vertex13 PS  546142  0.0 10592 python
-@vertex13 PS  546143 22.1 800464 python
+@vertex13 PS  546143 21.2 800464 python
 @vertex13 PS  546144  1.2 798636 python
-@vertex13 PS  546145 96.4 795760 python
-@vertex13 PS  546146 80.2 800012 python
-@vertex13 PS  546147 90.4 798400 python
-@vertex13 PS  546148 34.7 797100 python
-@vertex13 PS  546149 97.2 801384 python
-@vertex13 PS  546150 54.1 795108 python
-@vertex13 PS  546151 77.3 799628 python
-@vertex13 PS  767940  0.0  2084 sleep
-@vertex13 PS  773171  0.0  2040 sleep
-@vertex13 PS  776443  0.0  6940 sshd
-@vertex13 PS  776444  0.0  3584 bash
-@vertex13 PS  776463  0.0  4508 ps
-@vertex13 PS  776464  0.0  2312 sed
+@vertex13 PS  546145 96.6 795760 python
+@vertex13 PS  546146 81.0 800012 python
+@vertex13 PS  546147 90.8 798400 python
+@vertex13 PS  546148 37.3 797100 python
+@vertex13 PS  546149 97.3 801384 python
+@vertex13 PS  546150 51.9 795108 python
+@vertex13 PS  546151 78.2 799628 python
+@vertex13 PS  778616  0.0  2060 sleep
+@vertex13 PS  783922  0.0  2068 sleep
+@vertex13 PS  785541  0.0  7056 sshd
+@vertex13 PS  785556  0.0  3592 bash
+@vertex13 PS  785575  0.0  4512 ps
+@vertex13 PS  785576  0.0  2300 sed
 @vertex13 SIZE 6 21,18
-@vertex13 SEEN 1785182570
+@vertex13 SEEN 1785183085

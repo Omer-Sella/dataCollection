@@ -1,6 +1,6 @@
-@beech04 CPU 16 9.00
-@beech04 MEM 15880 10927
-@beech04 GPU 0, 79, 4096
+@beech04 CPU 16 9.14
+@beech04 MEM 15880 10961
+@beech04 GPU 3, 79, 4096
 @beech04 PS 1754488  0.1 11356 systemd
 @beech04 PS 1754489  0.0  3368 (sd-pam)
 @beech04 PS 1754501  0.0  6432 pipewire
@@ -12,9 +12,9 @@
 @beech04 PS 1754571  0.0  2784 bash
 @beech04 PS 1754581  0.0  1936 bash
 @beech04 PS 1754586  0.0  1900 timeout
-@beech04 PS 1754588 99.6 1840792 python
+@beech04 PS 1754588 99.6 1860904 python
 @beech04 PS 1754607  0.0  1904 timeout
-@beech04 PS 1754609 99.6 1820916 python
+@beech04 PS 1754609 99.7 1820916 python
 @beech04 PS 1754626  0.0  1928 timeout
 @beech04 PS 1754628 99.7 1832480 python
 @beech04 PS 1754662  0.0  1904 timeout
@@ -23,23 +23,23 @@
 @beech04 PS 1754967  0.0  4168 python
 @beech04 PS 1754968  0.0  4160 python
 @beech04 PS 1754969  0.0  4148 python
-@beech04 PS 1754970 19.1 251568 python
-@beech04 PS 1754971 56.7 256064 python
-@beech04 PS 1754972 44.4 261144 python
-@beech04 PS 1754973 36.4 251728 python
-@beech04 PS 1754974 36.0 250852 python
-@beech04 PS 1754975 38.0 257052 python
-@beech04 PS 1754976 40.0 247416 python
-@beech04 PS 1754977 54.4 261840 python
-@beech04 PS 1754978 79.3 251156 python
-@beech04 PS 1754979 18.7 256296 python
-@beech04 PS 1754980 77.2 257384 python
-@beech04 PS 1754981 44.4 247952 python
-@beech04 PS 1919933  0.0  2056 sleep
+@beech04 PS 1754970 18.4 251568 python
+@beech04 PS 1754971 54.5 256064 python
+@beech04 PS 1754972 42.7 261144 python
+@beech04 PS 1754973 38.9 255080 python
+@beech04 PS 1754974 38.5 250852 python
+@beech04 PS 1754975 36.5 257052 python
+@beech04 PS 1754976 39.3 249792 python
+@beech04 PS 1754977 55.5 261848 python
+@beech04 PS 1754978 76.2 251156 python
+@beech04 PS 1754979 21.9 256296 python
+@beech04 PS 1754980 78.1 257384 python
+@beech04 PS 1754981 42.7 254520 python
 @beech04 PS 1919975  0.0  2080 sleep
-@beech04 PS 1920826  0.0  6896 sshd
-@beech04 PS 1920827  0.0  3616 bash
-@beech04 PS 1920838  0.0  4608 ps
-@beech04 PS 1920839  0.0  2320 sed
+@beech04 PS 1923584  0.0  2036 sleep
+@beech04 PS 1927210  0.0  6988 sshd
+@beech04 PS 1927211  0.0  3624 bash
+@beech04 PS 1927222  0.0  4604 ps
+@beech04 PS 1927223  0.0  2268 sed
 @beech04 SIZE 8 21,18
-@beech04 SEEN 1785182561
+@beech04 SEEN 1785183076

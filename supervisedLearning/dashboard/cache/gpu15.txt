@@ -1,5 +1,5 @@
-@gpu15 CPU 8 6.72
-@gpu15 MEM 32011 8476
+@gpu15 CPU 8 6.52
+@gpu15 MEM 32011 8488
 @gpu15 GPU 0, 80, 8192
 @gpu15 PS 2240312  0.0  3680 bash
 @gpu15 PS 2240320  0.0  2172 bash
@@ -10,16 +10,16 @@
 @gpu15 PS 2240689  0.0 10892 python
 @gpu15 PS 2240690  0.0 10900 python
 @gpu15 PS 2240691 99.5 815140 python
-@gpu15 PS 2240692 82.3 815696 python
-@gpu15 PS 2240693 60.3 817424 python
-@gpu15 PS 2240694 18.9 816680 python
-@gpu15 PS 2240695 90.0 811576 python
-@gpu15 PS 2240696 14.5 818712 python
-@gpu15 PS 2414032  0.0  2092 sleep
-@gpu15 PS 2416603  0.0  7064 sshd
-@gpu15 PS 2416604  0.0  3652 bash
-@gpu15 PS 2416615  0.0  4636 ps
-@gpu15 PS 2416616  0.0  2344 sed
+@gpu15 PS 2240692 82.9 815696 python
+@gpu15 PS 2240693 58.1 817424 python
+@gpu15 PS 2240694 21.9 816680 python
+@gpu15 PS 2240695 90.4 811696 python
+@gpu15 PS 2240696 14.0 818712 python
+@gpu15 PS 2421592  0.0  2088 sleep
+@gpu15 PS 2423097  0.0  6996 sshd
+@gpu15 PS 2423099  0.0  3644 bash
+@gpu15 PS 2423110  100  4644 ps
+@gpu15 PS 2423111  0.0  2336 sed
 @gpu15 PS 3210805  0.0  8220 systemd
 @gpu15 PS 3210808  0.0  1724 (sd-pam)
 @gpu15 PS 3210824  0.0  4688 pipewire
@@ -47,4 +47,4 @@
 @gpu15 PS 3417632  0.0   688 ssh-agent
 @gpu15 PS 3419215  0.0   688 ssh-agent
 @gpu15 SIZE 4 21,18
-@gpu15 SEEN 1785182533
+@gpu15 SEEN 1785183048

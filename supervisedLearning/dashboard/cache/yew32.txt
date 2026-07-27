@@ -1,10 +1,10 @@
-@yew32 CPU 24 10.02
-@yew32 MEM 15658 12849
+@yew32 CPU 24 9.64
+@yew32 MEM 15658 12854
 @yew32 PS 2834814  0.0  2868 bash
 @yew32 PS 2834824  0.0  1824 bash
 @yew32 PS 2834837  0.0  1900 bash
 @yew32 PS 2834842  0.0  1532 timeout
-@yew32 PS 2834844 99.6 1848032 python
+@yew32 PS 2834844 99.7 1848032 python
 @yew32 PS 2834900  0.0  1528 timeout
 @yew32 PS 2834902 99.7 1845904 python
 @yew32 PS 2834924  0.0  1532 timeout
@@ -15,18 +15,18 @@
 @yew32 PS 2835223  0.0  3420 python
 @yew32 PS 2835225  0.0  3464 python
 @yew32 PS 2835226  0.0  3412 python
-@yew32 PS 2835228 46.4 357032 python
-@yew32 PS 2835229 82.1 371880 python
+@yew32 PS 2835228 44.6 357032 python
+@yew32 PS 2835229 82.8 371880 python
 @yew32 PS 2835231 99.3 390700 python
-@yew32 PS 2835232 22.9 391648 python
-@yew32 PS 2835233 25.3 371328 python
-@yew32 PS 2835235 71.0 404672 python
-@yew32 PS 2835237 57.5 354900 python
-@yew32 PS 2835238 24.9 359616 python
-@yew32 PS 2835240 24.0 377624 python
-@yew32 PS 2835241 77.1 399076 python
-@yew32 PS 2835243 70.5 380432 python
-@yew32 PS 2835244  3.2 364712 python
+@yew32 PS 2835232 22.0 391648 python
+@yew32 PS 2835233 28.2 371328 python
+@yew32 PS 2835235 68.3 404672 python
+@yew32 PS 2835237 55.3 354900 python
+@yew32 PS 2835238 27.8 359616 python
+@yew32 PS 2835240 26.6 377624 python
+@yew32 PS 2835241 77.9 399076 python
+@yew32 PS 2835243 67.8 380432 python
+@yew32 PS 2835244  3.1 364712 python
 @yew32 PS 2836354  0.1 11632 systemd
 @yew32 PS 2836355  0.0  3400 (sd-pam)
 @yew32 PS 2836366  0.0  8768 pipewire
@@ -34,11 +34,11 @@
 @yew32 PS 2836369  0.0 16004 wireplumber
 @yew32 PS 2836371  0.0 10696 pipewire-pulse
 @yew32 PS 2836381  0.0  4340 dbus-daemon
-@yew32 PS 3002288  0.0  2068 sleep
-@yew32 PS 3005903  0.0  2072 sleep
-@yew32 PS 3009395  0.0  6932 sshd
-@yew32 PS 3009396  0.0  3592 bash
-@yew32 PS 3009407  0.0  4600 ps
-@yew32 PS 3009408  0.0  2308 sed
+@yew32 PS 3009824  0.0  2060 sleep
+@yew32 PS 3013426  0.0  2072 sleep
+@yew32 PS 3015790  0.0  6988 sshd
+@yew32 PS 3015791  0.0  3548 bash
+@yew32 PS 3015802  0.0  4596 ps
+@yew32 PS 3015803  0.0  2276 sed
 @yew32 SIZE 8 21,18
-@yew32 SEEN 1785182538
+@yew32 SEEN 1785183053

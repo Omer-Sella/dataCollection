@@ -1,5 +1,5 @@
-@vertex17 CPU 12 10.30
-@vertex17 MEM 15771 9233
+@vertex17 CPU 12 9.20
+@vertex17 MEM 15771 9043
 @vertex17 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex17 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex17 APP 
@@ -14,7 +14,7 @@
 @vertex17 PS 2507239  0.0  2288 bash
 @vertex17 PS 2507249  0.0  1844 bash
 @vertex17 PS 2507254  0.0  1832 timeout
-@vertex17 PS 2507256 99.5 2197340 python
+@vertex17 PS 2507256 99.5 2204044 python
 @vertex17 PS 2507303  0.0  1832 timeout
 @vertex17 PS 2507305 99.5 2133872 python
 @vertex17 PS 2507335  0.0  1832 timeout
@@ -22,20 +22,20 @@
 @vertex17 PS 2508171  0.0  6064 python
 @vertex17 PS 2508172  0.0  6084 python
 @vertex17 PS 2508173  0.0  5988 python
-@vertex17 PS 2508174 29.9 663272 python
-@vertex17 PS 2508175 21.0 665952 python
+@vertex17 PS 2508174 28.7 665504 python
+@vertex17 PS 2508175 24.2 665952 python
 @vertex17 PS 2508176 99.5 663864 python
-@vertex17 PS 2508177 81.8 642112 python
-@vertex17 PS 2508178 53.7 632640 python
-@vertex17 PS 2508179 31.5 623184 python
-@vertex17 PS 2508180 60.1 636348 python
-@vertex17 PS 2508181 53.8 634200 python
-@vertex17 PS 2508182 36.9 643020 python
-@vertex17 PS 2729344  0.0  2076 sleep
-@vertex17 PS 2734576  0.0  2076 sleep
-@vertex17 PS 2738486  0.0  6992 sshd
-@vertex17 PS 2738500  0.0  3584 bash
-@vertex17 PS 2738520  0.0  4596 ps
-@vertex17 PS 2738521  0.0  2348 sed
+@vertex17 PS 2508177 82.5 642112 python
+@vertex17 PS 2508178 51.6 630416 python
+@vertex17 PS 2508179 30.3 623184 python
+@vertex17 PS 2508180 61.7 636348 python
+@vertex17 PS 2508181 55.6 634224 python
+@vertex17 PS 2508182 39.4 643020 python
+@vertex17 PS 2741022  0.0  2084 sleep
+@vertex17 PS 2746251  0.0  2080 sleep
+@vertex17 PS 2747620  0.0  7096 sshd
+@vertex17 PS 2747621  0.0  3568 bash
+@vertex17 PS 2747640  0.0  4596 ps
+@vertex17 PS 2747641  0.0  2324 sed
 @vertex17 SIZE 6 21,18
-@vertex17 SEEN 1785182570
+@vertex17 SEEN 1785183085

@@ -1,6 +1,6 @@
-@willow10 CPU 16 8.04
-@willow10 MEM 15809 11889
-@willow10 GPU 0, 92, 4096
+@willow10 CPU 16 8.00
+@willow10 MEM 15809 11885
+@willow10 GPU 3, 84, 4096
 @willow10 PS  125399  0.1 11504 systemd
 @willow10 PS  125400  0.0  3376 (sd-pam)
 @willow10 PS  125412  0.0  6012 pipewire
@@ -16,30 +16,30 @@
 @willow10 PS  125518  0.0  1964 timeout
 @willow10 PS  125520 99.6 1980448 python
 @willow10 PS  125543  0.0  1964 timeout
-@willow10 PS  125545 99.6 1976184 python
+@willow10 PS  125545 99.6 1982884 python
 @willow10 PS  125564  0.0  1964 timeout
-@willow10 PS  125566 99.6 1975704 python
+@willow10 PS  125566 99.7 1975704 python
 @willow10 PS  125957  0.0  5124 python
 @willow10 PS  125958  0.0  4996 python
 @willow10 PS  125959  0.0  5092 python
 @willow10 PS  125960  0.0  5088 python
-@willow10 PS  125961 72.0 478524 python
-@willow10 PS  125962 25.3 480652 python
-@willow10 PS  125963 32.8 494684 python
-@willow10 PS  125964 33.7 472332 python
-@willow10 PS  125965 25.4 493588 python
-@willow10 PS  125966 58.8 480692 python
-@willow10 PS  125967 66.4 473940 python
-@willow10 PS  125968 46.9 477784 python
-@willow10 PS  125969 60.2 515268 python
-@willow10 PS  125970 74.7 501772 python
-@willow10 PS  125971 45.8 520520 python
-@willow10 PS  125972 23.5 496308 python
-@willow10 PS  285971  0.0  2072 sleep
-@willow10 PS  289704  0.0  2072 sleep
-@willow10 PS  293568  0.0  7004 sshd
-@willow10 PS  293569  0.0  3556 bash
-@willow10 PS  293580  100  4532 ps
-@willow10 PS  293581  0.0  2316 sed
+@willow10 PS  125961 69.1 470716 python
+@willow10 PS  125962 24.3 480652 python
+@willow10 PS  125963 31.6 494684 python
+@willow10 PS  125964 32.4 472332 python
+@willow10 PS  125965 24.4 488136 python
+@willow10 PS  125966 56.5 480692 python
+@willow10 PS  125967 67.8 477272 python
+@willow10 PS  125968 49.0 477784 python
+@willow10 PS  125969 61.8 515268 python
+@willow10 PS  125970 75.7 501772 python
+@willow10 PS  125971 44.0 520520 python
+@willow10 PS  125972 22.5 496308 python
+@willow10 PS  293971  0.0  2072 sleep
+@willow10 PS  297650  0.0  2076 sleep
+@willow10 PS  300082  0.0  7052 sshd
+@willow10 PS  300083  0.0  3604 bash
+@willow10 PS  300094  100  4540 ps
+@willow10 PS  300095  0.0  2324 sed
 @willow10 SIZE 8 21,18
-@willow10 SEEN 1785182568
+@willow10 SEEN 1785183083

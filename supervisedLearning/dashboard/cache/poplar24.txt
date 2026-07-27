@@ -1,10 +1,10 @@
-@poplar24 CPU 24 10.01
-@poplar24 MEM 15658 12731
+@poplar24 CPU 24 10.05
+@poplar24 MEM 15658 12736
 @poplar24 PS  926620  0.0  2868 bash
 @poplar24 PS  926625  0.0  1752 bash
 @poplar24 PS  926635  0.0  1940 bash
 @poplar24 PS  926669  0.0  1532 timeout
-@poplar24 PS  926671 99.6 1867424 python
+@poplar24 PS  926671 99.7 1867424 python
 @poplar24 PS  926706  0.0  1532 timeout
 @poplar24 PS  926708 99.7 1858980 python
 @poplar24 PS  926761  0.0  1532 timeout
@@ -15,18 +15,18 @@
 @poplar24 PS  927078  0.0  3520 python
 @poplar24 PS  927079  0.0  3548 python
 @poplar24 PS  927080  0.0  3540 python
-@poplar24 PS  927083 47.2 376948 python
-@poplar24 PS  927084 52.9 379008 python
-@poplar24 PS  927086 68.9 383288 python
-@poplar24 PS  927087 25.9 382956 python
-@poplar24 PS  927088 49.7 383536 python
-@poplar24 PS  927090 24.9 383844 python
-@poplar24 PS  927092 89.8 399176 python
-@poplar24 PS  927094 20.4 376952 python
-@poplar24 PS  927096 41.1 381256 python
-@poplar24 PS  927097 84.0 386476 python
-@poplar24 PS  927098 82.8 382544 python
-@poplar24 PS  927099 34.4 379380 python
+@poplar24 PS  927083 49.3 376948 python
+@poplar24 PS  927084 54.8 379008 python
+@poplar24 PS  927086 66.2 383288 python
+@poplar24 PS  927087 24.9 382956 python
+@poplar24 PS  927088 47.8 383536 python
+@poplar24 PS  927090 23.9 383844 python
+@poplar24 PS  927092 90.2 399176 python
+@poplar24 PS  927094 19.7 376952 python
+@poplar24 PS  927096 43.3 381256 python
+@poplar24 PS  927097 80.8 386476 python
+@poplar24 PS  927098 83.5 382544 python
+@poplar24 PS  927099 36.9 379380 python
 @poplar24 PS  928282  0.1 11888 systemd
 @poplar24 PS  928283  0.0  3412 (sd-pam)
 @poplar24 PS  928294  0.0  8656 pipewire
@@ -34,11 +34,11 @@
 @poplar24 PS  928297  0.0 15792 wireplumber
 @poplar24 PS  928299  0.0 10544 pipewire-pulse
 @poplar24 PS  928311  0.0  4344 dbus-daemon
-@poplar24 PS 1096067  0.0  2068 sleep
-@poplar24 PS 1099819  0.0  2064 sleep
-@poplar24 PS 1100153  0.0  6936 sshd
-@poplar24 PS 1100154  0.0  3576 bash
-@poplar24 PS 1100165  0.0  4572 ps
-@poplar24 PS 1100166  0.0  2316 sed
+@poplar24 PS 1103591  0.0  2068 sleep
+@poplar24 PS 1103667  0.0  2064 sleep
+@poplar24 PS 1106641  0.0  6980 sshd
+@poplar24 PS 1106642  0.0  3588 bash
+@poplar24 PS 1106653  0.0  4568 ps
+@poplar24 PS 1106654  0.0  2316 sed
 @poplar24 SIZE 8 21,18
-@poplar24 SEEN 1785182547
+@poplar24 SEEN 1785183062

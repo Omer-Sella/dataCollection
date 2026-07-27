@@ -1,28 +1,28 @@
-@gpu16 CPU 8 8.16
-@gpu16 MEM 32011 17990
-@gpu16 GPU 0, 82, 8192
+@gpu16 CPU 8 7.34
+@gpu16 MEM 32011 18194
+@gpu16 GPU 0, 84, 8192
 @gpu16 PS  655298  0.0  8216 systemd
 @gpu16 PS  655299  0.0  2044 (sd-pam)
 @gpu16 PS  655312  0.0  4736 pipewire
-@gpu16 PS  655313  0.0  3924 pipewire
-@gpu16 PS  655315  0.0 10520 wireplumber
+@gpu16 PS  655313  0.0  3920 pipewire
+@gpu16 PS  655315  0.0 10508 wireplumber
 @gpu16 PS  655317  0.0  6184 pipewire-pulse
 @gpu16 PS  655338  0.0  3400 dbus-daemon
 @gpu16 PS  655370  0.0   888 ssh-agent
 @gpu16 PS  655854  0.0   956 ssh-agent
 @gpu16 PS  676371  0.0   884 ssh-agent
 @gpu16 PS  729082  0.0   772 ssh-agent
-@gpu16 PS  731186  0.0   884 ssh-agent
+@gpu16 PS  731186  0.0   880 ssh-agent
 @gpu16 PS  736028  0.0   792 ssh-agent
-@gpu16 PS  740054  0.0   824 ssh-agent
+@gpu16 PS  740054  0.0   820 ssh-agent
 @gpu16 PS  748521  0.0   872 ssh-agent
-@gpu16 PS  751481  0.0   932 ssh-agent
+@gpu16 PS  751481  0.0   928 ssh-agent
 @gpu16 PS  756485  0.0   916 ssh-agent
 @gpu16 PS  775307  0.0   932 ssh-agent
-@gpu16 PS  802083  0.0   988 ssh-agent
+@gpu16 PS  802083  0.0   984 ssh-agent
 @gpu16 PS  808480  0.0   864 ssh-agent
 @gpu16 PS  808776  0.0   932 ssh-agent
-@gpu16 PS  823255  0.0  1132 ssh-agent
+@gpu16 PS  823255  0.0  1124 ssh-agent
 @gpu16 PS  825092  0.0  1128 ssh-agent
 @gpu16 PS  850336  0.0   716 ssh-agent
 @gpu16 PS  863652  0.0   744 ssh-agent
@@ -30,21 +30,21 @@
 @gpu16 PS 3873595  0.0  2272 bash
 @gpu16 PS 3873603  0.0  1476 bash
 @gpu16 PS 3873608  0.0  1980 timeout
-@gpu16 PS 3873610 98.1 1891960 python
+@gpu16 PS 3873610 98.2 1856452 python
 @gpu16 PS 3873631  0.0  1996 timeout
-@gpu16 PS 3873633 98.2 1950252 python
-@gpu16 PS 3874181  0.0  8008 python
-@gpu16 PS 3874182  0.0  8020 python
-@gpu16 PS 3874183 55.0 447032 python
-@gpu16 PS 3874184 30.1 440468 python
-@gpu16 PS 3874185 32.5 449620 python
-@gpu16 PS 3874186 95.7 443560 python
-@gpu16 PS 3874187 78.6 456156 python
-@gpu16 PS 3874188  6.4 453324 python
-@gpu16 PS 4047690  0.0  2088 sleep
-@gpu16 PS 4051243  0.0  7092 sshd
-@gpu16 PS 4051244  0.0  3656 bash
-@gpu16 PS 4051255  100  4632 ps
-@gpu16 PS 4051256  0.0  2336 sed
+@gpu16 PS 3873633 98.2 1912004 python
+@gpu16 PS 3874181  0.0  8004 python
+@gpu16 PS 3874182  0.0  8016 python
+@gpu16 PS 3874183 53.0 446784 python
+@gpu16 PS 3874184 29.0 440440 python
+@gpu16 PS 3874185 34.9 445840 python
+@gpu16 PS 3874186 95.8 443620 python
+@gpu16 PS 3874187 79.4 452444 python
+@gpu16 PS 3874188  6.2 449832 python
+@gpu16 PS 4056289  0.0  2088 sleep
+@gpu16 PS 4057683  0.0  6992 sshd
+@gpu16 PS 4057684  0.0  3652 bash
+@gpu16 PS 4057695  0.0  4596 ps
+@gpu16 PS 4057696  0.0  2336 sed
 @gpu16 SIZE 4 21,18
-@gpu16 SEEN 1785182533
+@gpu16 SEEN 1785183048

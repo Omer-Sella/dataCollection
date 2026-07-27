@@ -1,27 +1,27 @@
-@oak16 CPU 16 4.56
-@oak16 MEM 15766 9505
+@oak16 CPU 16 4.85
+@oak16 MEM 15766 9474
 @oak16 GPU 0, 81, 2048
-@oak16 PS 1892637  0.0  2920 bash
+@oak16 PS 1892637  0.0  2928 bash
 @oak16 PS 1892642  0.0  2052 bash
 @oak16 PS 1892652  0.0  2112 bash
 @oak16 PS 1892657  0.0  1632 timeout
-@oak16 PS 1892659 88.4 2243152 python
-@oak16 PS 1893342  0.0  8000 python
-@oak16 PS 1893346 85.7 490848 python
-@oak16 PS 1893351 95.1 491120 python
-@oak16 PS 1893354 80.1 490232 python
-@oak16 PS 1894579  0.1 11688 systemd
-@oak16 PS 1894580  0.0  3428 (sd-pam)
-@oak16 PS 1894591  0.0  8660 pipewire
-@oak16 PS 1894592  0.0  5976 pipewire
-@oak16 PS 1894595  0.0 15988 wireplumber
-@oak16 PS 1894596  0.0 10612 pipewire-pulse
-@oak16 PS 1894611  0.0  4364 dbus-daemon
-@oak16 PS 1903152  0.0  2068 sleep
+@oak16 PS 1892659 92.7 2244016 python
+@oak16 PS 1893342  0.0  7956 python
+@oak16 PS 1893346 66.9 494324 python
+@oak16 PS 1893351 97.0 490844 python
+@oak16 PS 1893354 63.5 493256 python
+@oak16 PS 1894579  0.1 10620 systemd
+@oak16 PS 1894580  0.0  3340 (sd-pam)
+@oak16 PS 1894591  0.0  8092 pipewire
+@oak16 PS 1894592  0.0  5524 pipewire
+@oak16 PS 1894595  0.0 14652 wireplumber
+@oak16 PS 1894596  0.0  9572 pipewire-pulse
+@oak16 PS 1894611  0.0  3988 dbus-daemon
 @oak16 PS 1903155  0.0  2076 sleep
-@oak16 PS 1903685  0.0  7012 sshd
-@oak16 PS 1903686  0.0  3592 bash
-@oak16 PS 1903697  0.0  4608 ps
-@oak16 PS 1903698  0.0  2316 sed
+@oak16 PS 1906782  0.0  2072 sleep
+@oak16 PS 1908455  0.0  6868 sshd
+@oak16 PS 1908456  0.0  3592 bash
+@oak16 PS 1908467  0.0  4488 ps
+@oak16 PS 1908468  0.0  2308 sed
 @oak16 SIZE 2 21,18
-@oak16 SEEN 1785182655
+@oak16 SEEN 1785183041

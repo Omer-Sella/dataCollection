@@ -1,11 +1,11 @@
-@poplar08 CPU 24 9.14
-@poplar08 MEM 15658 12364
-@poplar08 PS    2178  0.0  2072 sleep
-@poplar08 PS    5889  0.0  2072 sleep
-@poplar08 PS    8771  0.0  7052 sshd
-@poplar08 PS    8779  0.0  3604 bash
-@poplar08 PS    8790  0.0  4512 ps
-@poplar08 PS    8791  0.0  2316 sed
+@poplar08 CPU 24 9.34
+@poplar08 MEM 15658 12285
+@poplar08 PS   11423  0.0  2076 sleep
+@poplar08 PS   15113  0.0  2072 sleep
+@poplar08 PS   15162  0.0  7016 sshd
+@poplar08 PS   15163  0.0  3612 bash
+@poplar08 PS   15174  0.0  4536 ps
+@poplar08 PS   15175  0.0  2316 sed
 @poplar08 PS 4031776  0.0  2784 bash
 @poplar08 PS 4031781  0.0  1776 bash
 @poplar08 PS 4031791  0.0  1908 bash
@@ -14,25 +14,25 @@
 @poplar08 PS 4031874  0.0  1496 timeout
 @poplar08 PS 4031876 99.6 1849692 python
 @poplar08 PS 4031905  0.0  1496 timeout
-@poplar08 PS 4031907 99.6 1870916 python
+@poplar08 PS 4031907 99.6 1877620 python
 @poplar08 PS 4031930  0.0  1496 timeout
 @poplar08 PS 4031932 99.6 1859120 python
 @poplar08 PS 4032243  0.0  3492 python
 @poplar08 PS 4032246  0.0  3416 python
 @poplar08 PS 4032247  0.0  3300 python
 @poplar08 PS 4032248  0.0  3472 python
-@poplar08 PS 4032249 38.1 350604 python
-@poplar08 PS 4032250 91.6 356268 python
+@poplar08 PS 4032249 36.6 350604 python
+@poplar08 PS 4032250 91.9 352956 python
 @poplar08 PS 4032253 98.6 359796 python
-@poplar08 PS 4032254 94.3 347004 python
-@poplar08 PS 4032255 10.9 353348 python
-@poplar08 PS 4032256 28.4 347064 python
-@poplar08 PS 4032259 32.3 334024 python
-@poplar08 PS 4032260 49.9 346004 python
-@poplar08 PS 4032262 99.1 344152 python
-@poplar08 PS 4032263  9.1 354764 python
-@poplar08 PS 4032265 45.3 354068 python
-@poplar08 PS 4032266  9.0 338060 python
+@poplar08 PS 4032254 94.0 347004 python
+@poplar08 PS 4032255 10.5 353348 python
+@poplar08 PS 4032256 27.3 340492 python
+@poplar08 PS 4032259 31.1 334024 python
+@poplar08 PS 4032260 47.9 346004 python
+@poplar08 PS 4032262 99.2 344152 python
+@poplar08 PS 4032263 11.9 354764 python
+@poplar08 PS 4032265 47.4 354068 python
+@poplar08 PS 4032266  8.6 338060 python
 @poplar08 PS 4034171  0.1 11864 systemd
 @poplar08 PS 4034172  0.0  3396 (sd-pam)
 @poplar08 PS 4034191  0.0  8624 pipewire
@@ -41,4 +41,4 @@
 @poplar08 PS 4034196  0.0 10692 pipewire-pulse
 @poplar08 PS 4034197  0.0  4416 dbus-daemon
 @poplar08 SIZE 8 21,18
-@poplar08 SEEN 1785182546
+@poplar08 SEEN 1785183060

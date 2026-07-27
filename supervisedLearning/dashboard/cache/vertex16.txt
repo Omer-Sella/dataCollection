@@ -1,5 +1,5 @@
-@vertex16 CPU 12 8.08
-@vertex16 MEM 15771 10348
+@vertex16 CPU 12 8.03
+@vertex16 MEM 15771 10345
 @vertex16 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP 
@@ -14,28 +14,28 @@
 @vertex16 PS 3373259  0.0  3308 bash
 @vertex16 PS 3373269  0.0  1960 bash
 @vertex16 PS 3373274  0.0  1900 timeout
-@vertex16 PS 3373276 99.5 1829888 python
+@vertex16 PS 3373276 99.6 1829888 python
 @vertex16 PS 3373306  0.0  1892 timeout
-@vertex16 PS 3373308 99.5 1829388 python
+@vertex16 PS 3373308 99.6 1829388 python
 @vertex16 PS 3373356  0.0  1892 timeout
 @vertex16 PS 3373358 99.6 1846184 python
 @vertex16 PS 3374144  0.0  4836 python
 @vertex16 PS 3374145  0.0  4748 python
 @vertex16 PS 3374146  0.0  4808 python
-@vertex16 PS 3374147 39.0 470100 python
-@vertex16 PS 3374148 28.7 468104 python
-@vertex16 PS 3374149 63.9 475588 python
-@vertex16 PS 3374150 39.4 478828 python
-@vertex16 PS 3374151 72.9 474876 python
-@vertex16 PS 3374152 25.5 476460 python
-@vertex16 PS 3374153 32.8 473748 python
-@vertex16 PS 3374154 35.7 474260 python
+@vertex16 PS 3374147 37.5 470100 python
+@vertex16 PS 3374148 27.5 468104 python
+@vertex16 PS 3374149 61.4 475588 python
+@vertex16 PS 3374150 41.8 478828 python
+@vertex16 PS 3374151 74.0 474876 python
+@vertex16 PS 3374152 24.5 476460 python
+@vertex16 PS 3374153 35.5 473748 python
+@vertex16 PS 3374154 38.3 474260 python
 @vertex16 PS 3374155 99.8 476844 python
-@vertex16 PS 3597236  0.0  2012 sleep
-@vertex16 PS 3602547  0.0  2032 sleep
-@vertex16 PS 3605588  0.0  7108 sshd
-@vertex16 PS 3605589  0.0  3556 bash
-@vertex16 PS 3605608  0.0  4500 ps
-@vertex16 PS 3605609  0.0  2244 sed
+@vertex16 PS 3608034  0.0  2036 sleep
+@vertex16 PS 3613336  0.0  2028 sleep
+@vertex16 PS 3614780  0.0  7084 sshd
+@vertex16 PS 3614781  0.0  3496 bash
+@vertex16 PS 3614808  0.0  4532 ps
+@vertex16 PS 3614809  0.0  2260 sed
 @vertex16 SIZE 6 21,18
-@vertex16 SEEN 1785182570
+@vertex16 SEEN 1785183085
