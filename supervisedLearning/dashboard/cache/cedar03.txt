@@ -1,10 +1,10 @@
-@cedar03 CPU 16 11.01
-@cedar03 MEM 31668 16073
+@cedar03 CPU 16 11.00
+@cedar03 MEM 31668 16069
 @cedar03 PS  279702  0.1 11824 systemd
 @cedar03 PS  279703  0.0  3424 (sd-pam)
 @cedar03 PS  279714  0.0  8704 pipewire
 @cedar03 PS  279715  0.0  5952 pipewire
-@cedar03 PS  279718  0.0 16884 wireplumber
+@cedar03 PS  279718  0.0 16900 wireplumber
 @cedar03 PS  279719  0.0 10444 pipewire-pulse
 @cedar03 PS  279736  0.0  4400 dbus-daemon
 @cedar03 PS  279773  0.0  3632 bash
@@ -23,22 +23,22 @@
 @cedar03 PS  280230  0.0 11048 python
 @cedar03 PS  280231  0.0 11084 python
 @cedar03 PS  280232 98.8 829020 python
-@cedar03 PS  280233 76.2 827168 python
-@cedar03 PS  280234 84.0 823144 python
-@cedar03 PS  280235 84.0 830696 python
-@cedar03 PS  280236 48.4 818248 python
-@cedar03 PS  280237 63.1 827984 python
-@cedar03 PS  280238 28.4 825428 python
-@cedar03 PS  280239 44.5 823020 python
-@cedar03 PS  280240 51.0 824092 python
-@cedar03 PS  280241 29.1 826084 python
-@cedar03 PS  280242 17.4 823160 python
-@cedar03 PS  280243 50.4 823380 python
-@cedar03 PS  553520  0.0  2072 sleep
-@cedar03 PS  559259  0.0  2032 sleep
-@cedar03 PS  562167  0.0  7076 sshd
-@cedar03 PS  562168  0.0  3556 bash
-@cedar03 PS  562179  0.0  4516 ps
-@cedar03 PS  562180  0.0  2320 sed
+@cedar03 PS  280233 76.3 827168 python
+@cedar03 PS  280234 83.6 823144 python
+@cedar03 PS  280235 84.1 830696 python
+@cedar03 PS  280236 48.1 818248 python
+@cedar03 PS  280237 63.3 827984 python
+@cedar03 PS  280238 28.8 825428 python
+@cedar03 PS  280239 44.9 823020 python
+@cedar03 PS  280240 50.7 824092 python
+@cedar03 PS  280241 28.9 826084 python
+@cedar03 PS  280242 17.3 823160 python
+@cedar03 PS  280243 50.7 823380 python
+@cedar03 PS  562922  0.0  2024 sleep
+@cedar03 PS  562995  0.0  2040 sleep
+@cedar03 PS  563714  0.0  7032 sshd
+@cedar03 PS  563715  0.0  3580 bash
+@cedar03 PS  563726  0.0  4532 ps
+@cedar03 PS  563727  0.0  2320 sed
 @cedar03 SIZE 8 21,18
-@cedar03 SEEN 1785191759
+@cedar03 SEEN 1785191884
