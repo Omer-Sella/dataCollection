@@ -1,5 +1,5 @@
-@vertex04 CPU 12 10.16
-@vertex04 MEM 15771 9671
+@vertex04 CPU 12 9.49
+@vertex04 MEM 15771 9607
 @vertex04 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP 
@@ -14,28 +14,28 @@
 @vertex04 PS   69071  0.0  3352 bash
 @vertex04 PS   69081  0.0  1996 bash
 @vertex04 PS   69086  0.0  1964 timeout
-@vertex04 PS   69088 99.6 1865608 python
+@vertex04 PS   69088 99.7 1872304 python
 @vertex04 PS   69122  0.0  1984 timeout
-@vertex04 PS   69124 99.6 1870720 python
+@vertex04 PS   69124 99.7 1877424 python
 @vertex04 PS   69154  0.0  1984 timeout
-@vertex04 PS   69156 99.6 1837760 python
+@vertex04 PS   69156 99.7 1844472 python
 @vertex04 PS   70014  0.0  4624 python
 @vertex04 PS   70015  0.0  4476 python
 @vertex04 PS   70016  0.0  4444 python
-@vertex04 PS   70017 37.0 380560 python
-@vertex04 PS   70018 16.7 391088 python
-@vertex04 PS   70019 93.1 394660 python
-@vertex04 PS   70020 75.5 397012 python
-@vertex04 PS   70021 64.4 395304 python
-@vertex04 PS   70022 56.8 396908 python
-@vertex04 PS   70023 30.5 400492 python
-@vertex04 PS   70024 75.2 389420 python
-@vertex04 PS   70025 85.4 386552 python
-@vertex04 PS  358649  0.0  2088 sleep
-@vertex04 PS  363927  0.0  2068 sleep
-@vertex04 PS  365214  0.0  7068 sshd
-@vertex04 PS  365215  0.0  3568 bash
-@vertex04 PS  365242  0.0  4592 ps
-@vertex04 PS  365243  0.0  2328 sed
+@vertex04 PS   70017 50.8 379108 python
+@vertex04 PS   70018 11.7 383072 python
+@vertex04 PS   70019 95.1 386248 python
+@vertex04 PS   70020 82.7 381152 python
+@vertex04 PS   70021 45.3 385196 python
+@vertex04 PS   70022 64.6 381568 python
+@vertex04 PS   70023 51.0 381772 python
+@vertex04 PS   70024 68.4 383668 python
+@vertex04 PS   70025 87.6 379048 python
+@vertex04 PS  489826  0.0  2092 sleep
+@vertex04 PS  489905  0.0  2088 sleep
+@vertex04 PS  493690  0.0  7092 sshd
+@vertex04 PS  493709  0.0  3608 bash
+@vertex04 PS  493728  100  4592 ps
+@vertex04 PS  493729  0.0  2328 sed
 @vertex04 SIZE 6 21,18
-@vertex04 SEEN 1785185424
+@vertex04 SEEN 1785191871

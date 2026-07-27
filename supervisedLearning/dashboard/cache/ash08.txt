@@ -1,5 +1,5 @@
-@ash08 CPU 16 8.01
-@ash08 MEM 15909 9724
+@ash08 CPU 16 9.01
+@ash08 MEM 15909 9300
 @ash08 GPU 0, 81, 2048
 @ash08 PS  178722  0.1 11328 systemd
 @ash08 PS  178723  0.0  3384 (sd-pam)
@@ -12,34 +12,34 @@
 @ash08 PS  178808  0.0  2224 bash
 @ash08 PS  178818  0.0  1932 bash
 @ash08 PS  178823  0.0  1948 timeout
-@ash08 PS  178825 99.7 2103896 python
+@ash08 PS  178825 99.8 1993056 python
 @ash08 PS  178854  0.0  1944 timeout
-@ash08 PS  178856 99.7 2099560 python
+@ash08 PS  178856 99.8 1980108 python
 @ash08 PS  178877  0.0  1948 timeout
-@ash08 PS  178879 99.7 2118696 python
+@ash08 PS  178879 99.8 2001020 python
 @ash08 PS  178915  0.0  1948 timeout
-@ash08 PS  178917 99.7 2142904 python
+@ash08 PS  178917 99.8 2042432 python
 @ash08 PS  179224  0.0  5988 python
 @ash08 PS  179225  0.0  6104 python
 @ash08 PS  179226  0.0  6096 python
 @ash08 PS  179227  0.0  6036 python
-@ash08 PS  179228 26.4 460064 python
-@ash08 PS  179229  1.4 451652 python
-@ash08 PS  179230 30.8 439292 python
-@ash08 PS  179231 16.7 440944 python
-@ash08 PS  179232 75.5 451220 python
-@ash08 PS  179233 16.3 440592 python
-@ash08 PS  179234 76.5 450036 python
-@ash08 PS  179235 86.2 463432 python
-@ash08 PS  179236 91.6 472232 python
-@ash08 PS  179237 19.5 485224 python
-@ash08 PS  179238 37.5 505228 python
-@ash08 PS  179239 44.9 497908 python
-@ash08 PS  384529  0.0  2056 sleep
-@ash08 PS  384590  0.0  2052 sleep
-@ash08 PS  385547  0.0  6936 sshd
-@ash08 PS  385548  0.0  3548 bash
-@ash08 PS  385559  0.0  4520 ps
-@ash08 PS  385560  0.0  2284 sed
+@ash08 PS  179228 23.5 460084 python
+@ash08 PS  179229  1.0 458376 python
+@ash08 PS  179230 34.2 439312 python
+@ash08 PS  179231 19.6 447524 python
+@ash08 PS  179232 69.1 442444 python
+@ash08 PS  179233 34.8 435048 python
+@ash08 PS  179234 83.3 447828 python
+@ash08 PS  179235 61.0 464564 python
+@ash08 PS  179236 70.7 475608 python
+@ash08 PS  179237 13.8 487456 python
+@ash08 PS  179238 44.3 509756 python
+@ash08 PS  179239 60.9 496868 python
+@ash08 PS  461920  0.0  2052 sleep
+@ash08 PS  468044  0.0  2052 sleep
+@ash08 PS  470833  0.0  6984 sshd
+@ash08 PS  470834  0.0  3572 bash
+@ash08 PS  470845  100  4508 ps
+@ash08 PS  470846  0.0  2296 sed
 @ash08 SIZE 8 21,18
-@ash08 SEEN 1785185408
+@ash08 SEEN 1785191855

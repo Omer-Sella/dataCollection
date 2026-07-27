@@ -1,40 +1,40 @@
-@curve04 CPU 12 6.36
-@curve04 MEM 15917 10855
+@curve04 CPU 12 8.20
+@curve04 MEM 15917 10614
 @curve04 GPU [N/A], 82, 2000
 @curve04 APP [N/A], [N/A]
-@curve04 PS 1322490  0.2 11208 systemd
+@curve04 PS 1322490  0.2 11216 systemd
 @curve04 PS 1322491  0.0  3376 (sd-pam)
 @curve04 PS 1322499  0.0  6900 pipewire
 @curve04 PS 1322500  0.0  5184 pipewire
 @curve04 PS 1322502  0.0 13040 wireplumber
 @curve04 PS 1322504  0.0  8624 pipewire-pulse
 @curve04 PS 1322516  0.0  4264 dbus-daemon
-@curve04 PS 1322689  0.0  2984 bash
+@curve04 PS 1322689  0.0  2980 bash
 @curve04 PS 1322694  0.0  2816 bash
 @curve04 PS 1322704  0.0  1692 bash
 @curve04 PS 1322709  0.0  1936 timeout
-@curve04 PS 1322711 99.1 2166172 python
+@curve04 PS 1322711 99.2 2076216 python
 @curve04 PS 1322746  0.0  1928 timeout
-@curve04 PS 1322748 99.1 2172024 python
+@curve04 PS 1322748 99.2 2081276 python
 @curve04 PS 1322766  0.0  1936 timeout
-@curve04 PS 1322768 99.1 2212972 python
+@curve04 PS 1322768 99.2 2129888 python
 @curve04 PS 1323220  0.0 10672 python
 @curve04 PS 1323221  0.0 10708 python
 @curve04 PS 1323222  0.0 10704 python
-@curve04 PS 1323223  4.2 704208 python
-@curve04 PS 1323224 28.0 710692 python
-@curve04 PS 1323225 77.6 709812 python
-@curve04 PS 1323226 94.7 703724 python
-@curve04 PS 1323227 82.9 709248 python
-@curve04 PS 1323228 85.5 705376 python
-@curve04 PS 1323229 68.0 704568 python
-@curve04 PS 1323230  6.4 702196 python
-@curve04 PS 1323231 22.1 706308 python
-@curve04 PS 1517616  0.0  2072 sleep
-@curve04 PS 1517665  0.0  2056 sleep
-@curve04 PS 1521067  0.0  7056 sshd
-@curve04 PS 1521068  0.0  3548 bash
-@curve04 PS 1521079  400  4600 ps
-@curve04 PS 1521080  0.0  2320 sed
+@curve04 PS 1323223 19.5 705216 python
+@curve04 PS 1323224 41.1 705120 python
+@curve04 PS 1323225 68.9 709812 python
+@curve04 PS 1323226 77.7 713644 python
+@curve04 PS 1323227 59.2 707012 python
+@curve04 PS 1323228 75.6 707596 python
+@curve04 PS 1323229 74.2 708928 python
+@curve04 PS 1323230 20.5 711000 python
+@curve04 PS 1323231 27.6 708540 python
+@curve04 PS 1594168  0.0  2068 sleep
+@curve04 PS 1601697  0.0  2056 sleep
+@curve04 PS 1601770  0.0  7028 sshd
+@curve04 PS 1601771 10.0  3596 bash
+@curve04 PS 1601782  500  4608 ps
+@curve04 PS 1601783  0.0  2320 sed
 @curve04 SIZE 6 21,18
-@curve04 SEEN 1785185431
+@curve04 SEEN 1785191753

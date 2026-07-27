@@ -1,6 +1,6 @@
-@gpu33 CPU 16 11.44
-@gpu33 MEM 64221 19738
-@gpu33 GPU 100, 14406, 16376
+@gpu33 CPU 16 10.28
+@gpu33 MEM 64221 19763
+@gpu33 GPU 100, 14405, 16376
 @gpu33 APP 1833158, 14362
 @gpu33 PS  458314  0.1 11984 systemd
 @gpu33 PS  458315  0.0  3412 (sd-pam)
@@ -10,7 +10,7 @@
 @gpu33 PS  458331  0.0 10620 pipewire-pulse
 @gpu33 PS  458348  0.0  4416 dbus-daemon
 @gpu33 PS  458376  0.0  1480 ssh-agent
-@gpu33 PS  458764  0.0 18044 code-4fe60c8b1c
+@gpu33 PS  458764  0.0 18052 code-4fe60c8b1c
 @gpu33 PS  458919  0.0  1480 ssh-agent
 @gpu33 PS  459267  0.0  1480 ssh-agent
 @gpu33 PS  460198  0.0  1484 ssh-agent
@@ -31,29 +31,29 @@
 @gpu33 PS 2898351  0.0  3672 bash
 @gpu33 PS 2898359  0.0  2164 bash
 @gpu33 PS 2898364  0.0  2136 timeout
-@gpu33 PS 2898366 99.7 2655436 python
+@gpu33 PS 2898366 99.8 2668844 python
 @gpu33 PS 2898388  0.0  2140 timeout
-@gpu33 PS 2898390 99.7 2656620 python
+@gpu33 PS 2898390 99.8 2663328 python
 @gpu33 PS 2898417  0.0  2140 timeout
-@gpu33 PS 2898419 99.7 2645824 python
+@gpu33 PS 2898419 99.8 2652520 python
 @gpu33 PS 2898452  0.0  2136 timeout
-@gpu33 PS 2898454 99.8 2647436 python
+@gpu33 PS 2898454 99.8 2654136 python
 @gpu33 PS 2898665  0.0 11096 python
 @gpu33 PS 2898666  0.0 11096 python
 @gpu33 PS 2898667  0.0 11072 python
 @gpu33 PS 2898668  0.0 11132 python
-@gpu33 PS 2898669 73.9 831532 python
-@gpu33 PS 2898670 67.3 836552 python
-@gpu33 PS 2898671 60.1 833448 python
-@gpu33 PS 2898672 50.1 834324 python
-@gpu33 PS 2898673 97.0 833584 python
-@gpu33 PS 2898674 60.6 837052 python
-@gpu33 PS 2898675 52.3 832972 python
-@gpu33 PS 2898676 36.5 832616 python
-@gpu33 PS 2898677 10.7 832892 python
-@gpu33 PS 2898678 31.7 830988 python
-@gpu33 PS 2898679 73.1 837440 python
-@gpu33 PS 2898680 53.8 834176 python
+@gpu33 PS 2898669 67.7 830420 python
+@gpu33 PS 2898670 59.0 836552 python
+@gpu33 PS 2898671 56.9 836784 python
+@gpu33 PS 2898672 35.8 834324 python
+@gpu33 PS 2898673 93.4 833596 python
+@gpu33 PS 2898674 58.9 830940 python
+@gpu33 PS 2898675 65.1 832972 python
+@gpu33 PS 2898676 46.6 832616 python
+@gpu33 PS 2898677 22.2 832896 python
+@gpu33 PS 2898678 27.6 834996 python
+@gpu33 PS 2898679 80.7 831868 python
+@gpu33 PS 2898680 67.0 834176 python
 @gpu33 PS 3097084  0.0  1480 ssh-agent
 @gpu33 PS 3097641  0.0  1480 ssh-agent
 @gpu33 PS 3098012  0.0  1480 ssh-agent
@@ -67,12 +67,12 @@
 @gpu33 PS 3104456  0.0  1480 ssh-agent
 @gpu33 PS 3129066  0.0  3224 ssh-agent
 @gpu33 PS 3146645  0.0  1544 ssh-agent
-@gpu33 PS 3147393  0.0  2092 sleep
-@gpu33 PS 3156414  0.0  7048 sshd
-@gpu33 PS 3156415  0.0  3636 bash
-@gpu33 PS 3156428  200  4700 ps
-@gpu33 PS 3156429  0.0  2336 sed
 @gpu33 PS 3191207  0.0  1532 ssh-agent
+@gpu33 PS 3250925  0.0  2088 sleep
+@gpu33 PS 3258657  0.0  7068 sshd
+@gpu33 PS 3258658  0.0  3592 bash
+@gpu33 PS 3258673  0.0  4676 ps
+@gpu33 PS 3258674  0.0  2336 sed
 @gpu33 PS 3291939  0.0  1536 ssh-agent
 @gpu33 PS 3292483  0.0  1548 ssh-agent
 @gpu33 PS 3313549  0.0  1544 ssh-agent
@@ -89,4 +89,4 @@
 @gpu33 PS 3462153  0.0  1544 ssh-agent
 @gpu33 PS 3515572  0.0  1544 ssh-agent
 @gpu33 SIZE 8 21,18
-@gpu33 SEEN 1785185389
+@gpu33 SEEN 1785191836

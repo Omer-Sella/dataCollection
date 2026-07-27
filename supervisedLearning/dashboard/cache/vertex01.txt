@@ -1,5 +1,5 @@
-@vertex01 CPU 12 7.14
-@vertex01 MEM 15771 10323
+@vertex01 CPU 12 7.20
+@vertex01 MEM 15771 10436
 @vertex01 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex01 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex01 APP 
@@ -14,28 +14,28 @@
 @vertex01 PS  458212  0.0  3372 bash
 @vertex01 PS  458222  0.0  1924 bash
 @vertex01 PS  458227  0.0  2012 timeout
-@vertex01 PS  458229 99.6 2151156 python
+@vertex01 PS  458229 99.7 2164572 python
 @vertex01 PS  458259  0.0  2012 timeout
-@vertex01 PS  458261 99.6 2193252 python
+@vertex01 PS  458261 99.7 2206688 python
 @vertex01 PS  458308  0.0  2012 timeout
-@vertex01 PS  458310 99.6 2202336 python
+@vertex01 PS  458310 99.7 2209048 python
 @vertex01 PS  459042  0.0  6684 python
 @vertex01 PS  459043  0.0  6524 python
 @vertex01 PS  459044  0.0  6664 python
-@vertex01 PS  459045 87.3 779032 python
-@vertex01 PS  459046 85.7 781288 python
-@vertex01 PS  459047 69.7 778384 python
-@vertex01 PS  459048 41.5 776628 python
-@vertex01 PS  459049 41.7 781292 python
-@vertex01 PS  459050 15.8 776176 python
-@vertex01 PS  459051 98.3 775800 python
-@vertex01 PS  459052 17.4 779224 python
-@vertex01 PS  459053 84.6 779484 python
-@vertex01 PS  739275  0.0  2140 sleep
-@vertex01 PS  746616  0.0  2140 sleep
-@vertex01 PS  748146  0.0  7064 sshd
-@vertex01 PS  748147  0.0  3600 bash
-@vertex01 PS  748166  0.0  4668 ps
-@vertex01 PS  748167  0.0  2412 sed
+@vertex01 PS  459045 63.4 770648 python
+@vertex01 PS  459046 88.7 774600 python
+@vertex01 PS  459047 76.8 761704 python
+@vertex01 PS  459048 52.5 770836 python
+@vertex01 PS  459049 45.3 765012 python
+@vertex01 PS  459050 32.3 764020 python
+@vertex01 PS  459051 98.7 769932 python
+@vertex01 PS  459052 12.3 770764 python
+@vertex01 PS  459053 84.1 765816 python
+@vertex01 PS  864635  0.0  2148 sleep
+@vertex01 PS  864724  0.0  2144 sleep
+@vertex01 PS  868805  0.0  7084 sshd
+@vertex01 PS  868806  0.0  3648 bash
+@vertex01 PS  868825  0.0  4656 ps
+@vertex01 PS  868826  0.0  2416 sed
 @vertex01 SIZE 6 21,18
-@vertex01 SEEN 1785185424
+@vertex01 SEEN 1785191871

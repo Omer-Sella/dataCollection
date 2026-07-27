@@ -1,45 +1,45 @@
-@oak10 CPU 16 9.92
-@oak10 MEM 15766 11953
-@oak10 GPU 3, 92, 2048
-@oak10 PS 4023947  0.1 11064 systemd
+@oak10 CPU 16 12.07
+@oak10 MEM 15766 12015
+@oak10 GPU 0, 92, 2048
+@oak10 PS 4023947  0.1 11156 systemd
 @oak10 PS 4023948  0.0  3356 (sd-pam)
 @oak10 PS 4023968  0.0  6236 pipewire
 @oak10 PS 4023969  0.0  4420 pipewire
-@oak10 PS 4023971  0.0 12432 wireplumber
+@oak10 PS 4023971  0.0 12440 wireplumber
 @oak10 PS 4023973  0.0  7604 pipewire-pulse
 @oak10 PS 4023992  0.0  3900 dbus-daemon
 @oak10 PS 4024073  0.0  3216 bash
 @oak10 PS 4024079  0.0  2200 bash
-@oak10 PS 4024089  0.0  1960 bash
+@oak10 PS 4024089  0.0  1964 bash
 @oak10 PS 4024094  0.0  1952 timeout
-@oak10 PS 4024096 97.6 2088232 python
+@oak10 PS 4024096 99.1 2101640 python
 @oak10 PS 4024132  0.0  1952 timeout
-@oak10 PS 4024134 97.6 2091812 python
+@oak10 PS 4024134 99.1 2105216 python
 @oak10 PS 4024155  0.0  1952 timeout
-@oak10 PS 4024157 97.7 2098372 python
+@oak10 PS 4024157 99.1 2105072 python
 @oak10 PS 4024198  0.0  1956 timeout
-@oak10 PS 4024200 97.8 2089160 python
+@oak10 PS 4024200 99.2 2102576 python
 @oak10 PS 4025002  0.0  5496 python
 @oak10 PS 4025003  0.0  5464 python
 @oak10 PS 4025004  0.0  5484 python
 @oak10 PS 4025005  0.0  5488 python
-@oak10 PS 4025006 83.2 624748 python
-@oak10 PS 4025007 45.9 652976 python
-@oak10 PS 4025008 68.1 626536 python
-@oak10 PS 4025009 46.2 620996 python
-@oak10 PS 4025010 93.6 656684 python
-@oak10 PS 4025011 87.3 633772 python
-@oak10 PS 4025012 96.1 625184 python
-@oak10 PS 4025013  4.4 617368 python
-@oak10 PS 4025014 29.7 625692 python
-@oak10 PS 4025015  5.0 625924 python
-@oak10 PS 4025016 99.2 628696 python
-@oak10 PS 4025017 24.5 627328 python
-@oak10 PS 4064471  0.0  2056 sleep
-@oak10 PS 4068568  0.0  2064 sleep
-@oak10 PS 4071203  0.0  7044 sshd
-@oak10 PS 4071204  0.0  3560 bash
-@oak10 PS 4071215  0.0  4540 ps
-@oak10 PS 4071216  0.0  2308 sed
+@oak10 PS 4025006 91.0 629224 python
+@oak10 PS 4025007 45.0 651868 python
+@oak10 PS 4025008 88.1 622076 python
+@oak10 PS 4025009 68.3 624252 python
+@oak10 PS 4025010 97.7 653352 python
+@oak10 PS 4025011 66.5 633776 python
+@oak10 PS 4025012 98.6 631324 python
+@oak10 PS 4025013 32.7 628624 python
+@oak10 PS 4025014 10.4 625692 python
+@oak10 PS 4025015 29.7 628228 python
+@oak10 PS 4025016 99.4 627384 python
+@oak10 PS 4025017  8.6 627332 python
+@oak10 PS 4151334  0.0  2056 sleep
+@oak10 PS 4151368  0.0  2064 sleep
+@oak10 PS 4154196  0.0  7004 sshd
+@oak10 PS 4154197  0.0  3604 bash
+@oak10 PS 4154208  0.0  4536 ps
+@oak10 PS 4154209  0.0  2304 sed
 @oak10 SIZE 8 21,18
-@oak10 SEEN 1785185503
+@oak10 SEEN 1785191825

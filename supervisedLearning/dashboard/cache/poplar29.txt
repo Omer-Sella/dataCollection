@@ -1,26 +1,26 @@
-@poplar29 CPU 24 6.08
-@poplar29 MEM 15658 10597
+@poplar29 CPU 24 8.05
+@poplar29 MEM 15658 10684
 @poplar29 PS  752663  0.0  2876 bash
 @poplar29 PS  752668  0.0  1812 bash
 @poplar29 PS  752678  0.0  1876 bash
 @poplar29 PS  752716  0.0  1532 timeout
-@poplar29 PS  752718 99.7 1871104 python
+@poplar29 PS  752718 99.8 1891220 python
 @poplar29 PS  752781  0.0  1532 timeout
-@poplar29 PS  752783 99.7 1871540 python
+@poplar29 PS  752783 99.8 1884952 python
 @poplar29 PS  752816  0.0  1532 timeout
-@poplar29 PS  752818 99.8 1856112 python
+@poplar29 PS  752818 99.8 1896328 python
 @poplar29 PS  753068  0.0  3420 python
 @poplar29 PS  753069  0.0  3440 python
 @poplar29 PS  753073  0.0  3444 python
-@poplar29 PS  753074 15.5 461308 python
-@poplar29 PS  753077 70.9 465092 python
-@poplar29 PS  753078 53.0 462032 python
-@poplar29 PS  753080  0.1 450688 python
-@poplar29 PS  753081 72.0 464712 python
-@poplar29 PS  753083 44.2 464048 python
-@poplar29 PS  753086 17.4 463904 python
-@poplar29 PS  753089 32.9 464884 python
-@poplar29 PS  753090 86.3 466368 python
+@poplar29 PS  753074 23.4 462456 python
+@poplar29 PS  753077 51.9 461784 python
+@poplar29 PS  753078 52.4 466500 python
+@poplar29 PS  753080 17.8 462280 python
+@poplar29 PS  753081 80.1 463612 python
+@poplar29 PS  753083 56.7 465180 python
+@poplar29 PS  753086 33.4 463912 python
+@poplar29 PS  753089 25.0 460432 python
+@poplar29 PS  753090 68.1 464152 python
 @poplar29 PS  754070  0.1 11872 systemd
 @poplar29 PS  754071  0.0  3432 (sd-pam)
 @poplar29 PS  754082  0.0  8800 pipewire
@@ -28,11 +28,11 @@
 @poplar29 PS  754085  0.0 15924 wireplumber
 @poplar29 PS  754087  0.0 10636 pipewire-pulse
 @poplar29 PS  754099  0.0  4416 dbus-daemon
-@poplar29 PS  960089  0.0  2060 sleep
-@poplar29 PS  960140  0.0  2064 sleep
-@poplar29 PS  962055  0.0  7024 sshd
-@poplar29 PS  962057  0.0  3572 bash
-@poplar29 PS  962068  0.0  4588 ps
-@poplar29 PS  962069  0.0  2312 sed
+@poplar29 PS 1038512  0.0  2068 sleep
+@poplar29 PS 1046019  0.0  2068 sleep
+@poplar29 PS 1046107  0.0  6984 sshd
+@poplar29 PS 1046108  0.0  3564 bash
+@poplar29 PS 1046119  0.0  4592 ps
+@poplar29 PS 1046120  0.0  2316 sed
 @poplar29 SIZE 6 21,18
-@poplar29 SEEN 1785185402
+@poplar29 SEEN 1785191849

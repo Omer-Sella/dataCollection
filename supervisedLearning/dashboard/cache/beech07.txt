@@ -1,10 +1,10 @@
-@beech07 CPU 16 11.04
-@beech07 MEM 13864 11998
+@beech07 CPU 16 10.03
+@beech07 MEM 13864 12049
 @beech07 GPU 0, 93, 4096
-@beech07 PS 1944689  0.1 11672 systemd
-@beech07 PS 1944698  0.0  3416 (sd-pam)
+@beech07 PS 1944689  0.1 11680 systemd
+@beech07 PS 1944698  0.0  3356 (sd-pam)
 @beech07 PS 1944709  0.0  5764 pipewire
-@beech07 PS 1944710  0.0  4080 pipewire
+@beech07 PS 1944710  0.0  4072 pipewire
 @beech07 PS 1944712  0.0 13172 wireplumber
 @beech07 PS 1944714  0.0  7192 pipewire-pulse
 @beech07 PS 1944733  0.0  3836 dbus-daemon
@@ -12,34 +12,34 @@
 @beech07 PS 1944774  0.0  1920 bash
 @beech07 PS 1944784  0.0  1916 bash
 @beech07 PS 1944789  0.0  1700 timeout
-@beech07 PS 1944791 99.7 1809768 python
+@beech07 PS 1944791 99.8 1821168 python
 @beech07 PS 1944822  0.0  1700 timeout
-@beech07 PS 1944824 99.7 1808412 python
+@beech07 PS 1944824 99.8 1821024 python
 @beech07 PS 1944846  0.0  1700 timeout
-@beech07 PS 1944848 99.7 1798096 python
+@beech07 PS 1944848 99.8 1809852 python
 @beech07 PS 1944867  0.0  1700 timeout
-@beech07 PS 1944869 99.7 1807504 python
+@beech07 PS 1944869 99.8 1811336 python
 @beech07 PS 1945130  0.0  3932 python
 @beech07 PS 1945131  0.0  3980 python
 @beech07 PS 1945132  0.0  4100 python
 @beech07 PS 1945133  0.0  4052 python
-@beech07 PS 1945134 35.5 340432 python
-@beech07 PS 1945135 56.0 334280 python
-@beech07 PS 1945136 47.4 335452 python
-@beech07 PS 1945137 99.3 347236 python
-@beech07 PS 1945138 60.0 337532 python
-@beech07 PS 1945139 99.8 337532 python
-@beech07 PS 1945140 41.6 342732 python
-@beech07 PS 1945141 81.1 345072 python
-@beech07 PS 1945142 33.9 339780 python
-@beech07 PS 1945143 65.7 364680 python
-@beech07 PS 1945144 43.8 368984 python
-@beech07 PS 1945145 61.8 385852 python
-@beech07 PS 2140722  0.0  2076 sleep
-@beech07 PS 2144748  0.0  2076 sleep
-@beech07 PS 2147424  0.0  6932 sshd
-@beech07 PS 2147425  0.0  3564 bash
-@beech07 PS 2147436  0.0  4592 ps
-@beech07 PS 2147437  0.0  2324 sed
+@beech07 PS 1945134 30.2 335980 python
+@beech07 PS 1945135 39.5 341968 python
+@beech07 PS 1945136 33.5 339916 python
+@beech07 PS 1945137 99.1 347252 python
+@beech07 PS 1945138 65.5 337532 python
+@beech07 PS 1945139 99.8 341988 python
+@beech07 PS 1945140 52.0 342680 python
+@beech07 PS 1945141 78.0 347320 python
+@beech07 PS 1945142 36.4 344244 python
+@beech07 PS 1945143 75.2 362448 python
+@beech07 PS 1945144 50.2 377800 python
+@beech07 PS 1945145 64.8 388096 python
+@beech07 PS 2228332  0.0  2076 sleep
+@beech07 PS 2232428  0.0  2072 sleep
+@beech07 PS 2233175  0.0  7004 sshd
+@beech07 PS 2233176  0.0  3624 bash
+@beech07 PS 2233187  0.0  4612 ps
+@beech07 PS 2233188  0.0  2320 sed
 @beech07 SIZE 8 21,18
-@beech07 SEEN 1785185416
+@beech07 SEEN 1785191863

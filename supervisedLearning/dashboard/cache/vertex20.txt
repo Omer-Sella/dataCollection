@@ -1,5 +1,5 @@
-@vertex20 CPU 12 6.05
-@vertex20 MEM 15771 9878
+@vertex20 CPU 12 7.17
+@vertex20 MEM 15771 9761
 @vertex20 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex20 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex20 APP 
@@ -14,28 +14,28 @@
 @vertex20 PS 1641848  0.0  3028 bash
 @vertex20 PS 1641858  0.0  1972 bash
 @vertex20 PS 1641863  0.0  1948 timeout
-@vertex20 PS 1641866 99.6 1849344 python
+@vertex20 PS 1641866 99.7 1862768 python
 @vertex20 PS 1641896  0.0  1948 timeout
-@vertex20 PS 1641898 99.6 1855660 python
+@vertex20 PS 1641898 99.7 1869064 python
 @vertex20 PS 1641937  0.0  1948 timeout
-@vertex20 PS 1641939 99.6 1848692 python
+@vertex20 PS 1641939 99.7 1862100 python
 @vertex20 PS 1642681  0.0  4588 python
 @vertex20 PS 1642682  0.0  4580 python
 @vertex20 PS 1642683  0.0  4524 python
-@vertex20 PS 1642684 44.3 443344 python
-@vertex20 PS 1642685  1.2 440228 python
-@vertex20 PS 1642686 77.0 441032 python
-@vertex20 PS 1642687 84.1 446792 python
-@vertex20 PS 1642688 45.0 425532 python
-@vertex20 PS 1642689 53.3 446372 python
-@vertex20 PS 1642690 77.9 442000 python
-@vertex20 PS 1642691 92.3 448196 python
-@vertex20 PS 1642692 95.7 444572 python
-@vertex20 PS 1923634  0.0  2064 sleep
-@vertex20 PS 1923698  0.0  2072 sleep
-@vertex20 PS 1929139  0.0  7128 sshd
-@vertex20 PS 1929140  0.0  3596 bash
-@vertex20 PS 1929159  0.0  4628 ps
-@vertex20 PS 1929160  0.0  2336 sed
+@vertex20 PS 1642684 31.1 420280 python
+@vertex20 PS 1642685 16.3 430340 python
+@vertex20 PS 1642686 81.1 426080 python
+@vertex20 PS 1642687 88.8 427996 python
+@vertex20 PS 1642688 37.1 403136 python
+@vertex20 PS 1642689 49.5 427384 python
+@vertex20 PS 1642690 54.8 423248 python
+@vertex20 PS 1642691 89.1 427924 python
+@vertex20 PS 1642692 79.6 429540 python
+@vertex20 PS 2048866  0.0  2068 sleep
+@vertex20 PS 2048947  0.0  2080 sleep
+@vertex20 PS 2051490  0.0  7140 sshd
+@vertex20 PS 2051491  0.0  3600 bash
+@vertex20 PS 2051510  0.0  4620 ps
+@vertex20 PS 2051511  0.0  2304 sed
 @vertex20 SIZE 6 21,18
-@vertex20 SEEN 1785185425
+@vertex20 SEEN 1785191872

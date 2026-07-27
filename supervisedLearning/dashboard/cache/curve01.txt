@@ -1,5 +1,5 @@
-@curve01 CPU 12 10.33
-@curve01 MEM 15917 10452
+@curve01 CPU 12 8.32
+@curve01 MEM 15917 10250
 @curve01 GPU [N/A], 91, 2000
 @curve01 APP [N/A], [N/A]
 @curve01 PS 1831739  0.1 11516 systemd
@@ -13,28 +13,28 @@
 @curve01 PS 1831908  0.0  3352 bash
 @curve01 PS 1831918  0.0  1908 bash
 @curve01 PS 1831923  0.0  1964 timeout
-@curve01 PS 1831925 99.4 2148944 python
+@curve01 PS 1831925 99.5 2162232 python
 @curve01 PS 1831946  0.0  1964 timeout
-@curve01 PS 1831948 99.4 2126568 python
+@curve01 PS 1831948 99.5 2139844 python
 @curve01 PS 1831981  0.0  1920 timeout
-@curve01 PS 1831983 99.4 2148072 python
-@curve01 PS 1832413  0.0  6476 python
+@curve01 PS 1831983 99.5 2168064 python
+@curve01 PS 1832413  0.0  6440 python
 @curve01 PS 1832414  0.0  6440 python
-@curve01 PS 1832415  0.0  6228 python
-@curve01 PS 1832416 30.8 788220 python
-@curve01 PS 1832417 70.8 785476 python
-@curve01 PS 1832418 83.2 789412 python
-@curve01 PS 1832419 61.5 788088 python
-@curve01 PS 1832420 75.9 783732 python
-@curve01 PS 1832421  9.8 787376 python
-@curve01 PS 1832422 20.6 782248 python
-@curve01 PS 1832423 23.4 779856 python
-@curve01 PS 1832424 34.4 783464 python
-@curve01 PS 2023438  0.0  2068 sleep
-@curve01 PS 2023488  0.0  2020 sleep
-@curve01 PS 2026975  0.0  7064 sshd
-@curve01 PS 2026981  6.6  3596 bash
-@curve01 PS 2026998  600  4524 ps
-@curve01 PS 2026999  0.0  2312 sed
+@curve01 PS 1832415  0.0  6188 python
+@curve01 PS 1832416 29.4 751732 python
+@curve01 PS 1832417 61.1 757152 python
+@curve01 PS 1832418 64.9 756028 python
+@curve01 PS 1832419 68.1 756472 python
+@curve01 PS 1832420 77.1 754736 python
+@curve01 PS 1832421  7.0 753772 python
+@curve01 PS 1832422 19.1 759216 python
+@curve01 PS 1832423 22.3 751032 python
+@curve01 PS 1832424 42.5 755556 python
+@curve01 PS 2107005  0.0  2064 sleep
+@curve01 PS 2107073  0.0  2060 sleep
+@curve01 PS 2107205  0.0  6984 sshd
+@curve01 PS 2107206 12.5  3552 bash
+@curve01 PS 2107217  200  4536 ps
+@curve01 PS 2107218  0.0  2272 sed
 @curve01 SIZE 6 21,18
-@curve01 SEEN 1785185431
+@curve01 SEEN 1785191753
