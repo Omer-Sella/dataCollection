@@ -1,0 +1,26 @@
+Agent pid 2493370
+Agent pid 2493941
+Creating log dir /rds/general/user/osella/home/rl-qecc-data//2026-07-26_13-31-06_2494245...
+Checking the directory was created: True
+Training begins on:
+2026-07-26 13:32:20 Sunday
+[92m2026-07-26 13:33:18,622 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+[master 2cb105e] hpc collection 3438337[19].pbs-7 task 19
+ 9 files changed, 898 insertions(+)
+ create mode 100644 hpcLogs/3438337[10].pbs-7.ER
+ create mode 100644 hpcLogs/3438337[10].pbs-7.OU
+ create mode 100644 hpcLogs/3438337[15].pbs-7.ER
+ create mode 100644 hpcLogs/3438337[15].pbs-7.OU
+ create mode 100644 hpcLogs/3438337[16].pbs-7.ER
+ create mode 100644 hpcLogs/3438337[16].pbs-7.OU
+ create mode 100644 hpcLogs/3438337[7].pbs-7.ER
+ create mode 100644 hpcLogs/3438337[7].pbs-7.OU
+
+====================================
+CPU Time used: 22:03:15
+CPU Percent: 368%
+Memory usage: 4683820kb
+Approx Power usage: 0.2646
+Walltime usage: 07:01:24
+
+====================================
