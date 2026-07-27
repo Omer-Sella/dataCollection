@@ -1,32 +1,26 @@
-@gpu28 CPU 8 14.36
-@gpu28 MEM 64034 9968
+@gpu28 CPU 8 15.22
+@gpu28 MEM 64034 12954
 @gpu28 GPU 97, 1026, 11264
-@gpu28 APP 1953433, 996
-@gpu28 PS  834633  0.0  2116 bash
-@gpu28 PS  849285  0.0  2168 bash
-@gpu28 PS  861583  0.0  2048 bash
-@gpu28 PS 1748172  0.0  3768 bash
-@gpu28 PS 1748180  0.0  2088 bash
-@gpu28 PS 1748185  0.0  2196 timeout
-@gpu28 PS 1748187 69.1 1206904 python
-@gpu28 PS 1748228  0.0  2200 timeout
-@gpu28 PS 1748230 69.0 1223000 python
-@gpu28 PS 1748614  0.0 11172 python
-@gpu28 PS 1748615  0.0 11220 python
-@gpu28 PS 1748616 34.5 797620 python
-@gpu28 PS 1748617 34.0 797640 python
-@gpu28 PS 1748618 30.8 797536 python
-@gpu28 PS 1748619 32.3 797396 python
-@gpu28 PS 1748620 33.9 796916 python
-@gpu28 PS 1748621 33.7 797352 python
-@gpu28 PS 1958666  0.0  2144 sleep
-@gpu28 PS 1959939  0.0  2144 sleep
-@gpu28 PS 1959940  0.0  2148 sleep
-@gpu28 PS 1961603  0.0  2144 sleep
-@gpu28 PS 1965982  0.0  7116 sshd
-@gpu28 PS 1965983  0.0  3736 bash
-@gpu28 PS 1965996  0.0  4696 ps
-@gpu28 PS 1965997  0.0  2388 sed
+@gpu28 APP 2194003, 996
+@gpu28 PS 2016455  0.0  3776 bash
+@gpu28 PS 2016463  0.0  2096 bash
+@gpu28 PS 2016468  0.0  2196 timeout
+@gpu28 PS 2016470 65.2 2630264 python
+@gpu28 PS 2016496  0.0  2196 timeout
+@gpu28 PS 2016498 64.8 2623208 python
+@gpu28 PS 2016850  0.0 11216 python
+@gpu28 PS 2016851  0.0 11188 python
+@gpu28 PS 2016852 34.0 825336 python
+@gpu28 PS 2016853 49.5 835060 python
+@gpu28 PS 2016854 47.2 831336 python
+@gpu28 PS 2016855 21.5 839632 python
+@gpu28 PS 2016856 19.0 829972 python
+@gpu28 PS 2016857 20.5 833628 python
+@gpu28 PS 2202557  0.0  2144 sleep
+@gpu28 PS 2205174  0.0  7172 sshd
+@gpu28 PS 2205175  0.0  3704 bash
+@gpu28 PS 2205190  100  4676 ps
+@gpu28 PS 2205191  0.0  2388 sed
 @gpu28 PS 2709876  0.0 12260 systemd
 @gpu28 PS 2709879  0.0  3420 (sd-pam)
 @gpu28 PS 2709892  0.0  8964 pipewire
@@ -47,4 +41,5 @@
 @gpu28 PS 2861151  0.0  1544 ssh-agent
 @gpu28 PS 2869332  0.0  1548 ssh-agent
 @gpu28 PS 2918408  0.0  1544 ssh-agent
-@gpu28 SEEN 1785165640
+@gpu28 SIZE 4 21,18
+@gpu28 SEEN 1785182534

@@ -1,44 +1,41 @@
-@vertex08 CPU 12 7.60
-@vertex08 MEM 15771 10655
+@vertex08 CPU 12 8.04
+@vertex08 MEM 15771 8326
 @vertex08 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP 
-@vertex08 PS 1222008  0.0  3524 bash
-@vertex08 PS 1222013  0.0  3348 bash
-@vertex08 PS 1222023  0.0  1932 bash
-@vertex08 PS 1222028  0.0  2012 timeout
-@vertex08 PS 1222030 99.0 800340 python
-@vertex08 PS 1222061  0.0  2016 timeout
-@vertex08 PS 1222063 99.1 775040 python
-@vertex08 PS 1222106  0.0  2016 timeout
-@vertex08 PS 1222108 99.1 788492 python
-@vertex08 PS 1224080  0.0  7400 python
-@vertex08 PS 1224081  0.0  6852 python
-@vertex08 PS 1224082  0.0  6840 python
-@vertex08 PS 1224083 46.4 642988 python
-@vertex08 PS 1224084 47.2 659016 python
-@vertex08 PS 1224085 46.5 648476 python
-@vertex08 PS 1224086 47.6 653812 python
-@vertex08 PS 1224087 47.8 655940 python
-@vertex08 PS 1224088 49.9 644944 python
-@vertex08 PS 1224089 46.7 663308 python
-@vertex08 PS 1224090 49.6 636584 python
-@vertex08 PS 1224091 46.7 647148 python
-@vertex08 PS 1503979  0.0  2084 sleep
-@vertex08 PS 1505216  0.0  2088 sleep
-@vertex08 PS 1505544  0.0  2084 sleep
-@vertex08 PS 1507068  0.0  2092 sleep
-@vertex08 PS 1509951  0.0  7124 sshd
-@vertex08 PS 1509952  0.0  3628 bash
-@vertex08 PS 1509971  0.0  4648 ps
-@vertex08 PS 1509972  0.0  2328 sed
-@vertex08 PS 4138046  0.0 11276 systemd
-@vertex08 PS 4138047  0.0  2724 (sd-pam)
-@vertex08 PS 4138055  0.0  7624 pipewire
-@vertex08 PS 4138056  0.0  5672 pipewire
-@vertex08 PS 4138059  0.0 13768 wireplumber
-@vertex08 PS 4138060  0.0  9588 pipewire-pulse
-@vertex08 PS 4138080  0.0  4012 dbus-daemon
-@vertex08 PS 4138271  0.0  1728 bash
-@vertex08 PS 4157339  0.0  1728 bash
-@vertex08 SEEN 1785165674
+@vertex08 PS 1602806  0.0 11312 systemd
+@vertex08 PS 1602807  0.0  3412 (sd-pam)
+@vertex08 PS 1602824  0.0  7932 pipewire
+@vertex08 PS 1602825  0.0  5816 pipewire
+@vertex08 PS 1602826  0.0 14224 wireplumber
+@vertex08 PS 1602829  0.0  9748 pipewire-pulse
+@vertex08 PS 1602850  0.0  4308 dbus-daemon
+@vertex08 PS 1602891  0.0  2920 bash
+@vertex08 PS 1602896  0.0  2412 bash
+@vertex08 PS 1602906  0.0  1656 bash
+@vertex08 PS 1602911  0.0  1984 timeout
+@vertex08 PS 1602913 98.9 1859068 python
+@vertex08 PS 1602948  0.0  1980 timeout
+@vertex08 PS 1602950 98.9 1846784 python
+@vertex08 PS 1602997  0.0  1984 timeout
+@vertex08 PS 1602999 99.0 1839040 python
+@vertex08 PS 1604146  0.0  4056 python
+@vertex08 PS 1604147  0.0  4040 python
+@vertex08 PS 1604148  0.0  4036 python
+@vertex08 PS 1604149 45.1 214568 python
+@vertex08 PS 1604150 32.4 203136 python
+@vertex08 PS 1604151 82.4 213012 python
+@vertex08 PS 1604152 79.8 209808 python
+@vertex08 PS 1604153 89.9 207940 python
+@vertex08 PS 1604154 18.7 223588 python
+@vertex08 PS 1604155 18.5 207264 python
+@vertex08 PS 1604156 70.1 224536 python
+@vertex08 PS 1604157 78.1 223932 python
+@vertex08 PS 1835170  0.0  2080 sleep
+@vertex08 PS 1840478  0.0  2092 sleep
+@vertex08 PS 1848531  0.0  7084 sshd
+@vertex08 PS 1848535  0.0  3588 bash
+@vertex08 PS 1848554  0.0  4648 ps
+@vertex08 PS 1848555  0.0  2332 sed
+@vertex08 SIZE 6 21,18
+@vertex08 SEEN 1785182569

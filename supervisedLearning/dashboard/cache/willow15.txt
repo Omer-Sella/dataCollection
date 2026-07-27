@@ -1,41 +1,40 @@
-@willow15 CPU 12 7.12
-@willow15 MEM 15766 7622
+@willow15 CPU 12 11.12
+@willow15 MEM 15766 10914
 @willow15 GPU [N/A], 74, 2002
 @willow15 APP [N/A], [N/A]
-@willow15 PS  814129  0.0 11920 systemd
-@willow15 PS  814130  0.0  3424 (sd-pam)
-@willow15 PS  814149  0.0  8900 pipewire
-@willow15 PS  814150  0.0  6124 pipewire
-@willow15 PS  814152  0.0 16008 wireplumber
-@willow15 PS  814154  0.0 10720 pipewire-pulse
-@willow15 PS  814176  0.0  4448 dbus-daemon
-@willow15 PS  814221  0.0  2024 bash
-@willow15 PS 1597114  0.0  3664 bash
-@willow15 PS 1597119  0.0  3676 bash
-@willow15 PS 1597130  0.0  2104 bash
-@willow15 PS 1597135  0.0  2096 timeout
-@willow15 PS 1597137 99.7 1321320 python
-@willow15 PS 1597165  0.0  2092 timeout
-@willow15 PS 1597167 99.7 1328356 python
-@willow15 PS 1597186  0.0  2096 timeout
-@willow15 PS 1597188 99.7 1313196 python
-@willow15 PS 1598954  0.0 11284 python
-@willow15 PS 1598955  0.0 11384 python
-@willow15 PS 1598956  0.0 11424 python
-@willow15 PS 1598957 50.0 791880 python
-@willow15 PS 1598958 46.7 793380 python
-@willow15 PS 1598959 48.5 794072 python
-@willow15 PS 1598960 49.6 794568 python
-@willow15 PS 1598961 46.9 794164 python
-@willow15 PS 1598962 47.5 794752 python
-@willow15 PS 1598963 49.5 792868 python
-@willow15 PS 1598964 50.7 793364 python
-@willow15 PS 1598965 52.7 794096 python
-@willow15 PS 1775586  0.0  2108 sleep
-@willow15 PS 1776860  0.0  2108 sleep
-@willow15 PS 1780585  0.0  2108 sleep
-@willow15 PS 1780707  0.0  7032 sshd
-@willow15 PS 1780708  0.0  3624 bash
-@willow15 PS 1780719  0.0  4624 ps
-@willow15 PS 1780720  0.0  2372 sed
-@willow15 SEEN 1785165674
+@willow15 PS 1834519  0.0 11756 systemd
+@willow15 PS 1834520  0.0  3228 (sd-pam)
+@willow15 PS 1834531  0.0  6668 pipewire
+@willow15 PS 1834532  0.0  4928 pipewire
+@willow15 PS 1834533  0.0 12296 wireplumber
+@willow15 PS 1834536  0.0  8508 pipewire-pulse
+@willow15 PS 1834557  0.0  4304 dbus-daemon
+@willow15 PS 1834724  0.0  3564 bash
+@willow15 PS 1834729  0.0  3396 bash
+@willow15 PS 1834739  0.0  1968 bash
+@willow15 PS 1834744  0.0  2004 timeout
+@willow15 PS 1834746 99.5 1974528 python
+@willow15 PS 1834763  0.0  1996 timeout
+@willow15 PS 1834765 99.5 1967828 python
+@willow15 PS 1834793  0.0  1996 timeout
+@willow15 PS 1834795 99.5 1975068 python
+@willow15 PS 1835250  0.0  9232 python
+@willow15 PS 1835251  0.0  9252 python
+@willow15 PS 1835252  0.0  9320 python
+@willow15 PS 1835253 39.8 496236 python
+@willow15 PS 1835254 98.0 497248 python
+@willow15 PS 1835255 41.9 498200 python
+@willow15 PS 1835256 75.1 497392 python
+@willow15 PS 1835257 85.8 497424 python
+@willow15 PS 1835258 47.1 491028 python
+@willow15 PS 1835259 14.2 492940 python
+@willow15 PS 1835260 94.6 495172 python
+@willow15 PS 1835261 47.5 496276 python
+@willow15 PS 1984128  0.0  2104 sleep
+@willow15 PS 1987631  0.0  2104 sleep
+@willow15 PS 1991058  0.0  7016 sshd
+@willow15 PS 1991059  0.0  3652 bash
+@willow15 PS 1991070  100  4620 ps
+@willow15 PS 1991071  0.0  2372 sed
+@willow15 SIZE 6 21,18
+@willow15 SEEN 1785182568

@@ -9,7 +9,7 @@ IOPT="-i $HOME/.ssh/doc_internal -o IdentitiesOnly=yes"
 
 GPUS="gpu10 gpu11 gpu12 gpu13 gpu14 gpu15 gpu16 gpu18 gpu19 gpu20 gpu21 gpu22 gpu23 gpu24 gpu26 gpu27 gpu28 gpu29 gpu30 gpu31 gpu32 gpu33 gpu34 gpu35 gpu36 batch1 batch2"
 LABS=$(echo maple{1..10} yew{01..44} rowan{01..26} poplar{01..40} ash{01..41} beech{01..20} willow{01..20} vertex{01..22} curve{01..12} cedar{01..07})
-HOSTS="$GPUS $LABS"
+HOSTS="$(echo oak{01..38}) $GPUS $LABS"
 
 probeHost() {
     local h=$1
@@ -21,6 +21,7 @@ probeHost() {
         nvidia-smi --query-gpu=utilization.gpu,memory.used,memory.total --format=csv,noheader,nounits 2>/dev/null | head -1 | sed "s/^/GPU /"
         nvidia-smi --query-compute-apps=pid,used_memory --format=csv,noheader,nounits 2>/dev/null | sed "s/^/APP /"
         ps -u osella -o pid=,pcpu=,rss=,comm= 2>/dev/null | sed "s/^/PS /"
+        ps -u osella -o args= 2>/dev/null | grep -oE "[-][-]env-l [0-9]+ [-][-]env-m [0-9]+" | sed "s/--env-l //; s/ --env-m /,/" | sort | uniq -c | sed "s/^ *//; s/^/SIZE /"
     ' 2>/dev/null | grep -vE "Agent pid|rehash")
     if [ -n "$out" ]; then
         { echo "$out" | sed "s/^/@$h /"; echo "@$h SEEN $(date +%s)"; } > "$CACHE/$h.txt"

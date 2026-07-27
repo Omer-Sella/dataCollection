@@ -1,42 +1,19 @@
-@vertex03 CPU 12 8.18
-@vertex03 MEM 15771 7620
+@vertex03 CPU 12 0.02
+@vertex03 MEM 15771 926
 @vertex03 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex03 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex03 APP 
-@vertex03 PS  732029  0.0 11876 systemd
-@vertex03 PS  732030  0.0  3440 (sd-pam)
-@vertex03 PS  732049  0.0  8756 pipewire
-@vertex03 PS  732050  0.0  6128 pipewire
-@vertex03 PS  732052  0.0 15972 wireplumber
-@vertex03 PS  732054  0.0 10608 pipewire-pulse
-@vertex03 PS  732075  0.0  4540 dbus-daemon
-@vertex03 PS  732127  0.0  2112 bash
-@vertex03 PS 1918407  0.0  3624 bash
-@vertex03 PS 1918412  0.0  3556 bash
-@vertex03 PS 1918428  0.0  2112 bash
-@vertex03 PS 1918433  0.0  2060 timeout
-@vertex03 PS 1918435 99.6 1311152 python
-@vertex03 PS 1918469  0.0  2080 timeout
-@vertex03 PS 1918471 99.6 1322452 python
-@vertex03 PS 1918496  0.0  2084 timeout
-@vertex03 PS 1918498 99.6 1323668 python
-@vertex03 PS 1919040  0.0 11020 python
-@vertex03 PS 1919041  0.0 11116 python
-@vertex03 PS 1919042  0.0 11060 python
-@vertex03 PS 1919043 46.7 794316 python
-@vertex03 PS 1919044 48.2 794576 python
-@vertex03 PS 1919045 50.9 793916 python
-@vertex03 PS 1919046 49.3 794796 python
-@vertex03 PS 1919047 50.0 794416 python
-@vertex03 PS 1919048 47.9 794468 python
-@vertex03 PS 1919049 49.9 794240 python
-@vertex03 PS 1919050 50.0 794888 python
-@vertex03 PS 1919051 48.3 795440 python
-@vertex03 PS 2187842  0.0  2028 sleep
-@vertex03 PS 2189583  0.0  2016 sleep
-@vertex03 PS 2189745  0.0  2032 sleep
-@vertex03 PS 2194663  0.0  7008 sshd
-@vertex03 PS 2194664  0.0  3588 bash
-@vertex03 PS 2194683  100  4584 ps
-@vertex03 PS 2194684  0.0  2280 sed
-@vertex03 SEEN 1785165675
+@vertex03 PS 2276880  0.0 10880 systemd
+@vertex03 PS 2276881  0.0  3420 (sd-pam)
+@vertex03 PS 2276893  0.0  6516 pipewire
+@vertex03 PS 2276894  0.0  4692 pipewire
+@vertex03 PS 2276896  0.0 13968 wireplumber
+@vertex03 PS 2276898  0.0  8108 pipewire-pulse
+@vertex03 PS 2276917  0.0  4404 dbus-daemon
+@vertex03 PS 2276985  0.0  2016 bash
+@vertex03 PS 2501743  0.0  2016 sleep
+@vertex03 PS 2511304  0.0  6984 sshd
+@vertex03 PS 2511305  0.0  3624 bash
+@vertex03 PS 2511324  300  4552 ps
+@vertex03 PS 2511325  0.0  2272 sed
+@vertex03 SEEN 1785182569

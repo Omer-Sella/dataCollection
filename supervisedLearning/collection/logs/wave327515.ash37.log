@@ -810,3 +810,5 @@ RuntimeError: Converting a tensordict to boolean value is not permitted
 labWorker ash37: started collect pid 2896979 (l=5 m=15) Mon 27 Jul 12:13:34 BST 2026
 collectWorker4 ash37: l=5 m=15 procs=4 x envs=3 cores=16 stage=1 Mon 27 Jul 12:13:34 BST 2026
 collectWorker4 ash37: launched pids: 2896994 2897015 2897052 2897072
+collectWorker4 ash37: all processes ended Mon 27 Jul 17:15:30 BST 2026
+labWorker ash37: collect ended naturally Mon 27 Jul 17:18:34 BST 2026

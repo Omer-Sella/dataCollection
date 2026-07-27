@@ -1,43 +1,46 @@
-@ash41 CPU 16 7.46
-@ash41 MEM 15393 5581
+@ash41 CPU 16 12.20
+@ash41 MEM 15393 13588
 @ash41 GPU 0, 88, 2048
-@ash41 PS 2330368  0.0  1092 bash
-@ash41 PS 2353802  0.0  1996 bash
-@ash41 PS 3150631  0.0  3004 bash
-@ash41 PS 3150637  0.0  2108 bash
-@ash41 PS 3150647  0.0  1096 bash
-@ash41 PS 3150652  0.0  2208 timeout
-@ash41 PS 3150654 99.7 651228 python
-@ash41 PS 3150673  0.0  2288 timeout
-@ash41 PS 3150675 99.7 633176 python
-@ash41 PS 3150717  0.0  2320 timeout
-@ash41 PS 3150719 99.8 624792 python
-@ash41 PS 3150953  0.0  2072 python
-@ash41 PS 3150954  0.0  2008 python
-@ash41 PS 3150956  0.0  1888 python
-@ash41 PS 3150957 47.7 197004 python
-@ash41 PS 3150959 45.8 175948 python
-@ash41 PS 3150960 48.3 155276 python
-@ash41 PS 3150961 46.2 196776 python
-@ash41 PS 3150963 46.9 188220 python
-@ash41 PS 3150964 47.2 198784 python
-@ash41 PS 3150965 48.7 172880 python
-@ash41 PS 3150967 48.5 195396 python
-@ash41 PS 3150968 49.0 190304 python
-@ash41 PS 3329111  0.0  3060 sleep
-@ash41 PS 3330010  0.0  3056 sleep
-@ash41 PS 3332360  0.4 14108 systemd
-@ash41 PS 3332361  0.0  4124 (sd-pam)
-@ash41 PS 3332381  0.0  5112 dbus-daemon
-@ash41 PS 3332382  0.0  8348 pipewire
-@ash41 PS 3332388  0.0  3956 mpris-proxy
-@ash41 PS 3332390  0.0 26464 wireplumber
-@ash41 PS 3332391  0.0  5724 pipewire
-@ash41 PS 3332392  0.0 10812 pipewire-pulse
-@ash41 PS 3333231  0.0  7728 sleep
-@ash41 PS 3333881  0.0  7336 sleep
-@ash41 PS 3335430  0.0  8084 sshd-session
-@ash41 PS 3335431  0.0  3892 bash
-@ash41 PS 3335445  0.0  4680 ps
-@ash41 PS 3335446  0.0  2652 sed
-@ash41 SEEN 1785165661
+@ash41 PS 3387371  0.2 10780 systemd
+@ash41 PS 3387372  0.0  2840 (sd-pam)
+@ash41 PS 3387400  0.0  3828 dbus-daemon
+@ash41 PS 3387401  0.0  7140 pipewire
+@ash41 PS 3387409  0.0  3444 mpris-proxy
+@ash41 PS 3387412  0.0 21996 wireplumber
+@ash41 PS 3387415  0.0  4536 pipewire
+@ash41 PS 3387416  0.0  8796 pipewire-pulse
+@ash41 PS 3387513  0.0  3328 bash
+@ash41 PS 3387528  0.0  2188 bash
+@ash41 PS 3387539  0.0  1972 bash
+@ash41 PS 3387544  0.0  3292 timeout
+@ash41 PS 3387546 99.6 2144492 python
+@ash41 PS 3387576  0.0  3348 timeout
+@ash41 PS 3387578 99.6 2135696 python
+@ash41 PS 3387599  0.0  3140 timeout
+@ash41 PS 3387601 99.7 2123152 python
+@ash41 PS 3387677  0.0  3060 timeout
+@ash41 PS 3387679 99.7 2133892 python
+@ash41 PS 3387968  0.0  6080 python
+@ash41 PS 3387969  0.0  6160 python
+@ash41 PS 3387970  0.0  6040 python
+@ash41 PS 3387971  0.0  6048 python
+@ash41 PS 3387972 67.5 608856 python
+@ash41 PS 3387973 43.2 608364 python
+@ash41 PS 3387974  0.1 605060 python
+@ash41 PS 3387975 87.6 592252 python
+@ash41 PS 3387976 72.7 585308 python
+@ash41 PS 3387977 46.9 627836 python
+@ash41 PS 3387978 90.9 612728 python
+@ash41 PS 3387979 40.3 641248 python
+@ash41 PS 3387980 30.3 638984 python
+@ash41 PS 3387981 73.4 622316 python
+@ash41 PS 3387982 31.9 646200 python
+@ash41 PS 3387983 19.0 634264 python
+@ash41 PS 3541936  0.0  7492 sleep
+@ash41 PS 3541979  0.0  7788 sleep
+@ash41 PS 3543055  0.0  8212 sshd-session
+@ash41 PS 3543056  0.0  3960 bash
+@ash41 PS 3543070  0.0  4676 ps
+@ash41 PS 3543071  0.0  2668 sed
+@ash41 SIZE 8 21,18
+@ash41 SEEN 1785182560

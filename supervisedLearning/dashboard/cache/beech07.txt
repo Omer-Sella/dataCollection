@@ -1,46 +1,45 @@
-@beech07 CPU 16 9.96
-@beech07 MEM 13864 8115
-@beech07 GPU 2, 93, 4096
-@beech07 PS  864243  0.1 11832 systemd
-@beech07 PS  864244  0.0  2636 (sd-pam)
-@beech07 PS  864256  0.0  6664 pipewire
-@beech07 PS  864257  0.0  4796 pipewire
-@beech07 PS  864259  0.0 12200 wireplumber
-@beech07 PS  864261  0.0  8088 pipewire-pulse
-@beech07 PS  864277  0.0  4028 dbus-daemon
-@beech07 PS  864500  0.0  1956 bash
-@beech07 PS 1693535  0.0  3480 bash
-@beech07 PS 1693540  0.0  3412 bash
-@beech07 PS 1693571  0.0  2044 bash
-@beech07 PS 1693576  0.0  1980 timeout
-@beech07 PS 1693578 99.7 936352 python
-@beech07 PS 1693600  0.0  2008 timeout
-@beech07 PS 1693602 99.7 934556 python
-@beech07 PS 1693621  0.0  2028 timeout
-@beech07 PS 1693623 99.7 955596 python
-@beech07 PS 1693641  0.0  1972 timeout
-@beech07 PS 1693643 99.7 935980 python
-@beech07 PS 1693869  0.0  6744 python
-@beech07 PS 1693870  0.0  6832 python
-@beech07 PS 1693871  0.0  6656 python
-@beech07 PS 1693872  0.0  6788 python
-@beech07 PS 1693873 47.0 751900 python
-@beech07 PS 1693874 48.9 764960 python
-@beech07 PS 1693875 46.1 765228 python
-@beech07 PS 1693876 47.1 745780 python
-@beech07 PS 1693877 48.4 721724 python
-@beech07 PS 1693878 46.1 757040 python
-@beech07 PS 1693879 47.0 761712 python
-@beech07 PS 1693880 48.8 731048 python
-@beech07 PS 1693881 48.6 764836 python
-@beech07 PS 1693882 45.5 711488 python
-@beech07 PS 1693883 46.9 761732 python
-@beech07 PS 1693884 50.6 761140 python
-@beech07 PS 1881209  0.0  2072 sleep
-@beech07 PS 1881845  0.0  2048 sleep
-@beech07 PS 1887569  0.0  2052 sleep
-@beech07 PS 1888895  0.0  7004 sshd
-@beech07 PS 1888897  0.0  3612 bash
-@beech07 PS 1888908  0.0  4556 ps
-@beech07 PS 1888909  0.0  2316 sed
-@beech07 SEEN 1785165667
+@beech07 CPU 16 10.10
+@beech07 MEM 13864 12004
+@beech07 GPU 0, 93, 4096
+@beech07 PS 1944689  0.1 11708 systemd
+@beech07 PS 1944698  0.0  3416 (sd-pam)
+@beech07 PS 1944709  0.0  6004 pipewire
+@beech07 PS 1944710  0.0  4164 pipewire
+@beech07 PS 1944712  0.0 13180 wireplumber
+@beech07 PS 1944714  0.0  7380 pipewire-pulse
+@beech07 PS 1944733  0.0  3836 dbus-daemon
+@beech07 PS 1944769  0.0  2576 bash
+@beech07 PS 1944774  0.0  1920 bash
+@beech07 PS 1944784  0.0  1668 bash
+@beech07 PS 1944789  0.0  1700 timeout
+@beech07 PS 1944791 99.6 1823816 python
+@beech07 PS 1944822  0.0  1700 timeout
+@beech07 PS 1944824 99.6 1823248 python
+@beech07 PS 1944846  0.0  1700 timeout
+@beech07 PS 1944848 99.7 1812684 python
+@beech07 PS 1944867  0.0  1700 timeout
+@beech07 PS 1944869 99.7 1821540 python
+@beech07 PS 1945130  0.0  3932 python
+@beech07 PS 1945131  0.0  3980 python
+@beech07 PS 1945132  0.0  4100 python
+@beech07 PS 1945133  0.0  4052 python
+@beech07 PS 1945134 26.1 356264 python
+@beech07 PS 1945135 68.6 361056 python
+@beech07 PS 1945136 58.1 360108 python
+@beech07 PS 1945137 99.8 362972 python
+@beech07 PS 1945138 59.7 364364 python
+@beech07 PS 1945139 99.8 361056 python
+@beech07 PS 1945140 48.6 357396 python
+@beech07 PS 1945141 76.8 360808 python
+@beech07 PS 1945142 36.7 361104 python
+@beech07 PS 1945143 58.0 381576 python
+@beech07 PS 1945144 53.7 392444 python
+@beech07 PS 1945145 53.2 401612 python
+@beech07 PS 2109783  0.0  2084 sleep
+@beech07 PS 2109864  0.0  2080 sleep
+@beech07 PS 2111011  0.0  7048 sshd
+@beech07 PS 2111012  0.0  3592 bash
+@beech07 PS 2111023  0.0  4600 ps
+@beech07 PS 2111024  0.0  2324 sed
+@beech07 SIZE 8 21,18
+@beech07 SEEN 1785182561

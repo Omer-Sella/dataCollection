@@ -1,29 +1,26 @@
-@gpu27 CPU 8 5.50
-@gpu27 MEM 64219 6793
-@gpu27 GPU 0, 137, 8192
-@gpu27 PS  418971  0.0  3668 bash
-@gpu27 PS  418979  0.0  2032 bash
-@gpu27 PS  418984  0.0  2136 timeout
-@gpu27 PS  418986 99.5 1242236 python
-@gpu27 PS  419010  0.0  2140 timeout
-@gpu27 PS  419012 99.5 1237896 python
-@gpu27 PS  419432  0.0 11156 python
-@gpu27 PS  419433  0.0 11156 python
-@gpu27 PS  419434 47.9 794232 python
-@gpu27 PS  419435 46.6 793960 python
-@gpu27 PS  419436 49.2 791264 python
-@gpu27 PS  419437 47.3 794356 python
-@gpu27 PS  419438 46.2 794328 python
-@gpu27 PS  419439 47.3 791244 python
-@gpu27 PS  616703  0.0  2088 sleep
-@gpu27 PS  617835  0.0  2088 sleep
-@gpu27 PS  617836  0.0  2088 sleep
-@gpu27 PS  619473  0.0  2092 sleep
-@gpu27 PS  623498  0.0  7152 sshd
-@gpu27 PS  623500  0.0  3628 bash
-@gpu27 PS  623511  0.0  4640 ps
-@gpu27 PS  623512  0.0  2328 sed
-@gpu27 PS 1649112  0.0 12116 systemd
+@gpu27 CPU 8 6.41
+@gpu27 MEM 64219 9786
+@gpu27 GPU 1, 137, 8192
+@gpu27 PS  670439  0.0  3608 bash
+@gpu27 PS  670447  0.0  2104 bash
+@gpu27 PS  670452  0.0  2136 timeout
+@gpu27 PS  670454 99.4 2624872 python
+@gpu27 PS  670475  0.0  2140 timeout
+@gpu27 PS  670477 99.4 2624216 python
+@gpu27 PS  670844  0.0 11124 python
+@gpu27 PS  670845  0.0 11156 python
+@gpu27 PS  670846 99.2 828336 python
+@gpu27 PS  670847 49.6 834084 python
+@gpu27 PS  670848 52.7 832268 python
+@gpu27 PS  670849 37.7 831532 python
+@gpu27 PS  670850 93.0 835912 python
+@gpu27 PS  670851  2.9 832448 python
+@gpu27 PS  843756  0.0  2092 sleep
+@gpu27 PS  845961  0.0  7072 sshd
+@gpu27 PS  845962  0.0  3644 bash
+@gpu27 PS  845973  0.0  4636 ps
+@gpu27 PS  845974  0.0  2332 sed
+@gpu27 PS 1649112  0.0 12120 systemd
 @gpu27 PS 1649113  0.0  3448 (sd-pam)
 @gpu27 PS 1649125  0.0  8932 pipewire
 @gpu27 PS 1649126  0.0  6188 pipewire
@@ -50,7 +47,5 @@
 @gpu27 PS 1845401  0.0  1544 ssh-agent
 @gpu27 PS 1863611  0.0  1544 ssh-agent
 @gpu27 PS 1864888  0.0  1544 ssh-agent
-@gpu27 PS 3763646  0.0  2080 bash
-@gpu27 PS 3778601  0.0  2088 bash
-@gpu27 PS 3790520  0.0  2096 bash
-@gpu27 SEEN 1785165639
+@gpu27 SIZE 4 21,18
+@gpu27 SEEN 1785182534

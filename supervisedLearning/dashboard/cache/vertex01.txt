@@ -1,42 +1,41 @@
-@vertex01 CPU 12 6.82
-@vertex01 MEM 15771 7704
+@vertex01 CPU 12 9.05
+@vertex01 MEM 15771 10310
 @vertex01 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex01 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex01 APP 
-@vertex01 PS   99522  0.0  3660 bash
-@vertex01 PS   99527  0.0  3648 bash
-@vertex01 PS   99537  0.0  1988 bash
-@vertex01 PS   99542  0.0  2124 timeout
-@vertex01 PS   99544 99.6 1325000 python
-@vertex01 PS   99575  0.0  2124 timeout
-@vertex01 PS   99577 99.6 1362124 python
-@vertex01 PS   99624  0.0  2124 timeout
-@vertex01 PS   99626 99.6 1331532 python
-@vertex01 PS  100152  0.0 11480 python
-@vertex01 PS  100153  0.0 11392 python
-@vertex01 PS  100154  0.0 11356 python
-@vertex01 PS  100155 51.1 794260 python
-@vertex01 PS  100156 47.3 794768 python
-@vertex01 PS  100157 47.8 793624 python
-@vertex01 PS  100158 48.0 793448 python
-@vertex01 PS  100159 48.7 794636 python
-@vertex01 PS  100160 47.7 793524 python
-@vertex01 PS  100161 49.5 794432 python
-@vertex01 PS  100162 50.7 794768 python
-@vertex01 PS  100163 49.8 794236 python
-@vertex01 PS  368832  0.0  2144 sleep
-@vertex01 PS  370411  0.0  2144 sleep
-@vertex01 PS  370618  0.0  2148 sleep
-@vertex01 PS  375826  0.0  7072 sshd
-@vertex01 PS  375827  0.0  3604 bash
-@vertex01 PS  375858  0.0  4668 ps
-@vertex01 PS  375859  0.0  2440 sed
-@vertex01 PS 3099247  0.0 11912 systemd
-@vertex01 PS 3099248  0.0  3404 (sd-pam)
-@vertex01 PS 3099259  0.0  8900 pipewire
-@vertex01 PS 3099260  0.0  6232 pipewire
-@vertex01 PS 3099262  0.0 15988 wireplumber
-@vertex01 PS 3099264  0.0 10768 pipewire-pulse
-@vertex01 PS 3099282  0.0  4560 dbus-daemon
-@vertex01 PS 3099339  0.0  1976 bash
-@vertex01 SEEN 1785165675
+@vertex01 PS  458122  0.0 11624 systemd
+@vertex01 PS  458123  0.0  3404 (sd-pam)
+@vertex01 PS  458134  0.0  6832 pipewire
+@vertex01 PS  458135  0.0  5004 pipewire
+@vertex01 PS  458138  0.0 12260 wireplumber
+@vertex01 PS  458139  0.0  8716 pipewire-pulse
+@vertex01 PS  458161  0.0  4248 dbus-daemon
+@vertex01 PS  458204  0.0  3520 bash
+@vertex01 PS  458212  0.0  3372 bash
+@vertex01 PS  458222  0.0  1924 bash
+@vertex01 PS  458227  0.0  2012 timeout
+@vertex01 PS  458229 99.5 2144460 python
+@vertex01 PS  458259  0.0  2012 timeout
+@vertex01 PS  458261 99.5 2193252 python
+@vertex01 PS  458308  0.0  2012 timeout
+@vertex01 PS  458310 99.5 2202336 python
+@vertex01 PS  459042  0.0  6684 python
+@vertex01 PS  459043  0.0  6524 python
+@vertex01 PS  459044  0.0  6664 python
+@vertex01 PS  459045 84.4 783756 python
+@vertex01 PS  459046 93.6 786536 python
+@vertex01 PS  459047 67.2 783152 python
+@vertex01 PS  459048 32.4 779488 python
+@vertex01 PS  459049 28.3 786560 python
+@vertex01 PS  459050 19.4 781560 python
+@vertex01 PS  459051 97.9 781076 python
+@vertex01 PS  459052 21.4 784232 python
+@vertex01 PS  459053 99.6 784492 python
+@vertex01 PS  683884  0.0  2144 sleep
+@vertex01 PS  689245  0.0  2144 sleep
+@vertex01 PS  693599  0.0  7064 sshd
+@vertex01 PS  693600  0.0  3616 bash
+@vertex01 PS  693619  0.0  4664 ps
+@vertex01 PS  693620  0.0  2420 sed
+@vertex01 SIZE 6 21,18
+@vertex01 SEEN 1785182569

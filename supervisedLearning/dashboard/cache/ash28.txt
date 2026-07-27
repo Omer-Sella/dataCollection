@@ -1,48 +1,45 @@
-@ash28 CPU 16 10.06
-@ash28 MEM 15909 10282
-@ash28 GPU 3, 81, 2048
-@ash28 PS  813324  0.1 11988 systemd
-@ash28 PS  813325  0.0  3420 (sd-pam)
-@ash28 PS  813336  0.0  8224 pipewire
-@ash28 PS  813337  0.0  5836 pipewire
-@ash28 PS  813339  0.0 15108 wireplumber
-@ash28 PS  813341  0.0 10104 pipewire-pulse
-@ash28 PS  813356  0.0  4452 dbus-daemon
-@ash28 PS  813408  0.0  2104 bash
-@ash28 PS  838302  0.0  2120 bash
-@ash28 PS 1655158  0.0  3604 bash
-@ash28 PS 1655163  0.0  3624 bash
-@ash28 PS 1655173  0.0  2048 bash
-@ash28 PS 1655178  0.0  2120 timeout
-@ash28 PS 1655180 99.7 1311256 python
-@ash28 PS 1655203  0.0  2120 timeout
-@ash28 PS 1655205 99.8 1310380 python
-@ash28 PS 1655233  0.0  2120 timeout
-@ash28 PS 1655235 99.8 1322468 python
-@ash28 PS 1655271  0.0  2120 timeout
-@ash28 PS 1655273 99.8 1303320 python
-@ash28 PS 1655462  0.0 11052 python
-@ash28 PS 1655463  0.0 11088 python
-@ash28 PS 1655464  0.0 11048 python
-@ash28 PS 1655465  0.0 11048 python
-@ash28 PS 1655466 47.7 794624 python
-@ash28 PS 1655467 45.7 793048 python
-@ash28 PS 1655468 48.6 794344 python
-@ash28 PS 1655469 49.3 794404 python
-@ash28 PS 1655470 51.6 793944 python
-@ash28 PS 1655471 46.2 794964 python
-@ash28 PS 1655472 45.9 792440 python
-@ash28 PS 1655473 48.0 794424 python
-@ash28 PS 1655474 51.0 794228 python
-@ash28 PS 1655475 48.4 794628 python
-@ash28 PS 1655476 50.9 795624 python
-@ash28 PS 1655477 49.5 794188 python
-@ash28 PS 1843399  0.0  2068 sleep
-@ash28 PS 1843934  0.0  2076 sleep
-@ash28 PS 1847447  0.0  2076 sleep
-@ash28 PS 1848712  0.0  2072 sleep
-@ash28 PS 1850887  0.0  7008 sshd
-@ash28 PS 1850888  0.0  3580 bash
-@ash28 PS 1850899  0.0  4604 ps
-@ash28 PS 1850900  0.0  2320 sed
-@ash28 SEEN 1785165660
+@ash28 CPU 16 12.04
+@ash28 MEM 15909 9876
+@ash28 GPU 0, 81, 2048
+@ash28 PS 1905230  0.1 10844 systemd
+@ash28 PS 1905231  0.0  3444 (sd-pam)
+@ash28 PS 1905243  0.0  6668 pipewire
+@ash28 PS 1905244  0.0  4840 pipewire
+@ash28 PS 1905246  0.0 14036 wireplumber
+@ash28 PS 1905248  0.0  8096 pipewire-pulse
+@ash28 PS 1905263  0.0  4208 dbus-daemon
+@ash28 PS 1905310  0.0  3208 bash
+@ash28 PS 1905315  0.0  2260 bash
+@ash28 PS 1905325  0.0  1964 bash
+@ash28 PS 1905330  0.0  1928 timeout
+@ash28 PS 1905332 99.6 2121244 python
+@ash28 PS 1905357  0.0  1928 timeout
+@ash28 PS 1905359 99.6 2134616 python
+@ash28 PS 1905395  0.0  1928 timeout
+@ash28 PS 1905397 99.6 2132684 python
+@ash28 PS 1905416  0.0  1928 timeout
+@ash28 PS 1905418 99.7 2225868 python
+@ash28 PS 1905692  0.0  6020 python
+@ash28 PS 1905693  0.0  6008 python
+@ash28 PS 1905694  0.0  5956 python
+@ash28 PS 1905695  0.0  5936 python
+@ash28 PS 1905696 89.8 437784 python
+@ash28 PS 1905697  2.1 432044 python
+@ash28 PS 1905698 83.4 431780 python
+@ash28 PS 1905699 20.1 465560 python
+@ash28 PS 1905700 69.6 492992 python
+@ash28 PS 1905701 59.9 468940 python
+@ash28 PS 1905702 23.7 476676 python
+@ash28 PS 1905703 53.6 470640 python
+@ash28 PS 1905704 83.6 475888 python
+@ash28 PS 1905705 61.3 484128 python
+@ash28 PS 1905706 86.8 494072 python
+@ash28 PS 1905707 83.1 487232 python
+@ash28 PS 2069815  0.0  2076 sleep
+@ash28 PS 2069878  0.0  2076 sleep
+@ash28 PS 2071734  0.0  7016 sshd
+@ash28 PS 2071735  0.0  3620 bash
+@ash28 PS 2071746  100  4592 ps
+@ash28 PS 2071747  0.0  2324 sed
+@ash28 SIZE 8 21,18
+@ash28 SEEN 1785182560

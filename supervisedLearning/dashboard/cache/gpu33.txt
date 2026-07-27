@@ -1,5 +1,5 @@
-@gpu33 CPU 16 10.55
-@gpu33 MEM 64221 14173
+@gpu33 CPU 16 13.42
+@gpu33 MEM 64221 19703
 @gpu33 GPU 100, 14405, 16376
 @gpu33 APP 1833158, 14362
 @gpu33 PS  458314  0.1 11984 systemd
@@ -10,7 +10,7 @@
 @gpu33 PS  458331  0.0 10620 pipewire-pulse
 @gpu33 PS  458348  0.0  4416 dbus-daemon
 @gpu33 PS  458376  0.0  1480 ssh-agent
-@gpu33 PS  458764  0.0 18028 code-4fe60c8b1c
+@gpu33 PS  458764  0.0 18044 code-4fe60c8b1c
 @gpu33 PS  458919  0.0  1480 ssh-agent
 @gpu33 PS  459267  0.0  1480 ssh-agent
 @gpu33 PS  460198  0.0  1484 ssh-agent
@@ -20,51 +20,40 @@
 @gpu33 PS  495925  0.0  1484 ssh-agent
 @gpu33 PS 1296996  0.0  3200 ssh-agent
 @gpu33 PS 1453271  0.0  1548 ssh-agent
-@gpu33 PS 1562877  0.0  2112 bash
-@gpu33 PS 1579731  0.0  2164 bash
-@gpu33 PS 1595563  0.0  2048 bash
 @gpu33 PS 1871470  0.0  1480 ssh-agent
 @gpu33 PS 1892738  0.0  1480 ssh-agent
 @gpu33 PS 1901708  0.0  1452 ssh-agent
 @gpu33 PS 1910597  0.0  1480 ssh-agent
 @gpu33 PS 2297169  0.0  1544 ssh-agent
 @gpu33 PS 2302764  0.0  1536 ssh-agent
-@gpu33 PS 2593911  0.0  3624 bash
-@gpu33 PS 2593919  0.0  2116 bash
-@gpu33 PS 2593924  0.0  2136 timeout
-@gpu33 PS 2593926 99.7 1228276 python
-@gpu33 PS 2593959  0.0  2136 timeout
-@gpu33 PS 2593961 99.7 1217152 python
-@gpu33 PS 2594001  0.0  2136 timeout
-@gpu33 PS 2594003 99.7 1318556 python
-@gpu33 PS 2594070  0.0  2136 timeout
-@gpu33 PS 2594072 99.7 1211832 python
-@gpu33 PS 2594294  0.0 11080 python
-@gpu33 PS 2594295  0.0 11080 python
-@gpu33 PS 2594296  0.0 11108 python
-@gpu33 PS 2594297  0.0 11104 python
-@gpu33 PS 2594298 46.6 796404 python
-@gpu33 PS 2594299 47.8 796372 python
-@gpu33 PS 2594300 48.2 794644 python
-@gpu33 PS 2594301 46.1 796356 python
-@gpu33 PS 2594302 44.6 796524 python
-@gpu33 PS 2594303 46.0 795508 python
-@gpu33 PS 2594304 44.6 794976 python
-@gpu33 PS 2594305 46.9 794404 python
-@gpu33 PS 2594306 48.0 796324 python
-@gpu33 PS 2594307 46.8 795392 python
-@gpu33 PS 2594308 49.4 794724 python
-@gpu33 PS 2594309 47.7 795708 python
 @gpu33 PS 2647806  0.0  1484 ssh-agent
-@gpu33 PS 2833357  0.0  2088 sleep
-@gpu33 PS 2834659  0.0  2092 sleep
-@gpu33 PS 2835253  0.0  2088 sleep
-@gpu33 PS 2837508  0.0  2092 sleep
-@gpu33 PS 2841516  0.0  7036 sshd
-@gpu33 PS 2841517  0.0  3592 bash
-@gpu33 PS 2841532  0.0  4700 ps
-@gpu33 PS 2841533  0.0  2336 sed
 @gpu33 PS 2844266  0.0  1480 ssh-agent
+@gpu33 PS 2898351  0.0  3672 bash
+@gpu33 PS 2898359  0.0  2164 bash
+@gpu33 PS 2898364  0.0  2136 timeout
+@gpu33 PS 2898366 99.7 2648740 python
+@gpu33 PS 2898388  0.0  2140 timeout
+@gpu33 PS 2898390 99.7 2649924 python
+@gpu33 PS 2898417  0.0  2140 timeout
+@gpu33 PS 2898419 99.7 2639116 python
+@gpu33 PS 2898452  0.0  2136 timeout
+@gpu33 PS 2898454 99.7 2640736 python
+@gpu33 PS 2898665  0.0 11096 python
+@gpu33 PS 2898666  0.0 11096 python
+@gpu33 PS 2898667  0.0 11072 python
+@gpu33 PS 2898668  0.0 11132 python
+@gpu33 PS 2898669 84.1 836984 python
+@gpu33 PS 2898670 72.1 836552 python
+@gpu33 PS 2898671 51.6 835668 python
+@gpu33 PS 2898672 60.8 834324 python
+@gpu33 PS 2898673 99.5 832456 python
+@gpu33 PS 2898674 73.6 832584 python
+@gpu33 PS 2898675 43.1 829616 python
+@gpu33 PS 2898676 35.7 831512 python
+@gpu33 PS 2898677 13.0 832892 python
+@gpu33 PS 2898678 22.6 834972 python
+@gpu33 PS 2898679 67.3 830868 python
+@gpu33 PS 2898680 44.0 830272 python
 @gpu33 PS 3097084  0.0  1480 ssh-agent
 @gpu33 PS 3097641  0.0  1480 ssh-agent
 @gpu33 PS 3098012  0.0  1480 ssh-agent
@@ -76,6 +65,11 @@
 @gpu33 PS 3103209  0.0  1480 ssh-agent
 @gpu33 PS 3103881  0.0  1484 ssh-agent
 @gpu33 PS 3104456  0.0  1480 ssh-agent
+@gpu33 PS 3108150  0.0  2088 sleep
+@gpu33 PS 3110430  0.0  7024 sshd
+@gpu33 PS 3110431  0.0  3652 bash
+@gpu33 PS 3110445  0.0  4696 ps
+@gpu33 PS 3110446  0.0  2332 sed
 @gpu33 PS 3129066  0.0  3224 ssh-agent
 @gpu33 PS 3146645  0.0  1544 ssh-agent
 @gpu33 PS 3191207  0.0  1532 ssh-agent
@@ -94,4 +88,5 @@
 @gpu33 PS 3453676  0.0  1548 ssh-agent
 @gpu33 PS 3462153  0.0  1544 ssh-agent
 @gpu33 PS 3515572  0.0  1544 ssh-agent
-@gpu33 SEEN 1785165639
+@gpu33 SIZE 8 21,18
+@gpu33 SEEN 1785182534

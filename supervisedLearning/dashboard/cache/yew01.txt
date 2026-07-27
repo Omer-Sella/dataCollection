@@ -1,23 +1,45 @@
-@yew01 CPU 24 0.37
-@yew01 MEM 15658 1652
-@yew01 PS  692279  0.0  1988 sleep
-@yew01 PS  693355  0.0  2024 sleep
-@yew01 PS  694854  0.0  2020 sleep
-@yew01 PS  696056  0.0  2016 sleep
-@yew01 PS  697254  0.0  6992 sshd
-@yew01 PS  697255  0.0  3524 bash
-@yew01 PS  697266  100  4432 ps
-@yew01 PS  697267  0.0  2216 sed
-@yew01 PS 2234075  0.1 11036 systemd
-@yew01 PS 2234076  0.0  2172 (sd-pam)
-@yew01 PS 2234088  0.0  6292 pipewire
-@yew01 PS 2234089  0.0  5116 pipewire
-@yew01 PS 2234091  0.0 13388 wireplumber
-@yew01 PS 2234093  0.0  8196 pipewire-pulse
-@yew01 PS 2234116  0.0  3876 dbus-daemon
-@yew01 PS 2234199  0.0  1348 ssh-agent
-@yew01 PS 2452115  0.0  1716 bash
-@yew01 PS 3830500  0.0  2076 bash
-@yew01 PS 3844461  0.0  2080 bash
-@yew01 PS 3855268  0.0  1976 bash
-@yew01 SEEN 1785165641
+@yew01 CPU 24 8.42
+@yew01 MEM 15658 12713
+@yew01 PS  744578  0.0  2752 bash
+@yew01 PS  744583  0.0  1724 bash
+@yew01 PS  744593  0.0  1880 bash
+@yew01 PS  744598  0.0  1468 timeout
+@yew01 PS  744600 99.4 1789604 python
+@yew01 PS  744626  0.0  1468 timeout
+@yew01 PS  744628 99.5 1810624 python
+@yew01 PS  744646  0.0  1468 timeout
+@yew01 PS  744648 99.5 1786296 python
+@yew01 PS  744684  0.0  1468 timeout
+@yew01 PS  744686 99.5 1787908 python
+@yew01 PS  745249  0.0  3396 python
+@yew01 PS  745250  0.0  3352 python
+@yew01 PS  745252  0.0  3376 python
+@yew01 PS  745253  0.0  3372 python
+@yew01 PS  745256 26.9 406388 python
+@yew01 PS  745257 40.3 405192 python
+@yew01 PS  745258 28.0 402812 python
+@yew01 PS  745260 38.5 408344 python
+@yew01 PS  745261 81.0 397360 python
+@yew01 PS  745263 12.3 394952 python
+@yew01 PS  745265 44.4 394220 python
+@yew01 PS  745266 42.8 392932 python
+@yew01 PS  745267 56.1 376428 python
+@yew01 PS  745269 75.2 393528 python
+@yew01 PS  745271 58.6 385192 python
+@yew01 PS  745272 75.7 381936 python
+@yew01 PS  745965  0.1 11936 systemd
+@yew01 PS  745966  0.0  3412 (sd-pam)
+@yew01 PS  745977  0.0  8724 pipewire
+@yew01 PS  745978  0.0  6036 pipewire
+@yew01 PS  745979  0.0 16168 wireplumber
+@yew01 PS  745981  0.0 10664 pipewire-pulse
+@yew01 PS  745993  0.0  4424 dbus-daemon
+@yew01 PS  921441  0.0  2072 sleep
+@yew01 PS  921494  0.0  2072 sleep
+@yew01 PS  923385  0.0  6900 sshd
+@yew01 PS  923386  0.0  3596 bash
+@yew01 PS  923397  0.0  4596 ps
+@yew01 PS  923398  0.0  2308 sed
+@yew01 PS 2234199  0.0   604 ssh-agent
+@yew01 SIZE 8 21,18
+@yew01 SEEN 1785182536

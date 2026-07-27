@@ -1,44 +1,41 @@
-@vertex16 CPU 12 7.34
-@vertex16 MEM 15771 7333
+@vertex16 CPU 12 8.08
+@vertex16 MEM 15771 10348
 @vertex16 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP 
-@vertex16 PS 1820183  0.0 11880 systemd
-@vertex16 PS 1820184  0.0  3436 (sd-pam)
-@vertex16 PS 1820202  0.0  8656 pipewire
-@vertex16 PS 1820203  0.0  6048 pipewire
-@vertex16 PS 1820205  0.0 15844 wireplumber
-@vertex16 PS 1820207  0.0 10592 pipewire-pulse
-@vertex16 PS 1820227  0.0  4468 dbus-daemon
-@vertex16 PS 1820277  0.0  2104 bash
-@vertex16 PS 1838937  0.0  2100 bash
-@vertex16 PS 3019096  0.0  3536 bash
-@vertex16 PS 3019101  0.0  3544 bash
-@vertex16 PS 3019111  0.0  2044 bash
-@vertex16 PS 3019116  0.0  2084 timeout
-@vertex16 PS 3019118 99.7 1228228 python
-@vertex16 PS 3019166  0.0  2044 timeout
-@vertex16 PS 3019168 99.7 1209160 python
-@vertex16 PS 3019198  0.0  2080 timeout
-@vertex16 PS 3019200 99.7 1227044 python
-@vertex16 PS 3019802  0.0 11104 python
-@vertex16 PS 3019803  0.0 11012 python
-@vertex16 PS 3019804  0.0 11032 python
-@vertex16 PS 3019805 48.1 793784 python
-@vertex16 PS 3019806 44.8 794232 python
-@vertex16 PS 3019807 44.9 793848 python
-@vertex16 PS 3019808 46.2 794184 python
-@vertex16 PS 3019809 47.3 793944 python
-@vertex16 PS 3019810 48.9 793804 python
-@vertex16 PS 3019811 49.0 794064 python
-@vertex16 PS 3019812 47.3 793572 python
-@vertex16 PS 3019813 50.7 793916 python
-@vertex16 PS 3285021  0.0  2024 sleep
-@vertex16 PS 3286568  0.0  2028 sleep
-@vertex16 PS 3286706  0.0  2036 sleep
-@vertex16 PS 3288140  0.0  2020 sleep
-@vertex16 PS 3290552  0.0  7104 sshd
-@vertex16 PS 3290558  0.0  3516 bash
-@vertex16 PS 3290578  0.0  4532 ps
-@vertex16 PS 3290579  0.0  2240 sed
-@vertex16 SEEN 1785165681
+@vertex16 PS 3373165  0.0 11432 systemd
+@vertex16 PS 3373166  0.0  3004 (sd-pam)
+@vertex16 PS 3373187  0.0  6440 pipewire
+@vertex16 PS 3373188  0.0  4900 pipewire
+@vertex16 PS 3373190  0.0 12328 wireplumber
+@vertex16 PS 3373192  0.0  8308 pipewire-pulse
+@vertex16 PS 3373211  0.0  4116 dbus-daemon
+@vertex16 PS 3373254  0.0  3408 bash
+@vertex16 PS 3373259  0.0  3308 bash
+@vertex16 PS 3373269  0.0  1960 bash
+@vertex16 PS 3373274  0.0  1900 timeout
+@vertex16 PS 3373276 99.5 1829888 python
+@vertex16 PS 3373306  0.0  1892 timeout
+@vertex16 PS 3373308 99.5 1829388 python
+@vertex16 PS 3373356  0.0  1892 timeout
+@vertex16 PS 3373358 99.6 1846184 python
+@vertex16 PS 3374144  0.0  4836 python
+@vertex16 PS 3374145  0.0  4748 python
+@vertex16 PS 3374146  0.0  4808 python
+@vertex16 PS 3374147 39.0 470100 python
+@vertex16 PS 3374148 28.7 468104 python
+@vertex16 PS 3374149 63.9 475588 python
+@vertex16 PS 3374150 39.4 478828 python
+@vertex16 PS 3374151 72.9 474876 python
+@vertex16 PS 3374152 25.5 476460 python
+@vertex16 PS 3374153 32.8 473748 python
+@vertex16 PS 3374154 35.7 474260 python
+@vertex16 PS 3374155 99.8 476844 python
+@vertex16 PS 3597236  0.0  2012 sleep
+@vertex16 PS 3602547  0.0  2032 sleep
+@vertex16 PS 3605588  0.0  7108 sshd
+@vertex16 PS 3605589  0.0  3556 bash
+@vertex16 PS 3605608  0.0  4500 ps
+@vertex16 PS 3605609  0.0  2244 sed
+@vertex16 SIZE 6 21,18
+@vertex16 SEEN 1785182570

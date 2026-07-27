@@ -1,44 +1,41 @@
-@vertex15 CPU 12 7.56
-@vertex15 MEM 15771 7608
+@vertex15 CPU 12 6.09
+@vertex15 MEM 15771 10696
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS  276473  0.0  3604 bash
-@vertex15 PS  276478  0.0  3616 bash
-@vertex15 PS  276488  0.0  2108 bash
-@vertex15 PS  276493  0.0  2092 timeout
-@vertex15 PS  276495 99.7 1321968 python
-@vertex15 PS  276539  0.0  2120 timeout
-@vertex15 PS  276541 99.7 1312708 python
-@vertex15 PS  276576  0.0  2088 timeout
-@vertex15 PS  276578 99.7 1325704 python
-@vertex15 PS  277088  0.0 11068 python
-@vertex15 PS  277089  0.0 11012 python
-@vertex15 PS  277090  0.0 11004 python
-@vertex15 PS  277091 47.3 794644 python
-@vertex15 PS  277092 49.9 794168 python
-@vertex15 PS  277093 48.8 794568 python
-@vertex15 PS  277094 49.4 794576 python
-@vertex15 PS  277095 51.1 794920 python
-@vertex15 PS  277096 49.7 794668 python
-@vertex15 PS  277097 49.3 794516 python
-@vertex15 PS  277100 48.8 794600 python
-@vertex15 PS  277101 47.3 793924 python
-@vertex15 PS  540345  0.0  2088 sleep
-@vertex15 PS  541938  0.0  2072 sleep
-@vertex15 PS  542073  0.0  2052 sleep
-@vertex15 PS  543356  0.0  2036 sleep
-@vertex15 PS  545957  0.0  7060 sshd
-@vertex15 PS  545958  0.0  3556 bash
-@vertex15 PS  545977  0.0  4556 ps
-@vertex15 PS  545978  0.0  2336 sed
-@vertex15 PS 3278366  0.0 11904 systemd
-@vertex15 PS 3278367  0.0  3408 (sd-pam)
-@vertex15 PS 3278378  0.0  8828 pipewire
-@vertex15 PS 3278379  0.0  6076 pipewire
-@vertex15 PS 3278381  0.0 15904 wireplumber
-@vertex15 PS 3278383  0.0 10776 pipewire-pulse
-@vertex15 PS 3278403  0.0  4460 dbus-daemon
-@vertex15 PS 3278461  0.0  2104 bash
-@vertex15 PS 3297678  0.0  2108 bash
-@vertex15 SEEN 1785165681
+@vertex15 PS  628201  0.0 11444 systemd
+@vertex15 PS  628202  0.0  3408 (sd-pam)
+@vertex15 PS  628213  0.0  6500 pipewire
+@vertex15 PS  628214  0.0  4800 pipewire
+@vertex15 PS  628215  0.0 12120 wireplumber
+@vertex15 PS  628216  0.0  8424 pipewire-pulse
+@vertex15 PS  628239  0.0  4220 dbus-daemon
+@vertex15 PS  628288  0.0  3496 bash
+@vertex15 PS  628293  0.0  3360 bash
+@vertex15 PS  628303  0.0  2008 bash
+@vertex15 PS  628308  0.0  1984 timeout
+@vertex15 PS  628310 99.6 2195152 python
+@vertex15 PS  628344  0.0  1984 timeout
+@vertex15 PS  628346 99.6 2204152 python
+@vertex15 PS  628390  0.0  1984 timeout
+@vertex15 PS  628392 99.6 2235844 python
+@vertex15 PS  628978  0.0 10704 python
+@vertex15 PS  628979  0.0 10720 python
+@vertex15 PS  628980  0.0 10704 python
+@vertex15 PS  628981 54.6 811524 python
+@vertex15 PS  628982  5.1 804092 python
+@vertex15 PS  628983 31.6 802252 python
+@vertex15 PS  628984 23.2 809900 python
+@vertex15 PS  628985 53.5 803420 python
+@vertex15 PS  628986 69.6 809444 python
+@vertex15 PS  628987 49.7 809552 python
+@vertex15 PS  628988 84.2 808948 python
+@vertex15 PS  628989 61.4 807308 python
+@vertex15 PS  850428  0.0  2044 sleep
+@vertex15 PS  855635  0.0  2056 sleep
+@vertex15 PS  859141  0.0  7084 sshd
+@vertex15 PS  859142  0.0  3556 bash
+@vertex15 PS  859162  0.0  4572 ps
+@vertex15 PS  859163  0.0  2304 sed
+@vertex15 SIZE 6 21,18
+@vertex15 SEEN 1785182570
