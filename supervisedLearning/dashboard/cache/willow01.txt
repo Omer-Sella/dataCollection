@@ -1,7 +1,7 @@
-@willow01 CPU 16 8.00
-@willow01 MEM 15809 10835
+@willow01 CPU 16 8.01
+@willow01 MEM 15809 10453
 @willow01 GPU 0, 69, 4096
-@willow01 PS    2162  0.1 11716 systemd
+@willow01 PS    2162  0.1 11728 systemd
 @willow01 PS    2163  0.0  3384 (sd-pam)
 @willow01 PS    2174  0.0  6596 pipewire
 @willow01 PS    2175  0.0  4700 pipewire
@@ -14,7 +14,7 @@
 @willow01 PS    2254  0.0  1824 timeout
 @willow01 PS    2256 99.8 1857324 python
 @willow01 PS    2274  0.0  1824 timeout
-@willow01 PS    2276 99.8 1863372 python
+@willow01 PS    2276 99.8 1870068 python
 @willow01 PS    2322  0.0  1828 timeout
 @willow01 PS    2324 99.8 1883236 python
 @willow01 PS    2343  0.0  1824 timeout
@@ -23,23 +23,23 @@
 @willow01 PS    2595  0.0  6160 python
 @willow01 PS    2596  0.0  6064 python
 @willow01 PS    2597  0.0  6224 python
-@willow01 PS    2598 52.6 247284 python
-@willow01 PS    2599 25.8 253136 python
-@willow01 PS    2600  7.1 249128 python
-@willow01 PS    2601 13.8 249408 python
-@willow01 PS    2602  1.8 251968 python
-@willow01 PS    2603 99.6 253668 python
-@willow01 PS    2604 69.7 250452 python
-@willow01 PS    2605 63.2 252892 python
-@willow01 PS    2606 49.8 254368 python
-@willow01 PS    2607 49.3 260168 python
-@willow01 PS    2608 64.9 250484 python
-@willow01 PS    2609 61.6 253524 python
-@willow01 PS  284025  0.0  2080 sleep
-@willow01 PS  287583  0.0  2080 sleep
-@willow01 PS  287719  0.0  6992 sshd
-@willow01 PS  287720  0.0  3556 bash
-@willow01 PS  287732  0.0  4608 ps
-@willow01 PS  287733  0.0  2308 sed
+@willow01 PS    2598 49.0 212960 python
+@willow01 PS    2599 24.0 218448 python
+@willow01 PS    2600  6.6 219384 python
+@willow01 PS    2601 12.9 222812 python
+@willow01 PS    2602  1.7 219388 python
+@willow01 PS    2603 99.6 218384 python
+@willow01 PS    2604 71.8 218484 python
+@willow01 PS    2605 58.8 221580 python
+@willow01 PS    2606 46.4 219616 python
+@willow01 PS    2607 45.9 225548 python
+@willow01 PS    2608 67.3 213252 python
+@willow01 PS    2609 64.3 219456 python
+@willow01 PS  307244  0.0  2080 sleep
+@willow01 PS  307328  0.0  2080 sleep
+@willow01 PS  308994  0.0  7020 sshd
+@willow01 PS  308995  0.0  3560 bash
+@willow01 PS  309006  0.0  4608 ps
+@willow01 PS  309007  0.0  2308 sed
 @willow01 SIZE 8 21,18
-@willow01 SEEN 1785191869
+@willow01 SEEN 1785193502

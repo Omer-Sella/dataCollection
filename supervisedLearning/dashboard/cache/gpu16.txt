@@ -1,6 +1,10 @@
-@gpu16 CPU 8 7.30
-@gpu16 MEM 32011 7702
-@gpu16 GPU 0, 82, 8192
+@gpu16 CPU 8 5.40
+@gpu16 MEM 32011 7737
+@gpu16 GPU 1, 82, 8192
+@gpu16 PS    2285  0.0  7040 sshd
+@gpu16 PS    2287  0.0  3632 bash
+@gpu16 PS    2298  0.0  4556 ps
+@gpu16 PS    2299  0.0  2336 sed
 @gpu16 PS  655298  0.0  8344 systemd
 @gpu16 PS  655299  0.0  2044 (sd-pam)
 @gpu16 PS  655312  0.0  4728 pipewire
@@ -32,19 +36,15 @@
 @gpu16 PS 3873608  0.0  1980 timeout
 @gpu16 PS 3873610 98.7 1866924 python
 @gpu16 PS 3873631  0.0  1996 timeout
-@gpu16 PS 3873633 98.7 1915404 python
+@gpu16 PS 3873633 98.8 1915404 python
 @gpu16 PS 3874181  0.0  7976 python
 @gpu16 PS 3874182  0.0  7980 python
-@gpu16 PS 3874183 44.5 439972 python
-@gpu16 PS 3874184 38.8 445196 python
-@gpu16 PS 3874185 25.1 440856 python
-@gpu16 PS 3874186 84.9 445444 python
-@gpu16 PS 3874187 87.2 446064 python
-@gpu16 PS 3874188  3.8 436412 python
-@gpu16 PS 4175206  0.0  2088 sleep
-@gpu16 PS 4175448  0.0  7096 sshd
-@gpu16 PS 4175450  0.0  3660 bash
-@gpu16 PS 4175461  100  4616 ps
-@gpu16 PS 4175462  0.0  2336 sed
+@gpu16 PS 3874183 41.7 439972 python
+@gpu16 PS 3874184 36.9 447832 python
+@gpu16 PS 3874185 23.6 440856 python
+@gpu16 PS 3874186 85.9 445444 python
+@gpu16 PS 3874187 88.0 446064 python
+@gpu16 PS 3874188  3.5 436412 python
+@gpu16 PS 4190210  0.0  2088 sleep
 @gpu16 SIZE 4 21,18
-@gpu16 SEEN 1785191961
+@gpu16 SEEN 1785193468

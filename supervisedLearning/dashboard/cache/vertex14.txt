@@ -1,5 +1,5 @@
-@vertex14 CPU 12 7.24
-@vertex14 MEM 15771 9306
+@vertex14 CPU 12 6.54
+@vertex14 MEM 15771 8149
 @vertex14 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP 
@@ -16,26 +16,26 @@
 @vertex14 PS 2510246  0.0  1984 timeout
 @vertex14 PS 2510248 99.7 1853936 python
 @vertex14 PS 2510278  0.0  1988 timeout
-@vertex14 PS 2510280 99.7 1873880 python
+@vertex14 PS 2510280 99.7 1880580 python
 @vertex14 PS 2510334  0.0  1980 timeout
 @vertex14 PS 2510336 99.7 1840256 python
 @vertex14 PS 2511059  0.0  4368 python
 @vertex14 PS 2511060  0.0  4408 python
 @vertex14 PS 2511061  0.0  4432 python
-@vertex14 PS 2511068 31.6 330212 python
-@vertex14 PS 2511069 85.0 334108 python
-@vertex14 PS 2511070 79.4 337288 python
-@vertex14 PS 2511071 29.2 335268 python
-@vertex14 PS 2511072 13.6 335524 python
-@vertex14 PS 2511073 67.3 332716 python
-@vertex14 PS 2511074 73.4 326664 python
-@vertex14 PS 2511075 90.3 323748 python
-@vertex14 PS 2511076 11.6 320364 python
-@vertex14 PS 2909109  0.0  2092 sleep
-@vertex14 PS 2909200  0.0  2096 sleep
-@vertex14 PS 2912210  0.0  7088 sshd
-@vertex14 PS 2912211  0.0  3576 bash
-@vertex14 PS 2912230  100  4648 ps
-@vertex14 PS 2912231  0.0  2336 sed
+@vertex14 PS 2511068 29.4 199328 python
+@vertex14 PS 2511069 86.0 194400 python
+@vertex14 PS 2511070 80.8 197924 python
+@vertex14 PS 2511071 27.2 198984 python
+@vertex14 PS 2511072 19.5 197900 python
+@vertex14 PS 2511073 62.5 192132 python
+@vertex14 PS 2511074 75.3 194828 python
+@vertex14 PS 2511075 84.0 197552 python
+@vertex14 PS 2511076 10.8 194556 python
+@vertex14 PS 2942076  0.0  2088 sleep
+@vertex14 PS 2942178  0.0  2092 sleep
+@vertex14 PS 2942252  0.0  7144 sshd
+@vertex14 PS 2942253  0.0  3616 bash
+@vertex14 PS 2942272  0.0  4652 ps
+@vertex14 PS 2942273  0.0  2328 sed
 @vertex14 SIZE 6 21,18
-@vertex14 SEEN 1785191872
+@vertex14 SEEN 1785193505

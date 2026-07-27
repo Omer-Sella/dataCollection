@@ -1,22 +1,22 @@
-@gpu30 CPU 8 10.58
-@gpu30 MEM 64034 12831
+@gpu30 CPU 8 10.14
+@gpu30 MEM 64034 20220
 @gpu30 GPU 98, 6210, 11264
 @gpu30 APP 1154307, 6104
-@gpu30 APP 1457250, 8
+@gpu30 APP 1475718, 8
 @gpu30 PS 1108864  0.0  3732 bash
 @gpu30 PS 1108872  0.0  2048 bash
 @gpu30 PS 1108877  0.0  2192 timeout
-@gpu30 PS 1108879 94.1 2634464 python
+@gpu30 PS 1108879 93.7 2634464 python
 @gpu30 PS 1108902  0.0  2192 timeout
-@gpu30 PS 1108904 93.9 2636688 python
+@gpu30 PS 1108904 93.5 2636688 python
 @gpu30 PS 1109283  0.0 11240 python
 @gpu30 PS 1109284  0.0 11220 python
-@gpu30 PS 1109285 92.8 833352 python
-@gpu30 PS 1109286 19.4 834784 python
-@gpu30 PS 1109287 78.7 834140 python
-@gpu30 PS 1109288 35.0 835676 python
-@gpu30 PS 1109289 69.0 833012 python
-@gpu30 PS 1109290 94.1 838352 python
+@gpu30 PS 1109285 92.5 833352 python
+@gpu30 PS 1109286 23.7 834784 python
+@gpu30 PS 1109287 76.9 834140 python
+@gpu30 PS 1109288 38.2 835676 python
+@gpu30 PS 1109289 64.7 833012 python
+@gpu30 PS 1109290 93.7 838352 python
 @gpu30 PS 1320975  0.0 12356 systemd
 @gpu30 PS 1320976  0.0  3388 (sd-pam)
 @gpu30 PS 1320988  0.0  8908 pipewire
@@ -25,11 +25,11 @@
 @gpu30 PS 1320992  0.0 10772 pipewire-pulse
 @gpu30 PS 1321006  0.0  4628 dbus-daemon
 @gpu30 PS 1321092  0.0  1348 ssh-agent
-@gpu30 PS 1446423  0.0  2152 sleep
-@gpu30 PS 1457448  0.0  7280 sshd
-@gpu30 PS 1457449  0.0  3724 bash
-@gpu30 PS 1457469  200  4712 ps
-@gpu30 PS 1457470  0.0  2396 sed
+@gpu30 PS 1475780  0.0  2144 sleep
+@gpu30 PS 1480207  0.0  7256 sshd
+@gpu30 PS 1480208  0.0  3696 bash
+@gpu30 PS 1480221  0.0  4712 ps
+@gpu30 PS 1480222  0.0  2396 sed
 @gpu30 PS 1481576  0.0  1548 ssh-agent
 @gpu30 PS 1482230  0.0  1544 ssh-agent
 @gpu30 PS 1506259  0.0  1540 ssh-agent
@@ -48,4 +48,4 @@
 @gpu30 PS 1707337  0.0  1544 ssh-agent
 @gpu30 PS 2711469  0.0  1544 ssh-agent
 @gpu30 SIZE 4 21,18
-@gpu30 SEEN 1785191962
+@gpu30 SEEN 1785193469

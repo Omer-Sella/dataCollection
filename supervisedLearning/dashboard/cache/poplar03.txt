@@ -1,32 +1,32 @@
-@poplar03 CPU 24 9.00
-@poplar03 MEM 15658 12435
+@poplar03 CPU 24 9.12
+@poplar03 MEM 15658 11854
 @poplar03 PS 2790731  0.0  2788 bash
 @poplar03 PS 2790736  0.0  1768 bash
 @poplar03 PS 2790746  0.0  1908 bash
 @poplar03 PS 2790771  0.0  1496 timeout
 @poplar03 PS 2790773 99.7 1884436 python
 @poplar03 PS 2790808  0.0  1500 timeout
-@poplar03 PS 2790810 99.7 1885348 python
+@poplar03 PS 2790810 99.8 1885348 python
 @poplar03 PS 2790829  0.0  1504 timeout
-@poplar03 PS 2790831 99.7 1865572 python
+@poplar03 PS 2790831 99.8 1872284 python
 @poplar03 PS 2790860  0.0  1500 timeout
 @poplar03 PS 2790862 99.8 1897748 python
 @poplar03 PS 2791226  0.0  3452 python
 @poplar03 PS 2791227  0.0  3412 python
 @poplar03 PS 2791228  0.0  3396 python
 @poplar03 PS 2791230  0.0  3520 python
-@poplar03 PS 2791231 55.3 366112 python
-@poplar03 PS 2791233 53.1 352088 python
-@poplar03 PS 2791234 58.1 339864 python
-@poplar03 PS 2791236 63.6 357496 python
-@poplar03 PS 2791237 17.3 358448 python
-@poplar03 PS 2791239 28.5 366332 python
-@poplar03 PS 2791241 83.3 356752 python
-@poplar03 PS 2791242 90.5 346560 python
-@poplar03 PS 2791244 67.2 345924 python
-@poplar03 PS 2791245 56.9 344796 python
-@poplar03 PS 2791247 29.7 362764 python
-@poplar03 PS 2791248 59.3 360848 python
+@poplar03 PS 2791231 57.6 310312 python
+@poplar03 PS 2791233 49.7 303512 python
+@poplar03 PS 2791234 54.5 303084 python
+@poplar03 PS 2791236 65.9 297704 python
+@poplar03 PS 2791237 16.2 309068 python
+@poplar03 PS 2791239 26.7 298968 python
+@poplar03 PS 2791241 84.4 307332 python
+@poplar03 PS 2791242 91.1 309188 python
+@poplar03 PS 2791244 62.9 295528 python
+@poplar03 PS 2791245 59.6 307624 python
+@poplar03 PS 2791247 27.8 302604 python
+@poplar03 PS 2791248 60.9 313588 python
 @poplar03 PS 2791601  0.0 11840 systemd
 @poplar03 PS 2791606  0.0  3428 (sd-pam)
 @poplar03 PS 2791641  0.0  8480 pipewire
@@ -34,11 +34,11 @@
 @poplar03 PS 2791643  0.0 15844 wireplumber
 @poplar03 PS 2791645  0.0 10448 pipewire-pulse
 @poplar03 PS 2791663  0.0  4344 dbus-daemon
-@poplar03 PS 3081713  0.0  2064 sleep
-@poplar03 PS 3081827  0.0  2064 sleep
-@poplar03 PS 3084698  0.0  7084 sshd
-@poplar03 PS 3084699  0.0  3552 bash
-@poplar03 PS 3084710  0.0  4572 ps
-@poplar03 PS 3084711  0.0  2300 sed
+@poplar03 PS 3097135  0.0  2064 sleep
+@poplar03 PS 3100839  0.0  2060 sleep
+@poplar03 PS 3103826  0.0  7056 sshd
+@poplar03 PS 3103827  0.0  3560 bash
+@poplar03 PS 3103838  0.0  4604 ps
+@poplar03 PS 3103839  0.0  2312 sed
 @poplar03 SIZE 8 21,18
-@poplar03 SEEN 1785191974
+@poplar03 SEEN 1785193480

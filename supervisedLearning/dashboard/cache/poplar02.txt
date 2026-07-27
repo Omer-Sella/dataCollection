@@ -1,10 +1,10 @@
-@poplar02 CPU 24 10.86
-@poplar02 MEM 15658 11906
+@poplar02 CPU 24 10.02
+@poplar02 MEM 15658 11922
 @poplar02 PS  263848  0.0  2836 bash
 @poplar02 PS  263854  0.0  1760 bash
 @poplar02 PS  263864  0.0  1912 bash
 @poplar02 PS  263869  0.0  1500 timeout
-@poplar02 PS  263871 99.8 1553052 python
+@poplar02 PS  263871 99.8 1559968 python
 @poplar02 PS  263896  0.0  1500 timeout
 @poplar02 PS  263898 99.8 1567824 python
 @poplar02 PS  263921  0.0  1500 timeout
@@ -15,18 +15,18 @@
 @poplar02 PS  264284  0.0  3392 python
 @poplar02 PS  264285  0.0  3408 python
 @poplar02 PS  264287  0.0  3368 python
-@poplar02 PS  264289 32.5 401252 python
-@poplar02 PS  264290 36.3 422816 python
-@poplar02 PS  264291 43.6 449672 python
-@poplar02 PS  264292 81.4 410332 python
-@poplar02 PS  264295 36.1 420444 python
-@poplar02 PS  264296 40.5 406980 python
-@poplar02 PS  264297 80.1 429076 python
-@poplar02 PS  264298  8.9 396308 python
-@poplar02 PS  264301 71.3 412204 python
-@poplar02 PS  264303 24.1 428732 python
-@poplar02 PS  264304 24.7 405728 python
-@poplar02 PS  264305 77.0 416664 python
+@poplar02 PS  264289 30.5 400316 python
+@poplar02 PS  264290 40.3 422816 python
+@poplar02 PS  264291 47.1 449672 python
+@poplar02 PS  264292 76.3 410332 python
+@poplar02 PS  264295 33.8 420444 python
+@poplar02 PS  264296 39.7 407920 python
+@poplar02 PS  264297 81.3 429076 python
+@poplar02 PS  264298  8.3 396308 python
+@poplar02 PS  264301 66.8 412204 python
+@poplar02 PS  264303 28.9 428732 python
+@poplar02 PS  264304 29.5 405728 python
+@poplar02 PS  264305 78.5 421008 python
 @poplar02 PS  265049  0.1 11820 systemd
 @poplar02 PS  265050  0.0  3424 (sd-pam)
 @poplar02 PS  265061  0.0  8704 pipewire
@@ -34,11 +34,11 @@
 @poplar02 PS  265065  0.0 16044 wireplumber
 @poplar02 PS  265066  0.0 10588 pipewire-pulse
 @poplar02 PS  265078  0.0  4436 dbus-daemon
-@poplar02 PS  559899  0.0  2056 sleep
-@poplar02 PS  560028  0.0  2060 sleep
-@poplar02 PS  562915  0.0  7036 sshd
-@poplar02 PS  562916  0.0  3540 bash
-@poplar02 PS  562927  0.0  4592 ps
-@poplar02 PS  562928  0.0  2308 sed
+@poplar02 PS  575483  0.0  2060 sleep
+@poplar02 PS  579185  0.0  2068 sleep
+@poplar02 PS  582348  0.0  6960 sshd
+@poplar02 PS  582349  0.0  3596 bash
+@poplar02 PS  582360  0.0  4568 ps
+@poplar02 PS  582361  0.0  2312 sed
 @poplar02 SIZE 8 21,18
-@poplar02 SEEN 1785191974
+@poplar02 SEEN 1785193480

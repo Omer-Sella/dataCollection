@@ -1,38 +1,38 @@
-@poplar05 CPU 24 9.00
-@poplar05 MEM 15658 12007
-@poplar05 PS   98650  0.0  2068 sleep
-@poplar05 PS   98766  0.0  2072 sleep
-@poplar05 PS  101548  0.0  7032 sshd
-@poplar05 PS  101549  0.0  3544 bash
-@poplar05 PS  101560  0.0  4536 ps
-@poplar05 PS  101561  0.0  2316 sed
+@poplar05 CPU 24 10.01
+@poplar05 MEM 15658 11846
+@poplar05 PS  114681  0.0  2068 sleep
+@poplar05 PS  118368  0.0  2072 sleep
+@poplar05 PS  121448  0.0  7016 sshd
+@poplar05 PS  121449  0.0  3584 bash
+@poplar05 PS  121460  0.0  4548 ps
+@poplar05 PS  121461  0.0  2320 sed
 @poplar05 PS 4000527  0.0  2852 bash
 @poplar05 PS 4000532  0.0  1796 bash
 @poplar05 PS 4000542  0.0  1876 bash
 @poplar05 PS 4000566  0.0  1516 timeout
-@poplar05 PS 4000572 99.6 1878248 python
+@poplar05 PS 4000572 99.7 1869044 python
 @poplar05 PS 4000592  0.0  1516 timeout
-@poplar05 PS 4000594 99.6 1884840 python
+@poplar05 PS 4000594 99.7 1883340 python
 @poplar05 PS 4000614  0.0  1516 timeout
-@poplar05 PS 4000616 99.7 1897904 python
+@poplar05 PS 4000616 99.7 1890988 python
 @poplar05 PS 4000707  0.0  1516 timeout
-@poplar05 PS 4000710 99.7 1891832 python
+@poplar05 PS 4000710 99.7 1891780 python
 @poplar05 PS 4001308  0.0  3248 python
 @poplar05 PS 4001309  0.0  3376 python
 @poplar05 PS 4001311  0.0  3408 python
 @poplar05 PS 4001312  0.0  3488 python
-@poplar05 PS 4001313 48.5 305828 python
-@poplar05 PS 4001314  3.3 306320 python
-@poplar05 PS 4001315 54.2 321436 python
-@poplar05 PS 4001318 27.4 324944 python
-@poplar05 PS 4001319 64.2 328252 python
-@poplar05 PS 4001322 89.0 330560 python
-@poplar05 PS 4001323 56.7 314428 python
-@poplar05 PS 4001324  5.3 302976 python
-@poplar05 PS 4001325 45.9 321296 python
-@poplar05 PS 4001327 68.3 319168 python
-@poplar05 PS 4001328 95.2 323604 python
-@poplar05 PS 4001329 36.2 303980 python
+@poplar05 PS 4001313 51.7 295496 python
+@poplar05 PS 4001314  3.1 288004 python
+@poplar05 PS 4001315 50.8 307652 python
+@poplar05 PS 4001318 25.6 315988 python
+@poplar05 PS 4001319 60.2 319352 python
+@poplar05 PS 4001322 89.7 320480 python
+@poplar05 PS 4001323 53.2 305204 python
+@poplar05 PS 4001324  6.7 294308 python
+@poplar05 PS 4001325 49.3 308716 python
+@poplar05 PS 4001327 70.3 309100 python
+@poplar05 PS 4001328 95.5 314040 python
+@poplar05 PS 4001329 33.9 295776 python
 @poplar05 PS 4002946  0.1 11904 systemd
 @poplar05 PS 4002947  0.0  3436 (sd-pam)
 @poplar05 PS 4002966  0.0  8712 pipewire
@@ -41,4 +41,4 @@
 @poplar05 PS 4002971  0.0 10652 pipewire-pulse
 @poplar05 PS 4002983  0.0  4408 dbus-daemon
 @poplar05 SIZE 8 21,18
-@poplar05 SEEN 1785191974
+@poplar05 SEEN 1785193480

@@ -1,6 +1,6 @@
-@beech20 CPU 16 12.60
-@beech20 MEM 15364 13515
-@beech20 GPU 0, 89, 4096
+@beech20 CPU 16 11.85
+@beech20 MEM 15364 13527
+@beech20 GPU 2, 89, 4096
 @beech20 PS 3214918  0.3 13348 systemd
 @beech20 PS 3214919  0.0  4068 (sd-pam)
 @beech20 PS 3214939  0.0  4680 dbus-daemon
@@ -13,9 +13,9 @@
 @beech20 PS 3215076  0.0  2340 bash
 @beech20 PS 3215086  0.0  1988 bash
 @beech20 PS 3215091  0.0  6136 timeout
-@beech20 PS 3215094 99.7 1852224 python
+@beech20 PS 3215094 99.8 1852224 python
 @beech20 PS 3215119  0.0  6120 timeout
-@beech20 PS 3215121 99.7 1835724 python
+@beech20 PS 3215121 99.8 1835724 python
 @beech20 PS 3215144  0.0  5996 timeout
 @beech20 PS 3215146 99.8 1837104 python
 @beech20 PS 3215169  0.0  6056 timeout
@@ -24,23 +24,23 @@
 @beech20 PS 3215499  0.0  3960 python
 @beech20 PS 3215500  0.0  4148 python
 @beech20 PS 3215501  0.0  3912 python
-@beech20 PS 3215502 14.9 306208 python
-@beech20 PS 3215503 20.5 305172 python
-@beech20 PS 3215504 72.6 320088 python
-@beech20 PS 3215505 96.7 314220 python
-@beech20 PS 3215506 55.2 307060 python
-@beech20 PS 3215507 91.4 313760 python
-@beech20 PS 3215508 46.6 302392 python
-@beech20 PS 3215509 17.5 315160 python
-@beech20 PS 3215510 95.5 314780 python
-@beech20 PS 3215511  8.4 309040 python
-@beech20 PS 3215512 27.6 315092 python
-@beech20 PS 3215513 74.4 314896 python
-@beech20 PS 3480307  0.0  7648 sleep
-@beech20 PS 3483730  0.0  7668 sleep
-@beech20 PS 3483900  0.0  8216 sshd-session
-@beech20 PS 3483901  0.0  3864 bash
-@beech20 PS 3483915  200  4624 ps
-@beech20 PS 3483916  0.0  2660 sed
+@beech20 PS 3215502 13.8 306208 python
+@beech20 PS 3215503 26.0 305172 python
+@beech20 PS 3215504 74.5 320100 python
+@beech20 PS 3215505 97.0 314220 python
+@beech20 PS 3215506 51.4 307060 python
+@beech20 PS 3215507 92.0 313760 python
+@beech20 PS 3215508 50.3 306704 python
+@beech20 PS 3215509 20.8 315320 python
+@beech20 PS 3215510 95.8 314780 python
+@beech20 PS 3215511 14.7 309040 python
+@beech20 PS 3215512 25.7 315092 python
+@beech20 PS 3215513 76.1 314896 python
+@beech20 PS 3501935  0.0  7548 sleep
+@beech20 PS 3502000  0.0  7620 sleep
+@beech20 PS 3503651  0.0  8280 sshd-session
+@beech20 PS 3503652  0.0  3916 bash
+@beech20 PS 3503666  0.0  4624 ps
+@beech20 PS 3503667  0.0  2588 sed
 @beech20 SIZE 8 21,18
-@beech20 SEEN 1785191869
+@beech20 SEEN 1785193502

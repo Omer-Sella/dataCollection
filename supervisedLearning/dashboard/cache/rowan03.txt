@@ -1,38 +1,38 @@
-@rowan03 CPU 24 8.10
-@rowan03 MEM 15658 12775
-@rowan03 PS  235694  0.0  2060 sleep
-@rowan03 PS  239256  0.0  2068 sleep
-@rowan03 PS  239755  0.0  7016 sshd
-@rowan03 PS  239756  0.0  3572 bash
-@rowan03 PS  239767  100  4572 ps
-@rowan03 PS  239768  0.0  2316 sed
+@rowan03 CPU 24 8.00
+@rowan03 MEM 15658 12791
+@rowan03 PS  258716  0.0  2068 sleep
+@rowan03 PS  258822  0.0  2064 sleep
+@rowan03 PS  259247  0.0  7064 sshd
+@rowan03 PS  259248  0.0  3600 bash
+@rowan03 PS  259259  0.0  4588 ps
+@rowan03 PS  259260  0.0  2316 sed
 @rowan03 PS 4136794  0.0  2828 bash
 @rowan03 PS 4136799  0.0  1756 bash
 @rowan03 PS 4136809  0.0  1908 bash
 @rowan03 PS 4136852  0.0  1516 timeout
-@rowan03 PS 4136854 99.8 1679508 python
+@rowan03 PS 4136854 99.8 1686216 python
 @rowan03 PS 4136884  0.0  1516 timeout
-@rowan03 PS 4136886 99.8 1640564 python
+@rowan03 PS 4136886 99.8 1653968 python
 @rowan03 PS 4136903  0.0  1516 timeout
 @rowan03 PS 4136905 99.8 1668108 python
 @rowan03 PS 4136949  0.0  1516 timeout
-@rowan03 PS 4136951 99.8 1717776 python
+@rowan03 PS 4136951 99.8 1724472 python
 @rowan03 PS 4137155  0.0  3472 python
 @rowan03 PS 4137157  0.0  3508 python
 @rowan03 PS 4137158  0.0  3392 python
 @rowan03 PS 4137159  0.0  3388 python
-@rowan03 PS 4137161 31.2 459604 python
-@rowan03 PS 4137162 40.3 357396 python
-@rowan03 PS 4137163 38.5 453364 python
-@rowan03 PS 4137164 34.9 455548 python
-@rowan03 PS 4137167 67.6 456664 python
-@rowan03 PS 4137168 70.0 399332 python
-@rowan03 PS 4137169 90.9 361768 python
-@rowan03 PS 4137171 78.8 362572 python
-@rowan03 PS 4137172 42.2 460504 python
-@rowan03 PS 4137173 51.9 468952 python
-@rowan03 PS 4137175 64.6 448728 python
-@rowan03 PS 4137176 21.7 396644 python
+@rowan03 PS 4137161 29.3 461840 python
+@rowan03 PS 4137162 44.0 357396 python
+@rowan03 PS 4137163 36.1 457704 python
+@rowan03 PS 4137164 32.7 460012 python
+@rowan03 PS 4137167 63.4 456664 python
+@rowan03 PS 4137168 71.9 399332 python
+@rowan03 PS 4137169 91.5 355200 python
+@rowan03 PS 4137171 80.1 362580 python
+@rowan03 PS 4137172 39.6 460504 python
+@rowan03 PS 4137173 48.7 468956 python
+@rowan03 PS 4137175 60.5 446496 python
+@rowan03 PS 4137176 20.4 400980 python
 @rowan03 PS 4139226  0.1 12012 systemd
 @rowan03 PS 4139227  0.0  3412 (sd-pam)
 @rowan03 PS 4139238  0.0  8840 pipewire
@@ -41,4 +41,4 @@
 @rowan03 PS 4139242  0.0 10740 pipewire-pulse
 @rowan03 PS 4139253  0.0  4472 dbus-daemon
 @rowan03 SIZE 8 21,18
-@rowan03 SEEN 1785191967
+@rowan03 SEEN 1785193474

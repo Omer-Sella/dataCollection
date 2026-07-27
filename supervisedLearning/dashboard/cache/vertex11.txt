@@ -1,5 +1,5 @@
-@vertex11 CPU 12 7.00
-@vertex11 MEM 15771 10585
+@vertex11 CPU 12 7.15
+@vertex11 MEM 15771 9323
 @vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP 
@@ -14,28 +14,28 @@
 @vertex11 PS 3601280  0.0  3296 bash
 @vertex11 PS 3601290  0.0  1928 bash
 @vertex11 PS 3601295  0.0  1976 timeout
-@vertex11 PS 3601297 99.7 2219392 python
+@vertex11 PS 3601297 99.7 2219264 python
 @vertex11 PS 3601331  0.0  1944 timeout
-@vertex11 PS 3601333 99.7 2190648 python
+@vertex11 PS 3601333 99.8 2190520 python
 @vertex11 PS 3601363  0.0  1964 timeout
-@vertex11 PS 3601365 99.7 2223572 python
-@vertex11 PS 3602055  0.0  6820 python
-@vertex11 PS 3602056  0.0  6628 python
+@vertex11 PS 3601365 99.8 2223444 python
+@vertex11 PS 3602055  0.0  6768 python
+@vertex11 PS 3602056  0.0  6556 python
 @vertex11 PS 3602057  0.0  6208 python
-@vertex11 PS 3602058 18.9 794268 python
-@vertex11 PS 3602059 40.3 794696 python
-@vertex11 PS 3602060 62.2 794876 python
-@vertex11 PS 3602061 25.7 794968 python
-@vertex11 PS 3602062 42.5 799032 python
-@vertex11 PS 3602063 32.2 796256 python
-@vertex11 PS 3602064 86.5 789184 python
-@vertex11 PS 3602065 42.0 791976 python
-@vertex11 PS 3602066 75.2 794448 python
-@vertex11 PS 4000732  0.0  2036 sleep
-@vertex11 PS 4000799  0.0  2032 sleep
-@vertex11 PS 4004112  0.0  7112 sshd
-@vertex11 PS 4004121  0.0  3572 bash
-@vertex11 PS 4004140  0.0  4564 ps
-@vertex11 PS 4004141  0.0  2312 sed
+@vertex11 PS 3602058 17.5 664216 python
+@vertex11 PS 3602059 37.5 641328 python
+@vertex11 PS 3602060 64.8 663104 python
+@vertex11 PS 3602061 23.9 653616 python
+@vertex11 PS 3602062 46.5 656412 python
+@vertex11 PS 3602063 29.9 656824 python
+@vertex11 PS 3602064 87.4 660124 python
+@vertex11 PS 3602065 39.0 663112 python
+@vertex11 PS 3602066 76.9 653152 python
+@vertex11 PS 4033535  0.0  2032 sleep
+@vertex11 PS 4033601  0.0  2056 sleep
+@vertex11 PS 4033990  0.0  7084 sshd
+@vertex11 PS 4033991  0.0  3556 bash
+@vertex11 PS 4034010  0.0  4616 ps
+@vertex11 PS 4034011  0.0  2332 sed
 @vertex11 SIZE 6 21,18
-@vertex11 SEEN 1785191872
+@vertex11 SEEN 1785193505

@@ -1,9 +1,9 @@
-@vertex15 CPU 12 6.03
-@vertex15 MEM 15771 10683
+@vertex15 CPU 12 7.03
+@vertex15 MEM 15771 8008
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS  628201  0.0 11452 systemd
+@vertex15 PS  628201  0.0 11456 systemd
 @vertex15 PS  628202  0.0  3408 (sd-pam)
 @vertex15 PS  628213  0.0  6500 pipewire
 @vertex15 PS  628214  0.0  4800 pipewire
@@ -14,28 +14,28 @@
 @vertex15 PS  628293  0.0  3360 bash
 @vertex15 PS  628303  0.0  2008 bash
 @vertex15 PS  628308  0.0  1984 timeout
-@vertex15 PS  628310 99.7 2183116 python
+@vertex15 PS  628310 99.7 2182968 python
 @vertex15 PS  628344  0.0  1984 timeout
-@vertex15 PS  628346 99.7 2178024 python
+@vertex15 PS  628346 99.7 2184592 python
 @vertex15 PS  628390  0.0  1984 timeout
-@vertex15 PS  628392 99.7 2209372 python
-@vertex15 PS  628978  0.0  9920 python
-@vertex15 PS  628979  0.0  9900 python
-@vertex15 PS  628980  0.0  9896 python
-@vertex15 PS  628981 31.3 812648 python
-@vertex15 PS  628982 10.6 803036 python
-@vertex15 PS  628983 39.4 804484 python
-@vertex15 PS  628984 13.3 803332 python
-@vertex15 PS  628985 65.7 807880 python
-@vertex15 PS  628986 61.2 808084 python
-@vertex15 PS  628987 28.4 807320 python
-@vertex15 PS  628988 90.9 808952 python
-@vertex15 PS  628989 63.8 808460 python
-@vertex15 PS 1027186  0.0  2068 sleep
-@vertex15 PS 1027283  0.0  2068 sleep
-@vertex15 PS 1030218  0.0  7012 sshd
-@vertex15 PS 1030219  0.0  3572 bash
-@vertex15 PS 1030238  100  4588 ps
-@vertex15 PS 1030239  0.0  2324 sed
+@vertex15 PS  628392 99.8 2209232 python
+@vertex15 PS  628978  0.0  6388 python
+@vertex15 PS  628979  0.0  6420 python
+@vertex15 PS  628980  0.0  6500 python
+@vertex15 PS  628981 33.2 509300 python
+@vertex15 PS  628982 16.8 502904 python
+@vertex15 PS  628983 36.7 503348 python
+@vertex15 PS  628984 12.4 512172 python
+@vertex15 PS  628985 61.1 510744 python
+@vertex15 PS  628986 63.9 537084 python
+@vertex15 PS  628987 26.5 536436 python
+@vertex15 PS  628988 91.6 512568 python
+@vertex15 PS  628989 59.4 511048 python
+@vertex15 PS 1049609  0.0  2060 sleep
+@vertex15 PS 1061800  0.0  2040 sleep
+@vertex15 PS 1061892  0.0  7060 sshd
+@vertex15 PS 1061893  0.0  3552 bash
+@vertex15 PS 1061924  100  4584 ps
+@vertex15 PS 1061925  0.0  2308 sed
 @vertex15 SIZE 6 21,18
-@vertex15 SEEN 1785191872
+@vertex15 SEEN 1785193505

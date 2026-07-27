@@ -1,5 +1,5 @@
-@vertex07 CPU 12 7.01
-@vertex07 MEM 15771 9407
+@vertex07 CPU 12 7.04
+@vertex07 MEM 15771 8017
 @vertex07 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex07 APP 
@@ -18,24 +18,24 @@
 @vertex07 PS 2241868  0.0  1968 timeout
 @vertex07 PS 2241870 99.6 1838908 python
 @vertex07 PS 2241917  0.0  1968 timeout
-@vertex07 PS 2241919 99.6 1836492 python
+@vertex07 PS 2241919 99.6 1849916 python
 @vertex07 PS 2243106  0.0  4556 python
 @vertex07 PS 2243107  0.0  4628 python
 @vertex07 PS 2243108  0.0  4548 python
-@vertex07 PS 2243109 71.5 367940 python
-@vertex07 PS 2243110 67.2 358512 python
-@vertex07 PS 2243111 51.5 362784 python
-@vertex07 PS 2243112 35.3 358780 python
-@vertex07 PS 2243113 20.5 355068 python
-@vertex07 PS 2243114 85.9 366016 python
-@vertex07 PS 2243115 24.9 364204 python
-@vertex07 PS 2243116 25.8 370180 python
-@vertex07 PS 2243117 43.6 360648 python
-@vertex07 PS 2641702  0.0  2048 sleep
-@vertex07 PS 2641802  0.0  2068 sleep
-@vertex07 PS 2645383  0.0  7024 sshd
-@vertex07 PS 2645384  0.0  3624 bash
-@vertex07 PS 2645404  0.0  4560 ps
-@vertex07 PS 2645405  0.0  2308 sed
+@vertex07 PS 2243109 68.4 213620 python
+@vertex07 PS 2243110 69.5 209172 python
+@vertex07 PS 2243111 54.9 210856 python
+@vertex07 PS 2243112 38.0 208580 python
+@vertex07 PS 2243113 19.1 198508 python
+@vertex07 PS 2243114 86.9 207124 python
+@vertex07 PS 2243115 23.2 207276 python
+@vertex07 PS 2243116 24.0 216476 python
+@vertex07 PS 2243117 40.6 207520 python
+@vertex07 PS 2675785  0.0  2064 sleep
+@vertex07 PS 2675885  0.0  2052 sleep
+@vertex07 PS 2676523  0.0  7084 sshd
+@vertex07 PS 2676530  0.0  3644 bash
+@vertex07 PS 2676549  0.0  4560 ps
+@vertex07 PS 2676550  0.0  2280 sed
 @vertex07 SIZE 6 21,18
-@vertex07 SEEN 1785191871
+@vertex07 SEEN 1785193504

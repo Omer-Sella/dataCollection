@@ -1,7 +1,12 @@
-@gpu31 CPU 16 9.38
-@gpu31 MEM 64222 21908
-@gpu31 GPU 28, 15682, 16376
+@gpu31 CPU 16 8.72
+@gpu31 MEM 64222 21923
+@gpu31 GPU 22, 15682, 16376
 @gpu31 APP 962638, 15628
+@gpu31 PS   10347  0.0  2088 sleep
+@gpu31 PS   15625  0.0  7000 sshd
+@gpu31 PS   15626  0.0  3680 bash
+@gpu31 PS   15662  100  4600 ps
+@gpu31 PS   15663  0.0  2324 sed
 @gpu31 PS   61986  0.0  1544 ssh-agent
 @gpu31 PS   64407  0.0  1548 ssh-agent
 @gpu31 PS   69729  0.0  1540 ssh-agent
@@ -40,30 +45,25 @@
 @gpu31 PS 3809057  0.0 11092 python
 @gpu31 PS 3809058  0.0 11172 python
 @gpu31 PS 3809059  0.0 11136 python
-@gpu31 PS 3809060 41.7 827788 python
-@gpu31 PS 3809061 53.4 824312 python
-@gpu31 PS 3809062 43.6 829128 python
-@gpu31 PS 3809063 72.4 833324 python
-@gpu31 PS 3809064 54.6 827592 python
-@gpu31 PS 3809065 63.0 834060 python
-@gpu31 PS 3809066 30.6 831316 python
-@gpu31 PS 3809067 76.6 828892 python
-@gpu31 PS 3809068 67.4 837768 python
-@gpu31 PS 3809069 57.1 833244 python
-@gpu31 PS 3809070 66.1 832156 python
-@gpu31 PS 3809071 72.5 831272 python
+@gpu31 PS 3809060 45.3 827788 python
+@gpu31 PS 3809061 50.1 824312 python
+@gpu31 PS 3809062 40.8 829128 python
+@gpu31 PS 3809063 74.1 833324 python
+@gpu31 PS 3809064 51.2 827592 python
+@gpu31 PS 3809065 59.1 834060 python
+@gpu31 PS 3809066 34.9 831316 python
+@gpu31 PS 3809067 71.8 828892 python
+@gpu31 PS 3809068 69.4 837768 python
+@gpu31 PS 3809069 53.6 833244 python
+@gpu31 PS 3809070 62.0 832156 python
+@gpu31 PS 3809071 73.7 831272 python
 @gpu31 PS 4062481  0.0  1548 ssh-agent
 @gpu31 PS 4162629  0.0  1548 ssh-agent
 @gpu31 PS 4163316  0.0  1544 ssh-agent
-@gpu31 PS 4175108  0.0  2068 sleep
 @gpu31 PS 4179548  0.0  1548 ssh-agent
 @gpu31 PS 4180676  0.0  1544 ssh-agent
 @gpu31 PS 4184808  0.0  1548 ssh-agent
-@gpu31 PS 4185957  0.0  7068 sshd
-@gpu31 PS 4185966  0.0  3640 bash
-@gpu31 PS 4185979  300  4732 ps
-@gpu31 PS 4185980  0.0  2324 sed
 @gpu31 PS 4188786  0.0  1540 ssh-agent
 @gpu31 PS 4191131  0.0  1540 ssh-agent
 @gpu31 SIZE 8 21,18
-@gpu31 SEEN 1785191962
+@gpu31 SEEN 1785193468

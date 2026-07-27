@@ -1,32 +1,32 @@
-@poplar30 CPU 24 10.00
-@poplar30 MEM 15658 11844
+@poplar30 CPU 24 10.13
+@poplar30 MEM 15658 11893
 @poplar30 PS  697503  0.0  2868 bash
 @poplar30 PS  697508  0.0  1812 bash
 @poplar30 PS  697518  0.0  1940 bash
 @poplar30 PS  697544  0.0  1532 timeout
-@poplar30 PS  697546 99.7 1511528 python
+@poplar30 PS  697546 99.8 1518228 python
 @poplar30 PS  697568  0.0  1528 timeout
-@poplar30 PS  697570 99.8 1554556 python
+@poplar30 PS  697570 99.8 1574664 python
 @poplar30 PS  697600  0.0  1532 timeout
-@poplar30 PS  697602 99.8 1562900 python
+@poplar30 PS  697602 99.8 1569604 python
 @poplar30 PS  697620  0.0  1532 timeout
 @poplar30 PS  697622 99.8 1580832 python
 @poplar30 PS  697956  0.0  3436 python
 @poplar30 PS  697959  0.0  3420 python
 @poplar30 PS  697960  0.0  3416 python
 @poplar30 PS  697961  0.0  3440 python
-@poplar30 PS  697963 59.7 415168 python
-@poplar30 PS  697964 96.7 413180 python
-@poplar30 PS  697965 19.6 397780 python
-@poplar30 PS  697966 29.8 423228 python
-@poplar30 PS  697969 34.3 418356 python
-@poplar30 PS  697970 17.8 412816 python
-@poplar30 PS  697971 50.0 419160 python
-@poplar30 PS  697972 64.2 419896 python
-@poplar30 PS  697973 48.1 422060 python
-@poplar30 PS  697974  3.3 402160 python
-@poplar30 PS  697976 48.7 422368 python
-@poplar30 PS  697978 90.1 424956 python
+@poplar30 PS  697963 55.9 415168 python
+@poplar30 PS  697964 96.9 417772 python
+@poplar30 PS  697965 18.3 404348 python
+@poplar30 PS  697966 30.8 422136 python
+@poplar30 PS  697969 38.5 418356 python
+@poplar30 PS  697970 22.1 412828 python
+@poplar30 PS  697971 53.1 423612 python
+@poplar30 PS  697972 63.5 419900 python
+@poplar30 PS  697973 45.1 422060 python
+@poplar30 PS  697974  3.1 404396 python
+@poplar30 PS  697976 48.8 426840 python
+@poplar30 PS  697978 88.7 427192 python
 @poplar30 PS  698849  0.1 11908 systemd
 @poplar30 PS  698850  0.0  3436 (sd-pam)
 @poplar30 PS  698861  0.0  8796 pipewire
@@ -34,11 +34,11 @@
 @poplar30 PS  698864  0.0 15960 wireplumber
 @poplar30 PS  698866  0.0 10592 pipewire-pulse
 @poplar30 PS  698878  0.0  4324 dbus-daemon
-@poplar30 PS  991610  0.0  2064 sleep
-@poplar30 PS  991761  0.0  2068 sleep
-@poplar30 PS  993254  0.0  6932 sshd
-@poplar30 PS  993255  0.0  3544 bash
-@poplar30 PS  993266  0.0  4604 ps
-@poplar30 PS  993267  0.0  2312 sed
+@poplar30 PS 1007570  0.0  2068 sleep
+@poplar30 PS 1013000  0.0  2064 sleep
+@poplar30 PS 1014675  0.0  7032 sshd
+@poplar30 PS 1014676  0.0  3544 bash
+@poplar30 PS 1014687  0.0  4608 ps
+@poplar30 PS 1014688  0.0  2316 sed
 @poplar30 SIZE 8 21,18
-@poplar30 SEEN 1785191975
+@poplar30 SEEN 1785193482

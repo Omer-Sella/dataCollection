@@ -1,11 +1,11 @@
-@beech13 CPU 16 9.09
-@beech13 MEM 13864 8933
+@beech13 CPU 16 9.25
+@beech13 MEM 13864 8973
 @beech13 GPU 0, 89, 4096
 @beech13 PS 2145449  0.1 11840 systemd
 @beech13 PS 2145450  0.0  3368 (sd-pam)
 @beech13 PS 2145461  0.0  7228 pipewire
 @beech13 PS 2145462  0.0  5224 pipewire
-@beech13 PS 2145463  0.0 14352 wireplumber
+@beech13 PS 2145463  0.0 14360 wireplumber
 @beech13 PS 2145466  0.0  8464 pipewire-pulse
 @beech13 PS 2145481  0.0  4268 dbus-daemon
 @beech13 PS 2145516  0.0  3116 bash
@@ -14,7 +14,7 @@
 @beech13 PS 2145536  0.0  1964 timeout
 @beech13 PS 2145538 99.8 992424 python
 @beech13 PS 2145558  0.0  1940 timeout
-@beech13 PS 2145560 99.8 1010972 python
+@beech13 PS 2145560 99.8 1017716 python
 @beech13 PS 2145581  0.0  1940 timeout
 @beech13 PS 2145583 99.8 1016508 python
 @beech13 PS 2145619  0.0  1960 timeout
@@ -23,23 +23,23 @@
 @beech13 PS 2145871  0.0  3048 python
 @beech13 PS 2145872  0.0  3036 python
 @beech13 PS 2145873  0.0  3072 python
-@beech13 PS 2145874 20.1 74964 python
-@beech13 PS 2145875 31.9 76412 python
-@beech13 PS 2145876 21.4 84316 python
+@beech13 PS 2145874 18.7 74964 python
+@beech13 PS 2145875 29.7 76412 python
+@beech13 PS 2145876 19.9 84328 python
 @beech13 PS 2145877 99.9 85848 python
-@beech13 PS 2145878 39.5 76216 python
+@beech13 PS 2145878 36.8 76216 python
 @beech13 PS 2145879 99.9 70728 python
-@beech13 PS 2145880  1.7 72612 python
-@beech13 PS 2145881 40.1 70804 python
-@beech13 PS 2145882 99.1 76980 python
-@beech13 PS 2145883 27.7 71328 python
-@beech13 PS 2145884 60.7 70168 python
-@beech13 PS 2145885  6.4 82496 python
-@beech13 PS 2460664  0.0  2068 sleep
-@beech13 PS 2464540  0.0  2040 sleep
-@beech13 PS 2465023  0.0  6968 sshd
-@beech13 PS 2465024  0.0  3604 bash
-@beech13 PS 2465035  0.0  4724 ps
-@beech13 PS 2465036  0.0  2324 sed
+@beech13 PS 2145880  1.6 64944 python
+@beech13 PS 2145881 37.3 70804 python
+@beech13 PS 2145882 99.1 71436 python
+@beech13 PS 2145883 25.8 71328 python
+@beech13 PS 2145884 63.4 70168 python
+@beech13 PS 2145885  6.0 82496 python
+@beech13 PS 2488301  0.0  2060 sleep
+@beech13 PS 2488397  0.0  2064 sleep
+@beech13 PS 2490589  0.0  7044 sshd
+@beech13 PS 2490590  0.0  3580 bash
+@beech13 PS 2490601  0.0  4756 ps
+@beech13 PS 2490602  0.0  2280 sed
 @beech13 SIZE 8 21,18
-@beech13 SEEN 1785191863
+@beech13 SEEN 1785193496

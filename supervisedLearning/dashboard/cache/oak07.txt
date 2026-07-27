@@ -1,7 +1,13 @@
-@oak07 CPU 16 9.07
-@oak07 MEM 15766 12029
-@oak07 GPU 0, 92, 2048
-@oak07 PS 4045583  0.1 11676 systemd
+@oak07 CPU 16 11.15
+@oak07 MEM 15766 12036
+@oak07 GPU 3, 92, 2048
+@oak07 PS    5570  0.0  2076 sleep
+@oak07 PS    5607  0.0  2084 sleep
+@oak07 PS    6511  0.0  7144 sshd
+@oak07 PS    6512  0.0  3628 bash
+@oak07 PS    6523  0.0  4608 ps
+@oak07 PS    6524  0.0  2336 sed
+@oak07 PS 4045583  0.1 11680 systemd
 @oak07 PS 4045584  0.0  3332 (sd-pam)
 @oak07 PS 4045596  0.0  6040 pipewire
 @oak07 PS 4045597  0.0  4464 pipewire
@@ -12,34 +18,28 @@
 @oak07 PS 4045660  0.0  2196 bash
 @oak07 PS 4045670  0.0  1916 bash
 @oak07 PS 4045675  0.0  1940 timeout
-@oak07 PS 4045677 99.0 2051792 python
+@oak07 PS 4045677 99.1 2051792 python
 @oak07 PS 4045710  0.0  1920 timeout
-@oak07 PS 4045712 99.0 2058804 python
+@oak07 PS 4045712 99.2 2065504 python
 @oak07 PS 4045734  0.0  1924 timeout
-@oak07 PS 4045736 99.1 2055968 python
+@oak07 PS 4045736 99.2 2062680 python
 @oak07 PS 4045754  0.0  1932 timeout
-@oak07 PS 4045756 99.1 2045512 python
+@oak07 PS 4045756 99.2 2045512 python
 @oak07 PS 4046721  0.0  5564 python
 @oak07 PS 4046722  0.0  5524 python
 @oak07 PS 4046723  0.0  5940 python
 @oak07 PS 4046724  0.0  7360 python
 @oak07 PS 4046725 99.7 568516 python
-@oak07 PS 4046726 36.2 575176 python
-@oak07 PS 4046727 49.2 569020 python
-@oak07 PS 4046728  9.2 576136 python
-@oak07 PS 4046729 53.7 549176 python
-@oak07 PS 4046730 67.5 574216 python
-@oak07 PS 4046731 57.7 574144 python
-@oak07 PS 4046732 78.2 567256 python
-@oak07 PS 4046733 33.4 574084 python
+@oak07 PS 4046726 31.4 567492 python
+@oak07 PS 4046727 48.0 573488 python
+@oak07 PS 4046728  7.9 576136 python
+@oak07 PS 4046729 46.6 549176 python
+@oak07 PS 4046730 69.1 574216 python
+@oak07 PS 4046731 58.8 574144 python
+@oak07 PS 4046732 73.1 568924 python
+@oak07 PS 4046733 29.0 574084 python
 @oak07 PS 4046734 99.6 551852 python
-@oak07 PS 4046735 11.8 549068 python
-@oak07 PS 4046736 36.9 546380 python
-@oak07 PS 4174102  0.0  2088 sleep
-@oak07 PS 4177802  0.0  2088 sleep
-@oak07 PS 4178641  0.0  7060 sshd
-@oak07 PS 4178642  0.0  3596 bash
-@oak07 PS 4178653  0.0  4676 ps
-@oak07 PS 4178654  0.0  2308 sed
+@oak07 PS 4046735 23.5 551308 python
+@oak07 PS 4046736 45.2 544024 python
 @oak07 SIZE 8 21,18
-@oak07 SEEN 1785191950
+@oak07 SEEN 1785193458
