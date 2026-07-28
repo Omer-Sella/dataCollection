@@ -1,15 +1,15 @@
-@oak32 CPU 16 0.00
-@oak32 MEM 15766 1259
-@oak32 GPU 4, 89, 2048
-@oak32 PS  142016 27.7 11968 systemd
-@oak32 PS  142017  0.0  3400 (sd-pam)
-@oak32 PS  142038  0.0  8764 pipewire
-@oak32 PS  142039  0.0  6072 pipewire
-@oak32 PS  142041 15.0 15584 wireplumber
-@oak32 PS  142043  0.0 10620 pipewire-pulse
-@oak32 PS  142063  0.0  4536 dbus-daemon
-@oak32 PS  142066  0.0  7032 sshd
-@oak32 PS  142086  0.0  3556 bash
-@oak32 PS  142101  0.0  4572 ps
-@oak32 PS  142102  0.0  2244 sed
-@oak32 SEEN 1785249049
+@oak32 CPU 16 0.01
+@oak32 MEM 15766 1268
+@oak32 GPU 0, 89, 2048
+@oak32 PS  405629 29.7 11660 systemd
+@oak32 PS  405630  0.0  3404 (sd-pam)
+@oak32 PS  405642  4.7  8856 pipewire
+@oak32 PS  405643  0.0  6112 pipewire
+@oak32 PS  405645  9.5 15640 wireplumber
+@oak32 PS  405647  0.0 10604 pipewire-pulse
+@oak32 PS  405669  0.0  4568 dbus-daemon
+@oak32 PS  405670  0.0  7056 sshd
+@oak32 PS  405690  0.0  3516 bash
+@oak32 PS  405713  0.0  4564 ps
+@oak32 PS  405714  0.0  2280 sed
+@oak32 SEEN 1785268147

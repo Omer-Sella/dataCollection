@@ -1,34 +1,34 @@
-@gpu24 CPU 8 1.11
-@gpu24 MEM 15915 1341
-@gpu24 GPU 0, 99, 8192
-@gpu24 PS  588822  0.0  8516 systemd
-@gpu24 PS  588823  0.0  1880 (sd-pam)
+@gpu24 CPU 8 1.09
+@gpu24 MEM 15915 1452
+@gpu24 GPU 1, 99, 8192
+@gpu24 PS  588822  0.0  8504 systemd
+@gpu24 PS  588823  0.0  1860 (sd-pam)
 @gpu24 PS  588835  0.0  4672 pipewire
-@gpu24 PS  588836  0.0  4080 pipewire
-@gpu24 PS  588839  0.0 10228 wireplumber
-@gpu24 PS  588840  0.0  6880 pipewire-pulse
+@gpu24 PS  588836  0.0  4056 pipewire
+@gpu24 PS  588839  0.0 10224 wireplumber
+@gpu24 PS  588840  0.0  6716 pipewire-pulse
 @gpu24 PS  588861  0.0  3768 dbus-daemon
-@gpu24 PS  588886  0.0  1052 ssh-agent
+@gpu24 PS  588886  0.0  1028 ssh-agent
 @gpu24 PS  589528  0.0   796 ssh-agent
-@gpu24 PS  610671  0.0   836 ssh-agent
-@gpu24 PS  664139  0.0   884 ssh-agent
+@gpu24 PS  610671  0.0   776 ssh-agent
+@gpu24 PS  664139  0.0   872 ssh-agent
 @gpu24 PS  666350  0.0   748 ssh-agent
 @gpu24 PS  671260  0.0   804 ssh-agent
 @gpu24 PS  675335  0.0   808 ssh-agent
-@gpu24 PS  683716  0.0   832 ssh-agent
+@gpu24 PS  683716  0.0   768 ssh-agent
 @gpu24 PS  687666  0.0   816 ssh-agent
-@gpu24 PS  692798  0.0   828 ssh-agent
+@gpu24 PS  692798  0.0   776 ssh-agent
 @gpu24 PS  711607  0.0   764 ssh-agent
 @gpu24 PS  739132  0.0   816 ssh-agent
 @gpu24 PS  745339  0.0   672 ssh-agent
-@gpu24 PS  745602  0.0   904 ssh-agent
-@gpu24 PS  762914  0.0   820 ssh-agent
+@gpu24 PS  745602  0.0   892 ssh-agent
+@gpu24 PS  762914  0.0   796 ssh-agent
 @gpu24 PS  763191  0.0  1156 ssh-agent
-@gpu24 PS  788005  0.0   844 ssh-agent
+@gpu24 PS  788005  0.0   832 ssh-agent
 @gpu24 PS  805447  0.0   892 ssh-agent
-@gpu24 PS  806379  0.0   924 ssh-agent
-@gpu24 PS  863652  0.0  6968 sshd
-@gpu24 PS  863653  0.0  3508 bash
-@gpu24 PS  863669  100  4588 ps
-@gpu24 PS  863670  0.0  2364 sed
-@gpu24 SEEN 1785249050
+@gpu24 PS  806379  0.0   916 ssh-agent
+@gpu24 PS 1122328  0.0  7000 sshd
+@gpu24 PS 1122329  0.0  3576 bash
+@gpu24 PS 1122353  100  4548 ps
+@gpu24 PS 1122354  0.0  2352 sed
+@gpu24 SEEN 1785268148
