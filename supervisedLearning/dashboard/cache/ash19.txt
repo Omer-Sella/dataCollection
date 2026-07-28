@@ -1,45 +1,15 @@
-@ash19 CPU 16 10.00
-@ash19 MEM 15909 9712
+@ash19 CPU 16 0.00
+@ash19 MEM 15909 1145
 @ash19 GPU 0, 81, 2048
-@ash19 PS  193156  0.0  2084 sleep
-@ash19 PS  196681  0.0  2080 sleep
-@ash19 PS  201482  0.0  6996 sshd
-@ash19 PS  201483  0.0  3600 bash
-@ash19 PS  201494  0.0  4620 ps
-@ash19 PS  201495  0.0  2324 sed
-@ash19 PS 3639229  0.1 11748 systemd
-@ash19 PS 3639230  0.0  3444 (sd-pam)
-@ash19 PS 3639266  0.0  6804 pipewire
-@ash19 PS 3639267  0.0  4996 pipewire
-@ash19 PS 3639269  0.0 13788 wireplumber
-@ash19 PS 3639271  0.0  8340 pipewire-pulse
-@ash19 PS 3639286  0.0  4260 dbus-daemon
-@ash19 PS 3639325  0.0  3320 bash
-@ash19 PS 3639330  0.0  2232 bash
-@ash19 PS 3639340  0.0  1984 bash
-@ash19 PS 3639345  0.0  1964 timeout
-@ash19 PS 3639347 99.9 2178056 python
-@ash19 PS 3639369  0.0  1964 timeout
-@ash19 PS 3639371 99.9 2194528 python
-@ash19 PS 3639389  0.0  1964 timeout
-@ash19 PS 3639391 99.9 2214044 python
-@ash19 PS 3639424  0.0  1960 timeout
-@ash19 PS 3639426 99.9 2206868 python
-@ash19 PS 3639725  0.0  6092 python
-@ash19 PS 3639726  0.0  6080 python
-@ash19 PS 3639727  0.0  6096 python
-@ash19 PS 3639728  0.0  6040 python
-@ash19 PS 3639729 40.3 438832 python
-@ash19 PS 3639730 91.0 431516 python
-@ash19 PS 3639731 48.7 434212 python
-@ash19 PS 3639732 47.8 436208 python
-@ash19 PS 3639733 44.4 429652 python
-@ash19 PS 3639734 40.6 435256 python
-@ash19 PS 3639735 18.2 438688 python
-@ash19 PS 3639736 88.4 432100 python
-@ash19 PS 3639737 77.7 433524 python
-@ash19 PS 3639738 77.4 437020 python
-@ash19 PS 3639739 63.1 470284 python
-@ash19 PS 3639740 38.7 464316 python
-@ash19 SIZE 8 21,18
-@ash19 SEEN 1785226739
+@ash19 PS  506500 26.3 11752 systemd
+@ash19 PS  506501  0.0  3424 (sd-pam)
+@ash19 PS  506513  0.0  8904 pipewire
+@ash19 PS  506514  0.0  6068 pipewire
+@ash19 PS  506515 13.6 16088 wireplumber
+@ash19 PS  506518  0.0 10776 pipewire-pulse
+@ash19 PS  506533  0.0  4556 dbus-daemon
+@ash19 PS  506548  0.0  7036 sshd
+@ash19 PS  506561  0.0  3604 bash
+@ash19 PS  506576  0.0  4604 ps
+@ash19 PS  506577  0.0  2324 sed
+@ash19 SEEN 1785249081

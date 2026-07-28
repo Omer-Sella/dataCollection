@@ -1,45 +1,15 @@
-@oak32 CPU 16 9.03
-@oak32 MEM 15766 12284
-@oak32 GPU 0, 89, 2048
-@oak32 PS 3430910  0.1  7700 systemd
-@oak32 PS 3430911  0.0  2644 (sd-pam)
-@oak32 PS 3430922  0.0  5260 pipewire
-@oak32 PS 3430923  0.0  3764 pipewire
-@oak32 PS 3430926  0.0 11052 wireplumber
-@oak32 PS 3430927  0.0  5996 pipewire-pulse
-@oak32 PS 3430946  0.0  3096 dbus-daemon
-@oak32 PS 3430981  0.0  2580 bash
-@oak32 PS 3430986  0.0  1920 bash
-@oak32 PS 3430996  0.0  1608 bash
-@oak32 PS 3431001  0.0  1760 timeout
-@oak32 PS 3431003 99.8 1895988 python
-@oak32 PS 3431038  0.0  1740 timeout
-@oak32 PS 3431040 99.8 1855412 python
-@oak32 PS 3431069  0.0  1764 timeout
-@oak32 PS 3431071 99.8 1826240 python
-@oak32 PS 3431101  0.0  1760 timeout
-@oak32 PS 3431103 99.8 1882060 python
-@oak32 PS 3431683  0.0  3188 python
-@oak32 PS 3431684  0.0  3164 python
-@oak32 PS 3431685  0.0  3212 python
-@oak32 PS 3431686  0.0  3236 python
-@oak32 PS 3431687 51.6 337116 python
-@oak32 PS 3431688 51.3 325904 python
-@oak32 PS 3431689 32.1 339192 python
-@oak32 PS 3431690 47.3 344544 python
-@oak32 PS 3431691 25.8 316604 python
-@oak32 PS 3431692 71.3 335112 python
-@oak32 PS 3431693 34.4 327016 python
-@oak32 PS 3431694 92.2 322420 python
-@oak32 PS 3431695 62.1 331012 python
-@oak32 PS 3431696 45.9 339680 python
-@oak32 PS 3431697 48.2 328784 python
-@oak32 PS 3431698 49.8 325384 python
-@oak32 PS 4027387  0.0  2036 sleep
-@oak32 PS 4027456  0.0  2000 sleep
-@oak32 PS 4031391  0.0  7016 sshd
-@oak32 PS 4031392  0.0  3492 bash
-@oak32 PS 4031403  0.0  4596 ps
-@oak32 PS 4031404  0.0  2256 sed
-@oak32 SIZE 8 21,18
-@oak32 SEEN 1785226718
+@oak32 CPU 16 0.00
+@oak32 MEM 15766 1259
+@oak32 GPU 4, 89, 2048
+@oak32 PS  142016 27.7 11968 systemd
+@oak32 PS  142017  0.0  3400 (sd-pam)
+@oak32 PS  142038  0.0  8764 pipewire
+@oak32 PS  142039  0.0  6072 pipewire
+@oak32 PS  142041 15.0 15584 wireplumber
+@oak32 PS  142043  0.0 10620 pipewire-pulse
+@oak32 PS  142063  0.0  4536 dbus-daemon
+@oak32 PS  142066  0.0  7032 sshd
+@oak32 PS  142086  0.0  3556 bash
+@oak32 PS  142101  0.0  4572 ps
+@oak32 PS  142102  0.0  2244 sed
+@oak32 SEEN 1785249049

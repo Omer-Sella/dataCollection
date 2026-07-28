@@ -229,3 +229,48 @@ worker gpu31: running p0_g5_mix_66-96-126-153_H6_s466555 Tue 28 Jul 09:18:26 BST
 worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:19:02 BST 2026
 worker gpu31: FAILED p0_g5_mix_66-96-126-153_H6_s466555 Tue 28 Jul 09:19:55 BST 2026
 worker gpu31: running p0_g5_mix_66-96-126-153_H6_s54321 Tue 28 Jul 09:19:55 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H6_s54321 Tue 28 Jul 09:21:28 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H6_s6000 Tue 28 Jul 09:21:28 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H6_s6000 Tue 28 Jul 09:22:58 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s1000 Tue 28 Jul 09:22:58 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:24:02 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s1000 Tue 28 Jul 09:24:26 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s12345 Tue 28 Jul 09:24:26 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s12345 Tue 28 Jul 09:25:58 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s2000 Tue 28 Jul 09:25:58 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s2000 Tue 28 Jul 09:27:25 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s4000 Tue 28 Jul 09:27:25 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s4000 Tue 28 Jul 09:28:59 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s6000 Tue 28 Jul 09:28:59 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:29:02 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s6000 Tue 28 Jul 09:30:28 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H7_s7134066 Tue 28 Jul 09:30:28 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H7_s7134066 Tue 28 Jul 09:31:59 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H10_s3000 Tue 28 Jul 09:31:59 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H10_s3000 Tue 28 Jul 09:33:30 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H10_s4000 Tue 28 Jul 09:33:30 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:34:02 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H10_s4000 Tue 28 Jul 09:34:59 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H10_s466555 Tue 28 Jul 09:34:59 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H10_s466555 Tue 28 Jul 09:36:26 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H10_s54321 Tue 28 Jul 09:36:26 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H10_s54321 Tue 28 Jul 09:37:56 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H10_s7134066 Tue 28 Jul 09:37:56 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:39:02 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H10_s7134066 Tue 28 Jul 09:39:25 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H3_s1000 Tue 28 Jul 09:39:25 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H3_s1000 Tue 28 Jul 09:40:52 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H3_s12345 Tue 28 Jul 09:40:52 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126_H3_s12345 Tue 28 Jul 09:42:24 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126_H3_s3000 Tue 28 Jul 09:42:24 BST 2026
+mv: cannot stat '/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/claimed/p0_g5_mix_66-96-126_H3_s3000.gpu31': No such file or directory
+worker gpu31: FAILED p0_g5_mix_66-96-126_H3_s3000 Tue 28 Jul 09:43:52 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H10_s1000 Tue 28 Jul 09:43:52 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:44:02 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H10_s1000 Tue 28 Jul 09:45:21 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H10_s466555 Tue 28 Jul 09:45:21 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H10_s466555 Tue 28 Jul 09:46:47 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H10_s7134066 Tue 28 Jul 09:46:47 BST 2026
+worker gpu31: FAILED p0_g5_mix_66-96-126-153_H10_s7134066 Tue 28 Jul 09:48:15 BST 2026
+worker gpu31: running p0_g5_mix_66-96-126-153_H3_s2000 Tue 28 Jul 09:48:15 BST 2026
+worker gpu31: only 265MB free on GPU, waiting Tue 28 Jul 09:49:02 BST 2026

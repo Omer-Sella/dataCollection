@@ -1,40 +1,15 @@
-@oak04 CPU 16 11.02
-@oak04 MEM 15766 12170
+@oak04 CPU 16 0.00
+@oak04 MEM 15766 1217
 @oak04 GPU 0, 81, 2048
-@oak04 PS 2001621  0.1 10996 systemd
-@oak04 PS 2001622  0.0  3376 (sd-pam)
-@oak04 PS 2001689  0.0  2952 bash
-@oak04 PS 2001694  0.0  2076 bash
-@oak04 PS 2001704  0.0  1772 bash
-@oak04 PS 2001709  0.0  1932 timeout
-@oak04 PS 2001711 99.7 1884908 python
-@oak04 PS 2001733  0.0  1872 timeout
-@oak04 PS 2001735 99.7 1851224 python
-@oak04 PS 2001754  0.0  1968 timeout
-@oak04 PS 2001756 99.7 1874628 python
-@oak04 PS 2001778  0.0  1952 timeout
-@oak04 PS 2001780 99.7 1911104 python
-@oak04 PS 2002835  0.0  3912 python
-@oak04 PS 2002836  0.0  3944 python
-@oak04 PS 2002837  0.0  3928 python
-@oak04 PS 2002838  0.0  4052 python
-@oak04 PS 2002839 50.0 323840 python
-@oak04 PS 2002840 24.7 327364 python
-@oak04 PS 2002841 82.0 327856 python
-@oak04 PS 2002842 79.9 332708 python
-@oak04 PS 2002843 55.4 328104 python
-@oak04 PS 2002844 57.0 322108 python
-@oak04 PS 2002845 69.9 327696 python
-@oak04 PS 2002846 51.9 328740 python
-@oak04 PS 2002847 72.7 318908 python
-@oak04 PS 2002848 86.7 320504 python
-@oak04 PS 2002849 25.6 320240 python
-@oak04 PS 2002850 12.6 322484 python
-@oak04 PS 2597381  0.0  2084 sleep
-@oak04 PS 2601561  0.0  2076 sleep
-@oak04 PS 2601969  0.0  7112 sshd
-@oak04 PS 2601970  0.0  3632 bash
-@oak04 PS 2601981  0.0  4632 ps
-@oak04 PS 2601982  0.0  2324 sed
-@oak04 SIZE 8 21,18
-@oak04 SEEN 1785226711
+@oak04 PS 2904977 27.7 11812 systemd
+@oak04 PS 2904978  0.0  3408 (sd-pam)
+@oak04 PS 2904989  0.0  8788 pipewire
+@oak04 PS 2904990  0.0  6168 pipewire
+@oak04 PS 2904992 14.2 15836 wireplumber
+@oak04 PS 2904994  0.0 10700 pipewire-pulse
+@oak04 PS 2905013  0.0  4528 dbus-daemon
+@oak04 PS 2905017  0.0  7080 sshd
+@oak04 PS 2905038  0.0  3616 bash
+@oak04 PS 2905053  100  4620 ps
+@oak04 PS 2905054  0.0  2340 sed
+@oak04 SEEN 1785249041

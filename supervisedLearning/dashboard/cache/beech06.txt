@@ -1,44 +1,15 @@
-@beech06 CPU 16 11.17
-@beech06 MEM 13864 12119
+@beech06 CPU 16 0.83
+@beech06 MEM 13864 1057
 @beech06 GPU 0, 4, 4096
-@beech06 PS   96265  0.1 11752 systemd
-@beech06 PS   96266  0.0  3288 (sd-pam)
-@beech06 PS   96278  0.0  6768 pipewire
-@beech06 PS   96279  0.0  4700 pipewire
-@beech06 PS   96283  0.0  7824 pipewire-pulse
-@beech06 PS   96297  0.0  4076 dbus-daemon
-@beech06 PS   96340  0.0  2928 bash
-@beech06 PS   96345  0.0  2228 bash
-@beech06 PS   96355  0.0  1708 bash
-@beech06 PS   96360  0.0  1964 timeout
-@beech06 PS   96362 99.9 1921384 python
-@beech06 PS   96364  0.0  1940 timeout
-@beech06 PS   96366 99.9 1878176 python
-@beech06 PS   96369  0.0  1964 timeout
-@beech06 PS   96371 99.9 1888228 python
-@beech06 PS   96373  0.0  1952 timeout
-@beech06 PS   96375 99.9 1918872 python
-@beech06 PS   96416  0.0  3952 python
-@beech06 PS   96417  0.0  4012 python
-@beech06 PS   96418  0.0  3928 python
-@beech06 PS   96419  0.0  3952 python
-@beech06 PS   96420 63.7 336608 python
-@beech06 PS   96421 50.2 332176 python
-@beech06 PS   96422 80.3 325096 python
-@beech06 PS   96423 44.7 334400 python
-@beech06 PS   96424 46.6 313724 python
-@beech06 PS   96425 62.3 327232 python
-@beech06 PS   96426 50.6 318868 python
-@beech06 PS   96427 39.9 333960 python
-@beech06 PS   96428 39.6 319580 python
-@beech06 PS   96429 68.4 332144 python
-@beech06 PS   96430 46.4 333440 python
-@beech06 PS   96431 41.8 328324 python
-@beech06 PS  265768  0.0  2068 sleep
-@beech06 PS  266408  0.0  2068 sleep
-@beech06 PS  266737  0.0  6972 sshd
-@beech06 PS  266738  0.0  3552 bash
-@beech06 PS  266749  100  4616 ps
-@beech06 PS  266750  0.0  2320 sed
-@beech06 SIZE 8 21,18
-@beech06 SEEN 1785226747
+@beech06 PS  339478 26.8 11644 systemd
+@beech06 PS  339479  0.0  3404 (sd-pam)
+@beech06 PS  339492  0.0  8756 pipewire
+@beech06 PS  339493  0.0  6044 pipewire
+@beech06 PS  339495 13.0 15912 wireplumber
+@beech06 PS  339497  0.0 10664 pipewire-pulse
+@beech06 PS  339513  0.0  4512 dbus-daemon
+@beech06 PS  339527  0.0  7024 sshd
+@beech06 PS  339540  0.0  3564 bash
+@beech06 PS  339556  100  4576 ps
+@beech06 PS  339557  0.0  2320 sed
+@beech06 SEEN 1785249090

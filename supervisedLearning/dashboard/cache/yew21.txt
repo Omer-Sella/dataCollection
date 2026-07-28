@@ -1,16 +1,14 @@
-@yew21 CPU 24 2.10
-@yew21 MEM 15658 1997
-@yew21 PS  394816  0.0  1876 bash
-@yew21 PS  396842  0.1 11660 systemd
-@yew21 PS  396843  0.0  3368 (sd-pam)
-@yew21 PS  396862  0.0  8308 pipewire
-@yew21 PS  396863  0.0  6020 pipewire
-@yew21 PS  396865  0.0 15684 wireplumber
-@yew21 PS  396867  0.0 10660 pipewire-pulse
-@yew21 PS  396879  0.0  4280 dbus-daemon
-@yew21 PS 1173240  0.0  2068 sleep
-@yew21 PS 1182100  0.0  6936 sshd
-@yew21 PS 1182101  0.0  3584 bash
-@yew21 PS 1182112  0.0  4576 ps
-@yew21 PS 1182113  0.0  2316 sed
-@yew21 SEEN 1785226722
+@yew21 CPU 24 0.06
+@yew21 MEM 15658 1520
+@yew21 PS 1490563 28.2 11892 systemd
+@yew21 PS 1490564  0.0  3408 (sd-pam)
+@yew21 PS 1490576  4.3  8840 pipewire
+@yew21 PS 1490577  0.0  6040 pipewire
+@yew21 PS 1490578 17.3 15976 wireplumber
+@yew21 PS 1490580  4.3 10640 pipewire-pulse
+@yew21 PS 1490600  0.0  4436 dbus-daemon
+@yew21 PS 1490609  0.0  6960 sshd
+@yew21 PS 1490624  0.0  3604 bash
+@yew21 PS 1490643  100  4556 ps
+@yew21 PS 1490644  0.0  2312 sed
+@yew21 SEEN 1785249060

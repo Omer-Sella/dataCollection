@@ -1,42 +1,16 @@
-@ash41 CPU 16 12.76
-@ash41 MEM 15393 13945
+@ash41 CPU 16 0.00
+@ash41 MEM 15393 1232
 @ash41 GPU 0, 88, 2048
-@ash41 PS 3387371  0.2 10808 systemd
-@ash41 PS 3387372  0.0  2824 (sd-pam)
-@ash41 PS 3387400  0.0  3692 dbus-daemon
-@ash41 PS 3387409  0.0  3324 mpris-proxy
-@ash41 PS 3387513  0.0  3040 bash
-@ash41 PS 3387528  0.0  1904 bash
-@ash41 PS 3387539  0.0  1968 bash
-@ash41 PS 3387544  0.0  2280 timeout
-@ash41 PS 3387546 99.9 1940056 python
-@ash41 PS 3387576  0.0  2324 timeout
-@ash41 PS 3387578 99.9 1911412 python
-@ash41 PS 3387599  0.0  2280 timeout
-@ash41 PS 3387601 99.9 1891992 python
-@ash41 PS 3387677  0.0  2248 timeout
-@ash41 PS 3387679 99.9 1903136 python
-@ash41 PS 3387968  0.0  3832 python
-@ash41 PS 3387969  0.0  3920 python
-@ash41 PS 3387970  0.0  3852 python
-@ash41 PS 3387971  0.0  3860 python
-@ash41 PS 3387972 92.5 290504 python
-@ash41 PS 3387973 13.3 284932 python
-@ash41 PS 3387974 63.0 293572 python
-@ash41 PS 3387975 61.6 270724 python
-@ash41 PS 3387976 45.8 269196 python
-@ash41 PS 3387977 50.8 314032 python
-@ash41 PS 3387978 60.0 301528 python
-@ash41 PS 3387979 37.4 320928 python
-@ash41 PS 3387980 15.3 322060 python
-@ash41 PS 3387981 84.0 299268 python
-@ash41 PS 3387982 49.4 320496 python
-@ash41 PS 3387983 51.2 318520 python
-@ash41 PS 4081360  0.0  7608 sleep
-@ash41 PS 4085692  0.0  7652 sleep
-@ash41 PS 4087786  0.0  8264 sshd-session
-@ash41 PS 4087787  0.0  3908 bash
-@ash41 PS 4087801  100  4660 ps
-@ash41 PS 4087802  0.0  2652 sed
-@ash41 SIZE 8 21,18
-@ash41 SEEN 1785226746
+@ash41 PS  195093 30.7 14048 systemd
+@ash41 PS  195094  0.0  4136 (sd-pam)
+@ash41 PS  195114  0.0  5184 dbus-daemon
+@ash41 PS  195115  0.0  8068 pipewire
+@ash41 PS  195123  0.0  3984 mpris-proxy
+@ash41 PS  195126  5.0 13904 wireplumber
+@ash41 PS  195129  0.0  5772 pipewire
+@ash41 PS  195130  0.0 10984 pipewire-pulse
+@ash41 PS  195156  0.0  8248 sshd-session
+@ash41 PS  195158  0.0  4004 bash
+@ash41 PS  195234  0.0  4684 ps
+@ash41 PS  195235  0.0  2712 sed
+@ash41 SEEN 1785249089

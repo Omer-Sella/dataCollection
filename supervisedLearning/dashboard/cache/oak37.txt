@@ -1,45 +1,15 @@
-@oak37 CPU 16 11.08
-@oak37 MEM 15766 12194
+@oak37 CPU 16 0.01
+@oak37 MEM 15766 1142
 @oak37 GPU 0, 69, 2048
-@oak37 PS 1872856  0.1  7496 systemd
-@oak37 PS 1872857  0.0  2292 (sd-pam)
-@oak37 PS 1872869  0.0  5140 pipewire
-@oak37 PS 1872870  0.0  3596 pipewire
-@oak37 PS 1872872  0.0 11184 wireplumber
-@oak37 PS 1872874  0.0  5988 pipewire-pulse
-@oak37 PS 1872896  0.0  3144 dbus-daemon
-@oak37 PS 1872937  0.0  2668 bash
-@oak37 PS 1872943  0.0  2048 bash
-@oak37 PS 1872953  0.0  1676 bash
-@oak37 PS 1872958  0.0  1912 timeout
-@oak37 PS 1872960 99.8 1888172 python
-@oak37 PS 1872981  0.0  1924 timeout
-@oak37 PS 1872983 99.8 1846796 python
-@oak37 PS 1873002  0.0  1912 timeout
-@oak37 PS 1873004 99.8 1854408 python
-@oak37 PS 1873023  0.0  1924 timeout
-@oak37 PS 1873025 99.8 1867252 python
-@oak37 PS 1873672  0.0  3480 python
-@oak37 PS 1873673  0.0  3176 python
-@oak37 PS 1873674  0.0  3368 python
-@oak37 PS 1873675  0.0  3180 python
-@oak37 PS 1873676 85.4 339112 python
-@oak37 PS 1873677 37.1 349656 python
-@oak37 PS 1873678 10.0 330140 python
-@oak37 PS 1873679 99.5 336024 python
-@oak37 PS 1873680 64.7 335076 python
-@oak37 PS 1873681 99.9 329040 python
-@oak37 PS 1873682 57.8 340316 python
-@oak37 PS 1873683 35.7 341316 python
-@oak37 PS 1873684 13.9 339492 python
-@oak37 PS 1873685  7.9 336864 python
-@oak37 PS 1873686 54.4 337248 python
-@oak37 PS 1873687 14.9 340768 python
-@oak37 PS 2469087  0.0  2012 sleep
-@oak37 PS 2469148  0.0  2060 sleep
-@oak37 PS 2472387  0.0  7028 sshd
-@oak37 PS 2472388  0.0  3548 bash
-@oak37 PS 2472399  0.0  4496 ps
-@oak37 PS 2472400  0.0  2264 sed
-@oak37 SIZE 8 21,18
-@oak37 SEEN 1785226719
+@oak37 PS 2776517 34.1 11624 systemd
+@oak37 PS 2776518  0.0  3408 (sd-pam)
+@oak37 PS 2776530  0.0  8628 pipewire
+@oak37 PS 2776531  0.0  5940 pipewire
+@oak37 PS 2776533 14.2 15676 wireplumber
+@oak37 PS 2776535  0.0 10536 pipewire-pulse
+@oak37 PS 2776555  0.0  4408 dbus-daemon
+@oak37 PS 2776558  0.0  7080 sshd
+@oak37 PS 2776578  0.0  3560 bash
+@oak37 PS 2776593  0.0  4432 ps
+@oak37 PS 2776594  0.0  2280 sed
+@oak37 SEEN 1785249050

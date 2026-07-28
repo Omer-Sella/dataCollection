@@ -1,45 +1,15 @@
-@oak13 CPU 16 9.09
-@oak13 MEM 15766 12241
+@oak13 CPU 16 0.01
+@oak13 MEM 15766 1312
 @oak13 GPU 0, 88, 2048
-@oak13 PS 3030394  0.1 11460 systemd
-@oak13 PS 3030395  0.0  3384 (sd-pam)
-@oak13 PS 3030406  0.0  5496 pipewire
-@oak13 PS 3030407  0.0  4652 pipewire
-@oak13 PS 3030409  0.0 12764 wireplumber
-@oak13 PS 3030411  0.0  7612 pipewire-pulse
-@oak13 PS 3030432  0.0  4068 dbus-daemon
-@oak13 PS 3030465  0.0  2892 bash
-@oak13 PS 3030470  0.0  2200 bash
-@oak13 PS 3030480  0.0  1772 bash
-@oak13 PS 3030485  0.0  1904 timeout
-@oak13 PS 3030487 99.8 1893508 python
-@oak13 PS 3030524  0.0  1900 timeout
-@oak13 PS 3030526 99.8 1931180 python
-@oak13 PS 3030587  0.0  1896 timeout
-@oak13 PS 3030589 99.8 1912300 python
-@oak13 PS 3030619  0.0  1876 timeout
-@oak13 PS 3030621 99.8 1892560 python
-@oak13 PS 3031300  0.0  4156 python
-@oak13 PS 3031301  0.0  4148 python
-@oak13 PS 3031302  0.0  4188 python
-@oak13 PS 3031303  0.0  4148 python
-@oak13 PS 3031304 25.7 379060 python
-@oak13 PS 3031305 28.8 370108 python
-@oak13 PS 3031306 10.6 371264 python
-@oak13 PS 3031307  6.4 380640 python
-@oak13 PS 3031308 71.3 360300 python
-@oak13 PS 3031309 83.9 383968 python
-@oak13 PS 3031310 38.3 384116 python
-@oak13 PS 3031311 98.6 389648 python
-@oak13 PS 3031312 71.8 374184 python
-@oak13 PS 3031313 55.6 375388 python
-@oak13 PS 3031314 72.3 367968 python
-@oak13 PS 3031315 58.3 384296 python
-@oak13 PS 3612674  0.0  2044 sleep
-@oak13 PS 3616327  0.0  2004 sleep
-@oak13 PS 3616421  0.0  7104 sshd
-@oak13 PS 3616422  0.0  3504 bash
-@oak13 PS 3616433  100  4608 ps
-@oak13 PS 3616434  0.0  2252 sed
-@oak13 SIZE 8 21,18
-@oak13 SEEN 1785226712
+@oak13 PS 3919239 28.2 11996 systemd
+@oak13 PS 3919240  0.0  3416 (sd-pam)
+@oak13 PS 3919252  4.5  8748 pipewire
+@oak13 PS 3919253  0.0  6072 pipewire
+@oak13 PS 3919255 13.6 15960 wireplumber
+@oak13 PS 3919257  0.0 10724 pipewire-pulse
+@oak13 PS 3919279  0.0  4544 dbus-daemon
+@oak13 PS 3919280  0.0  7012 sshd
+@oak13 PS 3919300  0.0  3540 bash
+@oak13 PS 3919315  0.0  4576 ps
+@oak13 PS 3919316  0.0  2252 sed
+@oak13 SEEN 1785249043

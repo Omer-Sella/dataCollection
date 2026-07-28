@@ -1,45 +1,15 @@
-@ash09 CPU 16 11.01
-@ash09 MEM 15909 10003
+@ash09 CPU 16 0.00
+@ash09 MEM 15909 1091
 @ash09 GPU 0, 78, 2048
-@ash09 PS 1464844  0.1 11420 systemd
-@ash09 PS 1464845  0.0  3368 (sd-pam)
-@ash09 PS 1464857  0.0  6440 pipewire
-@ash09 PS 1464858  0.0  4628 pipewire
-@ash09 PS 1464860  0.0 13548 wireplumber
-@ash09 PS 1464862  0.0  8196 pipewire-pulse
-@ash09 PS 1464885  0.0  4232 dbus-daemon
-@ash09 PS 1464924  0.0  3160 bash
-@ash09 PS 1464929  0.0  2192 bash
-@ash09 PS 1464939  0.0  1860 bash
-@ash09 PS 1464944  0.0  1940 timeout
-@ash09 PS 1464946 99.9 2043544 python
-@ash09 PS 1464968  0.0  1944 timeout
-@ash09 PS 1464970 99.9 2029536 python
-@ash09 PS 1464989  0.0  1944 timeout
-@ash09 PS 1464991 99.9 2119020 python
-@ash09 PS 1465077  0.0  1940 timeout
-@ash09 PS 1465079 99.9 2075328 python
-@ash09 PS 1465320  0.0  6080 python
-@ash09 PS 1465321  0.0  6204 python
-@ash09 PS 1465322  0.0  6180 python
-@ash09 PS 1465323  0.0  6132 python
-@ash09 PS 1465324 56.1 490596 python
-@ash09 PS 1465325 58.6 491924 python
-@ash09 PS 1465326 43.7 510212 python
-@ash09 PS 1465327 53.1 495540 python
-@ash09 PS 1465328 43.8 488440 python
-@ash09 PS 1465329 67.8 513368 python
-@ash09 PS 1465330 71.7 492512 python
-@ash09 PS 1465331 77.7 503612 python
-@ash09 PS 1465332 55.3 507872 python
-@ash09 PS 1465333 54.3 521660 python
-@ash09 PS 1465334 58.4 542396 python
-@ash09 PS 1465335 71.5 534352 python
-@ash09 PS 2201556  0.0  2072 sleep
-@ash09 PS 2209063  0.0  2072 sleep
-@ash09 PS 2209239  0.0  6900 sshd
-@ash09 PS 2209240  0.0  3524 bash
-@ash09 PS 2209251  100  4552 ps
-@ash09 PS 2209252  0.0  2316 sed
-@ash09 SIZE 8 21,18
-@ash09 SEEN 1785226739
+@ash09 PS 2506576 30.5 11568 systemd
+@ash09 PS 2506577  0.0  3412 (sd-pam)
+@ash09 PS 2506589  0.0  8696 pipewire
+@ash09 PS 2506590  0.0  5992 pipewire
+@ash09 PS 2506592 14.2 15856 wireplumber
+@ash09 PS 2506594  0.0 10564 pipewire-pulse
+@ash09 PS 2506609  0.0  4416 dbus-daemon
+@ash09 PS 2506625  0.0  6896 sshd
+@ash09 PS 2506637  0.0  3512 bash
+@ash09 PS 2506652  0.0  4516 ps
+@ash09 PS 2506653  0.0  2316 sed
+@ash09 SEEN 1785249081

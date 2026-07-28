@@ -1,0 +1,64 @@
+device: cuda; sizes: [(6, 6), (9, 6), (12, 6), (15, 3)]; curve loss on: [(6, 6), (9, 6), (12, 6), (15, 3)]; lr: 0.001; H: 3
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 records whose grid does not contain all its points
+  size 9,6: 2745739 codes (2196591 train) curveLoss=True
+loadCodeEvaluations: kept 1353227 codes on the requested grid; dropped 457979 records whose grid does not contain all its points
+  size 12,6: 1353227 codes (1082582 train) curveLoss=True
+loadCodeEvaluations: kept 4412297 codes on the requested grid; dropped 458644 records whose grid does not contain all its points
+  size 15,3: 4412297 codes (3529838 train) curveLoss=True
+epoch 0: train 10.6986 | val 6,6: 11.5143 | 9,6: 9.6863 | 12,6: 8.5472 | 15,3: 11.6981
+epoch 1: train 10.3065 | val 6,6: 11.2530 | 9,6: 9.5610 | 12,6: 8.4401 | 15,3: 11.6523
+epoch 2: train 10.2272 | val 6,6: 11.1722 | 9,6: 9.5264 | 12,6: 8.4135 | 15,3: 11.7142
+epoch 3: train 10.1970 | val 6,6: 11.1403 | 9,6: 9.5051 | 12,6: 8.3821 | 15,3: 11.6456
+epoch 4: train 10.1706 | val 6,6: 11.0939 | 9,6: 9.4974 | 12,6: 8.3708 | 15,3: 11.6563
+epoch 5: train 10.1508 | val 6,6: 11.0651 | 9,6: 9.4906 | 12,6: 8.3221 | 15,3: 11.6218
+epoch 6: train 10.1368 | val 6,6: 11.0481 | 9,6: 9.4887 | 12,6: 8.3296 | 15,3: 11.6284
+epoch 7: train 10.1205 | val 6,6: 10.9872 | 9,6: 9.4469 | 12,6: 8.2751 | 15,3: 11.5889
+epoch 8: train 10.0818 | val 6,6: 10.9768 | 9,6: 9.4481 | 12,6: 8.2739 | 15,3: 11.5800
+epoch 9: train 10.0730 | val 6,6: 10.9049 | 9,6: 9.4219 | 12,6: 8.2449 | 15,3: 11.5853
+epoch 10: train 10.0524 | val 6,6: 10.9141 | 9,6: 9.4094 | 12,6: 8.1922 | 15,3: 11.5719
+epoch 11: train 10.0383 | val 6,6: 10.8787 | 9,6: 9.4007 | 12,6: 8.1529 | 15,3: 11.5750
+epoch 12: train 10.0268 | val 6,6: 10.8551 | 9,6: 9.3725 | 12,6: 8.1445 | 15,3: 11.5688
+epoch 13: train 10.0174 | val 6,6: 10.8538 | 9,6: 9.3918 | 12,6: 8.1549 | 15,3: 11.5954
+epoch 14: train 10.0088 | val 6,6: 10.8613 | 9,6: 9.3895 | 12,6: 8.1587 | 15,3: 11.5818
+epoch 15: train 10.0013 | val 6,6: 10.8302 | 9,6: 9.3625 | 12,6: 8.1291 | 15,3: 11.5670
+epoch 16: train 9.9976 | val 6,6: 10.8309 | 9,6: 9.3383 | 12,6: 8.1265 | 15,3: 11.5710
+epoch 17: train 9.9900 | val 6,6: 10.8191 | 9,6: 9.3284 | 12,6: 8.1223 | 15,3: 11.5647
+epoch 18: train 9.9863 | val 6,6: 10.8203 | 9,6: 9.3342 | 12,6: 8.1204 | 15,3: 11.5642
+epoch 19: train 9.9838 | val 6,6: 10.8150 | 9,6: 9.3288 | 12,6: 8.1195 | 15,3: 11.5698
+epoch 20: train 9.9849 | val 6,6: 10.8022 | 9,6: 9.3228 | 12,6: 8.1187 | 15,3: 11.5712
+epoch 21: train 9.9760 | val 6,6: 10.7958 | 9,6: 9.3218 | 12,6: 8.1233 | 15,3: 11.5810
+epoch 22: train 9.9746 | val 6,6: 10.8108 | 9,6: 9.3113 | 12,6: 8.1167 | 15,3: 11.5629
+epoch 23: train 9.9713 | val 6,6: 10.7932 | 9,6: 9.3150 | 12,6: 8.1082 | 15,3: 11.5642
+epoch 24: train 9.9696 | val 6,6: 10.8033 | 9,6: 9.3081 | 12,6: 8.1078 | 15,3: 11.5617
+epoch 25: train 9.9671 | val 6,6: 10.7938 | 9,6: 9.3012 | 12,6: 8.1087 | 15,3: 11.5664
+epoch 26: train 9.9672 | val 6,6: 10.7806 | 9,6: 9.2995 | 12,6: 8.1047 | 15,3: 11.5662
+epoch 27: train 9.9662 | val 6,6: 10.7839 | 9,6: 9.2980 | 12,6: 8.1066 | 15,3: 11.5802
+epoch 28: train 9.9625 | val 6,6: 10.7912 | 9,6: 9.2985 | 12,6: 8.1150 | 15,3: 11.5593
+epoch 29: train 9.9603 | val 6,6: 10.7980 | 9,6: 9.2952 | 12,6: 8.1132 | 15,3: 11.5907
+epoch 30: train 9.9565 | val 6,6: 10.7742 | 9,6: 9.2866 | 12,6: 8.1027 | 15,3: 11.5593
+epoch 31: train 9.9575 | val 6,6: 10.7822 | 9,6: 9.2874 | 12,6: 8.0981 | 15,3: 11.5557
+epoch 32: train 9.9549 | val 6,6: 10.7700 | 9,6: 9.2827 | 12,6: 8.1091 | 15,3: 11.5603
+epoch 33: train 9.9507 | val 6,6: 10.7794 | 9,6: 9.2864 | 12,6: 8.1089 | 15,3: 11.5528
+epoch 34: train 9.9525 | val 6,6: 10.7750 | 9,6: 9.2802 | 12,6: 8.0970 | 15,3: 11.5601
+epoch 35: train 9.9497 | val 6,6: 10.7727 | 9,6: 9.2818 | 12,6: 8.0914 | 15,3: 11.5553
+epoch 36: train 9.9496 | val 6,6: 10.7853 | 9,6: 9.2920 | 12,6: 8.1309 | 15,3: 11.5555
+epoch 37: train 9.9504 | val 6,6: 10.7827 | 9,6: 9.2811 | 12,6: 8.0965 | 15,3: 11.5642
+epoch 38: train 9.9474 | val 6,6: 10.7903 | 9,6: 9.2793 | 12,6: 8.0952 | 15,3: 11.5509
+epoch 39: train 9.9497 | val 6,6: 10.7666 | 9,6: 9.2799 | 12,6: 8.0901 | 15,3: 11.5584
+epoch 40: train 9.9521 | val 6,6: 10.7776 | 9,6: 9.2864 | 12,6: 8.0991 | 15,3: 11.5619
+epoch 41: train 9.9486 | val 6,6: 10.7620 | 9,6: 9.2812 | 12,6: 8.0884 | 15,3: 11.5542
+epoch 42: train 9.9478 | val 6,6: 10.7708 | 9,6: 9.2776 | 12,6: 8.0902 | 15,3: 11.5529
+epoch 43: train 9.9456 | val 6,6: 10.7625 | 9,6: 9.2768 | 12,6: 8.0867 | 15,3: 11.5582
+epoch 44: train 9.9458 | val 6,6: 10.7594 | 9,6: 9.2784 | 12,6: 8.0931 | 15,3: 11.5637
+epoch 45: train 9.9457 | val 6,6: 10.7595 | 9,6: 9.2754 | 12,6: 8.0869 | 15,3: 11.5530
+epoch 46: train 9.9448 | val 6,6: 10.7634 | 9,6: 9.2743 | 12,6: 8.0939 | 15,3: 11.5517
+epoch 47: train 9.9436 | val 6,6: 10.7666 | 9,6: 9.2751 | 12,6: 8.0880 | 15,3: 11.5562
+epoch 48: train 9.9417 | val 6,6: 10.7629 | 9,6: 9.2770 | 12,6: 8.0882 | 15,3: 11.5528
+epoch 49: train 9.9373 | val 6,6: 10.7650 | 9,6: 9.2829 | 12,6: 8.1025 | 15,3: 11.5752
+epoch 50: train 9.9427 | val 6,6: 10.7602 | 9,6: 9.2734 | 12,6: 8.0892 | 15,3: 11.5476
+epoch 51: train 9.9424 | val 6,6: 10.7551 | 9,6: 9.2796 | 12,6: 8.0879 | 15,3: 11.5474
+epoch 52: train 9.9395 | val 6,6: 10.7643 | 9,6: 9.2792 | 12,6: 8.0895 | 15,3: 11.5510
+epoch 53: train 9.9390 | val 6,6: 10.7603 | 9,6: 9.2718 | 12,6: 8.0943 | 15,3: 11.5521
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/claimed/p0_g5_mix_66-96-126-153_H3_s3000.gpu29: line 8: 2885828 Killed                  /vol/bitbucket/osella/pyenv/versions/qecc1/bin/python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py --sizes 6,6 9,6 12,6 15,3 --error-range geometric5 --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData --epochs 250 --device cuda --seed 3000 --number-of-harmonics 3 --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s3000.pth" --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s3000-report.md"

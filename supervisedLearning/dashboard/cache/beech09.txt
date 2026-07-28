@@ -1,45 +1,15 @@
-@beech09 CPU 16 9.10
-@beech09 MEM 13864 9309
+@beech09 CPU 16 0.13
+@beech09 MEM 13864 3814
 @beech09 GPU 2, 82, 4096
-@beech09 PS 3015062  0.1 11836 systemd
-@beech09 PS 3015063  0.0  3356 (sd-pam)
-@beech09 PS 3015082  0.0  6352 pipewire
-@beech09 PS 3015083  0.0  4036 pipewire
-@beech09 PS 3015085  0.0 14156 wireplumber
-@beech09 PS 3015087  0.0  7824 pipewire-pulse
-@beech09 PS 3015102  0.0  3996 dbus-daemon
-@beech09 PS 3015141  0.0  3240 bash
-@beech09 PS 3015146  0.0  2156 bash
-@beech09 PS 3015157  0.0  1940 bash
-@beech09 PS 3015162  0.0  1876 timeout
-@beech09 PS 3015164 99.9 1290692 python
-@beech09 PS 3015187  0.0  1880 timeout
-@beech09 PS 3015189 99.9 1205920 python
-@beech09 PS 3015208  0.0  1880 timeout
-@beech09 PS 3015210 99.9 1232740 python
-@beech09 PS 3015247  0.0  1880 timeout
-@beech09 PS 3015249 99.9 1192564 python
-@beech09 PS 3015577  0.0  3848 python
-@beech09 PS 3015578  0.0  3820 python
-@beech09 PS 3015579  0.0  3864 python
-@beech09 PS 3015580  0.0  3848 python
-@beech09 PS 3015581 81.5 128420 python
-@beech09 PS 3015582 53.7 120324 python
-@beech09 PS 3015583 60.9 110608 python
-@beech09 PS 3015584 87.1 113596 python
-@beech09 PS 3015585 64.2 112400 python
-@beech09 PS 3015586 25.3 117064 python
-@beech09 PS 3015587 54.6 98804 python
-@beech09 PS 3015588 21.2 95012 python
-@beech09 PS 3015589 27.0 95108 python
-@beech09 PS 3015590 29.5 97332 python
-@beech09 PS 3015591 22.2 104120 python
-@beech09 PS 3015592 50.4 101228 python
-@beech09 PS 3751566  0.0  2080 sleep
-@beech09 PS 3756455  0.0  2080 sleep
-@beech09 PS 3758174  0.0  6992 sshd
-@beech09 PS 3758175  0.0  3636 bash
-@beech09 PS 3758186  100  4624 ps
-@beech09 PS 3758187  0.0  2324 sed
-@beech09 SIZE 8 21,18
-@beech09 SEEN 1785226747
+@beech09 PS 4055234 30.0 11744 systemd
+@beech09 PS 4055235  0.0  3420 (sd-pam)
+@beech09 PS 4055246  0.0  8736 pipewire
+@beech09 PS 4055247  0.0  5992 pipewire
+@beech09 PS 4055249 13.6 15960 wireplumber
+@beech09 PS 4055251  0.0 10668 pipewire-pulse
+@beech09 PS 4055267  0.0  4516 dbus-daemon
+@beech09 PS 4055279  0.0  6900 sshd
+@beech09 PS 4055302  0.0  3604 bash
+@beech09 PS 4055317  100  4600 ps
+@beech09 PS 4055318  0.0  2332 sed
+@beech09 SEEN 1785249090

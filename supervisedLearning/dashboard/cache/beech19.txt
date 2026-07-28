@@ -1,45 +1,15 @@
-@beech19 CPU 16 10.03
-@beech19 MEM 15881 9844
-@beech19 GPU 2, 82, 4096
-@beech19 PS 2463849  0.1 11680 systemd
-@beech19 PS 2463850  0.0  3440 (sd-pam)
-@beech19 PS 2463862  0.0  6832 pipewire
-@beech19 PS 2463863  0.0  4860 pipewire
-@beech19 PS 2463864  0.0 14900 wireplumber
-@beech19 PS 2463867  0.0  8268 pipewire-pulse
-@beech19 PS 2463882  0.0  4340 dbus-daemon
-@beech19 PS 2463922  0.0  3280 bash
-@beech19 PS 2463935  0.0  2264 bash
-@beech19 PS 2463945  0.0  2020 bash
-@beech19 PS 2463950  0.0  1976 timeout
-@beech19 PS 2463952 99.9 2201712 python
-@beech19 PS 2463969  0.0  1972 timeout
-@beech19 PS 2463971 99.9 2276620 python
-@beech19 PS 2464007  0.0  1976 timeout
-@beech19 PS 2464009 99.9 2287772 python
-@beech19 PS 2464028  0.0  1964 timeout
-@beech19 PS 2464030 99.9 2328192 python
-@beech19 PS 2464302  0.0  6044 python
-@beech19 PS 2464303  0.0  6076 python
-@beech19 PS 2464304  0.0  6096 python
-@beech19 PS 2464305  0.0  6032 python
-@beech19 PS 2464306 39.8 405760 python
-@beech19 PS 2464307 93.5 410408 python
-@beech19 PS 2464308 56.9 423960 python
-@beech19 PS 2464309 67.1 455236 python
-@beech19 PS 2464310 70.7 460656 python
-@beech19 PS 2464311 38.5 464500 python
-@beech19 PS 2464312 73.2 407092 python
-@beech19 PS 2464313 27.2 415976 python
-@beech19 PS 2464314 54.9 415128 python
-@beech19 PS 2464315 12.9 413564 python
-@beech19 PS 2464316 39.3 423184 python
-@beech19 PS 2464317 51.6 412392 python
-@beech19 PS 3204817  0.0  2084 sleep
-@beech19 PS 3210013  0.0  2080 sleep
-@beech19 PS 3211230  0.0  6992 sshd
-@beech19 PS 3211231  0.0  3588 bash
-@beech19 PS 3211242  0.0  4656 ps
-@beech19 PS 3211243  0.0  2328 sed
-@beech19 SIZE 8 21,18
-@beech19 SEEN 1785226753
+@beech19 CPU 16 0.16
+@beech19 MEM 15881 1146
+@beech19 GPU 0, 82, 4096
+@beech19 PS 3509927 28.9 11892 systemd
+@beech19 PS 3509928  0.0  3424 (sd-pam)
+@beech19 PS 3509939  0.0  8784 pipewire
+@beech19 PS 3509940  0.0  6080 pipewire
+@beech19 PS 3509942  9.0 16084 wireplumber
+@beech19 PS 3509944  0.0 10692 pipewire-pulse
+@beech19 PS 3509961  0.0  4492 dbus-daemon
+@beech19 PS 3509974  0.0  6976 sshd
+@beech19 PS 3509987  0.0  3632 bash
+@beech19 PS 3510010  0.0  4620 ps
+@beech19 PS 3510011  0.0  2328 sed
+@beech19 SEEN 1785249096

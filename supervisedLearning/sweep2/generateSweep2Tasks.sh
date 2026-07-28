@@ -24,7 +24,7 @@ declare -A SIZES=(
 # Gradient-step equalisation: one epoch = one pass over the union of the training sizes,
 # so bigger size-sets need fewer epochs for the same number of updates. Tuned from the
 # sweep-1 ratios; the balanced sampler makes 6,6-only the slowest per epoch.
-declare -A EPOCHS=( [66]=20 [66-96]=20 [66-96-126]=15 [66-96-126-153]=250 )
+declare -A EPOCHS=( [66]=24 [66-96]=6 [66-96-126]=4 [66-96-126-153]=2 )   # equalised gradient steps on the PROJECTED geometric5 sizes (716k/2.20M/1.08M/3.53M train rows)
 
 mkdir -p tasks
 emit() {   # 1=name 2=initLine 3=command 4=prefix

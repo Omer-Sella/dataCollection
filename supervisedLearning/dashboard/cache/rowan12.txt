@@ -1,44 +1,14 @@
-@rowan12 CPU 24 12.06
-@rowan12 MEM 15658 12360
-@rowan12 PS 1154766  0.0  2868 bash
-@rowan12 PS 1154771  0.0  1828 bash
-@rowan12 PS 1154781  0.0  1904 bash
-@rowan12 PS 1154786  0.0  1532 timeout
-@rowan12 PS 1154788 99.9 1581224 python
-@rowan12 PS 1154807  0.0  1532 timeout
-@rowan12 PS 1154809 99.9 1626068 python
-@rowan12 PS 1154830  0.0  1532 timeout
-@rowan12 PS 1154832 99.9 1607288 python
-@rowan12 PS 1154862  0.0  1532 timeout
-@rowan12 PS 1154864 99.9 1640560 python
-@rowan12 PS 1155272  0.0  3544 python
-@rowan12 PS 1155273  0.0  3388 python
-@rowan12 PS 1155276  0.0  3428 python
-@rowan12 PS 1155277  0.0  3308 python
-@rowan12 PS 1155279 46.9 417224 python
-@rowan12 PS 1155281 21.5 413144 python
-@rowan12 PS 1155282 78.0 417444 python
-@rowan12 PS 1155283 33.4 421360 python
-@rowan12 PS 1155285 47.0 414812 python
-@rowan12 PS 1155287 92.2 416292 python
-@rowan12 PS 1155288 36.1 411012 python
-@rowan12 PS 1155289 85.4 416488 python
-@rowan12 PS 1155292 58.0 425036 python
-@rowan12 PS 1155293 20.3 417128 python
-@rowan12 PS 1155294 41.6 421816 python
-@rowan12 PS 1155295 34.5 410068 python
-@rowan12 PS 1156662  0.1 11664 systemd
-@rowan12 PS 1156663  0.0  3384 (sd-pam)
-@rowan12 PS 1156674  0.0  8732 pipewire
-@rowan12 PS 1156675  0.0  5988 pipewire
-@rowan12 PS 1156676  0.0 15844 wireplumber
-@rowan12 PS 1156679  0.0 10512 pipewire-pulse
-@rowan12 PS 1156689  0.0  4240 dbus-daemon
-@rowan12 PS 1904546  0.0  2064 sleep
-@rowan12 PS 1904823  0.0  2076 sleep
-@rowan12 PS 1907987  0.0  7048 sshd
-@rowan12 PS 1907988  0.0  3556 bash
-@rowan12 PS 1907999  0.0  4584 ps
-@rowan12 PS 1908000  0.0  2324 sed
-@rowan12 SIZE 8 21,18
-@rowan12 SEEN 1785226725
+@rowan12 CPU 24 0.02
+@rowan12 MEM 15658 1337
+@rowan12 PS 2209635 31.7 11880 systemd
+@rowan12 PS 2209640  0.0  3424 (sd-pam)
+@rowan12 PS 2209655  9.0  8764 pipewire
+@rowan12 PS 2209656  9.0  6084 pipewire
+@rowan12 PS 2209658 22.7 16172 wireplumber
+@rowan12 PS 2209660  4.5 10564 pipewire-pulse
+@rowan12 PS 2209675  0.0  4464 dbus-daemon
+@rowan12 PS 2209690  0.0  7036 sshd
+@rowan12 PS 2209703  0.0  3572 bash
+@rowan12 PS 2209720  100  4564 ps
+@rowan12 PS 2209721  0.0  2308 sed
+@rowan12 SEEN 1785249064

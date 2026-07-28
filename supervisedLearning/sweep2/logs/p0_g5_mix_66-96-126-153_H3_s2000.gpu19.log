@@ -1,0 +1,59 @@
+device: cuda; sizes: [(6, 6), (9, 6), (12, 6), (15, 3)]; curve loss on: [(6, 6), (9, 6), (12, 6), (15, 3)]; lr: 0.001; H: 3
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 records whose grid does not contain all its points
+  size 9,6: 2745739 codes (2196591 train) curveLoss=True
+loadCodeEvaluations: kept 1353227 codes on the requested grid; dropped 457979 records whose grid does not contain all its points
+  size 12,6: 1353227 codes (1082582 train) curveLoss=True
+loadCodeEvaluations: kept 4412297 codes on the requested grid; dropped 458644 records whose grid does not contain all its points
+  size 15,3: 4412297 codes (3529838 train) curveLoss=True
+epoch 0: train 10.6270 | val 6,6: 11.4202 | 9,6: 9.6792 | 12,6: 8.5129 | 15,3: 11.6620
+epoch 1: train 10.2807 | val 6,6: 11.1952 | 9,6: 9.5687 | 12,6: 8.4020 | 15,3: 11.6030
+epoch 2: train 10.1752 | val 6,6: 11.0613 | 9,6: 9.4740 | 12,6: 8.3110 | 15,3: 11.6008
+epoch 3: train 10.1361 | val 6,6: 11.0359 | 9,6: 9.4651 | 12,6: 8.3039 | 15,3: 11.5926
+epoch 4: train 10.1175 | val 6,6: 11.0684 | 9,6: 9.4717 | 12,6: 8.3057 | 15,3: 11.6210
+epoch 5: train 10.1024 | val 6,6: 10.9730 | 9,6: 9.4684 | 12,6: 8.3180 | 15,3: 11.5991
+epoch 6: train 10.0858 | val 6,6: 10.9353 | 9,6: 9.4794 | 12,6: 8.3188 | 15,3: 11.5909
+epoch 7: train 10.0830 | val 6,6: 10.9475 | 9,6: 9.4305 | 12,6: 8.2877 | 15,3: 11.5844
+epoch 8: train 10.0700 | val 6,6: 10.9618 | 9,6: 9.4200 | 12,6: 8.2767 | 15,3: 11.5781
+epoch 9: train 10.0608 | val 6,6: 10.9290 | 9,6: 9.3891 | 12,6: 8.2700 | 15,3: 11.5737
+epoch 10: train 10.0484 | val 6,6: 10.8761 | 9,6: 9.3816 | 12,6: 8.2495 | 15,3: 11.5759
+epoch 11: train 10.0397 | val 6,6: 10.8707 | 9,6: 9.3821 | 12,6: 8.2232 | 15,3: 11.5874
+epoch 12: train 10.0326 | val 6,6: 10.8523 | 9,6: 9.3787 | 12,6: 8.1909 | 15,3: 11.5671
+epoch 13: train 10.0208 | val 6,6: 10.8665 | 9,6: 9.3678 | 12,6: 8.1723 | 15,3: 11.5680
+epoch 14: train 10.0086 | val 6,6: 10.8386 | 9,6: 9.3584 | 12,6: 8.1639 | 15,3: 11.5597
+epoch 15: train 10.0023 | val 6,6: 10.8804 | 9,6: 9.3655 | 12,6: 8.1585 | 15,3: 11.5827
+epoch 16: train 9.9973 | val 6,6: 10.8243 | 9,6: 9.3253 | 12,6: 8.1362 | 15,3: 11.5583
+epoch 17: train 9.9907 | val 6,6: 10.8261 | 9,6: 9.3596 | 12,6: 8.1757 | 15,3: 11.5647
+epoch 18: train 9.9847 | val 6,6: 10.8186 | 9,6: 9.3338 | 12,6: 8.1438 | 15,3: 11.5699
+epoch 19: train 9.9837 | val 6,6: 10.8143 | 9,6: 9.3284 | 12,6: 8.1469 | 15,3: 11.5676
+epoch 20: train 9.9756 | val 6,6: 10.8120 | 9,6: 9.3145 | 12,6: 8.1470 | 15,3: 11.5560
+epoch 21: train 9.9732 | val 6,6: 10.7983 | 9,6: 9.3110 | 12,6: 8.1247 | 15,3: 11.5538
+epoch 22: train 9.9737 | val 6,6: 10.8068 | 9,6: 9.3413 | 12,6: 8.1446 | 15,3: 11.5722
+epoch 23: train 9.9667 | val 6,6: 10.7925 | 9,6: 9.3083 | 12,6: 8.1427 | 15,3: 11.5589
+epoch 24: train 9.9621 | val 6,6: 10.8205 | 9,6: 9.3050 | 12,6: 8.1574 | 15,3: 11.5575
+epoch 25: train 9.9611 | val 6,6: 10.8030 | 9,6: 9.3232 | 12,6: 8.1547 | 15,3: 11.5645
+epoch 26: train 9.9543 | val 6,6: 10.7907 | 9,6: 9.2962 | 12,6: 8.1233 | 15,3: 11.5580
+epoch 27: train 9.9551 | val 6,6: 10.7716 | 9,6: 9.2988 | 12,6: 8.1269 | 15,3: 11.5568
+epoch 28: train 9.9568 | val 6,6: 10.7663 | 9,6: 9.2844 | 12,6: 8.1235 | 15,3: 11.5529
+epoch 29: train 9.9512 | val 6,6: 10.7724 | 9,6: 9.2973 | 12,6: 8.1236 | 15,3: 11.5504
+epoch 30: train 9.9494 | val 6,6: 10.7671 | 9,6: 9.3173 | 12,6: 8.1280 | 15,3: 11.5567
+epoch 31: train 9.9488 | val 6,6: 10.7669 | 9,6: 9.2957 | 12,6: 8.1163 | 15,3: 11.5550
+epoch 32: train 9.9441 | val 6,6: 10.7734 | 9,6: 9.2928 | 12,6: 8.1334 | 15,3: 11.5529
+epoch 33: train 9.9426 | val 6,6: 10.7571 | 9,6: 9.2955 | 12,6: 8.1270 | 15,3: 11.5525
+epoch 34: train 9.9449 | val 6,6: 10.7724 | 9,6: 9.2895 | 12,6: 8.1157 | 15,3: 11.5390
+epoch 35: train 9.9406 | val 6,6: 10.7395 | 9,6: 9.2849 | 12,6: 8.1225 | 15,3: 11.5440
+epoch 36: train 9.9406 | val 6,6: 10.7503 | 9,6: 9.2867 | 12,6: 8.1126 | 15,3: 11.5408
+epoch 37: train 9.9392 | val 6,6: 10.7519 | 9,6: 9.2786 | 12,6: 8.1049 | 15,3: 11.5447
+epoch 38: train 9.9360 | val 6,6: 10.7399 | 9,6: 9.2885 | 12,6: 8.1194 | 15,3: 11.5463
+epoch 39: train 9.9335 | val 6,6: 10.7556 | 9,6: 9.3006 | 12,6: 8.1248 | 15,3: 11.5591
+epoch 40: train 9.9352 | val 6,6: 10.7379 | 9,6: 9.2855 | 12,6: 8.1174 | 15,3: 11.5367
+epoch 41: train 9.9321 | val 6,6: 10.7266 | 9,6: 9.3090 | 12,6: 8.1264 | 15,3: 11.5717
+epoch 42: train 9.9309 | val 6,6: 10.7218 | 9,6: 9.2889 | 12,6: 8.1152 | 15,3: 11.5572
+epoch 43: train 9.9335 | val 6,6: 10.7197 | 9,6: 9.2829 | 12,6: 8.1075 | 15,3: 11.5503
+epoch 44: train 9.9314 | val 6,6: 10.7185 | 9,6: 9.2930 | 12,6: 8.1391 | 15,3: 11.5458
+epoch 45: train 9.9280 | val 6,6: 10.7156 | 9,6: 9.2948 | 12,6: 8.1099 | 15,3: 11.5381
+epoch 46: train 9.9286 | val 6,6: 10.7407 | 9,6: 9.3005 | 12,6: 8.1370 | 15,3: 11.5530
+epoch 47: train 9.9269 | val 6,6: 10.7077 | 9,6: 9.2793 | 12,6: 8.1125 | 15,3: 11.5545
+epoch 48: train 9.9255 | val 6,6: 10.7181 | 9,6: 9.2805 | 12,6: 8.1090 | 15,3: 11.5435
+/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/claimed/p0_g5_mix_66-96-126-153_H3_s2000.gpu19: line 8: 240039 Killed                  /vol/bitbucket/osella/pyenv/versions/qecc1/bin/python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py --sizes 6,6 9,6 12,6 15,3 --error-range geometric5 --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData --epochs 250 --device cuda --seed 2000 --number-of-harmonics 3 --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s2000.pth" --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s2000-report.md"

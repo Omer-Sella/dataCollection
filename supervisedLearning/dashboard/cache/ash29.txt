@@ -1,45 +1,15 @@
-@ash29 CPU 16 9.05
-@ash29 MEM 15909 9624
+@ash29 CPU 16 0.20
+@ash29 MEM 15909 1223
 @ash29 GPU 0, 84, 2048
-@ash29 PS  320193  0.0  2076 sleep
-@ash29 PS  323794  0.0  2076 sleep
-@ash29 PS  328341  0.0  6992 sshd
-@ash29 PS  328342  0.0  3620 bash
-@ash29 PS  328353  0.0  4536 ps
-@ash29 PS  328354  0.0  2328 sed
-@ash29 PS 3776858  0.1 11748 systemd
-@ash29 PS 3776859  0.0  3424 (sd-pam)
-@ash29 PS 3776871  0.0  6748 pipewire
-@ash29 PS 3776872  0.0  4792 pipewire
-@ash29 PS 3776874  0.0 13276 wireplumber
-@ash29 PS 3776876  0.0  8368 pipewire-pulse
-@ash29 PS 3776891  0.0  4216 dbus-daemon
-@ash29 PS 3776930  0.0  3268 bash
-@ash29 PS 3776936  0.0  2324 bash
-@ash29 PS 3776954  0.0  1916 bash
-@ash29 PS 3776959  0.0  1972 timeout
-@ash29 PS 3776961 99.9 2153188 python
-@ash29 PS 3776979  0.0  1972 timeout
-@ash29 PS 3776981 99.9 2103736 python
-@ash29 PS 3777016  0.0  1972 timeout
-@ash29 PS 3777018 99.9 1985176 python
-@ash29 PS 3777040  0.0  1972 timeout
-@ash29 PS 3777042 99.9 2109872 python
-@ash29 PS 3777347  0.0  5944 python
-@ash29 PS 3777348  0.0  5908 python
-@ash29 PS 3777349  0.0  6016 python
-@ash29 PS 3777350  0.0  6004 python
-@ash29 PS 3777351 92.0 466200 python
-@ash29 PS 3777352 36.7 454352 python
-@ash29 PS 3777353 72.9 457428 python
-@ash29 PS 3777354 55.2 448840 python
-@ash29 PS 3777355 12.1 455452 python
-@ash29 PS 3777356 39.4 469564 python
-@ash29 PS 3777357 77.7 456448 python
-@ash29 PS 3777358 23.5 459696 python
-@ash29 PS 3777359 64.1 452252 python
-@ash29 PS 3777360 74.5 485452 python
-@ash29 PS 3777361 38.6 491988 python
-@ash29 PS 3777362 84.4 505948 python
-@ash29 SIZE 8 21,18
-@ash29 SEEN 1785226745
+@ash29 PS  631096 27.0 11856 systemd
+@ash29 PS  631097  0.0  3420 (sd-pam)
+@ash29 PS  631109  0.0  8764 pipewire
+@ash29 PS  631110  0.0  6008 pipewire
+@ash29 PS  631112 13.6 15856 wireplumber
+@ash29 PS  631114  4.5 10668 pipewire-pulse
+@ash29 PS  631128  0.0  4460 dbus-daemon
+@ash29 PS  631145  0.0  6956 sshd
+@ash29 PS  631157  0.0  3576 bash
+@ash29 PS  631172  100  4548 ps
+@ash29 PS  631173  0.0  2324 sed
+@ash29 SEEN 1785249087

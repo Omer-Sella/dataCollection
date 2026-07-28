@@ -1,45 +1,15 @@
-@willow16 CPU 16 9.01
-@willow16 MEM 15809 9530
+@willow16 CPU 16 0.00
+@willow16 MEM 15809 1148
 @willow16 GPU 0, 82, 4096
-@willow16 PS 1111894  0.1 11776 systemd
-@willow16 PS 1111895  0.0  3392 (sd-pam)
-@willow16 PS 1111906  0.0  7048 pipewire
-@willow16 PS 1111907  0.0  5052 pipewire
-@willow16 PS 1111909  0.0 14004 wireplumber
-@willow16 PS 1111911  0.0  8620 pipewire-pulse
-@willow16 PS 1111928  0.0  4404 dbus-daemon
-@willow16 PS 1111965  0.0  3368 bash
-@willow16 PS 1111970  0.0  3224 bash
-@willow16 PS 1111980  0.0  1852 bash
-@willow16 PS 1111985  0.0  1868 timeout
-@willow16 PS 1111987 99.9 2086496 python
-@willow16 PS 1112010  0.0  1872 timeout
-@willow16 PS 1112012 99.9 2114904 python
-@willow16 PS 1112029  0.0  1872 timeout
-@willow16 PS 1112031 99.9 2078684 python
-@willow16 PS 1112078  0.0  1872 timeout
-@willow16 PS 1112080 99.9 2063876 python
-@willow16 PS 1112321  0.0  5892 python
-@willow16 PS 1112322  0.0  5960 python
-@willow16 PS 1112323  0.0  5964 python
-@willow16 PS 1112324  0.0  5952 python
-@willow16 PS 1112325 57.7 286920 python
-@willow16 PS 1112326 54.6 294456 python
-@willow16 PS 1112327 28.6 302116 python
-@willow16 PS 1112328 80.4 300416 python
-@willow16 PS 1112329 20.8 279928 python
-@willow16 PS 1112330 63.6 302780 python
-@willow16 PS 1112331 73.1 286832 python
-@willow16 PS 1112332 30.5 285032 python
-@willow16 PS 1112333 74.3 294108 python
-@willow16 PS 1112334 25.5 316056 python
-@willow16 PS 1112335 25.5 289980 python
-@willow16 PS 1112336 33.0 295888 python
-@willow16 PS 1852676  0.0  2080 sleep
-@willow16 PS 1858091  0.0  2084 sleep
-@willow16 PS 1858544  0.0  7012 sshd
-@willow16 PS 1858545  0.0  3600 bash
-@willow16 PS 1858556  0.0  4656 ps
-@willow16 PS 1858557  0.0  2320 sed
-@willow16 SIZE 8 21,18
-@willow16 SEEN 1785226754
+@willow16 PS 2159017 31.4 11844 systemd
+@willow16 PS 2159019  0.0  3432 (sd-pam)
+@willow16 PS 2159030  0.0  8848 pipewire
+@willow16 PS 2159031  0.0  6208 pipewire
+@willow16 PS 2159033 10.0 15816 wireplumber
+@willow16 PS 2159035  0.0 10732 pipewire-pulse
+@willow16 PS 2159055  0.0  4516 dbus-daemon
+@willow16 PS 2159058  0.0  7056 sshd
+@willow16 PS 2159078  0.0  3572 bash
+@willow16 PS 2159093  0.0  4620 ps
+@willow16 PS 2159094  0.0  2308 sed
+@willow16 SEEN 1785249097

@@ -1,45 +1,15 @@
-@oak24 CPU 16 10.00
-@oak24 MEM 15766 12236
+@oak24 CPU 16 0.16
+@oak24 MEM 15766 1449
 @oak24 GPU 0, 92, 2048
-@oak24 PS 1609116  0.1 11156 systemd
-@oak24 PS 1609117  0.0  3340 (sd-pam)
-@oak24 PS 1609129  0.0  6072 pipewire
-@oak24 PS 1609130  0.0  4628 pipewire
-@oak24 PS 1609131  0.0 13396 wireplumber
-@oak24 PS 1609134  0.0  7860 pipewire-pulse
-@oak24 PS 1609154  0.0  4104 dbus-daemon
-@oak24 PS 1609196  0.0  2852 bash
-@oak24 PS 1609201  0.0  2224 bash
-@oak24 PS 1609211  0.0  1600 bash
-@oak24 PS 1609216  0.0  1956 timeout
-@oak24 PS 1609218 99.8 1914584 python
-@oak24 PS 1609252  0.0  1944 timeout
-@oak24 PS 1609254 99.8 1925216 python
-@oak24 PS 1609273  0.0  1932 timeout
-@oak24 PS 1609275 99.8 1926980 python
-@oak24 PS 1609294  0.0  1928 timeout
-@oak24 PS 1609296 99.8 1932124 python
-@oak24 PS 1609983  0.0  4224 python
-@oak24 PS 1609984  0.0  4256 python
-@oak24 PS 1609985  0.0  4252 python
-@oak24 PS 1609986  0.0  4256 python
-@oak24 PS 1609987 24.7 368544 python
-@oak24 PS 1609988 69.8 365124 python
-@oak24 PS 1609989 77.0 345840 python
-@oak24 PS 1609990 35.8 370288 python
-@oak24 PS 1609991 67.3 361680 python
-@oak24 PS 1609992 83.8 367852 python
-@oak24 PS 1609993 40.9 364224 python
-@oak24 PS 1609994 74.9 343044 python
-@oak24 PS 1609995 13.3 356368 python
-@oak24 PS 1609996 93.0 363568 python
-@oak24 PS 1609997 66.3 364476 python
-@oak24 PS 1609998 27.4 364048 python
-@oak24 PS 2190106  0.0  2048 sleep
-@oak24 PS 2190178  0.0  2064 sleep
-@oak24 PS 2193492  0.0  7068 sshd
-@oak24 PS 2193493  0.0  3532 bash
-@oak24 PS 2193504  100  4528 ps
-@oak24 PS 2193505  0.0  2276 sed
-@oak24 SIZE 8 21,18
-@oak24 SEEN 1785226712
+@oak24 PS 2490415 28.2 11536 systemd
+@oak24 PS 2490416  0.0  3416 (sd-pam)
+@oak24 PS 2490428  0.0  8704 pipewire
+@oak24 PS 2490429  0.0  5908 pipewire
+@oak24 PS 2490430 12.5 15780 wireplumber
+@oak24 PS 2490433  0.0 10520 pipewire-pulse
+@oak24 PS 2490453  0.0  4392 dbus-daemon
+@oak24 PS 2490532  0.0  7060 sshd
+@oak24 PS 2490537  0.0  3544 bash
+@oak24 PS 2490552  0.0  4480 ps
+@oak24 PS 2490553  0.0  2280 sed
+@oak24 SEEN 1785249043

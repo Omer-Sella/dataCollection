@@ -1,41 +1,17 @@
-@vertex09 CPU 12 7.04
-@vertex09 MEM 15771 8108
+@vertex09 CPU 12 0.36
+@vertex09 MEM 15771 5183
 @vertex09 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex09 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex09 APP 
-@vertex09 PS 2337834  0.0 11388 systemd
-@vertex09 PS 2337835  0.0  3408 (sd-pam)
-@vertex09 PS 2337846  0.0  6576 pipewire
-@vertex09 PS 2337847  0.0  4840 pipewire
-@vertex09 PS 2337849  0.0 13584 wireplumber
-@vertex09 PS 2337851  0.0  8096 pipewire-pulse
-@vertex09 PS 2337872  0.0  4152 dbus-daemon
-@vertex09 PS 2337915  0.0  3240 bash
-@vertex09 PS 2337920  0.0  2344 bash
-@vertex09 PS 2337930  0.0  1912 bash
-@vertex09 PS 2337935  0.0  1904 timeout
-@vertex09 PS 2337937 99.8 2155700 python
-@vertex09 PS 2337967  0.0  1904 timeout
-@vertex09 PS 2337969 99.8 2202060 python
-@vertex09 PS 2338003  0.0  1904 timeout
-@vertex09 PS 2338005 99.8 2155036 python
-@vertex09 PS 2339141  0.0  4192 python
-@vertex09 PS 2339142  0.0  4076 python
-@vertex09 PS 2339143  0.0  4208 python
-@vertex09 PS 2339144 55.6 489560 python
-@vertex09 PS 2339145 28.9 491224 python
-@vertex09 PS 2339146 49.9 491636 python
-@vertex09 PS 2339147 45.8 492132 python
-@vertex09 PS 2339148 58.3 493060 python
-@vertex09 PS 2339149 97.2 499300 python
-@vertex09 PS 2339150 29.7 490508 python
-@vertex09 PS 2339151 85.2 493444 python
-@vertex09 PS 2339152 27.8 494128 python
-@vertex09 PS 3380334  0.0  2088 sleep
-@vertex09 PS 3380560  0.0  2084 sleep
-@vertex09 PS 3385743  0.0  7080 sshd
-@vertex09 PS 3385744  0.0  3640 bash
-@vertex09 PS 3385763  100  4644 ps
-@vertex09 PS 3385764  0.0  2336 sed
-@vertex09 SIZE 6 21,18
-@vertex09 SEEN 1785226755
+@vertex09 PS 3810043 32.6 11684 systemd
+@vertex09 PS 3810046  0.0  3444 (sd-pam)
+@vertex09 PS 3810087  3.7  8788 pipewire
+@vertex09 PS 3810088  3.7  6116 pipewire
+@vertex09 PS 3810090 14.8 15824 wireplumber
+@vertex09 PS 3810092  3.8 10724 pipewire-pulse
+@vertex09 PS 3810111  0.0  4544 dbus-daemon
+@vertex09 PS 3810115  0.0  7116 sshd
+@vertex09 PS 3810126  0.0  3632 bash
+@vertex09 PS 3810158  300  4616 ps
+@vertex09 PS 3810159  0.0  2332 sed
+@vertex09 SEEN 1785249098

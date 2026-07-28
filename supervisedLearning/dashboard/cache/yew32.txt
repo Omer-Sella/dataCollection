@@ -1,44 +1,14 @@
-@yew32 CPU 24 12.09
-@yew32 MEM 15658 12332
-@yew32 PS 2834814  0.0  2868 bash
-@yew32 PS 2834824  0.0  1824 bash
-@yew32 PS 2834837  0.0  1900 bash
-@yew32 PS 2834842  0.0  1532 timeout
-@yew32 PS 2834844 99.9 1925224 python
-@yew32 PS 2834900  0.0  1528 timeout
-@yew32 PS 2834902 99.9 1930060 python
-@yew32 PS 2834924  0.0  1532 timeout
-@yew32 PS 2834926 99.9 1935120 python
-@yew32 PS 2834976  0.0  1532 timeout
-@yew32 PS 2834978 99.9 1976140 python
-@yew32 PS 2835222  0.0  3396 python
-@yew32 PS 2835223  0.0  3420 python
-@yew32 PS 2835225  0.0  3452 python
-@yew32 PS 2835226  0.0  3400 python
-@yew32 PS 2835228 20.0 287484 python
-@yew32 PS 2835229 57.5 292404 python
-@yew32 PS 2835231 74.8 292236 python
-@yew32 PS 2835232 30.6 298220 python
-@yew32 PS 2835233 33.4 298740 python
-@yew32 PS 2835235 49.5 303384 python
-@yew32 PS 2835237 69.2 294848 python
-@yew32 PS 2835238 17.0 285712 python
-@yew32 PS 2835240 29.9 295600 python
-@yew32 PS 2835241 89.0 301676 python
-@yew32 PS 2835243 86.7 303148 python
-@yew32 PS 2835244 50.4 290276 python
-@yew32 PS 2836354  0.1 11272 systemd
-@yew32 PS 2836355  0.0  3356 (sd-pam)
-@yew32 PS 2836366  0.0  8656 pipewire
-@yew32 PS 2836367  0.0  5932 pipewire
-@yew32 PS 2836369  0.0 15580 wireplumber
-@yew32 PS 2836371  0.0 10468 pipewire-pulse
-@yew32 PS 2836381  0.0  4164 dbus-daemon
-@yew32 PS 3584584  0.0  2068 sleep
-@yew32 PS 3590736  0.0  2064 sleep
-@yew32 PS 3591416  0.0  7040 sshd
-@yew32 PS 3591417  0.0  3560 bash
-@yew32 PS 3591428  100  4592 ps
-@yew32 PS 3591429  0.0  2316 sed
-@yew32 SIZE 8 21,18
-@yew32 SEEN 1785226723
+@yew32 CPU 24 0.20
+@yew32 MEM 15658 1425
+@yew32 PS 3885772 31.1 11836 systemd
+@yew32 PS 3885773  0.0  3424 (sd-pam)
+@yew32 PS 3885792  4.3  8764 pipewire
+@yew32 PS 3885793  4.3  6028 pipewire
+@yew32 PS 3885796 17.3 15812 wireplumber
+@yew32 PS 3885797  4.5 10700 pipewire-pulse
+@yew32 PS 3885814  0.0  4416 dbus-daemon
+@yew32 PS 3885827  0.0  6964 sshd
+@yew32 PS 3885840  0.0  3600 bash
+@yew32 PS 3885855  0.0  4564 ps
+@yew32 PS 3885856  0.0  2312 sed
+@yew32 SEEN 1785249061

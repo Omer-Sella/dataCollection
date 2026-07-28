@@ -1,46 +1,14 @@
-@gpu20 CPU 16 11.22
-@gpu20 MEM 64031 41536
-@gpu20 GPU 0, 906, 11264
-@gpu20 APP 3891740, 816
-@gpu20 PS 2988452  0.0  3644 bash
-@gpu20 PS 2988461  0.0  2120 bash
-@gpu20 PS 2988466  0.0  2140 timeout
-@gpu20 PS 2988468 99.2 2661464 python
-@gpu20 PS 2988490  0.0  2152 timeout
-@gpu20 PS 2988492 99.2 2653488 python
-@gpu20 PS 2988533  0.0  2156 timeout
-@gpu20 PS 2988535 99.2 2653888 python
-@gpu20 PS 2988560  0.0  2180 timeout
-@gpu20 PS 2988562 99.2 2714976 python
-@gpu20 PS 2988829  0.0 11052 python
-@gpu20 PS 2988830  0.0 11052 python
-@gpu20 PS 2988831  0.0 11072 python
-@gpu20 PS 2988832  0.0 11056 python
-@gpu20 PS 2988833 43.0 792752 python
-@gpu20 PS 2988834 65.7 794964 python
-@gpu20 PS 2988835 65.4 793288 python
-@gpu20 PS 2988836 27.0 795960 python
-@gpu20 PS 2988837 45.2 789624 python
-@gpu20 PS 2988838 19.5 792784 python
-@gpu20 PS 2988839 18.8 792052 python
-@gpu20 PS 2988840 37.1 796120 python
-@gpu20 PS 2988841 55.0 794268 python
-@gpu20 PS 2988842 91.7 796544 python
-@gpu20 PS 2988843 39.6 789232 python
-@gpu20 PS 2988844 58.2 791540 python
+@gpu20 CPU 16 0.06
+@gpu20 MEM 64031 22169
+@gpu20 GPU 0, 90, 11264
+@gpu20 PS   55303  0.0  7084 sshd
+@gpu20 PS   55304  0.0  3708 bash
+@gpu20 PS   55317  200  4628 ps
+@gpu20 PS   55318  0.0  2396 sed
 @gpu20 PS 3246344  0.0  3692 bash
 @gpu20 PS 3246346  0.0  9480 ssh
-@gpu20 PS 3369237  0.0  2152 bash
-@gpu20 PS 3369238  0.0  3884 bash
-@gpu20 PS 3381896  0.0  3748 bash
-@gpu20 PS 3381908  0.0  9424 ssh
-@gpu20 PS 3526296  0.1 11660 systemd
+@gpu20 PS 3526296  0.1 11680 systemd
 @gpu20 PS 3526297  0.0  3192 (sd-pam)
-@gpu20 PS 3526309  0.0  7336 pipewire
-@gpu20 PS 3526310  0.0  5188 pipewire
-@gpu20 PS 3526311  0.0 14492 wireplumber
-@gpu20 PS 3526313  0.0  8556 pipewire-pulse
-@gpu20 PS 3526326  0.0  4036 dbus-daemon
 @gpu20 PS 3526449  0.0  1340 ssh-agent
 @gpu20 PS 3526982  0.0  1324 ssh-agent
 @gpu20 PS 3549308  0.0  1316 ssh-agent
@@ -68,15 +36,7 @@
 @gpu20 PS 3743677  0.0  1240 ssh-agent
 @gpu20 PS 3746587  0.0  1316 ssh-agent
 @gpu20 PS 3749681  0.0  1344 ssh-agent
-@gpu20 PS 3891558  0.0  2132 sleep
-@gpu20 PS 3891731  0.0  3664 bash
-@gpu20 PS 3891740 96.5 5104488 python
-@gpu20 PS 3899958  0.0  7120 sshd
-@gpu20 PS 3899959  0.0  3672 bash
-@gpu20 PS 3899972  0.0  4720 ps
-@gpu20 PS 3899973  0.0  2392 sed
 @gpu20 PS 4160133  0.0  1344 ssh-agent
 @gpu20 PS 4168295  0.0  1344 ssh-agent
 @gpu20 PS 4175043  0.0  1348 ssh-agent
-@gpu20 SIZE 8 21,18
-@gpu20 SEEN 1785226719
+@gpu20 SEEN 1785249050

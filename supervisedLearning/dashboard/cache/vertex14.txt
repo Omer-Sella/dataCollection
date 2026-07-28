@@ -1,41 +1,17 @@
-@vertex14 CPU 12 10.28
-@vertex14 MEM 15771 8286
+@vertex14 CPU 12 0.07
+@vertex14 MEM 15771 1172
 @vertex14 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP 
-@vertex14 PS 2510147  0.0 11720 systemd
-@vertex14 PS 2510148  0.0  3396 (sd-pam)
-@vertex14 PS 2510159  0.0  8660 pipewire
-@vertex14 PS 2510160  0.0  5944 pipewire
-@vertex14 PS 2510164  0.0 15908 wireplumber
-@vertex14 PS 2510166  0.0 10608 pipewire-pulse
-@vertex14 PS 2510186  0.0  4396 dbus-daemon
-@vertex14 PS 2510226  0.0  3188 bash
-@vertex14 PS 2510231  0.0  2172 bash
-@vertex14 PS 2510241  0.0  1980 bash
-@vertex14 PS 2510246  0.0  1984 timeout
-@vertex14 PS 2510248 99.8 1900864 python
-@vertex14 PS 2510278  0.0  1988 timeout
-@vertex14 PS 2510280 99.8 1914108 python
-@vertex14 PS 2510334  0.0  1980 timeout
-@vertex14 PS 2510336 99.8 1893920 python
-@vertex14 PS 2511059  0.0  4368 python
-@vertex14 PS 2511060  0.0  4408 python
-@vertex14 PS 2511061  0.0  4432 python
-@vertex14 PS 2511068 12.1 195000 python
-@vertex14 PS 2511069 67.3 198892 python
-@vertex14 PS 2511070 74.3 195500 python
-@vertex14 PS 2511071 34.0 199012 python
-@vertex14 PS 2511072 16.3 199036 python
-@vertex14 PS 2511073 76.5 199880 python
-@vertex14 PS 2511074 89.7 200428 python
-@vertex14 PS 2511075 58.7 195344 python
-@vertex14 PS 2511076 44.0 196292 python
-@vertex14 PS 3552362  0.0  2088 sleep
-@vertex14 PS 3552613  0.0  2084 sleep
-@vertex14 PS 3557149  0.0  7120 sshd
-@vertex14 PS 3557152  0.0  3648 bash
-@vertex14 PS 3557183  100  4652 ps
-@vertex14 PS 3557184  0.0  2336 sed
-@vertex14 SIZE 6 21,18
-@vertex14 SEEN 1785226756
+@vertex14 PS 3975113 26.0 11800 systemd
+@vertex14 PS 3975114  0.0  3420 (sd-pam)
+@vertex14 PS 3975134  3.2  8824 pipewire
+@vertex14 PS 3975135  0.0  6100 pipewire
+@vertex14 PS 3975137 12.9 15792 wireplumber
+@vertex14 PS 3975139  3.2 10696 pipewire-pulse
+@vertex14 PS 3975159  0.0  4552 dbus-daemon
+@vertex14 PS 3975162  0.0  7004 sshd
+@vertex14 PS 3975182  0.0  3628 bash
+@vertex14 PS 3975211  150  4624 ps
+@vertex14 PS 3975212  0.0  2332 sed
+@vertex14 SEEN 1785249100

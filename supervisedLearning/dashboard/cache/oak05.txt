@@ -1,45 +1,15 @@
-@oak05 CPU 16 10.24
-@oak05 MEM 15766 12331
+@oak05 CPU 16 0.17
+@oak05 MEM 15766 1174
 @oak05 GPU 0, 88, 2048
-@oak05 PS 2701132  0.1 11580 systemd
-@oak05 PS 2701133  0.0  3064 (sd-pam)
-@oak05 PS 2701152  0.0  6160 pipewire
-@oak05 PS 2701153  0.0  4468 pipewire
-@oak05 PS 2701155  0.0 12080 wireplumber
-@oak05 PS 2701157  0.0  7280 pipewire-pulse
-@oak05 PS 2701179  0.0  4020 dbus-daemon
-@oak05 PS 2701207  0.0  3144 bash
-@oak05 PS 2701212  0.0  2164 bash
-@oak05 PS 2701222  0.0  1896 bash
-@oak05 PS 2701227  0.0  1952 timeout
-@oak05 PS 2701229 99.7 1956384 python
-@oak05 PS 2701256  0.0  1944 timeout
-@oak05 PS 2701258 99.7 1936096 python
-@oak05 PS 2701294  0.0  1964 timeout
-@oak05 PS 2701296 99.7 2008272 python
-@oak05 PS 2701313  0.0  1952 timeout
-@oak05 PS 2701315 99.7 1946584 python
-@oak05 PS 2702320  0.0  3496 python
-@oak05 PS 2702321  0.0  3476 python
-@oak05 PS 2702322  0.0  3416 python
-@oak05 PS 2702323  0.0  3456 python
-@oak05 PS 2702324 19.9 314628 python
-@oak05 PS 2702325 18.3 317420 python
-@oak05 PS 2702326 58.6 310500 python
-@oak05 PS 2702327 45.5 321308 python
-@oak05 PS 2702328 38.2 309480 python
-@oak05 PS 2702329 74.2 312312 python
-@oak05 PS 2702330 76.6 324200 python
-@oak05 PS 2702331 64.6 315268 python
-@oak05 PS 2702332 51.1 311096 python
-@oak05 PS 2702333 23.7 316180 python
-@oak05 PS 2702334 48.0 309432 python
-@oak05 PS 2702335 43.3 307640 python
-@oak05 PS 3293345  0.0  2080 sleep
-@oak05 PS 3297728  0.0  2064 sleep
-@oak05 PS 3298113  0.0  7116 sshd
-@oak05 PS 3298114  0.0  3608 bash
-@oak05 PS 3298125  100  4656 ps
-@oak05 PS 3298126  0.0  2308 sed
-@oak05 SIZE 8 21,18
-@oak05 SEEN 1785226711
+@oak05 PS 3602642 30.2 11972 systemd
+@oak05 PS 3602643  0.0  3436 (sd-pam)
+@oak05 PS 3602654  0.0  8872 pipewire
+@oak05 PS 3602655  0.0  6092 pipewire
+@oak05 PS 3602658 13.6 16060 wireplumber
+@oak05 PS 3602659  0.0 10744 pipewire-pulse
+@oak05 PS 3602678  0.0  4524 dbus-daemon
+@oak05 PS 3602682  0.0  7100 sshd
+@oak05 PS 3602711  0.0  3560 bash
+@oak05 PS 3602726  0.0  4628 ps
+@oak05 PS 3602727  0.0  2284 sed
+@oak05 SEEN 1785249041

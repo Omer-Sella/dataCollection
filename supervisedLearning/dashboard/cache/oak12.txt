@@ -1,45 +1,15 @@
-@oak12 CPU 16 8.01
-@oak12 MEM 15766 12220
-@oak12 GPU 0, 88, 2048
-@oak12 PS  104563  0.0  2012 sleep
-@oak12 PS  109823  0.0  2036 sleep
-@oak12 PS  109955  0.0  7056 sshd
-@oak12 PS  109956  0.0  3548 bash
-@oak12 PS  109967  0.0  4476 ps
-@oak12 PS  109968  0.0  2260 sed
-@oak12 PS 3705386  0.1  7816 systemd
-@oak12 PS 3705387  0.0  2560 (sd-pam)
-@oak12 PS 3705399  0.0  5440 pipewire
-@oak12 PS 3705400  0.0  3892 pipewire
-@oak12 PS 3705403  0.0 10396 wireplumber
-@oak12 PS 3705404  0.0  6488 pipewire-pulse
-@oak12 PS 3705423  0.0  3236 dbus-daemon
-@oak12 PS 3705562  0.0  2768 bash
-@oak12 PS 3705567  0.0  2508 bash
-@oak12 PS 3705577  0.0  1612 bash
-@oak12 PS 3705582  0.0  1868 timeout
-@oak12 PS 3705584 99.8 1867884 python
-@oak12 PS 3705607  0.0  1868 timeout
-@oak12 PS 3705609 99.8 1877152 python
-@oak12 PS 3705640  0.0  1868 timeout
-@oak12 PS 3705642 99.8 1895896 python
-@oak12 PS 3705661  0.0  1868 timeout
-@oak12 PS 3705663 99.8 1913004 python
-@oak12 PS 3706404  0.0  3388 python
-@oak12 PS 3706405  0.0  3400 python
-@oak12 PS 3706406  0.0  3396 python
-@oak12 PS 3706407  0.0  3392 python
-@oak12 PS 3706408 91.9 332324 python
-@oak12 PS 3706409 48.2 321560 python
-@oak12 PS 3706410 45.2 323172 python
-@oak12 PS 3706411 50.1 327956 python
-@oak12 PS 3706412 32.2 326280 python
-@oak12 PS 3706413 66.8 321300 python
-@oak12 PS 3706414 42.9 319092 python
-@oak12 PS 3706415 67.9 330852 python
-@oak12 PS 3706416 46.9 329480 python
-@oak12 PS 3706417 65.5 329552 python
-@oak12 PS 3706418 41.5 324688 python
-@oak12 PS 3706419 50.2 324628 python
-@oak12 SIZE 8 21,18
-@oak12 SEEN 1785226711
+@oak12 CPU 16 0.28
+@oak12 MEM 15766 1174
+@oak12 GPU 3, 88, 2048
+@oak12 PS  416888 27.7 11944 systemd
+@oak12 PS  416889  0.0  3420 (sd-pam)
+@oak12 PS  416901  0.0  8740 pipewire
+@oak12 PS  416902  0.0  5964 pipewire
+@oak12 PS  416904  9.5 15476 wireplumber
+@oak12 PS  416906  0.0 10596 pipewire-pulse
+@oak12 PS  416925  0.0  4452 dbus-daemon
+@oak12 PS  416929  0.0  7044 sshd
+@oak12 PS  416949  0.0  3524 bash
+@oak12 PS  416972  300  4508 ps
+@oak12 PS  416973  0.0  2280 sed
+@oak12 SEEN 1785249041

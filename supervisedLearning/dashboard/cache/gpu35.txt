@@ -1,10 +1,9 @@
-@gpu35 CPU 16 12.94
-@gpu35 MEM 64222 29403
-@gpu35 GPU 27, 12207, 16376
+@gpu35 CPU 16 2.08
+@gpu35 MEM 64222 10044
+@gpu35 GPU 49, 13892, 16376
 @gpu35 APP 1849357, 1238
 @gpu35 APP 2360444, 5490
-@gpu35 APP 2834086, 4466
-@gpu35 APP 2933959, 898
+@gpu35 APP 3256111, 7054
 @gpu35 PS  154829  0.0  1340 ssh-agent
 @gpu35 PS 1200274  0.0  1344 ssh-agent
 @gpu35 PS 1205912  0.0  1344 ssh-agent
@@ -22,34 +21,6 @@
 @gpu35 PS 1411198  0.0  1344 ssh-agent
 @gpu35 PS 1419793  0.0  1348 ssh-agent
 @gpu35 PS 1481521  0.0  1348 ssh-agent
-@gpu35 PS 1806047  0.0  3656 bash
-@gpu35 PS 1806055  0.0  2148 bash
-@gpu35 PS 1806060  0.0  2104 timeout
-@gpu35 PS 1806062 99.0 2373504 python
-@gpu35 PS 1806096  0.0  2104 timeout
-@gpu35 PS 1806098 99.0 2372920 python
-@gpu35 PS 1806139  0.0  2048 timeout
-@gpu35 PS 1806141 99.0 2425776 python
-@gpu35 PS 1806172  0.0  2064 timeout
-@gpu35 PS 1806174 99.0 2380776 python
-@gpu35 PS 1806547  0.0  8064 python
-@gpu35 PS 1806548  0.0  8072 python
-@gpu35 PS 1806549  0.0  8104 python
-@gpu35 PS 1806550  0.0  8056 python
-@gpu35 PS 1806552 48.8 504760 python
-@gpu35 PS 1806553 38.9 498696 python
-@gpu35 PS 1806554 26.6 499848 python
-@gpu35 PS 1806555 19.8 498240 python
-@gpu35 PS 1806556 45.8 500516 python
-@gpu35 PS 1806557 37.0 502704 python
-@gpu35 PS 1806558 82.3 500932 python
-@gpu35 PS 1806559 27.5 502332 python
-@gpu35 PS 1806560 70.9 500928 python
-@gpu35 PS 1806561 47.5 502052 python
-@gpu35 PS 1806562 68.2 497440 python
-@gpu35 PS 1806563 82.3 500900 python
-@gpu35 PS 2325258  0.0  2092 bash
-@gpu35 PS 2325259  0.0  3876 bash
 @gpu35 PS 2528523  0.0 11372 systemd
 @gpu35 PS 2528524  0.0  3332 (sd-pam)
 @gpu35 PS 2528536  0.0  7136 pipewire
@@ -58,12 +29,8 @@
 @gpu35 PS 2528540  0.0  8820 pipewire-pulse
 @gpu35 PS 2528557  0.0  4252 dbus-daemon
 @gpu35 PS 2528640  0.0  1348 ssh-agent
-@gpu35 PS 2933958  0.0  3600 bash
-@gpu35 PS 2933959 96.7 8613956 python
-@gpu35 PS 2934489  0.0  2092 sleep
-@gpu35 PS 2944601  0.0  7020 sshd
-@gpu35 PS 2944602  0.0  3688 bash
-@gpu35 PS 2944615  0.0  4752 ps
-@gpu35 PS 2944616  0.0  2332 sed
-@gpu35 SIZE 8 21,18
-@gpu35 SEEN 1785226720
+@gpu35 PS 3326014  0.0  6972 sshd
+@gpu35 PS 3326015  0.0  3660 bash
+@gpu35 PS 3326028  200  4740 ps
+@gpu35 PS 3326029  0.0  2336 sed
+@gpu35 SEEN 1785249056

@@ -1,41 +1,17 @@
-@vertex15 CPU 12 8.51
-@vertex15 MEM 15771 8314
+@vertex15 CPU 12 0.17
+@vertex15 MEM 15771 5185
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS  628201  0.0 11488 systemd
-@vertex15 PS  628202  0.0  3408 (sd-pam)
-@vertex15 PS  628213  0.0  6500 pipewire
-@vertex15 PS  628214  0.0  4800 pipewire
-@vertex15 PS  628215  0.0 12120 wireplumber
-@vertex15 PS  628216  0.0  8424 pipewire-pulse
-@vertex15 PS  628239  0.0  4220 dbus-daemon
-@vertex15 PS  628288  0.0  3496 bash
-@vertex15 PS  628293  0.0  3360 bash
-@vertex15 PS  628303  0.0  2008 bash
-@vertex15 PS  628308  0.0  1984 timeout
-@vertex15 PS  628310 99.9 2223204 python
-@vertex15 PS  628344  0.0  1984 timeout
-@vertex15 PS  628346 99.9 2231524 python
-@vertex15 PS  628390  0.0  1984 timeout
-@vertex15 PS  628392 99.9 2249456 python
-@vertex15 PS  628978  0.0  6388 python
-@vertex15 PS  628979  0.0  6420 python
-@vertex15 PS  628980  0.0  6500 python
-@vertex15 PS  628981 21.2 514768 python
-@vertex15 PS  628982 60.1 507408 python
-@vertex15 PS  628983 30.4 506720 python
-@vertex15 PS  628984 47.6 511108 python
-@vertex15 PS  628985 61.6 510760 python
-@vertex15 PS  628986 56.8 540804 python
-@vertex15 PS  628987 34.8 542172 python
-@vertex15 PS  628988 60.7 503780 python
-@vertex15 PS  628989 60.4 512384 python
-@vertex15 PS 1670499  0.0  2080 sleep
-@vertex15 PS 1670760  0.0  2088 sleep
-@vertex15 PS 1677317  0.0  7080 sshd
-@vertex15 PS 1677318  0.0  3584 bash
-@vertex15 PS 1677337  0.0  4624 ps
-@vertex15 PS 1677338  0.0  2336 sed
-@vertex15 SIZE 6 21,18
-@vertex15 SEEN 1785226755
+@vertex15 PS 2098902 32.5 11692 systemd
+@vertex15 PS 2098903  0.0  3412 (sd-pam)
+@vertex15 PS 2098922  9.0  8772 pipewire
+@vertex15 PS 2098923  4.5  6028 pipewire
+@vertex15 PS 2098926 18.1 15572 wireplumber
+@vertex15 PS 2098928  4.5 10652 pipewire-pulse
+@vertex15 PS 2098949  0.0  4584 dbus-daemon
+@vertex15 PS 2098950  0.0  7024 sshd
+@vertex15 PS 2098970  0.0  3576 bash
+@vertex15 PS 2098998  100  4572 ps
+@vertex15 PS 2098999  0.0  2308 sed
+@vertex15 SEEN 1785249100

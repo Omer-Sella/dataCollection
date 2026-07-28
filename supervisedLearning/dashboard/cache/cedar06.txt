@@ -1,45 +1,15 @@
-@cedar06 CPU 16 11.07
-@cedar06 MEM 31152 16287
-@cedar06 PS 3214318  0.2 14480 systemd
-@cedar06 PS 3214319  0.0  4080 (sd-pam)
-@cedar06 PS 3214351  0.0  5240 dbus-daemon
-@cedar06 PS 3214352  0.0  8524 pipewire
-@cedar06 PS 3214358  0.0  3984 mpris-proxy
-@cedar06 PS 3214360  0.0 26684 wireplumber
-@cedar06 PS 3214361  0.0  5760 pipewire
-@cedar06 PS 3214362  0.0 11024 pipewire-pulse
-@cedar06 PS 3214464  0.0  3900 bash
-@cedar06 PS 3214480  0.0  3916 bash
-@cedar06 PS 3214491  0.0  2108 bash
-@cedar06 PS 3214496  0.0  7568 timeout
-@cedar06 PS 3214499 99.8 2654840 python
-@cedar06 PS 3214524  0.0  7560 timeout
-@cedar06 PS 3214526 99.9 2662388 python
-@cedar06 PS 3214547  0.0  7428 timeout
-@cedar06 PS 3214549 99.9 2689484 python
-@cedar06 PS 3214584  0.0  7408 timeout
-@cedar06 PS 3214586 99.9 2707776 python
-@cedar06 PS 3214887  0.0 11816 python
-@cedar06 PS 3214888  0.0 12008 python
-@cedar06 PS 3214889  0.0 11892 python
-@cedar06 PS 3214890  0.0 11796 python
-@cedar06 PS 3214893 39.1 816604 python
-@cedar06 PS 3214894 57.8 823588 python
-@cedar06 PS 3214895 36.6 823980 python
-@cedar06 PS 3214896 42.1 822892 python
-@cedar06 PS 3214897 40.7 821612 python
-@cedar06 PS 3214898 79.3 825176 python
-@cedar06 PS 3214899 50.8 823944 python
-@cedar06 PS 3214900 31.1 820504 python
-@cedar06 PS 3214901 50.9 825240 python
-@cedar06 PS 3214902 96.2 826004 python
-@cedar06 PS 3214903 70.1 823352 python
-@cedar06 PS 3214904 85.4 822476 python
-@cedar06 PS 3909041  0.0  7824 sleep
-@cedar06 PS 3909241  0.0  7768 sleep
-@cedar06 PS 3910620  0.0  8460 sshd-session
-@cedar06 PS 3910621  0.0  3976 bash
-@cedar06 PS 3910633  0.0  4820 ps
-@cedar06 PS 3910634  0.0  2780 sed
-@cedar06 SIZE 8 21,18
-@cedar06 SEEN 1785226767
+@cedar06 CPU 16 0.22
+@cedar06 MEM 31152 1887
+@cedar06 PS    3931 25.0 14196 systemd
+@cedar06 PS    3932  0.0  4084 (sd-pam)
+@cedar06 PS    3960  0.0  5256 dbus-daemon
+@cedar06 PS    3961  0.0  8340 pipewire
+@cedar06 PS    3972  0.0  4148 mpris-proxy
+@cedar06 PS    3974  5.5 14252 wireplumber
+@cedar06 PS    3975  0.0  5808 pipewire
+@cedar06 PS    3977  0.0 11008 pipewire-pulse
+@cedar06 PS    4003  0.0  8432 sshd-session
+@cedar06 PS    4005  0.0  3936 bash
+@cedar06 PS    4076  0.0  4740 ps
+@cedar06 PS    4077  0.0  2788 sed
+@cedar06 SEEN 1785249112

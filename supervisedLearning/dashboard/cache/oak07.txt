@@ -1,45 +1,15 @@
-@oak07 CPU 16 12.01
-@oak07 MEM 15766 12251
+@oak07 CPU 16 0.09
+@oak07 MEM 15766 1579
 @oak07 GPU 0, 92, 2048
-@oak07 PS  447282  0.0  2088 sleep
-@oak07 PS  452758  0.0  2092 sleep
-@oak07 PS  453031  0.0  7116 sshd
-@oak07 PS  453032  0.0  3636 bash
-@oak07 PS  453043  100  4624 ps
-@oak07 PS  453044  0.0  2336 sed
-@oak07 PS 4045583  0.1 11684 systemd
-@oak07 PS 4045584  0.0  3328 (sd-pam)
-@oak07 PS 4045596  0.0  6040 pipewire
-@oak07 PS 4045597  0.0  4460 pipewire
-@oak07 PS 4045599  0.0 12144 wireplumber
-@oak07 PS 4045601  0.0  7152 pipewire-pulse
-@oak07 PS 4045622  0.0  4004 dbus-daemon
-@oak07 PS 4045655  0.0  2948 bash
-@oak07 PS 4045660  0.0  2196 bash
-@oak07 PS 4045670  0.0  1708 bash
-@oak07 PS 4045675  0.0  1940 timeout
-@oak07 PS 4045677 99.7 1867328 python
-@oak07 PS 4045710  0.0  1920 timeout
-@oak07 PS 4045712 99.7 1901128 python
-@oak07 PS 4045734  0.0  1924 timeout
-@oak07 PS 4045736 99.7 1885736 python
-@oak07 PS 4045754  0.0  1932 timeout
-@oak07 PS 4045756 99.7 1868276 python
-@oak07 PS 4046721  0.0  4124 python
-@oak07 PS 4046722  0.0  4084 python
-@oak07 PS 4046723  0.0  4500 python
-@oak07 PS 4046724  0.0  5920 python
-@oak07 PS 4046725 99.9 344488 python
-@oak07 PS 4046726 35.1 346836 python
-@oak07 PS 4046727 25.5 351308 python
-@oak07 PS 4046728 33.3 356448 python
-@oak07 PS 4046729 64.7 320140 python
-@oak07 PS 4046730 48.8 352648 python
-@oak07 PS 4046731 45.9 350800 python
-@oak07 PS 4046732 81.4 342292 python
-@oak07 PS 4046733 51.7 352704 python
-@oak07 PS 4046734 99.9 323164 python
-@oak07 PS 4046735 46.7 318260 python
-@oak07 PS 4046736 45.9 318708 python
-@oak07 SIZE 8 21,18
-@oak07 SEEN 1785226711
+@oak07 PS  760844 30.2 11756 systemd
+@oak07 PS  760845  0.0  3420 (sd-pam)
+@oak07 PS  760864  0.0  8784 pipewire
+@oak07 PS  760865  0.0  6144 pipewire
+@oak07 PS  760866 20.8 15804 wireplumber
+@oak07 PS  760869  0.0 10748 pipewire-pulse
+@oak07 PS  760888  0.0  4528 dbus-daemon
+@oak07 PS  760892  0.0  7016 sshd
+@oak07 PS  760912  0.0  3640 bash
+@oak07 PS  760927  100  4604 ps
+@oak07 PS  760928  0.0  2320 sed
+@oak07 SEEN 1785249041
