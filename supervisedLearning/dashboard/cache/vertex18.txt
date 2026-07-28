@@ -1,9 +1,9 @@
-@vertex18 CPU 12 6.03
-@vertex18 MEM 15771 8560
+@vertex18 CPU 12 8.15
+@vertex18 MEM 15771 8711
 @vertex18 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex18 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex18 APP 
-@vertex18 PS  143266  0.0 11656 systemd
+@vertex18 PS  143266  0.0 11664 systemd
 @vertex18 PS  143267  0.0  3440 (sd-pam)
 @vertex18 PS  143284  0.0  6908 pipewire
 @vertex18 PS  143285  0.0  4960 pipewire
@@ -14,28 +14,28 @@
 @vertex18 PS  143355  0.0  3068 bash
 @vertex18 PS  143365  0.0  1784 bash
 @vertex18 PS  143370  0.0  1984 timeout
-@vertex18 PS  143372 99.7 2178396 python
+@vertex18 PS  143372 99.9 2238648 python
 @vertex18 PS  143414  0.0  1944 timeout
-@vertex18 PS  143416 99.8 2185780 python
+@vertex18 PS  143416 99.9 2246020 python
 @vertex18 PS  143456  0.0  1984 timeout
-@vertex18 PS  143458 99.8 2156220 python
+@vertex18 PS  143458 99.9 2209776 python
 @vertex18 PS  144138  0.0  6472 python
 @vertex18 PS  144139  0.0  6396 python
 @vertex18 PS  144140  0.0  6272 python
-@vertex18 PS  144141 89.3 563696 python
-@vertex18 PS  144142 78.6 568260 python
-@vertex18 PS  144143 43.2 570504 python
-@vertex18 PS  144144 29.3 569720 python
-@vertex18 PS  144145 32.2 573080 python
-@vertex18 PS  144146 14.6 561788 python
-@vertex18 PS  144147  4.4 565168 python
-@vertex18 PS  144148 34.1 584764 python
-@vertex18 PS  144149 98.0 570588 python
-@vertex18 PS  564375  0.0  2088 sleep
-@vertex18 PS  569620  0.0  2036 sleep
-@vertex18 PS  574980  0.0  7064 sshd
-@vertex18 PS  574981  0.0  3588 bash
-@vertex18 PS  575008  0.0  4620 ps
-@vertex18 PS  575009  0.0  2288 sed
+@vertex18 PS  144141 88.3 565572 python
+@vertex18 PS  144142 72.0 561896 python
+@vertex18 PS  144143 22.9 565112 python
+@vertex18 PS  144144 30.5 567372 python
+@vertex18 PS  144145 39.8 567324 python
+@vertex18 PS  144146 14.9 557104 python
+@vertex18 PS  144147  1.9 551296 python
+@vertex18 PS  144148 14.3 584852 python
+@vertex18 PS  144149 99.1 558900 python
+@vertex18 PS 1162754  0.0  2088 sleep
+@vertex18 PS 1168002  0.0  2092 sleep
+@vertex18 PS 1173057  0.0  7112 sshd
+@vertex18 PS 1173058  0.0  3588 bash
+@vertex18 PS 1173077  0.0  4580 ps
+@vertex18 PS 1173078  0.0  2340 sed
 @vertex18 SIZE 6 21,18
-@vertex18 SEEN 1785193505
+@vertex18 SEEN 1785225900

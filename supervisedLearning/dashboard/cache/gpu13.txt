@@ -1,26 +1,23 @@
-@gpu13 CPU 8 4.58
-@gpu13 MEM 64217 9442
-@gpu13 GPU 5, 145, 8192
+@gpu13 CPU 8 7.14
+@gpu13 MEM 64217 9571
+@gpu13 GPU 0, 145, 8192
 @gpu13 PS  214457  0.0  3664 bash
 @gpu13 PS  214465  0.0  2164 bash
 @gpu13 PS  214470  0.0  2144 timeout
-@gpu13 PS  214472 99.6 2647576 python
+@gpu13 PS  214472 99.4 2681068 python
 @gpu13 PS  214501  0.0  2144 timeout
-@gpu13 PS  214503 99.7 2666252 python
+@gpu13 PS  214503 99.4 2699712 python
 @gpu13 PS  214855  0.0 11132 python
 @gpu13 PS  214856  0.0 11076 python
-@gpu13 PS  214857 54.6 833668 python
-@gpu13 PS  214858  9.8 832864 python
-@gpu13 PS  214859 30.7 825996 python
-@gpu13 PS  214860 96.2 836776 python
-@gpu13 PS  214861 30.6 836076 python
-@gpu13 PS  214862 40.6 832492 python
-@gpu13 PS  554531  0.0  2092 sleep
-@gpu13 PS  559530  0.0  7104 sshd
-@gpu13 PS  559532  0.0  3672 bash
-@gpu13 PS  559547  0.0  4596 ps
-@gpu13 PS  559548  0.0  2336 sed
-@gpu13 PS  965213  0.0 12056 systemd
+@gpu13 PS  214857 79.6 835888 python
+@gpu13 PS  214858 59.1 837320 python
+@gpu13 PS  214859 41.7 836984 python
+@gpu13 PS  214860 42.3 836768 python
+@gpu13 PS  214861 42.0 836044 python
+@gpu13 PS  214862 43.6 836948 python
+@gpu13 PS  564606  0.0  2132 bash
+@gpu13 PS  564607  0.0  3852 bash
+@gpu13 PS  965213  0.0 12060 systemd
 @gpu13 PS  965214  0.0  3436 (sd-pam)
 @gpu13 PS  965225  0.0  8812 pipewire
 @gpu13 PS  965226  0.0  6156 pipewire
@@ -29,6 +26,12 @@
 @gpu13 PS  965249  0.0  4552 dbus-daemon
 @gpu13 PS  965276  0.0  1544 ssh-agent
 @gpu13 PS  965827  0.0  1544 ssh-agent
+@gpu13 PS 1030465  0.0  2092 sleep
+@gpu13 PS 1039870  0.0  2076 sleep
+@gpu13 PS 1040281  0.0  7112 sshd
+@gpu13 PS 1040282  0.0  3660 bash
+@gpu13 PS 1040295  100  4640 ps
+@gpu13 PS 1040296  0.0  2340 sed
 @gpu13 PS 1041733  0.0  1548 ssh-agent
 @gpu13 PS 1043829  0.0  1548 ssh-agent
 @gpu13 PS 1048133  0.0  1544 ssh-agent
@@ -41,4 +44,4 @@
 @gpu13 PS 1117079  0.0  1544 ssh-agent
 @gpu13 PS 1165598  0.0  1548 ssh-agent
 @gpu13 SIZE 4 21,18
-@gpu13 SEEN 1785193468
+@gpu13 SEEN 1785225986

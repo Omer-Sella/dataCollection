@@ -1,0 +1,14 @@
+device: cuda; sizes: [(6, 6), (9, 6)]; curve loss on: [(6, 6), (9, 6)]; lr: 0.001; H: 10
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 records whose grid does not contain all its points
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py", line 308, in <module>
+    main()
+  File "/vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py", line 197, in main
+    slot = SizeSlot(data, device, arguments.seed, useCurveLoss=(l, m) in curveSizes)
+  File "/vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py", line 75, in __init__
+    (self.trainBits, self.trainCounts,
+  File "/vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py", line 76, in <genexpr>
+    self.trainSamples, self.trainK) = (t.to(device) for t in toTensors(self.train))
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 252.00 MiB. GPU 0 has a total capacity of 15.57 GiB of which 198.56 MiB is free. Process 2641680 has 14.93 GiB memory in use. Including non-PyTorch memory, this process has 340.00 MiB memory in use. Of the allocated memory 96.05 MiB is allocated by PyTorch, and 5.95 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

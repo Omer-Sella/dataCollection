@@ -1,8 +1,8 @@
-@curve02 CPU 12 8.19
-@curve02 MEM 15917 8212
+@curve02 CPU 12 9.39
+@curve02 MEM 15917 8291
 @curve02 GPU [N/A], 89, 2000
 @curve02 APP [N/A], [N/A]
-@curve02 PS 2109158  0.2 11836 systemd
+@curve02 PS 2109158  0.2 11852 systemd
 @curve02 PS 2109159  0.0  3416 (sd-pam)
 @curve02 PS 2109167  0.0  7788 pipewire
 @curve02 PS 2109168  0.0  5344 pipewire
@@ -13,28 +13,28 @@
 @curve02 PS 2109352  0.0  3324 bash
 @curve02 PS 2109362  0.0  1940 bash
 @curve02 PS 2109367  0.0  1948 timeout
-@curve02 PS 2109369 99.3 2156092 python
+@curve02 PS 2109369 99.2 2218228 python
 @curve02 PS 2109407  0.0  1940 timeout
-@curve02 PS 2109409 99.3 2173840 python
+@curve02 PS 2109409 99.3 2222512 python
 @curve02 PS 2109427  0.0  1936 timeout
-@curve02 PS 2109429 99.3 2175668 python
+@curve02 PS 2109429 99.3 2210972 python
 @curve02 PS 2109873  0.0  6808 python
 @curve02 PS 2109874  0.0  6668 python
 @curve02 PS 2109875  0.0  6788 python
-@curve02 PS 2109876 25.6 526152 python
-@curve02 PS 2109877 43.9 537192 python
-@curve02 PS 2109878  6.0 558236 python
-@curve02 PS 2109879 32.1 546132 python
-@curve02 PS 2109880 66.7 553456 python
-@curve02 PS 2109881 96.0 504224 python
-@curve02 PS 2109882 96.9 534408 python
-@curve02 PS 2109883 27.7 506104 python
-@curve02 PS 2109884 65.0 511792 python
-@curve02 PS 2404074  0.0  2040 sleep
-@curve02 PS 2407727  0.0  2064 sleep
-@curve02 PS 2412635  0.0  7036 sshd
-@curve02 PS 2412636  0.0  3572 bash
-@curve02 PS 2412665  600  4580 ps
-@curve02 PS 2412668  0.0  2320 sed
+@curve02 PS 2109876 14.8 516436 python
+@curve02 PS 2109877 57.5 534060 python
+@curve02 PS 2109878 36.6 549996 python
+@curve02 PS 2109879 62.0 542024 python
+@curve02 PS 2109880 85.6 549624 python
+@curve02 PS 2109881 70.3 496960 python
+@curve02 PS 2109882 73.0 526756 python
+@curve02 PS 2109883 38.1 512268 python
+@curve02 PS 2109884 71.5 507532 python
+@curve02 PS 2825887  0.0  2044 sleep
+@curve02 PS 2829802  0.0  2068 sleep
+@curve02 PS 2833013  0.0  7000 sshd
+@curve02 PS 2833014 12.5  3568 bash
+@curve02 PS 2833025  350  4568 ps
+@curve02 PS 2833026  0.0  2308 sed
 @curve02 SIZE 6 21,18
-@curve02 SEEN 1785193511
+@curve02 SEEN 1785225907

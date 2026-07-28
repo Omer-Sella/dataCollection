@@ -1,90 +1,7 @@
-@batch2 CPU 64 75.39
-@batch2 MEM 515774 326016
+@batch2 CPU 64 46.77
+@batch2 MEM 515774 303467
 @batch2 PS   35381  0.0  3072 bash
 @batch2 PS   35390  0.0  1536 bash
-@batch2 PS   35396  0.0  1536 timeout
-@batch2 PS   35398 80.4 2626000 python
-@batch2 PS   35441  0.0  2048 timeout
-@batch2 PS   35443 81.0 2619176 python
-@batch2 PS   35490  0.0  2048 timeout
-@batch2 PS   35492 86.5 2625428 python
-@batch2 PS   35522  0.0  1536 timeout
-@batch2 PS   35524 81.1 2619352 python
-@batch2 PS   35583  0.0  1536 timeout
-@batch2 PS   35585 82.0 2601340 python
-@batch2 PS   35607  0.0  1536 timeout
-@batch2 PS   35609 81.3 2609940 python
-@batch2 PS   35636  0.0  1536 timeout
-@batch2 PS   35638 80.8 2606824 python
-@batch2 PS   35665  0.0  1536 timeout
-@batch2 PS   35667 81.2 2614352 python
-@batch2 PS   35700  0.0  1536 timeout
-@batch2 PS   35702 80.8 2610112 python
-@batch2 PS   35717  0.0  1536 timeout
-@batch2 PS   35719 82.8 2616288 python
-@batch2 PS   35772  0.0  9728 python
-@batch2 PS   35773 25.2 821104 python
-@batch2 PS   35774 68.0 827504 python
-@batch2 PS   35775 12.6 821396 python
-@batch2 PS   35776  0.0  7680 python
-@batch2 PS   35781 65.3 829896 python
-@batch2 PS   35782 77.2 822924 python
-@batch2 PS   35783  3.2 826792 python
-@batch2 PS   35785  0.0  1536 timeout
-@batch2 PS   35788 80.6 2603016 python
-@batch2 PS   35802  0.0  7680 python
-@batch2 PS   35803  2.7 823340 python
-@batch2 PS   35804 72.2 826596 python
-@batch2 PS   35805 61.5 828332 python
-@batch2 PS   35834  0.0  8704 python
-@batch2 PS   35835 55.3 821960 python
-@batch2 PS   35836 19.7 821932 python
-@batch2 PS   35837 37.7 820968 python
-@batch2 PS   35845  0.0  2048 timeout
-@batch2 PS   35847 78.0 1493200 python
-@batch2 PS   35865  0.0  2048 timeout
-@batch2 PS   35868 80.9 2600420 python
-@batch2 PS   35898  0.0  7168 python
-@batch2 PS   35900 23.8 814804 python
-@batch2 PS   35901 30.4 820928 python
-@batch2 PS   35902 51.5 822180 python
-@batch2 PS   35912  0.0  2048 timeout
-@batch2 PS   35914 70.8 1482936 python
-@batch2 PS   35934  0.0  9216 python
-@batch2 PS   35935 79.5 825704 python
-@batch2 PS   35936  2.4 823112 python
-@batch2 PS   35937 22.3 824048 python
-@batch2 PS   35982  0.0  6656 python
-@batch2 PS   35983 72.1 826024 python
-@batch2 PS   35985 80.8 821308 python
-@batch2 PS   35986 62.5 823788 python
-@batch2 PS   36025  0.0  7168 python
-@batch2 PS   36026 26.1 815312 python
-@batch2 PS   36027 71.5 820464 python
-@batch2 PS   36028 15.4 819512 python
-@batch2 PS   36070  0.0  7168 python
-@batch2 PS   36071 46.8 819208 python
-@batch2 PS   36072 38.8 819720 python
-@batch2 PS   36073 30.1 823424 python
-@batch2 PS   36075  0.0  7680 python
-@batch2 PS   36076 81.1 828176 python
-@batch2 PS   36077  2.9 816372 python
-@batch2 PS   36078 22.7 822460 python
-@batch2 PS   36175  0.0  7168 python
-@batch2 PS   36176  1.5 820636 python
-@batch2 PS   36177 68.8 825432 python
-@batch2 PS   36178 77.0 817716 python
-@batch2 PS   36192  0.0 10240 python
-@batch2 PS   36204 48.8 820072 python
-@batch2 PS   36205 40.9     0 python
-@batch2 PS   36239  0.0  9216 python
-@batch2 PS   36244 79.4 819028 python
-@batch2 PS   36245 33.3     0 python
-@batch2 PS   36246 47.7     0 python
-@batch2 PS   36259  0.0  8192 python
-@batch2 PS   36263 46.0 822952 python
-@batch2 PS   36264 82.9 822472 python
-@batch2 PS   36265 10.7 828884 python
 @batch2 PS  196602  0.0  1204 ssh-agent
 @batch2 PS  209896  0.0  1204 ssh-agent
 @batch2 PS  383648  0.0  9216 systemd
@@ -95,11 +12,11 @@
 @batch2 PS  387453  0.0  8124 tmux: server
 @batch2 PS  387454  0.0  4608 bash
 @batch2 PS  387461  0.0  2740 ssh-agent
-@batch2 PS  528048  0.0  1536 sleep
-@batch2 PS  532249  0.0  6272 sshd
-@batch2 PS  532250 11.1  3072 bash
-@batch2 PS  532261 1200  4608 ps
-@batch2 PS  532262  0.0  2048 sed
+@batch2 PS 1196189  0.0  1536 sleep
+@batch2 PS 1201415  0.0  6268 sshd
+@batch2 PS 1201416 14.2  3072 bash
+@batch2 PS 1201427 1200  4096 ps
+@batch2 PS 1201428  0.0  2048 sed
 @batch2 PS 1696976  0.0  1204 ssh-agent
 @batch2 PS 1701352  0.0  3252 ssh-agent
 @batch2 PS 1704686  0.0  1204 ssh-agent
@@ -132,5 +49,4 @@
 @batch2 PS 3781114  0.0  1204 ssh-agent
 @batch2 PS 3782593  0.0  1204 ssh-agent
 @batch2 PS 3949839  0.0  1204 ssh-agent
-@batch2 SIZE 28 21,18
-@batch2 SEEN 1785193470
+@batch2 SEEN 1785225865

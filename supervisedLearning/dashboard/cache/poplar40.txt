@@ -1,39 +1,39 @@
-@poplar40 CPU 24 6.00
-@poplar40 MEM 15142 10795
+@poplar40 CPU 24 6.05
+@poplar40 MEM 15142 9856
 @poplar40 PS 3402134  0.0  2980 bash
 @poplar40 PS 3402139  0.0  2036 bash
 @poplar40 PS 3402150  0.0  1996 bash
 @poplar40 PS 3402208  0.0  2324 timeout
-@poplar40 PS 3402210 99.7 1892672 python
+@poplar40 PS 3402210 99.9 1953028 python
 @poplar40 PS 3402229  0.0  2312 timeout
-@poplar40 PS 3402232 99.7 1873892 python
+@poplar40 PS 3402232 99.9 1961048 python
 @poplar40 PS 3402282  0.0  2128 timeout
-@poplar40 PS 3402289 99.8 1921488 python
+@poplar40 PS 3402289 99.9 1995256 python
 @poplar40 PS 3402625  0.0  3532 python
 @poplar40 PS 3402628  0.0  3708 python
 @poplar40 PS 3402629  0.0  3556 python
-@poplar40 PS 3402631 62.0 359052 python
-@poplar40 PS 3402632 89.7 361112 python
-@poplar40 PS 3402635 58.5 366868 python
-@poplar40 PS 3402636 50.3 366788 python
-@poplar40 PS 3402637 33.9 359760 python
-@poplar40 PS 3402641 41.4 361584 python
-@poplar40 PS 3402643 33.7 364116 python
-@poplar40 PS 3402644 30.8 360792 python
-@poplar40 PS 3402647 34.4 363136 python
-@poplar40 PS 3405110  0.1 14396 systemd
+@poplar40 PS 3402631 42.6 187228 python
+@poplar40 PS 3402632 82.9 189880 python
+@poplar40 PS 3402635 46.3 186808 python
+@poplar40 PS 3402636 62.2 185756 python
+@poplar40 PS 3402637 31.8 186968 python
+@poplar40 PS 3402641 38.8 188004 python
+@poplar40 PS 3402643 22.2 186600 python
+@poplar40 PS 3402644 17.2 190416 python
+@poplar40 PS 3402647 72.2 193520 python
+@poplar40 PS 3405110  0.1 14304 systemd
 @poplar40 PS 3405111  0.0  4080 (sd-pam)
 @poplar40 PS 3405131  0.0  5192 dbus-daemon
 @poplar40 PS 3405132  0.0  8372 pipewire
-@poplar40 PS 3405139  0.0  3856 mpris-proxy
+@poplar40 PS 3405139  0.0  3848 mpris-proxy
 @poplar40 PS 3405140  0.0 26792 wireplumber
 @poplar40 PS 3405142  0.0  5764 pipewire
 @poplar40 PS 3405145  0.0 10880 pipewire-pulse
-@poplar40 PS 3690675  0.0  7772 sleep
-@poplar40 PS 3694374  0.0  7712 sleep
-@poplar40 PS 3695432  0.0  8380 sshd-session
-@poplar40 PS 3695433  0.0  4000 bash
-@poplar40 PS 3695445  0.0  4784 ps
-@poplar40 PS 3695446  0.0  2772 sed
+@poplar40 PS 4089734  0.0  7472 sleep
+@poplar40 PS 4093381  0.0  7544 sleep
+@poplar40 PS 4094381  0.0  8328 sshd-session
+@poplar40 PS 4094382  0.0  3960 bash
+@poplar40 PS 4094394  0.0  4792 ps
+@poplar40 PS 4094395  0.0  2752 sed
 @poplar40 SIZE 6 21,18
-@poplar40 SEEN 1785193482
+@poplar40 SEEN 1785225878

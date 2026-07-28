@@ -1,9 +1,9 @@
-@vertex17 CPU 12 6.44
-@vertex17 MEM 15771 8135
+@vertex17 CPU 12 6.12
+@vertex17 MEM 15771 8271
 @vertex17 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex17 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex17 APP 
-@vertex17 PS 2507162  0.0 11420 systemd
+@vertex17 PS 2507162  0.0 11448 systemd
 @vertex17 PS 2507163  0.0  3392 (sd-pam)
 @vertex17 PS 2507174  0.0  6340 pipewire
 @vertex17 PS 2507175  0.0  4664 pipewire
@@ -14,28 +14,28 @@
 @vertex17 PS 2507239  0.0  2288 bash
 @vertex17 PS 2507249  0.0  1844 bash
 @vertex17 PS 2507254  0.0  1832 timeout
-@vertex17 PS 2507256 99.7 2217480 python
+@vertex17 PS 2507256 99.8 2277912 python
 @vertex17 PS 2507303  0.0  1832 timeout
-@vertex17 PS 2507305 99.7 2147280 python
+@vertex17 PS 2507305 99.8 2194200 python
 @vertex17 PS 2507335  0.0  1832 timeout
-@vertex17 PS 2507337 99.7 2158100 python
+@vertex17 PS 2507337 99.8 2205024 python
 @vertex17 PS 2508171  0.0  6064 python
 @vertex17 PS 2508172  0.0  6084 python
 @vertex17 PS 2508173  0.0  5988 python
-@vertex17 PS 2508174 15.9 563032 python
-@vertex17 PS 2508175 23.8 562208 python
-@vertex17 PS 2508176 99.7 563996 python
-@vertex17 PS 2508177 90.3 533152 python
-@vertex17 PS 2508178 48.1 550596 python
-@vertex17 PS 2508179 34.5 526444 python
-@vertex17 PS 2508180 47.9 553536 python
-@vertex17 PS 2508181 68.4 524244 python
-@vertex17 PS 2508182 35.3 530404 python
-@vertex17 PS 2928408  0.0  2080 sleep
-@vertex17 PS 2933620  0.0  2084 sleep
-@vertex17 PS 2938898  0.0  7072 sshd
-@vertex17 PS 2938899  0.0  3580 bash
-@vertex17 PS 2938918  0.0  4608 ps
-@vertex17 PS 2938919  0.0  2324 sed
+@vertex17 PS 2508174 46.4 556312 python
+@vertex17 PS 2508175 41.8 552420 python
+@vertex17 PS 2508176 99.8 556836 python
+@vertex17 PS 2508177 73.3 521892 python
+@vertex17 PS 2508178 28.2 539040 python
+@vertex17 PS 2508179 31.5 520700 python
+@vertex17 PS 2508180 64.1 548236 python
+@vertex17 PS 2508181 58.6 514168 python
+@vertex17 PS 2508182 14.8 513512 python
+@vertex17 PS 3528012  0.0  2080 sleep
+@vertex17 PS 3533094  0.0  2084 sleep
+@vertex17 PS 3538519  0.0  6992 sshd
+@vertex17 PS 3538520  0.0  3576 bash
+@vertex17 PS 3538539  100  4592 ps
+@vertex17 PS 3538540  0.0  2328 sed
 @vertex17 SIZE 6 21,18
-@vertex17 SEEN 1785193505
+@vertex17 SEEN 1785225900

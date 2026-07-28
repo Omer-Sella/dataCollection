@@ -1,44 +1,44 @@
-@poplar08 CPU 24 10.01
-@poplar08 MEM 15658 11937
-@poplar08 PS  144712  0.0  2068 sleep
-@poplar08 PS  148421  0.0  2068 sleep
-@poplar08 PS  151231  0.0  7048 sshd
-@poplar08 PS  151232  0.0  3556 bash
-@poplar08 PS  151243  0.0  4520 ps
-@poplar08 PS  151244  0.0  2316 sed
+@poplar08 CPU 24 9.02
+@poplar08 MEM 15658 12300
+@poplar08 PS  569597  0.0  2076 sleep
+@poplar08 PS  573752  0.0  2072 sleep
+@poplar08 PS  576543  0.0  6992 sshd
+@poplar08 PS  576544  0.0  3604 bash
+@poplar08 PS  576555  0.0  4540 ps
+@poplar08 PS  576556  0.0  2308 sed
 @poplar08 PS 4031776  0.0  2784 bash
 @poplar08 PS 4031781  0.0  1776 bash
 @poplar08 PS 4031791  0.0  1908 bash
 @poplar08 PS 4031829  0.0  1496 timeout
-@poplar08 PS 4031831 99.7 1884088 python
+@poplar08 PS 4031831 99.9 1935252 python
 @poplar08 PS 4031874  0.0  1496 timeout
-@poplar08 PS 4031876 99.8 1923424 python
+@poplar08 PS 4031876 99.9 1994492 python
 @poplar08 PS 4031905  0.0  1496 timeout
-@poplar08 PS 4031907 99.8 1917840 python
+@poplar08 PS 4031907 99.9 2009252 python
 @poplar08 PS 4031930  0.0  1496 timeout
-@poplar08 PS 4031932 99.8 1899344 python
+@poplar08 PS 4031932 99.9 1956484 python
 @poplar08 PS 4032243  0.0  3492 python
 @poplar08 PS 4032246  0.0  3416 python
 @poplar08 PS 4032247  0.0  3300 python
 @poplar08 PS 4032248  0.0  3472 python
-@poplar08 PS 4032249 20.7 302616 python
-@poplar08 PS 4032250 75.2 305760 python
-@poplar08 PS 4032253 94.9 314628 python
-@poplar08 PS 4032254 96.4 296704 python
-@poplar08 PS 4032255 14.6 301876 python
-@poplar08 PS 4032256 26.9 296776 python
-@poplar08 PS 4032259 35.7 293028 python
-@poplar08 PS 4032260 27.1 301376 python
-@poplar08 PS 4032262 90.9 298496 python
-@poplar08 PS 4032263 19.5 306832 python
-@poplar08 PS 4032265 26.9 309432 python
-@poplar08 PS 4032266  4.9 293908 python
-@poplar08 PS 4034171  0.1 11880 systemd
-@poplar08 PS 4034172  0.0  3396 (sd-pam)
-@poplar08 PS 4034191  0.0  8624 pipewire
-@poplar08 PS 4034192  0.0  6016 pipewire
-@poplar08 PS 4034193  0.0 15944 wireplumber
-@poplar08 PS 4034196  0.0 10692 pipewire-pulse
-@poplar08 PS 4034197  0.0  4416 dbus-daemon
+@poplar08 PS 4032249 37.9 297456 python
+@poplar08 PS 4032250 57.8 298972 python
+@poplar08 PS 4032253 74.0 304936 python
+@poplar08 PS 4032254 98.3 291704 python
+@poplar08 PS 4032255 26.1 298868 python
+@poplar08 PS 4032256 27.0 292652 python
+@poplar08 PS 4032259 31.6 284440 python
+@poplar08 PS 4032260 11.5 296148 python
+@poplar08 PS 4032262 73.2 282848 python
+@poplar08 PS 4032263 44.1 297404 python
+@poplar08 PS 4032265 25.4 297548 python
+@poplar08 PS 4032266 18.4 287508 python
+@poplar08 PS 4034171  0.1  9924 systemd
+@poplar08 PS 4034172  0.0  3280 (sd-pam)
+@poplar08 PS 4034191  0.0  8164 pipewire
+@poplar08 PS 4034192  0.0  5608 pipewire
+@poplar08 PS 4034193  0.0 14452 wireplumber
+@poplar08 PS 4034196  0.0  9260 pipewire-pulse
+@poplar08 PS 4034197  0.0  3868 dbus-daemon
 @poplar08 SIZE 8 21,18
-@poplar08 SEEN 1785193480
+@poplar08 SEEN 1785225876

@@ -1,32 +1,29 @@
-@gpu22 CPU 8 8.57
-@gpu22 MEM 64026 10689
+@gpu22 CPU 8 6.38
+@gpu22 MEM 64026 10655
 @gpu22 GPU 98, 6134, 11264
 @gpu22 APP 2123604, 6104
 @gpu22 PS 2088857  0.0  3772 bash
 @gpu22 PS 2088865  0.0  2120 bash
 @gpu22 PS 2088870  0.0  2192 timeout
-@gpu22 PS 2088872 98.3 2657144 python
+@gpu22 PS 2088872 94.6 2677392 python
 @gpu22 PS 2088895  0.0  2196 timeout
-@gpu22 PS 2088897 98.3 2644192 python
+@gpu22 PS 2088897 94.6 2684532 python
 @gpu22 PS 2089265  0.0 11244 python
 @gpu22 PS 2089266  0.0 11220 python
-@gpu22 PS 2089275 45.1 836308 python
-@gpu22 PS 2089276 74.3 837092 python
-@gpu22 PS 2089277 24.5 835048 python
-@gpu22 PS 2089278 52.1 836088 python
-@gpu22 PS 2089279 96.1 832404 python
-@gpu22 PS 2089280 57.3 832748 python
-@gpu22 PS 2427500  0.0  2144 sleep
-@gpu22 PS 2434174  0.0  7152 sshd
-@gpu22 PS 2434175  0.0  3708 bash
-@gpu22 PS 2434188  100  4684 ps
-@gpu22 PS 2434189  0.0  2396 sed
-@gpu22 PS 2807355  0.0 11680 systemd
+@gpu22 PS 2089275 70.1 818672 python
+@gpu22 PS 2089276 56.9 823920 python
+@gpu22 PS 2089277 31.8 820736 python
+@gpu22 PS 2089278 54.5 826244 python
+@gpu22 PS 2089279 91.0 825916 python
+@gpu22 PS 2089280 44.5 821292 python
+@gpu22 PS 2441437  0.0  2136 bash
+@gpu22 PS 2441438  0.0  3936 bash
+@gpu22 PS 2807355  0.0 11616 systemd
 @gpu22 PS 2807356  0.0  3392 (sd-pam)
 @gpu22 PS 2807370  0.0  8212 pipewire
 @gpu22 PS 2807372  0.0  5648 pipewire
-@gpu22 PS 2807374  0.0 15592 wireplumber
-@gpu22 PS 2807375  0.0 10316 pipewire-pulse
+@gpu22 PS 2807374  0.0 15584 wireplumber
+@gpu22 PS 2807375  0.0 10312 pipewire-pulse
 @gpu22 PS 2807394  0.0  4328 dbus-daemon
 @gpu22 PS 2807410  0.0  1512 ssh-agent
 @gpu22 PS 2808087  0.0  1516 ssh-agent
@@ -34,6 +31,12 @@
 @gpu22 PS 2889427  0.0  1544 ssh-agent
 @gpu22 PS 2894502  0.0  1544 ssh-agent
 @gpu22 PS 2898666  0.0  1544 ssh-agent
+@gpu22 PS 2902989  0.0  2144 sleep
+@gpu22 PS 2907987  0.0  2144 sleep
+@gpu22 PS 2908259  0.0  7216 sshd
+@gpu22 PS 2908260  0.0  3648 bash
+@gpu22 PS 2908273  100  4692 ps
+@gpu22 PS 2908274  0.0  2388 sed
 @gpu22 PS 2908295  0.0  1544 ssh-agent
 @gpu22 PS 2911681  0.0  1540 ssh-agent
 @gpu22 PS 2916950  0.0  1544 ssh-agent
@@ -42,4 +45,4 @@
 @gpu22 PS 2965247  0.0  1536 ssh-agent
 @gpu22 PS 3014414  0.0  1544 ssh-agent
 @gpu22 SIZE 4 21,18
-@gpu22 SEEN 1785193469
+@gpu22 SEEN 1785225864

@@ -1,9 +1,15 @@
-@vertex11 CPU 12 7.15
-@vertex11 MEM 15771 9323
+@vertex11 CPU 12 8.03
+@vertex11 MEM 15771 9655
 @vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP 
-@vertex11 PS 3601184  0.0 11352 systemd
+@vertex11 PS  438991  0.0  2036 sleep
+@vertex11 PS  439175  0.0  2060 sleep
+@vertex11 PS  439367  0.0  7064 sshd
+@vertex11 PS  439368  0.0  3540 bash
+@vertex11 PS  439387  0.0  4520 ps
+@vertex11 PS  439388  0.0  2280 sed
+@vertex11 PS 3601184  0.0 11376 systemd
 @vertex11 PS 3601197  0.0  3292 (sd-pam)
 @vertex11 PS 3601215  0.0  6704 pipewire
 @vertex11 PS 3601216  0.0  4908 pipewire
@@ -14,28 +20,22 @@
 @vertex11 PS 3601280  0.0  3296 bash
 @vertex11 PS 3601290  0.0  1928 bash
 @vertex11 PS 3601295  0.0  1976 timeout
-@vertex11 PS 3601297 99.7 2219264 python
+@vertex11 PS 3601297 99.9 2252812 python
 @vertex11 PS 3601331  0.0  1944 timeout
-@vertex11 PS 3601333 99.8 2190520 python
+@vertex11 PS 3601333 99.9 2224044 python
 @vertex11 PS 3601363  0.0  1964 timeout
-@vertex11 PS 3601365 99.8 2223444 python
+@vertex11 PS 3601365 99.9 2256964 python
 @vertex11 PS 3602055  0.0  6768 python
 @vertex11 PS 3602056  0.0  6556 python
 @vertex11 PS 3602057  0.0  6208 python
-@vertex11 PS 3602058 17.5 664216 python
-@vertex11 PS 3602059 37.5 641328 python
-@vertex11 PS 3602060 64.8 663104 python
-@vertex11 PS 3602061 23.9 653616 python
-@vertex11 PS 3602062 46.5 656412 python
-@vertex11 PS 3602063 29.9 656824 python
-@vertex11 PS 3602064 87.4 660124 python
-@vertex11 PS 3602065 39.0 663112 python
-@vertex11 PS 3602066 76.9 653152 python
-@vertex11 PS 4033535  0.0  2032 sleep
-@vertex11 PS 4033601  0.0  2056 sleep
-@vertex11 PS 4033990  0.0  7084 sshd
-@vertex11 PS 4033991  0.0  3556 bash
-@vertex11 PS 4034010  0.0  4616 ps
-@vertex11 PS 4034011  0.0  2332 sed
+@vertex11 PS 3602058  7.3 661984 python
+@vertex11 PS 3602059 37.0 643596 python
+@vertex11 PS 3602060 59.2 665368 python
+@vertex11 PS 3602061 63.5 656988 python
+@vertex11 PS 3602062 67.0 656420 python
+@vertex11 PS 3602063 47.1 657956 python
+@vertex11 PS 3602064 74.0 668216 python
+@vertex11 PS 3602065 25.0 671936 python
+@vertex11 PS 3602066 76.1 655408 python
 @vertex11 SIZE 6 21,18
-@vertex11 SEEN 1785193505
+@vertex11 SEEN 1785225900

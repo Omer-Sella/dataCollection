@@ -1,45 +1,45 @@
-@oak35 CPU 16 10.03
-@oak35 MEM 15766 12076
-@oak35 GPU 3, 81, 2048
-@oak35 PS 2322096  0.1 11292 systemd
-@oak35 PS 2322097  0.0  3372 (sd-pam)
+@oak35 CPU 16 9.07
+@oak35 MEM 15766 12291
+@oak35 GPU 0, 81, 2048
+@oak35 PS 2322096  0.1 11316 systemd
+@oak35 PS 2322097  0.0  3240 (sd-pam)
 @oak35 PS 2322109  0.0  6172 pipewire
 @oak35 PS 2322110  0.0  4724 pipewire
-@oak35 PS 2322112  0.0 13296 wireplumber
-@oak35 PS 2322114  0.0  7856 pipewire-pulse
+@oak35 PS 2322112  0.0 13372 wireplumber
+@oak35 PS 2322114  0.0  7808 pipewire-pulse
 @oak35 PS 2322133  0.0  4084 dbus-daemon
 @oak35 PS 2322168  0.0  3256 bash
 @oak35 PS 2322173  0.0  2200 bash
 @oak35 PS 2322183  0.0  1920 bash
 @oak35 PS 2322188  0.0  1944 timeout
-@oak35 PS 2322190 99.4 2113100 python
+@oak35 PS 2322190 99.8 1883596 python
 @oak35 PS 2322208  0.0  1928 timeout
-@oak35 PS 2322210 99.4 2105584 python
+@oak35 PS 2322210 99.8 1862012 python
 @oak35 PS 2322228  0.0  1928 timeout
-@oak35 PS 2322230 99.4 2121156 python
+@oak35 PS 2322230 99.8 1864660 python
 @oak35 PS 2322264  0.0  1944 timeout
-@oak35 PS 2322266 99.4 2114332 python
-@oak35 PS 2322855  0.0  6132 python
-@oak35 PS 2322856  0.0  6128 python
-@oak35 PS 2322857  0.0  6124 python
-@oak35 PS 2322858  0.0  6080 python
-@oak35 PS 2322859 36.5 623140 python
-@oak35 PS 2322860 23.3 617876 python
-@oak35 PS 2322861 67.6 624160 python
-@oak35 PS 2322862 20.2 622852 python
-@oak35 PS 2322863 52.8 641760 python
-@oak35 PS 2322864 98.3 628332 python
-@oak35 PS 2322865 26.4 624064 python
-@oak35 PS 2322866 42.3 631376 python
-@oak35 PS 2322867 85.5 609288 python
-@oak35 PS 2322868 19.9 604800 python
-@oak35 PS 2322869 81.8 637968 python
-@oak35 PS 2322870 85.8 594224 python
-@oak35 PS 2463103  0.0  2036 sleep
-@oak35 PS 2466777  0.0  2064 sleep
-@oak35 PS 2472215  0.0  7028 sshd
-@oak35 PS 2472224  0.0  3520 bash
-@oak35 PS 2472235  100  4612 ps
-@oak35 PS 2472236  0.0  2300 sed
+@oak35 PS 2322266 99.8 1877332 python
+@oak35 PS 2322855  0.0  4052 python
+@oak35 PS 2322856  0.0  4052 python
+@oak35 PS 2322857  0.0  4040 python
+@oak35 PS 2322858  0.0  4008 python
+@oak35 PS 2322859 26.5 334008 python
+@oak35 PS 2322860 25.8 330672 python
+@oak35 PS 2322861 91.6 339364 python
+@oak35 PS 2322862 42.0 329312 python
+@oak35 PS 2322863 39.3 348120 python
+@oak35 PS 2322864 40.2 338892 python
+@oak35 PS 2322865 25.4 336576 python
+@oak35 PS 2322866 39.1 338864 python
+@oak35 PS 2322867 70.1 315776 python
+@oak35 PS 2322868 14.9 315228 python
+@oak35 PS 2322869 81.2 352860 python
+@oak35 PS 2322870 78.5 304580 python
+@oak35 PS 2896653  0.0  2052 sleep
+@oak35 PS 2896716  0.0  2036 sleep
+@oak35 PS 2897982  0.0  7048 sshd
+@oak35 PS 2897983  0.0  3552 bash
+@oak35 PS 2897994  0.0  4584 ps
+@oak35 PS 2897995  0.0  2280 sed
 @oak35 SIZE 8 21,18
-@oak35 SEEN 1785193467
+@oak35 SEEN 1785225985

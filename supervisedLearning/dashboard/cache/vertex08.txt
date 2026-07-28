@@ -1,9 +1,9 @@
-@vertex08 CPU 12 7.24
-@vertex08 MEM 15771 8334
+@vertex08 CPU 12 7.50
+@vertex08 MEM 15771 8242
 @vertex08 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex08 APP 
-@vertex08 PS 1602806  0.0 11312 systemd
+@vertex08 PS 1602806  0.0 11316 systemd
 @vertex08 PS 1602807  0.0  3412 (sd-pam)
 @vertex08 PS 1602824  0.0  7932 pipewire
 @vertex08 PS 1602825  0.0  5816 pipewire
@@ -14,28 +14,28 @@
 @vertex08 PS 1602896  0.0  2412 bash
 @vertex08 PS 1602906  0.0  1656 bash
 @vertex08 PS 1602911  0.0  1984 timeout
-@vertex08 PS 1602913 99.4 1879176 python
+@vertex08 PS 1602913 99.7 1919396 python
 @vertex08 PS 1602948  0.0  1980 timeout
-@vertex08 PS 1602950 99.4 1880308 python
+@vertex08 PS 1602950 99.7 1920520 python
 @vertex08 PS 1602997  0.0  1984 timeout
-@vertex08 PS 1602999 99.4 1859144 python
+@vertex08 PS 1602999 99.7 1899364 python
 @vertex08 PS 1604146  0.0  4056 python
 @vertex08 PS 1604147  0.0  4040 python
 @vertex08 PS 1604148  0.0  4036 python
-@vertex08 PS 1604149 36.6 215700 python
-@vertex08 PS 1604150 32.1 209716 python
-@vertex08 PS 1604151 90.6 218584 python
-@vertex08 PS 1604152 83.7 217512 python
-@vertex08 PS 1604153 93.6 212420 python
-@vertex08 PS 1604154 10.0 224708 python
-@vertex08 PS 1604155 35.6 207292 python
-@vertex08 PS 1604156 51.3 219084 python
-@vertex08 PS 1604157 46.3 219100 python
-@vertex08 PS 2062768  0.0  2092 sleep
-@vertex08 PS 2062849  0.0  2080 sleep
-@vertex08 PS 2063425  0.0  7104 sshd
-@vertex08 PS 2063426  0.0  3620 bash
-@vertex08 PS 2063445  0.0  4652 ps
-@vertex08 PS 2063446  0.0  2332 sed
+@vertex08 PS 1604149 33.3 217932 python
+@vertex08 PS 1604150 26.6 209736 python
+@vertex08 PS 1604151 96.0 215264 python
+@vertex08 PS 1604152 76.1 214172 python
+@vertex08 PS 1604153 91.1 213544 python
+@vertex08 PS 1604154 45.9 222504 python
+@vertex08 PS 1604155 47.3 210656 python
+@vertex08 PS 1604156 50.7 220088 python
+@vertex08 PS 1604157 38.8 226792 python
+@vertex08 PS 2705931  0.0  2088 sleep
+@vertex08 PS 2706069  0.0  2084 sleep
+@vertex08 PS 2706450  0.0  7032 sshd
+@vertex08 PS 2706451  0.0  3624 bash
+@vertex08 PS 2706470  0.0  4644 ps
+@vertex08 PS 2706471  0.0  2332 sed
 @vertex08 SIZE 6 21,18
-@vertex08 SEEN 1785193504
+@vertex08 SEEN 1785225899

@@ -1,44 +1,44 @@
-@yew16 CPU 24 9.15
-@yew16 MEM 15658 11836
-@yew16 PS   87295  0.0  2064 sleep
-@yew16 PS   87384  0.0  2060 sleep
-@yew16 PS   89396  0.0  7004 sshd
-@yew16 PS   89397  0.0  3632 bash
-@yew16 PS   89408  100  4568 ps
-@yew16 PS   89409  0.0  2312 sed
+@yew16 CPU 24 9.09
+@yew16 MEM 15658 11990
+@yew16 PS  515539  0.0  2064 sleep
+@yew16 PS  515771  0.0  2072 sleep
+@yew16 PS  517572  0.0  7072 sshd
+@yew16 PS  517573  0.0  3604 bash
+@yew16 PS  517584  200  4544 ps
+@yew16 PS  517585  0.0  2316 sed
 @yew16 PS 3960316  0.0  2904 bash
 @yew16 PS 3960321  0.0  1824 bash
 @yew16 PS 3960339  0.0  1928 bash
 @yew16 PS 3960344  0.0  1532 timeout
-@yew16 PS 3960346 99.7 1793312 python
+@yew16 PS 3960346 99.8 1823540 python
 @yew16 PS 3960363  0.0  1532 timeout
-@yew16 PS 3960365 99.7 1796148 python
+@yew16 PS 3960365 99.8 1812944 python
 @yew16 PS 3960388  0.0  1532 timeout
-@yew16 PS 3960390 99.7 1807948 python
+@yew16 PS 3960390 99.8 1831268 python
 @yew16 PS 3960478  0.0  1532 timeout
-@yew16 PS 3960480 99.7 1810568 python
+@yew16 PS 3960480 99.9 1820608 python
 @yew16 PS 3960923  0.0  3400 python
 @yew16 PS 3960924  0.0  3412 python
 @yew16 PS 3960926  0.0  3456 python
 @yew16 PS 3960927  0.0  3460 python
-@yew16 PS 3960936 55.8 320808 python
-@yew16 PS 3960937 65.1 297972 python
-@yew16 PS 3960940 61.8 320756 python
-@yew16 PS 3960941  6.9 304092 python
-@yew16 PS 3960942 37.8 313628 python
-@yew16 PS 3960943  0.8 309040 python
-@yew16 PS 3960946 79.7 343452 python
-@yew16 PS 3960947 70.2 338172 python
-@yew16 PS 3960948 46.5 315968 python
-@yew16 PS 3960950 81.3 307776 python
-@yew16 PS 3960951 26.1 320536 python
-@yew16 PS 3960953 67.8 322176 python
-@yew16 PS 3962641  0.2 11940 systemd
-@yew16 PS 3962642  0.0  3412 (sd-pam)
-@yew16 PS 3962652  0.0  8720 pipewire
-@yew16 PS 3962653  0.0  6068 pipewire
-@yew16 PS 3962656  0.0 16036 wireplumber
-@yew16 PS 3962657  0.0 10612 pipewire-pulse
-@yew16 PS 3962661  0.0  4436 dbus-daemon
+@yew16 PS 3960936 79.6 309336 python
+@yew16 PS 3960937 34.4 281472 python
+@yew16 PS 3960940 40.0 308424 python
+@yew16 PS 3960941 15.5 291692 python
+@yew16 PS 3960942 66.2 308056 python
+@yew16 PS 3960943  0.4 302964 python
+@yew16 PS 3960946 80.0 329896 python
+@yew16 PS 3960947 42.0 327928 python
+@yew16 PS 3960948 33.0 298948 python
+@yew16 PS 3960950 89.9 302040 python
+@yew16 PS 3960951 22.9 311824 python
+@yew16 PS 3960953 72.6 313128 python
+@yew16 PS 3962641  0.2 11648 systemd
+@yew16 PS 3962642  0.0  3368 (sd-pam)
+@yew16 PS 3962652  0.0  8668 pipewire
+@yew16 PS 3962653  0.0  6016 pipewire
+@yew16 PS 3962656  0.0 15648 wireplumber
+@yew16 PS 3962657  0.0 10544 pipewire-pulse
+@yew16 PS 3962661  0.0  4252 dbus-daemon
 @yew16 SIZE 8 21,18
-@yew16 SEEN 1785193472
+@yew16 SEEN 1785225867

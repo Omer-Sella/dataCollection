@@ -1,45 +1,17 @@
-@oak03 CPU 16 15.21
-@oak03 MEM 15766 12030
-@oak03 GPU 0, 88, 2048
-@oak03 PS 2762811  0.1 11104 systemd
-@oak03 PS 2762812  0.0  3320 (sd-pam)
+@oak03 CPU 16 1.26
+@oak03 MEM 15766 1597
+@oak03 GPU 1, 88, 2048
+@oak03 PS 2762811  0.1 11136 systemd
+@oak03 PS 2762812  0.0  3168 (sd-pam)
 @oak03 PS 2762824  0.0  6076 pipewire
 @oak03 PS 2762825  0.0  4616 pipewire
 @oak03 PS 2762827  0.0 13368 wireplumber
-@oak03 PS 2762829  0.0  7708 pipewire-pulse
-@oak03 PS 2762851  0.0  3864 dbus-daemon
-@oak03 PS 2762883  0.0  3272 bash
-@oak03 PS 2762888  0.0  2204 bash
-@oak03 PS 2762898  0.0  1928 bash
-@oak03 PS 2762911  0.0  1920 timeout
-@oak03 PS 2762913 98.9 2128440 python
-@oak03 PS 2762945  0.0  1956 timeout
-@oak03 PS 2762950 98.9 2123744 python
-@oak03 PS 2762966  0.0  1908 timeout
-@oak03 PS 2762970 99.0 2129984 python
-@oak03 PS 2762998  0.0  1960 timeout
-@oak03 PS 2763003 99.0 2124560 python
-@oak03 PS 2764081  0.0  7364 python
-@oak03 PS 2764082  0.0  7232 python
-@oak03 PS 2764083  0.0  7208 python
-@oak03 PS 2764084  0.0  7368 python
-@oak03 PS 2764085 15.6 606836 python
-@oak03 PS 2764086 46.6 618884 python
-@oak03 PS 2764087 96.3 610008 python
-@oak03 PS 2764088 73.6 606316 python
-@oak03 PS 2764089 44.7 611116 python
-@oak03 PS 2764090 85.6 608900 python
-@oak03 PS 2764091 61.7 606296 python
-@oak03 PS 2764092 14.5 610456 python
-@oak03 PS 2764093 51.2 603872 python
-@oak03 PS 2764094 98.3 613976 python
-@oak03 PS 2764095 66.6 613000 python
-@oak03 PS 2764096 79.2 615740 python
-@oak03 PS 2914252  0.0  2064 sleep
-@oak03 PS 2914290  0.0  2032 sleep
-@oak03 PS 2915305  0.0  7056 sshd
-@oak03 PS 2915306  0.0  3592 bash
-@oak03 PS 2915317  100  4584 ps
-@oak03 PS 2915318  0.0  2304 sed
-@oak03 SIZE 8 21,18
-@oak03 SEEN 1785193458
+@oak03 PS 2762829  0.0  7624 pipewire-pulse
+@oak03 PS 2762851  0.0  3860 dbus-daemon
+@oak03 PS 2762898  0.0  1920 bash
+@oak03 PS 3348089  0.0  2032 sleep
+@oak03 PS 3350632  0.0  7088 sshd
+@oak03 PS 3350633  0.0  3596 bash
+@oak03 PS 3350652  0.0  4536 ps
+@oak03 PS 3350653  0.0  2316 sed
+@oak03 SEEN 1785225979

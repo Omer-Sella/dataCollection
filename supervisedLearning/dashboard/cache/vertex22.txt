@@ -1,6 +1,6 @@
-@vertex22 CPU 12 7.27
-@vertex22 MEM 15255 10456
-@vertex22 PS 3208030  0.1 14012 systemd
+@vertex22 CPU 12 7.14
+@vertex22 MEM 15255 9902
+@vertex22 PS 3208030  0.1 13756 systemd
 @vertex22 PS 3208031  0.0  4072 (sd-pam)
 @vertex22 PS 3208051  0.0  4720 dbus-daemon
 @vertex22 PS 3208052  0.0  5848 pipewire
@@ -12,28 +12,28 @@
 @vertex22 PS 3208209  0.0  2396 bash
 @vertex22 PS 3208219  0.0  1968 bash
 @vertex22 PS 3208226  0.0  6112 timeout
-@vertex22 PS 3208235 99.7 2212348 python
+@vertex22 PS 3208235 99.8 2251968 python
 @vertex22 PS 3208262  0.0  6028 timeout
-@vertex22 PS 3208264 99.7 2207500 python
+@vertex22 PS 3208264 99.8 2260520 python
 @vertex22 PS 3208300  0.0  6228 timeout
-@vertex22 PS 3208302 99.7 2213384 python
+@vertex22 PS 3208302 99.8 2246284 python
 @vertex22 PS 3208769  0.0  6844 python
 @vertex22 PS 3208770  0.0  6720 python
 @vertex22 PS 3208771  0.0  6756 python
-@vertex22 PS 3208772 65.6 620768 python
-@vertex22 PS 3208773 17.7 597032 python
-@vertex22 PS 3208774 80.4 614120 python
-@vertex22 PS 3208775 95.2 618316 python
-@vertex22 PS 3208776 42.6 621452 python
-@vertex22 PS 3208777 40.1 622364 python
-@vertex22 PS 3208778 23.1 647524 python
-@vertex22 PS 3208779 62.9 591584 python
-@vertex22 PS 3208780 99.6 616264 python
-@vertex22 PS 3482917  0.0  7620 sleep
-@vertex22 PS 3486368  0.0  7544 sleep
-@vertex22 PS 3489669  0.0  8360 sshd-session
-@vertex22 PS 3489670  0.0  3836 bash
-@vertex22 PS 3489682  0.0  4624 ps
-@vertex22 PS 3489683  0.0  2676 sed
+@vertex22 PS 3208772 68.9 485696 python
+@vertex22 PS 3208773 38.8 476564 python
+@vertex22 PS 3208774 90.4 482972 python
+@vertex22 PS 3208775 56.5 478992 python
+@vertex22 PS 3208776 27.5 510836 python
+@vertex22 PS 3208777 37.5 481812 python
+@vertex22 PS 3208778 34.6 514708 python
+@vertex22 PS 3208779 57.6 484608 python
+@vertex22 PS 3208780 99.8 476820 python
+@vertex22 PS 3874112  0.0  7620 sleep
+@vertex22 PS 3877415  0.0  7748 sleep
+@vertex22 PS 3881090  0.0  8360 sshd-session
+@vertex22 PS 3881091  0.0  3868 bash
+@vertex22 PS 3881105  0.0  4624 ps
+@vertex22 PS 3881106  0.0  2708 sed
 @vertex22 SIZE 6 21,18
-@vertex22 SEEN 1785193505
+@vertex22 SEEN 1785225900

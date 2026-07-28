@@ -1,45 +1,45 @@
-@oak24 CPU 16 9.10
-@oak24 MEM 15766 12408
+@oak24 CPU 16 10.08
+@oak24 MEM 15766 12217
 @oak24 GPU 0, 92, 2048
-@oak24 PS 1609116  0.1 11164 systemd
-@oak24 PS 1609117  0.0  3344 (sd-pam)
-@oak24 PS 1609129  0.0  6380 pipewire
-@oak24 PS 1609130  0.0  4692 pipewire
-@oak24 PS 1609131  0.0 13604 wireplumber
-@oak24 PS 1609134  0.0  8068 pipewire-pulse
-@oak24 PS 1609154  0.0  4324 dbus-daemon
-@oak24 PS 1609196  0.0  3300 bash
+@oak24 PS 1609116  0.1 11156 systemd
+@oak24 PS 1609117  0.0  3340 (sd-pam)
+@oak24 PS 1609129  0.0  6072 pipewire
+@oak24 PS 1609130  0.0  4628 pipewire
+@oak24 PS 1609131  0.0 13396 wireplumber
+@oak24 PS 1609134  0.0  7860 pipewire-pulse
+@oak24 PS 1609154  0.0  4104 dbus-daemon
+@oak24 PS 1609196  0.0  2852 bash
 @oak24 PS 1609201  0.0  2224 bash
-@oak24 PS 1609211  0.0  1920 bash
+@oak24 PS 1609211  0.0  1600 bash
 @oak24 PS 1609216  0.0  1956 timeout
-@oak24 PS 1609218 99.3 1886760 python
+@oak24 PS 1609218 99.8 1914584 python
 @oak24 PS 1609252  0.0  1944 timeout
-@oak24 PS 1609254 99.3 1897536 python
+@oak24 PS 1609254 99.8 1925216 python
 @oak24 PS 1609273  0.0  1932 timeout
-@oak24 PS 1609275 99.3 1892504 python
+@oak24 PS 1609275 99.8 1926980 python
 @oak24 PS 1609294  0.0  1928 timeout
-@oak24 PS 1609296 99.3 1904236 python
-@oak24 PS 1609983  0.0  4920 python
-@oak24 PS 1609984  0.0  4952 python
-@oak24 PS 1609985  0.0  4948 python
-@oak24 PS 1609986  0.0  4952 python
-@oak24 PS 1609987 62.1 414432 python
-@oak24 PS 1609988 60.5 415480 python
-@oak24 PS 1609989 72.1 421200 python
-@oak24 PS 1609990 66.9 421324 python
-@oak24 PS 1609991 50.3 413636 python
-@oak24 PS 1609992 66.9 417232 python
-@oak24 PS 1609993 64.5 418844 python
-@oak24 PS 1609994 64.3 416404 python
-@oak24 PS 1609995 13.7 409032 python
-@oak24 PS 1609996 88.5 421248 python
-@oak24 PS 1609997 20.1 414700 python
-@oak24 PS 1609998 33.9 420176 python
-@oak24 PS 1757135  0.0  2060 sleep
-@oak24 PS 1757172  0.0  2064 sleep
-@oak24 PS 1757401  0.0  7028 sshd
-@oak24 PS 1757402  0.0  3584 bash
-@oak24 PS 1757434  0.0  4496 ps
-@oak24 PS 1757435  0.0  2252 sed
+@oak24 PS 1609296 99.8 1932124 python
+@oak24 PS 1609983  0.0  4224 python
+@oak24 PS 1609984  0.0  4256 python
+@oak24 PS 1609985  0.0  4252 python
+@oak24 PS 1609986  0.0  4256 python
+@oak24 PS 1609987 25.2 368544 python
+@oak24 PS 1609988 69.3 365124 python
+@oak24 PS 1609989 76.7 345840 python
+@oak24 PS 1609990 36.4 370288 python
+@oak24 PS 1609991 66.8 361680 python
+@oak24 PS 1609992 85.2 367852 python
+@oak24 PS 1609993 41.6 364224 python
+@oak24 PS 1609994 74.5 343044 python
+@oak24 PS 1609995 13.5 356368 python
+@oak24 PS 1609996 92.9 363568 python
+@oak24 PS 1609997 65.7 364476 python
+@oak24 PS 1609998 27.8 364048 python
+@oak24 PS 2182670  0.0  2060 sleep
+@oak24 PS 2182742  0.0  2052 sleep
+@oak24 PS 2184365  0.0  7036 sshd
+@oak24 PS 2184366  0.0  3552 bash
+@oak24 PS 2184377  0.0  4524 ps
+@oak24 PS 2184378  0.0  2272 sed
 @oak24 SIZE 8 21,18
-@oak24 SEEN 1785193461
+@oak24 SEEN 1785225979

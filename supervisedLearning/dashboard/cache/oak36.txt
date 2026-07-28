@@ -1,45 +1,45 @@
-@oak36 CPU 16 9.02
-@oak36 MEM 15766 12122
-@oak36 GPU 0, 81, 2048
-@oak36 PS 1616864  0.1 11064 systemd
-@oak36 PS 1616865  0.0  3368 (sd-pam)
-@oak36 PS 1616876  0.0  6404 pipewire
-@oak36 PS 1616877  0.0  4704 pipewire
-@oak36 PS 1616879  0.0 12724 wireplumber
-@oak36 PS 1616881  0.0  7084 pipewire-pulse
-@oak36 PS 1616902  0.0  4192 dbus-daemon
-@oak36 PS 1616935  0.0  3268 bash
+@oak36 CPU 16 11.04
+@oak36 MEM 15766 12400
+@oak36 GPU 3, 81, 2048
+@oak36 PS 1616864  0.1 11084 systemd
+@oak36 PS 1616865  0.0  2856 (sd-pam)
+@oak36 PS 1616876  0.0  6172 pipewire
+@oak36 PS 1616877  0.0  4492 pipewire
+@oak36 PS 1616879  0.0 12464 wireplumber
+@oak36 PS 1616881  0.0  6992 pipewire-pulse
+@oak36 PS 1616902  0.0  4132 dbus-daemon
+@oak36 PS 1616935  0.0  2944 bash
 @oak36 PS 1616940  0.0  2232 bash
-@oak36 PS 1616950  0.0  1940 bash
+@oak36 PS 1616950  0.0  1692 bash
 @oak36 PS 1616955  0.0  1956 timeout
-@oak36 PS 1616957 99.4 1886852 python
+@oak36 PS 1616957 99.8 1889312 python
 @oak36 PS 1616992  0.0  1968 timeout
-@oak36 PS 1616994 99.4 1892160 python
+@oak36 PS 1616994 99.8 1908768 python
 @oak36 PS 1617021  0.0  1948 timeout
-@oak36 PS 1617023 99.5 1860356 python
+@oak36 PS 1617023 99.8 1862628 python
 @oak36 PS 1617046  0.0  1940 timeout
-@oak36 PS 1617048 99.5 1873028 python
-@oak36 PS 1617565  0.0  4880 python
-@oak36 PS 1617566  0.0  4812 python
-@oak36 PS 1617567  0.0  4836 python
-@oak36 PS 1617568  0.0  4892 python
-@oak36 PS 1617569 27.2 371944 python
-@oak36 PS 1617570 28.5 372652 python
-@oak36 PS 1617571 19.4 394032 python
-@oak36 PS 1617572 84.2 378588 python
-@oak36 PS 1617573 34.3 383844 python
-@oak36 PS 1617574 89.9 374364 python
-@oak36 PS 1617575 59.5 388520 python
-@oak36 PS 1617576 31.4 370104 python
-@oak36 PS 1617577 26.2 369380 python
-@oak36 PS 1617578 13.9 386084 python
-@oak36 PS 1617579 24.1 388680 python
-@oak36 PS 1617580 61.4 387352 python
-@oak36 PS 1759874  0.0  2084 sleep
-@oak36 PS 1763526  0.0  2084 sleep
-@oak36 PS 1767211  0.0  7104 sshd
-@oak36 PS 1767213  0.0  3584 bash
-@oak36 PS 1767224  0.0  4648 ps
-@oak36 PS 1767225  0.0  2340 sed
+@oak36 PS 1617048 99.8 1868984 python
+@oak36 PS 1617565  0.0  4068 python
+@oak36 PS 1617566  0.0  4004 python
+@oak36 PS 1617567  0.0  4024 python
+@oak36 PS 1617568  0.0  4080 python
+@oak36 PS 1617569 26.6 322828 python
+@oak36 PS 1617570 55.4 340768 python
+@oak36 PS 1617571 25.7 360648 python
+@oak36 PS 1617572 40.0 339344 python
+@oak36 PS 1617573 45.3 348108 python
+@oak36 PS 1617574 91.2 327528 python
+@oak36 PS 1617575 78.6 342496 python
+@oak36 PS 1617576 41.7 327292 python
+@oak36 PS 1617577 16.5 332420 python
+@oak36 PS 1617578 52.5 345456 python
+@oak36 PS 1617579 28.5 344752 python
+@oak36 PS 1617580 42.3 342788 python
+@oak36 PS 2193475  0.0  2088 sleep
+@oak36 PS 2193546  0.0  2088 sleep
+@oak36 PS 2194768  0.0  7108 sshd
+@oak36 PS 2194769  0.0  3632 bash
+@oak36 PS 2194780  0.0  4648 ps
+@oak36 PS 2194781  0.0  2340 sed
 @oak36 SIZE 8 21,18
-@oak36 SEEN 1785193467
+@oak36 SEEN 1785225985

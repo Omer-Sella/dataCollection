@@ -1,12 +1,12 @@
-@gpu31 CPU 16 8.72
-@gpu31 MEM 64222 21923
-@gpu31 GPU 22, 15682, 16376
+@gpu31 CPU 16 11.60
+@gpu31 MEM 64222 22266
+@gpu31 GPU 29, 15682, 16376
 @gpu31 APP 962638, 15628
-@gpu31 PS   10347  0.0  2088 sleep
-@gpu31 PS   15625  0.0  7000 sshd
-@gpu31 PS   15626  0.0  3680 bash
-@gpu31 PS   15662  100  4600 ps
-@gpu31 PS   15663  0.0  2324 sed
+@gpu31 PS   26006  0.0  2152 bash
+@gpu31 PS   26007  0.0  3804 bash
+@gpu31 PS   33570  0.0  6988 sshd
+@gpu31 PS   33573  0.0  2156 bash
+@gpu31 PS   33574  0.0  3736 bash
 @gpu31 PS   61986  0.0  1544 ssh-agent
 @gpu31 PS   64407  0.0  1548 ssh-agent
 @gpu31 PS   69729  0.0  1540 ssh-agent
@@ -18,6 +18,13 @@
 @gpu31 PS  137296  0.0  1540 ssh-agent
 @gpu31 PS  145519  0.0  1544 ssh-agent
 @gpu31 PS  198098  0.0  1544 ssh-agent
+@gpu31 PS  608848  0.0  2084 sleep
+@gpu31 PS  613860  0.0  2080 sleep
+@gpu31 PS  614299  0.0  2084 sleep
+@gpu31 PS  614616  0.0  6960 sshd
+@gpu31 PS  614617  0.0  3648 bash
+@gpu31 PS  614630  0.0  4628 ps
+@gpu31 PS  614631  0.0  2328 sed
 @gpu31 PS 1006990  0.0  3212 ssh-agent
 @gpu31 PS 1019141  0.0  1536 ssh-agent
 @gpu31 PS 1054479  0.0  1548 ssh-agent
@@ -34,29 +41,29 @@
 @gpu31 PS 3808691  0.0  3712 bash
 @gpu31 PS 3808699  0.0  2088 bash
 @gpu31 PS 3808704  0.0  2132 timeout
-@gpu31 PS 3808706 99.7 2671516 python
+@gpu31 PS 3808706 99.8 2772052 python
 @gpu31 PS 3808733  0.0  2128 timeout
-@gpu31 PS 3808735 99.7 2651380 python
+@gpu31 PS 3808735 99.8 2745216 python
 @gpu31 PS 3808773  0.0  2104 timeout
-@gpu31 PS 3808775 99.7 2645880 python
+@gpu31 PS 3808775 99.8 2712896 python
 @gpu31 PS 3808797  0.0  2128 timeout
-@gpu31 PS 3808799 99.7 2649564 python
+@gpu31 PS 3808799 99.8 2709880 python
 @gpu31 PS 3809056  0.0 11040 python
 @gpu31 PS 3809057  0.0 11092 python
 @gpu31 PS 3809058  0.0 11172 python
 @gpu31 PS 3809059  0.0 11136 python
-@gpu31 PS 3809060 45.3 827788 python
-@gpu31 PS 3809061 50.1 824312 python
-@gpu31 PS 3809062 40.8 829128 python
-@gpu31 PS 3809063 74.1 833324 python
-@gpu31 PS 3809064 51.2 827592 python
-@gpu31 PS 3809065 59.1 834060 python
-@gpu31 PS 3809066 34.9 831316 python
-@gpu31 PS 3809067 71.8 828892 python
-@gpu31 PS 3809068 69.4 837768 python
-@gpu31 PS 3809069 53.6 833244 python
-@gpu31 PS 3809070 62.0 832156 python
-@gpu31 PS 3809071 73.7 831272 python
+@gpu31 PS 3809060 65.3 827804 python
+@gpu31 PS 3809061 32.8 830896 python
+@gpu31 PS 3809062 51.5 829144 python
+@gpu31 PS 3809063 81.8 832232 python
+@gpu31 PS 3809064 33.9 834184 python
+@gpu31 PS 3809065 33.9 834072 python
+@gpu31 PS 3809066 32.2 829088 python
+@gpu31 PS 3809067 47.3 835480 python
+@gpu31 PS 3809068 86.8 832940 python
+@gpu31 PS 3809069 38.4 832148 python
+@gpu31 PS 3809070 53.4 837764 python
+@gpu31 PS 3809071 73.2 831152 python
 @gpu31 PS 4062481  0.0  1548 ssh-agent
 @gpu31 PS 4162629  0.0  1548 ssh-agent
 @gpu31 PS 4163316  0.0  1544 ssh-agent
@@ -66,4 +73,4 @@
 @gpu31 PS 4188786  0.0  1540 ssh-agent
 @gpu31 PS 4191131  0.0  1540 ssh-agent
 @gpu31 SIZE 8 21,18
-@gpu31 SEEN 1785193468
+@gpu31 SEEN 1785225864

@@ -1,26 +1,17 @@
-@gpu27 CPU 8 5.22
-@gpu27 MEM 64219 9728
+@gpu27 CPU 8 4.32
+@gpu27 MEM 64219 8118
 @gpu27 GPU 0, 137, 8192
 @gpu27 PS  670439  0.0  3608 bash
 @gpu27 PS  670447  0.0  2104 bash
-@gpu27 PS  670452  0.0  2136 timeout
-@gpu27 PS  670454 99.5 2638280 python
-@gpu27 PS  670475  0.0  2140 timeout
-@gpu27 PS  670477 99.5 2637624 python
-@gpu27 PS  670844  0.0 11124 python
-@gpu27 PS  670845  0.0 11156 python
-@gpu27 PS  670846 99.4 829440 python
-@gpu27 PS  670847 49.8 834096 python
-@gpu27 PS  670848 66.6 832272 python
-@gpu27 PS  670849 27.2 824960 python
-@gpu27 PS  670850 84.7 835912 python
-@gpu27 PS  670851 15.3 830256 python
-@gpu27 PS  984805  0.0  2084 sleep
-@gpu27 PS  989170  0.0  7124 sshd
-@gpu27 PS  989171  0.0  3644 bash
-@gpu27 PS  989182  0.0  4644 ps
-@gpu27 PS  989183  0.0  2336 sed
-@gpu27 PS 1649112  0.0 12120 systemd
+@gpu27 PS  997004  0.0  2140 bash
+@gpu27 PS  997005  0.0  3868 bash
+@gpu27 PS 1496909  0.0  2088 sleep
+@gpu27 PS 1501814  0.0  2088 sleep
+@gpu27 PS 1501996  0.0  7164 sshd
+@gpu27 PS 1501998  0.0  3648 bash
+@gpu27 PS 1502009  0.0  4632 ps
+@gpu27 PS 1502010  0.0  2336 sed
+@gpu27 PS 1649112  0.0 12128 systemd
 @gpu27 PS 1649113  0.0  3448 (sd-pam)
 @gpu27 PS 1649125  0.0  8932 pipewire
 @gpu27 PS 1649126  0.0  6188 pipewire
@@ -47,5 +38,4 @@
 @gpu27 PS 1845401  0.0  1544 ssh-agent
 @gpu27 PS 1863611  0.0  1544 ssh-agent
 @gpu27 PS 1864888  0.0  1544 ssh-agent
-@gpu27 SIZE 4 21,18
-@gpu27 SEEN 1785193468
+@gpu27 SEEN 1785225864

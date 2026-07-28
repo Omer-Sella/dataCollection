@@ -1,5 +1,5 @@
-@gpu32 CPU 16 9.32
-@gpu32 MEM 64222 19042
+@gpu32 CPU 16 13.12
+@gpu32 MEM 64222 19319
 @gpu32 GPU 100, 15401, 16376
 @gpu32 APP 2641680, 15292
 @gpu32 PS  371686  0.0  1548 ssh-agent
@@ -7,29 +7,29 @@
 @gpu32 PS 1260117  0.0  3624 bash
 @gpu32 PS 1260125  0.0  2120 bash
 @gpu32 PS 1260130  0.0  2136 timeout
-@gpu32 PS 1260132 99.8 2655284 python
+@gpu32 PS 1260132 99.8 2708808 python
 @gpu32 PS 1260163  0.0  2136 timeout
-@gpu32 PS 1260165 99.8 2647840 python
+@gpu32 PS 1260165 99.8 2708052 python
 @gpu32 PS 1260188  0.0  2088 timeout
-@gpu32 PS 1260190 99.8 2706656 python
+@gpu32 PS 1260190 99.8 2787020 python
 @gpu32 PS 1260222  0.0  2136 timeout
-@gpu32 PS 1260224 99.8 2652792 python
+@gpu32 PS 1260224 99.8 2719736 python
 @gpu32 PS 1260473  0.0 11136 python
 @gpu32 PS 1260474  0.0 11104 python
 @gpu32 PS 1260475  0.0 11108 python
 @gpu32 PS 1260476  0.0 11052 python
-@gpu32 PS 1260477 50.5 826324 python
-@gpu32 PS 1260478 84.9 839468 python
-@gpu32 PS 1260479 47.5 828204 python
-@gpu32 PS 1260480 33.7 834308 python
-@gpu32 PS 1260481 26.3 838420 python
-@gpu32 PS 1260482 71.0 832320 python
-@gpu32 PS 1260483 39.4 829532 python
-@gpu32 PS 1260484 95.6 834764 python
-@gpu32 PS 1260485  8.1 832068 python
-@gpu32 PS 1260486 29.4 829436 python
-@gpu32 PS 1260487 36.0 829828 python
-@gpu32 PS 1260488 49.8 836156 python
+@gpu32 PS 1260477 43.1 830608 python
+@gpu32 PS 1260478 87.1 831620 python
+@gpu32 PS 1260479 49.8 830376 python
+@gpu32 PS 1260480 44.4 826964 python
+@gpu32 PS 1260481 39.1 838376 python
+@gpu32 PS 1260482 59.4 835620 python
+@gpu32 PS 1260483 52.0 836172 python
+@gpu32 PS 1260484 83.5 835952 python
+@gpu32 PS 1260485 51.4 832024 python
+@gpu32 PS 1260486 47.5 836088 python
+@gpu32 PS 1260487 23.7 835344 python
+@gpu32 PS 1260488 38.5 831624 python
 @gpu32 PS 1507072  0.0  1544 ssh-agent
 @gpu32 PS 1507629  0.0  1544 ssh-agent
 @gpu32 PS 1530380  0.0  1544 ssh-agent
@@ -50,11 +50,6 @@
 @gpu32 PS 1650668  0.0  1540 ssh-agent
 @gpu32 PS 1653438  0.0  1548 ssh-agent
 @gpu32 PS 1656003  0.0  1544 ssh-agent
-@gpu32 PS 1657900  0.0  2092 sleep
-@gpu32 PS 1662641  0.0  7028 sshd
-@gpu32 PS 1662642  0.0  3636 bash
-@gpu32 PS 1662701  0.0  4676 ps
-@gpu32 PS 1662702  0.0  2336 sed
 @gpu32 PS 1667102  0.0 12192 systemd
 @gpu32 PS 1667103  0.0  3404 (sd-pam)
 @gpu32 PS 1667137  0.0  8984 pipewire
@@ -63,9 +58,17 @@
 @gpu32 PS 1667142  0.0 10780 pipewire-pulse
 @gpu32 PS 1667158  0.0  4552 dbus-daemon
 @gpu32 PS 1667235  0.0  1544 ssh-agent
+@gpu32 PS 1673985  0.0  2156 bash
+@gpu32 PS 1673986  0.0  3864 bash
 @gpu32 PS 1677479  0.0  1548 ssh-agent
 @gpu32 PS 1681930  0.0  1544 ssh-agent
 @gpu32 PS 1688875  0.0  1548 ssh-agent
 @gpu32 PS 1744375  0.0  1536 ssh-agent
+@gpu32 PS 2282385  0.0  2084 sleep
+@gpu32 PS 2286160  0.0  2092 sleep
+@gpu32 PS 2287627  0.0  7008 sshd
+@gpu32 PS 2287628  0.0  3592 bash
+@gpu32 PS 2287641  0.0  4704 ps
+@gpu32 PS 2287642  0.0  2332 sed
 @gpu32 SIZE 8 21,18
-@gpu32 SEEN 1785193468
+@gpu32 SEEN 1785225864

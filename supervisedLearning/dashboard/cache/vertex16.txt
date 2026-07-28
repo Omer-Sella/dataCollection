@@ -1,9 +1,15 @@
-@vertex16 CPU 12 8.06
-@vertex16 MEM 15771 7912
+@vertex16 CPU 12 7.09
+@vertex16 MEM 15771 5678
 @vertex16 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex16 APP 
-@vertex16 PS 3373165  0.0 11444 systemd
+@vertex16 PS  208248  0.0  1996 sleep
+@vertex16 PS  213375  0.0  1996 sleep
+@vertex16 PS  218679  0.0  7064 sshd
+@vertex16 PS  218680  0.0  3572 bash
+@vertex16 PS  218700  0.0  4480 ps
+@vertex16 PS  218701  0.0  2268 sed
+@vertex16 PS 3373165  0.0 11460 systemd
 @vertex16 PS 3373166  0.0  3004 (sd-pam)
 @vertex16 PS 3373187  0.0  6440 pipewire
 @vertex16 PS 3373188  0.0  4900 pipewire
@@ -11,30 +17,19 @@
 @vertex16 PS 3373192  0.0  8308 pipewire-pulse
 @vertex16 PS 3373211  0.0  4116 dbus-daemon
 @vertex16 PS 3373254  0.0  3408 bash
-@vertex16 PS 3373259  0.0  3308 bash
+@vertex16 PS 3373259  0.0  3376 bash
 @vertex16 PS 3373269  0.0  1960 bash
 @vertex16 PS 3373274  0.0  1900 timeout
-@vertex16 PS 3373276 99.7 1843288 python
+@vertex16 PS 3373276 99.8 1883532 python
 @vertex16 PS 3373306  0.0  1892 timeout
-@vertex16 PS 3373308 99.7 1856208 python
-@vertex16 PS 3373356  0.0  1892 timeout
-@vertex16 PS 3373358 99.7 1866284 python
-@vertex16 PS 3374144  0.0  4836 python
+@vertex16 PS 3373308 99.8 1903120 python
 @vertex16 PS 3374145  0.0  4748 python
 @vertex16 PS 3374146  0.0  4808 python
-@vertex16 PS 3374147 63.5 202988 python
-@vertex16 PS 3374148 29.3 194296 python
-@vertex16 PS 3374149 57.6 197248 python
-@vertex16 PS 3374150 52.8 197200 python
-@vertex16 PS 3374151 65.2 201872 python
-@vertex16 PS 3374152 13.6 198248 python
-@vertex16 PS 3374153 56.0 200592 python
-@vertex16 PS 3374154 30.1 201668 python
-@vertex16 PS 3374155 99.9 200324 python
-@vertex16 PS 3797031  0.0  2028 sleep
-@vertex16 PS 3810035  0.0  7056 sshd
-@vertex16 PS 3810036  0.0  3492 bash
-@vertex16 PS 3810063  100  4536 ps
-@vertex16 PS 3810064  0.0  2244 sed
-@vertex16 SIZE 6 21,18
-@vertex16 SEEN 1785193505
+@vertex16 PS 3374147 75.0 203016 python
+@vertex16 PS 3374148 19.2 202000 python
+@vertex16 PS 3374151 80.9 206364 python
+@vertex16 PS 3374152 32.6 202772 python
+@vertex16 PS 3374153 36.5 202848 python
+@vertex16 PS 3374155 99.9 201496 python
+@vertex16 SIZE 4 21,18
+@vertex16 SEEN 1785225900

@@ -1,8 +1,8 @@
-@curve04 CPU 12 9.32
-@curve04 MEM 15917 9426
+@curve04 CPU 12 10.01
+@curve04 MEM 15917 9274
 @curve04 GPU [N/A], 82, 2000
 @curve04 APP [N/A], [N/A]
-@curve04 PS 1322490  0.2 11216 systemd
+@curve04 PS 1322490  0.2 11236 systemd
 @curve04 PS 1322491  0.0  3376 (sd-pam)
 @curve04 PS 1322499  0.0  6900 pipewire
 @curve04 PS 1322500  0.0  5184 pipewire
@@ -13,28 +13,28 @@
 @curve04 PS 1322694  0.0  2816 bash
 @curve04 PS 1322704  0.0  1692 bash
 @curve04 PS 1322709  0.0  1936 timeout
-@curve04 PS 1322711 99.2 2068436 python
+@curve04 PS 1322711 99.4 2128372 python
 @curve04 PS 1322746  0.0  1928 timeout
-@curve04 PS 1322748 99.2 2075008 python
+@curve04 PS 1322748 99.4 2141672 python
 @curve04 PS 1322766  0.0  1936 timeout
-@curve04 PS 1322768 99.2 2115624 python
+@curve04 PS 1322768 99.4 2168884 python
 @curve04 PS 1323220  0.0  6364 python
 @curve04 PS 1323221  0.0  6332 python
 @curve04 PS 1323222  0.0  6208 python
-@curve04 PS 1323223 25.5 591676 python
-@curve04 PS 1323224 45.5 570040 python
-@curve04 PS 1323225 67.1 562008 python
-@curve04 PS 1323226 79.3 571136 python
-@curve04 PS 1323227 54.8 571124 python
-@curve04 PS 1323228 69.9 582472 python
-@curve04 PS 1323229 75.9 580048 python
-@curve04 PS 1323230 26.5 581076 python
-@curve04 PS 1323231 29.6 597792 python
-@curve04 PS 1616486  0.0  2072 sleep
-@curve04 PS 1621567  0.0  2060 sleep
-@curve04 PS 1625160  0.0  6952 sshd
-@curve04 PS 1625163 10.0  3600 bash
-@curve04 PS 1625174  500  4588 ps
-@curve04 PS 1625175  0.0  2324 sed
+@curve04 PS 1323223 17.8 561304 python
+@curve04 PS 1323224 35.0 533628 python
+@curve04 PS 1323225 58.6 520884 python
+@curve04 PS 1323226 88.2 537476 python
+@curve04 PS 1323227 47.6 537320 python
+@curve04 PS 1323228 37.4 535740 python
+@curve04 PS 1323229 84.4 543132 python
+@curve04 PS 1323230 33.2 534180 python
+@curve04 PS 1323231 57.4 549004 python
+@curve04 PS 2033716  0.0  2060 sleep
+@curve04 PS 2037192  0.0  2056 sleep
+@curve04 PS 2040408  0.0  7028 sshd
+@curve04 PS 2040409 12.5  3608 bash
+@curve04 PS 2040420  400  4580 ps
+@curve04 PS 2040421  0.0  2308 sed
 @curve04 SIZE 6 21,18
-@curve04 SEEN 1785193511
+@curve04 SEEN 1785225907

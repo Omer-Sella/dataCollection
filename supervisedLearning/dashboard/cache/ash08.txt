@@ -1,45 +1,45 @@
-@ash08 CPU 16 9.00
-@ash08 MEM 15909 9340
-@ash08 GPU 0, 81, 2048
-@ash08 PS  178722  0.1 11328 systemd
+@ash08 CPU 16 9.41
+@ash08 MEM 15909 8143
+@ash08 GPU 3, 81, 2048
+@ash08 PS  178722  0.1 11352 systemd
 @ash08 PS  178723  0.0  3384 (sd-pam)
 @ash08 PS  178744  0.0  6276 pipewire
 @ash08 PS  178745  0.0  4544 pipewire
 @ash08 PS  178747  0.0 12836 wireplumber
 @ash08 PS  178749  0.0  7728 pipewire-pulse
 @ash08 PS  178764  0.0  3844 dbus-daemon
-@ash08 PS  178803  0.0  3272 bash
-@ash08 PS  178808  0.0  2224 bash
+@ash08 PS  178803  0.0  3268 bash
+@ash08 PS  178808  0.0  2220 bash
 @ash08 PS  178818  0.0  1932 bash
 @ash08 PS  178823  0.0  1948 timeout
-@ash08 PS  178825 99.8 1990548 python
+@ash08 PS  178825 99.9 1665036 python
 @ash08 PS  178854  0.0  1944 timeout
-@ash08 PS  178856 99.8 1984592 python
+@ash08 PS  178856 99.9 1672384 python
 @ash08 PS  178877  0.0  1948 timeout
-@ash08 PS  178879 99.8 2005556 python
+@ash08 PS  178879 99.9 1705004 python
 @ash08 PS  178915  0.0  1948 timeout
-@ash08 PS  178917 99.8 2067184 python
+@ash08 PS  178917 99.9 1739944 python
 @ash08 PS  179224  0.0  5988 python
 @ash08 PS  179225  0.0  6104 python
 @ash08 PS  179226  0.0  6096 python
 @ash08 PS  179227  0.0  6036 python
-@ash08 PS  179228 27.4 461232 python
-@ash08 PS  179229  6.5 455260 python
-@ash08 PS  179230 31.9 439324 python
-@ash08 PS  179231 25.1 447524 python
-@ash08 PS  179232 65.8 446808 python
-@ash08 PS  179233 33.7 436160 python
-@ash08 PS  179234 84.5 452304 python
-@ash08 PS  179235 56.8 464564 python
-@ash08 PS  179236 65.9 475624 python
-@ash08 PS  179237 12.9 489692 python
-@ash08 PS  179238 42.6 504216 python
-@ash08 PS  179239 61.5 496876 python
-@ash08 PS  486894  0.0  2048 sleep
-@ash08 PS  490697  0.0  2052 sleep
-@ash08 PS  491442  0.0  6904 sshd
-@ash08 PS  491443  0.0  3600 bash
-@ash08 PS  491454  0.0  4524 ps
-@ash08 PS  491455  0.0  2300 sed
+@ash08 PS  179228 25.8 460232 python
+@ash08 PS  179229 53.7 460988 python
+@ash08 PS  179230 45.8 440540 python
+@ash08 PS  179231 38.3 446484 python
+@ash08 PS  179232 84.0 450268 python
+@ash08 PS  179233 24.2 440704 python
+@ash08 PS  179234 62.9 444744 python
+@ash08 PS  179235 40.1 463560 python
+@ash08 PS  179236 41.7 476852 python
+@ash08 PS  179237 21.0 488612 python
+@ash08 PS  179238 46.9 507760 python
+@ash08 PS  179239 45.9 501416 python
+@ash08 PS  910887  0.0  2052 sleep
+@ash08 PS  916264  0.0  2048 sleep
+@ash08 PS  916958  0.0  6964 sshd
+@ash08 PS  916959  0.0  3548 bash
+@ash08 PS  916970  0.0  4524 ps
+@ash08 PS  916971  0.0  2296 sed
 @ash08 SIZE 8 21,18
-@ash08 SEEN 1785193488
+@ash08 SEEN 1785225884
