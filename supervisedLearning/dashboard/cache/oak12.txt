@@ -1,12 +1,12 @@
-@oak12 CPU 16 8.04
-@oak12 MEM 15766 12211
+@oak12 CPU 16 8.01
+@oak12 MEM 15766 12220
 @oak12 GPU 0, 88, 2048
-@oak12 PS   96892  0.0  2028 sleep
-@oak12 PS   96976  0.0  2004 sleep
-@oak12 PS   99098  0.0  7008 sshd
-@oak12 PS   99099  0.0  3512 bash
-@oak12 PS   99110  0.0  4476 ps
-@oak12 PS   99111  0.0  2304 sed
+@oak12 PS  104563  0.0  2012 sleep
+@oak12 PS  109823  0.0  2036 sleep
+@oak12 PS  109955  0.0  7056 sshd
+@oak12 PS  109956  0.0  3548 bash
+@oak12 PS  109967  0.0  4476 ps
+@oak12 PS  109968  0.0  2260 sed
 @oak12 PS 3705386  0.1  7816 systemd
 @oak12 PS 3705387  0.0  2560 (sd-pam)
 @oak12 PS 3705399  0.0  5440 pipewire
@@ -18,9 +18,9 @@
 @oak12 PS 3705567  0.0  2508 bash
 @oak12 PS 3705577  0.0  1612 bash
 @oak12 PS 3705582  0.0  1868 timeout
-@oak12 PS 3705584 99.7 1867884 python
+@oak12 PS 3705584 99.8 1867884 python
 @oak12 PS 3705607  0.0  1868 timeout
-@oak12 PS 3705609 99.8 1870448 python
+@oak12 PS 3705609 99.8 1877152 python
 @oak12 PS 3705640  0.0  1868 timeout
 @oak12 PS 3705642 99.8 1895896 python
 @oak12 PS 3705661  0.0  1868 timeout
@@ -29,17 +29,17 @@
 @oak12 PS 3706405  0.0  3400 python
 @oak12 PS 3706406  0.0  3396 python
 @oak12 PS 3706407  0.0  3392 python
-@oak12 PS 3706408 93.4 330920 python
-@oak12 PS 3706409 49.0 321560 python
-@oak12 PS 3706410 44.3 323108 python
-@oak12 PS 3706411 49.3 327956 python
-@oak12 PS 3706412 31.2 323896 python
-@oak12 PS 3706413 66.2 321300 python
-@oak12 PS 3706414 43.7 319092 python
-@oak12 PS 3706415 69.0 330852 python
-@oak12 PS 3706416 47.6 329480 python
-@oak12 PS 3706417 66.6 329552 python
-@oak12 PS 3706418 42.2 324688 python
-@oak12 PS 3706419 51.1 324628 python
+@oak12 PS 3706408 91.9 332324 python
+@oak12 PS 3706409 48.2 321560 python
+@oak12 PS 3706410 45.2 323172 python
+@oak12 PS 3706411 50.1 327956 python
+@oak12 PS 3706412 32.2 326280 python
+@oak12 PS 3706413 66.8 321300 python
+@oak12 PS 3706414 42.9 319092 python
+@oak12 PS 3706415 67.9 330852 python
+@oak12 PS 3706416 46.9 329480 python
+@oak12 PS 3706417 65.5 329552 python
+@oak12 PS 3706418 41.5 324688 python
+@oak12 PS 3706419 50.2 324628 python
 @oak12 SIZE 8 21,18
-@oak12 SEEN 1785225979
+@oak12 SEEN 1785226711

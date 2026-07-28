@@ -1,9 +1,9 @@
-@vertex15 CPU 12 8.04
-@vertex15 MEM 15771 8275
+@vertex15 CPU 12 8.51
+@vertex15 MEM 15771 8314
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS  628201  0.0 11480 systemd
+@vertex15 PS  628201  0.0 11488 systemd
 @vertex15 PS  628202  0.0  3408 (sd-pam)
 @vertex15 PS  628213  0.0  6500 pipewire
 @vertex15 PS  628214  0.0  4800 pipewire
@@ -22,20 +22,20 @@
 @vertex15 PS  628978  0.0  6388 python
 @vertex15 PS  628979  0.0  6420 python
 @vertex15 PS  628980  0.0  6500 python
-@vertex15 PS  628981 21.6 514768 python
-@vertex15 PS  628982 61.0 507408 python
-@vertex15 PS  628983 29.4 506720 python
-@vertex15 PS  628984 46.8 511108 python
-@vertex15 PS  628985 61.0 510760 python
-@vertex15 PS  628986 57.7 540804 python
-@vertex15 PS  628987 33.8 542172 python
-@vertex15 PS  628988 61.7 503780 python
-@vertex15 PS  628989 59.8 512384 python
-@vertex15 PS 1649071  0.0  2036 sleep
-@vertex15 PS 1654154  0.0  2076 sleep
-@vertex15 PS 1659816  0.0  7024 sshd
-@vertex15 PS 1659817  0.0  3552 bash
-@vertex15 PS 1659836  0.0  4568 ps
-@vertex15 PS 1659837  0.0  2280 sed
+@vertex15 PS  628981 21.2 514768 python
+@vertex15 PS  628982 60.1 507408 python
+@vertex15 PS  628983 30.4 506720 python
+@vertex15 PS  628984 47.6 511108 python
+@vertex15 PS  628985 61.6 510760 python
+@vertex15 PS  628986 56.8 540804 python
+@vertex15 PS  628987 34.8 542172 python
+@vertex15 PS  628988 60.7 503780 python
+@vertex15 PS  628989 60.4 512384 python
+@vertex15 PS 1670499  0.0  2080 sleep
+@vertex15 PS 1670760  0.0  2088 sleep
+@vertex15 PS 1677317  0.0  7080 sshd
+@vertex15 PS 1677318  0.0  3584 bash
+@vertex15 PS 1677337  0.0  4624 ps
+@vertex15 PS 1677338  0.0  2336 sed
 @vertex15 SIZE 6 21,18
-@vertex15 SEEN 1785225900
+@vertex15 SEEN 1785226755

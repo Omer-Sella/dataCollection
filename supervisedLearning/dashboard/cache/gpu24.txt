@@ -1,20 +1,17 @@
-@gpu24 CPU 8 9.20
-@gpu24 MEM 15915 5092
+@gpu24 CPU 8 9.24
+@gpu24 MEM 15915 5073
 @gpu24 GPU 0, 99, 8192
-@gpu24 PS   31023  0.0  1060 bash
-@gpu24 PS   31024  0.0  3380 bash
-@gpu24 PS  541991  0.0  2156 sleep
-@gpu24 PS  547421  0.0  2152 sleep
-@gpu24 PS  548321  0.0  6972 sshd
-@gpu24 PS  548322  0.0  3548 bash
-@gpu24 PS  548333  100  4536 ps
-@gpu24 PS  548334  0.0  2340 sed
+@gpu24 PS  553043  0.0  2152 sleep
+@gpu24 PS  560164  0.0  7008 sshd
+@gpu24 PS  560165  0.0  3608 bash
+@gpu24 PS  560177  0.0  4548 ps
+@gpu24 PS  560178  0.0  2340 sed
 @gpu24 PS  588822  0.0  9976 systemd
 @gpu24 PS  588823  0.0  2136 (sd-pam)
-@gpu24 PS  588835  0.0  5728 pipewire
-@gpu24 PS  588836  0.0  4468 pipewire
-@gpu24 PS  588839  0.0 11900 wireplumber
-@gpu24 PS  588840  0.0  7516 pipewire-pulse
+@gpu24 PS  588835  0.0  5712 pipewire
+@gpu24 PS  588836  0.0  4464 pipewire
+@gpu24 PS  588839  0.0 11788 wireplumber
+@gpu24 PS  588840  0.0  7504 pipewire-pulse
 @gpu24 PS  588861  0.0  4024 dbus-daemon
 @gpu24 PS  588886  0.0  1348 ssh-agent
 @gpu24 PS  589528  0.0  1248 ssh-agent
@@ -25,8 +22,8 @@
 @gpu24 PS  675335  0.0  1232 ssh-agent
 @gpu24 PS  683716  0.0  1248 ssh-agent
 @gpu24 PS  687666  0.0  1272 ssh-agent
-@gpu24 PS  692798  0.0  1136 ssh-agent
-@gpu24 PS  711607  0.0   984 ssh-agent
+@gpu24 PS  692798  0.0  1128 ssh-agent
+@gpu24 PS  711607  0.0   980 ssh-agent
 @gpu24 PS  739132  0.0  1248 ssh-agent
 @gpu24 PS  745339  0.0  1152 ssh-agent
 @gpu24 PS  745602  0.0  1320 ssh-agent
@@ -36,18 +33,18 @@
 @gpu24 PS  805447  0.0  1348 ssh-agent
 @gpu24 PS  806379  0.0  1344 ssh-agent
 @gpu24 PS 3889546  0.0  2268 bash
-@gpu24 PS 3889554  0.0  2116 bash
+@gpu24 PS 3889554  0.0  1660 bash
 @gpu24 PS 3889559  0.0  2008 timeout
-@gpu24 PS 3889561 99.0 1645348 python
+@gpu24 PS 3889561 98.9 1644244 python
 @gpu24 PS 3889581  0.0  2008 timeout
-@gpu24 PS 3889583 99.0 1672284 python
+@gpu24 PS 3889583 98.9 1671144 python
 @gpu24 PS 3889947  0.0  3520 python
 @gpu24 PS 3889948  0.0  3568 python
-@gpu24 PS 3889949 48.6 98088 python
-@gpu24 PS 3889950 72.9 105344 python
-@gpu24 PS 3889951 24.2 100136 python
-@gpu24 PS 3889952 83.6 106236 python
-@gpu24 PS 3889953 49.6 105284 python
-@gpu24 PS 3889954 50.8 104720 python
+@gpu24 PS 3889949 49.3 97252 python
+@gpu24 PS 3889950 73.2 104504 python
+@gpu24 PS 3889951 25.2 99212 python
+@gpu24 PS 3889952 83.8 105324 python
+@gpu24 PS 3889953 50.3 104408 python
+@gpu24 PS 3889954 51.4 103740 python
 @gpu24 SIZE 4 21,18
-@gpu24 SEEN 1785225864
+@gpu24 SEEN 1785226720

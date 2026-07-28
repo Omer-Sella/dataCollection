@@ -1,5 +1,5 @@
-@batch2 CPU 64 46.77
-@batch2 MEM 515774 303467
+@batch2 CPU 64 43.82
+@batch2 MEM 515774 304255
 @batch2 PS   35381  0.0  3072 bash
 @batch2 PS   35390  0.0  1536 bash
 @batch2 PS  196602  0.0  1204 ssh-agent
@@ -12,11 +12,11 @@
 @batch2 PS  387453  0.0  8124 tmux: server
 @batch2 PS  387454  0.0  4608 bash
 @batch2 PS  387461  0.0  2740 ssh-agent
-@batch2 PS 1196189  0.0  1536 sleep
-@batch2 PS 1201415  0.0  6268 sshd
-@batch2 PS 1201416 14.2  3072 bash
-@batch2 PS 1201427 1200  4096 ps
-@batch2 PS 1201428  0.0  2048 sed
+@batch2 PS 1207517  0.0  1536 sleep
+@batch2 PS 1223207  0.0  6268 sshd
+@batch2 PS 1223208 16.6  3072 bash
+@batch2 PS 1223219 1200  4608 ps
+@batch2 PS 1223220  0.0  2048 sed
 @batch2 PS 1696976  0.0  1204 ssh-agent
 @batch2 PS 1701352  0.0  3252 ssh-agent
 @batch2 PS 1704686  0.0  1204 ssh-agent
@@ -49,4 +49,4 @@
 @batch2 PS 3781114  0.0  1204 ssh-agent
 @batch2 PS 3782593  0.0  1204 ssh-agent
 @batch2 PS 3949839  0.0  1204 ssh-agent
-@batch2 SEEN 1785225865
+@batch2 SEEN 1785226721

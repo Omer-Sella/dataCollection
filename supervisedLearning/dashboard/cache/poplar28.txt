@@ -1,11 +1,11 @@
-@poplar28 CPU 24 11.04
-@poplar28 MEM 15658 12216
-@poplar28 PS  357622  0.0  2072 sleep
-@poplar28 PS  361265  0.0  2076 sleep
-@poplar28 PS  362965  0.0  7016 sshd
-@poplar28 PS  362966  0.0  3512 bash
-@poplar28 PS  362978  100  4540 ps
-@poplar28 PS  362979  0.0  2316 sed
+@poplar28 CPU 24 10.10
+@poplar28 MEM 15658 12219
+@poplar28 PS  372584  0.0  2076 sleep
+@poplar28 PS  372799  0.0  2072 sleep
+@poplar28 PS  373720  0.0  7112 sshd
+@poplar28 PS  373721  0.0  3532 bash
+@poplar28 PS  373732  0.0  4540 ps
+@poplar28 PS  373733  0.0  2324 sed
 @poplar28 PS 3817055  0.0  2792 bash
 @poplar28 PS 3817060  0.0  1832 bash
 @poplar28 PS 3817070  0.0  1980 bash
@@ -21,18 +21,18 @@
 @poplar28 PS 3817477  0.0  3388 python
 @poplar28 PS 3817478  0.0  3408 python
 @poplar28 PS 3817479  0.0  3508 python
-@poplar28 PS 3817481 44.3 291144 python
-@poplar28 PS 3817482 91.8 292308 python
-@poplar28 PS 3817484 35.5 292228 python
-@poplar28 PS 3817485 34.0 296328 python
-@poplar28 PS 3817487 62.6 295060 python
-@poplar28 PS 3817488 11.3 298388 python
-@poplar28 PS 3817490 43.8 293688 python
-@poplar28 PS 3817492 30.1 300864 python
-@poplar28 PS 3817493 63.5 293800 python
-@poplar28 PS 3817494 49.7 299464 python
-@poplar28 PS 3817496 76.4 305236 python
-@poplar28 PS 3817497 33.7 298920 python
+@poplar28 PS 3817481 43.6 291144 python
+@poplar28 PS 3817482 90.4 292308 python
+@poplar28 PS 3817484 36.1 292228 python
+@poplar28 PS 3817485 35.0 296328 python
+@poplar28 PS 3817487 61.7 295060 python
+@poplar28 PS 3817488 11.1 298388 python
+@poplar28 PS 3817490 44.6 293688 python
+@poplar28 PS 3817492 31.1 300864 python
+@poplar28 PS 3817493 64.0 293800 python
+@poplar28 PS 3817494 50.4 299464 python
+@poplar28 PS 3817496 76.8 305236 python
+@poplar28 PS 3817497 33.2 298920 python
 @poplar28 PS 3818543  0.1 11652 systemd
 @poplar28 PS 3818544  0.0  3324 (sd-pam)
 @poplar28 PS 3818555  0.0  8608 pipewire
@@ -41,4 +41,4 @@
 @poplar28 PS 3818560  0.0  9844 pipewire-pulse
 @poplar28 PS 3818571  0.0  4136 dbus-daemon
 @poplar28 SIZE 8 21,18
-@poplar28 SEEN 1785225877
+@poplar28 SEEN 1785226733

@@ -1,17 +1,17 @@
-@willow13 CPU 16 12.06
-@willow13 MEM 15809 9850
-@willow13 GPU 0, 82, 4096
-@willow13 PS  226672  0.0  2076 sleep
-@willow13 PS  226821  0.0  2080 sleep
-@willow13 PS  227768  0.0  7092 sshd
-@willow13 PS  227769  0.0  3608 bash
-@willow13 PS  227780  100  4588 ps
-@willow13 PS  227781  0.0  2320 sed
+@willow13 CPU 16 11.04
+@willow13 MEM 15809 9846
+@willow13 GPU 2, 82, 4096
+@willow13 PS  234273  0.0  2076 sleep
+@willow13 PS  238100  0.0  2072 sleep
+@willow13 PS  238663  0.0  7060 sshd
+@willow13 PS  238664  0.0  3620 bash
+@willow13 PS  238675  100  4596 ps
+@willow13 PS  238676  0.0  2328 sed
 @willow13 PS 3687884  0.1 11880 systemd
 @willow13 PS 3687885  0.0  3372 (sd-pam)
 @willow13 PS 3687897  0.0  6692 pipewire
 @willow13 PS 3687898  0.0  4828 pipewire
-@willow13 PS 3687900  0.0 13936 wireplumber
+@willow13 PS 3687900  0.0 13944 wireplumber
 @willow13 PS 3687902  0.0  8264 pipewire-pulse
 @willow13 PS 3687919  0.0  4284 dbus-daemon
 @willow13 PS 3688013  0.0  3396 bash
@@ -29,17 +29,17 @@
 @willow13 PS 3688366  0.0  4112 python
 @willow13 PS 3688367  0.0  4140 python
 @willow13 PS 3688368  0.0  4116 python
-@willow13 PS 3688369 73.5 151796 python
-@willow13 PS 3688370 43.5 133624 python
-@willow13 PS 3688371 52.2 128064 python
-@willow13 PS 3688372 35.9 126540 python
-@willow13 PS 3688373 24.7 128848 python
-@willow13 PS 3688374 54.2 131712 python
-@willow13 PS 3688375 61.8 132552 python
-@willow13 PS 3688376 93.3 134840 python
-@willow13 PS 3688377 41.8 122628 python
-@willow13 PS 3688378 65.8 134224 python
-@willow13 PS 3688379 68.0 133360 python
-@willow13 PS 3688380 49.5 139488 python
+@willow13 PS 3688369 73.9 151796 python
+@willow13 PS 3688370 44.4 133624 python
+@willow13 PS 3688371 51.4 128064 python
+@willow13 PS 3688372 35.4 126540 python
+@willow13 PS 3688373 24.3 128848 python
+@willow13 PS 3688374 54.9 131712 python
+@willow13 PS 3688375 62.4 132552 python
+@willow13 PS 3688376 92.4 134844 python
+@willow13 PS 3688377 41.2 122628 python
+@willow13 PS 3688378 66.3 134224 python
+@willow13 PS 3688379 68.5 133360 python
+@willow13 PS 3688380 50.3 139488 python
 @willow13 SIZE 8 21,18
-@willow13 SEEN 1785225898
+@willow13 SEEN 1785226754

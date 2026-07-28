@@ -1,12 +1,11 @@
-@gpu23 CPU 8 4.43
-@gpu23 MEM 15914 4798
+@gpu23 CPU 8 4.42
+@gpu23 MEM 15914 5397
 @gpu23 GPU 0, 80, 8192
-@gpu23 PS  345383  0.0  2148 sleep
-@gpu23 PS  350250  0.0  2156 sleep
-@gpu23 PS  350324  0.0  7048 sshd
-@gpu23 PS  350325  0.0  3608 bash
-@gpu23 PS  350336  0.0  4588 ps
-@gpu23 PS  350337  0.0  2404 sed
+@gpu23 PS  354538  0.0  2152 sleep
+@gpu23 PS  362062  0.0  7072 sshd
+@gpu23 PS  362063  0.0  3688 bash
+@gpu23 PS  362074  0.0  4600 ps
+@gpu23 PS  362075  0.0  2396 sed
 @gpu23 PS  500804  0.0 11376 systemd
 @gpu23 PS  500805  0.0  3536 (sd-pam)
 @gpu23 PS  500817  0.0  8096 pipewire
@@ -41,13 +40,11 @@
 @gpu23 PS 3712169 99.5 1212960 python
 @gpu23 PS 3712535  0.0  6780 python
 @gpu23 PS 3712536  0.0  6732 python
-@gpu23 PS 3712537 50.4 513052 python
-@gpu23 PS 3712538 68.5 512196 python
-@gpu23 PS 3712539 65.0 527176 python
-@gpu23 PS 3712540 70.7 522288 python
-@gpu23 PS 3712541 46.1 520948 python
-@gpu23 PS 3712542 31.9 511220 python
-@gpu23 PS 4037344  0.0  1948 bash
-@gpu23 PS 4037345  0.0  3432 bash
+@gpu23 PS 3712537 49.7 513052 python
+@gpu23 PS 3712538 67.5 512196 python
+@gpu23 PS 3712539 65.6 527176 python
+@gpu23 PS 3712540 71.1 522288 python
+@gpu23 PS 3712541 45.4 520948 python
+@gpu23 PS 3712542 31.4 511220 python
 @gpu23 SIZE 4 21,18
-@gpu23 SEEN 1785225864
+@gpu23 SEEN 1785226719

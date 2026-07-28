@@ -1,5 +1,5 @@
-@vertex04 CPU 12 7.11
-@vertex04 MEM 15771 8984
+@vertex04 CPU 12 7.14
+@vertex04 MEM 15771 8991
 @vertex04 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP 
@@ -22,20 +22,20 @@
 @vertex04 PS   70014  0.0  4624 python
 @vertex04 PS   70015  0.0  4476 python
 @vertex04 PS   70016  0.0  4444 python
-@vertex04 PS   70017 52.5 283632 python
-@vertex04 PS   70018 23.9 297576 python
-@vertex04 PS   70019 85.8 290580 python
-@vertex04 PS   70020 71.0 294908 python
-@vertex04 PS   70021 44.9 300636 python
-@vertex04 PS   70022 60.7 291336 python
-@vertex04 PS   70023 67.6 290148 python
-@vertex04 PS   70024 40.0 295324 python
-@vertex04 PS   70025 54.3 284156 python
-@vertex04 PS 1155514  0.0  2072 sleep
-@vertex04 PS 1155712  0.0  2072 sleep
-@vertex04 PS 1156367  0.0  7032 sshd
-@vertex04 PS 1156368  0.0  3600 bash
-@vertex04 PS 1156387  0.0  4576 ps
-@vertex04 PS 1156388  0.0  2328 sed
+@vertex04 PS   70017 51.7 283632 python
+@vertex04 PS   70018 23.5 297576 python
+@vertex04 PS   70019 86.0 290580 python
+@vertex04 PS   70020 69.9 294908 python
+@vertex04 PS   70021 45.7 300636 python
+@vertex04 PS   70022 59.8 291336 python
+@vertex04 PS   70023 68.1 290148 python
+@vertex04 PS   70024 39.4 295324 python
+@vertex04 PS   70025 55.0 284156 python
+@vertex04 PS 1166356  0.0  2068 sleep
+@vertex04 PS 1171896  0.0  2068 sleep
+@vertex04 PS 1171998  0.0  7032 sshd
+@vertex04 PS 1172001  0.0  3612 bash
+@vertex04 PS 1172025  0.0  4588 ps
+@vertex04 PS 1172026  0.0  2336 sed
 @vertex04 SIZE 6 21,18
-@vertex04 SEEN 1785225899
+@vertex04 SEEN 1785226755

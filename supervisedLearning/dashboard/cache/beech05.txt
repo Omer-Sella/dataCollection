@@ -1,11 +1,11 @@
-@beech05 CPU 16 10.02
-@beech05 MEM 13864 9032
-@beech05 GPU 2, 82, 4096
+@beech05 CPU 16 10.01
+@beech05 MEM 13864 9038
+@beech05 GPU 0, 82, 4096
 @beech05 PS 3145320  0.1 11444 systemd
 @beech05 PS 3145321  0.0  3444 (sd-pam)
 @beech05 PS 3145332  0.0  6616 pipewire
 @beech05 PS 3145333  0.0  4740 pipewire
-@beech05 PS 3145336  0.0 14084 wireplumber
+@beech05 PS 3145336  0.0 14104 wireplumber
 @beech05 PS 3145338  0.0  7928 pipewire-pulse
 @beech05 PS 3145351  0.0  4180 dbus-daemon
 @beech05 PS 3145401  0.0  3240 bash
@@ -23,23 +23,23 @@
 @beech05 PS 3145863  0.0  5076 python
 @beech05 PS 3145864  0.0  5096 python
 @beech05 PS 3145865  0.0  5028 python
-@beech05 PS 3145866 63.6 208624 python
-@beech05 PS 3145867 93.3 205036 python
-@beech05 PS 3145868 92.5 206336 python
-@beech05 PS 3145869 78.5 204652 python
-@beech05 PS 3145870 52.8 219064 python
-@beech05 PS 3145871 44.3 206876 python
-@beech05 PS 3145872 45.9 209512 python
-@beech05 PS 3145873 32.4 208576 python
-@beech05 PS 3145874 41.1 209784 python
-@beech05 PS 3145875 43.8 250060 python
-@beech05 PS 3145876 27.3 256128 python
-@beech05 PS 3145877 35.6 239056 python
-@beech05 PS 3877111  0.0  2064 sleep
-@beech05 PS 3877289  0.0  2080 sleep
-@beech05 PS 3879520  0.0  6972 sshd
-@beech05 PS 3879521  0.0  3620 bash
-@beech05 PS 3879532  100  4656 ps
-@beech05 PS 3879533  0.0  2300 sed
+@beech05 PS 3145866 64.2 208628 python
+@beech05 PS 3145867 93.4 205036 python
+@beech05 PS 3145868 91.1 206336 python
+@beech05 PS 3145869 78.8 204652 python
+@beech05 PS 3145870 52.0 219064 python
+@beech05 PS 3145871 45.1 206876 python
+@beech05 PS 3145872 46.8 209512 python
+@beech05 PS 3145873 33.4 208576 python
+@beech05 PS 3145874 40.5 209784 python
+@beech05 PS 3145875 43.1 250060 python
+@beech05 PS 3145876 26.8 256128 python
+@beech05 PS 3145877 35.1 239056 python
+@beech05 PS 3884727  0.0  2080 sleep
+@beech05 PS 3888258  0.0  2068 sleep
+@beech05 PS 3890148  0.0  7000 sshd
+@beech05 PS 3890149  0.0  3592 bash
+@beech05 PS 3890160  0.0  4636 ps
+@beech05 PS 3890161  0.0  2312 sed
 @beech05 SIZE 8 21,18
-@beech05 SEEN 1785225891
+@beech05 SEEN 1785226747

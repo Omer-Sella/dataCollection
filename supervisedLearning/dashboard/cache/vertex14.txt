@@ -1,5 +1,5 @@
-@vertex14 CPU 12 10.15
-@vertex14 MEM 15771 8302
+@vertex14 CPU 12 10.28
+@vertex14 MEM 15771 8286
 @vertex14 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex14 APP 
@@ -18,24 +18,24 @@
 @vertex14 PS 2510278  0.0  1988 timeout
 @vertex14 PS 2510280 99.8 1914108 python
 @vertex14 PS 2510334  0.0  1980 timeout
-@vertex14 PS 2510336 99.9 1893920 python
+@vertex14 PS 2510336 99.8 1893920 python
 @vertex14 PS 2511059  0.0  4368 python
 @vertex14 PS 2511060  0.0  4408 python
 @vertex14 PS 2511061  0.0  4432 python
-@vertex14 PS 2511068 12.3 195000 python
-@vertex14 PS 2511069 66.8 198892 python
-@vertex14 PS 2511070 73.9 195500 python
-@vertex14 PS 2511071 33.0 199012 python
-@vertex14 PS 2511072 16.5 199036 python
-@vertex14 PS 2511073 76.2 199880 python
-@vertex14 PS 2511074 89.6 200428 python
-@vertex14 PS 2511075 58.1 195344 python
-@vertex14 PS 2511076 43.1 196292 python
-@vertex14 PS 3530730  0.0  2084 sleep
-@vertex14 PS 3541727  0.0  2088 sleep
-@vertex14 PS 3541811  0.0  7140 sshd
-@vertex14 PS 3541812  0.0  3640 bash
-@vertex14 PS 3541831  0.0  4644 ps
-@vertex14 PS 3541832  0.0  2332 sed
+@vertex14 PS 2511068 12.1 195000 python
+@vertex14 PS 2511069 67.3 198892 python
+@vertex14 PS 2511070 74.3 195500 python
+@vertex14 PS 2511071 34.0 199012 python
+@vertex14 PS 2511072 16.3 199036 python
+@vertex14 PS 2511073 76.5 199880 python
+@vertex14 PS 2511074 89.7 200428 python
+@vertex14 PS 2511075 58.7 195344 python
+@vertex14 PS 2511076 44.0 196292 python
+@vertex14 PS 3552362  0.0  2088 sleep
+@vertex14 PS 3552613  0.0  2084 sleep
+@vertex14 PS 3557149  0.0  7120 sshd
+@vertex14 PS 3557152  0.0  3648 bash
+@vertex14 PS 3557183  100  4652 ps
+@vertex14 PS 3557184  0.0  2336 sed
 @vertex14 SIZE 6 21,18
-@vertex14 SEEN 1785225900
+@vertex14 SEEN 1785226756

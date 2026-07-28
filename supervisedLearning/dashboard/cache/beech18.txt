@@ -1,17 +1,17 @@
-@beech18 CPU 16 11.01
-@beech18 MEM 15880 10687
+@beech18 CPU 16 12.00
+@beech18 MEM 15880 10691
 @beech18 GPU 0, 82, 4096
-@beech18 PS  700983  0.0  2084 sleep
-@beech18 PS  701148  0.0  2084 sleep
-@beech18 PS  702895  0.0  6920 sshd
-@beech18 PS  702897  0.0  3580 bash
-@beech18 PS  702909  0.0  4496 ps
-@beech18 PS  702910  0.0  2328 sed
+@beech18 PS  708796  0.0  2080 sleep
+@beech18 PS  712833  0.0  2080 sleep
+@beech18 PS  714134  0.0  6932 sshd
+@beech18 PS  714136  0.0  3540 bash
+@beech18 PS  714147  100  4512 ps
+@beech18 PS  714148  0.0  2328 sed
 @beech18 PS 4145985  0.1 11532 systemd
 @beech18 PS 4145986  0.0  3424 (sd-pam)
 @beech18 PS 4145999  0.0  7488 pipewire
 @beech18 PS 4146000  0.0  5680 pipewire
-@beech18 PS 4146002  0.0 14616 wireplumber
+@beech18 PS 4146002  0.0 14704 wireplumber
 @beech18 PS 4146004  0.0  9472 pipewire-pulse
 @beech18 PS 4146020  0.0  4092 dbus-daemon
 @beech18 PS 4146058  0.0  3288 bash
@@ -24,22 +24,22 @@
 @beech18 PS 4146126  0.0  1976 timeout
 @beech18 PS 4146128 99.9 2130176 python
 @beech18 PS 4146161  0.0  1976 timeout
-@beech18 PS 4146163 99.9 2121540 python
+@beech18 PS 4146163 99.9 2128256 python
 @beech18 PS 4146448  0.0  6060 python
 @beech18 PS 4146449  0.0  6044 python
 @beech18 PS 4146450  0.0  6064 python
 @beech18 PS 4146451  0.0  6100 python
-@beech18 PS 4146452 46.5 430028 python
-@beech18 PS 4146453 73.5 430168 python
-@beech18 PS 4146454 51.3 429016 python
-@beech18 PS 4146455 46.0 427236 python
-@beech18 PS 4146456 44.0 432100 python
-@beech18 PS 4146457 19.1 429648 python
-@beech18 PS 4146458 72.1 442852 python
-@beech18 PS 4146459 14.8 425568 python
+@beech18 PS 4146452 47.3 434500 python
+@beech18 PS 4146453 73.9 430168 python
+@beech18 PS 4146454 50.5 429016 python
+@beech18 PS 4146455 46.8 428168 python
+@beech18 PS 4146456 44.8 432100 python
+@beech18 PS 4146457 19.3 429668 python
+@beech18 PS 4146458 72.5 442852 python
+@beech18 PS 4146459 14.5 425568 python
 @beech18 PS 4146460 99.4 423572 python
-@beech18 PS 4146461 92.5 425496 python
-@beech18 PS 4146462 62.7 474536 python
-@beech18 PS 4146463 46.8 463760 python
+@beech18 PS 4146461 91.1 416696 python
+@beech18 PS 4146462 61.7 474536 python
+@beech18 PS 4146463 47.6 463760 python
 @beech18 SIZE 8 21,18
-@beech18 SEEN 1785225897
+@beech18 SEEN 1785226753

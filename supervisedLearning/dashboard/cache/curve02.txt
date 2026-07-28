@@ -1,5 +1,5 @@
-@curve02 CPU 12 9.39
-@curve02 MEM 15917 8291
+@curve02 CPU 12 9.50
+@curve02 MEM 15917 8297
 @curve02 GPU [N/A], 89, 2000
 @curve02 APP [N/A], [N/A]
 @curve02 PS 2109158  0.2 11852 systemd
@@ -21,20 +21,20 @@
 @curve02 PS 2109873  0.0  6808 python
 @curve02 PS 2109874  0.0  6668 python
 @curve02 PS 2109875  0.0  6788 python
-@curve02 PS 2109876 14.8 516436 python
-@curve02 PS 2109877 57.5 534060 python
-@curve02 PS 2109878 36.6 549996 python
-@curve02 PS 2109879 62.0 542024 python
-@curve02 PS 2109880 85.6 549624 python
-@curve02 PS 2109881 70.3 496960 python
-@curve02 PS 2109882 73.0 526756 python
-@curve02 PS 2109883 38.1 512268 python
-@curve02 PS 2109884 71.5 507532 python
-@curve02 PS 2825887  0.0  2044 sleep
-@curve02 PS 2829802  0.0  2068 sleep
-@curve02 PS 2833013  0.0  7000 sshd
-@curve02 PS 2833014 12.5  3568 bash
-@curve02 PS 2833025  350  4568 ps
-@curve02 PS 2833026  0.0  2308 sed
+@curve02 PS 2109876 14.6 516436 python
+@curve02 PS 2109877 58.2 534060 python
+@curve02 PS 2109878 36.0 549996 python
+@curve02 PS 2109879 62.6 542024 python
+@curve02 PS 2109880 85.8 549624 python
+@curve02 PS 2109881 70.7 496960 python
+@curve02 PS 2109882 73.4 526756 python
+@curve02 PS 2109883 37.5 512268 python
+@curve02 PS 2109884 71.9 507532 python
+@curve02 PS 2840916  0.0  2056 sleep
+@curve02 PS 2841060  0.0  2068 sleep
+@curve02 PS 2843721  0.0  6996 sshd
+@curve02 PS 2843722  5.8  3548 bash
+@curve02 PS 2843733  800  4556 ps
+@curve02 PS 2843734  0.0  2316 sed
 @curve02 SIZE 6 21,18
-@curve02 SEEN 1785225907
+@curve02 SEEN 1785226762

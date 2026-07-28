@@ -1,11 +1,11 @@
-@poplar31 CPU 24 11.00
-@poplar31 MEM 15658 12192
-@poplar31 PS  723071  0.0  2072 sleep
-@poplar31 PS  726725  0.0  2072 sleep
-@poplar31 PS  728274  0.0  7028 sshd
-@poplar31 PS  728275  0.0  3576 bash
-@poplar31 PS  728286  0.0  4528 ps
-@poplar31 PS  728287  0.0  2308 sed
+@poplar31 CPU 24 11.02
+@poplar31 MEM 15658 12196
+@poplar31 PS  738199  0.0  2072 sleep
+@poplar31 PS  738404  0.0  2072 sleep
+@poplar31 PS  739178  0.0  7052 sshd
+@poplar31 PS  739179  0.0  3548 bash
+@poplar31 PS  739190  0.0  4544 ps
+@poplar31 PS  739191  0.0  2300 sed
 @poplar31 PS 4183210  0.0  2836 bash
 @poplar31 PS 4183215  0.0  1832 bash
 @poplar31 PS 4183225  0.0  1884 bash
@@ -21,18 +21,18 @@
 @poplar31 PS 4183647  0.0  3404 python
 @poplar31 PS 4183648  0.0  3372 python
 @poplar31 PS 4183650  0.0  3392 python
-@poplar31 PS 4183668 69.9 306116 python
-@poplar31 PS 4183669 21.7 295000 python
-@poplar31 PS 4183670 42.3 302660 python
-@poplar31 PS 4183674 53.4 301424 python
-@poplar31 PS 4183678 66.1 308952 python
-@poplar31 PS 4183680 64.4 294316 python
-@poplar31 PS 4183682 76.1 298400 python
-@poplar31 PS 4183684 32.5 310532 python
-@poplar31 PS 4183685 26.7 298800 python
-@poplar31 PS 4183686 26.5 294448 python
-@poplar31 PS 4183687 17.7 300912 python
-@poplar31 PS 4183690 55.7 298368 python
+@poplar31 PS 4183668 70.4 306116 python
+@poplar31 PS 4183669 22.9 295000 python
+@poplar31 PS 4183670 43.2 302660 python
+@poplar31 PS 4183674 54.1 301424 python
+@poplar31 PS 4183678 66.6 308952 python
+@poplar31 PS 4183680 63.4 294316 python
+@poplar31 PS 4183682 76.4 298400 python
+@poplar31 PS 4183684 33.5 310532 python
+@poplar31 PS 4183685 26.3 298800 python
+@poplar31 PS 4183686 26.1 294448 python
+@poplar31 PS 4183687 17.4 300912 python
+@poplar31 PS 4183690 54.9 298368 python
 @poplar31 PS 4184524  0.1  9960 systemd
 @poplar31 PS 4184525  0.0  3376 (sd-pam)
 @poplar31 PS 4184544  0.0  8112 pipewire
@@ -41,4 +41,4 @@
 @poplar31 PS 4184549  0.0  9120 pipewire-pulse
 @poplar31 PS 4184561  0.0  3904 dbus-daemon
 @poplar31 SIZE 8 21,18
-@poplar31 SEEN 1785225877
+@poplar31 SEEN 1785226733

@@ -1,18 +1,18 @@
-@willow12 CPU 16 9.93
-@willow12 MEM 15809 9515
+@willow12 CPU 16 11.00
+@willow12 MEM 15809 9538
 @willow12 GPU 0, 82, 4096
 @willow12 PS  535910  0.1 11872 systemd
 @willow12 PS  535911  0.0  3420 (sd-pam)
 @willow12 PS  535948  0.0  8136 pipewire
 @willow12 PS  535949  0.0  5952 pipewire
-@willow12 PS  535952  0.0 15364 wireplumber
+@willow12 PS  535952  0.0 15372 wireplumber
 @willow12 PS  535953  0.0  9648 pipewire-pulse
 @willow12 PS  535975  0.0  4340 dbus-daemon
 @willow12 PS  536012  0.0  3368 bash
 @willow12 PS  536017  0.0  3292 bash
 @willow12 PS  536027  0.0  1876 bash
 @willow12 PS  536032  0.0  1972 timeout
-@willow12 PS  536034 99.9 2197512 python
+@willow12 PS  536034 99.9 2204216 python
 @willow12 PS  536081  0.0  1972 timeout
 @willow12 PS  536083 99.9 2181560 python
 @willow12 PS  536121  0.0  1972 timeout
@@ -21,25 +21,25 @@
 @willow12 PS  536147 99.9 2214812 python
 @willow12 PS  536408  0.0  6084 python
 @willow12 PS  536409  0.0  6012 python
-@willow12 PS  536410 76.3 411036 python
+@willow12 PS  536410 76.7 411036 python
 @willow12 PS  536411  0.0  6084 python
 @willow12 PS  536412  0.0  6064 python
-@willow12 PS  536413 55.5 414888 python
-@willow12 PS  536414 24.0 413676 python
-@willow12 PS  536415 89.8 407320 python
-@willow12 PS  536416 77.4 404936 python
-@willow12 PS  536417 34.1 409228 python
-@willow12 PS  536418 53.5 403468 python
-@willow12 PS  536419 91.0 403604 python
-@willow12 PS  536420 58.8 391988 python
-@willow12 PS  536421 51.8 396308 python
-@willow12 PS  536422 27.1 404448 python
-@willow12 PS  536423 24.2 451608 python
-@willow12 PS 1284820  0.0  2068 sleep
-@willow12 PS 1284983  0.0  2080 sleep
-@willow12 PS 1285991  0.0  6980 sshd
-@willow12 PS 1285992  0.0  3540 bash
-@willow12 PS 1286003  0.0  4560 ps
-@willow12 PS 1286004  0.0  2328 sed
+@willow12 PS  536413 54.6 414888 python
+@willow12 PS  536414 25.2 413676 python
+@willow12 PS  536415 89.9 407320 python
+@willow12 PS  536416 76.2 409284 python
+@willow12 PS  536417 33.6 409228 python
+@willow12 PS  536418 52.7 403468 python
+@willow12 PS  536419 91.1 404720 python
+@willow12 PS  536420 59.4 396324 python
+@willow12 PS  536421 52.5 396308 python
+@willow12 PS  536422 28.2 408360 python
+@willow12 PS  536423 23.8 451608 python
+@willow12 PS 1292632  0.0  2068 sleep
+@willow12 PS 1296645  0.0  2084 sleep
+@willow12 PS 1297269  0.0  6928 sshd
+@willow12 PS 1297270  0.0  3536 bash
+@willow12 PS 1297281  0.0  4548 ps
+@willow12 PS 1297282  0.0  2320 sed
 @willow12 SIZE 8 21,18
-@willow12 SEEN 1785225898
+@willow12 SEEN 1785226754

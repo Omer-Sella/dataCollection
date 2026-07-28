@@ -12,6 +12,14 @@ BASE=/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2
 HOST=$(hostname -s)
 MIN_FREE_MB=5000     # all-four-sizes arms load ~8M projected codes onto the card
 mkdir -p "$BASE/claimed" "$BASE/done" "$BASE/failed" "$BASE/logs" "$BASE/requeued"
+
+# The fleet is heterogeneous: several cards are older than the compiled PyTorch kernels
+# ("no kernel image is available for execution on the device"). Prove this host can
+# actually execute on its GPU before claiming anything, or 300 tasks die one by one.
+if ! python -c "import torch; torch.randperm(64, device='cuda'); torch.cuda.synchronize()" 2>/dev/null; then
+    echo "worker $HOST: GPU cannot execute this PyTorch build - not claiming work $(date)"
+    exit 0
+fi
 echo "sweep2 worker $HOST started $(date)"
 while true; do
     # These GPUs are shared with other users. Never claim work that cannot fit:

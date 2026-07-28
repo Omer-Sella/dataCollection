@@ -1,16 +1,16 @@
-@yew39 CPU 24 11.05
-@yew39 MEM 15658 12523
-@yew39 PS  371635  0.0  2068 sleep
-@yew39 PS  371831  0.0  2068 sleep
-@yew39 PS  372534  0.0  7052 sshd
-@yew39 PS  372535  0.0  3588 bash
-@yew39 PS  372546  100  4520 ps
-@yew39 PS  372547  0.0  2316 sed
+@yew39 CPU 24 10.19
+@yew39 MEM 15658 12537
+@yew39 PS  379428  0.0  2064 sleep
+@yew39 PS  383103  0.0  2064 sleep
+@yew39 PS  383439  0.0  7076 sshd
+@yew39 PS  383440  0.0  3588 bash
+@yew39 PS  383451  0.0  4540 ps
+@yew39 PS  383452  0.0  2312 sed
 @yew39 PS 3806376  0.0  2844 bash
 @yew39 PS 3806389  0.0  1828 bash
 @yew39 PS 3806399  0.0  1904 bash
 @yew39 PS 3806404  0.0  1532 timeout
-@yew39 PS 3806406 99.9 1587824 python
+@yew39 PS 3806406 99.9 1594528 python
 @yew39 PS 3806433  0.0  1532 timeout
 @yew39 PS 3806435 99.9 1661768 python
 @yew39 PS 3806463  0.0  1532 timeout
@@ -21,18 +21,18 @@
 @yew39 PS 3806836  0.0  3440 python
 @yew39 PS 3806837  0.0  3424 python
 @yew39 PS 3806838  0.0  3424 python
-@yew39 PS 3806840 56.5 405368 python
-@yew39 PS 3806841 27.4 417408 python
-@yew39 PS 3806843 64.0 426136 python
-@yew39 PS 3806845 70.2 422676 python
-@yew39 PS 3806846 42.4 422064 python
-@yew39 PS 3806847 80.2 404516 python
-@yew39 PS 3806848 48.1 409260 python
-@yew39 PS 3806851 49.0 418676 python
-@yew39 PS 3806853 41.1 409956 python
-@yew39 PS 3806854 31.5 397664 python
-@yew39 PS 3806855 34.5 417144 python
-@yew39 PS 3806857 29.8 419704 python
+@yew39 PS 3806840 56.4 405368 python
+@yew39 PS 3806841 27.0 411956 python
+@yew39 PS 3806843 64.6 426136 python
+@yew39 PS 3806845 69.1 422676 python
+@yew39 PS 3806846 43.1 422064 python
+@yew39 PS 3806847 80.5 404520 python
+@yew39 PS 3806848 48.8 409260 python
+@yew39 PS 3806851 49.8 418676 python
+@yew39 PS 3806853 40.5 409956 python
+@yew39 PS 3806854 31.7 403120 python
+@yew39 PS 3806855 34.0 417144 python
+@yew39 PS 3806857 30.8 419704 python
 @yew39 PS 3807586  0.1 11436 systemd
 @yew39 PS 3807587  0.0  3388 (sd-pam)
 @yew39 PS 3807598  0.0  8512 pipewire
@@ -41,4 +41,4 @@
 @yew39 PS 3807603  0.0 10304 pipewire-pulse
 @yew39 PS 3807613  0.0  4108 dbus-daemon
 @yew39 SIZE 8 21,18
-@yew39 SEEN 1785225869
+@yew39 SEEN 1785226724

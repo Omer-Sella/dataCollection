@@ -1,16 +1,16 @@
-@cedar04 CPU 16 11.84
-@cedar04 MEM 31669 16230
-@cedar04 PS  140297  0.0  2068 sleep
-@cedar04 PS  144168  0.0  2068 sleep
-@cedar04 PS  146487  0.0  7076 sshd
-@cedar04 PS  146488  0.0  3568 bash
-@cedar04 PS  146499  0.0  4540 ps
-@cedar04 PS  146500  0.0  2316 sed
+@cedar04 CPU 16 11.00
+@cedar04 MEM 31669 16234
+@cedar04 PS  155541  0.0  2072 sleep
+@cedar04 PS  155760  0.0  2072 sleep
+@cedar04 PS  157301  0.0  7092 sshd
+@cedar04 PS  157302  0.0  3664 bash
+@cedar04 PS  157313  0.0  4556 ps
+@cedar04 PS  157314  0.0  2316 sed
 @cedar04 PS 3601457  0.1 11908 systemd
 @cedar04 PS 3601458  0.0  3408 (sd-pam)
 @cedar04 PS 3601470  0.0  8884 pipewire
 @cedar04 PS 3601471  0.0  6040 pipewire
-@cedar04 PS 3601472  0.0 19588 wireplumber
+@cedar04 PS 3601472  0.0 19688 wireplumber
 @cedar04 PS 3601474  0.0 10692 pipewire-pulse
 @cedar04 PS 3601488  0.0  4432 dbus-daemon
 @cedar04 PS 3601529  0.0  3576 bash
@@ -19,7 +19,7 @@
 @cedar04 PS 3601549  0.0  2120 timeout
 @cedar04 PS 3601551 99.9 2658040 python
 @cedar04 PS 3601569  0.0  2116 timeout
-@cedar04 PS 3601571 99.9 2678144 python
+@cedar04 PS 3601571 99.9 2684844 python
 @cedar04 PS 3601607  0.0  2116 timeout
 @cedar04 PS 3601609 99.9 2670480 python
 @cedar04 PS 3601638  0.0  2116 timeout
@@ -28,17 +28,17 @@
 @cedar04 PS 3602049  0.0 11048 python
 @cedar04 PS 3602050  0.0 11024 python
 @cedar04 PS 3602051  0.0 11020 python
-@cedar04 PS 3602052 77.1 828248 python
-@cedar04 PS 3602053 21.6 825568 python
-@cedar04 PS 3602054 51.7 826832 python
-@cedar04 PS 3602055 47.6 827612 python
-@cedar04 PS 3602056 80.4 828076 python
-@cedar04 PS 3602057 75.7 823512 python
-@cedar04 PS 3602058 50.9 818992 python
-@cedar04 PS 3602059 10.8 818576 python
-@cedar04 PS 3602060 64.5 830020 python
-@cedar04 PS 3602061 57.4 823340 python
-@cedar04 PS 3602062 11.9 818340 python
-@cedar04 PS 3602063 30.3 819296 python
+@cedar04 PS 3602052 75.9 828248 python
+@cedar04 PS 3602053 22.8 825568 python
+@cedar04 PS 3602054 52.0 826836 python
+@cedar04 PS 3602055 48.4 827612 python
+@cedar04 PS 3602056 80.7 828076 python
+@cedar04 PS 3602057 74.5 823512 python
+@cedar04 PS 3602058 50.6 824444 python
+@cedar04 PS 3602059 12.1 818576 python
+@cedar04 PS 3602060 65.0 830020 python
+@cedar04 PS 3602061 56.5 817888 python
+@cedar04 PS 3602062 11.7 818340 python
+@cedar04 PS 3602063 31.4 819296 python
 @cedar04 SIZE 8 21,18
-@cedar04 SEEN 1785225912
+@cedar04 SEEN 1785226768

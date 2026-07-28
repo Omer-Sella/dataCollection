@@ -1,10 +1,10 @@
-@yew23 CPU 24 10.11
-@yew23 MEM 15658 12452
+@yew23 CPU 24 10.01
+@yew23 MEM 15658 12463
 @yew23 PS  443745  0.0  2800 bash
 @yew23 PS  443750  0.0  1792 bash
 @yew23 PS  443768  0.0  1928 bash
 @yew23 PS  443773  0.0  1516 timeout
-@yew23 PS  443775 99.9 1948260 python
+@yew23 PS  443775 99.9 1954976 python
 @yew23 PS  443807  0.0  1512 timeout
 @yew23 PS  443809 99.9 1967192 python
 @yew23 PS  443890  0.0  1516 timeout
@@ -15,18 +15,18 @@
 @yew23 PS  444229  0.0  3404 python
 @yew23 PS  444230  0.0  3404 python
 @yew23 PS  444232  0.0  3496 python
-@yew23 PS  444233 73.3 300684 python
-@yew23 PS  444235 33.2 301324 python
-@yew23 PS  444236 51.7 293392 python
-@yew23 PS  444238 81.1 291868 python
-@yew23 PS  444239 26.5 296988 python
-@yew23 PS  444240 64.4 294500 python
-@yew23 PS  444242 47.8 295392 python
-@yew23 PS  444243 73.5 293756 python
-@yew23 PS  444245 44.2 293136 python
-@yew23 PS  444246 77.6 288092 python
-@yew23 PS  444249 40.4 301900 python
-@yew23 PS  444250 42.5 294676 python
+@yew23 PS  444233 73.7 300684 python
+@yew23 PS  444235 34.2 301324 python
+@yew23 PS  444236 52.4 293392 python
+@yew23 PS  444238 81.4 291868 python
+@yew23 PS  444239 26.1 299220 python
+@yew23 PS  444240 63.5 294500 python
+@yew23 PS  444242 47.1 295392 python
+@yew23 PS  444243 73.9 293756 python
+@yew23 PS  444245 43.5 293136 python
+@yew23 PS  444246 77.9 288092 python
+@yew23 PS  444249 39.8 301900 python
+@yew23 PS  444250 41.9 299016 python
 @yew23 PS  445760  0.1 11660 systemd
 @yew23 PS  445761  0.0  3368 (sd-pam)
 @yew23 PS  445769  0.0  8640 pipewire
@@ -34,11 +34,11 @@
 @yew23 PS  445773  0.0 15488 wireplumber
 @yew23 PS  445774  0.0 10524 pipewire-pulse
 @yew23 PS  445775  0.0  4272 dbus-daemon
-@yew23 PS 1195578  0.0  2068 sleep
-@yew23 PS 1195843  0.0  2068 sleep
-@yew23 PS 1197301  0.0  7060 sshd
-@yew23 PS 1197302  0.0  3536 bash
-@yew23 PS 1197313  0.0  4604 ps
-@yew23 PS 1197314  0.0  2308 sed
+@yew23 PS 1203351  0.0  2068 sleep
+@yew23 PS 1207042  0.0  2060 sleep
+@yew23 PS 1208170  0.0  7036 sshd
+@yew23 PS 1208171  0.0  3572 bash
+@yew23 PS 1208182  100  4580 ps
+@yew23 PS 1208183  0.0  2308 sed
 @yew23 SIZE 8 21,18
-@yew23 SEEN 1785225868
+@yew23 SEEN 1785226723

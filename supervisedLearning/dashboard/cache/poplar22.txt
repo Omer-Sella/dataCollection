@@ -1,11 +1,11 @@
-@poplar22 CPU 24 9.00
-@poplar22 MEM 15658 12227
-@poplar22 PS   72149  0.0  2060 sleep
-@poplar22 PS   75694  0.0  2068 sleep
-@poplar22 PS   77666  0.0  7044 sshd
-@poplar22 PS   77667  0.0  3552 bash
-@poplar22 PS   77678  0.0  4532 ps
-@poplar22 PS   77679  0.0  2312 sed
+@poplar22 CPU 24 9.01
+@poplar22 MEM 15658 12224
+@poplar22 PS   87004  0.0  2068 sleep
+@poplar22 PS   87231  0.0  2064 sleep
+@poplar22 PS   88399  0.0  7024 sshd
+@poplar22 PS   88400  0.0  3580 bash
+@poplar22 PS   88411  0.0  4540 ps
+@poplar22 PS   88412  0.0  2316 sed
 @poplar22 PS 3532301  0.0  2820 bash
 @poplar22 PS 3532306  0.0  1776 bash
 @poplar22 PS 3532316  0.0  1804 bash
@@ -21,18 +21,18 @@
 @poplar22 PS 3532749  0.0  3460 python
 @poplar22 PS 3532750  0.0  3436 python
 @poplar22 PS 3532751  0.0  3372 python
-@poplar22 PS 3532752 50.0 389780 python
-@poplar22 PS 3532755 15.7 402492 python
-@poplar22 PS 3532756 33.3 411632 python
-@poplar22 PS 3532757 44.1 418888 python
-@poplar22 PS 3532759 25.9 395552 python
-@poplar22 PS 3532760 55.6 417048 python
-@poplar22 PS 3532762 60.2 408224 python
-@poplar22 PS 3532763 58.7 406252 python
-@poplar22 PS 3532765 85.8 414624 python
-@poplar22 PS 3532766 30.2 421900 python
-@poplar22 PS 3532767 65.3 406592 python
-@poplar22 PS 3532768 51.0 418680 python
+@poplar22 PS 3532752 49.3 389780 python
+@poplar22 PS 3532755 15.5 402492 python
+@poplar22 PS 3532756 32.8 411632 python
+@poplar22 PS 3532757 43.4 418888 python
+@poplar22 PS 3532759 27.0 395552 python
+@poplar22 PS 3532760 56.2 417048 python
+@poplar22 PS 3532762 60.8 408224 python
+@poplar22 PS 3532763 57.8 406252 python
+@poplar22 PS 3532765 86.0 414624 python
+@poplar22 PS 3532766 29.7 421900 python
+@poplar22 PS 3532767 65.9 406592 python
+@poplar22 PS 3532768 50.3 418680 python
 @poplar22 PS 3534017  0.1 11572 systemd
 @poplar22 PS 3534018  0.0  3388 (sd-pam)
 @poplar22 PS 3534037  0.0  8504 pipewire
@@ -41,4 +41,4 @@
 @poplar22 PS 3534041  0.0 10596 pipewire-pulse
 @poplar22 PS 3534052  0.0  4212 dbus-daemon
 @poplar22 SIZE 8 21,18
-@poplar22 SEEN 1785225877
+@poplar22 SEEN 1785226732

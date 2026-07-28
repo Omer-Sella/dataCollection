@@ -1,10 +1,10 @@
-@poplar27 CPU 24 10.70
-@poplar27 MEM 15658 12240
+@poplar27 CPU 24 11.03
+@poplar27 MEM 15658 12266
 @poplar27 PS 2080492  0.0  2828 bash
 @poplar27 PS 2080497  0.0  1784 bash
 @poplar27 PS 2080507  0.0  1860 bash
 @poplar27 PS 2080512  0.0  1496 timeout
-@poplar27 PS 2080514 99.9 1623252 python
+@poplar27 PS 2080514 99.9 1629968 python
 @poplar27 PS 2080536  0.0  1492 timeout
 @poplar27 PS 2080538 99.9 1651288 python
 @poplar27 PS 2080589  0.0  1496 timeout
@@ -15,18 +15,18 @@
 @poplar27 PS 2080941  0.0  3336 python
 @poplar27 PS 2080942  0.0  3376 python
 @poplar27 PS 2080943  0.0  3504 python
-@poplar27 PS 2080946 63.0 412968 python
-@poplar27 PS 2080947 21.8 418820 python
-@poplar27 PS 2080948 25.1 402464 python
-@poplar27 PS 2080949 46.5 428144 python
-@poplar27 PS 2080952 64.5 413228 python
-@poplar27 PS 2080953 41.5 406448 python
-@poplar27 PS 2080954 27.0 420644 python
-@poplar27 PS 2080956 60.2 438532 python
-@poplar27 PS 2080958 92.7 412720 python
-@poplar27 PS 2080960 36.0 403632 python
-@poplar27 PS 2080961 62.0 412648 python
-@poplar27 PS 2080962 73.8 421740 python
+@poplar27 PS 2080946 63.5 412968 python
+@poplar27 PS 2080947 21.4 418820 python
+@poplar27 PS 2080948 24.7 402464 python
+@poplar27 PS 2080949 47.3 430508 python
+@poplar27 PS 2080952 65.0 413228 python
+@poplar27 PS 2080953 42.4 406448 python
+@poplar27 PS 2080954 28.1 422756 python
+@poplar27 PS 2080956 59.3 438532 python
+@poplar27 PS 2080958 92.8 412720 python
+@poplar27 PS 2080960 35.5 403632 python
+@poplar27 PS 2080961 61.1 412648 python
+@poplar27 PS 2080962 74.2 421740 python
 @poplar27 PS 2082026  0.1 11584 systemd
 @poplar27 PS 2082027  0.0  3324 (sd-pam)
 @poplar27 PS 2082038  0.0  8676 pipewire
@@ -34,11 +34,11 @@
 @poplar27 PS 2082041  0.0 15616 wireplumber
 @poplar27 PS 2082043  0.0 10492 pipewire-pulse
 @poplar27 PS 2082044  0.0  4332 dbus-daemon
-@poplar27 PS 2809530  0.0  2064 sleep
-@poplar27 PS 2813479  0.0  2064 sleep
-@poplar27 PS 2817183  0.0  7052 sshd
-@poplar27 PS 2817184  0.0  3560 bash
-@poplar27 PS 2817195  0.0  4572 ps
-@poplar27 PS 2817196  0.0  2300 sed
+@poplar27 PS 2826664  0.0  2060 sleep
+@poplar27 PS 2826888  0.0  2068 sleep
+@poplar27 PS 2827846  0.0  7044 sshd
+@poplar27 PS 2827847  0.0  3540 bash
+@poplar27 PS 2827858  0.0  4592 ps
+@poplar27 PS 2827859  0.0  2308 sed
 @poplar27 SIZE 8 21,18
-@poplar27 SEEN 1785225877
+@poplar27 SEEN 1785226733

@@ -1,5 +1,5 @@
-@poplar17 CPU 24 9.00
-@poplar17 MEM 15658 12218
+@poplar17 CPU 24 8.27
+@poplar17 MEM 15658 12211
 @poplar17 PS 1371644  0.0  2840 bash
 @poplar17 PS 1371649  0.0  1792 bash
 @poplar17 PS 1371659  0.0  1936 bash
@@ -10,23 +10,23 @@
 @poplar17 PS 1371709  0.0  1524 timeout
 @poplar17 PS 1371711 99.9 1666200 python
 @poplar17 PS 1371817  0.0  1532 timeout
-@poplar17 PS 1371819 99.9 1703020 python
+@poplar17 PS 1371819 99.9 1709724 python
 @poplar17 PS 1372099  0.0  3436 python
 @poplar17 PS 1372100  0.0  3504 python
 @poplar17 PS 1372102  0.0  3412 python
 @poplar17 PS 1372103  0.0  3312 python
-@poplar17 PS 1372105 27.7 420488 python
-@poplar17 PS 1372106 37.1 367724 python
-@poplar17 PS 1372107 61.6 400640 python
-@poplar17 PS 1372109 65.3 377616 python
-@poplar17 PS 1372111 73.6 372868 python
-@poplar17 PS 1372113 83.1 366012 python
-@poplar17 PS 1372114 47.9 370516 python
-@poplar17 PS 1372115 39.7 365596 python
-@poplar17 PS 1372118 26.0 405724 python
-@poplar17 PS 1372119 52.6 405792 python
-@poplar17 PS 1372120 38.3 391032 python
-@poplar17 PS 1372121 27.6 368368 python
+@poplar17 PS 1372105 28.8 420488 python
+@poplar17 PS 1372106 36.5 367724 python
+@poplar17 PS 1372107 60.7 394072 python
+@poplar17 PS 1372109 64.3 377616 python
+@poplar17 PS 1372111 74.0 372868 python
+@poplar17 PS 1372113 83.2 366012 python
+@poplar17 PS 1372114 48.6 363824 python
+@poplar17 PS 1372115 39.1 365596 python
+@poplar17 PS 1372118 25.6 405724 python
+@poplar17 PS 1372119 51.8 405792 python
+@poplar17 PS 1372120 37.7 395492 python
+@poplar17 PS 1372121 28.7 368368 python
 @poplar17 PS 1373600  0.1 11868 systemd
 @poplar17 PS 1373601  0.0  3424 (sd-pam)
 @poplar17 PS 1373620  0.0  8548 pipewire
@@ -34,11 +34,11 @@
 @poplar17 PS 1373624  0.0 15288 wireplumber
 @poplar17 PS 1373625  0.0  9996 pipewire-pulse
 @poplar17 PS 1373637  0.0  4228 dbus-daemon
-@poplar17 PS 2103006  0.0  2072 sleep
-@poplar17 PS 2106510  0.0  2052 sleep
-@poplar17 PS 2109068  0.0  7048 sshd
-@poplar17 PS 2109069  0.0  3600 bash
-@poplar17 PS 2109080  0.0  4616 ps
-@poplar17 PS 2109081  0.0  2312 sed
+@poplar17 PS 2120112  0.0  2072 sleep
+@poplar17 PS 2120391  0.0  2072 sleep
+@poplar17 PS 2121794  0.0  7076 sshd
+@poplar17 PS 2121795  0.0  3560 bash
+@poplar17 PS 2121806  100  4628 ps
+@poplar17 PS 2121807  0.0  2304 sed
 @poplar17 SIZE 8 21,18
-@poplar17 SEEN 1785225876
+@poplar17 SEEN 1785226732

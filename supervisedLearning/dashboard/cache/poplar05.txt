@@ -1,11 +1,11 @@
-@poplar05 CPU 24 12.85
-@poplar05 MEM 15658 12170
-@poplar05 PS  538309  0.0  2072 sleep
-@poplar05 PS  541840  0.0  2056 sleep
-@poplar05 PS  546246  0.0  7004 sshd
-@poplar05 PS  546247  0.0  3576 bash
-@poplar05 PS  546258  0.0  4520 ps
-@poplar05 PS  546259  0.0  2320 sed
+@poplar05 CPU 24 11.10
+@poplar05 MEM 15658 12168
+@poplar05 PS  554598  0.0  2072 sleep
+@poplar05 PS  554857  0.0  2072 sleep
+@poplar05 PS  556891  0.0  7060 sshd
+@poplar05 PS  556892  0.0  3540 bash
+@poplar05 PS  556903  0.0  4540 ps
+@poplar05 PS  556904  0.0  2316 sed
 @poplar05 PS 4000527  0.0  2852 bash
 @poplar05 PS 4000532  0.0  1796 bash
 @poplar05 PS 4000542  0.0  1876 bash
@@ -21,18 +21,18 @@
 @poplar05 PS 4001309  0.0  3376 python
 @poplar05 PS 4001311  0.0  3408 python
 @poplar05 PS 4001312  0.0  3488 python
-@poplar05 PS 4001313 29.0 286220 python
-@poplar05 PS 4001314  7.0 289700 python
-@poplar05 PS 4001315 32.3 307252 python
-@poplar05 PS 4001318 36.2 317552 python
-@poplar05 PS 4001319 74.5 320200 python
-@poplar05 PS 4001322 94.6 313548 python
-@poplar05 PS 4001323 42.5 305928 python
-@poplar05 PS 4001324 29.9 294824 python
-@poplar05 PS 4001325 77.5 310552 python
-@poplar05 PS 4001327 80.1 300900 python
-@poplar05 PS 4001328 79.8 309120 python
-@poplar05 PS 4001329 54.1 292172 python
+@poplar05 PS 4001313 28.5 286220 python
+@poplar05 PS 4001314  8.4 289700 python
+@poplar05 PS 4001315 32.2 307252 python
+@poplar05 PS 4001318 37.1 317552 python
+@poplar05 PS 4001319 74.3 320200 python
+@poplar05 PS 4001322 94.7 313548 python
+@poplar05 PS 4001323 43.4 305928 python
+@poplar05 PS 4001324 29.4 294824 python
+@poplar05 PS 4001325 77.9 310552 python
+@poplar05 PS 4001327 80.4 300900 python
+@poplar05 PS 4001328 80.1 309120 python
+@poplar05 PS 4001329 53.2 292172 python
 @poplar05 PS 4002946  0.1 11724 systemd
 @poplar05 PS 4002947  0.0  3436 (sd-pam)
 @poplar05 PS 4002966  0.0  8636 pipewire
@@ -41,4 +41,4 @@
 @poplar05 PS 4002971  0.0 10556 pipewire-pulse
 @poplar05 PS 4002983  0.0  4296 dbus-daemon
 @poplar05 SIZE 8 21,18
-@poplar05 SEEN 1785225876
+@poplar05 SEEN 1785226731

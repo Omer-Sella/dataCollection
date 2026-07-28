@@ -1,10 +1,10 @@
-@poplar10 CPU 24 11.03
-@poplar10 MEM 15658 12196
+@poplar10 CPU 24 10.12
+@poplar10 MEM 15658 12199
 @poplar10 PS 2308957  0.0  2836 bash
 @poplar10 PS 2308962  0.0  1772 bash
 @poplar10 PS 2308972  0.0  1928 bash
 @poplar10 PS 2308977  0.0  1500 timeout
-@poplar10 PS 2308979 99.9 1929900 python
+@poplar10 PS 2308979 99.9 1936600 python
 @poplar10 PS 2308997  0.0  1500 timeout
 @poplar10 PS 2308999 99.9 1990660 python
 @poplar10 PS 2309021  0.0  1500 timeout
@@ -15,18 +15,18 @@
 @poplar10 PS 2309444  0.0  3344 python
 @poplar10 PS 2309445  0.0  3372 python
 @poplar10 PS 2309446  0.0  3372 python
-@poplar10 PS 2309447 13.8 296904 python
-@poplar10 PS 2309448 39.2 297204 python
-@poplar10 PS 2309449 68.5 308860 python
-@poplar10 PS 2309451 71.9 296984 python
-@poplar10 PS 2309453 13.2 299096 python
-@poplar10 PS 2309454 30.8 302348 python
-@poplar10 PS 2309456 93.0 309716 python
-@poplar10 PS 2309457 63.5 308992 python
-@poplar10 PS 2309460 70.8 307580 python
-@poplar10 PS 2309461 90.4 312120 python
-@poplar10 PS 2309463 56.0 303832 python
-@poplar10 PS 2309464 20.9 307908 python
+@poplar10 PS 2309447 15.1 296904 python
+@poplar10 PS 2309448 40.1 297204 python
+@poplar10 PS 2309449 67.5 311092 python
+@poplar10 PS 2309451 72.3 296984 python
+@poplar10 PS 2309453 13.0 299096 python
+@poplar10 PS 2309454 30.4 302348 python
+@poplar10 PS 2309456 91.6 309716 python
+@poplar10 PS 2309457 64.1 308992 python
+@poplar10 PS 2309460 71.3 307580 python
+@poplar10 PS 2309461 90.5 312124 python
+@poplar10 PS 2309463 56.5 303832 python
+@poplar10 PS 2309464 20.5 307908 python
 @poplar10 PS 2311367  0.1 11548 systemd
 @poplar10 PS 2311368  0.0  3388 (sd-pam)
 @poplar10 PS 2311387  0.0  8376 pipewire
@@ -34,11 +34,11 @@
 @poplar10 PS 2311390  0.0 14588 wireplumber
 @poplar10 PS 2311392  0.0  9740 pipewire-pulse
 @poplar10 PS 2311404  0.0  4128 dbus-daemon
-@poplar10 PS 3039282  0.0  2068 sleep
-@poplar10 PS 3042846  0.0  2064 sleep
-@poplar10 PS 3046672  0.0  7080 sshd
-@poplar10 PS 3046675  0.0  3608 bash
-@poplar10 PS 3046686  0.0  4604 ps
-@poplar10 PS 3046687  0.0  2316 sed
+@poplar10 PS 3055439  0.0  2068 sleep
+@poplar10 PS 3055659  0.0  2068 sleep
+@poplar10 PS 3057445  0.0  7100 sshd
+@poplar10 PS 3057446  0.0  3592 bash
+@poplar10 PS 3057457  0.0  4604 ps
+@poplar10 PS 3057458  0.0  2316 sed
 @poplar10 SIZE 8 21,18
-@poplar10 SEEN 1785225876
+@poplar10 SEEN 1785226731

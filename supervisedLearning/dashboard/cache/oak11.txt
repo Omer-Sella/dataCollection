@@ -1,12 +1,12 @@
-@oak11 CPU 16 11.01
-@oak11 MEM 15766 12272
-@oak11 GPU 0, 92, 2048
-@oak11 PS   72788  0.0  2000 sleep
-@oak11 PS   72861  0.0  2028 sleep
-@oak11 PS   74975  0.0  7072 sshd
-@oak11 PS   74988  0.0  3512 bash
-@oak11 PS   74999  100  4468 ps
-@oak11 PS   75000  0.0  2264 sed
+@oak11 CPU 16 11.24
+@oak11 MEM 15766 12283
+@oak11 GPU 0, 102, 2048
+@oak11 PS   80297  0.0  1976 sleep
+@oak11 PS   85978  0.0  1976 sleep
+@oak11 PS   86137  0.0  7076 sshd
+@oak11 PS   86138  0.0  3524 bash
+@oak11 PS   86149  0.0  4464 ps
+@oak11 PS   86150  0.0  2280 sed
 @oak11 PS 3688526  0.1 10976 systemd
 @oak11 PS 3688527  0.0  2616 (sd-pam)
 @oak11 PS 3688538  0.0  5612 pipewire
@@ -29,17 +29,17 @@
 @oak11 PS 3689536  0.0  5432 python
 @oak11 PS 3689537  0.0  5372 python
 @oak11 PS 3689538  0.0  5320 python
-@oak11 PS 3689539 37.8 353340 python
-@oak11 PS 3689540 32.9 374668 python
-@oak11 PS 3689541 57.2 351668 python
-@oak11 PS 3689542 24.7 362564 python
-@oak11 PS 3689543 27.0 370528 python
-@oak11 PS 3689544 52.9 375204 python
-@oak11 PS 3689545 22.3 371108 python
+@oak11 PS 3689539 37.2 353340 python
+@oak11 PS 3689540 34.0 374668 python
+@oak11 PS 3689541 57.9 351668 python
+@oak11 PS 3689542 24.3 362564 python
+@oak11 PS 3689543 26.5 370528 python
+@oak11 PS 3689544 53.6 375204 python
+@oak11 PS 3689545 23.6 371108 python
 @oak11 PS 3689546 99.6 383344 python
-@oak11 PS 3689547 50.4 353048 python
-@oak11 PS 3689548 79.4 354356 python
-@oak11 PS 3689549 80.8 375300 python
-@oak11 PS 3689550 12.3 365784 python
+@oak11 PS 3689547 49.6 353048 python
+@oak11 PS 3689548 79.7 354356 python
+@oak11 PS 3689549 81.1 375300 python
+@oak11 PS 3689550 12.1 365784 python
 @oak11 SIZE 8 21,18
-@oak11 SEEN 1785225979
+@oak11 SEEN 1785226711
