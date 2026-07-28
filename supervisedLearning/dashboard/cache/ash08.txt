@@ -1,15 +1,15 @@
-@ash08 CPU 16 0.04
-@ash08 MEM 15909 1206
-@ash08 GPU 0, 81, 2048
-@ash08 PS 1491785 26.3 11704 systemd
-@ash08 PS 1491786  0.0  3424 (sd-pam)
-@ash08 PS 1491798  4.5  8720 pipewire
-@ash08 PS 1491799  0.0  5992 pipewire
-@ash08 PS 1491802  9.0 15768 wireplumber
-@ash08 PS 1491803  0.0 10600 pipewire-pulse
-@ash08 PS 1491818  0.0  4416 dbus-daemon
-@ash08 PS 1491834  0.0  6948 sshd
-@ash08 PS 1491846  0.0  3556 bash
-@ash08 PS 1491869  0.0  4508 ps
-@ash08 PS 1491870  0.0  2304 sed
-@ash08 SEEN 1785268043
+@ash08 CPU 16 0.00
+@ash08 MEM 15909 1207
+@ash08 GPU 3, 81, 2048
+@ash08 PS 1493524 25.0 11668 systemd
+@ash08 PS 1493525  0.0  3440 (sd-pam)
+@ash08 PS 1493545  0.0  8708 pipewire
+@ash08 PS 1493546  0.0  6000 pipewire
+@ash08 PS 1493548  8.3 15744 wireplumber
+@ash08 PS 1493550  0.0 10656 pipewire-pulse
+@ash08 PS 1493566  0.0  4460 dbus-daemon
+@ash08 PS 1493580  0.0  6956 sshd
+@ash08 PS 1493593  0.0  3564 bash
+@ash08 PS 1493608  100  4504 ps
+@ash08 PS 1493609  0.0  2288 sed
+@ash08 SEEN 1785268179

@@ -1,14 +1,14 @@
-@poplar12 CPU 24 0.28
-@poplar12 MEM 15658 1541
-@poplar12 PS 1008990 28.5 11828 systemd
-@poplar12 PS 1008991  0.0  3416 (sd-pam)
-@poplar12 PS 1009012  0.0  8812 pipewire
-@poplar12 PS 1009013  0.0  6048 pipewire
-@poplar12 PS 1009015 10.5 15776 wireplumber
-@poplar12 PS 1009017  0.0 10552 pipewire-pulse
-@poplar12 PS 1009036  0.0  4448 dbus-daemon
-@poplar12 PS 1009046  0.0  6968 sshd
-@poplar12 PS 1009061  0.0  3580 bash
-@poplar12 PS 1009076  0.0  4548 ps
-@poplar12 PS 1009077  0.0  2296 sed
-@poplar12 SEEN 1785268034
+@poplar12 CPU 24 0.04
+@poplar12 MEM 15658 1296
+@poplar12 PS 1011031 28.2 11616 systemd
+@poplar12 PS 1011032  0.0  3416 (sd-pam)
+@poplar12 PS 1011051  4.0  8768 pipewire
+@poplar12 PS 1011052  4.0  5996 pipewire
+@poplar12 PS 1011053 25.0 15732 wireplumber
+@poplar12 PS 1011056  8.3 10560 pipewire-pulse
+@poplar12 PS 1011070  0.0  4436 dbus-daemon
+@poplar12 PS 1011089  0.0  6944 sshd
+@poplar12 PS 1011100  0.0  3600 bash
+@poplar12 PS 1011116  100  4548 ps
+@poplar12 PS 1011117  0.0  2300 sed
+@poplar12 SEEN 1785268170
