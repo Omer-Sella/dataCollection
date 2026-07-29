@@ -1,11 +1,11 @@
-@gpu15 CPU 8 9.45
-@gpu15 MEM 32011 12624
-@gpu15 GPU 99, 6950, 8192
+@gpu15 CPU 8 9.42
+@gpu15 MEM 32011 12996
+@gpu15 GPU 97, 6950, 8192
 @gpu15 APP 526459, 6868
-@gpu15 PS  767315  0.0  6984 sshd
-@gpu15 PS  767316  0.0  3584 bash
-@gpu15 PS  767327  0.0  4616 ps
-@gpu15 PS  767328  0.0  2340 sed
+@gpu15 PS  769108  0.0  7040 sshd
+@gpu15 PS  769109  0.0  3652 bash
+@gpu15 PS  769128  100  4636 ps
+@gpu15 PS  769129  0.0  2340 sed
 @gpu15 PS 3210805  0.0  8116 systemd
 @gpu15 PS 3210808  0.0  1700 (sd-pam)
 @gpu15 PS 3210824  0.0  4612 pipewire
@@ -32,4 +32,4 @@
 @gpu15 PS 3406894  0.0   668 ssh-agent
 @gpu15 PS 3417632  0.0   676 ssh-agent
 @gpu15 PS 3419215  0.0   688 ssh-agent
-@gpu15 SEEN 1785368329
+@gpu15 SEEN 1785368470

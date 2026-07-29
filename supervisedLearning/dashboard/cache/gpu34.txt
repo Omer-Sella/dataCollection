@@ -1,14 +1,15 @@
-@gpu34 CPU 16 3.08
-@gpu34 MEM 48093 12334
-@gpu34 GPU 0, 4921, 16376
+@gpu34 CPU 16 3.76
+@gpu34 MEM 48093 15036
+@gpu34 GPU 95, 5568, 16376
 @gpu34 APP 1303495, 1748
 @gpu34 APP 2422349, 3062
+@gpu34 APP 2533226, 642
 @gpu34 PS 2301391  0.0  3872 bash
-@gpu34 PS 2527338  0.0  2084 sleep
-@gpu34 PS 2529578  0.0  6972 sshd
-@gpu34 PS 2529579  0.0  3648 bash
-@gpu34 PS 2529592  0.0  4620 ps
-@gpu34 PS 2529593  0.0  2328 sed
+@gpu34 PS 2533758  0.0  2084 sleep
+@gpu34 PS 2535014  0.0  7036 sshd
+@gpu34 PS 2535023  0.0  3640 bash
+@gpu34 PS 2535036  100  4620 ps
+@gpu34 PS 2535037  0.0  2324 sed
 @gpu34 PS 3477213  0.0 11184 systemd
 @gpu34 PS 3477214  0.0  3252 (sd-pam)
 @gpu34 PS 3477339  0.0  1100 ssh-agent
@@ -26,4 +27,4 @@
 @gpu34 PS 3643306  0.0   824 ssh-agent
 @gpu34 PS 3651530  0.0  1296 ssh-agent
 @gpu34 PS 3703453  0.0   832 ssh-agent
-@gpu34 SEEN 1785368195
+@gpu34 SEEN 1785368477

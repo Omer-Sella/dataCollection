@@ -1,15 +1,15 @@
-@beech16 CPU 16 0.00
-@beech16 MEM 15880 1239
-@beech16 GPU 2, 82, 4096
-@beech16 PS 1626782 26.3 11840 systemd
-@beech16 PS 1626783  0.0  3424 (sd-pam)
-@beech16 PS 1626795  0.0  8804 pipewire
-@beech16 PS 1626796  0.0  6116 pipewire
-@beech16 PS 1626797 14.2 15912 wireplumber
-@beech16 PS 1626800  0.0 10644 pipewire-pulse
-@beech16 PS 1626816  0.0  4480 dbus-daemon
-@beech16 PS 1626831  0.0  6952 sshd
-@beech16 PS 1626843  0.0  3640 bash
-@beech16 PS 1626867  0.0  4604 ps
-@beech16 PS 1626868  0.0  2332 sed
-@beech16 SEEN 1785368238
+@beech16 CPU 16 0.02
+@beech16 MEM 15880 1236
+@beech16 GPU 0, 82, 4096
+@beech16 PS 1630375 28.2 11752 systemd
+@beech16 PS 1630376  0.0  3440 (sd-pam)
+@beech16 PS 1630387  4.5  8800 pipewire
+@beech16 PS 1630388  0.0  6020 pipewire
+@beech16 PS 1630390  9.0 15912 wireplumber
+@beech16 PS 1630392  0.0 10652 pipewire-pulse
+@beech16 PS 1630408  0.0  4500 dbus-daemon
+@beech16 PS 1630417  0.0  7052 sshd
+@beech16 PS 1630435  0.0  3632 bash
+@beech16 PS 1630458  100  4596 ps
+@beech16 PS 1630459  0.0  2328 sed
+@beech16 SEEN 1785368520
