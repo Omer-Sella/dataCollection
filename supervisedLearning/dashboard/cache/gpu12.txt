@@ -1,11 +1,11 @@
-@gpu12 CPU 8 2.11
-@gpu12 MEM 64219 39248
-@gpu12 GPU 0, 90, 12288
-@gpu12 PS 1109791  0.0  7148 sshd
-@gpu12 PS 1109792  0.0  3656 bash
-@gpu12 PS 1109803  0.0  4604 ps
-@gpu12 PS 1109804  0.0  2332 sed
-@gpu12 PS 1217340  0.0 11548 systemd
+@gpu12 CPU 8 2.32
+@gpu12 MEM 64219 39564
+@gpu12 GPU 0, 80, 12288
+@gpu12 PS 1127414  0.0  7144 sshd
+@gpu12 PS 1127415  0.0  3636 bash
+@gpu12 PS 1127426  0.0  4616 ps
+@gpu12 PS 1127427  0.0  2336 sed
+@gpu12 PS 1217340  0.0 11556 systemd
 @gpu12 PS 1217341  0.0  2832 (sd-pam)
 @gpu12 PS 1217354  0.0  7064 pipewire
 @gpu12 PS 1217355  0.0  5044 pipewire
@@ -30,4 +30,4 @@
 @gpu12 PS 1436628  0.0  1320 ssh-agent
 @gpu12 PS 1443615  0.0   756 ssh-agent
 @gpu12 PS 1445503  0.0   820 ssh-agent
-@gpu12 SEEN 1785340684
+@gpu12 SEEN 1785341813

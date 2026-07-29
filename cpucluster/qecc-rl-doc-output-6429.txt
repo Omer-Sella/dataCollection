@@ -2,3 +2,225 @@ multiseed: 12 seeds x 7 envs on auklet03 Wed 29 Jul 16:57:41 BST 2026
 launched pids: 1315102 1315130 1315158 1315187 1315213 1315241 1315271 1315300 1315326 1315354 1315382 1315409
 all seeds finished Wed 29 Jul 16:59:23 BST 2026
  16:59:23 up 385 days,  3:13,  0 user,  load average: 9.08, 2.99, 1.06
+[master 1c0e0f4] cpucluster job ended 6429
+ 500 files changed, 12366 insertions(+), 7579 deletions(-)
+ create mode 100644 cpucluster/multiseed-6429-seed1111111.log
+ create mode 100644 cpucluster/multiseed-6429-seed1234567.log
+ create mode 100644 cpucluster/multiseed-6429-seed1414213.log
+ create mode 100644 cpucluster/multiseed-6429-seed1618033.log
+ create mode 100644 cpucluster/multiseed-6429-seed1732050.log
+ create mode 100644 cpucluster/multiseed-6429-seed2236067.log
+ create mode 100644 cpucluster/multiseed-6429-seed2645751.log
+ create mode 100644 cpucluster/multiseed-6429-seed2718281.log
+ create mode 100644 cpucluster/multiseed-6429-seed3141592.log
+ create mode 100644 cpucluster/multiseed-6429-seed3316624.log
+ create mode 100644 cpucluster/multiseed-6429-seed7654321.log
+ create mode 100644 cpucluster/multiseed-6429-seed9876543.log
+ create mode 100644 cpucluster/multiseed-6430-seed1111111.log
+ create mode 100644 cpucluster/multiseed-6430-seed1234567.log
+ create mode 100644 cpucluster/multiseed-6430-seed1414213.log
+ create mode 100644 cpucluster/multiseed-6430-seed1618033.log
+ create mode 100644 cpucluster/multiseed-6430-seed1732050.log
+ create mode 100644 cpucluster/multiseed-6430-seed2236067.log
+ create mode 100644 cpucluster/multiseed-6430-seed2645751.log
+ create mode 100644 cpucluster/multiseed-6430-seed2718281.log
+ create mode 100644 cpucluster/multiseed-6430-seed3141592.log
+ create mode 100644 cpucluster/multiseed-6430-seed3316624.log
+ create mode 100644 cpucluster/multiseed-6430-seed7654321.log
+ create mode 100644 cpucluster/multiseed-6430-seed9876543.log
+ create mode 100644 cpucluster/qecc-rl-doc-errors-6429.txt
+ create mode 100644 cpucluster/qecc-rl-doc-errors-6430.txt
+ create mode 100644 cpucluster/qecc-rl-doc-output-6429.txt
+ create mode 100644 cpucluster/qecc-rl-doc-output-6430.txt
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s466555 => claimed/p0_g5_mix_66-96-126-153_H7_s466555.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s5000 => claimed/p0_g5_mix_66-96-126-153_H7_s5000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s54321 => claimed/p0_g5_mix_66-96-126-153_H7_s54321.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s1000 => done/p0_g5_mix_66-96-126-153_H10_s1000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s12345 => done/p0_g5_mix_66-96-126-153_H10_s12345.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s2000 => done/p0_g5_mix_66-96-126-153_H10_s2000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s3000 => done/p0_g5_mix_66-96-126-153_H10_s3000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s4000 => done/p0_g5_mix_66-96-126-153_H10_s4000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s466555 => done/p0_g5_mix_66-96-126-153_H10_s466555.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s5000 => done/p0_g5_mix_66-96-126-153_H10_s5000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s54321 => done/p0_g5_mix_66-96-126-153_H10_s54321.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s6000 => done/p0_g5_mix_66-96-126-153_H10_s6000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H10_s7134066 => done/p0_g5_mix_66-96-126-153_H10_s7134066.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s1000 => done/p0_g5_mix_66-96-126-153_H3_s1000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s12345 => done/p0_g5_mix_66-96-126-153_H3_s12345.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s2000 => done/p0_g5_mix_66-96-126-153_H3_s2000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s3000 => done/p0_g5_mix_66-96-126-153_H3_s3000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s4000 => done/p0_g5_mix_66-96-126-153_H3_s4000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s466555 => done/p0_g5_mix_66-96-126-153_H3_s466555.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s5000 => done/p0_g5_mix_66-96-126-153_H3_s5000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s54321 => done/p0_g5_mix_66-96-126-153_H3_s54321.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s6000 => done/p0_g5_mix_66-96-126-153_H3_s6000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H3_s7134066 => done/p0_g5_mix_66-96-126-153_H3_s7134066.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s1000 => done/p0_g5_mix_66-96-126-153_H4_s1000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s12345 => done/p0_g5_mix_66-96-126-153_H4_s12345.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s2000 => done/p0_g5_mix_66-96-126-153_H4_s2000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s3000 => done/p0_g5_mix_66-96-126-153_H4_s3000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s4000 => done/p0_g5_mix_66-96-126-153_H4_s4000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s466555 => done/p0_g5_mix_66-96-126-153_H4_s466555.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s5000 => done/p0_g5_mix_66-96-126-153_H4_s5000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s54321 => done/p0_g5_mix_66-96-126-153_H4_s54321.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s6000 => done/p0_g5_mix_66-96-126-153_H4_s6000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H4_s7134066 => done/p0_g5_mix_66-96-126-153_H4_s7134066.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s1000 => done/p0_g5_mix_66-96-126-153_H6_s1000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s12345 => done/p0_g5_mix_66-96-126-153_H6_s12345.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s2000 => done/p0_g5_mix_66-96-126-153_H6_s2000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s3000 => done/p0_g5_mix_66-96-126-153_H6_s3000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s4000 => done/p0_g5_mix_66-96-126-153_H6_s4000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s466555 => done/p0_g5_mix_66-96-126-153_H6_s466555.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s5000 => done/p0_g5_mix_66-96-126-153_H6_s5000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s54321 => done/p0_g5_mix_66-96-126-153_H6_s54321.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s6000 => done/p0_g5_mix_66-96-126-153_H6_s6000.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H6_s7134066 => done/p0_g5_mix_66-96-126-153_H6_s7134066.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s1000 => done/p0_g5_mix_66-96-126-153_H7_s1000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s12345 => done/p0_g5_mix_66-96-126-153_H7_s12345.slurm267498} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s2000 => done/p0_g5_mix_66-96-126-153_H7_s2000.slurm267500} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s3000 => done/p0_g5_mix_66-96-126-153_H7_s3000.slurm267499} (100%)
+ rename supervisedLearning/sweep2/{tasks/p0_g5_mix_66-96-126-153_H7_s4000 => done/p0_g5_mix_66-96-126-153_H7_s4000.slurm267498} (100%)
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s1000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s1000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s12345-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s12345.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s2000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s2000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s3000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s3000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s4000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s4000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s466555-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s466555.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s5000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s5000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s54321-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s54321.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s6000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s6000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s7134066-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s7134066.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s1000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s1000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s12345-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s12345.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s2000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s2000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s3000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s3000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s4000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s4000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s466555-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s466555.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s5000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s5000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s54321-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s54321.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s6000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s6000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s7134066-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H3_s7134066.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s1000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s1000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s12345-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s12345.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s2000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s2000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s3000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s3000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s4000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s4000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s466555-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s466555.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s5000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s5000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s54321-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s54321.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s6000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s6000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s7134066-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H4_s7134066.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s1000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s1000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s12345-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s12345.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s2000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s2000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s3000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s3000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s4000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s4000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s466555-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s466555.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s5000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s5000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s54321-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s54321.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s6000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s6000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s7134066-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H6_s7134066.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s1000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s1000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s12345-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s12345.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s2000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s2000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s3000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s3000.pth
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s4000-report.md
+ create mode 100644 supervisedLearning/sweep2/g5_mix_66-96-126-153_H7_s4000.pth
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s1000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s12345.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s2000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s3000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s4000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s466555.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s5000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s54321.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s6000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H10_s7134066.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s1000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s12345.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s2000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s3000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s4000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s466555.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s5000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s54321.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s6000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H3_s7134066.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s1000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s12345.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s2000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s3000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s4000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s466555.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s5000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s54321.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s6000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H4_s7134066.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s1000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s12345.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s2000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s3000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s4000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s466555.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s5000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s54321.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s6000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H6_s7134066.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s1000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s12345.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s2000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s3000.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s4000.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s466555.slurm267499.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s5000.slurm267500.log
+ create mode 100644 supervisedLearning/sweep2/logs/p0_g5_mix_66-96-126-153_H7_s54321.slurm267498.log
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267498.err
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267498.out
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267499.err
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267499.out
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267500.err
+ create mode 100644 supervisedLearning/sweep2/logs/slurm-267500.out

@@ -1,5 +1,5 @@
-@batch1 CPU 64 23.21
-@batch1 MEM 515934 176115
+@batch1 CPU 64 21.59
+@batch1 MEM 515934 176438
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -35,27 +35,13 @@
 @batch1 PS 1893794  0.0  2164 bash
 @batch1 PS 1893796  0.1  4436 bash
 @batch1 PS 2032294  0.0  1540 ssh-agent
-@batch1 PS 2044677  0.0  2152 sleep
 @batch1 PS 2064312  0.0  3936 ssh-agent
 @batch1 PS 2096179  0.0  1548 ssh-agent
 @batch1 PS 2252974  0.0   820 ssh-agent
 @batch1 PS 2263716  0.0   772 ssh-agent
 @batch1 PS 2327470  0.0  1544 ssh-agent
-@batch1 PS 2350870  0.0  3048 bash
-@batch1 PS 2350874  0.0  3048 bash
-@batch1 PS 2350876  0.0  3000 bash
-@batch1 PS 2350883  0.0  2996 bash
-@batch1 PS 2350885  0.0  2200 timeout
-@batch1 PS 2350887  0.0  2200 timeout
-@batch1 PS 2350891  0.0  2340 grep
-@batch1 PS 2350892  0.0  2344 grep
-@batch1 PS 2350909 42.2  9232 ssh
-@batch1 PS 2350914 42.2  9200 ssh
-@batch1 PS 2351160  0.0  7096 sshd
-@batch1 PS 2351181  0.0  3660 bash
-@batch1 PS 2351210  0.0  6800 ps
-@batch1 PS 2351211  0.0  2400 sed
 @batch1 PS 2624173  0.0  1544 ssh-agent
+@batch1 PS 2855782  0.0  2152 sleep
 @batch1 PS 2899138  0.0   764 ssh-agent
 @batch1 PS 2907509  0.0  1868 bash
 @batch1 PS 2907515  0.0   768 ssh-agent
@@ -70,6 +56,20 @@
 @batch1 PS 3076073  0.0 11928 tmux: server
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
+@batch1 PS 3081702  0.0  3048 bash
+@batch1 PS 3081705  0.0  3040 bash
+@batch1 PS 3081711  0.0  3000 bash
+@batch1 PS 3081714  0.0  3000 bash
+@batch1 PS 3081718  0.0  2204 timeout
+@batch1 PS 3081720  0.0  2196 timeout
+@batch1 PS 3081721  0.0  2340 grep
+@batch1 PS 3081723  0.0  2344 grep
+@batch1 PS 3081740 38.6  9380 ssh
+@batch1 PS 3081745 43.1  9368 ssh
+@batch1 PS 3082024  0.0  7060 sshd
+@batch1 PS 3082049  0.0  3688 bash
+@batch1 PS 3082082 2000  6808 ps
+@batch1 PS 3082083  0.0  2400 sed
 @batch1 PS 3084743  0.0  1508 ssh-agent
 @batch1 PS 3172141  0.0   768 ssh-agent
 @batch1 PS 3173663  0.0  4288 bash
@@ -90,4 +90,4 @@
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1785340692
+@batch1 SEEN 1785341820
