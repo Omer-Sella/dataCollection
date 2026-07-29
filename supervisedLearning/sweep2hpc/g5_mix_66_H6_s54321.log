@@ -1,0 +1,39 @@
+device: cuda; sizes: [(6, 6)]; curve loss on: [(6, 6)]; lr: 0.001; H: 6
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+epoch 0: train 12.6006 | val 6,6: 12.2256
+epoch 1: train 11.6098 | val 6,6: 11.2768
+epoch 2: train 11.2487 | val 6,6: 11.1538
+epoch 3: train 11.1631 | val 6,6: 11.0681
+epoch 4: train 11.0975 | val 6,6: 11.0357
+epoch 5: train 11.0532 | val 6,6: 10.9867
+epoch 6: train 11.0241 | val 6,6: 10.9692
+epoch 7: train 11.0013 | val 6,6: 10.9396
+epoch 8: train 10.9821 | val 6,6: 10.9115
+epoch 9: train 10.9619 | val 6,6: 10.9041
+epoch 10: train 10.9419 | val 6,6: 10.8789
+epoch 11: train 10.9140 | val 6,6: 10.8640
+epoch 12: train 10.8898 | val 6,6: 10.8220
+epoch 13: train 10.8706 | val 6,6: 10.8148
+epoch 14: train 10.8518 | val 6,6: 10.7885
+epoch 15: train 10.8264 | val 6,6: 10.7700
+epoch 16: train 10.8162 | val 6,6: 10.7589
+epoch 17: train 10.7998 | val 6,6: 10.7314
+epoch 18: train 10.7930 | val 6,6: 10.7284
+epoch 19: train 10.7840 | val 6,6: 10.7352
+epoch 20: train 10.7746 | val 6,6: 10.7153
+epoch 21: train 10.7696 | val 6,6: 10.7107
+epoch 22: train 10.7649 | val 6,6: 10.7100
+epoch 23: train 10.7598 | val 6,6: 10.6996
+restored best-val weights from epoch 23 (val 10.6996)
+saved /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66_H6_s54321.pth
+
+## /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66_H6_s54321.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-29
+
+- data: `held-out 10% of /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **10.6485** (noise floor 10.1124)
+- reward MAE: **0.03181**
+- k MAE: **1.27** logical qubits
+- Spearman: **0.859**, Kendall: 0.678
+- top-k overlap (k=50): **0.16**
+
