@@ -1,59 +1,26 @@
-@gpu34 CPU 16 12.73
-@gpu34 MEM 48093 26085
-@gpu34 GPU 0, 2917, 16376
-@gpu34 APP 1665887, 1908
-@gpu34 APP 4168878, 898
-@gpu34 PS 3187565  0.0  2364 bash
-@gpu34 PS 3187573  0.0  1932 bash
-@gpu34 PS 3187578  0.0  2032 timeout
-@gpu34 PS 3187580 96.0 2399184 python
-@gpu34 PS 3187609  0.0  2088 timeout
-@gpu34 PS 3187611 96.1 2399992 python
-@gpu34 PS 3187652  0.0  2120 timeout
-@gpu34 PS 3187654 96.0 2373656 python
-@gpu34 PS 3187676  0.0  2088 timeout
-@gpu34 PS 3187678 96.0 2365428 python
-@gpu34 PS 3187941  0.0  7592 python
-@gpu34 PS 3187942  0.0  7584 python
-@gpu34 PS 3187943  0.0  7528 python
-@gpu34 PS 3187944  0.0  7552 python
-@gpu34 PS 3187945 13.1 504320 python
-@gpu34 PS 3187946 51.3 501796 python
-@gpu34 PS 3187947 66.2 502336 python
-@gpu34 PS 3187948 48.5 506120 python
-@gpu34 PS 3187949 72.6 507872 python
-@gpu34 PS 3187950 34.2 502620 python
-@gpu34 PS 3187951 40.7 505868 python
-@gpu34 PS 3187952 43.3 498568 python
-@gpu34 PS 3187953 46.6 499604 python
-@gpu34 PS 3187954 65.4 500904 python
-@gpu34 PS 3187955 77.5 504012 python
-@gpu34 PS 3187956 15.6 505532 python
+@gpu34 CPU 16 3.02
+@gpu34 MEM 48093 9114
+@gpu34 GPU 0, 1854, 16376
+@gpu34 APP 1303495, 1748
+@gpu34 PS 1524061  0.0  7044 sshd
+@gpu34 PS 1524062  0.0  3656 bash
+@gpu34 PS 1524075  100  4580 ps
+@gpu34 PS 1524076  0.0  2328 sed
 @gpu34 PS 3477213  0.0 11184 systemd
-@gpu34 PS 3477214  0.0  3272 (sd-pam)
+@gpu34 PS 3477214  0.0  3252 (sd-pam)
 @gpu34 PS 3477339  0.0  1100 ssh-agent
 @gpu34 PS 3477902  0.0  1348 ssh-agent
-@gpu34 PS 3499924  0.0   820 ssh-agent
-@gpu34 PS 3501734  0.0  1280 ssh-agent
-@gpu34 PS 3567587  0.0  1340 ssh-agent
-@gpu34 PS 3570122  0.0  1336 ssh-agent
-@gpu34 PS 3575285  0.0  1316 ssh-agent
-@gpu34 PS 3580063  0.0   828 ssh-agent
-@gpu34 PS 3588221  0.0  2100 bash
-@gpu34 PS 3588230  0.0  3840 bash
-@gpu34 PS 3590091  0.0  1260 ssh-agent
-@gpu34 PS 3593365  0.0   828 ssh-agent
-@gpu34 PS 3598611  0.0   840 ssh-agent
-@gpu34 PS 3620186  0.0  1320 ssh-agent
-@gpu34 PS 3643306  0.0   832 ssh-agent
+@gpu34 PS 3499924  0.0   816 ssh-agent
+@gpu34 PS 3501734  0.0  1268 ssh-agent
+@gpu34 PS 3567587  0.0  1332 ssh-agent
+@gpu34 PS 3570122  0.0  1320 ssh-agent
+@gpu34 PS 3575285  0.0  1300 ssh-agent
+@gpu34 PS 3580063  0.0   824 ssh-agent
+@gpu34 PS 3590091  0.0  1244 ssh-agent
+@gpu34 PS 3593365  0.0   824 ssh-agent
+@gpu34 PS 3598611  0.0   824 ssh-agent
+@gpu34 PS 3620186  0.0  1292 ssh-agent
+@gpu34 PS 3643306  0.0   824 ssh-agent
 @gpu34 PS 3651530  0.0  1296 ssh-agent
 @gpu34 PS 3703453  0.0   832 ssh-agent
-@gpu34 PS 4168877  0.0  3600 bash
-@gpu34 PS 4168878 98.4 3850368 python
-@gpu34 PS 4169277  0.0  2080 sleep
-@gpu34 PS 4177348  0.0  7036 sshd
-@gpu34 PS 4177349  0.0  3616 bash
-@gpu34 PS 4177362  200  4636 ps
-@gpu34 PS 4177363  0.0  2328 sed
-@gpu34 SIZE 8 21,18
-@gpu34 SEEN 1785226720
+@gpu34 SEEN 1785315293

@@ -1,45 +1,15 @@
-@oak34 CPU 16 12.00
-@oak34 MEM 15766 12301
-@oak34 GPU 0, 88, 2048
-@oak34 PS 1283901  0.1 11752 systemd
-@oak34 PS 1283902  0.0  3204 (sd-pam)
-@oak34 PS 1283921  0.0  6228 pipewire
-@oak34 PS 1283922  0.0  4512 pipewire
-@oak34 PS 1283924  0.0 13460 wireplumber
-@oak34 PS 1283926  0.0  7760 pipewire-pulse
-@oak34 PS 1283945  0.0  3916 dbus-daemon
-@oak34 PS 1283980  0.0  3092 bash
-@oak34 PS 1283985  0.0  2228 bash
-@oak34 PS 1283995  0.0  1708 bash
-@oak34 PS 1284000  0.0  1956 timeout
-@oak34 PS 1284002 99.8 1865280 python
-@oak34 PS 1284024  0.0  1956 timeout
-@oak34 PS 1284026 99.8 1870368 python
-@oak34 PS 1284044  0.0  1956 timeout
-@oak34 PS 1284046 99.8 1898620 python
-@oak34 PS 1284065  0.0  1956 timeout
-@oak34 PS 1284067 99.8 1885864 python
-@oak34 PS 1284757  0.0  4096 python
-@oak34 PS 1284758  0.0  4092 python
-@oak34 PS 1284759  0.0  4096 python
-@oak34 PS 1284760  0.0  4092 python
-@oak34 PS 1284761 25.0 347120 python
-@oak34 PS 1284762 33.7 348332 python
-@oak34 PS 1284763 26.3 343684 python
-@oak34 PS 1284764 52.3 327416 python
-@oak34 PS 1284765 76.6 347304 python
-@oak34 PS 1284766 27.5 325536 python
-@oak34 PS 1284767 57.2 328880 python
-@oak34 PS 1284768 29.8 350020 python
-@oak34 PS 1284769 22.1 329760 python
-@oak34 PS 1284770 48.2 350220 python
-@oak34 PS 1284771 82.2 344904 python
-@oak34 PS 1284772 61.9 348272 python
-@oak34 PS 1880122  0.0  2076 sleep
-@oak34 PS 1880220  0.0  2076 sleep
-@oak34 PS 1883275  0.0  7076 sshd
-@oak34 PS 1883297  0.0  3600 bash
-@oak34 PS 1883308  100  4660 ps
-@oak34 PS 1883309  0.0  2328 sed
-@oak34 SIZE 8 21,18
-@oak34 SEEN 1785226718
+@oak34 CPU 16 0.20
+@oak34 MEM 15766 1282
+@oak34 GPU 3, 88, 2048
+@oak34 PS 3118401 28.9 12088 systemd
+@oak34 PS 3118402  0.0  3420 (sd-pam)
+@oak34 PS 3118421  0.0  8840 pipewire
+@oak34 PS 3118422  0.0  6132 pipewire
+@oak34 PS 3118424 14.2 16164 wireplumber
+@oak34 PS 3118426  4.7 10784 pipewire-pulse
+@oak34 PS 3118445  0.0  4516 dbus-daemon
+@oak34 PS 3118449  0.0  7084 sshd
+@oak34 PS 3118469  0.0  3624 bash
+@oak34 PS 3118484  0.0  4624 ps
+@oak34 PS 3118485  0.0  2328 sed
+@oak34 SEEN 1785315285

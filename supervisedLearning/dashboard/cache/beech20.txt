@@ -1,46 +1,16 @@
-@beech20 CPU 16 11.08
-@beech20 MEM 15364 13660
+@beech20 CPU 16 0.24
+@beech20 MEM 15364 1220
 @beech20 GPU 0, 89, 4096
-@beech20 PS 3214918  0.3 13404 systemd
-@beech20 PS 3214919  0.0  4020 (sd-pam)
-@beech20 PS 3214939  0.0  4672 dbus-daemon
-@beech20 PS 3214940  0.0  7832 pipewire
-@beech20 PS 3214948  0.0  3892 mpris-proxy
-@beech20 PS 3214950  0.0 19032 wireplumber
-@beech20 PS 3214952  0.0  5472 pipewire
-@beech20 PS 3214954  0.0 10372 pipewire-pulse
-@beech20 PS 3215062  0.0  3380 bash
-@beech20 PS 3215076  0.0  2340 bash
-@beech20 PS 3215086  0.0  1928 bash
-@beech20 PS 3215091  0.0  6136 timeout
-@beech20 PS 3215094 99.9 1899996 python
-@beech20 PS 3215119  0.0  6120 timeout
-@beech20 PS 3215121 99.9 1910240 python
-@beech20 PS 3215144  0.0  5996 timeout
-@beech20 PS 3215146 99.9 1911864 python
-@beech20 PS 3215169  0.0  6056 timeout
-@beech20 PS 3215171 99.9 1868712 python
-@beech20 PS 3215498  0.0  4112 python
-@beech20 PS 3215499  0.0  3932 python
-@beech20 PS 3215500  0.0  4108 python
-@beech20 PS 3215501  0.0  3884 python
-@beech20 PS 3215502 40.9 311640 python
-@beech20 PS 3215503 33.5 302732 python
-@beech20 PS 3215504 51.6 311040 python
-@beech20 PS 3215505 55.0 310572 python
-@beech20 PS 3215506 36.0 303436 python
-@beech20 PS 3215507 80.5 315728 python
-@beech20 PS 3215508 56.2 305620 python
-@beech20 PS 3215509 67.0 307336 python
-@beech20 PS 3215510 98.2 313948 python
-@beech20 PS 3215511 26.8 308820 python
-@beech20 PS 3215512 24.7 308112 python
-@beech20 PS 3215513 53.8 304544 python
-@beech20 PS 3908978  0.0  7548 sleep
-@beech20 PS 3913090  0.0  7488 sleep
-@beech20 PS 3914192  0.0  8332 sshd-session
-@beech20 PS 3914193  0.0  3900 bash
-@beech20 PS 3914207  0.0  4636 ps
-@beech20 PS 3914208  0.0  2656 sed
-@beech20 SIZE 8 21,18
-@beech20 SEEN 1785226753
+@beech20 PS  876777 34.1 13932 systemd
+@beech20 PS  876778  0.0  4064 (sd-pam)
+@beech20 PS  876798  0.0  5036 dbus-daemon
+@beech20 PS  876799  0.0  8048 pipewire
+@beech20 PS  876808  0.0  4036 mpris-proxy
+@beech20 PS  876810  5.0 13628 wireplumber
+@beech20 PS  876811  0.0  5636 pipewire
+@beech20 PS  876813  0.0 10676 pipewire-pulse
+@beech20 PS  876841  0.0  8352 sshd-session
+@beech20 PS  876842  0.0  3916 bash
+@beech20 PS  876916  0.0  4568 ps
+@beech20 PS  876917  0.0  2616 sed
+@beech20 SEEN 1785315332

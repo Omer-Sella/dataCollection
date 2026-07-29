@@ -1,16 +1,14 @@
-@yew10 CPU 24 1.68
-@yew10 MEM 15658 2183
-@yew10 PS 2820584  0.0  1876 bash
-@yew10 PS 2821375  0.1 11912 systemd
-@yew10 PS 2821376  0.0  3408 (sd-pam)
-@yew10 PS 2821392  0.0  8684 pipewire
-@yew10 PS 2821394  0.0  5976 pipewire
-@yew10 PS 2821396  0.0 15932 wireplumber
-@yew10 PS 2821400  0.0 10588 pipewire-pulse
-@yew10 PS 2821411  0.0  4380 dbus-daemon
-@yew10 PS 3579024  0.0  2068 sleep
-@yew10 PS 3584742  0.0  7112 sshd
-@yew10 PS 3584743  0.0  3540 bash
-@yew10 PS 3584754  0.0  4544 ps
-@yew10 PS 3584755  0.0  2308 sed
-@yew10 SEEN 1785226722
+@yew10 CPU 24 0.16
+@yew10 MEM 15658 1744
+@yew10 PS  598582 26.7 11832 systemd
+@yew10 PS  598583  0.0  3428 (sd-pam)
+@yew10 PS  598594  2.9  8844 pipewire
+@yew10 PS  598595  0.0  6076 pipewire
+@yew10 PS  598597 11.7 15932 wireplumber
+@yew10 PS  598599  0.0 10640 pipewire-pulse
+@yew10 PS  598618  0.0  4464 dbus-daemon
+@yew10 PS  598702  0.0  7008 sshd
+@yew10 PS  598703  0.0  3624 bash
+@yew10 PS  598726  100  4536 ps
+@yew10 PS  598727  0.0  2308 sed
+@yew10 SEEN 1785315297

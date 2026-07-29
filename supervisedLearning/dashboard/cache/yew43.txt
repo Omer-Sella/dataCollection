@@ -1,44 +1,14 @@
-@yew43 CPU 24 9.78
-@yew43 MEM 15658 12544
-@yew43 PS 2316336  0.0  2860 bash
-@yew43 PS 2316342  0.0  1796 bash
-@yew43 PS 2316359  0.0  1940 bash
-@yew43 PS 2316364  0.0  1520 timeout
-@yew43 PS 2316366 99.9 1610280 python
-@yew43 PS 2316389  0.0  1516 timeout
-@yew43 PS 2316391 99.9 1654904 python
-@yew43 PS 2316410  0.0  1516 timeout
-@yew43 PS 2316412 99.9 1649256 python
-@yew43 PS 2316446  0.0  1516 timeout
-@yew43 PS 2316448 99.9 1643580 python
-@yew43 PS 2316826  0.0  3416 python
-@yew43 PS 2316827  0.0  3492 python
-@yew43 PS 2316829  0.0  3492 python
-@yew43 PS 2316830  0.0  3488 python
-@yew43 PS 2316831 75.2 420008 python
-@yew43 PS 2316833 35.7 406340 python
-@yew43 PS 2316834 54.0 411800 python
-@yew43 PS 2316835 45.9 425404 python
-@yew43 PS 2316837 31.7 421592 python
-@yew43 PS 2316838 30.9 427476 python
-@yew43 PS 2316840 16.7 401524 python
-@yew43 PS 2316841 44.5 426440 python
-@yew43 PS 2316842 52.3 429948 python
-@yew43 PS 2316843 57.5 430232 python
-@yew43 PS 2316844 68.6 428524 python
-@yew43 PS 2316847 54.1 422500 python
-@yew43 PS 2318857  0.1 11592 systemd
-@yew43 PS 2318858  0.0  3364 (sd-pam)
-@yew43 PS 2318866  0.0  8676 pipewire
-@yew43 PS 2318868  0.0  6024 pipewire
-@yew43 PS 2318869  0.0 15524 wireplumber
-@yew43 PS 2318872  0.0 10564 pipewire-pulse
-@yew43 PS 2318880  0.0  4256 dbus-daemon
-@yew43 PS 3068231  0.0  2068 sleep
-@yew43 PS 3071961  0.0  2068 sleep
-@yew43 PS 3072131  0.0  7004 sshd
-@yew43 PS 3072132  0.0  3556 bash
-@yew43 PS 3072143  0.0  4604 ps
-@yew43 PS 3072144  0.0  2308 sed
-@yew43 SIZE 8 21,18
-@yew43 SEEN 1785226724
+@yew43 CPU 24 0.07
+@yew43 MEM 15658 1454
+@yew43 PS   83112 28.5 11720 systemd
+@yew43 PS   83113  0.0  3408 (sd-pam)
+@yew43 PS   83125  8.0  8812 pipewire
+@yew43 PS   83126  4.1  6036 pipewire
+@yew43 PS   83128 21.7 15824 wireplumber
+@yew43 PS   83130  4.3 10712 pipewire-pulse
+@yew43 PS   83144  0.0  4460 dbus-daemon
+@yew43 PS   83163  0.0  6992 sshd
+@yew43 PS   83173  0.0  3564 bash
+@yew43 PS   83188  0.0  4548 ps
+@yew43 PS   83189  0.0  2316 sed
+@yew43 SEEN 1785315300

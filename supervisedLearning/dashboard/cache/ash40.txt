@@ -1,45 +1,15 @@
-@ash40 CPU 16 11.06
-@ash40 MEM 15909 9770
+@ash40 CPU 16 0.00
+@ash40 MEM 15909 1089
 @ash40 GPU 0, 86, 2048
-@ash40 PS 2950932  0.1 11380 systemd
-@ash40 PS 2950933  0.0  3404 (sd-pam)
-@ash40 PS 2950953  0.0  6608 pipewire
-@ash40 PS 2950954  0.0  4756 pipewire
-@ash40 PS 2950956  0.0 13556 wireplumber
-@ash40 PS 2950958  0.0  8004 pipewire-pulse
-@ash40 PS 2950975  0.0  4308 dbus-daemon
-@ash40 PS 2951012  0.0  3356 bash
-@ash40 PS 2951017  0.0  2256 bash
-@ash40 PS 2951027  0.0  1976 bash
-@ash40 PS 2951032  0.0  1968 timeout
-@ash40 PS 2951034 99.9 2287144 python
-@ash40 PS 2951069  0.0  1968 timeout
-@ash40 PS 2951071 99.9 2250464 python
-@ash40 PS 2951089  0.0  1964 timeout
-@ash40 PS 2951091 99.9 2310484 python
-@ash40 PS 2951110  0.0  1964 timeout
-@ash40 PS 2951112 99.9 2368604 python
-@ash40 PS 2951751  0.0  6280 python
-@ash40 PS 2951752  0.0  6208 python
-@ash40 PS 2951753  0.0  6260 python
-@ash40 PS 2951754  0.0  6264 python
-@ash40 PS 2951755 62.7 419224 python
-@ash40 PS 2951756 56.2 419756 python
-@ash40 PS 2951757 26.9 425208 python
-@ash40 PS 2951758 37.5 456552 python
-@ash40 PS 2951759 52.3 422992 python
-@ash40 PS 2951760 42.8 416292 python
-@ash40 PS 2951761 84.7 419820 python
-@ash40 PS 2951762 20.2 415340 python
-@ash40 PS 2951763 42.5 416784 python
-@ash40 PS 2951764 29.9 412908 python
-@ash40 PS 2951765 33.2 422088 python
-@ash40 PS 2951766 86.0 418264 python
-@ash40 PS 3691507  0.0  2084 sleep
-@ash40 PS 3695212  0.0  2092 sleep
-@ash40 PS 3697411  0.0  6980 sshd
-@ash40 PS 3697412  0.0  3648 bash
-@ash40 PS 3697423  0.0  4600 ps
-@ash40 PS 3697424  0.0  2336 sed
-@ash40 SIZE 8 21,18
-@ash40 SEEN 1785226746
+@ash40 PS  693289 27.7 11672 systemd
+@ash40 PS  693290  0.0  3416 (sd-pam)
+@ash40 PS  693302  4.7  8784 pipewire
+@ash40 PS  693303  0.0  6020 pipewire
+@ash40 PS  693305 14.2 15916 wireplumber
+@ash40 PS  693307  4.7 10676 pipewire-pulse
+@ash40 PS  693324  0.0  4464 dbus-daemon
+@ash40 PS  693334  0.0  6972 sshd
+@ash40 PS  693350  0.0  3680 bash
+@ash40 PS  693365  0.0  4572 ps
+@ash40 PS  693366  0.0  2332 sed
+@ash40 SEEN 1785315325

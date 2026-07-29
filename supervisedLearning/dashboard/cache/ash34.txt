@@ -1,45 +1,15 @@
-@ash34 CPU 16 9.92
-@ash34 MEM 15909 9860
-@ash34 GPU 3, 81, 2048
-@ash34 PS 3170345  0.1 11672 systemd
-@ash34 PS 3170346  0.0  3420 (sd-pam)
-@ash34 PS 3170366  0.0  6484 pipewire
-@ash34 PS 3170367  0.0  4728 pipewire
-@ash34 PS 3170369  0.0 13204 wireplumber
-@ash34 PS 3170371  0.0  7972 pipewire-pulse
-@ash34 PS 3170388  0.0  4360 dbus-daemon
-@ash34 PS 3170425  0.0  3328 bash
-@ash34 PS 3170430  0.0  2908 bash
-@ash34 PS 3170440  0.0  1956 bash
-@ash34 PS 3170445  0.0  1896 timeout
-@ash34 PS 3170447 99.9 2195648 python
-@ash34 PS 3170465  0.0  1888 timeout
-@ash34 PS 3170467 99.9 2208896 python
-@ash34 PS 3170501  0.0  1888 timeout
-@ash34 PS 3170503 99.9 2247212 python
-@ash34 PS 3170526  0.0  1916 timeout
-@ash34 PS 3170528 99.9 2239676 python
-@ash34 PS 3170820  0.0  5876 python
-@ash34 PS 3170821  0.0  5860 python
-@ash34 PS 3170822  0.0  5768 python
-@ash34 PS 3170823  0.0  5832 python
-@ash34 PS 3170824 80.4 428244 python
-@ash34 PS 3170825 62.7 428196 python
-@ash34 PS 3170826 29.7 429824 python
-@ash34 PS 3170827 61.4 440672 python
-@ash34 PS 3170828 65.5 425524 python
-@ash34 PS 3170829 58.8 448892 python
-@ash34 PS 3170830 18.2 434832 python
-@ash34 PS 3170831 47.9 436156 python
-@ash34 PS 3170832 57.3 478076 python
-@ash34 PS 3170833 72.4 426692 python
-@ash34 PS 3170834 50.2 433424 python
-@ash34 PS 3170835 26.5 442376 python
-@ash34 PS 3909687  0.0  2008 sleep
-@ash34 PS 3913357  0.0  2008 sleep
-@ash34 PS 3915880  0.0  6964 sshd
-@ash34 PS 3915881  0.0  3592 bash
-@ash34 PS 3915892  0.0  4592 ps
-@ash34 PS 3915893  0.0  2264 sed
-@ash34 SIZE 8 21,18
-@ash34 SEEN 1785226746
+@ash34 CPU 16 0.08
+@ash34 MEM 15909 1181
+@ash34 GPU 0, 81, 2048
+@ash34 PS  934011 27.0 11776 systemd
+@ash34 PS  934012  0.0  3440 (sd-pam)
+@ash34 PS  934024  0.0  8860 pipewire
+@ash34 PS  934025  0.0  5996 pipewire
+@ash34 PS  934027  9.5 15844 wireplumber
+@ash34 PS  934029  0.0 10640 pipewire-pulse
+@ash34 PS  934046  0.0  4520 dbus-daemon
+@ash34 PS  934053  0.0  6924 sshd
+@ash34 PS  934072  0.0  3504 bash
+@ash34 PS  934087  100  4528 ps
+@ash34 PS  934088  0.0  2248 sed
+@ash34 SEEN 1785315325

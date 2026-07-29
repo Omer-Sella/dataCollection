@@ -1,45 +1,15 @@
-@ash28 CPU 16 10.05
-@ash28 MEM 15909 9552
+@ash28 CPU 16 0.00
+@ash28 MEM 15909 1448
 @ash28 GPU 0, 81, 2048
-@ash28 PS 1905230  0.1 10848 systemd
-@ash28 PS 1905231  0.0  3188 (sd-pam)
-@ash28 PS 1905243  0.0  6636 pipewire
-@ash28 PS 1905244  0.0  4828 pipewire
-@ash28 PS 1905246  0.0 13696 wireplumber
-@ash28 PS 1905248  0.0  8084 pipewire-pulse
-@ash28 PS 1905263  0.0  4200 dbus-daemon
-@ash28 PS 1905310  0.0  3208 bash
-@ash28 PS 1905315  0.0  2256 bash
-@ash28 PS 1905325  0.0  1964 bash
-@ash28 PS 1905330  0.0  1908 timeout
-@ash28 PS 1905332 99.9 2087792 python
-@ash28 PS 1905357  0.0  1908 timeout
-@ash28 PS 1905359 99.9 2154084 python
-@ash28 PS 1905395  0.0  1908 timeout
-@ash28 PS 1905397 99.9 2126708 python
-@ash28 PS 1905416  0.0  1908 timeout
-@ash28 PS 1905418 99.9 2222256 python
-@ash28 PS 1905692  0.0  6020 python
-@ash28 PS 1905693  0.0  6008 python
-@ash28 PS 1905694  0.0  5956 python
-@ash28 PS 1905695  0.0  5936 python
-@ash28 PS 1905696 60.4 405884 python
-@ash28 PS 1905697 29.2 405144 python
-@ash28 PS 1905698 30.8 408908 python
-@ash28 PS 1905699 26.9 434564 python
-@ash28 PS 1905700 71.8 461660 python
-@ash28 PS 1905701 68.6 446668 python
-@ash28 PS 1905702 54.9 456188 python
-@ash28 PS 1905703 24.2 452728 python
-@ash28 PS 1905704 40.6 445196 python
-@ash28 PS 1905705 53.9 456176 python
-@ash28 PS 1905706 97.0 464332 python
-@ash28 PS 1905707 85.8 454776 python
-@ash28 PS 2641459  0.0  2072 sleep
-@ash28 PS 2645060  0.0  2076 sleep
-@ash28 PS 2650242  0.0  7032 sshd
-@ash28 PS 2650243  0.0  3580 bash
-@ash28 PS 2650254  0.0  4604 ps
-@ash28 PS 2650255  0.0  2324 sed
-@ash28 SIZE 8 21,18
-@ash28 SEEN 1785226745
+@ash28 PS 3839962 27.0 11792 systemd
+@ash28 PS 3839963  0.0  3424 (sd-pam)
+@ash28 PS 3839975  0.0  8808 pipewire
+@ash28 PS 3839976  0.0  6084 pipewire
+@ash28 PS 3839978 13.6 16088 wireplumber
+@ash28 PS 3839980  0.0 10712 pipewire-pulse
+@ash28 PS 3839995  0.0  4364 dbus-daemon
+@ash28 PS 3840011  0.0  7008 sshd
+@ash28 PS 3840023  0.0  3592 bash
+@ash28 PS 3840038  100  4552 ps
+@ash28 PS 3840039  0.0  2328 sed
+@ash28 SEEN 1785315324

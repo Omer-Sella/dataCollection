@@ -1,45 +1,15 @@
-@willow01 CPU 16 13.00
-@willow01 MEM 15809 9627
-@willow01 GPU 0, 69, 4096
-@willow01 PS    2162  0.1 11744 systemd
-@willow01 PS    2163  0.0  3384 (sd-pam)
-@willow01 PS    2174  0.0  6596 pipewire
-@willow01 PS    2175  0.0  4700 pipewire
-@willow01 PS    2177  0.0 12448 wireplumber
-@willow01 PS    2179  0.0  7980 pipewire-pulse
-@willow01 PS    2198  0.0  4160 dbus-daemon
-@willow01 PS    2234  0.0  3164 bash
-@willow01 PS    2239  0.0  2440 bash
-@willow01 PS    2249  0.0  1856 bash
-@willow01 PS    2254  0.0  1824 timeout
-@willow01 PS    2256 99.9 1906400 python
-@willow01 PS    2274  0.0  1824 timeout
-@willow01 PS    2276 99.9 1916308 python
-@willow01 PS    2322  0.0  1828 timeout
-@willow01 PS    2324 99.9 1923340 python
-@willow01 PS    2343  0.0  1824 timeout
-@willow01 PS    2345 99.9 1929444 python
-@willow01 PS    2594  0.0  6052 python
-@willow01 PS    2595  0.0  6160 python
-@willow01 PS    2596  0.0  6064 python
-@willow01 PS    2597  0.0  6224 python
-@willow01 PS    2598 44.8 124200 python
-@willow01 PS    2599 38.6 120424 python
-@willow01 PS    2600 37.1 130228 python
-@willow01 PS    2601 41.9 134248 python
-@willow01 PS    2602 22.0 140676 python
-@willow01 PS    2603 81.4 135504 python
-@willow01 PS    2604 77.3 127072 python
-@willow01 PS    2605 33.9 132656 python
-@willow01 PS    2606 65.5 128528 python
-@willow01 PS    2607 58.4 136080 python
-@willow01 PS    2608 49.9 127696 python
-@willow01 PS    2609 75.4 130728 python
-@willow01 PS  738424  0.0  2080 sleep
-@willow01 PS  742016  0.0  2084 sleep
-@willow01 PS  743152  0.0  7000 sshd
-@willow01 PS  743153  0.0  3528 bash
-@willow01 PS  743164  0.0  4588 ps
-@willow01 PS  743165  0.0  2316 sed
-@willow01 SIZE 8 21,18
-@willow01 SEEN 1785226753
+@willow01 CPU 16 0.02
+@willow01 MEM 15809 1222
+@willow01 GPU 1, 69, 4096
+@willow01 PS 1954448 33.3 11916 systemd
+@willow01 PS 1954449  0.0  3408 (sd-pam)
+@willow01 PS 1954461  0.0  8816 pipewire
+@willow01 PS 1954462  0.0  6068 pipewire
+@willow01 PS 1954465 15.0 15908 wireplumber
+@willow01 PS 1954466  0.0 10648 pipewire-pulse
+@willow01 PS 1954485  0.0  4464 dbus-daemon
+@willow01 PS 1954491  0.0  6952 sshd
+@willow01 PS 1954509  0.0  3580 bash
+@willow01 PS 1954558  0.0  4560 ps
+@willow01 PS 1954559  0.0  2308 sed
+@willow01 SEEN 1785315332

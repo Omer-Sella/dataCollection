@@ -1,45 +1,15 @@
-@willow12 CPU 16 11.00
-@willow12 MEM 15809 9538
+@willow12 CPU 16 0.00
+@willow12 MEM 15809 1200
 @willow12 GPU 0, 82, 4096
-@willow12 PS  535910  0.1 11872 systemd
-@willow12 PS  535911  0.0  3420 (sd-pam)
-@willow12 PS  535948  0.0  8136 pipewire
-@willow12 PS  535949  0.0  5952 pipewire
-@willow12 PS  535952  0.0 15372 wireplumber
-@willow12 PS  535953  0.0  9648 pipewire-pulse
-@willow12 PS  535975  0.0  4340 dbus-daemon
-@willow12 PS  536012  0.0  3368 bash
-@willow12 PS  536017  0.0  3292 bash
-@willow12 PS  536027  0.0  1876 bash
-@willow12 PS  536032  0.0  1972 timeout
-@willow12 PS  536034 99.9 2204216 python
-@willow12 PS  536081  0.0  1972 timeout
-@willow12 PS  536083 99.9 2181560 python
-@willow12 PS  536121  0.0  1972 timeout
-@willow12 PS  536123 99.9 2185860 python
-@willow12 PS  536145  0.0  1972 timeout
-@willow12 PS  536147 99.9 2214812 python
-@willow12 PS  536408  0.0  6084 python
-@willow12 PS  536409  0.0  6012 python
-@willow12 PS  536410 76.7 411036 python
-@willow12 PS  536411  0.0  6084 python
-@willow12 PS  536412  0.0  6064 python
-@willow12 PS  536413 54.6 414888 python
-@willow12 PS  536414 25.2 413676 python
-@willow12 PS  536415 89.9 407320 python
-@willow12 PS  536416 76.2 409284 python
-@willow12 PS  536417 33.6 409228 python
-@willow12 PS  536418 52.7 403468 python
-@willow12 PS  536419 91.1 404720 python
-@willow12 PS  536420 59.4 396324 python
-@willow12 PS  536421 52.5 396308 python
-@willow12 PS  536422 28.2 408360 python
-@willow12 PS  536423 23.8 451608 python
-@willow12 PS 1292632  0.0  2068 sleep
-@willow12 PS 1296645  0.0  2084 sleep
-@willow12 PS 1297269  0.0  6928 sshd
-@willow12 PS 1297270  0.0  3536 bash
-@willow12 PS 1297281  0.0  4548 ps
-@willow12 PS 1297282  0.0  2320 sed
-@willow12 SIZE 8 21,18
-@willow12 SEEN 1785226754
+@willow12 PS 2514897 31.4 11800 systemd
+@willow12 PS 2514898  0.0  3428 (sd-pam)
+@willow12 PS 2514909  0.0  8696 pipewire
+@willow12 PS 2514910  0.0  5964 pipewire
+@willow12 PS 2514911 10.5 15956 wireplumber
+@willow12 PS 2514914  5.2 10624 pipewire-pulse
+@willow12 PS 2514934  0.0  4448 dbus-daemon
+@willow12 PS 2514937  0.0  6904 sshd
+@willow12 PS 2514957  0.0  3576 bash
+@willow12 PS 2514973  0.0  4512 ps
+@willow12 PS 2514974  0.0  2324 sed
+@willow12 SEEN 1785315333

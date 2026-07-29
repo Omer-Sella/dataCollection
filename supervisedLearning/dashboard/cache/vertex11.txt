@@ -1,41 +1,17 @@
-@vertex11 CPU 12 8.11
-@vertex11 MEM 15771 9660
+@vertex11 CPU 12 0.33
+@vertex11 MEM 15771 5157
 @vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP 
-@vertex11 PS  449659  0.0  2072 sleep
-@vertex11 PS  449845  0.0  2040 sleep
-@vertex11 PS  454850  0.0  7008 sshd
-@vertex11 PS  454851  0.0  3572 bash
-@vertex11 PS  454870  0.0  4548 ps
-@vertex11 PS  454871  0.0  2276 sed
-@vertex11 PS 3601184  0.0 11376 systemd
-@vertex11 PS 3601197  0.0  3292 (sd-pam)
-@vertex11 PS 3601215  0.0  6704 pipewire
-@vertex11 PS 3601216  0.0  4908 pipewire
-@vertex11 PS 3601218  0.0 12232 wireplumber
-@vertex11 PS 3601220  0.0  8312 pipewire-pulse
-@vertex11 PS 3601241  0.0  4224 dbus-daemon
-@vertex11 PS 3601275  0.0  3416 bash
-@vertex11 PS 3601280  0.0  3296 bash
-@vertex11 PS 3601290  0.0  1928 bash
-@vertex11 PS 3601295  0.0  1976 timeout
-@vertex11 PS 3601297 99.9 2259532 python
-@vertex11 PS 3601331  0.0  1944 timeout
-@vertex11 PS 3601333 99.9 2224044 python
-@vertex11 PS 3601363  0.0  1964 timeout
-@vertex11 PS 3601365 99.9 2277068 python
-@vertex11 PS 3602055  0.0  6768 python
-@vertex11 PS 3602056  0.0  6556 python
-@vertex11 PS 3602057  0.0  6208 python
-@vertex11 PS 3602058  7.2 661984 python
-@vertex11 PS 3602059 37.4 645836 python
-@vertex11 PS 3602060 59.8 665368 python
-@vertex11 PS 3602061 64.0 656992 python
-@vertex11 PS 3602062 66.6 649852 python
-@vertex11 PS 3602063 47.9 657956 python
-@vertex11 PS 3602064 72.9 668220 python
-@vertex11 PS 3602065 24.6 662032 python
-@vertex11 PS 3602066 76.5 655408 python
-@vertex11 SIZE 6 21,18
-@vertex11 SEEN 1785226755
+@vertex11 PS 2122949 31.2 11576 systemd
+@vertex11 PS 2122952  0.0  3404 (sd-pam)
+@vertex11 PS 2122964  3.5  8824 pipewire
+@vertex11 PS 2122965  3.7  6056 pipewire
+@vertex11 PS 2122968 14.8 15832 wireplumber
+@vertex11 PS 2122970  0.0 10664 pipewire-pulse
+@vertex11 PS 2122997  0.0  4524 dbus-daemon
+@vertex11 PS 2123000  0.0  7120 sshd
+@vertex11 PS 2123020  0.0  3580 bash
+@vertex11 PS 2123043  200  4524 ps
+@vertex11 PS 2123044  0.0  2328 sed
+@vertex11 SEEN 1785315336

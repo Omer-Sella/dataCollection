@@ -1,17 +1,17 @@
-@vertex10 CPU 12 2.63
-@vertex10 MEM 15771 2999
+@vertex10 CPU 12 0.49
+@vertex10 MEM 15771 6146
 @vertex10 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex10 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex10 APP 
-@vertex10 PS 1802714 40.0 11588 systemd
-@vertex10 PS 1802715  0.0  3400 (sd-pam)
-@vertex10 PS 1802727  8.3  8672 pipewire
-@vertex10 PS 1802728  8.3  6028 pipewire
-@vertex10 PS 1802730 33.3 15664 wireplumber
-@vertex10 PS 1802732  8.3 10504 pipewire-pulse
-@vertex10 PS 1802752  0.0  4544 dbus-daemon
-@vertex10 PS 1802760  0.0  7036 sshd
-@vertex10 PS 1802775  0.0  3604 bash
-@vertex10 PS 1802794  0.0  4496 ps
-@vertex10 PS 1802795  0.0  2264 sed
-@vertex10 SEEN 1785226755
+@vertex10 PS 3570876 48.4 11508 systemd
+@vertex10 PS 3570878  0.0  3400 (sd-pam)
+@vertex10 PS 3570889  9.0  8720 pipewire
+@vertex10 PS 3570890  9.0  5980 pipewire
+@vertex10 PS 3570892 36.3 15880 wireplumber
+@vertex10 PS 3570894  9.0 10552 pipewire-pulse
+@vertex10 PS 3570913  0.0  4504 dbus-daemon
+@vertex10 PS 3570924  0.0  7084 sshd
+@vertex10 PS 3570937  0.0  3568 bash
+@vertex10 PS 3570956  0.0  4532 ps
+@vertex10 PS 3570957  0.0  2276 sed
+@vertex10 SEEN 1785315335

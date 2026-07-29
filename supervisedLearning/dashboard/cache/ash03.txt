@@ -1,45 +1,15 @@
-@ash03 CPU 16 10.16
-@ash03 MEM 32013 16461
-@ash03 GPU 0, 84, 2048
-@ash03 PS 1798055  0.1 11748 systemd
-@ash03 PS 1798056  0.0  3420 (sd-pam)
-@ash03 PS 1798067  0.0  7564 pipewire
-@ash03 PS 1798068  0.0  5572 pipewire
-@ash03 PS 1798070  0.0 13672 wireplumber
-@ash03 PS 1798072  0.0  9352 pipewire-pulse
-@ash03 PS 1798086  0.0  4500 dbus-daemon
-@ash03 PS 1798122  0.0  3448 bash
-@ash03 PS 1798127  0.0  3424 bash
-@ash03 PS 1798137  0.0  1904 bash
-@ash03 PS 1798142  0.0  1968 timeout
-@ash03 PS 1798144 99.9 2487528 python
-@ash03 PS 1798170  0.0  1972 timeout
-@ash03 PS 1798172 99.9 2426352 python
-@ash03 PS 1798210  0.0  2088 timeout
-@ash03 PS 1798212 99.9 2517992 python
-@ash03 PS 1798242  0.0  2088 timeout
-@ash03 PS 1798244 99.9 2466940 python
-@ash03 PS 1798536  0.0 10404 python
-@ash03 PS 1798537  0.0 10356 python
-@ash03 PS 1798538  0.0 10356 python
-@ash03 PS 1798539  0.0 10376 python
-@ash03 PS 1798540 40.1 592792 python
-@ash03 PS 1798541 60.5 595752 python
-@ash03 PS 1798542 69.6 588840 python
-@ash03 PS 1798543 29.0 591624 python
-@ash03 PS 1798544 64.0 590856 python
-@ash03 PS 1798545 51.6 589808 python
-@ash03 PS 1798546 49.7 595680 python
-@ash03 PS 1798547 42.2 591620 python
-@ash03 PS 1798548 95.3 595724 python
-@ash03 PS 1798549 87.6 600212 python
-@ash03 PS 1798550 37.0 591096 python
-@ash03 PS 1798551 43.7 597600 python
-@ash03 PS 2754013  0.0  2056 sleep
-@ash03 PS 2754237  0.0  2060 sleep
-@ash03 PS 2754491  0.0  6916 sshd
-@ash03 PS 2754492  0.0  3564 bash
-@ash03 PS 2754503  0.0  4608 ps
-@ash03 PS 2754504  0.0  2296 sed
-@ash03 SIZE 8 21,18
-@ash03 SEEN 1785226733
+@ash03 CPU 16 0.11
+@ash03 MEM 32013 2241
+@ash03 GPU 3, 84, 2048
+@ash03 PS   93551 35.7 11796 systemd
+@ash03 PS   93552  0.0  3440 (sd-pam)
+@ash03 PS   93572  0.0  8820 pipewire
+@ash03 PS   93573  0.0  6036 pipewire
+@ash03 PS   93575 15.3 15756 wireplumber
+@ash03 PS   93577  0.0 10580 pipewire-pulse
+@ash03 PS   93589  0.0  4536 dbus-daemon
+@ash03 PS   93611  0.0  6880 sshd
+@ash03 PS   93620  0.0  3564 bash
+@ash03 PS   93631  0.0  4548 ps
+@ash03 PS   93632  0.0  2300 sed
+@ash03 SEEN 1785315312

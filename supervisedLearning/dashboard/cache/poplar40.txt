@@ -1,39 +1,15 @@
-@poplar40 CPU 24 6.00
-@poplar40 MEM 15142 9853
-@poplar40 PS 3402134  0.0  2980 bash
-@poplar40 PS 3402139  0.0  2036 bash
-@poplar40 PS 3402150  0.0  1996 bash
-@poplar40 PS 3402208  0.0  2324 timeout
-@poplar40 PS 3402210 99.9 1953028 python
-@poplar40 PS 3402229  0.0  2312 timeout
-@poplar40 PS 3402232 99.9 1961048 python
-@poplar40 PS 3402282  0.0  2128 timeout
-@poplar40 PS 3402289 99.9 1995256 python
-@poplar40 PS 3402625  0.0  3532 python
-@poplar40 PS 3402628  0.0  3708 python
-@poplar40 PS 3402629  0.0  3556 python
-@poplar40 PS 3402631 41.9 187228 python
-@poplar40 PS 3402632 83.1 189880 python
-@poplar40 PS 3402635 45.6 186808 python
-@poplar40 PS 3402636 61.3 185756 python
-@poplar40 PS 3402637 31.3 186968 python
-@poplar40 PS 3402641 39.7 188004 python
-@poplar40 PS 3402643 21.9 186600 python
-@poplar40 PS 3402644 17.0 190416 python
-@poplar40 PS 3402647 72.6 193520 python
-@poplar40 PS 3405110  0.1 14304 systemd
-@poplar40 PS 3405111  0.0  4080 (sd-pam)
-@poplar40 PS 3405131  0.0  5192 dbus-daemon
-@poplar40 PS 3405132  0.0  8372 pipewire
-@poplar40 PS 3405139  0.0  3848 mpris-proxy
-@poplar40 PS 3405140  0.0 26792 wireplumber
-@poplar40 PS 3405142  0.0  5764 pipewire
-@poplar40 PS 3405145  0.0 10880 pipewire-pulse
-@poplar40 PS 4104036  0.0  7536 sleep
-@poplar40 PS 4104248  0.0  7744 sleep
-@poplar40 PS 4104525  0.0  8348 sshd-session
-@poplar40 PS 4104526  0.0  3980 bash
-@poplar40 PS 4104538  0.0  4780 ps
-@poplar40 PS 4104539  0.0  2764 sed
-@poplar40 SIZE 6 21,18
-@poplar40 SEEN 1785226733
+@poplar40 CPU 24 0.00
+@poplar40 MEM 15142 1258
+@poplar40 PS 1060614 30.1 14072 systemd
+@poplar40 PS 1060619  0.0  4128 (sd-pam)
+@poplar40 PS 1060645  4.0  5208 dbus-daemon
+@poplar40 PS 1060646  4.1  8272 pipewire
+@poplar40 PS 1060652  0.0  3896 mpris-proxy
+@poplar40 PS 1060653  4.3 13764 wireplumber
+@poplar40 PS 1060655  4.3  5792 pipewire
+@poplar40 PS 1060656  0.0 10976 pipewire-pulse
+@poplar40 PS 1060688  0.0  8412 sshd-session
+@poplar40 PS 1060689  0.0  4000 bash
+@poplar40 PS 1060756  100  4780 ps
+@poplar40 PS 1060757  0.0  2744 sed
+@poplar40 SEEN 1785315312

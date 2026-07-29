@@ -1,45 +1,15 @@
-@oak08 CPU 16 11.01
-@oak08 MEM 15766 11946
+@oak08 CPU 16 0.00
+@oak08 MEM 15766 1131
 @oak08 GPU 0, 92, 2048
-@oak08 PS  439963  0.1 11444 systemd
-@oak08 PS  439964  0.0  3404 (sd-pam)
-@oak08 PS  440005  0.0  5888 pipewire
-@oak08 PS  440006  0.0  4848 pipewire
-@oak08 PS  440007  0.0 13592 wireplumber
-@oak08 PS  440010  0.0  8164 pipewire-pulse
-@oak08 PS  440032  0.0  4212 dbus-daemon
-@oak08 PS  440065  0.0  3172 bash
-@oak08 PS  440070  0.0  2196 bash
-@oak08 PS  440080  0.0  1916 bash
-@oak08 PS  440085  0.0  1952 timeout
-@oak08 PS  440087 99.7 1926676 python
-@oak08 PS  440105  0.0  1940 timeout
-@oak08 PS  440107 99.8 1892204 python
-@oak08 PS  440125  0.0  1928 timeout
-@oak08 PS  440127 99.8 1941760 python
-@oak08 PS  440195  0.0  1964 timeout
-@oak08 PS  440197 99.8 1914720 python
-@oak08 PS  441035  0.0  4292 python
-@oak08 PS  441036  0.0  4344 python
-@oak08 PS  441037  0.0  4316 python
-@oak08 PS  441038  0.0  4304 python
-@oak08 PS  441039 33.3 347884 python
-@oak08 PS  441040 99.3 334668 python
-@oak08 PS  441041 53.2 325312 python
-@oak08 PS  441042 65.0 347016 python
-@oak08 PS  441043 21.5 340892 python
-@oak08 PS  441044 53.9 341632 python
-@oak08 PS  441045 54.8 351564 python
-@oak08 PS  441046 40.7 334112 python
-@oak08 PS  441047 67.1 323912 python
-@oak08 PS  441048  7.4 342960 python
-@oak08 PS  441049 57.6 326472 python
-@oak08 PS  441050 53.0 347448 python
-@oak08 PS 1020860  0.0  2068 sleep
-@oak08 PS 1024644  0.0  2068 sleep
-@oak08 PS 1024906  0.0  7044 sshd
-@oak08 PS 1024907  0.0  3564 bash
-@oak08 PS 1024926  100  4612 ps
-@oak08 PS 1024927  0.0  2316 sed
-@oak08 SIZE 8 21,18
-@oak08 SEEN 1785226711
+@oak08 PS 2216986 28.9 11616 systemd
+@oak08 PS 2216987  0.0  3448 (sd-pam)
+@oak08 PS 2216999  0.0  8844 pipewire
+@oak08 PS 2217000  0.0  6160 pipewire
+@oak08 PS 2217002 13.6 16040 wireplumber
+@oak08 PS 2217004  0.0 10748 pipewire-pulse
+@oak08 PS 2217026  0.0  4472 dbus-daemon
+@oak08 PS 2217027  0.0  7012 sshd
+@oak08 PS 2217047  0.0  3628 bash
+@oak08 PS 2217062  0.0  4564 ps
+@oak08 PS 2217063  0.0  2316 sed
+@oak08 SEEN 1785315278

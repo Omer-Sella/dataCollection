@@ -1,45 +1,15 @@
-@ash10 CPU 16 12.02
-@ash10 MEM 15909 9808
+@ash10 CPU 16 0.02
+@ash10 MEM 15909 1171
 @ash10 GPU 0, 81, 2048
-@ash10 PS  151255  0.1 11636 systemd
-@ash10 PS  151256  0.0  3432 (sd-pam)
-@ash10 PS  151267  0.0  6372 pipewire
-@ash10 PS  151268  0.0  4568 pipewire
-@ash10 PS  151270  0.0 13260 wireplumber
-@ash10 PS  151272  0.0  7944 pipewire-pulse
-@ash10 PS  151289  0.0  3980 dbus-daemon
-@ash10 PS  151326  0.0  3260 bash
-@ash10 PS  151331  0.0  2216 bash
-@ash10 PS  151341  0.0  1980 bash
-@ash10 PS  151346  0.0  1976 timeout
-@ash10 PS  151348 99.9 2162260 python
-@ash10 PS  151367  0.0  1936 timeout
-@ash10 PS  151369 99.9 2197540 python
-@ash10 PS  151399  0.0  1976 timeout
-@ash10 PS  151401 99.9 2116888 python
-@ash10 PS  151419  0.0  1972 timeout
-@ash10 PS  151421 99.9 2240092 python
-@ash10 PS  151713  0.0  6020 python
-@ash10 PS  151714  0.0  5968 python
-@ash10 PS  151715  0.0  6068 python
-@ash10 PS  151716  0.0  5876 python
-@ash10 PS  151717 30.8 319920 python
-@ash10 PS  151718 61.6 329144 python
-@ash10 PS  151719 48.6 337156 python
-@ash10 PS  151720 58.1 324852 python
-@ash10 PS  151721 65.6 354944 python
-@ash10 PS  151723 74.8 348636 python
-@ash10 PS  151733 59.7 330760 python
-@ash10 PS  151736 38.1 325824 python
-@ash10 PS  151740 77.6 337776 python
-@ash10 PS  151746 64.7 328812 python
-@ash10 PS  151749 31.4 325256 python
-@ash10 PS  151751 57.2 324372 python
-@ash10 PS  890386  0.0  2072 sleep
-@ash10 PS  898298  0.0  2072 sleep
-@ash10 PS  898333  0.0  7048 sshd
-@ash10 PS  898334  0.0  3628 bash
-@ash10 PS  898353  0.0  4624 ps
-@ash10 PS  898354  0.0  2328 sed
-@ash10 SIZE 8 21,18
-@ash10 SEEN 1785226739
+@ash10 PS 2109695 27.7 11792 systemd
+@ash10 PS 2109696  0.0  3412 (sd-pam)
+@ash10 PS 2109707  4.7  8808 pipewire
+@ash10 PS 2109708  0.0  6080 pipewire
+@ash10 PS 2109710 14.2 15924 wireplumber
+@ash10 PS 2109712  0.0 10632 pipewire-pulse
+@ash10 PS 2109727  0.0  4476 dbus-daemon
+@ash10 PS 2109744  0.0  6972 sshd
+@ash10 PS 2109755  0.0  3608 bash
+@ash10 PS 2109770  0.0  4556 ps
+@ash10 PS 2109771  0.0  2320 sed
+@ash10 SEEN 1785315318

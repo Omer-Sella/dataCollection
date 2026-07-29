@@ -1,44 +1,14 @@
-@cedar03 CPU 16 12.01
-@cedar03 MEM 31668 16295
-@cedar03 PS  279702  0.1 11852 systemd
-@cedar03 PS  279703  0.0  3424 (sd-pam)
-@cedar03 PS  279714  0.0  8704 pipewire
-@cedar03 PS  279715  0.0  5952 pipewire
-@cedar03 PS  279718  0.0 19524 wireplumber
-@cedar03 PS  279719  0.0 10444 pipewire-pulse
-@cedar03 PS  279736  0.0  4400 dbus-daemon
-@cedar03 PS  279773  0.0  3632 bash
-@cedar03 PS  279778  0.0  3552 bash
-@cedar03 PS  279788  0.0  2096 bash
-@cedar03 PS  279793  0.0  2120 timeout
-@cedar03 PS  279795 99.9 2666852 python
-@cedar03 PS  279813  0.0  2076 timeout
-@cedar03 PS  279815 99.9 2673232 python
-@cedar03 PS  279850  0.0  2124 timeout
-@cedar03 PS  279852 99.9 2704812 python
-@cedar03 PS  279871  0.0  2076 timeout
-@cedar03 PS  279873 99.9 2711384 python
-@cedar03 PS  280228  0.0 11060 python
-@cedar03 PS  280229  0.0 11024 python
-@cedar03 PS  280230  0.0 11048 python
-@cedar03 PS  280231  0.0 11084 python
-@cedar03 PS  280232 74.8 822328 python
-@cedar03 PS  280233 67.2 824936 python
-@cedar03 PS  280234 50.9 820920 python
-@cedar03 PS  280235 85.5 830704 python
-@cedar03 PS  280236 36.8 822588 python
-@cedar03 PS  280237 81.0 827984 python
-@cedar03 PS  280238 51.3 825692 python
-@cedar03 PS  280239 43.8 820568 python
-@cedar03 PS  280240 19.4 825212 python
-@cedar03 PS  280241 14.7 826100 python
-@cedar03 PS  280242 30.0 823168 python
-@cedar03 PS  280243 50.7 822272 python
-@cedar03 PS 1019899  0.0  2068 sleep
-@cedar03 PS 1020082  0.0  2064 sleep
-@cedar03 PS 1021678  0.0  7024 sshd
-@cedar03 PS 1021687  0.0  3600 bash
-@cedar03 PS 1021698  0.0  4528 ps
-@cedar03 PS 1021699  0.0  2272 sed
-@cedar03 SIZE 8 21,18
-@cedar03 SEEN 1785226768
+@cedar03 CPU 16 0.16
+@cedar03 MEM 31668 1552
+@cedar03 PS 2210613 25.0 11692 systemd
+@cedar03 PS 2210614  0.0  3424 (sd-pam)
+@cedar03 PS 2210629  4.1  8796 pipewire
+@cedar03 PS 2210630  4.1  6032 pipewire
+@cedar03 PS 2210631 12.5 16044 wireplumber
+@cedar03 PS 2210634  8.3 10556 pipewire-pulse
+@cedar03 PS 2210648  0.0  4400 dbus-daemon
+@cedar03 PS 2210666  0.0  7008 sshd
+@cedar03 PS 2210677  0.0  3556 bash
+@cedar03 PS 2210692  0.0  4468 ps
+@cedar03 PS 2210693  0.0  2312 sed
+@cedar03 SEEN 1785315348

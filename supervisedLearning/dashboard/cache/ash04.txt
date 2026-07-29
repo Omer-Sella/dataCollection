@@ -1,15 +1,15 @@
-@ash04 CPU 16 1.20
-@ash04 MEM 32013 2877
+@ash04 CPU 16 0.02
+@ash04 MEM 32013 10036
 @ash04 GPU 0, 81, 2048
-@ash04 PS 3766893 31.2 11896 systemd
-@ash04 PS 3766894  0.0  3424 (sd-pam)
-@ash04 PS 3766918  0.0  8888 pipewire
-@ash04 PS 3766919  0.0  6184 pipewire
-@ash04 PS 3766922 20.0 15792 wireplumber
-@ash04 PS 3766923  0.0 10780 pipewire-pulse
-@ash04 PS 3766938  0.0  4568 dbus-daemon
-@ash04 PS 3767026  0.0  6980 sshd
-@ash04 PS 3767027  0.0  3580 bash
-@ash04 PS 3767038  200  4640 ps
-@ash04 PS 3767039  0.0  2324 sed
-@ash04 SEEN 1785226733
+@ash04 PS 1126324 40.0 11840 systemd
+@ash04 PS 1126325  0.0  3428 (sd-pam)
+@ash04 PS 1126345  0.0  8928 pipewire
+@ash04 PS 1126346  0.0  6192 pipewire
+@ash04 PS 1126349 15.3 15940 wireplumber
+@ash04 PS 1126351  0.0 10764 pipewire-pulse
+@ash04 PS 1126363  0.0  4556 dbus-daemon
+@ash04 PS 1126383  0.0  6920 sshd
+@ash04 PS 1126393  0.0  3644 bash
+@ash04 PS 1126404  100  4648 ps
+@ash04 PS 1126405  0.0  2316 sed
+@ash04 SEEN 1785315312

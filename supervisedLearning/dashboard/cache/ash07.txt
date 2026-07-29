@@ -1,45 +1,15 @@
-@ash07 CPU 16 10.10
-@ash07 MEM 15909 9950
+@ash07 CPU 16 0.72
+@ash07 MEM 15909 1165
 @ash07 GPU 0, 81, 2048
-@ash07 PS  462613  0.0  2028 sleep
-@ash07 PS  470795  0.0  2032 sleep
-@ash07 PS  470992  0.0  6984 sshd
-@ash07 PS  470993  0.0  3592 bash
-@ash07 PS  471004  0.0  4568 ps
-@ash07 PS  471005  0.0  2272 sed
-@ash07 PS 3917904  0.1 11672 systemd
-@ash07 PS 3917905  0.0  3380 (sd-pam)
-@ash07 PS 3917917  0.0  7312 pipewire
-@ash07 PS 3917918  0.0  5560 pipewire
-@ash07 PS 3917921  0.0 14160 wireplumber
-@ash07 PS 3917922  0.0  8756 pipewire-pulse
-@ash07 PS 3917938  0.0  4056 dbus-daemon
-@ash07 PS 3917984  0.0  3388 bash
-@ash07 PS 3917989  0.0  2336 bash
-@ash07 PS 3917999  0.0  2004 bash
-@ash07 PS 3918004  0.0  1904 timeout
-@ash07 PS 3918006 99.9 2188280 python
-@ash07 PS 3918025  0.0  1904 timeout
-@ash07 PS 3918027 99.9 2207728 python
-@ash07 PS 3918061  0.0  1892 timeout
-@ash07 PS 3918063 99.9 2212936 python
-@ash07 PS 3918082  0.0  1836 timeout
-@ash07 PS 3918084 99.9 2226340 python
-@ash07 PS 3918432  0.0  6148 python
-@ash07 PS 3918433  0.0  6264 python
-@ash07 PS 3918434  0.0  6140 python
-@ash07 PS 3918435  0.0  6144 python
-@ash07 PS 3918436 24.9 451044 python
-@ash07 PS 3918437 38.5 440060 python
-@ash07 PS 3918438 56.6 449560 python
-@ash07 PS 3918439 62.9 459112 python
-@ash07 PS 3918440 34.4 467972 python
-@ash07 PS 3918441 57.5 452336 python
-@ash07 PS 3918442 57.3 438676 python
-@ash07 PS 3918443  5.1 446292 python
-@ash07 PS 3918444 67.7 451404 python
-@ash07 PS 3918445 53.7 462356 python
-@ash07 PS 3918446 71.2 453268 python
-@ash07 PS 3918447 57.9 491732 python
-@ash07 SIZE 8 21,18
-@ash07 SEEN 1785226733
+@ash07 PS 1682938 26.3 11808 systemd
+@ash07 PS 1682939  0.0  3416 (sd-pam)
+@ash07 PS 1682951  0.0  8820 pipewire
+@ash07 PS 1682952  0.0  6076 pipewire
+@ash07 PS 1682954  9.0 15752 wireplumber
+@ash07 PS 1682956  0.0 10576 pipewire-pulse
+@ash07 PS 1682971  0.0  4568 dbus-daemon
+@ash07 PS 1682987  0.0  6944 sshd
+@ash07 PS 1682999  0.0  3588 bash
+@ash07 PS 1683022  100  4572 ps
+@ash07 PS 1683023  0.0  2308 sed
+@ash07 SEEN 1785315312

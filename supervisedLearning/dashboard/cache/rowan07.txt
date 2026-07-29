@@ -1,44 +1,14 @@
-@rowan07 CPU 24 9.00
-@rowan07 MEM 15658 12212
-@rowan07 PS  537662  0.0  2068 sleep
-@rowan07 PS  537849  0.0  2072 sleep
-@rowan07 PS  541359  0.0  7060 sshd
-@rowan07 PS  541360  0.0  3560 bash
-@rowan07 PS  541371  0.0  4528 ps
-@rowan07 PS  541372  0.0  2316 sed
-@rowan07 PS 3984505  0.0  2816 bash
-@rowan07 PS 3984510  0.0  1792 bash
-@rowan07 PS 3984520  0.0  1928 bash
-@rowan07 PS 3984525  0.0  1532 timeout
-@rowan07 PS 3984527 99.9 1592124 python
-@rowan07 PS 3984548  0.0  1536 timeout
-@rowan07 PS 3984550 99.9 1600872 python
-@rowan07 PS 3984577  0.0  1532 timeout
-@rowan07 PS 3984579 99.9 1642184 python
-@rowan07 PS 3984634  0.0  1532 timeout
-@rowan07 PS 3984636 99.9 1593052 python
-@rowan07 PS 3984890  0.0  3336 python
-@rowan07 PS 3984892  0.0  3592 python
-@rowan07 PS 3984893  0.0  3416 python
-@rowan07 PS 3984894  0.0  3464 python
-@rowan07 PS 3984895 51.2 446344 python
-@rowan07 PS 3984897 39.0 388384 python
-@rowan07 PS 3984899 55.0 407600 python
-@rowan07 PS 3984900 47.6 400156 python
-@rowan07 PS 3984901 31.7 430264 python
-@rowan07 PS 3984903 39.5 414512 python
-@rowan07 PS 3984905 23.0 436744 python
-@rowan07 PS 3984906 14.1 397312 python
-@rowan07 PS 3984907 62.4 408264 python
-@rowan07 PS 3984909 54.3 413876 python
-@rowan07 PS 3984911 50.7 430732 python
-@rowan07 PS 3984912 85.4 402820 python
-@rowan07 PS 3986634  0.1 11464 systemd
-@rowan07 PS 3986635  0.0  3412 (sd-pam)
-@rowan07 PS 3986654  0.0  8452 pipewire
-@rowan07 PS 3986655  0.0  5900 pipewire
-@rowan07 PS 3986657  0.0 14744 wireplumber
-@rowan07 PS 3986659  0.0  9764 pipewire-pulse
-@rowan07 PS 3986671  0.0  4268 dbus-daemon
-@rowan07 SIZE 8 21,18
-@rowan07 SEEN 1785226725
+@rowan07 CPU 24 0.02
+@rowan07 MEM 15658 1342
+@rowan07 PS 1708600 17.6 11720 systemd
+@rowan07 PS 1708601  0.0  3432 (sd-pam)
+@rowan07 PS 1708613  0.0  8756 pipewire
+@rowan07 PS 1708614  0.0  6000 pipewire
+@rowan07 PS 1708615  9.5 15836 wireplumber
+@rowan07 PS 1708616  0.0 10652 pipewire-pulse
+@rowan07 PS 1708632  0.0  4440 dbus-daemon
+@rowan07 PS 1708651  0.0  7064 sshd
+@rowan07 PS 1708661  0.0  3552 bash
+@rowan07 PS 1708676  0.0  4540 ps
+@rowan07 PS 1708677  0.0  2316 sed
+@rowan07 SEEN 1785315300

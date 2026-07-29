@@ -1,44 +1,14 @@
-@yew02 CPU 24 12.06
-@yew02 MEM 15658 12313
-@yew02 PS 2326286  0.0  2908 bash
-@yew02 PS 2326291  0.0  1824 bash
-@yew02 PS 2326301  0.0  1988 bash
-@yew02 PS 2326306  0.0  1532 timeout
-@yew02 PS 2326308 99.8 1560720 python
-@yew02 PS 2326328  0.0  1532 timeout
-@yew02 PS 2326330 99.8 1584232 python
-@yew02 PS 2326377  0.0  1532 timeout
-@yew02 PS 2326379 99.9 1592792 python
-@yew02 PS 2326421  0.0  1532 timeout
-@yew02 PS 2326423 99.9 1557708 python
-@yew02 PS 2326852  0.0  3384 python
-@yew02 PS 2326854  0.0  3424 python
-@yew02 PS 2326855  0.0  3420 python
-@yew02 PS 2326856  0.0  3436 python
-@yew02 PS 2326857 36.3 428596 python
-@yew02 PS 2326859 32.5 400316 python
-@yew02 PS 2326861 67.4 442332 python
-@yew02 PS 2326862 69.9 390056 python
-@yew02 PS 2326864 27.2 405396 python
-@yew02 PS 2326865 81.9 400316 python
-@yew02 PS 2326867 79.7 400424 python
-@yew02 PS 2326869 40.8 410320 python
-@yew02 PS 2326870 77.5 422028 python
-@yew02 PS 2326871 40.5 423576 python
-@yew02 PS 2326872 44.4 442540 python
-@yew02 PS 2326874 42.1 425804 python
-@yew02 PS 2327783  0.1 11372 systemd
-@yew02 PS 2327784  0.0  3376 (sd-pam)
-@yew02 PS 2327803  0.0  8576 pipewire
-@yew02 PS 2327804  0.0  5840 pipewire
-@yew02 PS 2327807  0.0 15336 wireplumber
-@yew02 PS 2327808  0.0 10460 pipewire-pulse
-@yew02 PS 2327820  0.0  4284 dbus-daemon
-@yew02 PS 3092465  0.0  2072 sleep
-@yew02 PS 3096053  0.0  2064 sleep
-@yew02 PS 3098632  0.0  7072 sshd
-@yew02 PS 3098639  0.0  3592 bash
-@yew02 PS 3098654  0.0  4612 ps
-@yew02 PS 3098655  0.0  2312 sed
-@yew02 SIZE 8 21,18
-@yew02 SEEN 1785226721
+@yew02 CPU 24 0.03
+@yew02 MEM 15658 1507
+@yew02 PS  113282 29.5 11940 systemd
+@yew02 PS  113283  0.0  3416 (sd-pam)
+@yew02 PS  113295  4.1  8844 pipewire
+@yew02 PS  113296  4.1  6048 pipewire
+@yew02 PS  113298 17.3 16020 wireplumber
+@yew02 PS  113300  4.3 10680 pipewire-pulse
+@yew02 PS  113317  0.0  4552 dbus-daemon
+@yew02 PS  113326  0.0  7108 sshd
+@yew02 PS  113343  0.0  3572 bash
+@yew02 PS  113358  100  4568 ps
+@yew02 PS  113359  0.0  2312 sed
+@yew02 SEEN 1785315295

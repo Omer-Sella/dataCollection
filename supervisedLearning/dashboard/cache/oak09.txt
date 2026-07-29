@@ -1,45 +1,15 @@
-@oak09 CPU 16 11.00
-@oak09 MEM 15766 12264
+@oak09 CPU 16 0.77
+@oak09 MEM 15766 1505
 @oak09 GPU 0, 88, 2048
-@oak09 PS 2553817  0.1  6600 systemd
-@oak09 PS 2553818  0.0  1536 (sd-pam)
-@oak09 PS 2553830  0.0  3620 pipewire
-@oak09 PS 2553831  0.0  3088 pipewire
-@oak09 PS 2553833  0.0  9464 wireplumber
-@oak09 PS 2553835  0.0  4752 pipewire-pulse
-@oak09 PS 2553856  0.0  2924 dbus-daemon
-@oak09 PS 2553889  0.0  2536 bash
-@oak09 PS 2553894  0.0  1872 bash
-@oak09 PS 2553904  0.0  1616 bash
-@oak09 PS 2553909  0.0  1736 timeout
-@oak09 PS 2553911 99.7 1864888 python
-@oak09 PS 2553965  0.0  1736 timeout
-@oak09 PS 2553967 99.7 1962300 python
-@oak09 PS 2553998  0.0  1712 timeout
-@oak09 PS 2554000 99.7 1909876 python
-@oak09 PS 2554019  0.0  1736 timeout
-@oak09 PS 2554021 99.7 1989980 python
-@oak09 PS 2554869  0.0  3216 python
-@oak09 PS 2554870  0.0  3208 python
-@oak09 PS 2554871  0.0  3208 python
-@oak09 PS 2554872  0.0  3208 python
-@oak09 PS 2554873 52.7 325416 python
-@oak09 PS 2554874 14.8 315768 python
-@oak09 PS 2554875 58.9 327444 python
-@oak09 PS 2554876 70.8 313468 python
-@oak09 PS 2554877 38.9 317992 python
-@oak09 PS 2554878 71.2 326956 python
-@oak09 PS 2554879 50.6 322272 python
-@oak09 PS 2554880 43.5 318904 python
-@oak09 PS 2554881 50.9 321800 python
-@oak09 PS 2554882 77.2 332752 python
-@oak09 PS 2554883 47.9 316732 python
-@oak09 PS 2554884 42.6 331856 python
-@oak09 PS 3150073  0.0  2024 sleep
-@oak09 PS 3154125  0.0  2032 sleep
-@oak09 PS 3154362  0.0  7044 sshd
-@oak09 PS 3154363  0.0  3568 bash
-@oak09 PS 3154374  0.0  4548 ps
-@oak09 PS 3154375  0.0  2276 sed
-@oak09 SIZE 8 21,18
-@oak09 SEEN 1785226711
+@oak09 PS  180977 32.4 11868 systemd
+@oak09 PS  180980  0.0  3420 (sd-pam)
+@oak09 PS  180991  4.7  8760 pipewire
+@oak09 PS  180992  0.0  5944 pipewire
+@oak09 PS  180995 10.0 15784 wireplumber
+@oak09 PS  180996  5.0 10588 pipewire-pulse
+@oak09 PS  181018  0.0  4492 dbus-daemon
+@oak09 PS  181019  0.0  7096 sshd
+@oak09 PS  181039  0.0  3520 bash
+@oak09 PS  181062  0.0  4508 ps
+@oak09 PS  181063  0.0  2276 sed
+@oak09 SEEN 1785315278

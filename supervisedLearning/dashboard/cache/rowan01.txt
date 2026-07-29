@@ -1,44 +1,14 @@
-@rowan01 CPU 24 10.03
-@rowan01 MEM 15658 12292
-@rowan01 PS   59519  0.0  2068 sleep
-@rowan01 PS   63232  0.0  2068 sleep
-@rowan01 PS   63295  0.0  7104 sshd
-@rowan01 PS   63296  0.0  3604 bash
-@rowan01 PS   63307  0.0  4540 ps
-@rowan01 PS   63308  0.0  2296 sed
-@rowan01 PS 3486478  0.0  2800 bash
-@rowan01 PS 3486483  0.0  1796 bash
-@rowan01 PS 3486493  0.0  1928 bash
-@rowan01 PS 3486522  0.0  1520 timeout
-@rowan01 PS 3486524 99.9 2030816 python
-@rowan01 PS 3486543  0.0  1516 timeout
-@rowan01 PS 3486545 99.9 1929660 python
-@rowan01 PS 3486612  0.0  1484 timeout
-@rowan01 PS 3486614 99.9 1971416 python
-@rowan01 PS 3486633  0.0  1516 timeout
-@rowan01 PS 3486635 99.9 1955816 python
-@rowan01 PS 3486886  0.0  3512 python
-@rowan01 PS 3486887  0.0  3484 python
-@rowan01 PS 3486888  0.0  3436 python
-@rowan01 PS 3486889  0.0  3428 python
-@rowan01 PS 3486890 33.4 300256 python
-@rowan01 PS 3486892 82.8 277020 python
-@rowan01 PS 3486893 14.0 301048 python
-@rowan01 PS 3486894 53.3 283336 python
-@rowan01 PS 3486897 42.0 313056 python
-@rowan01 PS 3486898 56.2 309744 python
-@rowan01 PS 3486899 30.8 313176 python
-@rowan01 PS 3486901 39.8 283296 python
-@rowan01 PS 3486903 42.5 282624 python
-@rowan01 PS 3486904 29.8 307492 python
-@rowan01 PS 3486905 77.8 275868 python
-@rowan01 PS 3486907 43.2 308332 python
-@rowan01 PS 3488985  0.1 11672 systemd
-@rowan01 PS 3488986  0.0  3392 (sd-pam)
-@rowan01 PS 3488997  0.0  8484 pipewire
-@rowan01 PS 3488998  0.0  5824 pipewire
-@rowan01 PS 3488999  0.0 15116 wireplumber
-@rowan01 PS 3489001  0.0  9840 pipewire-pulse
-@rowan01 PS 3489013  0.0  4148 dbus-daemon
-@rowan01 SIZE 8 21,18
-@rowan01 SEEN 1785226724
+@rowan01 CPU 24 0.00
+@rowan01 MEM 15658 1319
+@rowan01 PS 1260746 15.6 11868 systemd
+@rowan01 PS 1260747  0.0  3420 (sd-pam)
+@rowan01 PS 1260759  0.0  8876 pipewire
+@rowan01 PS 1260760  0.0  5936 pipewire
+@rowan01 PS 1260762  5.0 15972 wireplumber
+@rowan01 PS 1260764  0.0 10636 pipewire-pulse
+@rowan01 PS 1260778  0.0  4460 dbus-daemon
+@rowan01 PS 1260796  0.0  7072 sshd
+@rowan01 PS 1260807  0.0  3628 bash
+@rowan01 PS 1260822  100  4532 ps
+@rowan01 PS 1260823  0.0  2316 sed
+@rowan01 SEEN 1785315299

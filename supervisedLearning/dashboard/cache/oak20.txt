@@ -1,45 +1,15 @@
-@oak20 CPU 16 9.01
-@oak20 MEM 15766 12322
-@oak20 GPU 0, 88, 2048
-@oak20 PS 2810918  0.1 11708 systemd
-@oak20 PS 2810919  0.0  3420 (sd-pam)
-@oak20 PS 2810931  0.0  6040 pipewire
-@oak20 PS 2810932  0.0  4560 pipewire
-@oak20 PS 2810934  0.0 13500 wireplumber
-@oak20 PS 2810936  0.0  8052 pipewire-pulse
-@oak20 PS 2810955  0.0  4076 dbus-daemon
-@oak20 PS 2810996  0.0  3108 bash
-@oak20 PS 2811001  0.0  2092 bash
-@oak20 PS 2811011  0.0  1824 bash
-@oak20 PS 2811016  0.0  1820 timeout
-@oak20 PS 2811018 99.8 1943320 python
-@oak20 PS 2811037  0.0  1820 timeout
-@oak20 PS 2811039 99.8 1902388 python
-@oak20 PS 2811062  0.0  1804 timeout
-@oak20 PS 2811064 99.8 1888008 python
-@oak20 PS 2811092  0.0  1820 timeout
-@oak20 PS 2811094 99.8 1883248 python
-@oak20 PS 2811742  0.0  4348 python
-@oak20 PS 2811743  0.0  4368 python
-@oak20 PS 2811744  0.0  4404 python
-@oak20 PS 2811745  0.0  4428 python
-@oak20 PS 2811746 26.6 342612 python
-@oak20 PS 2811747 65.0 342948 python
-@oak20 PS 2811748 52.6 343840 python
-@oak20 PS 2811749 31.9 351240 python
-@oak20 PS 2811750 30.6 347044 python
-@oak20 PS 2811751 35.6 346316 python
-@oak20 PS 2811752 77.1 340476 python
-@oak20 PS 2811753 62.3 344592 python
-@oak20 PS 2811754 28.9 340432 python
-@oak20 PS 2811755 92.5 347880 python
-@oak20 PS 2811756 27.7 336480 python
-@oak20 PS 2811757 31.8 338452 python
-@oak20 PS 3393575  0.0  2076 sleep
-@oak20 PS 3393646  0.0  2072 sleep
-@oak20 PS 3398996  0.0  7108 sshd
-@oak20 PS 3398997  0.0  3580 bash
-@oak20 PS 3399008  0.0  4664 ps
-@oak20 PS 3399009  0.0  2312 sed
-@oak20 SIZE 8 21,18
-@oak20 SEEN 1785226712
+@oak20 CPU 16 0.01
+@oak20 MEM 15766 1443
+@oak20 GPU 3, 88, 2048
+@oak20 PS  417157 28.9 11992 systemd
+@oak20 PS  417158  0.0  3420 (sd-pam)
+@oak20 PS  417177  0.0  8824 pipewire
+@oak20 PS  417178  0.0  6112 pipewire
+@oak20 PS  417180 14.2 16148 wireplumber
+@oak20 PS  417182  0.0 10696 pipewire-pulse
+@oak20 PS  417202  0.0  4544 dbus-daemon
+@oak20 PS  417205  0.0  7024 sshd
+@oak20 PS  417225  0.0  3556 bash
+@oak20 PS  417240  0.0  4600 ps
+@oak20 PS  417241  0.0  2324 sed
+@oak20 SEEN 1785315279

@@ -1,45 +1,15 @@
-@oak15 CPU 16 9.02
-@oak15 MEM 15766 12273
+@oak15 CPU 16 0.08
+@oak15 MEM 15766 1758
 @oak15 GPU 0, 74, 2048
-@oak15 PS 3237265  0.1 11064 systemd
-@oak15 PS 3237266  0.0  3364 (sd-pam)
-@oak15 PS 3237278  0.0  5724 pipewire
-@oak15 PS 3237279  0.0  4484 pipewire
-@oak15 PS 3237281  0.0 13432 wireplumber
-@oak15 PS 3237283  0.0  7248 pipewire-pulse
-@oak15 PS 3237303  0.0  4064 dbus-daemon
-@oak15 PS 3237412  0.0  2820 bash
-@oak15 PS 3237417  0.0  2164 bash
-@oak15 PS 3237427  0.0  1648 bash
-@oak15 PS 3237432  0.0  1892 timeout
-@oak15 PS 3237434 99.8 1891892 python
-@oak15 PS 3237460  0.0  1896 timeout
-@oak15 PS 3237462 99.8 1885792 python
-@oak15 PS 3237485  0.0  1876 timeout
-@oak15 PS 3237487 99.8 1870124 python
-@oak15 PS 3237506  0.0  1896 timeout
-@oak15 PS 3237508 99.8 1877388 python
-@oak15 PS 3238198  0.0  4208 python
-@oak15 PS 3238199  0.0  4236 python
-@oak15 PS 3238200  0.0  4200 python
-@oak15 PS 3238201  0.0  4192 python
-@oak15 PS 3238202 74.5 330288 python
-@oak15 PS 3238203 79.5 328664 python
-@oak15 PS 3238204 87.3 339232 python
-@oak15 PS 3238205 25.7 329372 python
-@oak15 PS 3238206 37.2 333508 python
-@oak15 PS 3238207 55.3 330276 python
-@oak15 PS 3238208 53.8 337128 python
-@oak15 PS 3238209  1.8 324744 python
-@oak15 PS 3238210 78.6 335480 python
-@oak15 PS 3238211 54.5 331452 python
-@oak15 PS 3238212 86.4 330240 python
-@oak15 PS 3238213 65.2 334412 python
-@oak15 PS 3831086  0.0  2032 sleep
-@oak15 PS 3834916  0.0  2048 sleep
-@oak15 PS 3834950  0.0  7004 sshd
-@oak15 PS 3834951  0.0  3520 bash
-@oak15 PS 3834962  0.0  4564 ps
-@oak15 PS 3834963  0.0  2288 sed
-@oak15 SIZE 8 21,18
-@oak15 SEEN 1785226712
+@oak15 PS  860570 31.9 11656 systemd
+@oak15 PS  860571  0.0  3428 (sd-pam)
+@oak15 PS  860583  4.1  8724 pipewire
+@oak15 PS  860584  0.0  5992 pipewire
+@oak15 PS  860586  8.3 16048 wireplumber
+@oak15 PS  860588  0.0 10560 pipewire-pulse
+@oak15 PS  860609  0.0  4392 dbus-daemon
+@oak15 PS  860611  0.0  7020 sshd
+@oak15 PS  860631  0.0  3560 bash
+@oak15 PS  860646  100  4516 ps
+@oak15 PS  860647  0.0  2296 sed
+@oak15 SEEN 1785315279

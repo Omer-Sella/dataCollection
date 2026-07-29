@@ -1,45 +1,15 @@
-@ash30 CPU 16 8.03
-@ash30 MEM 15909 9863
-@ash30 GPU 3, 85, 2048
-@ash30 PS 1606245  0.1 11812 systemd
-@ash30 PS 1606246  0.0  3420 (sd-pam)
-@ash30 PS 1606258  0.0  6180 pipewire
-@ash30 PS 1606259  0.0  4636 pipewire
-@ash30 PS 1606261  0.0 13700 wireplumber
-@ash30 PS 1606264  0.0  7876 pipewire-pulse
-@ash30 PS 1606279  0.0  4220 dbus-daemon
-@ash30 PS 1606317  0.0  3252 bash
-@ash30 PS 1606322  0.0  2912 bash
-@ash30 PS 1606332  0.0  1964 bash
-@ash30 PS 1606337  0.0  1976 timeout
-@ash30 PS 1606339 99.9 2257072 python
-@ash30 PS 1606357  0.0  1984 timeout
-@ash30 PS 1606359 99.9 2232364 python
-@ash30 PS 1606392  0.0  1972 timeout
-@ash30 PS 1606394 99.9 2308208 python
-@ash30 PS 1606413  0.0  1940 timeout
-@ash30 PS 1606415 99.9 2320972 python
-@ash30 PS 1606700  0.0  6072 python
-@ash30 PS 1606701  0.0  6072 python
-@ash30 PS 1606702  0.0  6016 python
-@ash30 PS 1606703  0.0  6068 python
-@ash30 PS 1606704 47.8 420160 python
-@ash30 PS 1606705 15.9 427164 python
-@ash30 PS 1606706 40.4 429844 python
-@ash30 PS 1606707 45.6 427208 python
-@ash30 PS 1606708 39.6 465652 python
-@ash30 PS 1606709 45.4 462292 python
-@ash30 PS 1606710 68.8 428616 python
-@ash30 PS 1606711 69.8 421100 python
-@ash30 PS 1606712 60.5 419868 python
-@ash30 PS 1606713 51.5 428088 python
-@ash30 PS 1606714 85.4 411288 python
-@ash30 PS 1606715 62.2 459184 python
-@ash30 PS 2346520  0.0  2064 sleep
-@ash30 PS 2350065  0.0  2064 sleep
-@ash30 PS 2353143  0.0  6948 sshd
-@ash30 PS 2353144  0.0  3576 bash
-@ash30 PS 2353155  0.0  4616 ps
-@ash30 PS 2353156  0.0  2300 sed
-@ash30 SIZE 8 21,18
-@ash30 SEEN 1785226745
+@ash30 CPU 16 0.00
+@ash30 MEM 15909 1120
+@ash30 GPU 0, 85, 2048
+@ash30 PS 3543659 27.7 11752 systemd
+@ash30 PS 3543660  0.0  3436 (sd-pam)
+@ash30 PS 3543672  0.0  8824 pipewire
+@ash30 PS 3543673  0.0  6084 pipewire
+@ash30 PS 3543675 15.0 15844 wireplumber
+@ash30 PS 3543677  0.0 10588 pipewire-pulse
+@ash30 PS 3543694  0.0  4464 dbus-daemon
+@ash30 PS 3543705  0.0  6912 sshd
+@ash30 PS 3543721  0.0  3556 bash
+@ash30 PS 3543744  0.0  4544 ps
+@ash30 PS 3543745  0.0  2272 sed
+@ash30 SEEN 1785315324

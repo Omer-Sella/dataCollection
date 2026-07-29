@@ -24,7 +24,7 @@ declare -A SIZES=(
 # Gradient-step equalisation: one epoch = one pass over the union of the training sizes,
 # so bigger size-sets need fewer epochs for the same number of updates. Tuned from the
 # sweep-1 ratios; the balanced sampler makes 6,6-only the slowest per epoch.
-declare -A EPOCHS=( [66]=20 [66-96]=20 [66-96-126]=15 [66-96-126-153]=250 )
+declare -A EPOCHS=( [66]=24 [66-96]=12 [66-96-126]=8 [66-96-126-153]=6 )   # BALANCED weighting: epoch = ceil(smallest/512) x numberOfSizes, and 6,6 (716k rows) is smallest in every arm, so steps/epoch scale with the SIZE COUNT => epochs proportional to 1/numberOfSizes
 
 mkdir -p tasks
 emit() {   # 1=name 2=initLine 3=command 4=prefix
@@ -58,7 +58,7 @@ for kind in pure anch; do
             emit "$name" "$S2/$parent.pth" "$PY $TRAIN \\
     --sizes 6,6 9,6 12,6 15,3 --curve-sizes $curve --error-range geometric5 \\
     --init-checkpoint \"$S2/$parent.pth\" \\
-    --data-root $DATA --epochs 10 --device cuda --seed $seed \\
+    --data-root $DATA --epochs 2 --device cuda --seed $seed \\
     --number-of-harmonics $h \\
     --checkpoint \"$S2/$name.pth\" --report \"$S2/$name-report.md\"" p1_
         done

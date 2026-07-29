@@ -1,45 +1,15 @@
-@oak36 CPU 16 10.00
-@oak36 MEM 15766 12403
+@oak36 CPU 16 0.80
+@oak36 MEM 15766 1545
 @oak36 GPU 0, 81, 2048
-@oak36 PS 1616864  0.1 11084 systemd
-@oak36 PS 1616865  0.0  2856 (sd-pam)
-@oak36 PS 1616876  0.0  6172 pipewire
-@oak36 PS 1616877  0.0  4492 pipewire
-@oak36 PS 1616879  0.0 12464 wireplumber
-@oak36 PS 1616881  0.0  6992 pipewire-pulse
-@oak36 PS 1616902  0.0  4132 dbus-daemon
-@oak36 PS 1616935  0.0  2944 bash
-@oak36 PS 1616940  0.0  2232 bash
-@oak36 PS 1616950  0.0  1692 bash
-@oak36 PS 1616955  0.0  1956 timeout
-@oak36 PS 1616957 99.8 1889312 python
-@oak36 PS 1616992  0.0  1968 timeout
-@oak36 PS 1616994 99.8 1908768 python
-@oak36 PS 1617021  0.0  1948 timeout
-@oak36 PS 1617023 99.8 1862628 python
-@oak36 PS 1617046  0.0  1940 timeout
-@oak36 PS 1617048 99.8 1868984 python
-@oak36 PS 1617565  0.0  4068 python
-@oak36 PS 1617566  0.0  4004 python
-@oak36 PS 1617567  0.0  4024 python
-@oak36 PS 1617568  0.0  4080 python
-@oak36 PS 1617569 27.8 322828 python
-@oak36 PS 1617570 56.1 340768 python
-@oak36 PS 1617571 26.9 360648 python
-@oak36 PS 1617572 41.0 339344 python
-@oak36 PS 1617573 46.2 348108 python
-@oak36 PS 1617574 89.7 327528 python
-@oak36 PS 1617575 77.3 342496 python
-@oak36 PS 1617576 42.6 327292 python
-@oak36 PS 1617577 16.3 332420 python
-@oak36 PS 1617578 51.6 345456 python
-@oak36 PS 1617579 28.0 344752 python
-@oak36 PS 1617580 41.9 342788 python
-@oak36 PS 2200905  0.0  2084 sleep
-@oak36 PS 2200976  0.0  2092 sleep
-@oak36 PS 2203973  0.0  7060 sshd
-@oak36 PS 2203974  0.0  3628 bash
-@oak36 PS 2203993  0.0  4656 ps
-@oak36 PS 2203994  0.0  2324 sed
-@oak36 SIZE 8 21,18
-@oak36 SEEN 1785226718
+@oak36 PS 3393559 27.0 11684 systemd
+@oak36 PS 3393560  0.0  3404 (sd-pam)
+@oak36 PS 3393571  0.0  8748 pipewire
+@oak36 PS 3393572  0.0  6076 pipewire
+@oak36 PS 3393574 10.0 16112 wireplumber
+@oak36 PS 3393576  0.0 10712 pipewire-pulse
+@oak36 PS 3393597  0.0  4536 dbus-daemon
+@oak36 PS 3393599  0.0  7092 sshd
+@oak36 PS 3393619  0.0  3576 bash
+@oak36 PS 3393642  0.0  4604 ps
+@oak36 PS 3393643  0.0  2336 sed
+@oak36 SEEN 1785315285

@@ -1,45 +1,15 @@
-@oak28 CPU 16 12.04
-@oak28 MEM 15766 11967
+@oak28 CPU 16 0.00
+@oak28 MEM 15766 1062
 @oak28 GPU 0, 81, 2048
-@oak28 PS 1508956  0.1  7620 systemd
-@oak28 PS 1508957  0.0  2928 (sd-pam)
-@oak28 PS 1508976  0.0  5316 pipewire
-@oak28 PS 1508977  0.0  3852 pipewire
-@oak28 PS 1508979  0.0 11000 wireplumber
-@oak28 PS 1508981  0.0  6200 pipewire-pulse
-@oak28 PS 1509001  0.0  3152 dbus-daemon
-@oak28 PS 1509035  0.0  2716 bash
-@oak28 PS 1509040  0.0  2180 bash
-@oak28 PS 1509050  0.0  1668 bash
-@oak28 PS 1509055  0.0  1888 timeout
-@oak28 PS 1509057 99.8 1902212 python
-@oak28 PS 1509079  0.0  1888 timeout
-@oak28 PS 1509081 99.8 1916444 python
-@oak28 PS 1509100  0.0  1888 timeout
-@oak28 PS 1509102 99.8 1923776 python
-@oak28 PS 1509137  0.0  1868 timeout
-@oak28 PS 1509139 99.8 1893104 python
-@oak28 PS 1509694  0.0  3164 python
-@oak28 PS 1509695  0.0  3164 python
-@oak28 PS 1509696  0.0  3304 python
-@oak28 PS 1509697  0.0  3148 python
-@oak28 PS 1509698 55.3 311272 python
-@oak28 PS 1509699 39.0 311496 python
-@oak28 PS 1509700 57.6 320180 python
-@oak28 PS 1509701 27.0 313756 python
-@oak28 PS 1509702 27.0 302944 python
-@oak28 PS 1509703 56.7 317324 python
-@oak28 PS 1509704 70.5 311592 python
-@oak28 PS 1509705 63.8 317080 python
-@oak28 PS 1509706 70.7 310000 python
-@oak28 PS 1509707 45.1 317592 python
-@oak28 PS 1509708 47.0 305428 python
-@oak28 PS 1509709 39.2 306124 python
-@oak28 PS 2090415  0.0  2096 sleep
-@oak28 PS 2090499  0.0  2088 sleep
-@oak28 PS 2094100  0.0  7096 sshd
-@oak28 PS 2094101  0.0  3620 bash
-@oak28 PS 2094112  0.0  4680 ps
-@oak28 PS 2094113  0.0  2332 sed
-@oak28 SIZE 8 21,18
-@oak28 SEEN 1785226718
+@oak28 PS 3283665 30.0 12040 systemd
+@oak28 PS 3283666  0.0  3424 (sd-pam)
+@oak28 PS 3283678  0.0  8876 pipewire
+@oak28 PS 3283679  0.0  6180 pipewire
+@oak28 PS 3283681  9.0 15724 wireplumber
+@oak28 PS 3283683  0.0 10768 pipewire-pulse
+@oak28 PS 3283703  0.0  4568 dbus-daemon
+@oak28 PS 3283706  0.0  7124 sshd
+@oak28 PS 3283726  0.0  3580 bash
+@oak28 PS 3283741  300  4616 ps
+@oak28 PS 3283742  0.0  2336 sed
+@oak28 SEEN 1785315285

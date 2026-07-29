@@ -1,38 +1,15 @@
-@vertex22 CPU 12 5.73
-@vertex22 MEM 15255 8406
-@vertex22 PS 3208030  0.1 13756 systemd
-@vertex22 PS 3208031  0.0  4072 (sd-pam)
-@vertex22 PS 3208051  0.0  4720 dbus-daemon
-@vertex22 PS 3208052  0.0  5848 pipewire
-@vertex22 PS 3208062  0.0  3592 mpris-proxy
-@vertex22 PS 3208063  0.0 19344 wireplumber
-@vertex22 PS 3208067  0.0  4228 pipewire
-@vertex22 PS 3208071  0.0  8876 pipewire-pulse
-@vertex22 PS 3208201  0.0  3468 bash
-@vertex22 PS 3208209  0.0  2396 bash
-@vertex22 PS 3208219  0.0  1968 bash
-@vertex22 PS 3208226  0.0  6112 timeout
-@vertex22 PS 3208235 99.8 2258672 python
-@vertex22 PS 3208262  0.0  6028 timeout
-@vertex22 PS 3208264 99.8 2267228 python
-@vertex22 PS 3208300  0.0  6228 timeout
-@vertex22 PS 3208302 99.6 1128372 python
-@vertex22 PS 3208769  0.0  6844 python
-@vertex22 PS 3208770  0.0  6720 python
-@vertex22 PS 3208771  0.0  6756 python
-@vertex22 PS 3208773 38.2 479164 python
-@vertex22 PS 3208774 90.1 485208 python
-@vertex22 PS 3208775 57.2 478992 python
-@vertex22 PS 3208776 27.1 505384 python
-@vertex22 PS 3208777 38.5 475244 python
-@vertex22 PS 3208778 34.0     0 python
-@vertex22 PS 3208779 56.7 479040 python
-@vertex22 PS 3208780 99.8 479052 python
-@vertex22 PS 3888513  0.0  7776 sleep
-@vertex22 PS 3888636  0.0  7728 sleep
-@vertex22 PS 3891227  0.0  8404 sshd-session
-@vertex22 PS 3891228  0.0  3832 bash
-@vertex22 PS 3891240  0.0  4664 ps
-@vertex22 PS 3891241  0.0  2680 sed
-@vertex22 SIZE 6 21,18
-@vertex22 SEEN 1785226755
+@vertex22 CPU 12 0.45
+@vertex22 MEM 15255 5382
+@vertex22 PS  832339 35.0 13860 systemd
+@vertex22 PS  832341  0.0  4072 (sd-pam)
+@vertex22 PS  832361  0.0  5160 dbus-daemon
+@vertex22 PS  832362  0.0  8060 pipewire
+@vertex22 PS  832372  0.0  3856 mpris-proxy
+@vertex22 PS  832373 11.7 13780 wireplumber
+@vertex22 PS  832377  0.0  5724 pipewire
+@vertex22 PS  832379  6.2 10944 pipewire-pulse
+@vertex22 PS  832403  0.0  8380 sshd-session
+@vertex22 PS  832404  0.0  3872 bash
+@vertex22 PS  832463  0.0  4600 ps
+@vertex22 PS  832464  0.0  2708 sed
+@vertex22 SEEN 1785315336

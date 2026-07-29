@@ -1,44 +1,14 @@
-@poplar22 CPU 24 9.01
-@poplar22 MEM 15658 12224
-@poplar22 PS   87004  0.0  2068 sleep
-@poplar22 PS   87231  0.0  2064 sleep
-@poplar22 PS   88399  0.0  7024 sshd
-@poplar22 PS   88400  0.0  3580 bash
-@poplar22 PS   88411  0.0  4540 ps
-@poplar22 PS   88412  0.0  2316 sed
-@poplar22 PS 3532301  0.0  2820 bash
-@poplar22 PS 3532306  0.0  1776 bash
-@poplar22 PS 3532316  0.0  1804 bash
-@poplar22 PS 3532321  0.0  1500 timeout
-@poplar22 PS 3532323 99.9 1595960 python
-@poplar22 PS 3532346  0.0  1500 timeout
-@poplar22 PS 3532348 99.9 1621704 python
-@poplar22 PS 3532367  0.0  1500 timeout
-@poplar22 PS 3532369 99.9 1637096 python
-@poplar22 PS 3532386  0.0  1500 timeout
-@poplar22 PS 3532388 99.9 1623616 python
-@poplar22 PS 3532748  0.0  3464 python
-@poplar22 PS 3532749  0.0  3460 python
-@poplar22 PS 3532750  0.0  3436 python
-@poplar22 PS 3532751  0.0  3372 python
-@poplar22 PS 3532752 49.3 389780 python
-@poplar22 PS 3532755 15.5 402492 python
-@poplar22 PS 3532756 32.8 411632 python
-@poplar22 PS 3532757 43.4 418888 python
-@poplar22 PS 3532759 27.0 395552 python
-@poplar22 PS 3532760 56.2 417048 python
-@poplar22 PS 3532762 60.8 408224 python
-@poplar22 PS 3532763 57.8 406252 python
-@poplar22 PS 3532765 86.0 414624 python
-@poplar22 PS 3532766 29.7 421900 python
-@poplar22 PS 3532767 65.9 406592 python
-@poplar22 PS 3532768 50.3 418680 python
-@poplar22 PS 3534017  0.1 11572 systemd
-@poplar22 PS 3534018  0.0  3388 (sd-pam)
-@poplar22 PS 3534037  0.0  8504 pipewire
-@poplar22 PS 3534038  0.0  5940 pipewire
-@poplar22 PS 3534039  0.0 15576 wireplumber
-@poplar22 PS 3534041  0.0 10596 pipewire-pulse
-@poplar22 PS 3534052  0.0  4212 dbus-daemon
-@poplar22 SIZE 8 21,18
-@poplar22 SEEN 1785226732
+@poplar22 CPU 24 0.74
+@poplar22 MEM 15658 1273
+@poplar22 PS 1259985 29.5 11580 systemd
+@poplar22 PS 1259986  0.0  3412 (sd-pam)
+@poplar22 PS 1259998  8.6  8744 pipewire
+@poplar22 PS 1259999  0.0  6040 pipewire
+@poplar22 PS 1260000 30.4 15864 wireplumber
+@poplar22 PS 1260002  4.3 10592 pipewire-pulse
+@poplar22 PS 1260022  0.0  4480 dbus-daemon
+@poplar22 PS 1260032  0.0  7020 sshd
+@poplar22 PS 1260047  0.0  3552 bash
+@poplar22 PS 1260062  0.0  4544 ps
+@poplar22 PS 1260063  0.0  2280 sed
+@poplar22 SEEN 1785315309

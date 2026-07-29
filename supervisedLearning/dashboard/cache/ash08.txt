@@ -1,45 +1,15 @@
-@ash08 CPU 16 9.00
-@ash08 MEM 15909 8144
+@ash08 CPU 16 0.00
+@ash08 MEM 15909 1234
 @ash08 GPU 0, 81, 2048
-@ash08 PS  178722  0.1 11352 systemd
-@ash08 PS  178723  0.0  3384 (sd-pam)
-@ash08 PS  178744  0.0  6276 pipewire
-@ash08 PS  178745  0.0  4544 pipewire
-@ash08 PS  178747  0.0 12836 wireplumber
-@ash08 PS  178749  0.0  7728 pipewire-pulse
-@ash08 PS  178764  0.0  3844 dbus-daemon
-@ash08 PS  178803  0.0  3268 bash
-@ash08 PS  178808  0.0  2220 bash
-@ash08 PS  178818  0.0  1932 bash
-@ash08 PS  178823  0.0  1948 timeout
-@ash08 PS  178825 99.9 1665036 python
-@ash08 PS  178854  0.0  1944 timeout
-@ash08 PS  178856 99.9 1672384 python
-@ash08 PS  178877  0.0  1948 timeout
-@ash08 PS  178879 99.9 1705004 python
-@ash08 PS  178915  0.0  1948 timeout
-@ash08 PS  178917 99.9 1739944 python
-@ash08 PS  179224  0.0  5988 python
-@ash08 PS  179225  0.0  6104 python
-@ash08 PS  179226  0.0  6096 python
-@ash08 PS  179227  0.0  6036 python
-@ash08 PS  179228 26.9 460232 python
-@ash08 PS  179229 54.4 460988 python
-@ash08 PS  179230 46.6 440540 python
-@ash08 PS  179231 37.7 446484 python
-@ash08 PS  179232 82.8 450268 python
-@ash08 PS  179233 25.3 440704 python
-@ash08 PS  179234 61.9 444744 python
-@ash08 PS  179235 41.0 463560 python
-@ash08 PS  179236 41.1 476852 python
-@ash08 PS  179237 20.7 488612 python
-@ash08 PS  179238 46.2 507760 python
-@ash08 PS  179239 45.2 501416 python
-@ash08 PS  920180  0.0  2048 sleep
-@ash08 PS  927637  0.0  2056 sleep
-@ash08 PS  927848  0.0  6928 sshd
-@ash08 PS  927849  0.0  3528 bash
-@ash08 PS  927860  0.0  4528 ps
-@ash08 PS  927861  0.0  2300 sed
-@ash08 SIZE 8 21,18
-@ash08 SEEN 1785226739
+@ash08 PS 2140415 28.9 11672 systemd
+@ash08 PS 2140416  0.0  3440 (sd-pam)
+@ash08 PS 2140436  0.0  8728 pipewire
+@ash08 PS 2140437  0.0  6088 pipewire
+@ash08 PS 2140439 13.6 15772 wireplumber
+@ash08 PS 2140441  0.0 10616 pipewire-pulse
+@ash08 PS 2140457  0.0  4424 dbus-daemon
+@ash08 PS 2140471  0.0  6948 sshd
+@ash08 PS 2140484  0.0  3572 bash
+@ash08 PS 2140499  100  4496 ps
+@ash08 PS 2140500  0.0  2296 sed
+@ash08 SEEN 1785315318

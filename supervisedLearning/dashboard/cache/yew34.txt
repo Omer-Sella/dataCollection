@@ -1,44 +1,14 @@
-@yew34 CPU 24 10.16
-@yew34 MEM 15658 12363
-@yew34 PS 3000796  0.0  2812 bash
-@yew34 PS 3000801  0.0  1784 bash
-@yew34 PS 3000811  0.0  1940 bash
-@yew34 PS 3000816  0.0  1532 timeout
-@yew34 PS 3000818 99.9 1653836 python
-@yew34 PS 3000843  0.0  1532 timeout
-@yew34 PS 3000845 99.9 1646520 python
-@yew34 PS 3000868  0.0  1532 timeout
-@yew34 PS 3000870 99.9 1664576 python
-@yew34 PS 3000889  0.0  1532 timeout
-@yew34 PS 3000891 99.9 1656072 python
-@yew34 PS 3001262  0.0  2920 python
-@yew34 PS 3001263  0.0  2928 python
-@yew34 PS 3001265  0.0  2984 python
-@yew34 PS 3001267  0.0  2928 python
-@yew34 PS 3001268 45.6 397156 python
-@yew34 PS 3001269 78.2 384576 python
-@yew34 PS 3001270 38.2 396308 python
-@yew34 PS 3001272 26.3 387892 python
-@yew34 PS 3001274 34.8 388032 python
-@yew34 PS 3001275 36.9 389896 python
-@yew34 PS 3001278 46.3 396364 python
-@yew34 PS 3001279 63.1 404560 python
-@yew34 PS 3001280 16.1 402484 python
-@yew34 PS 3001281 66.2 388772 python
-@yew34 PS 3001282 57.0 383992 python
-@yew34 PS 3001285 43.8 400392 python
-@yew34 PS 3002142  0.1 11560 systemd
-@yew34 PS 3002143  0.0  3388 (sd-pam)
-@yew34 PS 3002154  0.0  8664 pipewire
-@yew34 PS 3002155  0.0  5896 pipewire
-@yew34 PS 3002158  0.0 15596 wireplumber
-@yew34 PS 3002159  0.0 10524 pipewire-pulse
-@yew34 PS 3002171  0.0  4268 dbus-daemon
-@yew34 PS 3752987  0.0  2052 sleep
-@yew34 PS 3757225  0.0  2068 sleep
-@yew34 PS 3757831  0.0  6980 sshd
-@yew34 PS 3757832  0.0  3536 bash
-@yew34 PS 3757843  0.0  4592 ps
-@yew34 PS 3757844  0.0  2300 sed
-@yew34 SIZE 8 21,18
-@yew34 SEEN 1785226724
+@yew34 CPU 24 0.00
+@yew34 MEM 15658 1537
+@yew34 PS  745759 26.0 11748 systemd
+@yew34 PS  745760  0.0  3416 (sd-pam)
+@yew34 PS  745771  4.0  8920 pipewire
+@yew34 PS  745772  4.0  6032 pipewire
+@yew34 PS  745774 20.0 16008 wireplumber
+@yew34 PS  745776  4.1 10680 pipewire-pulse
+@yew34 PS  745791  0.0  4404 dbus-daemon
+@yew34 PS  745807  0.0  7024 sshd
+@yew34 PS  745819  0.0  3564 bash
+@yew34 PS  745834  0.0  4516 ps
+@yew34 PS  745835  0.0  2296 sed
+@yew34 SEEN 1785315299
