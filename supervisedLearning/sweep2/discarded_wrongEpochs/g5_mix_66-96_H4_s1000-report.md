@@ -1,0 +1,25 @@
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H4_s1000.pth — run configuration (2026-07-28)
+
+- sizes: [(6, 6), (9, 6)]; curve loss on: [(6, 6), (9, 6)]
+- initCheckpoint: fresh model
+- epochs: 6 (best-val epoch 5), lr: 0.001, seed: 1000, weighting: balanced, kLossWeight: 1.0, numberOfHarmonics: 4
+- dataset: 6,6: 895050 codes (716040 train); 9,6: 2745739 codes (2196591 train)
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H4_s1000.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-28
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **10.8931** (noise floor 10.1070)
+- reward MAE: **0.03922**
+- k MAE: **1.75** logical qubits
+- Spearman: **0.789**, Kendall: 0.603
+- top-k overlap (k=50): **0.10**
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H4_s1000.pth on held-out test l=9, m=6 (274574 codes) — 2026-07-28
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 9,6)`
+- Binomial NLL: **9.3286** (noise floor 8.6699)
+- reward MAE: **0.03739**
+- k MAE: **1.44** logical qubits
+- Spearman: **0.785**, Kendall: 0.592
+- top-k overlap (k=50): **0.28**

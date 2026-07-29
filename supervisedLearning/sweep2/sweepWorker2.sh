@@ -21,7 +21,15 @@ if ! python -c "import torch; torch.randperm(64, device='cuda'); torch.cuda.sync
     exit 0
 fi
 echo "sweep2 worker $HOST started $(date)"
+# Curfew: these are shared interactive machines. Omer cleared aggressive use only
+# between 19:00 and 08:00, so stop claiming new work at 06:30, leaving ~90min for the longest task to drain and exit cleanly.
+inWindow() { h=$(date +%H); [ "$h" -ge 19 ] || [ "$h" -lt 6 ] || { [ "$h" -eq 6 ] && [ "$(date +%M)" -lt 30 ]; }; }
+
 while true; do
+    if ! inWindow; then
+        echo "worker $HOST: outside the 19:00-08:00 window, exiting $(date)"
+        break
+    fi
     # These GPUs are shared with other users. Never claim work that cannot fit:
     # an OOM wastes the task's turn and buries it in failed/.
     freeMb=$(nvidia-smi --query-gpu=memory.free --format=csv,noheader,nounits 2>/dev/null | head -1)
