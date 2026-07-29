@@ -1,17 +1,17 @@
-@vertex11 CPU 12 0.17
-@vertex11 MEM 15771 5165
+@vertex11 CPU 12 0.21
+@vertex11 MEM 15771 5163
 @vertex11 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex11 APP 
-@vertex11 PS 2620275 28.8 11572 systemd
-@vertex11 PS 2620282  0.0  3404 (sd-pam)
-@vertex11 PS 2620293  4.0  8836 pipewire
-@vertex11 PS 2620294  4.0  6100 pipewire
-@vertex11 PS 2620295 12.0 15704 wireplumber
-@vertex11 PS 2620298  4.0 10600 pipewire-pulse
-@vertex11 PS 2620317  0.0  4512 dbus-daemon
-@vertex11 PS 2620327  0.0  7092 sshd
-@vertex11 PS 2620347  0.0  3608 bash
-@vertex11 PS 2620371  0.0  4540 ps
-@vertex11 PS 2620372  0.0  2320 sed
-@vertex11 SEEN 1785341867
+@vertex11 PS 3117089 30.4 11728 systemd
+@vertex11 PS 3117090  0.0  3424 (sd-pam)
+@vertex11 PS 3117109  3.8  8880 pipewire
+@vertex11 PS 3117110  3.8  6088 pipewire
+@vertex11 PS 3117112 12.0 15928 wireplumber
+@vertex11 PS 3117114  4.0 10628 pipewire-pulse
+@vertex11 PS 3117135  0.0  4512 dbus-daemon
+@vertex11 PS 3117137  0.0  7116 sshd
+@vertex11 PS 3117157  0.0  3592 bash
+@vertex11 PS 3117180  0.0  4548 ps
+@vertex11 PS 3117181  0.0  2332 sed
+@vertex11 SEEN 1785368242

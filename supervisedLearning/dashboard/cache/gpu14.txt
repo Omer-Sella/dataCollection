@@ -1,7 +1,11 @@
-@gpu14 CPU 8 11.03
-@gpu14 MEM 64219 5135
-@gpu14 GPU 0, 82, 8192
-@gpu14 PS 2590227  0.0 12120 systemd
+@gpu14 CPU 8 0.00
+@gpu14 MEM 64219 3088
+@gpu14 GPU 1, 82, 8192
+@gpu14 PS  251370  0.0  7104 sshd
+@gpu14 PS  251379  0.0  3652 bash
+@gpu14 PS  251390  0.0  4608 ps
+@gpu14 PS  251391  0.0  2328 sed
+@gpu14 PS 2590227  0.0 12124 systemd
 @gpu14 PS 2590228  0.0  3420 (sd-pam)
 @gpu14 PS 2590239  0.0  8844 pipewire
 @gpu14 PS 2590240  0.0  6144 pipewire
@@ -28,8 +32,4 @@
 @gpu14 PS 2802781  0.0  1480 ssh-agent
 @gpu14 PS 2805515  0.0  1480 ssh-agent
 @gpu14 PS 2817343  0.0  1480 ssh-agent
-@gpu14 PS 4089684  0.0  7048 sshd
-@gpu14 PS 4089685  0.0  3584 bash
-@gpu14 PS 4089696  0.0  4616 ps
-@gpu14 PS 4089697  0.0  2328 sed
-@gpu14 SEEN 1785341813
+@gpu14 SEEN 1785368329

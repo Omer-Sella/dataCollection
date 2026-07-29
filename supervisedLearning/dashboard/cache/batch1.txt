@@ -1,5 +1,5 @@
-@batch1 CPU 64 21.59
-@batch1 MEM 515934 176438
+@batch1 CPU 64 4.55
+@batch1 MEM 515934 183635
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -41,7 +41,6 @@
 @batch1 PS 2263716  0.0   772 ssh-agent
 @batch1 PS 2327470  0.0  1544 ssh-agent
 @batch1 PS 2624173  0.0  1544 ssh-agent
-@batch1 PS 2855782  0.0  2152 sleep
 @batch1 PS 2899138  0.0   764 ssh-agent
 @batch1 PS 2907509  0.0  1868 bash
 @batch1 PS 2907515  0.0   768 ssh-agent
@@ -56,21 +55,22 @@
 @batch1 PS 3076073  0.0 11928 tmux: server
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
-@batch1 PS 3081702  0.0  3048 bash
-@batch1 PS 3081705  0.0  3040 bash
-@batch1 PS 3081711  0.0  3000 bash
-@batch1 PS 3081714  0.0  3000 bash
-@batch1 PS 3081718  0.0  2204 timeout
-@batch1 PS 3081720  0.0  2196 timeout
-@batch1 PS 3081721  0.0  2340 grep
-@batch1 PS 3081723  0.0  2344 grep
-@batch1 PS 3081740 38.6  9380 ssh
-@batch1 PS 3081745 43.1  9368 ssh
-@batch1 PS 3082024  0.0  7060 sshd
-@batch1 PS 3082049  0.0  3688 bash
-@batch1 PS 3082082 2000  6808 ps
-@batch1 PS 3082083  0.0  2400 sed
 @batch1 PS 3084743  0.0  1508 ssh-agent
+@batch1 PS 3098534  0.0  2152 sleep
+@batch1 PS 3111279  0.0  3048 bash
+@batch1 PS 3111280  0.0  3048 bash
+@batch1 PS 3111285  0.0  2996 bash
+@batch1 PS 3111289  0.0  2984 bash
+@batch1 PS 3111296  0.0  2200 timeout
+@batch1 PS 3111298  0.0  2204 timeout
+@batch1 PS 3111299  0.0  2344 grep
+@batch1 PS 3111302  0.0  2344 grep
+@batch1 PS 3111323 36.0  9452 ssh
+@batch1 PS 3111327 34.0  9376 ssh
+@batch1 PS 3111368  0.0  7076 sshd
+@batch1 PS 3111369  0.0  3596 bash
+@batch1 PS 3111380 2200  6800 ps
+@batch1 PS 3111381  0.0  2400 sed
 @batch1 PS 3172141  0.0   768 ssh-agent
 @batch1 PS 3173663  0.0  4288 bash
 @batch1 PS 3173679  0.0  2916 ssh-agent
@@ -90,4 +90,4 @@
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1785341820
+@batch1 SEEN 1785368195

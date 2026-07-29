@@ -1,34 +1,34 @@
-@gpu24 CPU 8 1.09
-@gpu24 MEM 15915 1452
+@gpu24 CPU 8 0.01
+@gpu24 MEM 15915 1356
 @gpu24 GPU 0, 99, 8192
-@gpu24 PS  588822  0.0  7868 systemd
+@gpu24 PS  588822  0.0  7564 systemd
 @gpu24 PS  588823  0.0  1708 (sd-pam)
-@gpu24 PS  588835  0.0  4372 pipewire
-@gpu24 PS  588836  0.0  3832 pipewire
-@gpu24 PS  588839  0.0  9908 wireplumber
-@gpu24 PS  588840  0.0  6288 pipewire-pulse
-@gpu24 PS  588861  0.0  3464 dbus-daemon
-@gpu24 PS  588886  0.0   708 ssh-agent
-@gpu24 PS  589528  0.0   696 ssh-agent
-@gpu24 PS  610671  0.0   744 ssh-agent
-@gpu24 PS  664139  0.0   668 ssh-agent
-@gpu24 PS  666350  0.0   684 ssh-agent
-@gpu24 PS  671260  0.0   692 ssh-agent
-@gpu24 PS  675335  0.0   668 ssh-agent
-@gpu24 PS  683716  0.0   672 ssh-agent
-@gpu24 PS  687666  0.0   648 ssh-agent
-@gpu24 PS  692798  0.0   712 ssh-agent
-@gpu24 PS  711607  0.0   668 ssh-agent
-@gpu24 PS  739132  0.0   720 ssh-agent
-@gpu24 PS  745339  0.0   668 ssh-agent
-@gpu24 PS  745602  0.0   680 ssh-agent
-@gpu24 PS  762914  0.0   656 ssh-agent
-@gpu24 PS  763191  0.0   716 ssh-agent
-@gpu24 PS  788005  0.0   744 ssh-agent
-@gpu24 PS  805447  0.0   656 ssh-agent
-@gpu24 PS  806379  0.0   684 ssh-agent
-@gpu24 PS 2124082  0.0  6984 sshd
-@gpu24 PS 2124083  0.0  3576 bash
-@gpu24 PS 2124104  100  4608 ps
-@gpu24 PS 2124105  0.0  2376 sed
-@gpu24 SEEN 1785341814
+@gpu24 PS  588835  0.0  3996 pipewire
+@gpu24 PS  588836  0.0  3544 pipewire
+@gpu24 PS  588839  0.0  9408 wireplumber
+@gpu24 PS  588840  0.0  5812 pipewire-pulse
+@gpu24 PS  588861  0.0  3052 dbus-daemon
+@gpu24 PS  588886  0.0   668 ssh-agent
+@gpu24 PS  589528  0.0   660 ssh-agent
+@gpu24 PS  610671  0.0   664 ssh-agent
+@gpu24 PS  664139  0.0   628 ssh-agent
+@gpu24 PS  666350  0.0   660 ssh-agent
+@gpu24 PS  671260  0.0   664 ssh-agent
+@gpu24 PS  675335  0.0   660 ssh-agent
+@gpu24 PS  683716  0.0   636 ssh-agent
+@gpu24 PS  687666  0.0   628 ssh-agent
+@gpu24 PS  692798  0.0   704 ssh-agent
+@gpu24 PS  711607  0.0   644 ssh-agent
+@gpu24 PS  739132  0.0   668 ssh-agent
+@gpu24 PS  745339  0.0   628 ssh-agent
+@gpu24 PS  745602  0.0   660 ssh-agent
+@gpu24 PS  762914  0.0   628 ssh-agent
+@gpu24 PS  763191  0.0   664 ssh-agent
+@gpu24 PS  788005  0.0   688 ssh-agent
+@gpu24 PS  805447  0.0   624 ssh-agent
+@gpu24 PS  806379  0.0   644 ssh-agent
+@gpu24 PS 2483725  0.0  6984 sshd
+@gpu24 PS 2483726  0.0  3572 bash
+@gpu24 PS 2483749  100  4576 ps
+@gpu24 PS 2483750  0.0  2372 sed
+@gpu24 SEEN 1785368330

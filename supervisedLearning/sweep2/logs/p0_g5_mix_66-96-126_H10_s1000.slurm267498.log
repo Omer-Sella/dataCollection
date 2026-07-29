@@ -9,3 +9,39 @@ epoch 0: train 10.2511 | val 6,6: 11.5338 | 9,6: 9.6765 | 12,6: 8.5030
 epoch 1: train 9.8509 | val 6,6: 11.2488 | 9,6: 9.5663 | 12,6: 8.4373
 epoch 2: train 9.7320 | val 6,6: 11.1135 | 9,6: 9.4993 | 12,6: 8.3632
 epoch 3: train 9.6723 | val 6,6: 11.0686 | 9,6: 9.4996 | 12,6: 8.3157
+epoch 4: train 9.6440 | val 6,6: 11.0043 | 9,6: 9.4727 | 12,6: 8.2882
+epoch 5: train 9.6147 | val 6,6: 11.0007 | 9,6: 9.4186 | 12,6: 8.2954
+epoch 6: train 9.5800 | val 6,6: 10.9334 | 9,6: 9.3641 | 12,6: 8.2318
+epoch 7: train 9.5507 | val 6,6: 10.9012 | 9,6: 9.3305 | 12,6: 8.2280
+restored best-val weights from epoch 7 (val 9.4866)
+saved /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126_H10_s1000.pth
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126_H10_s1000.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-29
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **10.8025** (noise floor 10.1070)
+- reward MAE: **0.03571**
+- k MAE: **1.53** logical qubits
+- Spearman: **0.828**, Kendall: 0.643
+- top-k overlap (k=50): **0.18**
+
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126_H10_s1000.pth on held-out test l=9, m=6 (274574 codes) — 2026-07-29
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 9,6)`
+- Binomial NLL: **9.2500** (noise floor 8.6699)
+- reward MAE: **0.03395**
+- k MAE: **1.14** logical qubits
+- Spearman: **0.824**, Kendall: 0.633
+- top-k overlap (k=50): **0.28**
+
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126_H10_s1000.pth on held-out test l=12, m=6 (135322 codes) — 2026-07-29
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 12,6)`
+- Binomial NLL: **8.0616** (noise floor 7.3791)
+- reward MAE: **0.03073**
+- k MAE: **2.33** logical qubits
+- Spearman: **0.773**, Kendall: 0.584
+- top-k overlap (k=50): **0.32**
+
