@@ -1,0 +1,5 @@
+error: cannot lock ref 'refs/remotes/origin/master': is at 98e2fd5e888cc4e752ed573b52f5916bb8378282 but expected 4263db12ec47e5f1d4c32b32e2eaf9bb0c9ba00c
+From github.com:Omer-Sella/dataCollection
+ ! 4263db1..98e2fd5  master     -> origin/master  (unable to update local ref)
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
