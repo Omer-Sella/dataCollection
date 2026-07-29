@@ -1,5 +1,5 @@
-@batch1 CPU 64 6.20
-@batch1 MEM 515934 162017
+@batch1 CPU 64 4.61
+@batch1 MEM 515934 183671
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -56,6 +56,21 @@
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
 @batch1 PS 3084743  0.0  1508 ssh-agent
+@batch1 PS 3121402  0.0  2152 sleep
+@batch1 PS 3122493  0.0  3048 bash
+@batch1 PS 3122495  0.0  3048 bash
+@batch1 PS 3122497  0.0  3000 bash
+@batch1 PS 3122502  0.0  2988 bash
+@batch1 PS 3122504  0.0  2032 timeout
+@batch1 PS 3122508  0.0  2336 grep
+@batch1 PS 3122511  0.0  2192 timeout
+@batch1 PS 3122514  0.0  2348 grep
+@batch1 PS 3122536 34.6  9544 ssh
+@batch1 PS 3122538 34.6  9524 ssh
+@batch1 PS 3122575  0.0  7088 sshd
+@batch1 PS 3122576 25.0  3696 bash
+@batch1 PS 3122587 1800  6804 ps
+@batch1 PS 3122588  0.0  2400 sed
 @batch1 PS 3172141  0.0   768 ssh-agent
 @batch1 PS 3173663  0.0  4288 bash
 @batch1 PS 3173679  0.0  2916 ssh-agent
@@ -64,22 +79,7 @@
 @batch1 PS 3308725  0.0  1544 ssh-agent
 @batch1 PS 3337608  0.0  1544 ssh-agent
 @batch1 PS 3413877  0.0   768 ssh-agent
-@batch1 PS 3496410  0.0  2152 sleep
 @batch1 PS 3497428  0.0   768 ssh-agent
-@batch1 PS 3506054  0.0  3048 bash
-@batch1 PS 3506057  0.0  3040 bash
-@batch1 PS 3506058  0.0  2996 bash
-@batch1 PS 3506063  0.0  2204 timeout
-@batch1 PS 3506066  0.0  2280 grep
-@batch1 PS 3506068  0.0  3000 bash
-@batch1 PS 3506079  0.0  2176 timeout
-@batch1 PS 3506082  0.0  2344 grep
-@batch1 PS 3506092 36.0  9520 ssh
-@batch1 PS 3506102 36.0  9352 ssh
-@batch1 PS 3506249  0.0  7044 sshd
-@batch1 PS 3506256  0.0  3684 bash
-@batch1 PS 3506267 2300  6924 ps
-@batch1 PS 3506268  0.0  2400 sed
 @batch1 PS 3837168  0.0   816 ssh-agent
 @batch1 PS 3942725  0.0   768 ssh-agent
 @batch1 PS 4031705  0.0  1544 ssh-agent
@@ -90,4 +90,4 @@
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1785315294
+@batch1 SEEN 1785368477

@@ -1,5 +1,5 @@
-@gpu23 CPU 8 0.01
-@gpu23 MEM 15914 2135
+@gpu23 CPU 8 0.34
+@gpu23 MEM 15914 2750
 @gpu23 GPU 0, 80, 8192
 @gpu23 PS  500804  0.0 11360 systemd
 @gpu23 PS  500805  0.0  3532 (sd-pam)
@@ -27,8 +27,8 @@
 @gpu23 PS  697368  0.0  1164 ssh-agent
 @gpu23 PS  712840  0.0   600 ssh-agent
 @gpu23 PS  714873  0.0   608 ssh-agent
-@gpu23 PS 1537847  0.0  7056 sshd
-@gpu23 PS 1537849  0.0  3644 bash
-@gpu23 PS 1537867  0.0  4608 ps
-@gpu23 PS 1537868  0.0  2400 sed
-@gpu23 SEEN 1785315287
+@gpu23 PS 2240958  0.0  7060 sshd
+@gpu23 PS 2240959  0.0  3656 bash
+@gpu23 PS 2240970  0.0  4620 ps
+@gpu23 PS 2240971  0.0  2404 sed
+@gpu23 SEEN 1785368471

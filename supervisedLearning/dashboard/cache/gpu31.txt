@@ -1,41 +1,41 @@
-@gpu31 CPU 16 0.40
-@gpu31 MEM 64222 7404
-@gpu31 GPU 38, 15682, 16376
+@gpu31 CPU 16 0.38
+@gpu31 MEM 64222 7126
+@gpu31 GPU 25, 15682, 16376
 @gpu31 APP 962638, 15628
-@gpu31 PS   61986  0.0  1544 ssh-agent
-@gpu31 PS   64407  0.0  1548 ssh-agent
-@gpu31 PS   69729  0.0  1540 ssh-agent
-@gpu31 PS   74251  0.0  1544 ssh-agent
-@gpu31 PS   83473  0.0  1544 ssh-agent
-@gpu31 PS   87763  0.0  1540 ssh-agent
-@gpu31 PS   93347  0.0  1544 ssh-agent
-@gpu31 PS  114895  0.0  1540 ssh-agent
-@gpu31 PS  137296  0.0  1540 ssh-agent
-@gpu31 PS  145519  0.0  1544 ssh-agent
-@gpu31 PS  198098  0.0  1544 ssh-agent
-@gpu31 PS 1006990  0.0  3212 ssh-agent
-@gpu31 PS 1019141  0.0  1536 ssh-agent
-@gpu31 PS 1054479  0.0  1548 ssh-agent
-@gpu31 PS 1055277  0.0  3240 ssh-agent
-@gpu31 PS 2041058  0.0  7024 sshd
-@gpu31 PS 2041059  0.0  3672 bash
-@gpu31 PS 2041072  0.0  4660 ps
-@gpu31 PS 2041073  0.0  2328 sed
+@gpu31 PS   61986  0.0  1452 ssh-agent
+@gpu31 PS   64407  0.0  1456 ssh-agent
+@gpu31 PS   69729  0.0  1448 ssh-agent
+@gpu31 PS   74251  0.0  1452 ssh-agent
+@gpu31 PS   83473  0.0  1412 ssh-agent
+@gpu31 PS   87763  0.0  1444 ssh-agent
+@gpu31 PS   93347  0.0  1452 ssh-agent
+@gpu31 PS  114895  0.0  1432 ssh-agent
+@gpu31 PS  137296  0.0  1452 ssh-agent
+@gpu31 PS  145519  0.0  1452 ssh-agent
+@gpu31 PS  198098  0.0  1440 ssh-agent
+@gpu31 PS 1006990  0.0  3120 ssh-agent
+@gpu31 PS 1019141  0.0  1452 ssh-agent
+@gpu31 PS 1054479  0.0  1456 ssh-agent
+@gpu31 PS 1055277  0.0  3128 ssh-agent
 @gpu31 PS 2787120  0.0 12108 systemd
 @gpu31 PS 2787121  0.0  3036 (sd-pam)
-@gpu31 PS 2787141  0.0  8828 pipewire
-@gpu31 PS 2787142  0.0  6144 pipewire
+@gpu31 PS 2787141  0.0  8800 pipewire
+@gpu31 PS 2787142  0.0  6140 pipewire
 @gpu31 PS 2787143  0.0 15652 wireplumber
 @gpu31 PS 2787146  0.0 10788 pipewire-pulse
 @gpu31 PS 2787162  0.0  4564 dbus-daemon
 @gpu31 PS 2787243  0.0  1344 ssh-agent
 @gpu31 PS 2792352  0.0  1344 ssh-agent
-@gpu31 PS 4062481  0.0  1548 ssh-agent
-@gpu31 PS 4162629  0.0  1548 ssh-agent
-@gpu31 PS 4163316  0.0  1544 ssh-agent
-@gpu31 PS 4179548  0.0  1548 ssh-agent
-@gpu31 PS 4180676  0.0  1544 ssh-agent
-@gpu31 PS 4184808  0.0  1548 ssh-agent
-@gpu31 PS 4188786  0.0  1540 ssh-agent
-@gpu31 PS 4191131  0.0  1540 ssh-agent
-@gpu31 SEEN 1785315287
+@gpu31 PS 2882945  0.0  7068 sshd
+@gpu31 PS 2882946  0.0  3672 bash
+@gpu31 PS 2882959  0.0  4664 ps
+@gpu31 PS 2882960  0.0  2316 sed
+@gpu31 PS 4062481  0.0  1456 ssh-agent
+@gpu31 PS 4162629  0.0  1456 ssh-agent
+@gpu31 PS 4163316  0.0  1452 ssh-agent
+@gpu31 PS 4179548  0.0  1456 ssh-agent
+@gpu31 PS 4180676  0.0  1452 ssh-agent
+@gpu31 PS 4184808  0.0  1456 ssh-agent
+@gpu31 PS 4188786  0.0  1448 ssh-agent
+@gpu31 PS 4191131  0.0  1456 ssh-agent
+@gpu31 SEEN 1785368471
