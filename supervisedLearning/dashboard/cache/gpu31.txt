@@ -1,6 +1,6 @@
-@gpu31 CPU 16 0.38
-@gpu31 MEM 64222 7126
-@gpu31 GPU 25, 15682, 16376
+@gpu31 CPU 16 0.47
+@gpu31 MEM 64222 7141
+@gpu31 GPU 21, 15682, 16376
 @gpu31 APP 962638, 15628
 @gpu31 PS   61986  0.0  1452 ssh-agent
 @gpu31 PS   64407  0.0  1456 ssh-agent
@@ -26,10 +26,10 @@
 @gpu31 PS 2787162  0.0  4564 dbus-daemon
 @gpu31 PS 2787243  0.0  1344 ssh-agent
 @gpu31 PS 2792352  0.0  1344 ssh-agent
-@gpu31 PS 2882945  0.0  7068 sshd
-@gpu31 PS 2882946  0.0  3672 bash
-@gpu31 PS 2882959  0.0  4664 ps
-@gpu31 PS 2882960  0.0  2316 sed
+@gpu31 PS 2884984  0.0  7052 sshd
+@gpu31 PS 2884985  0.0  3640 bash
+@gpu31 PS 2884998  0.0  4664 ps
+@gpu31 PS 2884999  0.0  2320 sed
 @gpu31 PS 4062481  0.0  1456 ssh-agent
 @gpu31 PS 4162629  0.0  1456 ssh-agent
 @gpu31 PS 4163316  0.0  1452 ssh-agent
@@ -38,4 +38,4 @@
 @gpu31 PS 4184808  0.0  1456 ssh-agent
 @gpu31 PS 4188786  0.0  1448 ssh-agent
 @gpu31 PS 4191131  0.0  1456 ssh-agent
-@gpu31 SEEN 1785368471
+@gpu31 SEEN 1785368612

@@ -4,3 +4,5 @@ loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 re
 loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 records whose grid does not contain all its points
   size 9,6: 2745739 codes (2196591 train) curveLoss=True
 epoch 0: train 11.0296 | val 6,6: 11.5159 | 9,6: 9.7113
+epoch 1: train 10.5134 | val 6,6: 11.1768 | 9,6: 9.5447
+epoch 2: train 10.3804 | val 6,6: 11.0721 | 9,6: 9.4978

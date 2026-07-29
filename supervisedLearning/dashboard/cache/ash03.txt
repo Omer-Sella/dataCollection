@@ -1,15 +1,15 @@
-@ash03 CPU 16 0.16
-@ash03 MEM 32013 1624
-@ash03 GPU 3, 81, 2048
-@ash03 PS  974517 35.7 12000 systemd
-@ash03 PS  974518  0.0  3420 (sd-pam)
-@ash03 PS  974530  0.0  8792 pipewire
-@ash03 PS  974531  0.0  6100 pipewire
-@ash03 PS  974534 15.3 15964 wireplumber
-@ash03 PS  974535  0.0 10604 pipewire-pulse
-@ash03 PS  974549  0.0  4528 dbus-daemon
-@ash03 PS  974569  0.0  6928 sshd
-@ash03 PS  974583  0.0  3620 bash
-@ash03 PS  974597  0.0  4584 ps
-@ash03 PS  974598  0.0  2300 sed
-@ash03 SEEN 1785368495
+@ash03 CPU 16 0.07
+@ash03 MEM 32013 1616
+@ash03 GPU 0, 81, 2048
+@ash03 PS  976839 37.0 11776 systemd
+@ash03 PS  976840  0.0  3424 (sd-pam)
+@ash03 PS  976852  0.0  8768 pipewire
+@ash03 PS  976853  0.0  6084 pipewire
+@ash03 PS  976855 16.6 15804 wireplumber
+@ash03 PS  976857  0.0 10680 pipewire-pulse
+@ash03 PS  976871  0.0  4536 dbus-daemon
+@ash03 PS  976891  0.0  6996 sshd
+@ash03 PS  976900  0.0  3656 bash
+@ash03 PS  976911  0.0  4560 ps
+@ash03 PS  976912  0.0  2292 sed
+@ash03 SEEN 1785368636
