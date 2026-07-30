@@ -1,15 +1,15 @@
-@oak21 CPU 16 0.02
-@oak21 MEM 15766 1516
-@oak21 GPU 0, 92, 2048
-@oak21 PS  838950 30.5 11780 systemd
-@oak21 PS  838951  0.0  3396 (sd-pam)
-@oak21 PS  838962  0.0  8804 pipewire
-@oak21 PS  838963  0.0  6112 pipewire
-@oak21 PS  838965 15.0 16032 wireplumber
-@oak21 PS  838967  0.0 10696 pipewire-pulse
-@oak21 PS  838987  0.0  4556 dbus-daemon
-@oak21 PS  838990  0.0  7060 sshd
-@oak21 PS  839010  0.0  3532 bash
-@oak21 PS  839038  0.0  4620 ps
-@oak21 PS  839039  0.0  2328 sed
-@oak21 SEEN 1785368604
+@oak21 CPU 16 0.00
+@oak21 MEM 15766 1519
+@oak21 GPU 4, 92, 2048
+@oak21 PS  865181 25.6 11900 systemd
+@oak21 PS  865182  0.0  3396 (sd-pam)
+@oak21 PS  865194  4.5  8732 pipewire
+@oak21 PS  865195  0.0  6092 pipewire
+@oak21 PS  865198 13.6 15924 wireplumber
+@oak21 PS  865199  0.0 10708 pipewire-pulse
+@oak21 PS  865220  0.0  4572 dbus-daemon
+@oak21 PS  865222  0.0  7052 sshd
+@oak21 PS  865242  0.0  3528 bash
+@oak21 PS  865265  0.0  4612 ps
+@oak21 PS  865266  0.0  2292 sed
+@oak21 SEEN 1785370438
