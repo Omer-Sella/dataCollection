@@ -1,17 +1,17 @@
-@vertex04 CPU 12 0.58
-@vertex04 MEM 15771 5462
+@vertex04 CPU 12 1.98
+@vertex04 MEM 15771 5216
 @vertex04 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex04 APP 
-@vertex04 PS 4060607 31.8 11636 systemd
-@vertex04 PS 4060608  0.0  3436 (sd-pam)
-@vertex04 PS 4060628  4.1  8768 pipewire
-@vertex04 PS 4060629  0.0  6100 pipewire
-@vertex04 PS 4060632 16.6 15892 wireplumber
-@vertex04 PS 4060633  4.1 10680 pipewire-pulse
-@vertex04 PS 4060655  0.0  4568 dbus-daemon
-@vertex04 PS 4060656  0.0  7080 sshd
-@vertex04 PS 4060676  0.0  3556 bash
-@vertex04 PS 4060699  100  4572 ps
-@vertex04 PS 4060700  0.0  2316 sed
-@vertex04 SEEN 1785372332
+@vertex04 PS 4097282 31.7 11804 systemd
+@vertex04 PS 4097283  0.0  3416 (sd-pam)
+@vertex04 PS 4097294  4.3  8836 pipewire
+@vertex04 PS 4097295  4.3  6052 pipewire
+@vertex04 PS 4097298 21.7 15908 wireplumber
+@vertex04 PS 4097302  4.5 10684 pipewire-pulse
+@vertex04 PS 4097315  4.7  4384 dbus-daemon
+@vertex04 PS 4097322  0.0  7040 sshd
+@vertex04 PS 4097337  0.0  3616 bash
+@vertex04 PS 4097371  0.0  4580 ps
+@vertex04 PS 4097372  0.0  2312 sed
+@vertex04 SEEN 1785374024
