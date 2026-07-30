@@ -1,6 +1,6 @@
-@gpu18 CPU 16 0.03
-@gpu18 MEM 64031 2310
-@gpu18 GPU 0, 7782, 11264
+@gpu18 CPU 16 0.17
+@gpu18 MEM 64031 2285
+@gpu18 GPU 1, 7782, 11264
 @gpu18 APP 2166928, 7690
 @gpu18 PS  400761  0.1  6976 systemd
 @gpu18 PS  400762  0.0  1616 (sd-pam)
@@ -27,10 +27,10 @@
 @gpu18 PS  581853  0.0  1352 ssh-agent
 @gpu18 PS  592059  0.0  1432 ssh-agent
 @gpu18 PS  642990  0.0  1316 ssh-agent
-@gpu18 PS 3102558  0.0  7148 sshd
-@gpu18 PS 3102559  0.0  3716 bash
-@gpu18 PS 3102572  0.0  4704 ps
-@gpu18 PS 3102573  0.0  2404 sed
+@gpu18 PS 3104466  0.0  7128 sshd
+@gpu18 PS 3104468  0.0  3704 bash
+@gpu18 PS 3104489  300  4720 ps
+@gpu18 PS 3104490  0.0  2396 sed
 @gpu18 PS 3457594  0.0   572 ssh-agent
 @gpu18 PS 3458006  0.0 10380 code-fc3def6774
 @gpu18 PS 3458193  0.0   572 ssh-agent
@@ -38,4 +38,4 @@
 @gpu18 PS 3459085  0.0   624 ssh-agent
 @gpu18 PS 3459777  0.0   572 ssh-agent
 @gpu18 PS 3459886  0.0   612 ssh-agent
-@gpu18 SEEN 1785394007
+@gpu18 SEEN 1785394147

@@ -1,6 +1,6 @@
-@gpu24 CPU 8 0.69
-@gpu24 MEM 15915 1281
-@gpu24 GPU 0, 99, 8192
+@gpu24 CPU 8 0.21
+@gpu24 MEM 15915 1227
+@gpu24 GPU 1, 99, 8192
 @gpu24 PS  588822  0.0  7572 systemd
 @gpu24 PS  588823  0.0  1708 (sd-pam)
 @gpu24 PS  588835  0.0  3996 pipewire
@@ -27,8 +27,8 @@
 @gpu24 PS  788005  0.0   688 ssh-agent
 @gpu24 PS  805447  0.0   624 ssh-agent
 @gpu24 PS  806379  0.0   644 ssh-agent
-@gpu24 PS 2833076  0.0  6992 sshd
-@gpu24 PS 2833077  0.0  3576 bash
-@gpu24 PS 2833093  100  4580 ps
-@gpu24 PS 2833094  0.0  2376 sed
-@gpu24 SEEN 1785394008
+@gpu24 PS 2834857  0.0  7020 sshd
+@gpu24 PS 2834858  0.0  3592 bash
+@gpu24 PS 2834882  0.0  4560 ps
+@gpu24 PS 2834883  0.0  2368 sed
+@gpu24 SEEN 1785394148

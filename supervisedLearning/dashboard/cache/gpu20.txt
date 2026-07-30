@@ -1,10 +1,10 @@
-@gpu20 CPU 16 0.07
-@gpu20 MEM 64031 21420
+@gpu20 CPU 16 0.17
+@gpu20 MEM 64031 21425
 @gpu20 GPU 0, 90, 11264
-@gpu20 PS 2214369  0.0  7116 sshd
-@gpu20 PS 2214371  7.1  3692 bash
-@gpu20 PS 2214392  200  4648 ps
-@gpu20 PS 2214393  0.0  2372 sed
+@gpu20 PS 2217108  0.0  7176 sshd
+@gpu20 PS 2217109  0.0  3712 bash
+@gpu20 PS 2217122  100  4632 ps
+@gpu20 PS 2217123  0.0  2384 sed
 @gpu20 PS 3246344  0.0  2436 bash
 @gpu20 PS 3246346  0.0  9024 ssh
 @gpu20 PS 3526296  0.1 11520 systemd
@@ -39,4 +39,4 @@
 @gpu20 PS 4160133  0.0  1344 ssh-agent
 @gpu20 PS 4168295  0.0  1336 ssh-agent
 @gpu20 PS 4175043  0.0  1348 ssh-agent
-@gpu20 SEEN 1785394007
+@gpu20 SEEN 1785394147
