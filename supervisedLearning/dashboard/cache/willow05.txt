@@ -1,15 +1,15 @@
-@willow05 CPU 16 0.01
-@willow05 MEM 15813 1524
-@willow05 GPU 0, 89, 4096
-@willow05 PS 2656264 28.5 11816 systemd
-@willow05 PS 2656265  0.0  3416 (sd-pam)
-@willow05 PS 2656284  0.0  8852 pipewire
-@willow05 PS 2656285  0.0  6112 pipewire
-@willow05 PS 2656287 15.0 15816 wireplumber
-@willow05 PS 2656289  0.0 10716 pipewire-pulse
-@willow05 PS 2656309  0.0  4516 dbus-daemon
-@willow05 PS 2656316  0.0  6976 sshd
-@willow05 PS 2656332  0.0  3620 bash
-@willow05 PS 2656347  0.0  4636 ps
-@willow05 PS 2656348  0.0  2324 sed
-@willow05 SEEN 1785379526
+@willow05 CPU 16 0.03
+@willow05 MEM 15813 1528
+@willow05 GPU 2, 89, 4096
+@willow05 PS 2860073 28.5 11836 systemd
+@willow05 PS 2860074  0.0  3412 (sd-pam)
+@willow05 PS 2860097  0.0  8824 pipewire
+@willow05 PS 2860098  0.0  6084 pipewire
+@willow05 PS 2860100 10.0 15912 wireplumber
+@willow05 PS 2860102  0.0 10720 pipewire-pulse
+@willow05 PS 2860121  0.0  4520 dbus-daemon
+@willow05 PS 2860127  0.0  7036 sshd
+@willow05 PS 2860145  0.0  3608 bash
+@willow05 PS 2860160  100  4628 ps
+@willow05 PS 2860161  0.0  2320 sed
+@willow05 SEEN 1785394199
