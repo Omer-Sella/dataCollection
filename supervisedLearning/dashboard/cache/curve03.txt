@@ -1,16 +1,16 @@
-@curve03 CPU 12 0.75
-@curve03 MEM 15917 966
+@curve03 CPU 12 0.63
+@curve03 MEM 15917 958
 @curve03 GPU [N/A], 92, 2000
 @curve03 APP [N/A], [N/A]
-@curve03 PS 3885807 35.7 11552 systemd
-@curve03 PS 3885808  0.0  3400 (sd-pam)
-@curve03 PS 3885819  7.1  8756 pipewire
-@curve03 PS 3885820  3.5  6096 pipewire
-@curve03 PS 3885823 21.4 15808 wireplumber
-@curve03 PS 3885824  7.1 10716 pipewire-pulse
-@curve03 PS 3885834  3.7  4544 dbus-daemon
-@curve03 PS 3885859  0.0  7028 sshd
-@curve03 PS 3885868  5.5  3576 bash
-@curve03 PS 3885891  100  4584 ps
-@curve03 PS 3885892  0.0  2324 sed
-@curve03 SEEN 1785424888
+@curve03 PS 3887514 35.7 11556 systemd
+@curve03 PS 3887515  0.0  3400 (sd-pam)
+@curve03 PS 3887527  7.1  8752 pipewire
+@curve03 PS 3887528  3.5  6084 pipewire
+@curve03 PS 3887529 21.4 15540 wireplumber
+@curve03 PS 3887531  3.5 10628 pipewire-pulse
+@curve03 PS 3887547  3.8  4504 dbus-daemon
+@curve03 PS 3887566  0.0  6992 sshd
+@curve03 PS 3887576  0.0  3576 bash
+@curve03 PS 3887591  100  4592 ps
+@curve03 PS 3887592  0.0  2332 sed
+@curve03 SEEN 1785425029
