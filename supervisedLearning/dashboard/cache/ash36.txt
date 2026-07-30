@@ -1,15 +1,15 @@
-@ash36 CPU 16 0.01
-@ash36 MEM 15909 1210
-@ash36 GPU 0, 81, 2048
-@ash36 PS  603110 28.5 11688 systemd
-@ash36 PS  603111  0.0  3424 (sd-pam)
-@ash36 PS  603122  0.0  8824 pipewire
-@ash36 PS  603123  0.0  6132 pipewire
-@ash36 PS  603125 10.0 15948 wireplumber
-@ash36 PS  603127  0.0 10684 pipewire-pulse
-@ash36 PS  603143  0.0  4536 dbus-daemon
-@ash36 PS  603157  0.0  7044 sshd
-@ash36 PS  603170  0.0  3628 bash
-@ash36 PS  603185  0.0  4564 ps
-@ash36 PS  603186  0.0  2324 sed
-@ash36 SEEN 1785375849
+@ash36 CPU 16 0.00
+@ash36 MEM 15909 1214
+@ash36 GPU 3, 81, 2048
+@ash36 PS  627427 27.0 11564 systemd
+@ash36 PS  627428  0.0  3420 (sd-pam)
+@ash36 PS  627448  0.0  8788 pipewire
+@ash36 PS  627449  0.0  6104 pipewire
+@ash36 PS  627451  9.5 15920 wireplumber
+@ash36 PS  627453  0.0 10704 pipewire-pulse
+@ash36 PS  627470  0.0  4576 dbus-daemon
+@ash36 PS  627483  0.0  6980 sshd
+@ash36 PS  627496  0.0  3612 bash
+@ash36 PS  627511  100  4576 ps
+@ash36 PS  627512  0.0  2332 sed
+@ash36 SEEN 1785377683
