@@ -32,3 +32,12 @@
 - k MAE: **2.43** logical qubits
 - Spearman: **0.596**, Kendall: 0.427
 - top-k overlap (k=50): **0.16**
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H10_s4000.pth on held-out test l=15, m=3 (441229 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 15,3)`
+- Binomial NLL: **19.5460** (noise floor 10.4275)
+- reward MAE: **0.08485**
+- k MAE: **1.82** logical qubits
+- Spearman: **0.341**, Kendall: 0.234
+- top-k overlap (k=50): **0.10**
