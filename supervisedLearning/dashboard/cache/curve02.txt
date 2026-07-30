@@ -1,16 +1,16 @@
-@curve02 CPU 12 1.51
-@curve02 MEM 15917 980
+@curve02 CPU 12 0.02
+@curve02 MEM 15917 978
 @curve02 GPU [N/A], 89, 2000
 @curve02 APP [N/A], [N/A]
-@curve02 PS  554008 35.7 11696 systemd
-@curve02 PS  554009  0.0  3412 (sd-pam)
-@curve02 PS  554021  7.4  8772 pipewire
-@curve02 PS  554022  3.7  6044 pipewire
-@curve02 PS  554024 22.2 15824 wireplumber
-@curve02 PS  554026  7.4 10684 pipewire-pulse
-@curve02 PS  554039  4.0  4504 dbus-daemon
-@curve02 PS  554060  0.0  7004 sshd
-@curve02 PS  554070  0.0  3568 bash
-@curve02 PS  554085  0.0  4536 ps
-@curve02 PS  554086  0.0  2308 sed
-@curve02 SEEN 1785370506
+@curve02 PS  579332 35.7 11584 systemd
+@curve02 PS  579333  0.0  3408 (sd-pam)
+@curve02 PS  579345  7.1  8776 pipewire
+@curve02 PS  579346  3.5  6004 pipewire
+@curve02 PS  579347 21.4 15916 wireplumber
+@curve02 PS  579349  3.7 10712 pipewire-pulse
+@curve02 PS  579364  3.8  4464 dbus-daemon
+@curve02 PS  579384  0.0  6952 sshd
+@curve02 PS  579394  0.0  3544 bash
+@curve02 PS  579409  100  4500 ps
+@curve02 PS  579410  0.0  2288 sed
+@curve02 SEEN 1785372340
