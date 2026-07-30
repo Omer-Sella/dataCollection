@@ -1,6 +1,6 @@
-@gpu33 CPU 16 0.10
-@gpu33 MEM 64221 7160
-@gpu33 GPU 0, 14729, 16376
+@gpu33 CPU 16 0.02
+@gpu33 MEM 64221 7187
+@gpu33 GPU 0, 14730, 16376
 @gpu33 APP 1833158, 14686
 @gpu33 PS  458314  0.1 11984 systemd
 @gpu33 PS  458315  0.0  3412 (sd-pam)
@@ -25,11 +25,11 @@
 @gpu33 PS 1892738  0.0  1480 ssh-agent
 @gpu33 PS 1901708  0.0  1452 ssh-agent
 @gpu33 PS 1910597  0.0  1480 ssh-agent
-@gpu33 PS 2167563  0.0  2088 sleep
-@gpu33 PS 2169644  0.0  7060 sshd
-@gpu33 PS 2169646  0.0  3680 bash
-@gpu33 PS 2169660  0.0  4664 ps
-@gpu33 PS 2169661  0.0  2336 sed
+@gpu33 PS 2191966  0.0  2092 sleep
+@gpu33 PS 2195908  0.0  6964 sshd
+@gpu33 PS 2195909  0.0  3596 bash
+@gpu33 PS 2195922  0.0  4668 ps
+@gpu33 PS 2195923  0.0  2336 sed
 @gpu33 PS 2297169  0.0  1544 ssh-agent
 @gpu33 PS 2302764  0.0  1536 ssh-agent
 @gpu33 PS 2647806  0.0  1484 ssh-agent
@@ -64,4 +64,4 @@
 @gpu33 PS 3462153  0.0  1544 ssh-agent
 @gpu33 PS 3515572  0.0  1544 ssh-agent
 @gpu33 PS 4021076  0.0  1544 ssh-agent
-@gpu33 SEEN 1785377782
+@gpu33 SEEN 1785379476
