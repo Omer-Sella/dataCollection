@@ -10,3 +10,30 @@ epoch 5: train 11.0859 | val 6,6: 11.0263
 epoch 6: train 11.0613 | val 6,6: 11.0046
 epoch 7: train 11.0270 | val 6,6: 10.9616
 epoch 8: train 10.9968 | val 6,6: 10.9483
+epoch 9: train 10.9750 | val 6,6: 10.9144
+epoch 10: train 10.9560 | val 6,6: 10.9123
+epoch 11: train 10.9411 | val 6,6: 10.8975
+epoch 12: train 10.9303 | val 6,6: 10.8686
+epoch 13: train 10.9145 | val 6,6: 10.8668
+epoch 14: train 10.9033 | val 6,6: 10.8556
+epoch 15: train 10.8941 | val 6,6: 10.8374
+epoch 16: train 10.8824 | val 6,6: 10.8367
+epoch 17: train 10.8763 | val 6,6: 10.8329
+epoch 18: train 10.8691 | val 6,6: 10.8339
+epoch 19: train 10.8649 | val 6,6: 10.8168
+epoch 20: train 10.8575 | val 6,6: 10.8238
+epoch 21: train 10.8541 | val 6,6: 10.8108
+epoch 22: train 10.8489 | val 6,6: 10.8059
+epoch 23: train 10.8462 | val 6,6: 10.8023
+restored best-val weights from epoch 23 (val 10.8023)
+saved /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66_H10_s7134066.pth
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66_H10_s7134066.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **10.7638** (noise floor 10.1295)
+- reward MAE: **0.03470**
+- k MAE: **1.25** logical qubits
+- Spearman: **0.836**, Kendall: 0.653
+- top-k overlap (k=50): **0.16**
+

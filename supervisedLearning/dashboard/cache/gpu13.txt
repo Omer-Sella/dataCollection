@@ -1,5 +1,5 @@
-@gpu13 CPU 8 0.14
-@gpu13 MEM 64217 2188
+@gpu13 CPU 8 0.11
+@gpu13 MEM 64217 2179
 @gpu13 GPU 1, 145, 8192
 @gpu13 PS  965213  0.0 12072 systemd
 @gpu13 PS  965214  0.0  3436 (sd-pam)
@@ -21,8 +21,8 @@
 @gpu13 PS 1107687  0.0  1540 ssh-agent
 @gpu13 PS 1117079  0.0  1544 ssh-agent
 @gpu13 PS 1165598  0.0  1548 ssh-agent
-@gpu13 PS 3259967  0.0  7084 sshd
-@gpu13 PS 3259968  0.0  3672 bash
-@gpu13 PS 3259991  0.0  4624 ps
-@gpu13 PS 3259992  0.0  2340 sed
-@gpu13 SEEN 1785383142
+@gpu13 PS 3286154  0.0  7100 sshd
+@gpu13 PS 3286155  0.0  3656 bash
+@gpu13 PS 3286179  100  4596 ps
+@gpu13 PS 3286180  0.0  2324 sed
+@gpu13 SEEN 1785384977

@@ -1,5 +1,5 @@
-@gpu10 CPU 8 1.23
-@gpu10 MEM 64219 4199
+@gpu10 CPU 8 1.04
+@gpu10 MEM 64219 4214
 @gpu10 GPU 0, 86, 12288
 @gpu10 PS 1082644  0.0 12000 systemd
 @gpu10 PS 1082645  0.0  3352 (sd-pam)
@@ -29,8 +29,8 @@
 @gpu10 PS 1284061  0.0  1336 ssh-agent
 @gpu10 PS 1289574  0.0   588 ssh-agent
 @gpu10 PS 1289969  0.0   588 ssh-agent
-@gpu10 PS 3022375  0.0  7092 sshd
-@gpu10 PS 3022376  0.0  3652 bash
-@gpu10 PS 3022387  100  4644 ps
-@gpu10 PS 3022388  0.0  2332 sed
-@gpu10 SEEN 1785383142
+@gpu10 PS 3047421  0.0  7108 sshd
+@gpu10 PS 3047422  0.0  3680 bash
+@gpu10 PS 3047433  0.0  4640 ps
+@gpu10 PS 3047434  0.0  2336 sed
+@gpu10 SEEN 1785384977

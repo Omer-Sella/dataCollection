@@ -1,15 +1,15 @@
-@oak24 CPU 16 0.06
-@oak24 MEM 15766 1493
-@oak24 GPU 3, 92, 2048
-@oak24 PS   89958 27.7 11468 systemd
-@oak24 PS   89959  0.0  3416 (sd-pam)
-@oak24 PS   89972  0.0  8660 pipewire
-@oak24 PS   89973  0.0  5964 pipewire
-@oak24 PS   89976 10.0 15860 wireplumber
-@oak24 PS   89977  0.0 10520 pipewire-pulse
-@oak24 PS   89997  0.0  4352 dbus-daemon
-@oak24 PS   90000  0.0  7028 sshd
-@oak24 PS   90020  0.0  3580 bash
-@oak24 PS   90043  0.0  4468 ps
-@oak24 PS   90044  0.0  2280 sed
-@oak24 SEEN 1785383135
+@oak24 CPU 16 0.04
+@oak24 MEM 15766 1488
+@oak24 GPU 0, 92, 2048
+@oak24 PS  115060 27.7 11704 systemd
+@oak24 PS  115061  0.0  3396 (sd-pam)
+@oak24 PS  115072  4.7  8664 pipewire
+@oak24 PS  115073  0.0  5872 pipewire
+@oak24 PS  115075 14.2 15728 wireplumber
+@oak24 PS  115077  4.7 10572 pipewire-pulse
+@oak24 PS  115096  0.0  4384 dbus-daemon
+@oak24 PS  115105  0.0  7020 sshd
+@oak24 PS  115120  0.0  3568 bash
+@oak24 PS  115135  0.0  4444 ps
+@oak24 PS  115136  0.0  2276 sed
+@oak24 SEEN 1785384971
