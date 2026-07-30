@@ -1,0 +1,12 @@
+device: cuda; sizes: [(6, 6)]; curve loss on: [(6, 6)]; lr: 0.001; H: 10
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+epoch 0: train 12.6829 | val 6,6: 12.3910
+epoch 1: train 11.9117 | val 6,6: 11.4056
+epoch 2: train 11.3859 | val 6,6: 11.2292
+epoch 3: train 11.2675 | val 6,6: 11.1511
+epoch 4: train 11.1965 | val 6,6: 11.0711
+epoch 5: train 11.1319 | val 6,6: 11.0360
+epoch 6: train 11.0935 | val 6,6: 11.0065
+epoch 7: train 11.0568 | val 6,6: 10.9748
+epoch 8: train 11.0300 | val 6,6: 10.9632

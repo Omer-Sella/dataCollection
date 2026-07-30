@@ -1,15 +1,15 @@
-@ash32 CPU 16 0.15
-@ash32 MEM 15909 1693
-@ash32 GPU 0, 81, 2048
-@ash32 PS  832239 27.0 11788 systemd
-@ash32 PS  832240  0.0  3428 (sd-pam)
-@ash32 PS  832251  0.0  8784 pipewire
-@ash32 PS  832252  0.0  6064 pipewire
-@ash32 PS  832254 14.2 15888 wireplumber
-@ash32 PS  832256  0.0 10664 pipewire-pulse
-@ash32 PS  832271  0.0  4516 dbus-daemon
-@ash32 PS  832287  0.0  7024 sshd
-@ash32 PS  832300  0.0  3560 bash
-@ash32 PS  832315  0.0  4572 ps
-@ash32 PS  832316  0.0  2324 sed
-@ash32 SEEN 1785381352
+@ash32 CPU 16 0.04
+@ash32 MEM 15909 1451
+@ash32 GPU 3, 81, 2048
+@ash32 PS  856112 24.3 11792 systemd
+@ash32 PS  856113  0.0  3428 (sd-pam)
+@ash32 PS  856125  0.0  8792 pipewire
+@ash32 PS  856126  0.0  6036 pipewire
+@ash32 PS  856128 14.2 15840 wireplumber
+@ash32 PS  856130  0.0 10648 pipewire-pulse
+@ash32 PS  856145  0.0  4428 dbus-daemon
+@ash32 PS  856161  0.0  7032 sshd
+@ash32 PS  856181  0.0  3556 bash
+@ash32 PS  856196  0.0  4572 ps
+@ash32 PS  856197  0.0  2328 sed
+@ash32 SEEN 1785383186

@@ -1,11 +1,11 @@
-@gpu30 CPU 8 1.08
-@gpu30 MEM 64034 4083
+@gpu30 CPU 8 1.12
+@gpu30 MEM 64034 3950
 @gpu30 GPU 0, 107, 11264
-@gpu30 APP 170486, 8
-@gpu30 PS  172040  0.0  7204 sshd
-@gpu30 PS  172041  0.0  3760 bash
-@gpu30 PS  172054  0.0  4684 ps
-@gpu30 PS  172055  0.0  2392 sed
+@gpu30 APP 199652, 8
+@gpu30 PS  201092  0.0  7128 sshd
+@gpu30 PS  201093  0.0  3704 bash
+@gpu30 PS  201106  100  4684 ps
+@gpu30 PS  201107  0.0  2396 sed
 @gpu30 PS 1320975  0.0 12356 systemd
 @gpu30 PS 1320976  0.0  3168 (sd-pam)
 @gpu30 PS 1320988  0.0  8888 pipewire
@@ -31,4 +31,4 @@
 @gpu30 PS 1655487  0.0  1540 ssh-agent
 @gpu30 PS 1707337  0.0  1544 ssh-agent
 @gpu30 PS 2711469  0.0  1544 ssh-agent
-@gpu30 SEEN 1785381310
+@gpu30 SEEN 1785383143

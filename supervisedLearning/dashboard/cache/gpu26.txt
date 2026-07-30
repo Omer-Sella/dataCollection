@@ -1,11 +1,10 @@
-@gpu26 CPU 8 2.37
-@gpu26 MEM 64219 7848
-@gpu26 GPU 0, 142, 8192
-@gpu26 APP 636424, 6
-@gpu26 PS  636476  0.0  7064 sshd
-@gpu26 PS  636477  0.0  3564 bash
-@gpu26 PS  636488  0.0  4648 ps
-@gpu26 PS  636489  0.0  2332 sed
+@gpu26 CPU 8 2.59
+@gpu26 MEM 64219 7419
+@gpu26 GPU 1, 131, 8192
+@gpu26 PS  664280  0.0  6988 sshd
+@gpu26 PS  664281  0.0  3640 bash
+@gpu26 PS  664292  0.0  4636 ps
+@gpu26 PS  664293  0.0  2328 sed
 @gpu26 PS 2807640  0.0 12224 systemd
 @gpu26 PS 2807641  0.0  3428 (sd-pam)
 @gpu26 PS 2807661  0.0  8940 pipewire
@@ -26,4 +25,4 @@
 @gpu26 PS 2946249  0.0  1528 ssh-agent
 @gpu26 PS 2954552  0.0  1524 ssh-agent
 @gpu26 PS 3000547  0.0  1524 ssh-agent
-@gpu26 SEEN 1785381309
+@gpu26 SEEN 1785383143
