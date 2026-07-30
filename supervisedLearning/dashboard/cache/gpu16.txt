@@ -1,5 +1,5 @@
-@gpu16 CPU 8 0.07
-@gpu16 MEM 32011 1405
+@gpu16 CPU 8 0.96
+@gpu16 MEM 32011 1423
 @gpu16 GPU 0, 82, 8192
 @gpu16 PS  655298  0.0  8368 systemd
 @gpu16 PS  655299  0.0  1944 (sd-pam)
@@ -27,8 +27,8 @@
 @gpu16 PS  850336  0.0   692 ssh-agent
 @gpu16 PS  863652  0.0   724 ssh-agent
 @gpu16 PS  865573  0.0   644 ssh-agent
-@gpu16 PS 2472993  0.0  7092 sshd
-@gpu16 PS 2472994  0.0  3656 bash
-@gpu16 PS 2473005  0.0  4608 ps
-@gpu16 PS 2473006  0.0  2340 sed
-@gpu16 SEEN 1785374112
+@gpu16 PS 2497994  0.0  7132 sshd
+@gpu16 PS 2497995  0.0  3680 bash
+@gpu16 PS 2498006  100  4592 ps
+@gpu16 PS 2498007  0.0  2336 sed
+@gpu16 SEEN 1785375946
