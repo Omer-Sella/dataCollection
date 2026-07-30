@@ -1,8 +1,0 @@
-#INIT=
-set -eu
-if [ -f "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s7134066.pth" ]; then echo 'already done'; exit 0; fi
-/vol/bitbucket/osella/pyenv/versions/qecc1/bin/python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py \
-    --sizes 6,6 9,6 12,6 15,3 --error-range geometric5 \
-    --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData --epochs 6 --device cuda --seed 7134066 \
-    --number-of-harmonics 10 \
-    --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s7134066.pth" --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96-126-153_H10_s7134066-report.md"
