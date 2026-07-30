@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 381, in <module>
-    raise FileNotFoundError(
-FileNotFoundError: Surrogate checkpoint not found: '/vol/bitbucket/osella/rl-qecc-data//supervisedLearning/2026-07-12_21-10-56-04/surrogate_6x6.pth'. 
