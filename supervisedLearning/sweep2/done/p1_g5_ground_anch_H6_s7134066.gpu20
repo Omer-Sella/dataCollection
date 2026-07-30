@@ -1,9 +1,0 @@
-#INIT=/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66_H6_s7134066.pth
-set -eu
-if [ -f "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H6_s7134066.pth" ]; then echo 'already done'; exit 0; fi
-/vol/bitbucket/osella/pyenv/versions/qecc1/bin/python /vol/bitbucket/osella/qecc/surrogate/trainMultiSize.py \
-    --sizes 6,6 9,6 12,6 15,3 --curve-sizes 6,6 --error-range geometric5 \
-    --init-checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66_H6_s7134066.pth" \
-    --data-root /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData --epochs 2 --device cuda --seed 7134066 \
-    --number-of-harmonics 6 \
-    --checkpoint "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H6_s7134066.pth" --report "/vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H6_s7134066-report.md"
