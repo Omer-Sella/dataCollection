@@ -1,15 +1,15 @@
-@ash11 CPU 16 0.01
-@ash11 MEM 15909 1330
-@ash11 GPU 0, 84, 2048
-@ash11 PS 1772065 27.0 11656 systemd
-@ash11 PS 1772066  0.0  3404 (sd-pam)
-@ash11 PS 1772077  0.0  8740 pipewire
-@ash11 PS 1772078  0.0  6028 pipewire
-@ash11 PS 1772081 13.6 15776 wireplumber
-@ash11 PS 1772082  4.5 10552 pipewire-pulse
-@ash11 PS 1772097  0.0  4440 dbus-daemon
-@ash11 PS 1772114  0.0  6968 sshd
-@ash11 PS 1772126  0.0  3620 bash
-@ash11 PS 1772153  0.0  4532 ps
-@ash11 PS 1772154  0.0  2344 sed
-@ash11 SEEN 1785392205
+@ash11 CPU 16 0.06
+@ash11 MEM 15909 1382
+@ash11 GPU 3, 84, 2048
+@ash11 PS 1795986 26.3 11644 systemd
+@ash11 PS 1795987  0.0  3392 (sd-pam)
+@ash11 PS 1796007  0.0  8728 pipewire
+@ash11 PS 1796008  0.0  5996 pipewire
+@ash11 PS 1796010  8.6 15920 wireplumber
+@ash11 PS 1796012  0.0 10596 pipewire-pulse
+@ash11 PS 1796027  0.0  4456 dbus-daemon
+@ash11 PS 1796044  0.0  6884 sshd
+@ash11 PS 1796056  0.0  3624 bash
+@ash11 PS 1796071  0.0  4512 ps
+@ash11 PS 1796072  0.0  2328 sed
+@ash11 SEEN 1785394038

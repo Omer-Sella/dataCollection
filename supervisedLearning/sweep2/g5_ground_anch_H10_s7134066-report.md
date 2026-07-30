@@ -14,3 +14,30 @@
 - k MAE: **1.25** logical qubits
 - Spearman: **0.838**, Kendall: 0.655
 - top-k overlap (k=50): **0.12**
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H10_s7134066.pth on held-out test l=9, m=6 (274574 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 9,6)`
+- Binomial NLL: **9.8624** (noise floor 8.6775)
+- reward MAE: **0.05335**
+- k MAE: **1.62** logical qubits
+- Spearman: **0.604**, Kendall: 0.430
+- top-k overlap (k=50): **0.06**
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H10_s7134066.pth on held-out test l=12, m=6 (135322 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 12,6)`
+- Binomial NLL: **9.8121** (noise floor 7.3856)
+- reward MAE: **0.09961**
+- k MAE: **2.47** logical qubits
+- Spearman: **0.579**, Kendall: 0.410
+- top-k overlap (k=50): **0.26**
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_ground_anch_H10_s7134066.pth on held-out test l=15, m=3 (441229 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 15,3)`
+- Binomial NLL: **14.7819** (noise floor 10.4230)
+- reward MAE: **0.07479**
+- k MAE: **1.81** logical qubits
+- Spearman: **0.388**, Kendall: 0.270
+- top-k overlap (k=50): **0.06**
