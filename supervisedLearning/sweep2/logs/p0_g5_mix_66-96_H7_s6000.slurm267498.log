@@ -1,0 +1,39 @@
+device: cuda; sizes: [(6, 6), (9, 6)]; curve loss on: [(6, 6), (9, 6)]; lr: 0.001; H: 7
+loadCodeEvaluations: kept 895050 codes on the requested grid; dropped 1948461 records whose grid does not contain all its points
+  size 6,6: 895050 codes (716040 train) curveLoss=True
+loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 records whose grid does not contain all its points
+  size 9,6: 2745739 codes (2196591 train) curveLoss=True
+epoch 0: train 11.0832 | val 6,6: 11.6020 | 9,6: 9.6928
+epoch 1: train 10.5379 | val 6,6: 11.2594 | 9,6: 9.5874
+epoch 2: train 10.3933 | val 6,6: 11.1335 | 9,6: 9.5024
+epoch 3: train 10.3289 | val 6,6: 11.0796 | 9,6: 9.4929
+epoch 4: train 10.3070 | val 6,6: 11.0608 | 9,6: 9.4736
+epoch 5: train 10.2704 | val 6,6: 11.0427 | 9,6: 9.4149
+epoch 6: train 10.2409 | val 6,6: 11.0009 | 9,6: 9.3956
+epoch 7: train 10.2093 | val 6,6: 10.9814 | 9,6: 9.3751
+epoch 8: train 10.1861 | val 6,6: 10.9501 | 9,6: 9.3432
+epoch 9: train 10.1710 | val 6,6: 10.9452 | 9,6: 9.3566
+epoch 10: train 10.1655 | val 6,6: 10.9355 | 9,6: 9.3472
+epoch 11: train 10.1520 | val 6,6: 10.9309 | 9,6: 9.3276
+restored best-val weights from epoch 11 (val 10.1292)
+saved /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H7_s6000.pth
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H7_s6000.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
+- Binomial NLL: **10.8084** (noise floor 10.0949)
+- reward MAE: **0.03698**
+- k MAE: **1.55** logical qubits
+- Spearman: **0.812**, Kendall: 0.626
+- top-k overlap (k=50): **0.18**
+
+
+## /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/sweep2/g5_mix_66-96_H7_s6000.pth on held-out test l=9, m=6 (274574 codes) — 2026-07-30
+
+- data: `held-out 10% of /vol/bitbucket/osella/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 9,6)`
+- Binomial NLL: **9.2685** (noise floor 8.6710)
+- reward MAE: **0.03433**
+- k MAE: **1.06** logical qubits
+- Spearman: **0.821**, Kendall: 0.630
+- top-k overlap (k=50): **0.20**
+
