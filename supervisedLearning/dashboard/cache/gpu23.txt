@@ -1,34 +1,34 @@
-@gpu23 CPU 8 0.02
-@gpu23 MEM 15914 1423
-@gpu23 GPU 1, 80, 8192
-@gpu23 PS  500804  0.0 11364 systemd
-@gpu23 PS  500805  0.0  3532 (sd-pam)
-@gpu23 PS  500817  0.0  7692 pipewire
-@gpu23 PS  500818  0.0  5568 pipewire
-@gpu23 PS  500819  0.0 13528 wireplumber
-@gpu23 PS  500822  0.0  9708 pipewire-pulse
-@gpu23 PS  500845  0.0  4056 dbus-daemon
-@gpu23 PS  500864  0.0  1104 ssh-agent
-@gpu23 PS  501387  0.0  1116 ssh-agent
-@gpu23 PS  522334  0.0  1284 ssh-agent
-@gpu23 PS  576160  0.0  1024 ssh-agent
-@gpu23 PS  578224  0.0  1208 ssh-agent
-@gpu23 PS  583027  0.0  1180 ssh-agent
-@gpu23 PS  587002  0.0  1076 ssh-agent
-@gpu23 PS  595599  0.0  1096 ssh-agent
-@gpu23 PS  599509  0.0  1212 ssh-agent
-@gpu23 PS  604485  0.0  1068 ssh-agent
-@gpu23 PS  623049  0.0  1148 ssh-agent
-@gpu23 PS  650273  0.0  1160 ssh-agent
-@gpu23 PS  655913  0.0   984 ssh-agent
-@gpu23 PS  656202  0.0  1192 ssh-agent
-@gpu23 PS  672405  0.0   592 ssh-agent
-@gpu23 PS  673878  0.0   608 ssh-agent
-@gpu23 PS  697368  0.0  1164 ssh-agent
+@gpu23 CPU 8 1.17
+@gpu23 MEM 15914 8496
+@gpu23 GPU 0, 205, 8192
+@gpu23 PS  500804  0.0 11072 systemd
+@gpu23 PS  500805  0.0  2908 (sd-pam)
+@gpu23 PS  500817  0.0  7300 pipewire
+@gpu23 PS  500818  0.0  5396 pipewire
+@gpu23 PS  500819  0.0 12688 wireplumber
+@gpu23 PS  500822  0.0  9388 pipewire-pulse
+@gpu23 PS  500845  0.0  3952 dbus-daemon
+@gpu23 PS  500864  0.0   948 ssh-agent
+@gpu23 PS  501387  0.0   944 ssh-agent
+@gpu23 PS  522334  0.0  1116 ssh-agent
+@gpu23 PS  576160  0.0   916 ssh-agent
+@gpu23 PS  578224  0.0  1036 ssh-agent
+@gpu23 PS  583027  0.0  1024 ssh-agent
+@gpu23 PS  587002  0.0   960 ssh-agent
+@gpu23 PS  595599  0.0   992 ssh-agent
+@gpu23 PS  599509  0.0  1064 ssh-agent
+@gpu23 PS  604485  0.0   972 ssh-agent
+@gpu23 PS  623049  0.0  1012 ssh-agent
+@gpu23 PS  650273  0.0  1056 ssh-agent
+@gpu23 PS  655913  0.0   856 ssh-agent
+@gpu23 PS  656202  0.0  1084 ssh-agent
+@gpu23 PS  672405  0.0   588 ssh-agent
+@gpu23 PS  673878  0.0   596 ssh-agent
+@gpu23 PS  697368  0.0  1024 ssh-agent
 @gpu23 PS  712840  0.0   600 ssh-agent
 @gpu23 PS  714873  0.0   608 ssh-agent
-@gpu23 PS 2577507  0.0  7052 sshd
-@gpu23 PS 2577508  0.0  3652 bash
-@gpu23 PS 2577519  0.0  4604 ps
-@gpu23 PS 2577520  0.0  2424 sed
-@gpu23 SEEN 1785394148
+@gpu23 PS 2811227  0.0  7064 sshd
+@gpu23 PS 2811228  0.0  3600 bash
+@gpu23 PS 2811239  0.0  4652 ps
+@gpu23 PS 2811240  0.0  2400 sed
+@gpu23 SEEN 1785414910
