@@ -1,17 +1,17 @@
-@vertex15 CPU 12 0.21
-@vertex15 MEM 15771 5175
+@vertex15 CPU 12 0.16
+@vertex15 MEM 15771 5181
 @vertex15 GPU NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
 @vertex15 APP 
-@vertex15 PS 1266784 30.0 11752 systemd
-@vertex15 PS 1266785  0.0  3408 (sd-pam)
-@vertex15 PS 1266802  0.0  8928 pipewire
-@vertex15 PS 1266803  4.5  6124 pipewire
-@vertex15 PS 1266805 18.1 16012 wireplumber
-@vertex15 PS 1266807  4.5 10752 pipewire-pulse
-@vertex15 PS 1266824  0.0  4548 dbus-daemon
-@vertex15 PS 1266830  0.0  7060 sshd
-@vertex15 PS 1266850  0.0  3580 bash
-@vertex15 PS 1266873  0.0  4576 ps
-@vertex15 PS 1266874  0.0  2300 sed
-@vertex15 SEEN 1785425022
+@vertex15 PS 1407858 28.9 11748 systemd
+@vertex15 PS 1407859  0.0  3424 (sd-pam)
+@vertex15 PS 1407876  4.7  8756 pipewire
+@vertex15 PS 1407877  0.0  6100 pipewire
+@vertex15 PS 1407879 19.0 16012 wireplumber
+@vertex15 PS 1407881  4.7 10700 pipewire-pulse
+@vertex15 PS 1407901  0.0  4504 dbus-daemon
+@vertex15 PS 1407904  0.0  7100 sshd
+@vertex15 PS 1407924  0.0  3568 bash
+@vertex15 PS 1407947  0.0  4548 ps
+@vertex15 PS 1407948  0.0  2284 sed
+@vertex15 SEEN 1785432494

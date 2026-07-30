@@ -1,35 +1,35 @@
-@gpu14 CPU 8 1.03
-@gpu14 MEM 64219 2726
+@gpu14 CPU 8 1.27
+@gpu14 MEM 64219 2862
 @gpu14 GPU 0, 82, 8192
-@gpu14 PS 1007622  0.0  7008 sshd
-@gpu14 PS 1007624  0.0  3580 bash
-@gpu14 PS 1007635  0.0  4620 ps
-@gpu14 PS 1007636  0.0  2332 sed
-@gpu14 PS 2590227  0.0 11488 systemd
-@gpu14 PS 2590228  0.0  3420 (sd-pam)
-@gpu14 PS 2590239  0.0  8400 pipewire
-@gpu14 PS 2590240  0.0  6104 pipewire
-@gpu14 PS 2590242  0.0 15776 wireplumber
-@gpu14 PS 2590244  0.0 10372 pipewire-pulse
+@gpu14 PS 1106991  0.0  7096 sshd
+@gpu14 PS 1106992  0.0  3632 bash
+@gpu14 PS 1107003  0.0  4600 ps
+@gpu14 PS 1107004  0.0  2336 sed
+@gpu14 PS 2590227  0.0 10496 systemd
+@gpu14 PS 2590228  0.0  2276 (sd-pam)
+@gpu14 PS 2590239  0.0  6904 pipewire
+@gpu14 PS 2590240  0.0  5620 pipewire
+@gpu14 PS 2590242  0.0 13344 wireplumber
+@gpu14 PS 2590244  0.0  9472 pipewire-pulse
 @gpu14 PS 2590257  0.0  4496 dbus-daemon
-@gpu14 PS 2590289  0.0  1480 ssh-agent
-@gpu14 PS 2590899  0.0  1432 ssh-agent
-@gpu14 PS 2613643  0.0  1460 ssh-agent
-@gpu14 PS 2668352  0.0  1484 ssh-agent
-@gpu14 PS 2670817  0.0  1400 ssh-agent
-@gpu14 PS 2675786  0.0  1428 ssh-agent
-@gpu14 PS 2679849  0.0  1428 ssh-agent
-@gpu14 PS 2688335  0.0  1396 ssh-agent
-@gpu14 PS 2692282  0.0  1220 ssh-agent
-@gpu14 PS 2697406  0.0  1304 ssh-agent
-@gpu14 PS 2716936  0.0  1480 ssh-agent
-@gpu14 PS 2744359  0.0  1408 ssh-agent
-@gpu14 PS 2750077  0.0  1064 ssh-agent
-@gpu14 PS 2750353  0.0  1484 ssh-agent
-@gpu14 PS 2761044  0.0  1480 ssh-agent
+@gpu14 PS 2590289  0.0   800 ssh-agent
+@gpu14 PS 2590899  0.0  1192 ssh-agent
+@gpu14 PS 2613643  0.0  1144 ssh-agent
+@gpu14 PS 2668352  0.0  1200 ssh-agent
+@gpu14 PS 2670817  0.0  1200 ssh-agent
+@gpu14 PS 2675786  0.0  1200 ssh-agent
+@gpu14 PS 2679849  0.0  1224 ssh-agent
+@gpu14 PS 2688335  0.0  1204 ssh-agent
+@gpu14 PS 2692282  0.0  1192 ssh-agent
+@gpu14 PS 2697406  0.0  1224 ssh-agent
+@gpu14 PS 2716936  0.0  1228 ssh-agent
+@gpu14 PS 2744359  0.0  1200 ssh-agent
+@gpu14 PS 2750077  0.0   816 ssh-agent
+@gpu14 PS 2750353  0.0  1164 ssh-agent
+@gpu14 PS 2761044  0.0  1080 ssh-agent
 @gpu14 PS 2763227  0.0  1484 ssh-agent
-@gpu14 PS 2794298  0.0  1336 ssh-agent
-@gpu14 PS 2802781  0.0  1480 ssh-agent
+@gpu14 PS 2794298  0.0  1188 ssh-agent
+@gpu14 PS 2802781  0.0  1016 ssh-agent
 @gpu14 PS 2805515  0.0  1480 ssh-agent
-@gpu14 PS 2817343  0.0  1420 ssh-agent
-@gpu14 SEEN 1785424968
+@gpu14 PS 2817343  0.0  1180 ssh-agent
+@gpu14 SEEN 1785432440

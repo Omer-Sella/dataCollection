@@ -1,15 +1,15 @@
-@beech12 CPU 16 0.00
-@beech12 MEM 13864 1169
-@beech12 GPU 0, 82, 4096
-@beech12 PS 2330216 30.0 11700 systemd
-@beech12 PS 2330217  0.0  3436 (sd-pam)
-@beech12 PS 2330229  0.0  8768 pipewire
-@beech12 PS 2330230  0.0  6028 pipewire
-@beech12 PS 2330232 13.6 15808 wireplumber
-@beech12 PS 2330234  0.0 10660 pipewire-pulse
-@beech12 PS 2330250  0.0  4576 dbus-daemon
-@beech12 PS 2330263  0.0  6920 sshd
-@beech12 PS 2330277  0.0  3648 bash
-@beech12 PS 2330300  100  4596 ps
-@beech12 PS 2330301  0.0  2328 sed
-@beech12 SEEN 1785425013
+@beech12 CPU 16 0.32
+@beech12 MEM 13864 1173
+@beech12 GPU 2, 82, 4096
+@beech12 PS 2430490 28.2 11640 systemd
+@beech12 PS 2430491  0.0  3436 (sd-pam)
+@beech12 PS 2430503  4.5  8728 pipewire
+@beech12 PS 2430504  0.0  6068 pipewire
+@beech12 PS 2430505 13.6 15760 wireplumber
+@beech12 PS 2430508  0.0 10672 pipewire-pulse
+@beech12 PS 2430525  0.0  4508 dbus-daemon
+@beech12 PS 2430538  0.0  6944 sshd
+@beech12 PS 2430559  0.0  3676 bash
+@beech12 PS 2430574  100  4608 ps
+@beech12 PS 2430575  0.0  2328 sed
+@beech12 SEEN 1785432485
