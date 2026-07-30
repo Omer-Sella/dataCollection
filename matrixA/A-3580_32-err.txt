@@ -1,295 +1,0 @@
-pyenv-virtualenv: version `qecc1' is already activated
-  0%|          | 0/500000 [00:00<?, ?it/s]  0%|          | 512/500000 [00:22<6:07:29, 22.65it/s]  0%|          | 512/500000 [00:40<6:07:29, 22.65it/s]  0%|          | 1024/500000 [00:45<6:11:48, 22.37it/s]  0%|          | 1024/500000 [01:00<6:11:48, 22.37it/s]  0%|          | 1536/500000 [01:06<5:58:29, 23.17it/s]  0%|          | 1536/500000 [01:20<5:58:29, 23.17it/s]  0%|          | 2048/500000 [01:28<5:55:54, 23.32it/s]  0%|          | 2048/500000 [01:40<5:55:54, 23.32it/s]  1%|          | 2560/500000 [01:50<5:54:35, 23.38it/s]  1%|          | 2560/500000 [02:10<5:54:35, 23.38it/s]  1%|          | 3072/500000 [02:13<5:59:28, 23.04it/s]  1%|          | 3072/500000 [02:30<5:59:28, 23.04it/s]  1%|          | 3584/500000 [02:34<5:52:39, 23.46it/s]  1%|          | 3584/500000 [02:50<5:52:39, 23.46it/s]  1%|          | 4096/500000 [02:55<5:48:49, 23.69it/s]  1%|          | 4096/500000 [03:10<5:48:49, 23.69it/s]  1%|          | 4608/500000 [03:16<5:46:18, 23.84it/s]  1%|          | 4608/500000 [03:30<5:46:18, 23.84it/s]  1%|          | 5120/500000 [03:36<5:40:46, 24.20it/s]  1%|          | 5120/500000 [03:50<5:40:46, 24.20it/s]  1%|          | 5632/500000 [03:58<5:42:00, 24.09it/s]  1%|          | 5632/500000 [04:10<5:42:00, 24.09it/s]  1%|          | 6144/500000 [04:20<5:44:03, 23.92it/s]  1%|          | 6144/500000 [04:40<5:44:03, 23.92it/s]  1%|▏         | 6656/500000 [04:42<5:45:47, 23.78it/s]  1%|▏         | 6656/500000 [05:00<5:45:47, 23.78it/s]  1%|▏         | 7168/500000 [05:04<5:49:11, 23.52it/s]  1%|▏         | 7168/500000 [05:20<5:49:11, 23.52it/s]  2%|▏         | 7680/500000 [05:27<5:53:04, 23.24it/s]  2%|▏         | 7680/500000 [05:40<5:53:04, 23.24it/s]  2%|▏         | 8192/500000 [05:49<5:53:27, 23.19it/s]  2%|▏         | 8192/500000 [06:00<5:53:27, 23.19it/s]  2%|▏         | 8704/500000 [06:10<5:49:35, 23.42it/s]  2%|▏         | 8704/500000 [06:30<5:49:35, 23.42it/s]  2%|▏         | 9216/500000 [06:32<5:49:02, 23.44it/s]  2%|▏         | 9216/500000 [06:50<5:49:02, 23.44it/s]  2%|▏         | 9728/500000 [06:55<5:52:53, 23.15it/s]  2%|▏         | 9728/500000 [07:10<5:52:53, 23.15it/s]  2%|▏         | 10240/500000 [07:16<5:48:13, 23.44it/s]  2%|▏         | 10240/500000 [07:30<5:48:13, 23.44it/s]  2%|▏         | 10752/500000 [07:37<5:45:35, 23.59it/s]  2%|▏         | 10752/500000 [07:50<5:45:35, 23.59it/s]  2%|▏         | 11264/500000 [07:58<5:42:25, 23.79it/s]  2%|▏         | 11264/500000 [08:10<5:42:25, 23.79it/s]  2%|▏         | 11776/500000 [08:20<5:45:07, 23.58it/s]  2%|▏         | 11776/500000 [08:40<5:45:07, 23.58it/s]  2%|▏         | 12288/500000 [08:42<5:44:09, 23.62it/s]  2%|▏         | 12288/500000 [09:00<5:44:09, 23.62it/s]  3%|▎         | 12800/500000 [09:03<5:42:32, 23.71it/s]  3%|▎         | 12800/500000 [09:20<5:42:32, 23.71it/s]  3%|▎         | 13312/500000 [09:25<5:43:34, 23.61it/s]  3%|▎         | 13312/500000 [09:40<5:43:34, 23.61it/s]  3%|▎         | 13824/500000 [09:46<5:39:05, 23.90it/s]  3%|▎         | 13824/500000 [10:00<5:39:05, 23.90it/s]  3%|▎         | 14336/500000 [10:09<5:43:31, 23.56it/s]  3%|▎         | 14336/500000 [10:20<5:43:31, 23.56it/s]  3%|▎         | 14848/500000 [10:29<5:37:28, 23.96it/s]  3%|▎         | 14848/500000 [10:40<5:37:28, 23.96it/s]  3%|▎         | 15360/500000 [10:50<5:37:08, 23.96it/s]  3%|▎         | 15360/500000 [11:10<5:37:08, 23.96it/s]  3%|▎         | 15872/500000 [11:10<5:26:36, 24.71it/s]  3%|▎         | 15872/500000 [11:30<5:26:36, 24.71it/s]  3%|▎         | 16384/500000 [11:34<5:40:59, 23.64it/s]  3%|▎         | 16384/500000 [11:50<5:40:59, 23.64it/s]  3%|▎         | 16896/500000 [11:56<5:45:12, 23.32it/s]  3%|▎         | 16896/500000 [12:10<5:45:12, 23.32it/s]  3%|▎         | 17408/500000 [12:16<5:36:44, 23.89it/s]  3%|▎         | 17408/500000 [12:30<5:36:44, 23.89it/s]  4%|▎         | 17920/500000 [12:37<5:33:01, 24.13it/s]  4%|▎         | 17920/500000 [12:50<5:33:01, 24.13it/s]  4%|▎         | 18432/500000 [13:00<5:38:57, 23.68it/s]  4%|▎         | 18432/500000 [13:20<5:38:57, 23.68it/s]  4%|▍         | 18944/500000 [13:21<5:36:47, 23.81it/s]  4%|▍         | 18944/500000 [13:40<5:36:47, 23.81it/s]  4%|▍         | 19456/500000 [13:41<5:30:35, 24.23it/s]  4%|▍         | 19456/500000 [14:00<5:30:35, 24.23it/s]  4%|▍         | 19968/500000 [14:03<5:34:18, 23.93it/s]  4%|▍         | 19968/500000 [14:20<5:34:18, 23.93it/s]  4%|▍         | 20480/500000 [14:23<5:28:35, 24.32it/s]  4%|▍         | 20480/500000 [14:40<5:28:35, 24.32it/s]  4%|▍         | 20992/500000 [14:46<5:34:19, 23.88it/s]  4%|▍         | 20992/500000 [15:00<5:34:19, 23.88it/s]  4%|▍         | 21504/500000 [15:07<5:34:06, 23.87it/s]  4%|▍         | 21504/500000 [15:20<5:34:06, 23.87it/s]  4%|▍         | 22016/500000 [15:28<5:30:44, 24.09it/s]  4%|▍         | 22016/500000 [15:40<5:30:44, 24.09it/s]  5%|▍         | 22528/500000 [15:50<5:33:14, 23.88it/s]  5%|▍         | 22528/500000 [16:10<5:33:14, 23.88it/s]  5%|▍         | 23040/500000 [16:11<5:31:44, 23.96it/s]  5%|▍         | 23040/500000 [16:30<5:31:44, 23.96it/s]  5%|▍         | 23552/500000 [16:33<5:31:46, 23.93it/s]  5%|▍         | 23552/500000 [16:50<5:31:46, 23.93it/s]  5%|▍         | 24064/500000 [16:54<5:29:34, 24.07it/s]  5%|▍         | 24064/500000 [17:10<5:29:34, 24.07it/s]  5%|▍         | 24576/500000 [17:15<5:29:28, 24.05it/s]  5%|▍         | 24576/500000 [17:30<5:29:28, 24.05it/s]  5%|▌         | 25088/500000 [17:36<5:26:37, 24.23it/s]  5%|▌         | 25088/500000 [17:50<5:26:37, 24.23it/s]  5%|▌         | 25600/500000 [17:58<5:33:00, 23.74it/s]  5%|▌         | 25600/500000 [18:10<5:33:00, 23.74it/s]  5%|▌         | 26112/500000 [18:20<5:34:50, 23.59it/s]Traceback (most recent call last):
-  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 678, in <module>
-    myLogger.dumpLogger(printOut = False)
-  File "/vol/bitbucket/osella/qecc/src/qecc/loggerForReinforcementLearning.py", line 195, in dumpLogger
-    with open(self.fullPath, 'a') as fid:
-FileNotFoundError: [Errno 2] No such file or directory: '/vol/bitbucket/osella/rl-qecc-data/2026-07-23_22-38-48_814037/experiment.txt'
-Process SpawnProcess-23:
-Process SpawnProcess-21:
-Process SpawnProcess-27:
-Process SpawnProcess-15:
-Process SpawnProcess-30:
-Process SpawnProcess-26:
-Process SpawnProcess-17:
-Process SpawnProcess-29:
-Process SpawnProcess-25:
-Process SpawnProcess-10:
-Process SpawnProcess-20:
-Process SpawnProcess-11:
-Process SpawnProcess-6:
-Process SpawnProcess-31:
-Process SpawnProcess-14:
-Process SpawnProcess-4:
-Process SpawnProcess-24:
-Process SpawnProcess-19:
-Process SpawnProcess-18:
-Process SpawnProcess-3:
-Process SpawnProcess-8:
-Process SpawnProcess-2:
-Process SpawnProcess-1:
-Process SpawnProcess-9:
-Process SpawnProcess-12:
-Process SpawnProcess-22:
-Process SpawnProcess-32:
-Process SpawnProcess-5:
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Process SpawnProcess-16:
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Process SpawnProcess-7:
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Process SpawnProcess-13:
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
-Process SpawnProcess-28:
-Traceback (most recent call last):
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
-    self.run()
-  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
-    self._target(*self._args, **self._kwargs)
-  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
-    raise TimeoutError(
-TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
