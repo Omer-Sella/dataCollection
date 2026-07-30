@@ -1,5 +1,5 @@
-@gpu33 CPU 16 0.06
-@gpu33 MEM 64221 7285
+@gpu33 CPU 16 0.30
+@gpu33 MEM 64221 7253
 @gpu33 GPU 0, 14729, 16376
 @gpu33 APP 1833158, 14686
 @gpu33 PS  458314  0.1 11984 systemd
@@ -10,7 +10,7 @@
 @gpu33 PS  458331  0.0 10620 pipewire-pulse
 @gpu33 PS  458348  0.0  4416 dbus-daemon
 @gpu33 PS  458376  0.0  1480 ssh-agent
-@gpu33 PS  458764  0.0 18048 code-4fe60c8b1c
+@gpu33 PS  458764  0.0 18056 code-4fe60c8b1c
 @gpu33 PS  458919  0.0  1480 ssh-agent
 @gpu33 PS  459267  0.0  1480 ssh-agent
 @gpu33 PS  460198  0.0  1484 ssh-agent
@@ -25,13 +25,13 @@
 @gpu33 PS 1892738  0.0  1480 ssh-agent
 @gpu33 PS 1901708  0.0  1452 ssh-agent
 @gpu33 PS 1910597  0.0  1480 ssh-agent
-@gpu33 PS 2283006  0.0  2092 sleep
-@gpu33 PS 2284041  0.0  7028 sshd
-@gpu33 PS 2284054  0.0  3592 bash
-@gpu33 PS 2284067  0.0  4644 ps
-@gpu33 PS 2284068  0.0  2336 sed
 @gpu33 PS 2297169  0.0  1544 ssh-agent
 @gpu33 PS 2302764  0.0  1536 ssh-agent
+@gpu33 PS 2312722  0.0  2088 sleep
+@gpu33 PS 2314913  0.0  7032 sshd
+@gpu33 PS 2314914  0.0  3596 bash
+@gpu33 PS 2314927  100  4660 ps
+@gpu33 PS 2314928  0.0  2324 sed
 @gpu33 PS 2647806  0.0  1484 ssh-agent
 @gpu33 PS 2844266  0.0  1480 ssh-agent
 @gpu33 PS 3097084  0.0  1480 ssh-agent
@@ -64,4 +64,4 @@
 @gpu33 PS 3462153  0.0  1544 ssh-agent
 @gpu33 PS 3515572  0.0  1544 ssh-agent
 @gpu33 PS 4021076  0.0  1544 ssh-agent
-@gpu33 SEEN 1785384978
+@gpu33 SEEN 1785386812

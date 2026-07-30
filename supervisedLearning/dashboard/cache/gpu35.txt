@@ -1,6 +1,6 @@
-@gpu35 CPU 16 1.31
-@gpu35 MEM 64222 9053
-@gpu35 GPU 52, 14551, 16376
+@gpu35 CPU 16 1.27
+@gpu35 MEM 64222 9028
+@gpu35 GPU 55, 14551, 16376
 @gpu35 APP 1849357, 1238
 @gpu35 APP 3870425, 6514
 @gpu35 APP 1260282, 5760
@@ -23,11 +23,11 @@
 @gpu35 PS 1411198  0.0  1344 ssh-agent
 @gpu35 PS 1419793  0.0  1348 ssh-agent
 @gpu35 PS 1481521  0.0  1348 ssh-agent
-@gpu35 PS 1489700  0.0  2092 sleep
-@gpu35 PS 1493493  0.0  6992 sshd
-@gpu35 PS 1493495  0.0  3660 bash
-@gpu35 PS 1493508  0.0  4672 ps
-@gpu35 PS 1493509  0.0  2336 sed
+@gpu35 PS 1521538  0.0  2092 sleep
+@gpu35 PS 1525328  0.0  7020 sshd
+@gpu35 PS 1525330  0.0  3676 bash
+@gpu35 PS 1525343  0.0  4676 ps
+@gpu35 PS 1525344  0.0  2340 sed
 @gpu35 PS 2528523  0.0 11372 systemd
 @gpu35 PS 2528524  0.0  3332 (sd-pam)
 @gpu35 PS 2528536  0.0  7136 pipewire
@@ -36,4 +36,4 @@
 @gpu35 PS 2528540  0.0  8820 pipewire-pulse
 @gpu35 PS 2528557  0.0  4252 dbus-daemon
 @gpu35 PS 2528640  0.0  1348 ssh-agent
-@gpu35 SEEN 1785384984
+@gpu35 SEEN 1785386818
