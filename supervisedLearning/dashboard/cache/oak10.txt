@@ -1,15 +1,15 @@
-@oak10 CPU 16 0.01
-@oak10 MEM 15766 1662
-@oak10 GPU 4, 92, 2048
-@oak10 PS 2399808 31.4 11712 systemd
-@oak10 PS 2399809  0.0  3424 (sd-pam)
-@oak10 PS 2399829  0.0  8692 pipewire
-@oak10 PS 2399830  0.0  6020 pipewire
-@oak10 PS 2399831 15.0 16044 wireplumber
-@oak10 PS 2399834  0.0 10584 pipewire-pulse
-@oak10 PS 2399853  0.0  4420 dbus-daemon
-@oak10 PS 2399864  0.0  7068 sshd
-@oak10 PS 2399878  0.0  3536 bash
-@oak10 PS 2399895  0.0  4484 ps
-@oak10 PS 2399896  0.0  2312 sed
-@oak10 SEEN 1785368602
+@oak10 CPU 16 0.07
+@oak10 MEM 15766 1670
+@oak10 GPU 0, 92, 2048
+@oak10 PS 2426439 31.4 11852 systemd
+@oak10 PS 2426440  0.0  3412 (sd-pam)
+@oak10 PS 2426452  0.0  8636 pipewire
+@oak10 PS 2426453  0.0  5996 pipewire
+@oak10 PS 2426456 15.0 15896 wireplumber
+@oak10 PS 2426457  5.0 10584 pipewire-pulse
+@oak10 PS 2426476  0.0  4396 dbus-daemon
+@oak10 PS 2426484  0.0  7056 sshd
+@oak10 PS 2426500  0.0  3588 bash
+@oak10 PS 2426517  0.0  4464 ps
+@oak10 PS 2426518  0.0  2308 sed
+@oak10 SEEN 1785370436

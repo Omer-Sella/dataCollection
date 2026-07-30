@@ -1,5 +1,5 @@
-@batch1 CPU 64 6.62
-@batch1 MEM 515934 183681
+@batch1 CPU 64 5.47
+@batch1 MEM 515934 183860
 @batch1 PS   34596  0.0   768 ssh-agent
 @batch1 PS  106663  0.0  1544 ssh-agent
 @batch1 PS  116079  0.0  1544 ssh-agent
@@ -56,24 +56,26 @@
 @batch1 PS 3076074  0.0     0 bash
 @batch1 PS 3076079  0.0   772 ssh-agent
 @batch1 PS 3084743  0.0  1508 ssh-agent
-@batch1 PS 3121402  0.0  2152 sleep
-@batch1 PS 3127757  0.0  3048 bash
-@batch1 PS 3127758  0.0  3044 bash
-@batch1 PS 3127762  0.0  2988 bash
-@batch1 PS 3127766  0.0  2132 timeout
-@batch1 PS 3127770  0.0  2348 grep
-@batch1 PS 3127775  0.0  3000 bash
-@batch1 PS 3127784  0.0  2160 timeout
-@batch1 PS 3127789  0.0  2340 grep
-@batch1 PS 3127793 39.1  9400 ssh
-@batch1 PS 3127808 36.9  9452 ssh
-@batch1 PS 3127848  0.0  7000 sshd
-@batch1 PS 3127849  0.0  3644 bash
-@batch1 PS 3127886  0.0  6792 ps
-@batch1 PS 3127887  0.0  2400 sed
+@batch1 PS 3132259  0.0  3696 bash
+@batch1 PS 3132737  0.0  2156 sleep
 @batch1 PS 3172141  0.0   768 ssh-agent
 @batch1 PS 3173663  0.0  4288 bash
 @batch1 PS 3173679  0.0  2916 ssh-agent
+@batch1 PS 3193068  0.0  2152 sleep
+@batch1 PS 3200222  0.0  3028 bash
+@batch1 PS 3200225  0.0  3048 bash
+@batch1 PS 3200231  0.0  3000 bash
+@batch1 PS 3200233  0.0  2988 bash
+@batch1 PS 3200242  0.0  2200 timeout
+@batch1 PS 3200246  0.0  2340 grep
+@batch1 PS 3200250  0.0  2200 timeout
+@batch1 PS 3200256  0.0  2344 grep
+@batch1 PS 3200269 34.0  9524 ssh
+@batch1 PS 3200274 34.6  9304 ssh
+@batch1 PS 3200315  0.0  7068 sshd
+@batch1 PS 3200316 25.0  3600 bash
+@batch1 PS 3200330  0.0  6804 ps
+@batch1 PS 3200331  0.0  2400 sed
 @batch1 PS 3275178  0.0   812 ssh-agent
 @batch1 PS 3275810  0.0   816 ssh-agent
 @batch1 PS 3308725  0.0  1544 ssh-agent
@@ -90,4 +92,4 @@
 @batch1 PS 4080391  0.0  1568 (sd-pam)
 @batch1 PS 4080509  0.0   772 ssh-agent
 @batch1 PS 4186995  0.0   816 ssh-agent
-@batch1 SEEN 1785368618
+@batch1 SEEN 1785370452
