@@ -5,39 +5,8 @@ loadCodeEvaluations: kept 2745739 codes on the requested grid; dropped 2681591 r
   size 9,6: 2745739 codes (2196591 train) curveLoss=True
 loadCodeEvaluations: kept 1353227 codes on the requested grid; dropped 457979 records whose grid does not contain all its points
   size 12,6: 1353227 codes (1082582 train) curveLoss=True
-epoch 0: train 10.2403 | val 6,6: 11.3833 | 9,6: 9.6543 | 12,6: 8.4881
-epoch 1: train 9.8260 | val 6,6: 11.1896 | 9,6: 9.5682 | 12,6: 8.4263
-epoch 2: train 9.7519 | val 6,6: 11.1660 | 9,6: 9.5285 | 12,6: 8.3814
-epoch 3: train 9.7125 | val 6,6: 11.1129 | 9,6: 9.5066 | 12,6: 8.3415
-restored best-val weights from epoch 3 (val 9.6537)
-saved /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66-96-126_H3_s5000.pth
-
-## /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66-96-126_H3_s5000.pth on held-out test l=6, m=6 (89505 codes) — 2026-07-29
-
-- data: `held-out 10% of /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 6,6)`
-- Binomial NLL: **10.9749** (noise floor 10.0912)
-- reward MAE: **0.04271**
-- k MAE: **1.86** logical qubits
-- Spearman: **0.757**, Kendall: 0.570
-- top-k overlap (k=50): **0.24**
-
-
-## /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66-96-126_H3_s5000.pth on held-out test l=9, m=6 (274574 codes) — 2026-07-29
-
-- data: `held-out 10% of /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 9,6)`
-- Binomial NLL: **9.3825** (noise floor 8.6748)
-- reward MAE: **0.04013**
-- k MAE: **1.68** logical qubits
-- Spearman: **0.764**, Kendall: 0.570
-- top-k overlap (k=50): **0.08**
-
-
-## /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/sweep2hpc/g5_mix_66-96-126_H3_s5000.pth on held-out test l=12, m=6 (135322 codes) — 2026-07-29
-
-- data: `held-out 10% of /rds/general/user/osella/home/rl-qecc-data/supervisedLearning/codeEvaluationTrainingData (size 12,6)`
-- Binomial NLL: **8.2018** (noise floor 7.3916)
-- reward MAE: **0.03325**
-- k MAE: **2.46** logical qubits
-- Spearman: **0.736**, Kendall: 0.548
-- top-k overlap (k=50): **0.36**
-
+epoch 0: train 10.2366 | val 6,6: 11.3856 | 9,6: 9.6571 | 12,6: 8.4912
+epoch 1: train 9.8053 | val 6,6: 11.1894 | 9,6: 9.5311 | 12,6: 8.4098
+epoch 2: train 9.7238 | val 6,6: 11.1023 | 9,6: 9.4984 | 12,6: 8.3470
+epoch 3: train 9.6930 | val 6,6: 11.0551 | 9,6: 9.4889 | 12,6: 8.3261
+epoch 4: train 9.6707 | val 6,6: 11.0281 | 9,6: 9.4904 | 12,6: 8.3389
