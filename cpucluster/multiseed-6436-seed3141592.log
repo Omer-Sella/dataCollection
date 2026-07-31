@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 341, in <module>
+    if eval_rollout_length > env_max_step:
+NameError: name 'env_max_step' is not defined
