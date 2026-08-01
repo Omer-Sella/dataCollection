@@ -1,8 +1,0 @@
-labWorker yew18: started collect pid 357672 (l=9 m=6) Sat 25 Jul 14:13:07 BST 2026
-collectWorker3 yew18: l=9 m=6 workers=2 seed=134881124 stage=1 Sat 25 Jul 14:13:08 BST 2026
-Creating log dir /data/osella/collectStage/2026-07-25_14-24-38_357699...
-Checking the directory was created: True
-Training begins on:
-2026-07-25 14:35:45 Saturday
-  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-07-25 14:37:38,124 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
-  0%|          | 500/50000000 [02:13<3707:48:14,  3.75it/s]  0%|          | 1000/50000000 [04:24<3666:43:39,  3.79it/s]  0%|          | 1500/50000000 [06:39<3702:23:10,  3.75it/s]  0%|          | 2000/50000000 [08:37<3534:04:29,  3.93it/s]  0%|          | 2500/50000000 [10:34<3436:29:10,  4.04it/s]  0%|          | 3000/50000000 [12:41<3466:24:00,  4.01it/s]
