@@ -8,3 +8,4 @@ supervisedLearning/dashboard/remote-state.txt
 # model checkpoints - kept on /vol/bitbucket, published via Zenodo (too large for git)
 *.pth
 predictions/
+*.pdf
