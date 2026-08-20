@@ -1,0 +1,56 @@
+labWorker vertex03: started collect pid 281408 (l=15 m=3) Thu 13 Aug 23:39:31 BST 2026
+collectWorker3 vertex03: l=15 m=3 workers=2 seed=410720659 stage=1 Thu 13 Aug 23:39:31 BST 2026
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Creating log dir /data/osella/collectStage/reinforcementLearning/2026-08-13_23-40-54_281423...
+Checking the directory was created: True
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1007: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/cuda/__init__.py:1059: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  r = torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+Training begins on:
+2026-08-13 23:41:33 Thursday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-08-13 23:43:09,956 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 500/50000000 [01:51<3090:50:30,  4.49it/s]Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/serialization.py", line 977, in save
+    _save(
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/serialization.py", line 1286, in _save
+    zip_file.write_record(name, storage, num_bytes)
+RuntimeError: basic_ios::clear: iostream error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 733, in <module>
+    torch.save({k: v.cpu() for k, v in policy_module.state_dict().items()},
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/serialization.py", line 976, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/serialization.py", line 808, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:668] . unexpected pos 280512 vs 280400
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
+    raise TimeoutError(
+TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
+Process SpawnProcess-2:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2846, in _run_worker_pipe_shared_mem
+    raise TimeoutError(
+TimeoutError: Worker timed out after 10000.0s, increase timeout if needed through the BATCHED_PIPE_TIMEOUT environment variable.
+collectWorker3 vertex03: ended Fri 14 Aug 02:30:29 BST 2026
+labWorker vertex03: collect ended naturally Fri 14 Aug 02:34:33 BST 2026

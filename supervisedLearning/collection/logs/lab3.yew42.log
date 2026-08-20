@@ -1,0 +1,74 @@
+labWorker yew42: started collect pid 2848181 (l=21 m=18) Thu 13 Aug 23:25:06 BST 2026
+collectWorker3 yew42: l=21 m=18 workers=2 seed=629570910 stage=1 Thu 13 Aug 23:25:07 BST 2026
+Creating log dir /data/osella/collectStage/reinforcementLearning/2026-08-13_23-25-38_2848196...
+Checking the directory was created: True
+Training begins on:
+2026-08-13 23:26:01 Thursday
+  0%|          | 0/50000000 [00:00<?, ?it/s]Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/qecc/src/qecc/reinforcementLearning.py", line 638, in <module>
+    for i, tensordict_data in enumerate(collector):
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_base.py", line 1277, in __iter__
+    yield from self.iterator()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1494, in iterator
+    tensordict_out = self.rollout()
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/_utils.py", line 652, in unpack_rref_and_invoke_function
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2830, in _run_worker_pipe_shared_mem
+    if child_pipe.poll(_timeout):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+    return func(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/collectors/_single.py", line 1807, in rollout
+    env_output, env_next_output = self.env.step_and_maybe_reset(env_input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 122, in decorated_fun
+    return fun(self, *args, **kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2027, in step_and_maybe_reset
+    self._wait_for_workers(workers_range)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2151, in _wait_for_workers
+    if not done_flags[i]:
+KeyboardInterrupt
+Process SpawnProcess-2:
+Traceback (most recent call last):
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/vol/bitbucket/osella/pyenv/versions/3.10.16/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/batched_envs.py", line 2975, in _run_worker_pipe_shared_mem
+    td, root_next_td = env.step_and_maybe_reset(input)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4061, in step_and_maybe_reset
+    return self._step_and_maybe_reset(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 4107, in _step_and_maybe_reset
+    tensordict = self.step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/common.py", line 2353, in step
+    next_tensordict = self._step(tensordict)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/transforms/_base.py", line 1349, in _step
+    next_tensordict = self.base_env._step(tensordict_in)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/torchrl/envs/gym_like.py", line 452, in _step
+    step_result = self._env.step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/wrappers/common.py", line 393, in step
+    return super().step(action)
+  File "/vol/bitbucket/osella/pyenv/versions/qecc1/lib/python3.10/site-packages/gymnasium/core.py", line 327, in step
+    return self.env.step(action)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 234, in step
+    logicalErrorRate = self.decoderEvaluation(self.seed)
+  File "/vol/bitbucket/osella/qecc/src/qecc/bb_gym_v_0_1.py", line 285, in decoderEvaluation
+    estimatedErrorX = bpDecoderHz.decode(self.Hz.dot(errorX)%2)
+KeyboardInterrupt
+collectWorker3 yew42: ended Fri 14 Aug 19:25:10 BST 2026
+labWorker yew42: collect ended naturally Fri 14 Aug 19:25:35 BST 2026

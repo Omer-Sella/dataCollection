@@ -1,0 +1,8 @@
+labWorker willow15: started collect pid 3469634 (l=12 m=6) Thu 13 Aug 23:38:52 BST 2026
+collectWorker3 willow15: l=12 m=6 workers=2 seed=188721291 stage=1 Thu 13 Aug 23:38:52 BST 2026
+Creating log dir /data/osella/collectStage/reinforcementLearning/2026-08-13_23-39-34_3469649...
+Checking the directory was created: True
+Training begins on:
+2026-08-13 23:40:02 Thursday
+  0%|          | 0/50000000 [00:00<?, ?it/s][92m2026-08-13 23:45:17,913 [torchrl][INFO][0m    Initialized LazyTensorStorage with torch.Size([500]) shape[92m [END][0m
+  0%|          | 500/50000000 [05:32<9249:34:23,  1.50it/s]  0%|          | 1000/50000000 [11:41<9837:32:39,  1.41it/s]  0%|          | 1500/50000000 [16:50<9256:49:43,  1.50it/s]
